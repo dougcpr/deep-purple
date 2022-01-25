@@ -1,0 +1,4 @@
+<launch>
+<node name="webcam" pkg="camera_node" type="image_publisher.py" respawn="true" />
+<node name="talker" pkg="beginner_tutorials" type="talker.py" />
+</launch>
