@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 # Software License Agreement (BSD License)
 
-## Simple talker demo that listens to std_msgs/Strings published 
+## Simple joystick demo that published std_msgs/Strings messages
 ## to the 'chatter' topic
 
 import rospy
 import subprocess
-from geometry_msgs.msg import PointStamped
+from geometry_msgs.msg import Twist
+from sensor_msgs.msg import Joy
 
 # current rates for motor controllers
 fast_current = '700'
@@ -23,23 +24,22 @@ def ticcmd(*args):
     return subprocess.check_output(['ticcmd'] + list(args))
 
 def move_motor(axis, revolutions, current = slow_current):
-    ticcmd('--enter-safe-start', '-d', axis, '--halt-and-hold')
     ticcmd('--exit-safe-start', '--step-mode', step_mode, '-d', axis, '--current', current, '--position',
            revolutions)
 
-def callback(data):
-    if (data.header.frame_id == "/image_raw"):
-        if (data.point.x > 0.5):
-            move_motor(y_axis, '-10000')
-        else:
-            move_motor(y_axis, '10000')
-        rospy.loginfo("--------------------")
+def joystick_callback(data):
+    if (data.angular.z > 0.1):
+        move_motor(y_axis, '5000')
+    elif (data.angular.z < 0.1):
+        move_motor(y_axis, '-1000')
+    if(-0.1 < data.angular.z < 0.1):
+        ticcmd('--exit-safe-start', '--halt-and-hold', '-d', y_axis)
 
 def listener():
 
     rospy.init_node('listener', anonymous=True)
 
-    rospy.Subscriber('video/click', PointStamped, callback)
+    rospy.Subscriber('cmd_vel', Twist, joystick_callback)
 
     # spin() simply keeps python from exiting until this node is stopped
     rospy.spin()
