@@ -1,0 +1,78 @@
+[rospy.client][INFO] 2022-04-05 19:08:34,063: init_node, name[/listener], pid[4714]
+[xmlrpc][INFO] 2022-04-05 19:08:34,086: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-04-05 19:08:34,099: Started XML-RPC server [http://ubuntu:42145/]
+[rospy.impl.masterslave][INFO] 2022-04-05 19:08:34,101: _ready: http://ubuntu:42145/
+[rospy.init][INFO] 2022-04-05 19:08:34,100: ROS Slave URI: [http://ubuntu:42145/]
+[rospy.registration][INFO] 2022-04-05 19:08:34,112: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-04-05 19:08:34,125: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-04-05 19:08:34,207: registered with master
+[rospy.rosout][INFO] 2022-04-05 19:08:34,208: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-04-05 19:08:34,230: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-04-05 19:08:34,233: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-04-05 19:08:34,434: topic[/video/click] adding connection to [http://ubuntu:36605/], count 0
+[rospy.internal][INFO] 2022-04-05 19:08:34,519: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-04-05 19:18:10,941: topic[/video/click] adding connection to [http://ubuntu:41449/], count 1
+[rosout][ERROR] 2022-04-05 19:18:21,556: bad callback: <function callback at 0xffff8b9b1b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 35, in callback
+    move_motor(y_axis, '10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-04-05 19:18:23,688: bad callback: <function callback at 0xffff8b9b1b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 33, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rospy.internal][INFO] 2022-04-06 03:20:47,054: topic[/rosout] removing connection to /rosout
+[rospy.internal][ERROR] 2022-04-06 03:20:47,728: Unable to initiate TCP/IP socket to ubuntu:39857 (http://ubuntu:41449/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2022-04-06 03:20:49,311: Unknown error initiating TCP/IP socket to ubuntu:39857 (http://ubuntu:41449/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 357, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2022-04-06 03:20:49,312: topic[/video/click] removing connection to http://ubuntu:41449/
+[rospy.core][INFO] 2022-04-06 03:36:41,155: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2022-04-06 03:36:41,159: cannot unregister with master due to network issues
+[rospy.internal][INFO] 2022-04-06 03:36:41,160: topic[/video/click] removing connection to http://ubuntu:36605/
+[rospy.impl.masterslave][INFO] 2022-04-06 03:36:41,161: signal-2
+[rospy.internal][WARNING] 2022-04-06 03:36:41,163: Unknown error initiating TCP/IP socket to ubuntu:35243 (http://ubuntu:36605/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 561, in connect
+    self.write_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 641, in write_header
+    sock.setblocking(1)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+  File "/usr/lib/python2.7/socket.py", line 174, in _dummy
+    raise error(EBADF, 'Bad file descriptor')
+error: [Errno 9] Bad file descriptor
+
+[rospy.core][INFO] 2022-04-06 03:36:41,327: signal_shutdown [atexit]

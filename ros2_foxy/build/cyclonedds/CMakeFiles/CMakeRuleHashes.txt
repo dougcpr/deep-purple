@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+b736f368d47ae29c727e8d59e0f4fc63 docs/CMakeFiles/schema
+2c3c076dfb4fb8c168bf427a30088898 docs/cyclonedds.rnc

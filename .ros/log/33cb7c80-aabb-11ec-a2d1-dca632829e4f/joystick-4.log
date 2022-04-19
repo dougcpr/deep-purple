@@ -1,0 +1,1126 @@
+[rospy.client][INFO] 2022-03-23 15:34:59,737: init_node, name[/joystick], pid[16305]
+[xmlrpc][INFO] 2022-03-23 15:34:59,739: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-03-23 15:34:59,741: ROS Slave URI: [http://ubuntu:33161/]
+[xmlrpc][INFO] 2022-03-23 15:34:59,742: Started XML-RPC server [http://ubuntu:33161/]
+[rospy.impl.masterslave][INFO] 2022-03-23 15:34:59,743: _ready: http://ubuntu:33161/
+[xmlrpc][INFO] 2022-03-23 15:34:59,757: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-03-23 15:34:59,760: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-03-23 15:34:59,842: registered with master
+[rospy.rosout][INFO] 2022-03-23 15:34:59,843: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-23 15:34:59,849: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-23 15:34:59,852: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-23 15:34:59,883: topic[/cmd_vel] adding connection to [http://ubuntu:44453/], count 0
+[rospy.internal][ERROR] 2022-03-23 15:34:59,898: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:34:59,909: unable to create subscriber transport: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist].  Will try again in 0.5s
+[rospy.internal][INFO] 2022-03-23 15:35:00,033: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][ERROR] 2022-03-23 15:35:00,924: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:35:01,928: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:35:03,980: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:35:07,985: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:35:15,995: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:35:32,008: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:36:04,042: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:36:36,066: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:37:08,095: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:37:40,128: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:38:12,148: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:38:44,185: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:39:16,209: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:39:48,215: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:40:20,248: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:40:52,263: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:41:24,290: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.core][INFO] 2022-03-23 15:41:49,712: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-23 15:41:49,721: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-23 15:41:49,723: topic[/cmd_vel] removing connection to http://ubuntu:44453/
+[rospy.impl.masterslave][INFO] 2022-03-23 15:41:49,723: signal-2
+[rospy.core][INFO] 2022-03-23 15:41:49,827: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-03-23 15:41:55,114: init_node, name[/joystick], pid[22173]
+[xmlrpc][INFO] 2022-03-23 15:41:55,116: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-03-23 15:41:55,117: Started XML-RPC server [http://ubuntu:33577/]
+[rospy.init][INFO] 2022-03-23 15:41:55,117: ROS Slave URI: [http://ubuntu:33577/]
+[rospy.impl.masterslave][INFO] 2022-03-23 15:41:55,118: _ready: http://ubuntu:33577/
+[rospy.registration][INFO] 2022-03-23 15:41:55,120: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-03-23 15:41:55,121: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-03-23 15:41:55,219: registered with master
+[rospy.rosout][INFO] 2022-03-23 15:41:55,219: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-23 15:41:55,226: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-23 15:41:55,229: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-23 15:41:55,292: topic[/cmd_vel] adding connection to [http://ubuntu:44453/], count 0
+[rospy.internal][ERROR] 2022-03-23 15:41:55,299: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:41:55,299: unable to create subscriber transport: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist].  Will try again in 0.5s
+[rospy.internal][INFO] 2022-03-23 15:41:55,380: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][ERROR] 2022-03-23 15:41:56,308: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:41:57,313: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:41:59,319: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:42:03,329: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:42:11,340: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:42:27,356: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:42:59,388: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PointStamped] vs. [geometry_msgs/Twist]
+
+[rospy.core][INFO] 2022-03-23 15:43:29,241: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-23 15:43:29,249: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-23 15:43:29,250: topic[/cmd_vel] removing connection to http://ubuntu:44453/
+[rospy.impl.masterslave][INFO] 2022-03-23 15:43:29,251: signal-2
+[rospy.core][INFO] 2022-03-23 15:43:29,383: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-03-23 15:43:35,218: init_node, name[/joystick], pid[23512]
+[xmlrpc][INFO] 2022-03-23 15:43:35,221: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-03-23 15:43:35,222: Started XML-RPC server [http://ubuntu:41239/]
+[rospy.impl.masterslave][INFO] 2022-03-23 15:43:35,223: _ready: http://ubuntu:41239/
+[rospy.init][INFO] 2022-03-23 15:43:35,223: ROS Slave URI: [http://ubuntu:41239/]
+[xmlrpc][INFO] 2022-03-23 15:43:35,230: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-03-23 15:43:35,230: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-03-23 15:43:35,327: registered with master
+[rospy.rosout][INFO] 2022-03-23 15:43:35,328: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-23 15:43:35,334: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-23 15:43:35,337: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-23 15:43:35,408: topic[/cmd_vel] adding connection to [http://ubuntu:44453/], count 0
+[rospy.internal][INFO] 2022-03-23 15:43:35,619: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2022-03-23 15:44:33,745: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:33,841: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:33,933: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:34,003: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:34,091: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:34,243: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:34,341: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:34,426: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:34,597: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:34,649: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:34,764: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:34,815: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:34,833: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:35,168: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:35,353: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:35,657: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:35,760: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:35,837: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:36,050: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:36,234: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:36,651: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:36,762: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:36,810: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:37,003: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:37,448: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:37,479: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:37,780: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:37,986: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:38,135: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:38,356: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:38,576: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:38,830: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rosout][ERROR] 2022-03-23 15:44:41,078: bad callback: <function callback at 0xffffb0b45bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 36, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 29, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 26, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+NameError: global name 'subprocess' is not defined
+
+[rospy.core][INFO] 2022-03-23 15:44:57,714: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-23 15:44:57,727: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-23 15:44:57,729: topic[/cmd_vel] removing connection to http://ubuntu:44453/
+[rospy.internal][WARNING] 2022-03-23 15:44:57,731: Unknown error initiating TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.impl.masterslave][INFO] 2022-03-23 15:44:57,731: signal-2
+[rospy.core][INFO] 2022-03-23 15:44:57,834: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-03-23 15:46:17,048: init_node, name[/joystick], pid[26000]
+[xmlrpc][INFO] 2022-03-23 15:46:17,050: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-03-23 15:46:17,052: ROS Slave URI: [http://ubuntu:36583/]
+[xmlrpc][INFO] 2022-03-23 15:46:17,053: Started XML-RPC server [http://ubuntu:36583/]
+[rospy.impl.masterslave][INFO] 2022-03-23 15:46:17,055: _ready: http://ubuntu:36583/
+[xmlrpc][INFO] 2022-03-23 15:46:17,058: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-03-23 15:46:17,060: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-03-23 15:46:17,154: registered with master
+[rospy.rosout][INFO] 2022-03-23 15:46:17,154: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-23 15:46:17,166: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-23 15:46:17,172: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-23 15:46:17,239: topic[/cmd_vel] adding connection to [http://ubuntu:44453/], count 0
+[rospy.internal][INFO] 2022-03-23 15:46:17,416: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-03-23 15:49:44,174: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-23 15:49:44,187: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-23 15:49:44,188: topic[/cmd_vel] removing connection to http://ubuntu:44453/
+[rospy.impl.masterslave][INFO] 2022-03-23 15:49:44,189: signal-2
+[rospy.core][INFO] 2022-03-23 15:49:44,326: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-03-23 15:49:50,186: init_node, name[/joystick], pid[29330]
+[xmlrpc][INFO] 2022-03-23 15:49:50,188: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-03-23 15:49:50,189: Started XML-RPC server [http://ubuntu:46575/]
+[rospy.init][INFO] 2022-03-23 15:49:50,189: ROS Slave URI: [http://ubuntu:46575/]
+[rospy.impl.masterslave][INFO] 2022-03-23 15:49:50,190: _ready: http://ubuntu:46575/
+[rospy.registration][INFO] 2022-03-23 15:49:50,192: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-03-23 15:49:50,193: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-03-23 15:49:50,291: registered with master
+[rospy.rosout][INFO] 2022-03-23 15:49:50,292: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-23 15:49:50,298: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-23 15:49:50,301: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-23 15:49:50,365: topic[/cmd_vel] adding connection to [http://ubuntu:44453/], count 0
+[rospy.internal][INFO] 2022-03-23 15:49:50,496: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-03-23 15:52:02,667: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-23 15:52:02,677: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-23 15:52:02,682: topic[/cmd_vel] removing connection to http://ubuntu:44453/
+[rospy.impl.masterslave][INFO] 2022-03-23 15:52:02,683: signal-2
+[rospy.internal][WARNING] 2022-03-23 15:52:02,684: Unknown error initiating TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2022-03-23 15:52:02,784: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-03-23 15:53:43,023: init_node, name[/joystick], pid[512]
+[xmlrpc][INFO] 2022-03-23 15:53:43,024: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-03-23 15:53:43,025: Started XML-RPC server [http://ubuntu:40977/]
+[rospy.init][INFO] 2022-03-23 15:53:43,026: ROS Slave URI: [http://ubuntu:40977/]
+[rospy.impl.masterslave][INFO] 2022-03-23 15:53:43,026: _ready: http://ubuntu:40977/
+[rospy.registration][INFO] 2022-03-23 15:53:43,029: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-03-23 15:53:43,029: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-03-23 15:53:43,127: registered with master
+[rospy.rosout][INFO] 2022-03-23 15:53:43,128: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-23 15:53:43,134: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-23 15:53:43,137: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-23 15:53:43,202: topic[/cmd_vel] adding connection to [http://ubuntu:44453/], count 0
+[rospy.internal][ERROR] 2022-03-23 15:53:43,208: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:53:43,209: unable to create subscriber transport: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist].  Will try again in 0.5s
+[rospy.internal][INFO] 2022-03-23 15:53:43,361: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][ERROR] 2022-03-23 15:53:44,220: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:53:45,227: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:53:47,239: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:53:51,249: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:53:59,261: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:54:15,281: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:54:47,304: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:55:19,338: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:55:51,365: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:56:23,408: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:56:55,439: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:57:27,477: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:57:59,506: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:58:31,541: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:59:03,577: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 15:59:35,599: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 16:00:07,619: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.core][INFO] 2022-03-23 16:00:22,148: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-23 16:00:22,155: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-23 16:00:22,156: topic[/cmd_vel] removing connection to http://ubuntu:44453/
+[rospy.impl.masterslave][INFO] 2022-03-23 16:00:22,157: signal-2
+[rospy.core][INFO] 2022-03-23 16:00:22,775: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-03-23 16:00:27,531: init_node, name[/joystick], pid[5897]
+[xmlrpc][INFO] 2022-03-23 16:00:27,532: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-03-23 16:00:27,534: Started XML-RPC server [http://ubuntu:33025/]
+[rospy.impl.masterslave][INFO] 2022-03-23 16:00:27,535: _ready: http://ubuntu:33025/
+[rospy.init][INFO] 2022-03-23 16:00:27,536: ROS Slave URI: [http://ubuntu:33025/]
+[xmlrpc][INFO] 2022-03-23 16:00:27,537: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-03-23 16:00:27,539: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-03-23 16:00:27,638: registered with master
+[rospy.rosout][INFO] 2022-03-23 16:00:27,639: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-23 16:00:27,645: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-23 16:00:27,647: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-23 16:00:27,711: topic[/cmd_vel] adding connection to [http://ubuntu:44453/], count 0
+[rospy.internal][INFO] 2022-03-23 16:00:27,930: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-03-23 16:05:07,249: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-23 16:05:07,262: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-23 16:05:07,269: topic[/cmd_vel] removing connection to http://ubuntu:44453/
+[rospy.impl.masterslave][INFO] 2022-03-23 16:05:07,270: signal-2
+[rospy.internal][WARNING] 2022-03-23 16:05:07,275: Unknown error initiating TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2022-03-23 16:05:07,389: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-03-23 16:05:12,374: init_node, name[/joystick], pid[10403]
+[xmlrpc][INFO] 2022-03-23 16:05:12,375: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-03-23 16:05:12,376: Started XML-RPC server [http://ubuntu:39597/]
+[rospy.init][INFO] 2022-03-23 16:05:12,377: ROS Slave URI: [http://ubuntu:39597/]
+[rospy.impl.masterslave][INFO] 2022-03-23 16:05:12,377: _ready: http://ubuntu:39597/
+[xmlrpc][INFO] 2022-03-23 16:05:12,378: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-03-23 16:05:12,379: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-03-23 16:05:12,478: registered with master
+[rospy.rosout][INFO] 2022-03-23 16:05:12,478: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-23 16:05:12,485: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-23 16:05:12,489: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-23 16:05:12,551: topic[/cmd_vel] adding connection to [http://ubuntu:44453/], count 0
+[rospy.internal][ERROR] 2022-03-23 16:05:12,556: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 16:05:12,557: unable to create subscriber transport: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist].  Will try again in 0.5s
+[rospy.internal][INFO] 2022-03-23 16:05:12,605: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][ERROR] 2022-03-23 16:05:13,570: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 16:05:14,576: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 16:05:16,582: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 16:05:20,594: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 16:05:28,607: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 16:05:44,629: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.internal][ERROR] 2022-03-23 16:06:16,639: Unable to initiate TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [sensor_msgs/Joy] vs. [geometry_msgs/Twist]
+
+[rospy.core][INFO] 2022-03-23 16:06:45,064: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-23 16:06:45,077: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-23 16:06:45,078: topic[/cmd_vel] removing connection to http://ubuntu:44453/
+[rospy.impl.masterslave][INFO] 2022-03-23 16:06:45,079: signal-2
+[rospy.core][INFO] 2022-03-23 16:06:45,708: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-03-23 16:06:50,755: init_node, name[/joystick], pid[11937]
+[xmlrpc][INFO] 2022-03-23 16:06:50,756: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-03-23 16:06:50,757: Started XML-RPC server [http://ubuntu:43121/]
+[rospy.init][INFO] 2022-03-23 16:06:50,758: ROS Slave URI: [http://ubuntu:43121/]
+[rospy.impl.masterslave][INFO] 2022-03-23 16:06:50,759: _ready: http://ubuntu:43121/
+[rospy.registration][INFO] 2022-03-23 16:06:50,761: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-03-23 16:06:50,762: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-03-23 16:06:50,859: registered with master
+[rospy.rosout][INFO] 2022-03-23 16:06:50,860: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-23 16:06:50,866: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-23 16:06:50,870: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-23 16:06:50,936: topic[/cmd_vel] adding connection to [http://ubuntu:44453/], count 0
+[rospy.internal][INFO] 2022-03-23 16:06:51,077: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-03-23 16:12:25,972: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-23 16:12:25,992: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-23 16:12:25,995: topic[/cmd_vel] removing connection to http://ubuntu:44453/
+[rospy.internal][WARNING] 2022-03-23 16:12:25,999: Unknown error initiating TCP/IP socket to ubuntu:33247 (http://ubuntu:44453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.impl.masterslave][INFO] 2022-03-23 16:12:26,000: signal-2
+[rospy.core][INFO] 2022-03-23 16:12:26,101: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-03-23 16:12:31,702: init_node, name[/joystick], pid[17063]
+[xmlrpc][INFO] 2022-03-23 16:12:31,703: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-03-23 16:12:31,704: Started XML-RPC server [http://ubuntu:40499/]
+[rospy.init][INFO] 2022-03-23 16:12:31,705: ROS Slave URI: [http://ubuntu:40499/]
+[rospy.impl.masterslave][INFO] 2022-03-23 16:12:31,706: _ready: http://ubuntu:40499/
+[xmlrpc][INFO] 2022-03-23 16:12:31,707: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-03-23 16:12:31,708: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-03-23 16:12:31,807: registered with master
+[rospy.rosout][INFO] 2022-03-23 16:12:31,809: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-23 16:12:31,816: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-23 16:12:31,820: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-23 16:12:32,024: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-03-23 16:13:06,118: topic[/joy] adding connection to [http://ubuntu:44453/], count 0
+[rospy.core][INFO] 2022-03-23 16:14:56,655: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-23 16:14:56,665: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-23 16:14:56,667: topic[/joy] removing connection to http://ubuntu:44453/
+[rospy.impl.masterslave][INFO] 2022-03-23 16:14:56,667: signal-2
+[rospy.core][INFO] 2022-03-23 16:14:57,284: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-03-23 16:15:02,229: init_node, name[/joystick], pid[19321]
+[xmlrpc][INFO] 2022-03-23 16:15:02,231: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-03-23 16:15:02,233: ROS Slave URI: [http://ubuntu:38785/]
+[xmlrpc][INFO] 2022-03-23 16:15:02,234: Started XML-RPC server [http://ubuntu:38785/]
+[rospy.impl.masterslave][INFO] 2022-03-23 16:15:02,235: _ready: http://ubuntu:38785/
+[xmlrpc][INFO] 2022-03-23 16:15:02,238: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-03-23 16:15:02,243: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-03-23 16:15:02,334: registered with master
+[rospy.rosout][INFO] 2022-03-23 16:15:02,335: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-23 16:15:02,341: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-23 16:15:02,344: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-23 16:15:02,364: topic[/joy] adding connection to [http://ubuntu:44453/], count 0
+[rospy.internal][INFO] 2022-03-23 16:15:02,614: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-03-23 16:22:08,021: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-23 16:22:08,029: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-23 16:22:08,030: topic[/joy] removing connection to http://ubuntu:44453/
+[rospy.impl.masterslave][INFO] 2022-03-23 16:22:08,030: signal-2
+[rospy.core][INFO] 2022-03-23 16:22:08,153: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-03-23 16:25:03,225: init_node, name[/joystick], pid[27614]
+[xmlrpc][INFO] 2022-03-23 16:25:03,226: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-03-23 16:25:03,227: Started XML-RPC server [http://ubuntu:38525/]
+[rospy.init][INFO] 2022-03-23 16:25:03,228: ROS Slave URI: [http://ubuntu:38525/]
+[rospy.impl.masterslave][INFO] 2022-03-23 16:25:03,228: _ready: http://ubuntu:38525/
+[rospy.registration][INFO] 2022-03-23 16:25:03,230: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-03-23 16:25:03,231: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-03-23 16:25:03,329: registered with master
+[rospy.rosout][INFO] 2022-03-23 16:25:03,330: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-23 16:25:03,340: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-23 16:25:03,343: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-23 16:25:03,407: topic[/joy] adding connection to [http://ubuntu:44453/], count 0
+[rospy.internal][INFO] 2022-03-23 16:25:03,547: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-03-23 16:25:03,714: topic[/twist] adding connection to [/link_ros], count 0
+[rospy.core][INFO] 2022-03-23 16:34:32,320: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-23 16:34:32,331: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-23 16:34:32,332: topic[/twist] removing connection to /link_ros
+[rospy.internal][INFO] 2022-03-23 16:34:32,333: topic[/joy] removing connection to http://ubuntu:44453/
+[rospy.impl.masterslave][INFO] 2022-03-23 16:34:32,334: signal-2
+[rospy.core][INFO] 2022-03-23 16:34:32,442: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-03-23 16:34:37,267: init_node, name[/joystick], pid[2174]
+[xmlrpc][INFO] 2022-03-23 16:34:37,268: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-03-23 16:34:37,269: Started XML-RPC server [http://ubuntu:42003/]
+[rospy.init][INFO] 2022-03-23 16:34:37,270: ROS Slave URI: [http://ubuntu:42003/]
+[rospy.impl.masterslave][INFO] 2022-03-23 16:34:37,270: _ready: http://ubuntu:42003/
+[rospy.registration][INFO] 2022-03-23 16:34:37,272: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-03-23 16:34:37,273: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-03-23 16:34:37,371: registered with master
+[rospy.rosout][INFO] 2022-03-23 16:34:37,372: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-23 16:34:37,377: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-23 16:34:37,380: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-23 16:34:37,428: topic[/twist] adding connection to [/link_ros], count 0
+[rospy.internal][INFO] 2022-03-23 16:34:37,452: topic[/joy] adding connection to [http://ubuntu:44453/], count 0
+[rospy.internal][INFO] 2022-03-23 16:34:37,621: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-03-23 16:40:05,506: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-23 16:40:05,530: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-23 16:40:05,531: topic[/twist] removing connection to /link_ros
+[rospy.internal][INFO] 2022-03-23 16:40:05,532: topic[/joy] removing connection to http://ubuntu:44453/
+[rospy.impl.masterslave][INFO] 2022-03-23 16:40:05,533: signal-2
+[rospy.core][INFO] 2022-03-23 16:40:06,151: signal_shutdown [atexit]

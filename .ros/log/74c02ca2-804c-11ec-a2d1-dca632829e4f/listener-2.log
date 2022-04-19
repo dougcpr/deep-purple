@@ -1,0 +1,1016 @@
+[rospy.client][INFO] 2022-01-28 15:12:28,605: init_node, name[/listener], pid[27658]
+[xmlrpc][INFO] 2022-01-28 15:12:28,629: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-28 15:12:28,631: Started XML-RPC server [http://ubuntu:46049/]
+[rospy.impl.masterslave][INFO] 2022-01-28 15:12:28,632: _ready: http://ubuntu:46049/
+[rospy.init][INFO] 2022-01-28 15:12:28,634: ROS Slave URI: [http://ubuntu:46049/]
+[xmlrpc][INFO] 2022-01-28 15:12:28,653: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-01-28 15:12:28,655: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-01-28 15:12:28,735: registered with master
+[rospy.rosout][INFO] 2022-01-28 15:12:28,736: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-28 15:12:28,742: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-28 15:12:28,745: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-01-28 15:12:28,778: topic[/chatter] adding connection to [http://ubuntu:45343/], count 0
+[rosout][INFO] 2022-01-28 15:12:28,817: /listenerI heard hello world 1643382748.81
+[rospy.internal][INFO] 2022-01-28 15:12:29,010: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-01-28 15:12:32,821: /listenerI heard hello world 1643382752.81
+[rosout][INFO] 2022-01-28 15:12:36,823: /listenerI heard hello world 1643382756.82
+[rosout][INFO] 2022-01-28 15:12:40,821: /listenerI heard hello world 1643382760.82
+[rosout][INFO] 2022-01-28 15:12:44,821: /listenerI heard hello world 1643382764.82
+[rosout][INFO] 2022-01-28 15:12:48,831: /listenerI heard hello world 1643382768.82
+[rosout][INFO] 2022-01-28 15:12:52,818: /listenerI heard hello world 1643382772.81
+[rosout][INFO] 2022-01-28 15:12:56,823: /listenerI heard hello world 1643382776.82
+[rosout][INFO] 2022-01-28 15:13:00,820: /listenerI heard hello world 1643382780.81
+[rosout][INFO] 2022-01-28 15:13:04,820: /listenerI heard hello world 1643382784.82
+[rosout][INFO] 2022-01-28 15:13:08,819: /listenerI heard hello world 1643382788.81
+[rosout][INFO] 2022-01-28 15:13:12,818: /listenerI heard hello world 1643382792.81
+[rosout][INFO] 2022-01-28 15:13:16,819: /listenerI heard hello world 1643382796.81
+[rosout][INFO] 2022-01-28 15:13:20,820: /listenerI heard hello world 1643382800.81
+[rosout][INFO] 2022-01-28 15:13:24,823: /listenerI heard hello world 1643382804.82
+[rosout][INFO] 2022-01-28 15:13:28,823: /listenerI heard hello world 1643382808.82
+[rospy.internal][INFO] 2022-01-28 15:13:30,598: topic[/chatter] adding connection to [http://ubuntu:36843/], count 1
+[rosout][INFO] 2022-01-28 15:13:32,820: /listenerI heard hello world 1643382812.82
+[rosout][INFO] 2022-01-28 15:13:36,822: /listenerI heard hello world 1643382816.81
+[rosout][INFO] 2022-01-28 15:13:40,820: /listenerI heard hello world 1643382820.81
+[rosout][INFO] 2022-01-28 15:13:44,821: /listenerI heard hello world 1643382824.82
+[rosout][INFO] 2022-01-28 15:13:48,822: /listenerI heard hello world 1643382828.82
+[rosout][INFO] 2022-01-28 15:13:52,821: /listenerI heard hello world 1643382832.82
+[rosout][INFO] 2022-01-28 15:13:56,823: /listenerI heard hello world 1643382836.82
+[rosout][INFO] 2022-01-28 15:14:00,822: /listenerI heard hello world 1643382840.81
+[rosout][INFO] 2022-01-28 15:14:04,822: /listenerI heard hello world 1643382844.82
+[rosout][INFO] 2022-01-28 15:14:08,828: /listenerI heard hello world 1643382848.82
+[rosout][INFO] 2022-01-28 15:14:12,824: /listenerI heard hello world 1643382852.82
+[rosout][INFO] 2022-01-28 15:14:16,824: /listenerI heard hello world 1643382856.82
+[rosout][INFO] 2022-01-28 15:14:20,824: /listenerI heard hello world 1643382860.82
+[rosout][INFO] 2022-01-28 15:14:24,826: /listenerI heard hello world 1643382864.82
+[rosout][INFO] 2022-01-28 15:14:28,824: /listenerI heard hello world 1643382868.82
+[rosout][INFO] 2022-01-28 15:14:32,821: /listenerI heard hello world 1643382872.81
+[rosout][INFO] 2022-01-28 15:14:36,822: /listenerI heard hello world 1643382876.81
+[rosout][INFO] 2022-01-28 15:14:40,823: /listenerI heard hello world 1643382880.82
+[rosout][INFO] 2022-01-28 15:14:44,823: /listenerI heard hello world 1643382884.82
+[rosout][INFO] 2022-01-28 15:14:48,820: /listenerI heard hello world 1643382888.82
+[rosout][INFO] 2022-01-28 15:14:52,821: /listenerI heard hello world 1643382892.81
+[rosout][INFO] 2022-01-28 15:14:56,824: /listenerI heard hello world 1643382896.81
+[rosout][INFO] 2022-01-28 15:15:00,820: /listenerI heard hello world 1643382900.81
+[rosout][INFO] 2022-01-28 15:15:04,824: /listenerI heard hello world 1643382904.82
+[rosout][INFO] 2022-01-28 15:15:08,821: /listenerI heard hello world 1643382908.81
+[rosout][INFO] 2022-01-28 15:15:12,820: /listenerI heard hello world 1643382912.82
+[rosout][INFO] 2022-01-28 15:15:16,822: /listenerI heard hello world 1643382916.82
+[rosout][INFO] 2022-01-28 15:15:20,820: /listenerI heard hello world 1643382920.82
+[rosout][INFO] 2022-01-28 15:15:24,820: /listenerI heard hello world 1643382924.82
+[rosout][INFO] 2022-01-28 15:15:28,818: /listenerI heard hello world 1643382928.81
+[rosout][INFO] 2022-01-28 15:15:32,820: /listenerI heard hello world 1643382932.82
+[rosout][INFO] 2022-01-28 15:15:36,820: /listenerI heard hello world 1643382936.82
+[rosout][INFO] 2022-01-28 15:15:40,821: /listenerI heard hello world 1643382940.82
+[rosout][INFO] 2022-01-28 15:15:44,818: /listenerI heard hello world 1643382944.81
+[rosout][INFO] 2022-01-28 15:15:48,820: /listenerI heard hello world 1643382948.81
+[rosout][INFO] 2022-01-28 15:15:52,817: /listenerI heard hello world 1643382952.81
+[rosout][INFO] 2022-01-28 15:15:56,822: /listenerI heard hello world 1643382956.82
+[rosout][INFO] 2022-01-28 15:16:00,819: /listenerI heard hello world 1643382960.81
+[rosout][INFO] 2022-01-28 15:16:04,822: /listenerI heard hello world 1643382964.82
+[rosout][INFO] 2022-01-28 15:16:08,823: /listenerI heard hello world 1643382968.82
+[rosout][INFO] 2022-01-28 15:16:12,818: /listenerI heard hello world 1643382972.81
+[rosout][INFO] 2022-01-28 15:16:16,824: /listenerI heard hello world 1643382976.82
+[rosout][INFO] 2022-01-28 15:16:20,823: /listenerI heard hello world 1643382980.82
+[rosout][INFO] 2022-01-28 15:16:24,822: /listenerI heard hello world 1643382984.82
+[rosout][INFO] 2022-01-28 15:16:28,823: /listenerI heard hello world 1643382988.82
+[rosout][INFO] 2022-01-28 15:16:32,822: /listenerI heard hello world 1643382992.82
+[rosout][INFO] 2022-01-28 15:16:36,818: /listenerI heard hello world 1643382996.81
+[rosout][INFO] 2022-01-28 15:16:40,824: /listenerI heard hello world 1643383000.82
+[rosout][INFO] 2022-01-28 15:16:44,823: /listenerI heard hello world 1643383004.82
+[rosout][INFO] 2022-01-28 15:16:48,823: /listenerI heard hello world 1643383008.82
+[rosout][INFO] 2022-01-28 15:16:52,820: /listenerI heard hello world 1643383012.82
+[rosout][INFO] 2022-01-28 15:16:56,823: /listenerI heard hello world 1643383016.82
+[rosout][INFO] 2022-01-28 15:17:00,821: /listenerI heard hello world 1643383020.81
+[rosout][INFO] 2022-01-28 15:17:04,822: /listenerI heard hello world 1643383024.82
+[rosout][INFO] 2022-01-28 15:17:08,820: /listenerI heard hello world 1643383028.82
+[rosout][INFO] 2022-01-28 15:17:12,821: /listenerI heard hello world 1643383032.81
+[rosout][INFO] 2022-01-28 15:17:16,823: /listenerI heard hello world 1643383036.82
+[rosout][INFO] 2022-01-28 15:17:20,822: /listenerI heard hello world 1643383040.81
+[rosout][INFO] 2022-01-28 15:17:24,819: /listenerI heard hello world 1643383044.81
+[rosout][INFO] 2022-01-28 15:17:28,822: /listenerI heard hello world 1643383048.81
+[rosout][INFO] 2022-01-28 15:17:32,819: /listenerI heard hello world 1643383052.81
+[rosout][INFO] 2022-01-28 15:17:36,823: /listenerI heard hello world 1643383056.82
+[rosout][INFO] 2022-01-28 15:17:40,824: /listenerI heard hello world 1643383060.82
+[rosout][INFO] 2022-01-28 15:17:44,818: /listenerI heard hello world 1643383064.81
+[rosout][INFO] 2022-01-28 15:17:48,820: /listenerI heard hello world 1643383068.82
+[rosout][INFO] 2022-01-28 15:17:52,820: /listenerI heard hello world 1643383072.81
+[rosout][INFO] 2022-01-28 15:17:56,823: /listenerI heard hello world 1643383076.82
+[rosout][INFO] 2022-01-28 15:18:00,822: /listenerI heard hello world 1643383080.81
+[rosout][INFO] 2022-01-28 15:18:04,821: /listenerI heard hello world 1643383084.81
+[rosout][INFO] 2022-01-28 15:18:08,819: /listenerI heard hello world 1643383088.81
+[rosout][INFO] 2022-01-28 15:18:12,824: /listenerI heard hello world 1643383092.82
+[rosout][INFO] 2022-01-28 15:18:16,821: /listenerI heard hello world 1643383096.81
+[rosout][INFO] 2022-01-28 15:18:18,054: /listenerI heard hello world
+[rosout][INFO] 2022-01-28 15:18:20,824: /listenerI heard hello world 1643383100.82
+[rosout][INFO] 2022-01-28 15:18:24,823: /listenerI heard hello world 1643383104.82
+[rosout][INFO] 2022-01-28 15:18:28,823: /listenerI heard hello world 1643383108.82
+[rosout][INFO] 2022-01-28 15:18:32,823: /listenerI heard hello world 1643383112.82
+[rosout][INFO] 2022-01-28 15:18:36,824: /listenerI heard hello world 1643383116.82
+[rosout][INFO] 2022-01-28 15:18:40,819: /listenerI heard hello world 1643383120.81
+[rosout][INFO] 2022-01-28 15:18:44,824: /listenerI heard hello world 1643383124.82
+[rosout][INFO] 2022-01-28 15:18:47,500: /listenerI heard hello world
+[rosout][INFO] 2022-01-28 15:18:48,823: /listenerI heard hello world 1643383128.81
+[rosout][INFO] 2022-01-28 15:18:52,821: /listenerI heard hello world 1643383132.82
+[rosout][INFO] 2022-01-28 15:18:56,818: /listenerI heard hello world 1643383136.81
+[rosout][INFO] 2022-01-28 15:19:00,822: /listenerI heard hello world 1643383140.81
+[rosout][INFO] 2022-01-28 15:19:04,826: /listenerI heard hello world 1643383144.81
+[rosout][INFO] 2022-01-28 15:19:08,818: /listenerI heard hello world 1643383148.81
+[rosout][INFO] 2022-01-28 15:19:12,828: /listenerI heard hello world 1643383152.81
+[rosout][INFO] 2022-01-28 15:19:16,820: /listenerI heard hello world 1643383156.81
+[rosout][INFO] 2022-01-28 15:19:20,820: /listenerI heard hello world 1643383160.82
+[rosout][INFO] 2022-01-28 15:19:24,818: /listenerI heard hello world 1643383164.81
+[rosout][INFO] 2022-01-28 15:19:28,820: /listenerI heard hello world 1643383168.82
+[rosout][INFO] 2022-01-28 15:19:32,818: /listenerI heard hello world 1643383172.81
+[rosout][INFO] 2022-01-28 15:19:36,820: /listenerI heard hello world 1643383176.81
+[rosout][INFO] 2022-01-28 15:19:40,818: /listenerI heard hello world 1643383180.81
+[rosout][INFO] 2022-01-28 15:19:44,818: /listenerI heard hello world 1643383184.81
+[rosout][INFO] 2022-01-28 15:19:48,826: /listenerI heard hello world 1643383188.82
+[rosout][INFO] 2022-01-28 15:19:52,821: /listenerI heard hello world 1643383192.81
+[rosout][INFO] 2022-01-28 15:19:56,819: /listenerI heard hello world 1643383196.81
+[rosout][INFO] 2022-01-28 15:20:00,821: /listenerI heard hello world 1643383200.81
+[rosout][INFO] 2022-01-28 15:20:04,820: /listenerI heard hello world 1643383204.82
+[rosout][INFO] 2022-01-28 15:20:08,819: /listenerI heard hello world 1643383208.81
+[rosout][INFO] 2022-01-28 15:20:12,818: /listenerI heard hello world 1643383212.81
+[rosout][INFO] 2022-01-28 15:20:16,823: /listenerI heard hello world 1643383216.82
+[rosout][INFO] 2022-01-28 15:20:20,818: /listenerI heard hello world 1643383220.81
+[rosout][INFO] 2022-01-28 15:20:24,818: /listenerI heard hello world 1643383224.81
+[rosout][INFO] 2022-01-28 15:20:28,822: /listenerI heard hello world 1643383228.81
+[rosout][INFO] 2022-01-28 15:20:32,819: /listenerI heard hello world 1643383232.82
+[rosout][INFO] 2022-01-28 15:20:36,821: /listenerI heard hello world 1643383236.82
+[rosout][INFO] 2022-01-28 15:20:40,823: /listenerI heard hello world 1643383240.82
+[rosout][INFO] 2022-01-28 15:20:44,823: /listenerI heard hello world 1643383244.82
+[rosout][INFO] 2022-01-28 15:20:48,824: /listenerI heard hello world 1643383248.82
+[rosout][INFO] 2022-01-28 15:20:52,822: /listenerI heard hello world 1643383252.82
+[rosout][INFO] 2022-01-28 15:20:56,822: /listenerI heard hello world 1643383256.82
+[rosout][INFO] 2022-01-28 15:21:00,822: /listenerI heard hello world 1643383260.82
+[rosout][INFO] 2022-01-28 15:21:04,822: /listenerI heard hello world 1643383264.82
+[rosout][INFO] 2022-01-28 15:21:08,821: /listenerI heard hello world 1643383268.81
+[rosout][INFO] 2022-01-28 15:21:12,822: /listenerI heard hello world 1643383272.81
+[rosout][INFO] 2022-01-28 15:21:16,817: /listenerI heard hello world 1643383276.81
+[rosout][INFO] 2022-01-28 15:21:20,823: /listenerI heard hello world 1643383280.81
+[rosout][INFO] 2022-01-28 15:21:24,823: /listenerI heard hello world 1643383284.82
+[rosout][INFO] 2022-01-28 15:21:28,821: /listenerI heard hello world 1643383288.82
+[rosout][INFO] 2022-01-28 15:21:32,823: /listenerI heard hello world 1643383292.82
+[rosout][INFO] 2022-01-28 15:21:36,822: /listenerI heard hello world 1643383296.82
+[rosout][INFO] 2022-01-28 15:21:40,823: /listenerI heard hello world 1643383300.82
+[rosout][INFO] 2022-01-28 15:21:44,823: /listenerI heard hello world 1643383304.82
+[rosout][INFO] 2022-01-28 15:21:48,819: /listenerI heard hello world 1643383308.81
+[rosout][INFO] 2022-01-28 15:21:52,822: /listenerI heard hello world 1643383312.81
+[rosout][INFO] 2022-01-28 15:21:56,822: /listenerI heard hello world 1643383316.81
+[rosout][INFO] 2022-01-28 15:22:00,824: /listenerI heard hello world 1643383320.82
+[rosout][INFO] 2022-01-28 15:22:04,821: /listenerI heard hello world 1643383324.82
+[rosout][INFO] 2022-01-28 15:22:08,822: /listenerI heard hello world 1643383328.82
+[rosout][INFO] 2022-01-28 15:22:12,821: /listenerI heard hello world 1643383332.82
+[rosout][INFO] 2022-01-28 15:22:16,819: /listenerI heard hello world 1643383336.82
+[rosout][INFO] 2022-01-28 15:22:20,818: /listenerI heard hello world 1643383340.81
+[rosout][INFO] 2022-01-28 15:22:24,819: /listenerI heard hello world 1643383344.81
+[rosout][INFO] 2022-01-28 15:22:28,820: /listenerI heard hello world 1643383348.82
+[rosout][INFO] 2022-01-28 15:22:32,819: /listenerI heard hello world 1643383352.81
+[rosout][INFO] 2022-01-28 15:22:36,818: /listenerI heard hello world 1643383356.81
+[rosout][INFO] 2022-01-28 15:22:40,820: /listenerI heard hello world 1643383360.81
+[rosout][INFO] 2022-01-28 15:22:44,826: /listenerI heard hello world 1643383364.81
+[rosout][INFO] 2022-01-28 15:22:48,824: /listenerI heard hello world 1643383368.82
+[rosout][INFO] 2022-01-28 15:22:52,818: /listenerI heard hello world 1643383372.81
+[rosout][INFO] 2022-01-28 15:22:56,819: /listenerI heard hello world 1643383376.81
+[rosout][INFO] 2022-01-28 15:23:00,818: /listenerI heard hello world 1643383380.81
+[rosout][INFO] 2022-01-28 15:23:04,818: /listenerI heard hello world 1643383384.81
+[rosout][INFO] 2022-01-28 15:23:08,820: /listenerI heard hello world 1643383388.82
+[rosout][INFO] 2022-01-28 15:23:12,819: /listenerI heard hello world 1643383392.81
+[rosout][INFO] 2022-01-28 15:23:16,819: /listenerI heard hello world 1643383396.81
+[rosout][INFO] 2022-01-28 15:23:20,821: /listenerI heard hello world 1643383400.82
+[rosout][INFO] 2022-01-28 15:23:24,818: /listenerI heard hello world 1643383404.81
+[rosout][INFO] 2022-01-28 15:23:28,820: /listenerI heard hello world 1643383408.82
+[rosout][INFO] 2022-01-28 15:23:32,823: /listenerI heard hello world 1643383412.82
+[rosout][INFO] 2022-01-28 15:23:36,819: /listenerI heard hello world 1643383416.81
+[rosout][INFO] 2022-01-28 15:23:40,821: /listenerI heard hello world 1643383420.82
+[rosout][INFO] 2022-01-28 15:23:44,818: /listenerI heard hello world 1643383424.81
+[rosout][INFO] 2022-01-28 15:23:48,818: /listenerI heard hello world 1643383428.81
+[rosout][INFO] 2022-01-28 15:23:52,820: /listenerI heard hello world 1643383432.82
+[rosout][INFO] 2022-01-28 15:23:56,819: /listenerI heard hello world 1643383436.82
+[rosout][INFO] 2022-01-28 15:24:00,820: /listenerI heard hello world 1643383440.82
+[rosout][INFO] 2022-01-28 15:24:04,824: /listenerI heard hello world 1643383444.82
+[rosout][INFO] 2022-01-28 15:24:08,818: /listenerI heard hello world 1643383448.81
+[rosout][INFO] 2022-01-28 15:24:12,818: /listenerI heard hello world 1643383452.81
+[rosout][INFO] 2022-01-28 15:24:16,821: /listenerI heard hello world 1643383456.82
+[rosout][INFO] 2022-01-28 15:24:20,822: /listenerI heard hello world 1643383460.82
+[rosout][INFO] 2022-01-28 15:24:24,817: /listenerI heard hello world 1643383464.81
+[rosout][INFO] 2022-01-28 15:24:28,821: /listenerI heard hello world 1643383468.81
+[rosout][INFO] 2022-01-28 15:24:32,820: /listenerI heard hello world 1643383472.81
+[rosout][INFO] 2022-01-28 15:24:36,818: /listenerI heard hello world 1643383476.81
+[rosout][INFO] 2022-01-28 15:24:40,821: /listenerI heard hello world 1643383480.82
+[rosout][INFO] 2022-01-28 15:24:44,823: /listenerI heard hello world 1643383484.82
+[rosout][INFO] 2022-01-28 15:24:48,820: /listenerI heard hello world 1643383488.82
+[rosout][INFO] 2022-01-28 15:24:52,821: /listenerI heard hello world 1643383492.82
+[rosout][INFO] 2022-01-28 15:24:56,821: /listenerI heard hello world 1643383496.82
+[rosout][INFO] 2022-01-28 15:25:00,827: /listenerI heard hello world 1643383500.82
+[rosout][INFO] 2022-01-28 15:25:04,817: /listenerI heard hello world 1643383504.81
+[rosout][INFO] 2022-01-28 15:25:08,817: /listenerI heard hello world 1643383508.81
+[rosout][INFO] 2022-01-28 15:25:12,824: /listenerI heard hello world 1643383512.82
+[rosout][INFO] 2022-01-28 15:25:16,819: /listenerI heard hello world 1643383516.81
+[rosout][INFO] 2022-01-28 15:25:20,822: /listenerI heard hello world 1643383520.81
+[rosout][INFO] 2022-01-28 15:25:24,822: /listenerI heard hello world 1643383524.81
+[rosout][INFO] 2022-01-28 15:25:28,823: /listenerI heard hello world 1643383528.81
+[rosout][INFO] 2022-01-28 15:25:32,824: /listenerI heard hello world 1643383532.82
+[rosout][INFO] 2022-01-28 15:25:36,820: /listenerI heard hello world 1643383536.81
+[rosout][INFO] 2022-01-28 15:25:40,816: /listenerI heard hello world 1643383540.81
+[rosout][INFO] 2022-01-28 15:25:44,819: /listenerI heard hello world 1643383544.82
+[rosout][INFO] 2022-01-28 15:25:48,820: /listenerI heard hello world 1643383548.81
+[rosout][INFO] 2022-01-28 15:25:52,818: /listenerI heard hello world 1643383552.81
+[rosout][INFO] 2022-01-28 15:25:56,820: /listenerI heard hello world 1643383556.81
+[rosout][INFO] 2022-01-28 15:26:00,819: /listenerI heard hello world 1643383560.81
+[rosout][INFO] 2022-01-28 15:26:04,824: /listenerI heard hello world 1643383564.82
+[rosout][INFO] 2022-01-28 15:26:08,820: /listenerI heard hello world 1643383568.81
+[rosout][INFO] 2022-01-28 15:26:12,822: /listenerI heard hello world 1643383572.82
+[rosout][INFO] 2022-01-28 15:26:16,821: /listenerI heard hello world 1643383576.82
+[rosout][INFO] 2022-01-28 15:26:20,820: /listenerI heard hello world 1643383580.82
+[rosout][INFO] 2022-01-28 15:26:24,820: /listenerI heard hello world 1643383584.82
+[rosout][INFO] 2022-01-28 15:26:28,821: /listenerI heard hello world 1643383588.82
+[rosout][INFO] 2022-01-28 15:26:32,819: /listenerI heard hello world 1643383592.81
+[rosout][INFO] 2022-01-28 15:26:36,820: /listenerI heard hello world 1643383596.82
+[rosout][INFO] 2022-01-28 15:26:40,821: /listenerI heard hello world 1643383600.81
+[rosout][INFO] 2022-01-28 15:26:44,822: /listenerI heard hello world 1643383604.82
+[rosout][INFO] 2022-01-28 15:26:48,826: /listenerI heard hello world 1643383608.82
+[rosout][INFO] 2022-01-28 15:26:52,817: /listenerI heard hello world 1643383612.81
+[rosout][INFO] 2022-01-28 15:26:56,822: /listenerI heard hello world 1643383616.82
+[rosout][INFO] 2022-01-28 15:27:00,817: /listenerI heard hello world 1643383620.81
+[rosout][INFO] 2022-01-28 15:27:04,821: /listenerI heard hello world 1643383624.82
+[rosout][INFO] 2022-01-28 15:27:08,820: /listenerI heard hello world 1643383628.82
+[rosout][INFO] 2022-01-28 15:27:12,820: /listenerI heard hello world 1643383632.81
+[rosout][INFO] 2022-01-28 15:27:16,821: /listenerI heard hello world 1643383636.81
+[rosout][INFO] 2022-01-28 15:27:20,823: /listenerI heard hello world 1643383640.82
+[rosout][INFO] 2022-01-28 15:27:24,824: /listenerI heard hello world 1643383644.82
+[rosout][INFO] 2022-01-28 15:27:28,819: /listenerI heard hello world 1643383648.82
+[rosout][INFO] 2022-01-28 15:27:32,820: /listenerI heard hello world 1643383652.82
+[rosout][INFO] 2022-01-28 15:27:36,820: /listenerI heard hello world 1643383656.82
+[rosout][INFO] 2022-01-28 15:27:40,817: /listenerI heard hello world 1643383660.81
+[rosout][INFO] 2022-01-28 15:27:44,821: /listenerI heard hello world 1643383664.82
+[rosout][INFO] 2022-01-28 15:27:48,818: /listenerI heard hello world 1643383668.81
+[rosout][INFO] 2022-01-28 15:27:52,820: /listenerI heard hello world 1643383672.81
+[rosout][INFO] 2022-01-28 15:27:56,823: /listenerI heard hello world 1643383676.82
+[rosout][INFO] 2022-01-28 15:28:00,819: /listenerI heard hello world 1643383680.81
+[rosout][INFO] 2022-01-28 15:28:04,823: /listenerI heard hello world 1643383684.82
+[rosout][INFO] 2022-01-28 15:28:08,820: /listenerI heard hello world 1643383688.82
+[rosout][INFO] 2022-01-28 15:28:12,819: /listenerI heard hello world 1643383692.81
+[rosout][INFO] 2022-01-28 15:28:16,822: /listenerI heard hello world 1643383696.81
+[rosout][INFO] 2022-01-28 15:28:20,819: /listenerI heard hello world 1643383700.81
+[rosout][INFO] 2022-01-28 15:28:24,819: /listenerI heard hello world 1643383704.81
+[rosout][INFO] 2022-01-28 15:28:28,822: /listenerI heard hello world 1643383708.82
+[rosout][INFO] 2022-01-28 15:28:32,824: /listenerI heard hello world 1643383712.82
+[rosout][INFO] 2022-01-28 15:28:36,823: /listenerI heard hello world 1643383716.82
+[rosout][INFO] 2022-01-28 15:28:40,823: /listenerI heard hello world 1643383720.82
+[rosout][INFO] 2022-01-28 15:28:44,821: /listenerI heard hello world 1643383724.82
+[rosout][INFO] 2022-01-28 15:28:48,817: /listenerI heard hello world 1643383728.81
+[rosout][INFO] 2022-01-28 15:28:52,818: /listenerI heard hello world 1643383732.81
+[rosout][INFO] 2022-01-28 15:28:56,823: /listenerI heard hello world 1643383736.82
+[rosout][INFO] 2022-01-28 15:29:00,822: /listenerI heard hello world 1643383740.81
+[rosout][INFO] 2022-01-28 15:29:04,827: /listenerI heard hello world 1643383744.82
+[rosout][INFO] 2022-01-28 15:29:08,821: /listenerI heard hello world 1643383748.82
+[rosout][INFO] 2022-01-28 15:29:12,823: /listenerI heard hello world 1643383752.82
+[rosout][INFO] 2022-01-28 15:29:16,820: /listenerI heard hello world 1643383756.82
+[rosout][INFO] 2022-01-28 15:29:20,821: /listenerI heard hello world 1643383760.82
+[rosout][INFO] 2022-01-28 15:29:24,818: /listenerI heard hello world 1643383764.81
+[rosout][INFO] 2022-01-28 15:29:28,820: /listenerI heard hello world 1643383768.82
+[rosout][INFO] 2022-01-28 15:29:32,821: /listenerI heard hello world 1643383772.82
+[rosout][INFO] 2022-01-28 15:29:36,818: /listenerI heard hello world 1643383776.81
+[rosout][INFO] 2022-01-28 15:29:40,820: /listenerI heard hello world 1643383780.82
+[rosout][INFO] 2022-01-28 15:29:44,822: /listenerI heard hello world 1643383784.81
+[rosout][INFO] 2022-01-28 15:29:48,821: /listenerI heard hello world 1643383788.82
+[rosout][INFO] 2022-01-28 15:29:52,819: /listenerI heard hello world 1643383792.81
+[rosout][INFO] 2022-01-28 15:29:56,819: /listenerI heard hello world 1643383796.81
+[rosout][INFO] 2022-01-28 15:30:00,820: /listenerI heard hello world 1643383800.82
+[rosout][INFO] 2022-01-28 15:30:04,821: /listenerI heard hello world 1643383804.82
+[rosout][INFO] 2022-01-28 15:30:08,844: /listenerI heard hello world 1643383808.82
+[rosout][INFO] 2022-01-28 15:30:12,818: /listenerI heard hello world 1643383812.81
+[rosout][INFO] 2022-01-28 15:30:16,818: /listenerI heard hello world 1643383816.81
+[rosout][INFO] 2022-01-28 15:30:20,824: /listenerI heard hello world 1643383820.81
+[rosout][INFO] 2022-01-28 15:30:24,822: /listenerI heard hello world 1643383824.82
+[rosout][INFO] 2022-01-28 15:30:28,824: /listenerI heard hello world 1643383828.82
+[rosout][INFO] 2022-01-28 15:30:32,818: /listenerI heard hello world 1643383832.81
+[rosout][INFO] 2022-01-28 15:30:36,824: /listenerI heard hello world 1643383836.82
+[rosout][INFO] 2022-01-28 15:30:40,819: /listenerI heard hello world 1643383840.81
+[rosout][INFO] 2022-01-28 15:30:44,819: /listenerI heard hello world 1643383844.81
+[rosout][INFO] 2022-01-28 15:30:48,819: /listenerI heard hello world 1643383848.81
+[rosout][INFO] 2022-01-28 15:30:52,821: /listenerI heard hello world 1643383852.82
+[rosout][INFO] 2022-01-28 15:30:56,824: /listenerI heard hello world 1643383856.82
+[rosout][INFO] 2022-01-28 15:31:00,819: /listenerI heard hello world 1643383860.81
+[rosout][INFO] 2022-01-28 15:31:04,818: /listenerI heard hello world 1643383864.81
+[rosout][INFO] 2022-01-28 15:31:08,822: /listenerI heard hello world 1643383868.82
+[rosout][INFO] 2022-01-28 15:31:12,820: /listenerI heard hello world 1643383872.81
+[rosout][INFO] 2022-01-28 15:31:16,818: /listenerI heard hello world 1643383876.81
+[rosout][INFO] 2022-01-28 15:31:20,818: /listenerI heard hello world 1643383880.81
+[rosout][INFO] 2022-01-28 15:31:24,822: /listenerI heard hello world 1643383884.81
+[rosout][INFO] 2022-01-28 15:31:28,818: /listenerI heard hello world 1643383888.81
+[rosout][INFO] 2022-01-28 15:31:32,823: /listenerI heard hello world 1643383892.82
+[rosout][INFO] 2022-01-28 15:31:36,821: /listenerI heard hello world 1643383896.82
+[rosout][INFO] 2022-01-28 15:31:40,819: /listenerI heard hello world 1643383900.81
+[rosout][INFO] 2022-01-28 15:31:44,822: /listenerI heard hello world 1643383904.82
+[rosout][INFO] 2022-01-28 15:31:48,821: /listenerI heard hello world 1643383908.82
+[rosout][INFO] 2022-01-28 15:31:52,817: /listenerI heard hello world 1643383912.81
+[rosout][INFO] 2022-01-28 15:31:56,818: /listenerI heard hello world 1643383916.81
+[rosout][INFO] 2022-01-28 15:32:00,818: /listenerI heard hello world 1643383920.81
+[rosout][INFO] 2022-01-28 15:32:04,819: /listenerI heard hello world 1643383924.81
+[rosout][INFO] 2022-01-28 15:32:08,825: /listenerI heard hello world 1643383928.82
+[rosout][INFO] 2022-01-28 15:32:12,823: /listenerI heard hello world 1643383932.82
+[rosout][INFO] 2022-01-28 15:32:16,819: /listenerI heard hello world 1643383936.81
+[rosout][INFO] 2022-01-28 15:32:20,817: /listenerI heard hello world 1643383940.81
+[rosout][INFO] 2022-01-28 15:32:24,821: /listenerI heard hello world 1643383944.82
+[rosout][INFO] 2022-01-28 15:32:28,818: /listenerI heard hello world 1643383948.81
+[rosout][INFO] 2022-01-28 15:32:32,819: /listenerI heard hello world 1643383952.81
+[rosout][INFO] 2022-01-28 15:32:36,819: /listenerI heard hello world 1643383956.81
+[rosout][INFO] 2022-01-28 15:32:40,844: /listenerI heard hello world 1643383960.82
+[rosout][INFO] 2022-01-28 15:32:44,822: /listenerI heard hello world 1643383964.81
+[rosout][INFO] 2022-01-28 15:32:48,818: /listenerI heard hello world 1643383968.81
+[rosout][INFO] 2022-01-28 15:32:52,818: /listenerI heard hello world 1643383972.81
+[rosout][INFO] 2022-01-28 15:32:56,822: /listenerI heard hello world 1643383976.82
+[rosout][INFO] 2022-01-28 15:33:00,822: /listenerI heard hello world 1643383980.81
+[rosout][INFO] 2022-01-28 15:33:04,819: /listenerI heard hello world 1643383984.81
+[rosout][INFO] 2022-01-28 15:33:08,820: /listenerI heard hello world 1643383988.82
+[rosout][INFO] 2022-01-28 15:33:12,818: /listenerI heard hello world 1643383992.81
+[rosout][INFO] 2022-01-28 15:33:16,820: /listenerI heard hello world 1643383996.81
+[rosout][INFO] 2022-01-28 15:33:20,822: /listenerI heard hello world 1643384000.81
+[rosout][INFO] 2022-01-28 15:33:24,817: /listenerI heard hello world 1643384004.81
+[rosout][INFO] 2022-01-28 15:33:28,820: /listenerI heard hello world 1643384008.82
+[rosout][INFO] 2022-01-28 15:33:32,819: /listenerI heard hello world 1643384012.81
+[rosout][INFO] 2022-01-28 15:33:36,820: /listenerI heard hello world 1643384016.82
+[rosout][INFO] 2022-01-28 15:33:40,818: /listenerI heard hello world 1643384020.81
+[rosout][INFO] 2022-01-28 15:33:44,824: /listenerI heard hello world 1643384024.81
+[rosout][INFO] 2022-01-28 15:33:48,818: /listenerI heard hello world 1643384028.81
+[rosout][INFO] 2022-01-28 15:33:52,820: /listenerI heard hello world 1643384032.81
+[rosout][INFO] 2022-01-28 15:33:56,824: /listenerI heard hello world 1643384036.82
+[rosout][INFO] 2022-01-28 15:34:00,820: /listenerI heard hello world 1643384040.82
+[rosout][INFO] 2022-01-28 15:34:04,822: /listenerI heard hello world 1643384044.82
+[rosout][INFO] 2022-01-28 15:34:08,822: /listenerI heard hello world 1643384048.82
+[rosout][INFO] 2022-01-28 15:34:12,820: /listenerI heard hello world 1643384052.82
+[rosout][INFO] 2022-01-28 15:34:16,819: /listenerI heard hello world 1643384056.82
+[rosout][INFO] 2022-01-28 15:34:20,819: /listenerI heard hello world 1643384060.81
+[rosout][INFO] 2022-01-28 15:34:24,818: /listenerI heard hello world 1643384064.81
+[rosout][INFO] 2022-01-28 15:34:28,822: /listenerI heard hello world 1643384068.81
+[rosout][INFO] 2022-01-28 15:34:32,823: /listenerI heard hello world 1643384072.82
+[rosout][INFO] 2022-01-28 15:34:36,821: /listenerI heard hello world 1643384076.82
+[rosout][INFO] 2022-01-28 15:34:40,819: /listenerI heard hello world 1643384080.81
+[rosout][INFO] 2022-01-28 15:34:44,817: /listenerI heard hello world 1643384084.81
+[rosout][INFO] 2022-01-28 15:34:48,821: /listenerI heard hello world 1643384088.81
+[rosout][INFO] 2022-01-28 15:34:52,818: /listenerI heard hello world 1643384092.81
+[rosout][INFO] 2022-01-28 15:34:56,818: /listenerI heard hello world 1643384096.81
+[rosout][INFO] 2022-01-28 15:35:00,819: /listenerI heard hello world 1643384100.81
+[rosout][INFO] 2022-01-28 15:35:04,820: /listenerI heard hello world 1643384104.81
+[rosout][INFO] 2022-01-28 15:35:08,822: /listenerI heard hello world 1643384108.81
+[rosout][INFO] 2022-01-28 15:35:12,822: /listenerI heard hello world 1643384112.81
+[rosout][INFO] 2022-01-28 15:35:16,818: /listenerI heard hello world 1643384116.81
+[rosout][INFO] 2022-01-28 15:35:20,819: /listenerI heard hello world 1643384120.81
+[rosout][INFO] 2022-01-28 15:35:24,821: /listenerI heard hello world 1643384124.82
+[rosout][INFO] 2022-01-28 15:35:28,821: /listenerI heard hello world 1643384128.82
+[rosout][INFO] 2022-01-28 15:35:32,820: /listenerI heard hello world 1643384132.81
+[rosout][INFO] 2022-01-28 15:35:36,821: /listenerI heard hello world 1643384136.81
+[rosout][INFO] 2022-01-28 15:35:40,822: /listenerI heard hello world 1643384140.82
+[rosout][INFO] 2022-01-28 15:35:44,818: /listenerI heard hello world 1643384144.81
+[rosout][INFO] 2022-01-28 15:35:48,819: /listenerI heard hello world 1643384148.81
+[rosout][INFO] 2022-01-28 15:35:52,825: /listenerI heard hello world 1643384152.82
+[rosout][INFO] 2022-01-28 15:35:56,818: /listenerI heard hello world 1643384156.81
+[rosout][INFO] 2022-01-28 15:36:00,818: /listenerI heard hello world 1643384160.81
+[rosout][INFO] 2022-01-28 15:36:04,822: /listenerI heard hello world 1643384164.81
+[rosout][INFO] 2022-01-28 15:36:08,821: /listenerI heard hello world 1643384168.81
+[rosout][INFO] 2022-01-28 15:36:12,822: /listenerI heard hello world 1643384172.81
+[rosout][INFO] 2022-01-28 15:36:16,822: /listenerI heard hello world 1643384176.82
+[rosout][INFO] 2022-01-28 15:36:20,819: /listenerI heard hello world 1643384180.81
+[rosout][INFO] 2022-01-28 15:36:24,819: /listenerI heard hello world 1643384184.81
+[rosout][INFO] 2022-01-28 15:36:28,818: /listenerI heard hello world 1643384188.81
+[rosout][INFO] 2022-01-28 15:36:32,820: /listenerI heard hello world 1643384192.82
+[rosout][INFO] 2022-01-28 15:36:36,818: /listenerI heard hello world 1643384196.81
+[rosout][INFO] 2022-01-28 15:36:40,821: /listenerI heard hello world 1643384200.82
+[rosout][INFO] 2022-01-28 15:36:44,819: /listenerI heard hello world 1643384204.81
+[rosout][INFO] 2022-01-28 15:36:48,822: /listenerI heard hello world 1643384208.82
+[rosout][INFO] 2022-01-28 15:36:52,823: /listenerI heard hello world 1643384212.81
+[rosout][INFO] 2022-01-28 15:36:56,821: /listenerI heard hello world 1643384216.82
+[rosout][INFO] 2022-01-28 15:37:00,822: /listenerI heard hello world 1643384220.82
+[rosout][INFO] 2022-01-28 15:37:04,822: /listenerI heard hello world 1643384224.82
+[rosout][INFO] 2022-01-28 15:37:08,820: /listenerI heard hello world 1643384228.82
+[rosout][INFO] 2022-01-28 15:37:12,818: /listenerI heard hello world 1643384232.81
+[rosout][INFO] 2022-01-28 15:37:16,819: /listenerI heard hello world 1643384236.81
+[rosout][INFO] 2022-01-28 15:37:20,818: /listenerI heard hello world 1643384240.81
+[rosout][INFO] 2022-01-28 15:37:24,821: /listenerI heard hello world 1643384244.82
+[rosout][INFO] 2022-01-28 15:37:28,824: /listenerI heard hello world 1643384248.82
+[rosout][INFO] 2022-01-28 15:37:32,826: /listenerI heard hello world 1643384252.81
+[rosout][INFO] 2022-01-28 15:37:36,818: /listenerI heard hello world 1643384256.81
+[rosout][INFO] 2022-01-28 15:37:40,821: /listenerI heard hello world 1643384260.82
+[rosout][INFO] 2022-01-28 15:37:44,822: /listenerI heard hello world 1643384264.82
+[rosout][INFO] 2022-01-28 15:37:48,820: /listenerI heard hello world 1643384268.82
+[rosout][INFO] 2022-01-28 15:37:52,819: /listenerI heard hello world 1643384272.81
+[rosout][INFO] 2022-01-28 15:37:56,818: /listenerI heard hello world 1643384276.81
+[rosout][INFO] 2022-01-28 15:38:00,818: /listenerI heard hello world 1643384280.81
+[rosout][INFO] 2022-01-28 15:38:04,821: /listenerI heard hello world 1643384284.81
+[rosout][INFO] 2022-01-28 15:38:08,821: /listenerI heard hello world 1643384288.82
+[rosout][INFO] 2022-01-28 15:38:12,822: /listenerI heard hello world 1643384292.82
+[rosout][INFO] 2022-01-28 15:38:16,819: /listenerI heard hello world 1643384296.81
+[rosout][INFO] 2022-01-28 15:38:20,819: /listenerI heard hello world 1643384300.81
+[rosout][INFO] 2022-01-28 15:38:24,820: /listenerI heard hello world 1643384304.82
+[rosout][INFO] 2022-01-28 15:38:28,818: /listenerI heard hello world 1643384308.81
+[rosout][INFO] 2022-01-28 15:38:32,818: /listenerI heard hello world 1643384312.81
+[rosout][INFO] 2022-01-28 15:38:36,819: /listenerI heard hello world 1643384316.81
+[rosout][INFO] 2022-01-28 15:38:40,821: /listenerI heard hello world 1643384320.81
+[rosout][INFO] 2022-01-28 15:38:44,821: /listenerI heard hello world 1643384324.81
+[rosout][INFO] 2022-01-28 15:38:48,822: /listenerI heard hello world 1643384328.81
+[rosout][INFO] 2022-01-28 15:38:52,819: /listenerI heard hello world 1643384332.81
+[rosout][INFO] 2022-01-28 15:38:56,818: /listenerI heard hello world 1643384336.81
+[rosout][INFO] 2022-01-28 15:39:00,829: /listenerI heard hello world 1643384340.82
+[rosout][INFO] 2022-01-28 15:39:04,825: /listenerI heard hello world 1643384344.81
+[rosout][INFO] 2022-01-28 15:39:08,821: /listenerI heard hello world 1643384348.82
+[rosout][INFO] 2022-01-28 15:39:12,821: /listenerI heard hello world 1643384352.81
+[rosout][INFO] 2022-01-28 15:39:16,826: /listenerI heard hello world 1643384356.81
+[rosout][INFO] 2022-01-28 15:39:20,836: /listenerI heard hello world 1643384360.82
+[rosout][INFO] 2022-01-28 15:39:24,820: /listenerI heard hello world 1643384364.81
+[rosout][INFO] 2022-01-28 15:39:28,818: /listenerI heard hello world 1643384368.81
+[rosout][INFO] 2022-01-28 15:39:32,821: /listenerI heard hello world 1643384372.82
+[rosout][INFO] 2022-01-28 15:39:36,818: /listenerI heard hello world 1643384376.81
+[rosout][INFO] 2022-01-28 15:39:40,821: /listenerI heard hello world 1643384380.82
+[rosout][INFO] 2022-01-28 15:39:44,824: /listenerI heard hello world 1643384384.81
+[rosout][INFO] 2022-01-28 15:39:48,821: /listenerI heard hello world 1643384388.81
+[rosout][INFO] 2022-01-28 15:39:52,820: /listenerI heard hello world 1643384392.81
+[rospy.core][INFO] 2022-01-28 15:39:56,824: signal_shutdown [signal-2]
+[rosout][INFO] 2022-01-28 15:39:56,821: /listenerI heard hello world 1643384396.82
+[rospy.internal][INFO] 2022-01-28 15:39:56,841: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-28 15:39:56,842: topic[/chatter] removing connection to http://ubuntu:45343/
+[rospy.internal][INFO] 2022-01-28 15:39:56,843: topic[/chatter] removing connection to http://ubuntu:36843/
+[rospy.impl.masterslave][INFO] 2022-01-28 15:39:56,844: signal-2
+[rospy.core][INFO] 2022-01-28 15:39:56,955: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-28 16:17:17,236: init_node, name[/listener], pid[7443]
+[xmlrpc][INFO] 2022-01-28 16:17:17,238: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-28 16:17:17,239: Started XML-RPC server [http://ubuntu:40083/]
+[rospy.init][INFO] 2022-01-28 16:17:17,239: ROS Slave URI: [http://ubuntu:40083/]
+[rospy.impl.masterslave][INFO] 2022-01-28 16:17:17,240: _ready: http://ubuntu:40083/
+[rospy.registration][INFO] 2022-01-28 16:17:17,243: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-28 16:17:17,243: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-28 16:17:17,341: registered with master
+[rospy.rosout][INFO] 2022-01-28 16:17:17,342: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-28 16:17:17,348: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-28 16:17:17,351: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-01-28 16:17:17,418: topic[/chatter] adding connection to [http://ubuntu:36843/], count 0
+[rospy.internal][INFO] 2022-01-28 16:17:17,420: topic[/chatter] adding connection to [http://ubuntu:33187/], count 0
+[rospy.internal][WARNING] 2022-01-28 16:17:17,428: Unknown error initiating TCP/IP socket to ubuntu:37839 (http://ubuntu:33187/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-01-28 16:17:17,429: topic[/chatter] removing connection to http://ubuntu:33187/
+[rospy.internal][ERROR] 2022-01-28 16:17:17,434: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.internal][ERROR] 2022-01-28 16:17:17,435: unable to create subscriber transport: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String].  Will try again in 0.5s
+[rospy.internal][INFO] 2022-01-28 16:17:17,575: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][ERROR] 2022-01-28 16:17:18,448: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.internal][ERROR] 2022-01-28 16:17:19,453: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.internal][ERROR] 2022-01-28 16:17:21,460: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.internal][ERROR] 2022-01-28 16:17:25,472: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.internal][ERROR] 2022-01-28 16:17:33,484: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.core][INFO] 2022-01-28 16:17:41,278: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-28 16:17:41,285: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-28 16:17:41,286: topic[/chatter] removing connection to http://ubuntu:36843/
+[rospy.impl.masterslave][INFO] 2022-01-28 16:17:41,287: signal-2
+[rospy.core][INFO] 2022-01-28 16:17:41,419: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-28 16:18:35,156: init_node, name[/listener], pid[8667]
+[xmlrpc][INFO] 2022-01-28 16:18:35,157: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-28 16:18:35,159: Started XML-RPC server [http://ubuntu:45131/]
+[rospy.init][INFO] 2022-01-28 16:18:35,160: ROS Slave URI: [http://ubuntu:45131/]
+[rospy.impl.masterslave][INFO] 2022-01-28 16:18:35,161: _ready: http://ubuntu:45131/
+[rospy.registration][INFO] 2022-01-28 16:18:35,165: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-28 16:18:35,165: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-28 16:18:35,262: registered with master
+[rospy.rosout][INFO] 2022-01-28 16:18:35,263: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-28 16:18:35,270: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-28 16:18:35,273: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-01-28 16:18:35,346: topic[/chatter] adding connection to [http://ubuntu:43705/], count 0
+[rospy.internal][INFO] 2022-01-28 16:18:35,348: topic[/chatter] adding connection to [http://ubuntu:36843/], count 0
+[rospy.internal][ERROR] 2022-01-28 16:18:35,357: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.internal][ERROR] 2022-01-28 16:18:35,358: unable to create subscriber transport: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String].  Will try again in 0.5s
+[rospy.internal][INFO] 2022-01-28 16:18:35,575: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][ERROR] 2022-01-28 16:18:36,371: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.internal][ERROR] 2022-01-28 16:18:37,377: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rosout][ERROR] 2022-01-28 16:18:39,296: bad callback: <function callback at 0xffffaafd35d0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 12, in callback
+    rospy.loginfo(rospy.get_caller_id() + 'I heard %s', data.data)
+AttributeError: 'SweeperCmdMsg' object has no attribute 'data'
+
+[rospy.internal][ERROR] 2022-01-28 16:18:39,382: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rosout][ERROR] 2022-01-28 16:18:43,295: bad callback: <function callback at 0xffffaafd35d0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 12, in callback
+    rospy.loginfo(rospy.get_caller_id() + 'I heard %s', data.data)
+AttributeError: 'SweeperCmdMsg' object has no attribute 'data'
+
+[rospy.internal][ERROR] 2022-01-28 16:18:43,387: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rosout][ERROR] 2022-01-28 16:18:47,292: bad callback: <function callback at 0xffffaafd35d0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 12, in callback
+    rospy.loginfo(rospy.get_caller_id() + 'I heard %s', data.data)
+AttributeError: 'SweeperCmdMsg' object has no attribute 'data'
+
+[rospy.core][INFO] 2022-01-28 16:18:49,371: signal_shutdown [signal-2]
+[rospy.internal][ERROR] 2022-01-28 16:18:49,372: Unable to initiate TCP/IP socket to ubuntu:35027 (http://ubuntu:43705/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2022-01-28 16:18:49,383: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-28 16:18:49,384: topic[/chatter] removing connection to http://ubuntu:43705/
+[rospy.internal][INFO] 2022-01-28 16:18:49,384: topic[/chatter] removing connection to http://ubuntu:36843/
+[rospy.impl.masterslave][INFO] 2022-01-28 16:18:49,385: signal-2
+[rospy.core][INFO] 2022-01-28 16:18:50,001: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-28 16:19:17,372: init_node, name[/listener], pid[9373]
+[xmlrpc][INFO] 2022-01-28 16:19:17,374: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-01-28 16:19:17,376: ROS Slave URI: [http://ubuntu:43645/]
+[xmlrpc][INFO] 2022-01-28 16:19:17,377: Started XML-RPC server [http://ubuntu:43645/]
+[rospy.impl.masterslave][INFO] 2022-01-28 16:19:17,377: _ready: http://ubuntu:43645/
+[xmlrpc][INFO] 2022-01-28 16:19:17,379: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-01-28 16:19:17,380: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-01-28 16:19:17,478: registered with master
+[rospy.rosout][INFO] 2022-01-28 16:19:17,478: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-28 16:19:17,485: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-28 16:19:17,488: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-01-28 16:19:17,555: topic[/chatter] adding connection to [http://ubuntu:36843/], count 0
+[rospy.internal][INFO] 2022-01-28 16:19:17,558: topic[/chatter] adding connection to [http://ubuntu:42405/], count 0
+[rospy.internal][ERROR] 2022-01-28 16:19:17,583: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.internal][ERROR] 2022-01-28 16:19:17,584: unable to create subscriber transport: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String].  Will try again in 0.5s
+[rospy.internal][INFO] 2022-01-28 16:19:17,684: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][ERROR] 2022-01-28 16:19:18,595: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.internal][ERROR] 2022-01-28 16:19:19,602: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rosout][INFO] 2022-01-28 16:19:21,485: /listenerI heard 1
+[rospy.internal][ERROR] 2022-01-28 16:19:21,608: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rosout][INFO] 2022-01-28 16:19:25,484: /listenerI heard 1
+[rospy.internal][ERROR] 2022-01-28 16:19:25,616: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rosout][INFO] 2022-01-28 16:19:29,485: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:19:33,483: /listenerI heard 1
+[rospy.internal][ERROR] 2022-01-28 16:19:33,628: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rosout][INFO] 2022-01-28 16:19:37,486: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:19:41,483: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:19:45,485: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:19:49,486: /listenerI heard 1
+[rospy.internal][ERROR] 2022-01-28 16:19:49,648: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rosout][INFO] 2022-01-28 16:19:53,482: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:19:57,483: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:20:01,486: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:20:05,486: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:20:09,486: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:20:13,486: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:20:17,482: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:20:21,485: /listenerI heard 1
+[rospy.internal][ERROR] 2022-01-28 16:20:21,706: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rosout][INFO] 2022-01-28 16:20:25,482: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:20:29,485: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:20:33,482: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:20:37,485: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:20:41,485: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:20:45,485: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:20:49,484: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:20:53,483: /listenerI heard 1
+[rospy.internal][ERROR] 2022-01-28 16:20:53,743: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rosout][INFO] 2022-01-28 16:20:57,485: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:21:01,485: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:21:05,485: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:21:09,482: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:21:13,485: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:21:17,486: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:21:21,485: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:21:25,484: /listenerI heard 1
+[rospy.internal][ERROR] 2022-01-28 16:21:25,775: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rosout][INFO] 2022-01-28 16:21:29,482: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:21:33,486: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:21:37,483: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:21:41,484: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:21:45,485: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:21:49,483: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:21:53,483: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:21:57,486: /listenerI heard 1
+[rospy.internal][ERROR] 2022-01-28 16:21:57,801: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rosout][INFO] 2022-01-28 16:22:01,485: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:22:05,482: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:22:09,483: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:22:13,486: /listenerI heard 1
+[rosout][INFO] 2022-01-28 16:22:17,485: /listenerI heard 1
+[rospy.core][INFO] 2022-01-28 16:22:18,004: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-28 16:22:18,012: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-28 16:22:18,013: topic[/chatter] removing connection to http://ubuntu:36843/
+[rospy.internal][INFO] 2022-01-28 16:22:18,014: topic[/chatter] removing connection to http://ubuntu:42405/
+[rospy.impl.masterslave][INFO] 2022-01-28 16:22:18,015: signal-2
+[rospy.core][INFO] 2022-01-28 16:22:18,154: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-28 16:23:04,874: init_node, name[/listener], pid[12165]
+[xmlrpc][INFO] 2022-01-28 16:23:04,875: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-28 16:23:04,876: Started XML-RPC server [http://ubuntu:44809/]
+[rospy.init][INFO] 2022-01-28 16:23:04,877: ROS Slave URI: [http://ubuntu:44809/]
+[rospy.impl.masterslave][INFO] 2022-01-28 16:23:04,877: _ready: http://ubuntu:44809/
+[rospy.registration][INFO] 2022-01-28 16:23:04,880: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-28 16:23:04,881: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-28 16:23:04,978: registered with master
+[rospy.rosout][INFO] 2022-01-28 16:23:04,979: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-28 16:23:04,986: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-28 16:23:04,988: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-01-28 16:23:05,054: topic[/chatter] adding connection to [http://ubuntu:36843/], count 0
+[rospy.internal][ERROR] 2022-01-28 16:23:05,060: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.internal][ERROR] 2022-01-28 16:23:05,060: unable to create subscriber transport: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String].  Will try again in 0.5s
+[rospy.internal][INFO] 2022-01-28 16:23:05,190: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][ERROR] 2022-01-28 16:23:06,070: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.internal][ERROR] 2022-01-28 16:23:07,074: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.internal][ERROR] 2022-01-28 16:23:09,081: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.core][INFO] 2022-01-28 16:23:09,609: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-28 16:23:09,615: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-28 16:23:09,616: topic[/chatter] removing connection to http://ubuntu:36843/
+[rospy.impl.masterslave][INFO] 2022-01-28 16:23:09,616: signal-2
+[rospy.core][INFO] 2022-01-28 16:23:09,719: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-28 16:24:33,641: init_node, name[/listener], pid[13283]
+[xmlrpc][INFO] 2022-01-28 16:24:33,645: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-28 16:24:33,647: Started XML-RPC server [http://ubuntu:37379/]
+[rospy.impl.masterslave][INFO] 2022-01-28 16:24:33,648: _ready: http://ubuntu:37379/
+[rospy.init][INFO] 2022-01-28 16:24:33,649: ROS Slave URI: [http://ubuntu:37379/]
+[rospy.registration][INFO] 2022-01-28 16:24:33,662: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-28 16:24:33,665: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-28 16:24:33,750: registered with master
+[rospy.rosout][INFO] 2022-01-28 16:24:33,751: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-28 16:24:33,758: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-28 16:24:33,761: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-01-28 16:24:33,800: topic[/chatter] adding connection to [http://ubuntu:36843/], count 0
+[rospy.internal][INFO] 2022-01-28 16:24:33,814: topic[/chatter] adding connection to [http://ubuntu:38667/], count 1
+[rospy.internal][ERROR] 2022-01-28 16:24:33,826: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.internal][ERROR] 2022-01-28 16:24:33,826: unable to create subscriber transport: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String].  Will try again in 0.5s
+[rospy.internal][INFO] 2022-01-28 16:24:34,006: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][ERROR] 2022-01-28 16:24:34,838: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.internal][ERROR] 2022-01-28 16:24:35,842: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rosout][INFO] 2022-01-28 16:24:37,826: /listenerI heard 10
+[rospy.internal][ERROR] 2022-01-28 16:24:37,847: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rosout][INFO] 2022-01-28 16:24:41,826: /listenerI heard 10
+[rospy.internal][ERROR] 2022-01-28 16:24:41,852: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rosout][INFO] 2022-01-28 16:24:45,826: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:24:49,828: /listenerI heard 10
+[rospy.internal][ERROR] 2022-01-28 16:24:49,877: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rosout][INFO] 2022-01-28 16:24:53,826: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:24:57,828: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:25:01,826: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:25:05,827: /listenerI heard 10
+[rospy.internal][ERROR] 2022-01-28 16:25:05,896: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rosout][INFO] 2022-01-28 16:25:09,827: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:25:13,828: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:25:17,829: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:25:21,829: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:25:25,829: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:25:29,829: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:25:33,828: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:25:37,828: /listenerI heard 10
+[rospy.internal][ERROR] 2022-01-28 16:25:37,923: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rosout][INFO] 2022-01-28 16:25:41,828: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:25:45,828: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:25:49,827: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:25:53,828: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:25:57,829: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:26:01,829: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:26:05,826: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:26:09,828: /listenerI heard 10
+[rospy.internal][ERROR] 2022-01-28 16:26:09,957: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rosout][INFO] 2022-01-28 16:26:13,828: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:26:17,829: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:26:21,828: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:26:25,829: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:26:29,827: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:26:33,828: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:26:37,827: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:26:41,827: /listenerI heard 10
+[rospy.internal][ERROR] 2022-01-28 16:26:41,992: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rosout][INFO] 2022-01-28 16:26:45,826: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:26:49,828: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:26:53,826: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:26:57,828: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:27:01,827: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:27:05,830: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:27:09,827: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:27:13,827: /listenerI heard 10
+[rospy.internal][ERROR] 2022-01-28 16:27:14,025: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rosout][INFO] 2022-01-28 16:27:17,827: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:27:21,826: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:27:25,828: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:27:29,828: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:27:33,827: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:27:37,826: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:27:41,826: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:27:45,826: /listenerI heard 10
+[rospy.internal][ERROR] 2022-01-28 16:27:46,062: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rosout][INFO] 2022-01-28 16:27:49,826: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:27:53,826: /listenerI heard 10
+[rosout][INFO] 2022-01-28 16:27:57,827: /listenerI heard 10
+[rospy.core][INFO] 2022-01-28 16:27:59,517: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-28 16:27:59,526: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-28 16:27:59,527: topic[/chatter] removing connection to http://ubuntu:36843/
+[rospy.internal][INFO] 2022-01-28 16:27:59,528: topic[/chatter] removing connection to http://ubuntu:38667/
+[rospy.impl.masterslave][INFO] 2022-01-28 16:27:59,532: signal-2
+[rospy.core][INFO] 2022-01-28 16:27:59,665: signal_shutdown [atexit]

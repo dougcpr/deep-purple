@@ -1,0 +1,76 @@
+{
+    "code": "FRA_LINK_BASE_GENERIC", 
+    "logs": [
+        "Traceback (most recent call last):", 
+        "", 
+        "  File \"freedomrobotics/link_base.py\", line 578, in freedomrobotics.link_base.LinkUploader.__loop_connection_check_to_freedom_api", 
+        "", 
+        "Exception: Could not connect to Freedom API after 3 attempts. No Internet connection.", 
+        ""
+    ], 
+    "level": "fatal", 
+    "errorMessage": "Unhandled exception in Link `agent_link` freedom api connection check loop: <type 'exceptions.Exception'> Could not connect to Freedom API after 3 attempts. No Internet connection.", 
+    "component": "agent", 
+    "attributes": {
+        "python": {
+            "implementation": "CPython", 
+            "version": "2.7.17", 
+            "build": [
+                "default", 
+                "Mar 18 2022 13:21:42"
+            ]
+        }, 
+        "thread": {
+            "daemon": false, 
+            "name": "freedom_agent_link_connection_check_thread"
+        }, 
+        "geo": "Could not get geographic details: HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff794e4650>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))", 
+        "system": {
+            "linux_dist": [
+                "Ubuntu", 
+                "18.04", 
+                "bionic"
+            ], 
+            "ip": "Could not get ip: HTTPConnectionPool(host='ip.42.pl', port=80): Max retries exceeded with url: /raw (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff793be150>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))", 
+            "user": "ubuntu", 
+            "arch": "Unknown: aarch64", 
+            "service": "systemd", 
+            "hostname": "ubuntu", 
+            "environment": {
+                "LANG": "C.UTF-8", 
+                "SHELL": "/bin/bash", 
+                "ROS_DISTRO": "melodic", 
+                "ROS_VERSION": "1", 
+                "JOURNAL_STREAM": "9:22259", 
+                "PYTHONPATH": "/home/ubuntu/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages", 
+                "ROS_ETC_DIR": "/opt/ros/melodic/etc/ros", 
+                "ROS_ROOT": "/opt/ros/melodic/share/ros", 
+                "ROSLISP_PACKAGE_DIRECTORIES": "/home/ubuntu/catkin_ws/devel/share/common-lisp", 
+                "LOGNAME": "ubuntu", 
+                "USER": "ubuntu", 
+                "ROS_MASTER_URI": "http://localhost:11311", 
+                "PATH": "/home/ubuntu/.local/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin", 
+                "PKG_CONFIG_PATH": "/home/ubuntu/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig", 
+                "HOME": "/home/ubuntu", 
+                "ROS_PACKAGE_PATH": "/home/ubuntu/catkin_ws/src:/opt/ros/melodic/share", 
+                "CMAKE_PREFIX_PATH": "/home/ubuntu/catkin_ws/devel:/opt/ros/melodic", 
+                "LD_LIBRARY_PATH": "/home/ubuntu/catkin_ws/devel/lib:/opt/ros/melodic/lib:/opt/ros/melodic/lib/aarch64-linux-gnu", 
+                "ROS_PYTHON_VERSION": "2", 
+                "INVOCATION_ID": "613fc00dc56b439397c17f99e7e538de"
+            }, 
+            "platform": "Linux-5.4.0-1056-raspi-aarch64-with-Ubuntu-18.04-bionic", 
+            "version": "#63~18.04.1-Ubuntu SMP PREEMPT Mon Mar 14 09:50:38 UTC 2022", 
+            "release": "5.4.0-1056-raspi", 
+            "docker": false, 
+            "os": "Linux", 
+            "processor": "aarch64"
+        }, 
+        "freedom_robotics": {
+            "device": "D664A28E6EBCEEF5A1480EC3F8B", 
+            "freedom_python_module_version": "0.1.165", 
+            "token": "***834B6F1E", 
+            "account": "AA2E4916C77670BAA7DA84BD4", 
+            "code_branch": "release"
+        }
+    }
+}

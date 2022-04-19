@@ -1,0 +1,114 @@
+{
+    "code": "FRA_CMD_GET", 
+    "logs": [
+        "Traceback (most recent call last):", 
+        "", 
+        "  File \"freedomrobotics/agent_base.py\", line 249, in freedomrobotics.agent_base.Agent.loop_receiving_commands", 
+        "", 
+        "  File \"freedomrobotics/helpers/api_wrapper.py\", line 37, in freedomrobotics.helpers.api_wrapper.api_get_commands", 
+        "", 
+        "  File \"freedomrobotics/helpers/api_wrapper.py\", line 72, in freedomrobotics.helpers.api_wrapper.api_device_request", 
+        "", 
+        "  File \"freedomrobotics/helpers/api_wrapper.py\", line 145, in freedomrobotics.helpers.api_wrapper.api_request", 
+        "", 
+        "  File \"/home/ubuntu/.local/lib/python2.7/site-packages/requests/models.py\", line 943, in raise_for_status", 
+        "    raise HTTPError(http_error_msg, response=self)", 
+        "", 
+        "HTTPError: 504 Server Error: Gateway Timeout for url: https://api.freedomrobotics.ai/accounts/A139C78C471C762F34F31F8DD/devices/D36F4D9E51F228A3B221D203CB1/commands?platforms=%5B%22mission_control_controller%22%5D", 
+        "", 
+        "HTTP Body Response:", 
+        "[\"{\\\"message\\\": \\\"Network error communicating with endpoint\\\"}\"]"
+    ], 
+    "level": "fatal", 
+    "errorMessage": "Exception getting commands: 504 Server Error: Gateway Timeout for url: https://api.freedomrobotics.ai/accounts/A139C78C471C762F34F31F8DD/devices/D36F4D9E51F228A3B221D203CB1/commands?platforms=%5B%22mission_control_controller%22%5D", 
+    "component": "agent", 
+    "attributes": {
+        "extra_details": {
+            "shutting_down_agent": false, 
+            "api_errors": 28, 
+            "ros": {
+                "distribution": "melodic", 
+                "version": 1, 
+                "source_paths": [
+                    "/home/ubuntu/catkin_ws/devel/setup.bash"
+                ], 
+                "base_path": "/opt/ros/melodic"
+            }, 
+            "freeze_agent": false
+        }, 
+        "thread": {
+            "daemon": false, 
+            "name": "freedom_agent_receive_commands_thread"
+        }, 
+        "python": {
+            "implementation": "CPython", 
+            "version": "2.7.17", 
+            "build": [
+                "default", 
+                "Feb 27 2021 15:10:58"
+            ]
+        }, 
+        "system": {
+            "linux_dist": [
+                "Ubuntu", 
+                "18.04", 
+                "bionic"
+            ], 
+            "ip": "199.241.200.231", 
+            "user": "ubuntu", 
+            "arch": "Unknown: aarch64", 
+            "service": "systemd", 
+            "hostname": "ubuntu", 
+            "environment": {
+                "LANG": "C.UTF-8", 
+                "SHELL": "/bin/bash", 
+                "ROS_DISTRO": "melodic", 
+                "ROS_VERSION": "1", 
+                "JOURNAL_STREAM": "9:9345259", 
+                "PYTHONPATH": "/opt/ros/melodic/lib/python2.7/dist-packages", 
+                "ROS_ETC_DIR": "/opt/ros/melodic/etc/ros", 
+                "ROS_ROOT": "/opt/ros/melodic/share/ros", 
+                "ROSLISP_PACKAGE_DIRECTORIES": "/home/ubuntu/catkin_ws/devel/share/common-lisp", 
+                "LOGNAME": "ubuntu", 
+                "USER": "ubuntu", 
+                "ROS_MASTER_URI": "http://localhost:11311", 
+                "PATH": "/home/ubuntu/.local/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin", 
+                "PKG_CONFIG_PATH": "/home/ubuntu/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig", 
+                "HOME": "/home/ubuntu", 
+                "ROS_PACKAGE_PATH": "/home/ubuntu/catkin_ws/src:/opt/ros/melodic/share", 
+                "CMAKE_PREFIX_PATH": "/home/ubuntu/catkin_ws/devel:/opt/ros/melodic", 
+                "LD_LIBRARY_PATH": "/home/ubuntu/catkin_ws/devel/lib:/opt/ros/melodic/lib:/opt/ros/melodic/lib/aarch64-linux-gnu", 
+                "ROS_PYTHON_VERSION": "2", 
+                "INVOCATION_ID": "c56f3532851a4fca81879c6412bfd8b8"
+            }, 
+            "platform": "Linux-5.4.0-1050-raspi-aarch64-with-Ubuntu-18.04-bionic", 
+            "version": "#56~18.04.1-Ubuntu SMP PREEMPT Thu Jan 13 14:51:09 UTC 2022", 
+            "release": "5.4.0-1050-raspi", 
+            "docker": false, 
+            "os": "Linux", 
+            "processor": "aarch64"
+        }, 
+        "freedom_robotics": {
+            "device": "D36F4D9E51F228A3B221D203CB1", 
+            "freedom_python_module_version": "0.1.164", 
+            "token": "***E6AFC5DB", 
+            "account": "A139C78C471C762F34F31F8DD", 
+            "code_branch": "release"
+        }, 
+        "geo": {
+            "city": "San Francisco", 
+            "zip": "94103", 
+            "countryCode": "US", 
+            "country": "United States", 
+            "region": "CA", 
+            "isp": "Another Corporate ISP", 
+            "lon": -122.406, 
+            "as": "AS32329 Another Corporate ISP, LLC", 
+            "query": "199.241.200.231", 
+            "org": "MonkeyBrains", 
+            "lat": 37.7771, 
+            "timezone": "America/Los_Angeles", 
+            "regionName": "California"
+        }
+    }
+}

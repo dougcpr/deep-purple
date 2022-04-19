@@ -1,0 +1,30 @@
+[5.327s] Invoking command in '/home/ubuntu/ros2_foxy/build/ament_xmllint': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_lint PATH=/home/ubuntu/ros2_foxy/install/ament_copyright/bin:/home/ubuntu/ros2_foxy/install/ament_pep257/bin:/home/ubuntu/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_foxy/install/ament_xmllint/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_copyright/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_pep257/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_flake8/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint:/home/ubuntu/ros2_foxy/install/ament_lint/lib/python3.6/site-packages /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/ament_xmllint --editable --build-directory /home/ubuntu/ros2_foxy/build/ament_xmllint/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/ament_xmllint
+[7.830s] running develop
+[7.833s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.834s]   EasyInstallDeprecationWarning,
+[7.847s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.849s]   setuptools.SetuptoolsDeprecationWarning,
+[8.266s] /home/ubuntu/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[8.267s]   PkgResourcesDeprecationWarning,
+[9.039s] running egg_info
+[9.040s] creating ament_xmllint.egg-info
+[9.041s] writing ament_xmllint.egg-info/PKG-INFO
+[9.042s] writing dependency_links to ament_xmllint.egg-info/dependency_links.txt
+[9.043s] writing entry points to ament_xmllint.egg-info/entry_points.txt
+[9.044s] writing requirements to ament_xmllint.egg-info/requires.txt
+[9.044s] writing top-level names to ament_xmllint.egg-info/top_level.txt
+[9.052s] writing manifest file 'ament_xmllint.egg-info/SOURCES.txt'
+[9.061s] reading manifest file 'ament_xmllint.egg-info/SOURCES.txt'
+[9.066s] writing manifest file 'ament_xmllint.egg-info/SOURCES.txt'
+[9.074s] running build_ext
+[9.076s] Creating /home/ubuntu/ros2_foxy/install/ament_xmllint/lib/python3.6/site-packages/ament-xmllint.egg-link (link to .)
+[9.081s] Installing ament_xmllint script to /home/ubuntu/ros2_foxy/install/ament_xmllint/bin
+[9.083s] 
+[9.083s] Installed /home/ubuntu/ros2_foxy/build/ament_xmllint
+[9.084s] running install_data
+[9.085s] copying package.xml -> /home/ubuntu/ros2_foxy/install/ament_xmllint/share/ament_xmllint
+[9.086s] creating /home/ubuntu/ros2_foxy/install/ament_xmllint/share/ament_index
+[9.087s] creating /home/ubuntu/ros2_foxy/install/ament_xmllint/share/ament_index/resource_index
+[9.088s] creating /home/ubuntu/ros2_foxy/install/ament_xmllint/share/ament_index/resource_index/packages
+[9.089s] copying resource/ament_xmllint -> /home/ubuntu/ros2_foxy/install/ament_xmllint/share/ament_index/resource_index/packages
+[9.234s] Invoked command in '/home/ubuntu/ros2_foxy/build/ament_xmllint' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_lint PATH=/home/ubuntu/ros2_foxy/install/ament_copyright/bin:/home/ubuntu/ros2_foxy/install/ament_pep257/bin:/home/ubuntu/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_foxy/install/ament_xmllint/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_copyright/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_pep257/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_flake8/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint:/home/ubuntu/ros2_foxy/install/ament_lint/lib/python3.6/site-packages /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/ament_xmllint --editable --build-directory /home/ubuntu/ros2_foxy/build/ament_xmllint/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/ament_xmllint

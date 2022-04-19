@@ -1,0 +1,7 @@
+
+
+1645037494.019524773  Node Startup
+1645037500.562227010 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout] [FREEDOM] Starting to listen to topic: /rosout_agg
+1645037501.620486021 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout, /rosout_agg] [FREEDOM] Completed initializing LinkROS
+1645037511.039438009 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout, /rosout_agg, /tf] [FREEDOM] Starting to listen to topic: /video/click
+1645037511.053560972 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout, /rosout_agg, /tf, /video/click] [FREEDOM] Starting to listen to topic: /image_raw

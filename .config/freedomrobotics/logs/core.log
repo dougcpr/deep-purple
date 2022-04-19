@@ -1,0 +1,35 @@
+2021-04-01 18:43:43,110 [LINK ] [ 2392] [INFO ]   
+2021-04-01 18:43:43,111 [LINK ] [ 2392] [INFO ]  ###################################################################
+2021-04-01 18:43:43,111 [LINK ] [ 2392] [INFO ]  Freedom Robotics Device Link Python Package
+2021-04-01 18:43:43,112 [LINK ] [ 2392] [INFO ]  Copyright Freedom Robotics, Inc (c) 2020 - All Rights Reserved
+2021-04-01 18:43:43,112 [LINK ] [ 2392] [INFO ]  ###################################################################
+2021-04-01 18:43:43,113 [LINK ] [ 2392] [INFO ]   
+2021-04-01 18:43:43,113 [LINK ] [ 2392] [INFO ]   
+2021-04-01 18:43:43,118 [LINK ] [ 2392] [INFO ]  [FREEDOM] NEW SESSION INITIATED
+2021-04-01 18:43:43,169 [LINK ] [ 2392] [INFO ]  Increased open file descriptors limit to 100000
+2021-04-01 18:43:43,180 [LINK ] [ 2392] [INFO ]  [FREEDOM] Link `core` initialization complete.
+2021-04-01 18:43:44,046 [LINK ] [ 2392] [INFO ]  [FREEDOM] All data synchronized.
+2021-04-01 18:45:19,182 [LINK ] [ 2486] [INFO ]   
+2021-04-01 18:45:19,182 [LINK ] [ 2486] [INFO ]  ###################################################################
+2021-04-01 18:45:19,183 [LINK ] [ 2486] [INFO ]  Freedom Robotics Device Link Python Package
+2021-04-01 18:45:19,183 [LINK ] [ 2486] [INFO ]  Copyright Freedom Robotics, Inc (c) 2020 - All Rights Reserved
+2021-04-01 18:45:19,183 [LINK ] [ 2486] [INFO ]  ###################################################################
+2021-04-01 18:45:19,183 [LINK ] [ 2486] [INFO ]   
+2021-04-01 18:45:19,184 [LINK ] [ 2486] [INFO ]   
+2021-04-01 18:45:19,184 [LINK ] [ 2486] [INFO ]  [FREEDOM] NEW SESSION INITIATED
+2021-04-01 18:45:19,235 [LINK ] [ 2486] [INFO ]  Increased open file descriptors limit to 100000
+2021-04-01 18:45:19,245 [LINK ] [ 2486] [INFO ]  [FREEDOM] Link `core` initialization complete.
+2021-04-01 18:45:20,213 [LINK ] [ 2486] [INFO ]  [FREEDOM] All data synchronized.
+2021-04-01 18:45:51,920 [LINK ] [ 2547] [INFO ]   
+2021-04-01 18:45:51,921 [LINK ] [ 2547] [INFO ]  ###################################################################
+2021-04-01 18:45:51,921 [LINK ] [ 2547] [INFO ]  Freedom Robotics Device Link Python Package
+2021-04-01 18:45:51,922 [LINK ] [ 2547] [INFO ]  Copyright Freedom Robotics, Inc (c) 2020 - All Rights Reserved
+2021-04-01 18:45:51,922 [LINK ] [ 2547] [INFO ]  ###################################################################
+2021-04-01 18:45:51,923 [LINK ] [ 2547] [INFO ]   
+2021-04-01 18:45:51,923 [LINK ] [ 2547] [INFO ]   
+2021-04-01 18:45:51,924 [LINK ] [ 2547] [INFO ]  [FREEDOM] NEW SESSION INITIATED
+2021-04-01 18:45:51,975 [LINK ] [ 2547] [INFO ]  Increased open file descriptors limit to 100000
+2021-04-01 18:45:51,983 [LINK ] [ 2547] [INFO ]  [FREEDOM] Link `Core` initialization complete.
+2021-04-01 18:49:41,039 [LINK ] [ 2547] [INFO ]  I heard {'account': 'AA2E4916C77670BAA7DA84BD4', 'age': 0.1699, 'topic': '/commands', 'platform': 'custom', 'device': 'DCBCB2C933D41380633D02D59B5', 'message': {'data': 'mission'}, 'expiration_secs': 60, 'type': 'std_msgs/String', 'utc_time': 1617302980.82541}
+2021-04-01 18:49:41,041 [LINK ] [ 2547] [INFO ]  Running mission...
+2021-04-01 18:50:04,915 [LINK ] [ 2547] [INFO ]  [FREEDOM] All data synchronized.

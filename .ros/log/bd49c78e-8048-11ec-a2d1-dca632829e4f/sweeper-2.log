@@ -1,0 +1,372 @@
+[rospy.client][INFO] 2022-01-28 14:44:41,955: init_node, name[/sweeper], pid[1786]
+[xmlrpc][INFO] 2022-01-28 14:44:41,962: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-28 14:44:41,964: Started XML-RPC server [http://ubuntu:44721/]
+[rospy.init][INFO] 2022-01-28 14:44:41,964: ROS Slave URI: [http://ubuntu:44721/]
+[rospy.impl.masterslave][INFO] 2022-01-28 14:44:41,965: _ready: http://ubuntu:44721/
+[rospy.registration][INFO] 2022-01-28 14:44:41,968: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-28 14:44:41,968: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-28 14:44:42,066: registered with master
+[rospy.rosout][INFO] 2022-01-28 14:44:42,066: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-28 14:44:42,073: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-28 14:44:42,076: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-01-28 14:44:42,326: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-28 14:48:18,215: topic[/sweeper] adding connection to [http://ubuntu:35517/], count 0
+[rospy.core][INFO] 2022-01-28 14:55:01,238: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-28 14:55:01,256: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-28 14:55:01,257: topic[/sweeper] removing connection to http://ubuntu:35517/
+[rospy.impl.masterslave][INFO] 2022-01-28 14:55:01,258: signal-2
+[rospy.core][INFO] 2022-01-28 14:55:01,374: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-28 14:55:21,703: init_node, name[/sweeper], pid[12431]
+[xmlrpc][INFO] 2022-01-28 14:55:21,706: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-28 14:55:21,707: Started XML-RPC server [http://ubuntu:44349/]
+[rospy.impl.masterslave][INFO] 2022-01-28 14:55:21,709: _ready: http://ubuntu:44349/
+[rospy.init][INFO] 2022-01-28 14:55:21,710: ROS Slave URI: [http://ubuntu:44349/]
+[xmlrpc][INFO] 2022-01-28 14:55:21,714: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-01-28 14:55:21,716: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-01-28 14:55:21,811: registered with master
+[rospy.rosout][INFO] 2022-01-28 14:55:21,812: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-28 14:55:21,834: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-28 14:55:21,838: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-01-28 14:55:21,905: topic[/video/click] adding connection to [http://ubuntu:35517/], count 0
+[rospy.internal][ERROR] 2022-01-28 14:55:21,921: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 14:55:21,922: unable to create subscriber transport: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped].  Will try again in 0.5s
+[rospy.internal][INFO] 2022-01-28 14:55:22,073: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][ERROR] 2022-01-28 14:55:22,934: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 14:55:23,939: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 14:55:25,945: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 14:55:29,953: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 14:55:37,966: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 14:55:53,986: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 14:56:25,999: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 14:56:58,034: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 14:57:30,046: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 14:58:02,067: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 14:58:34,103: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 14:59:06,134: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 14:59:38,162: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 15:00:10,208: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 15:00:42,228: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 15:01:14,262: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 15:01:46,297: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 15:02:18,333: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 15:02:50,361: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 15:03:22,397: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 15:03:54,432: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 15:04:26,469: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 15:04:58,487: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.internal][ERROR] 2022-01-28 15:05:30,522: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]
+
+[rospy.core][INFO] 2022-01-28 15:05:42,920: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-28 15:05:42,928: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-28 15:05:42,929: topic[/video/click] removing connection to http://ubuntu:35517/
+[rospy.impl.masterslave][INFO] 2022-01-28 15:05:42,930: signal-2
+[rospy.core][INFO] 2022-01-28 15:05:43,031: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-28 15:06:07,936: init_node, name[/sweeper], pid[21138]
+[xmlrpc][INFO] 2022-01-28 15:06:07,944: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-28 15:06:07,945: Started XML-RPC server [http://ubuntu:38233/]
+[rospy.init][INFO] 2022-01-28 15:06:07,945: ROS Slave URI: [http://ubuntu:38233/]
+[rospy.impl.masterslave][INFO] 2022-01-28 15:06:07,946: _ready: http://ubuntu:38233/
+[xmlrpc][INFO] 2022-01-28 15:06:07,947: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-01-28 15:06:07,949: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-01-28 15:06:08,047: registered with master
+[rospy.rosout][INFO] 2022-01-28 15:06:08,048: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-28 15:06:08,067: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-28 15:06:08,075: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-01-28 15:06:08,185: topic[/chatter] adding connection to [http://ubuntu:45909/], count 0
+[rospy.internal][INFO] 2022-01-28 15:06:08,316: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-01-28 15:06:12,117: /sweeperI heard hello world 1643382372.11
+[rosout][INFO] 2022-01-28 15:06:16,115: /sweeperI heard hello world 1643382376.11
+[rosout][INFO] 2022-01-28 15:06:20,115: /sweeperI heard hello world 1643382380.11
+[rosout][INFO] 2022-01-28 15:06:24,118: /sweeperI heard hello world 1643382384.11
+[rosout][INFO] 2022-01-28 15:06:28,118: /sweeperI heard hello world 1643382388.11
+[rosout][INFO] 2022-01-28 15:06:32,118: /sweeperI heard hello world 1643382392.11
+[rosout][INFO] 2022-01-28 15:06:36,119: /sweeperI heard hello world 1643382396.11
+[rosout][INFO] 2022-01-28 15:06:40,118: /sweeperI heard hello world 1643382400.11
+[rosout][INFO] 2022-01-28 15:06:44,114: /sweeperI heard hello world 1643382404.11
+[rosout][INFO] 2022-01-28 15:06:48,121: /sweeperI heard hello world 1643382408.11
+[rosout][INFO] 2022-01-28 15:06:52,121: /sweeperI heard hello world 1643382412.11
+[rosout][INFO] 2022-01-28 15:06:56,119: /sweeperI heard hello world 1643382416.11
+[rosout][INFO] 2022-01-28 15:07:00,121: /sweeperI heard hello world 1643382420.11
+[rosout][INFO] 2022-01-28 15:07:04,117: /sweeperI heard hello world 1643382424.11
+[rosout][INFO] 2022-01-28 15:07:08,114: /sweeperI heard hello world 1643382428.11
+[rosout][INFO] 2022-01-28 15:07:12,121: /sweeperI heard hello world 1643382432.11
+[rospy.internal][INFO] 2022-01-28 15:07:12,693: topic[/chatter] adding connection to [http://ubuntu:35517/], count 1
+[rosout][INFO] 2022-01-28 15:07:16,120: /sweeperI heard hello world 1643382436.11
+[rosout][INFO] 2022-01-28 15:07:20,114: /sweeperI heard hello world 1643382440.11
+[rosout][INFO] 2022-01-28 15:07:24,116: /sweeperI heard hello world 1643382444.11
+[rosout][INFO] 2022-01-28 15:07:28,120: /sweeperI heard hello world 1643382448.11
+[rosout][INFO] 2022-01-28 15:07:32,114: /sweeperI heard hello world 1643382452.11
+[rosout][INFO] 2022-01-28 15:07:36,114: /sweeperI heard hello world 1643382456.11
+[rosout][INFO] 2022-01-28 15:07:40,115: /sweeperI heard hello world 1643382460.11
+[rosout][INFO] 2022-01-28 15:07:44,121: /sweeperI heard hello world 1643382464.11
+[rosout][INFO] 2022-01-28 15:07:48,118: /sweeperI heard hello world 1643382468.11
+[rosout][INFO] 2022-01-28 15:07:52,117: /sweeperI heard hello world 1643382472.11
+[rosout][INFO] 2022-01-28 15:07:56,118: /sweeperI heard hello world 1643382476.11
+[rosout][INFO] 2022-01-28 15:08:00,115: /sweeperI heard hello world 1643382480.11
+[rosout][INFO] 2022-01-28 15:08:04,119: /sweeperI heard hello world 1643382484.11
+[rosout][INFO] 2022-01-28 15:08:08,117: /sweeperI heard hello world 1643382488.11
+[rosout][INFO] 2022-01-28 15:08:12,116: /sweeperI heard hello world 1643382492.11
+[rosout][INFO] 2022-01-28 15:08:16,122: /sweeperI heard hello world 1643382496.11
+[rosout][INFO] 2022-01-28 15:08:20,114: /sweeperI heard hello world 1643382500.11
+[rosout][INFO] 2022-01-28 15:08:24,114: /sweeperI heard hello world 1643382504.11
+[rosout][INFO] 2022-01-28 15:08:28,120: /sweeperI heard hello world 1643382508.11
+[rosout][INFO] 2022-01-28 15:08:32,116: /sweeperI heard hello world 1643382512.11
+[rosout][INFO] 2022-01-28 15:08:36,119: /sweeperI heard hello world 1643382516.11
+[rosout][INFO] 2022-01-28 15:08:40,121: /sweeperI heard hello world 1643382520.11
+[rosout][INFO] 2022-01-28 15:08:44,119: /sweeperI heard hello world 1643382524.11
+[rosout][INFO] 2022-01-28 15:08:48,115: /sweeperI heard hello world 1643382528.11
+[rosout][INFO] 2022-01-28 15:08:52,114: /sweeperI heard hello world 1643382532.11
+[rosout][INFO] 2022-01-28 15:08:56,117: /sweeperI heard hello world 1643382536.11
+[rosout][INFO] 2022-01-28 15:09:00,119: /sweeperI heard hello world 1643382540.11
+[rosout][INFO] 2022-01-28 15:09:04,120: /sweeperI heard hello world 1643382544.11
+[rosout][INFO] 2022-01-28 15:09:08,118: /sweeperI heard hello world 1643382548.11
+[rosout][INFO] 2022-01-28 15:09:12,119: /sweeperI heard hello world 1643382552.11
+[rosout][INFO] 2022-01-28 15:09:16,116: /sweeperI heard hello world 1643382556.11
+[rosout][INFO] 2022-01-28 15:09:20,119: /sweeperI heard hello world 1643382560.11
+[rosout][INFO] 2022-01-28 15:09:24,119: /sweeperI heard hello world 1643382564.11
+[rosout][INFO] 2022-01-28 15:09:28,114: /sweeperI heard hello world 1643382568.11
+[rosout][INFO] 2022-01-28 15:09:32,127: /sweeperI heard hello world 1643382572.11
+[rosout][INFO] 2022-01-28 15:09:36,119: /sweeperI heard hello world 1643382576.11
+[rosout][INFO] 2022-01-28 15:09:40,125: /sweeperI heard hello world 1643382580.11
+[rosout][INFO] 2022-01-28 15:09:44,120: /sweeperI heard hello world 1643382584.11
+[rosout][INFO] 2022-01-28 15:09:48,119: /sweeperI heard hello world 1643382588.11
+[rosout][INFO] 2022-01-28 15:09:52,121: /sweeperI heard hello world 1643382592.11
+[rosout][INFO] 2022-01-28 15:09:56,121: /sweeperI heard hello world 1643382596.11
+[rosout][INFO] 2022-01-28 15:10:00,121: /sweeperI heard hello world 1643382600.11
+[rosout][INFO] 2022-01-28 15:10:04,118: /sweeperI heard hello world 1643382604.11
+[rosout][INFO] 2022-01-28 15:10:08,122: /sweeperI heard hello world 1643382608.11
+[rosout][INFO] 2022-01-28 15:10:12,121: /sweeperI heard hello world 1643382612.11
+[rosout][INFO] 2022-01-28 15:10:16,121: /sweeperI heard hello world 1643382616.11
+[rosout][INFO] 2022-01-28 15:10:20,117: /sweeperI heard hello world 1643382620.11
+[rosout][INFO] 2022-01-28 15:10:24,117: /sweeperI heard hello world 1643382624.11
+[rosout][INFO] 2022-01-28 15:10:28,116: /sweeperI heard hello world 1643382628.11
+[rosout][INFO] 2022-01-28 15:10:32,123: /sweeperI heard hello world 1643382632.11
+[rospy.internal][INFO] 2022-01-28 15:10:32,338: topic[/rosout] removing connection to /rosout
+[rospy.internal][ERROR] 2022-01-28 15:10:32,784: Unable to initiate TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2022-01-28 15:10:33,789: Unknown error initiating TCP/IP socket to ubuntu:42777 (http://ubuntu:35517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-01-28 15:10:33,790: topic[/chatter] removing connection to http://ubuntu:35517/
+[rospy.core][INFO] 2022-01-28 15:10:33,839: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2022-01-28 15:10:33,841: cannot unregister with master due to network issues
+[rospy.internal][INFO] 2022-01-28 15:10:33,842: topic[/chatter] removing connection to http://ubuntu:45909/
+[rospy.impl.masterslave][INFO] 2022-01-28 15:10:33,843: signal-2
+[rospy.internal][WARNING] 2022-01-28 15:10:33,844: Unknown error initiating TCP/IP socket to ubuntu:42165 (http://ubuntu:45909/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2022-01-28 15:10:34,459: signal_shutdown [atexit]

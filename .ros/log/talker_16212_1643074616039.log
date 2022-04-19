@@ -1,0 +1,25 @@
+[rospy.client][INFO] 2022-01-25 01:36:56,097: init_node, name[/talker_16212_1643074616039], pid[16212]
+[xmlrpc][INFO] 2022-01-25 01:36:56,098: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-25 01:36:56,099: Started XML-RPC server [http://ubuntu:39705/]
+[rospy.init][INFO] 2022-01-25 01:36:56,100: ROS Slave URI: [http://ubuntu:39705/]
+[rospy.impl.masterslave][INFO] 2022-01-25 01:36:56,100: _ready: http://ubuntu:39705/
+[rospy.registration][INFO] 2022-01-25 01:36:56,103: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-25 01:36:56,103: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-01-25 01:36:56,104: Registering publisher topic [/chatter] type [std_msgs/String] with master
+[rospy.internal][INFO] 2022-01-25 01:36:56,185: topic[/chatter] adding connection to [/link_ros], count 0
+[rospy.init][INFO] 2022-01-25 01:36:56,201: registered with master
+[rospy.rosout][INFO] 2022-01-25 01:36:56,202: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-25 01:36:56,207: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-25 01:36:56,211: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2022-01-25 01:36:56,218: hello world 1643074616.218449
+[rospy.internal][INFO] 2022-01-25 01:36:56,457: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-01-25 01:36:57,219: hello world 1643074617.219676
+[rosout][INFO] 2022-01-25 01:36:58,220: hello world 1643074618.219924
+[rosout][INFO] 2022-01-25 01:36:59,220: hello world 1643074619.2198265
+[rosout][INFO] 2022-01-25 01:37:00,219: hello world 1643074620.2196574
+[rosout][INFO] 2022-01-25 01:37:01,220: hello world 1643074621.2198455
+[rospy.core][INFO] 2022-01-25 01:37:02,129: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-25 01:37:02,141: topic[/chatter] removing connection to /link_ros
+[rospy.internal][INFO] 2022-01-25 01:37:02,141: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-01-25 01:37:02,142: signal-2
+[rospy.core][INFO] 2022-01-25 01:37:02,981: signal_shutdown [atexit]

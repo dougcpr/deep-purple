@@ -1,0 +1,97 @@
+{
+    "code": "FRA_LINK_BASE_GENERIC", 
+    "logs": [
+        "Traceback (most recent call last):", 
+        "", 
+        "  File \"freedomrobotics/link_ros_base.py\", line 370, in freedomrobotics.link_ros_base.LinkROSBase.__remote_message_callback", 
+        "", 
+        "TypeError: coercing to Unicode: need string or buffer, NoneType found", 
+        ""
+    ], 
+    "level": "fatal", 
+    "errorMessage": "Exception in link_ros remote message callback: <type 'exceptions.TypeError'> coercing to Unicode: need string or buffer, NoneType found", 
+    "component": "agent", 
+    "attributes": {
+        "python": {
+            "implementation": "CPython", 
+            "version": "2.7.17", 
+            "build": [
+                "default", 
+                "Feb 27 2021 15:10:58"
+            ]
+        }, 
+        "thread": {
+            "daemon": false, 
+            "name": "freedom_link_ros_commands_thread"
+        }, 
+        "geo": {
+            "city": "San Francisco", 
+            "zip": "94103", 
+            "countryCode": "US", 
+            "country": "United States", 
+            "region": "CA", 
+            "isp": "Another Corporate ISP", 
+            "lon": -122.406, 
+            "as": "AS32329 Another Corporate ISP, LLC", 
+            "query": "199.241.200.231", 
+            "org": "MonkeyBrains", 
+            "lat": 37.7771, 
+            "timezone": "America/Los_Angeles", 
+            "regionName": "California"
+        }, 
+        "system": {
+            "linux_dist": [
+                "Ubuntu", 
+                "18.04", 
+                "bionic"
+            ], 
+            "ip": "199.241.200.231", 
+            "user": "ubuntu", 
+            "arch": "Unknown: aarch64", 
+            "service": "systemd", 
+            "hostname": "ubuntu", 
+            "environment": {
+                "ROS_DISTRO": "melodic", 
+                "ROSLISP_PACKAGE_DIRECTORIES": "/home/ubuntu/catkin_ws/devel/share/common-lisp", 
+                "LOGNAME": "ubuntu", 
+                "USER": "ubuntu", 
+                "PATH": "/opt/ros/melodic/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin", 
+                "HOME": "/home/ubuntu", 
+                "CMAKE_PREFIX_PATH": "/home/ubuntu/catkin_ws/devel:/opt/ros/melodic", 
+                "ROS_LOG_FILENAME": "/home/ubuntu/.ros/log/link_ros.log", 
+                "LANG": "C.UTF-8", 
+                "SHELL": "/bin/bash", 
+                "JOURNAL_STREAM": "9:34443617", 
+                "SHLVL": "1", 
+                "LD_LIBRARY_PATH": "/home/ubuntu/catkin_ws/devel/lib:/opt/ros/melodic/lib:/opt/ros/melodic/lib/aarch64-linux-gnu", 
+                "ROS_MASTER_URI": "http://localhost:11311", 
+                "ROS_PYTHON_VERSION": "2", 
+                "INVOCATION_ID": "10fca866381041afa778caf46764e5ee", 
+                "PYTHONPATH": "/home/ubuntu/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages", 
+                "ROS_ROOT": "/opt/ros/melodic/share/ros", 
+                "PKG_CONFIG_PATH": "/home/ubuntu/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig", 
+                "ROS_PACKAGE_PATH": "/home/ubuntu/catkin_ws/src:/opt/ros/melodic/share", 
+                "_": "/usr/bin/python", 
+                "LD_PRELOAD": "/usr/lib/aarch64-linux-gnu/coreutils/libstdbuf.so", 
+                "_STDBUF_O": "L", 
+                "_STDBUF_E": "L", 
+                "PWD": "/", 
+                "ROS_ETC_DIR": "/opt/ros/melodic/etc/ros", 
+                "ROS_VERSION": "1"
+            }, 
+            "platform": "Linux-5.4.0-1050-raspi-aarch64-with-Ubuntu-18.04-bionic", 
+            "version": "#56~18.04.1-Ubuntu SMP PREEMPT Thu Jan 13 14:51:09 UTC 2022", 
+            "release": "5.4.0-1050-raspi", 
+            "docker": false, 
+            "os": "Linux", 
+            "processor": "aarch64"
+        }, 
+        "freedom_robotics": {
+            "device": "D664A28E6EBCEEF5A1480EC3F8B", 
+            "freedom_python_module_version": "0.1.165", 
+            "token": "***1087DA0E", 
+            "account": "AA2E4916C77670BAA7DA84BD4", 
+            "code_branch": "release"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+[7.205s] Invoking command in '/home/ubuntu/ros2_foxy/build/ament_package': PYTHONPATH=/home/ubuntu/ros2_foxy/install/ament_package/lib/python3.6/site-packages: /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/ament_package --editable --build-directory /home/ubuntu/ros2_foxy/build/ament_package/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/ament_package
+[9.543s] running develop
+[9.547s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.549s]   EasyInstallDeprecationWarning,
+[9.556s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.557s]   setuptools.SetuptoolsDeprecationWarning,
+[9.901s] /home/ubuntu/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[9.902s]   PkgResourcesDeprecationWarning,
+[10.653s] running egg_info
+[10.654s] creating ament_package.egg-info
+[10.655s] writing ament_package.egg-info/PKG-INFO
+[10.657s] writing dependency_links to ament_package.egg-info/dependency_links.txt
+[10.659s] writing top-level names to ament_package.egg-info/top_level.txt
+[10.672s] writing manifest file 'ament_package.egg-info/SOURCES.txt'
+[10.689s] reading manifest file 'ament_package.egg-info/SOURCES.txt'
+[10.695s] writing manifest file 'ament_package.egg-info/SOURCES.txt'
+[10.706s] running build_ext
+[10.707s] Creating /home/ubuntu/ros2_foxy/install/ament_package/lib/python3.6/site-packages/ament-package.egg-link (link to .)
+[10.708s] 
+[10.710s] Installed /home/ubuntu/ros2_foxy/build/ament_package
+[10.711s] running install_data
+[10.712s] copying package.xml -> /home/ubuntu/ros2_foxy/install/ament_package/share/ament_package
+[10.713s] creating /home/ubuntu/ros2_foxy/install/ament_package/share/ament_index
+[10.715s] creating /home/ubuntu/ros2_foxy/install/ament_package/share/ament_index/resource_index
+[10.720s] creating /home/ubuntu/ros2_foxy/install/ament_package/share/ament_index/resource_index/packages
+[10.721s] copying resource/ament_package -> /home/ubuntu/ros2_foxy/install/ament_package/share/ament_index/resource_index/packages
+[10.913s] Invoked command in '/home/ubuntu/ros2_foxy/build/ament_package' returned '0': PYTHONPATH=/home/ubuntu/ros2_foxy/install/ament_package/lib/python3.6/site-packages: /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/ament_package --editable --build-directory /home/ubuntu/ros2_foxy/build/ament_package/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/ament_package

@@ -1,0 +1,22 @@
+[rospy.client][INFO] 2022-01-20 15:19:35,973: init_node, name[/talker_18571_1642691975925], pid[18571]
+[xmlrpc][INFO] 2022-01-20 15:19:35,978: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-20 15:19:35,979: Started XML-RPC server [http://ubuntu:34263/]
+[rospy.init][INFO] 2022-01-20 15:19:35,980: ROS Slave URI: [http://ubuntu:34263/]
+[rospy.impl.masterslave][INFO] 2022-01-20 15:19:35,980: _ready: http://ubuntu:34263/
+[xmlrpc][INFO] 2022-01-20 15:19:35,982: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-01-20 15:19:35,982: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2022-01-20 15:19:35,983: Registering publisher topic [/chatter] type [std_msgs/String] with master
+[rospy.init][INFO] 2022-01-20 15:19:36,081: registered with master
+[rospy.rosout][INFO] 2022-01-20 15:19:36,082: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-20 15:19:36,088: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-20 15:19:36,092: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2022-01-20 15:19:36,098: hello world 1642691976.1
+[rospy.internal][INFO] 2022-01-20 15:19:36,321: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-01-20 15:19:40,102: hello world 1642691980.1
+[rosout][INFO] 2022-01-20 15:19:44,102: hello world 1642691984.1
+[rosout][INFO] 2022-01-20 15:19:48,102: hello world 1642691988.1
+[rosout][INFO] 2022-01-20 15:19:52,102: hello world 1642691992.1
+[rospy.core][INFO] 2022-01-20 15:19:55,698: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-20 15:19:55,709: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-01-20 15:19:55,711: signal-2
+[rospy.core][INFO] 2022-01-20 15:19:55,820: signal_shutdown [atexit]

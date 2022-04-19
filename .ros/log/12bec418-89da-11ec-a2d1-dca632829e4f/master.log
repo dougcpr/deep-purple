@@ -1,0 +1,116 @@
+[rosmaster.main][INFO] 2022-02-09 18:57:06,746: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-02-09 18:57:06,746: Starting ROS Master Node
+[xmlrpc][INFO] 2022-02-09 18:57:06,748: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-02-09 18:57:06,749: Started XML-RPC server [http://ubuntu:11311/]
+[rosmaster.master][INFO] 2022-02-09 18:57:06,750: Master initialized: port[11311], uri[http://ubuntu:11311/]
+[xmlrpc][INFO] 2022-02-09 18:57:06,750: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-02-09 18:57:06,824: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-02-09 18:57:06,827: +PARAM [/roslaunch/uris/host_ubuntu__38093] by /roslaunch
+[rosmaster.master][INFO] 2022-02-09 18:57:06,955: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-02-09 18:57:06,955: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-02-09 18:57:06,989: +SERVICE [/rosout/get_loggers] /rosout http://ubuntu:43109/
+[rosmaster.master][INFO] 2022-02-09 18:57:06,991: +SERVICE [/rosout/set_logger_level] /rosout http://ubuntu:43109/
+[rosmaster.master][INFO] 2022-02-09 18:57:06,994: +PUB [/rosout_agg] /rosout http://ubuntu:43109/
+[rosmaster.master][INFO] 2022-02-09 18:57:07,002: +SUB [/rosout] /rosout http://ubuntu:43109/
+[rosmaster.master][INFO] 2022-02-09 18:57:10,411: +PUB [/rosout] /link_ros http://ubuntu:44605/
+[rosmaster.master][INFO] 2022-02-09 18:57:10,419: +SERVICE [/link_ros/get_loggers] /link_ros http://ubuntu:44605/
+[rosmaster.master][INFO] 2022-02-09 18:57:10,421: +SERVICE [/link_ros/set_logger_level] /link_ros http://ubuntu:44605/
+[rosmaster.master][INFO] 2022-02-09 18:57:10,456: publisherUpdate[/rosout] -> http://ubuntu:43109/ ['http://ubuntu:44605/']
+[rosmaster.master][INFO] 2022-02-09 18:57:10,471: publisherUpdate[/rosout] -> http://ubuntu:43109/ ['http://ubuntu:44605/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-09 18:57:13,093: +CACHEDPARAM [/rosout_disable_topics_generation] by /link_ros
+[rosmaster.master][INFO] 2022-02-09 18:57:13,096: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2022-02-09 18:57:13,110: +SUB [/rosout_agg] /link_ros http://ubuntu:44605/
+[rosmaster.master][INFO] 2022-02-09 18:57:14,118: +CACHEDPARAM [/rosout_disable_topics_generation] by /link_ros
+[rosmaster.master][INFO] 2022-02-09 18:57:14,129: +SERVICE [/link_ros/tf2_frames] /link_ros http://ubuntu:44605/
+[rosmaster.master][INFO] 2022-02-09 18:57:14,133: +SUB [/tf] /link_ros http://ubuntu:44605/
+[rosmaster.master][INFO] 2022-02-09 18:57:14,138: +SUB [/tf_static] /link_ros http://ubuntu:44605/
+[rosmaster.master][INFO] 2022-02-09 18:57:26,356: +PARAM [/roslaunch/uris/host_ubuntu__41397] by /roslaunch
+[rosmaster.master][INFO] 2022-02-09 18:57:26,362: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-02-09 18:57:26,363: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-02-09 18:57:27,922: +PUB [/video/click] /talker http://ubuntu:42241/
+[rosmaster.master][INFO] 2022-02-09 18:57:27,924: +PUB [/rosout] /listener http://ubuntu:38523/
+[rosmaster.master][INFO] 2022-02-09 18:57:27,935: +SERVICE [/listener/get_loggers] /listener http://ubuntu:38523/
+[rosmaster.master][INFO] 2022-02-09 18:57:27,937: +SERVICE [/listener/set_logger_level] /listener http://ubuntu:38523/
+[rosmaster.master][INFO] 2022-02-09 18:57:27,943: +SUB [/video/click] /listener http://ubuntu:38523/
+[rosmaster.master][INFO] 2022-02-09 18:57:27,993: publisherUpdate[/rosout] -> http://ubuntu:43109/ ['http://ubuntu:44605/', 'http://ubuntu:38523/']
+[rosmaster.master][INFO] 2022-02-09 18:57:28,003: publisherUpdate[/rosout] -> http://ubuntu:43109/ ['http://ubuntu:44605/', 'http://ubuntu:38523/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-09 18:57:28,017: +PUB [/rosout] /talker http://ubuntu:42241/
+[rosmaster.master][INFO] 2022-02-09 18:57:28,023: +SERVICE [/talker/get_loggers] /talker http://ubuntu:42241/
+[rosmaster.master][INFO] 2022-02-09 18:57:28,023: publisherUpdate[/rosout] -> http://ubuntu:43109/ ['http://ubuntu:44605/', 'http://ubuntu:38523/', 'http://ubuntu:42241/']
+[rosmaster.master][INFO] 2022-02-09 18:57:28,028: publisherUpdate[/rosout] -> http://ubuntu:43109/ ['http://ubuntu:44605/', 'http://ubuntu:38523/', 'http://ubuntu:42241/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-09 18:57:28,029: +SERVICE [/talker/set_logger_level] /talker http://ubuntu:42241/
+[rosmaster.master][INFO] 2022-02-09 18:57:28,679: +PUB [/image_raw] /webcam http://ubuntu:40451/
+[rosmaster.master][INFO] 2022-02-09 18:57:28,778: +PUB [/rosout] /webcam http://ubuntu:40451/
+[rosmaster.master][INFO] 2022-02-09 18:57:28,787: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:40451/
+[rosmaster.master][INFO] 2022-02-09 18:57:28,790: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:40451/
+[rosmaster.master][INFO] 2022-02-09 18:57:28,800: publisherUpdate[/rosout] -> http://ubuntu:43109/ ['http://ubuntu:44605/', 'http://ubuntu:38523/', 'http://ubuntu:42241/', 'http://ubuntu:40451/']
+[rosmaster.master][INFO] 2022-02-09 18:57:28,806: publisherUpdate[/rosout] -> http://ubuntu:43109/ ['http://ubuntu:44605/', 'http://ubuntu:38523/', 'http://ubuntu:42241/', 'http://ubuntu:40451/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-09 18:57:29,641: +CACHEDPARAM [/rosout_disable_topics_generation] by /link_ros
+[rosmaster.master][INFO] 2022-02-09 18:57:29,652: +SUB [/video/click] /link_ros http://ubuntu:44605/
+[rosmaster.master][INFO] 2022-02-09 18:57:29,659: +CACHEDPARAM [/rosout_disable_topics_generation] by /link_ros
+[rosmaster.master][INFO] 2022-02-09 18:57:29,666: +SUB [/image_raw] /link_ros http://ubuntu:44605/
+[rosmaster.master][INFO] 2022-02-09 19:38:31,123: +CACHEDPARAM [/rosout_disable_topics_generation] by /link_ros
+[rosmaster.master][INFO] 2022-02-09 19:38:31,128: +PUB [/cmd_vel] /link_ros http://ubuntu:44605/
+[rosmaster.master][INFO] 2022-02-09 19:38:31,131: +CACHEDPARAM [/rosout_disable_topics_generation] by /link_ros
+[rosmaster.master][INFO] 2022-02-09 19:38:31,140: +SUB [/cmd_vel] /link_ros http://ubuntu:44605/
+[rosmaster.master][INFO] 2022-02-09 23:09:18,096: -PUB [/rosout] /talker http://ubuntu:42241/
+[rosmaster.master][INFO] 2022-02-09 23:09:18,097: -PUB [/video/click] /talker http://ubuntu:42241/
+[rosmaster.master][INFO] 2022-02-09 23:09:18,097: publisherUpdate[/rosout] -> http://ubuntu:43109/ ['http://ubuntu:44605/', 'http://ubuntu:38523/', 'http://ubuntu:40451/']
+[rosmaster.master][INFO] 2022-02-09 23:09:18,100: -SUB [/video/click] /listener http://ubuntu:38523/
+[rosmaster.master][INFO] 2022-02-09 23:09:18,101: -SERVICE [/talker/get_loggers] /talker rosrpc://ubuntu:42623
+[rosmaster.master][INFO] 2022-02-09 23:09:18,102: publisherUpdate[/rosout] -> http://ubuntu:43109/ ['http://ubuntu:44605/', 'http://ubuntu:38523/', 'http://ubuntu:40451/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-09 23:09:18,102: -PUB [/rosout] /listener http://ubuntu:38523/
+[rosmaster.master][INFO] 2022-02-09 23:09:18,103: publisherUpdate[/video/click] -> http://ubuntu:38523/ []
+[rosmaster.master][INFO] 2022-02-09 23:09:18,103: -SERVICE [/talker/set_logger_level] /talker rosrpc://ubuntu:42623
+[rosmaster.master][INFO] 2022-02-09 23:09:18,105: -SERVICE [/listener/set_logger_level] /listener rosrpc://ubuntu:39941
+[rosmaster.master][INFO] 2022-02-09 23:09:18,105: -SERVICE [/listener/get_loggers] /listener rosrpc://ubuntu:39941
+[rosmaster.master][INFO] 2022-02-09 23:09:18,151: -PUB [/rosout] /webcam http://ubuntu:40451/
+[rosmaster.master][INFO] 2022-02-09 23:09:18,152: -PUB [/image_raw] /webcam http://ubuntu:40451/
+[rosmaster.master][INFO] 2022-02-09 23:09:18,152: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:36315
+[rosmaster.master][INFO] 2022-02-09 23:09:18,153: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:36315
+[rosmaster.master][INFO] 2022-02-09 23:09:18,197: publisherUpdate[/video/click] -> http://ubuntu:44605/ []
+[rosmaster.master][INFO] 2022-02-09 23:09:18,198: publisherUpdate[/rosout] -> http://ubuntu:43109/ ['http://ubuntu:44605/', 'http://ubuntu:40451/']
+[rosmaster.master][INFO] 2022-02-09 23:09:18,201: publisherUpdate[/rosout] -> http://ubuntu:43109/ ['http://ubuntu:44605/', 'http://ubuntu:40451/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-09 23:09:18,203: publisherUpdate[/rosout] -> http://ubuntu:43109/ ['http://ubuntu:44605/']
+[rosmaster.master][INFO] 2022-02-09 23:09:18,205: publisherUpdate[/rosout] -> http://ubuntu:43109/ ['http://ubuntu:44605/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-09 23:09:18,206: publisherUpdate[/video/click] -> http://ubuntu:44605/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-09 23:09:18,207: publisherUpdate[/image_raw] -> http://ubuntu:44605/ []
+[rosmaster.master][INFO] 2022-02-09 23:09:18,210: publisherUpdate[/image_raw] -> http://ubuntu:44605/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-09 23:09:18,306: -PUB [/rosout_agg] /rosout http://ubuntu:43109/
+[rosmaster.master][INFO] 2022-02-09 23:09:18,307: publisherUpdate[/rosout_agg] -> http://ubuntu:44605/ []
+[rosmaster.master][INFO] 2022-02-09 23:09:18,311: -SUB [/rosout] /rosout http://ubuntu:43109/
+[rosmaster.master][INFO] 2022-02-09 23:09:18,314: -SERVICE [/rosout/get_loggers] /rosout rosrpc://ubuntu:35365
+[rosmaster.master][INFO] 2022-02-09 23:09:18,317: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://ubuntu:35365
+[rosmaster.master][INFO] 2022-02-09 23:09:18,319: publisherUpdate[/rosout_agg] -> http://ubuntu:44605/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-09 23:09:18,322: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2022-02-09 23:09:18,467: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2022-02-09 23:09:18,467: stopping master...
+[rospy.core][INFO] 2022-02-09 23:09:18,468: signal_shutdown [atexit]
+[rosmaster.master][INFO] 2022-02-09 23:09:18,532: publisherUpdate[/video/click] -> http://ubuntu:38523/ []: sec=0.43, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2022-02-09 23:09:18,537: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1095, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 898, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 860, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 837, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+

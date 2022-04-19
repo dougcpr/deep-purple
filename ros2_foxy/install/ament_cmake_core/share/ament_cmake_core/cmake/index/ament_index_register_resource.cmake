@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_foxy/src/ament/ament_cmake/ament_cmake_core/cmake/index/ament_index_register_resource.cmake

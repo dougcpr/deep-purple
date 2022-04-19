@@ -1,0 +1,30 @@
+[6.968s] Invoking command in '/home/ubuntu/ros2_foxy/build/ament_lint_cmake': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_lint PATH=/home/ubuntu/ros2_foxy/install/ament_copyright/bin:/home/ubuntu/ros2_foxy/install/ament_pep257/bin:/home/ubuntu/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_foxy/install/ament_lint_cmake/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_copyright/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_pep257/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_flake8/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint:/home/ubuntu/ros2_foxy/install/ament_lint/lib/python3.6/site-packages /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/ament_lint_cmake --editable --build-directory /home/ubuntu/ros2_foxy/build/ament_lint_cmake/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/ament_lint_cmake
+[9.206s] running develop
+[9.209s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.211s]   EasyInstallDeprecationWarning,
+[9.218s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.219s]   setuptools.SetuptoolsDeprecationWarning,
+[9.578s] /home/ubuntu/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[9.579s]   PkgResourcesDeprecationWarning,
+[10.390s] running egg_info
+[10.391s] creating ament_lint_cmake.egg-info
+[10.392s] writing ament_lint_cmake.egg-info/PKG-INFO
+[10.392s] writing dependency_links to ament_lint_cmake.egg-info/dependency_links.txt
+[10.393s] writing entry points to ament_lint_cmake.egg-info/entry_points.txt
+[10.394s] writing requirements to ament_lint_cmake.egg-info/requires.txt
+[10.395s] writing top-level names to ament_lint_cmake.egg-info/top_level.txt
+[10.406s] writing manifest file 'ament_lint_cmake.egg-info/SOURCES.txt'
+[10.415s] reading manifest file 'ament_lint_cmake.egg-info/SOURCES.txt'
+[10.416s] writing manifest file 'ament_lint_cmake.egg-info/SOURCES.txt'
+[10.425s] running build_ext
+[10.426s] Creating /home/ubuntu/ros2_foxy/install/ament_lint_cmake/lib/python3.6/site-packages/ament-lint-cmake.egg-link (link to .)
+[10.431s] Installing ament_lint_cmake script to /home/ubuntu/ros2_foxy/install/ament_lint_cmake/bin
+[10.433s] 
+[10.434s] Installed /home/ubuntu/ros2_foxy/build/ament_lint_cmake
+[10.435s] running install_data
+[10.436s] copying package.xml -> /home/ubuntu/ros2_foxy/install/ament_lint_cmake/share/ament_lint_cmake
+[10.437s] creating /home/ubuntu/ros2_foxy/install/ament_lint_cmake/share/ament_index
+[10.438s] creating /home/ubuntu/ros2_foxy/install/ament_lint_cmake/share/ament_index/resource_index
+[10.440s] creating /home/ubuntu/ros2_foxy/install/ament_lint_cmake/share/ament_index/resource_index/packages
+[10.441s] copying resource/ament_lint_cmake -> /home/ubuntu/ros2_foxy/install/ament_lint_cmake/share/ament_index/resource_index/packages
+[10.606s] Invoked command in '/home/ubuntu/ros2_foxy/build/ament_lint_cmake' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_lint PATH=/home/ubuntu/ros2_foxy/install/ament_copyright/bin:/home/ubuntu/ros2_foxy/install/ament_pep257/bin:/home/ubuntu/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_foxy/install/ament_lint_cmake/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_copyright/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_pep257/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_flake8/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint:/home/ubuntu/ros2_foxy/install/ament_lint/lib/python3.6/site-packages /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/ament_lint_cmake --editable --build-directory /home/ubuntu/ros2_foxy/build/ament_lint_cmake/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/ament_lint_cmake

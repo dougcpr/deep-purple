@@ -1,0 +1,531 @@
+2021-02-13 15:57:15 [INFO ]  ################################################################################
+2021-02-13 15:57:15 [INFO ]  
+2021-02-13 15:57:15 [INFO ]  Installing FREEDOM ROBOTICS Micro Service
+2021-02-13 15:57:15 [INFO ]  
+2021-02-13 15:57:15 [INFO ]  Copyright Freedom Robotics Inc 2020. All rights reserved. Confidential.
+2021-02-13 15:57:15 [INFO ]  
+2021-02-13 15:57:15 [INFO ]  ################################################################################
+2021-02-13 15:57:15 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "whoami"
+2021-02-13 15:57:15 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s
+2021-02-13 15:57:15 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "sudo -nv"
+2021-02-13 15:57:15 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.03s
+2021-02-13 15:57:15 [INFO ]  
+2021-02-13 15:57:15 [INFO ]  Step 1/7: VERIFYING PREREQUISITES
+2021-02-13 15:57:15 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -m pip &> /dev/null"
+2021-02-13 15:57:16 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.47s
+2021-02-13 15:57:16 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2021-02-13 15:57:16 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.10s
+2021-02-13 15:57:16 [DEBUG]  Using the python3 binary specified in credentials file: /usr/bin/python3. Try to remove credentials file or its `python3` item if you want the installation script to reconsider the best python3 available option.
+2021-02-13 15:57:16 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2021-02-13 15:57:16 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.10s
+2021-02-13 15:57:16 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip &> /dev/null"
+2021-02-13 15:57:20 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 4.20s
+2021-02-13 15:57:21 [DEBUG]  Urllib2 can be use for ssl communication.
+2021-02-13 15:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' python-dev"
+2021-02-13 15:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-02-13 15:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' python3-dev"
+2021-02-13 15:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-02-13 15:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' pkg-config"
+2021-02-13 15:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-02-13 15:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' libopus-dev"
+2021-02-13 15:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-02-13 15:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' libvpx-dev"
+2021-02-13 15:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-02-13 15:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' libffi-dev"
+2021-02-13 15:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-02-13 15:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' libssl-dev"
+2021-02-13 15:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-02-13 15:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' libsrtp2-dev"
+2021-02-13 15:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-02-13 15:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' python3-dev"
+2021-02-13 15:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-02-13 15:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pkg-config --modversion libavdevice"
+2021-02-13 15:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.01s
+2021-02-13 15:57:21 [DEBUG]  Found library libavdevice installed at version 58.8.100
+2021-02-13 15:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pkg-config --modversion libavfilter"
+2021-02-13 15:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s
+2021-02-13 15:57:21 [DEBUG]  Found library libavfilter installed at version 7.57.100
+2021-02-13 15:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pkg-config --modversion libsrtp2"
+2021-02-13 15:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s
+2021-02-13 15:57:21 [DEBUG]  Found library libsrtp2 installed at version 2.1.0
+2021-02-13 15:57:21 [INFO ]      COMPLETE
+2021-02-13 15:57:21 [INFO ]  
+2021-02-13 15:57:21 [INFO ]  Step 2/7: INSTALLING CREDENTIALS
+2021-02-13 15:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "mkdir -p  /home/ubuntu/.config/freedomrobotics ; echo '{
+    \"device\": \"D7530172466E9EC156991C77C54\", 
+    \"account\": \"AA2E4916C77670BAA7DA84BD4\", 
+    \"configuration\": {
+        \"measurements\": {
+            \"disabled\": [], 
+            \"enabled\": [
+                \"resources\", 
+                \"platform\", 
+                \"ros\", 
+                \"processes\", 
+                \"network\", 
+                \"webrtc\", 
+                \"gpu\"
+            ], 
+            \"details\": \"If a measurement is mentioned in both lists, it will be disabled, andif it is not mentioned in any of the lists, it will be enabled.\"
+        }, 
+        \"webrtc_local_port\": 5540
+    }, 
+    \"log_level\": \"INFO\", 
+    \"code_branch\": \"release\", 
+    \"url\": \"https://api.freedomrobotics.ai/\", 
+    \"secret\": \"Sbcb130d5afc654af0e9f35dd\", 
+    \"token\": \"T19435F20337E8877FF8213DB\", 
+    \"python3\": \"/usr/bin/python3\", 
+    \"install_elements\": [
+        \"webrtc\"
+    ]
+}' > /home/ubuntu/.config/freedomrobotics/credentials"
+2021-02-13 15:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s
+2021-02-13 15:57:21 [INFO ]      COMPLETE
+2021-02-13 15:57:21 [INFO ]  
+2021-02-13 15:57:21 [INFO ]  Step 3/7: REMOTE CONNECTION
+2021-02-13 15:57:21 [DEBUG]  Installing Remote SSH
+2021-02-13 15:57:21 [DEBUG]      SSH Tunnel already installed
+2021-02-13 15:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/home/ubuntu/.config/freedomrobotics/ssh/ngrok authtoken 5mYNtDswTRChsKRZB7KCX_4UbxchYqyjmGGbc2Qkuc3"
+2021-02-13 15:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.05s
+2021-02-13 15:57:21 [DEBUG]      Authenticated SSH Tunnel
+2021-02-13 15:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "service_path=\$(which service) && output=\$( \$service_path ssh status ) && echo \"\$output\""
+2021-02-13 15:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.07s
+2021-02-13 15:57:21 [DEBUG]      SSH Server is already installed and running. Will skip install.
+2021-02-13 15:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "service_path=\$(which service) && output=\$( \$service_path ssh status ) && echo \"\$output\""
+2021-02-13 15:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.06s
+2021-02-13 15:57:21 [INFO ]      COMPLETE
+2021-02-13 15:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "cat /etc/ssh/sshd_config | grep PasswordAuthentication"
+2021-02-13 15:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.01s
+2021-02-13 15:57:21 [DEBUG]  PasswordAuthentication: ['PasswordAuthentication yes', '# PasswordAuthentication.  Depending on your PAM configuration,', '# PAM authentication, then enable this but set PasswordAuthentication']
+2021-02-13 15:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "passwd --status ubuntu"
+2021-02-13 15:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s
+2021-02-13 15:57:21 [DEBUG]  password_status: ubuntu P 02/11/2021 0 99999 7 -1
+2021-02-13 15:57:21 [DEBUG]  User `ubuntu` should be able to ssh with its password.
+2021-02-13 15:57:21 [INFO ]  
+2021-02-13 15:57:21 [DEBUG]  ROS is not installed so not checking if old version of Freedom Robotics exists.
+2021-02-13 15:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2021-02-13 15:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.05s
+2021-02-13 15:57:21 [INFO ]  Step 4/7: INSTALLING PACKAGE (python2.7)
+2021-02-13 15:57:21 [DEBUG]  Using python2.7 from path: /usr/bin/python
+2021-02-13 15:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2021-02-13 15:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-02-13 15:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -m pip show freedomrobotics | grep \"Location: \""
+2021-02-13 15:57:22 [DEBUG]  		STANDARD ERROR:
+2021-02-13 15:57:22 [DEBUG]  			DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+2021-02-13 15:57:22 [DEBUG]  			WARNING: Package(s) not found: freedomrobotics
+2021-02-13 15:57:22 [DEBUG]  		ERROR RESPONSE CODE: 1, EXECUTION TIME: 0.48s
+2021-02-13 15:57:22 [DEBUG]  Could not find the location of the freedomrobotics package for python2.7, it might not have been previously installed: Could not find freedomrobotics python package install location:  Command '/bin/bash -c "/usr/bin/python -m pip show freedomrobotics | grep \"Location: \""' returned non-zero exit status 1
+2021-02-13 15:57:22 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -c 'import sys
+import os
+if (hasattr(sys, \"base_prefix\") and sys.base_prefix != sys.prefix) or hasattr(sys, \"real_prefix\") or os.environ.get(\"CONDA_PREFIX\"):
+    print(\"Detected we are dealing with a virtual environment for /usr/bin/python\")'"
+2021-02-13 15:57:22 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-02-13 15:57:22 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -m pip show numpy | grep \"Version: \""
+2021-02-13 15:57:23 [DEBUG]  		STANDARD ERROR:
+2021-02-13 15:57:23 [DEBUG]  			DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+2021-02-13 15:57:23 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.71s
+2021-02-13 15:57:23 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -m pip install --user SharedArray"
+2021-02-13 15:57:25 [DEBUG]  		STANDARD ERROR:
+2021-02-13 15:57:25 [DEBUG]  			DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+2021-02-13 15:57:25 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 2.48s
+2021-02-13 15:57:25 [DEBUG]  Preparing to install agent from wheel package.
+2021-02-13 15:57:25 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -m pip install --user \"packaging>=20.0\""
+2021-02-13 15:57:27 [DEBUG]  		STANDARD ERROR:
+2021-02-13 15:57:27 [DEBUG]  			DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+2021-02-13 15:57:27 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.76s
+2021-02-13 15:57:27 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -c \"
+import warnings
+warnings.filterwarnings('ignore')
+import json
+import platform
+import sys
+
+try:
+    import distro
+except ImportError:
+    # we don't have distro module
+    distro = lambda: None
+    distro.linux_distribution = lambda: 'Failed to get: Distro is not available.'
+
+try:
+    from pip import __version__ as pip_version
+except ImportError:
+    # we don't have pip module
+    pip_version = '0.0.0 (Pip is not available.)'
+
+try:
+    from packaging import __version__ as packaging_version
+except ImportError:
+    # we don't have pip module
+    packaging_version = '0.0.0 (Packaging is not available.)'
+
+try:
+    from packaging import tags
+    pip_supported_tags = list(tags.cpython_tags())
+except ImportError:
+    try:
+        if pip_version < '20.1' and pip_version >= '10.0':
+            from pip._internal import pep425tags
+            pip_supported_tags = pep425tags.get_supported()
+        elif pip_version >= '1.4':
+            from pip import pep425tags
+            pip_supported_tags = pep425tags.get_supported()
+        else:
+            pip_supported_tags = []
+    except ImportError:
+        pip_supported_tags = []
+
+if pip_supported_tags and hasattr(pip_supported_tags[0], 'platform'):
+    pip_supported_tags = [(tag.interpreter, tag.abi, tag.platform) for tag in pip_supported_tags]
+
+print(json.dumps({
+    'platform_system': platform.system(),
+    'platform_release': platform.release(),
+    'platform_machine': platform.machine(),
+    'platform_processor': platform.processor(),
+    'platform_linux_distribution': 
+        platform.linux_distribution() if hasattr(platform, 'linux_distribution') else distro.linux_distribution(),
+    'platform_mac_ver': platform.mac_ver(),
+    'platform_uname': platform.uname(),
+    'platform_python_implementation': platform.python_implementation(),
+    'platform_python_version': platform.python_version(),
+    'platform_python_compiler': platform.python_compiler(),
+    'platform_python_build': platform.python_build(),
+    'pip_supported_tags': pip_supported_tags,
+    'pip_version': pip_version,
+    'packaging_version': packaging_version,
+}))
+\""
+2021-02-13 15:57:27 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.14s
+2021-02-13 15:57:27 [DEBUG]  Collected next system details: {u'platform_linux_distribution': [u'Ubuntu', u'18.04', u'bionic'], u'platform_machine': u'aarch64', u'platform_python_implementation': u'CPython', 'code_branch': 'release', u'platform_python_version': u'2.7.17', u'pip_version': u'20.3.4', u'platform_processor': u'aarch64', u'platform_release': u'5.4.0-1015-raspi', u'platform_uname': [u'Linux', u'ubuntu', u'5.4.0-1015-raspi', u'#15~18.04.1-Ubuntu SMP Fri Jul 10 09:20:51 UTC 2020', u'aarch64', u'aarch64'], u'platform_system': u'Linux', u'packaging_version': u'20.9', u'platform_python_build': [u'default', u'Sep 30 2020 13:38:04'], u'platform_mac_ver': [u'', [u'', u'', u''], u''], u'pip_supported_tags': [[u'cp27', u'cp27mu', u'manylinux_2_27_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_26_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_25_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_24_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_23_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_22_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_21_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_20_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_19_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_18_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_17_aarch64'], [u'cp27', u'cp27mu', u'manylinux2014_aarch64'], [u'cp27', u'cp27mu', u'linux_aarch64'], [u'cp27', u'none', u'manylinux_2_27_aarch64'], [u'cp27', u'none', u'manylinux_2_26_aarch64'], [u'cp27', u'none', u'manylinux_2_25_aarch64'], [u'cp27', u'none', u'manylinux_2_24_aarch64'], [u'cp27', u'none', u'manylinux_2_23_aarch64'], [u'cp27', u'none', u'manylinux_2_22_aarch64'], [u'cp27', u'none', u'manylinux_2_21_aarch64'], [u'cp27', u'none', u'manylinux_2_20_aarch64'], [u'cp27', u'none', u'manylinux_2_19_aarch64'], [u'cp27', u'none', u'manylinux_2_18_aarch64'], [u'cp27', u'none', u'manylinux_2_17_aarch64'], [u'cp27', u'none', u'manylinux2014_aarch64'], [u'cp27', u'none', u'linux_aarch64']], u'platform_python_compiler': u'GCC 7.5.0', 'agent_version': 'latest'}
+2021-02-13 15:57:27 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "curl -sS -X POST -H 'mc_token: T19435F20337E8877FF8213DB' -H 'content-type: application/json' -H 'mc_secret: Sbcb130d5afc654af0e9f35dd' -d '{\"platform_linux_distribution\": [\"Ubuntu\", \"18.04\", \"bionic\"], \"platform_machine\": \"aarch64\", \"platform_python_implementation\": \"CPython\", \"code_branch\": \"release\", \"platform_python_version\": \"2.7.17\", \"pip_version\": \"20.3.4\", \"platform_processor\": \"aarch64\", \"platform_release\": \"5.4.0-1015-raspi\", \"platform_uname\": [\"Linux\", \"ubuntu\", \"5.4.0-1015-raspi\", \"#15~18.04.1-Ubuntu SMP Fri Jul 10 09:20:51 UTC 2020\", \"aarch64\", \"aarch64\"], \"platform_system\": \"Linux\", \"packaging_version\": \"20.9\", \"platform_python_build\": [\"default\", \"Sep 30 2020 13:38:04\"], \"platform_mac_ver\": [\"\", [\"\", \"\", \"\"], \"\"], \"pip_supported_tags\": [[\"cp27\", \"cp27mu\", \"manylinux_2_27_aarch64\"], [\"cp27\", \"cp27mu\", \"manylinux_2_26_aarch64\"], [\"cp27\", \"cp27mu\", \"manylinux_2_25_aarch64\"], [\"cp27\", \"cp27mu\", \"manylinux_2_24_aarch64\"], [\"cp27\", \"cp27mu\", \"manylinux_2_23_aarch64\"], [\"cp27\", \"cp27mu\", \"manylinux_2_22_aarch64\"], [\"cp27\", \"cp27mu\", \"manylinux_2_21_aarch64\"], [\"cp27\", \"cp27mu\", \"manylinux_2_20_aarch64\"], [\"cp27\", \"cp27mu\", \"manylinux_2_19_aarch64\"], [\"cp27\", \"cp27mu\", \"manylinux_2_18_aarch64\"], [\"cp27\", \"cp27mu\", \"manylinux_2_17_aarch64\"], [\"cp27\", \"cp27mu\", \"manylinux2014_aarch64\"], [\"cp27\", \"cp27mu\", \"linux_aarch64\"], [\"cp27\", \"none\", \"manylinux_2_27_aarch64\"], [\"cp27\", \"none\", \"manylinux_2_26_aarch64\"], [\"cp27\", \"none\", \"manylinux_2_25_aarch64\"], [\"cp27\", \"none\", \"manylinux_2_24_aarch64\"], [\"cp27\", \"none\", \"manylinux_2_23_aarch64\"], [\"cp27\", \"none\", \"manylinux_2_22_aarch64\"], [\"cp27\", \"none\", \"manylinux_2_21_aarch64\"], [\"cp27\", \"none\", \"manylinux_2_20_aarch64\"], [\"cp27\", \"none\", \"manylinux_2_19_aarch64\"], [\"cp27\", \"none\", \"manylinux_2_18_aarch64\"], [\"cp27\", \"none\", \"manylinux_2_17_aarch64\"], [\"cp27\", \"none\", \"manylinux2014_aarch64\"], [\"cp27\", \"none\", \"linux_aarch64\"]], \"platform_python_compiler\": \"GCC 7.5.0\", \"agent_version\": \"latest\"}' 'https://api.freedomrobotics.ai/download_wheel_link'"
+2021-02-13 15:57:30 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 3.44s
+2021-02-13 15:57:30 [DEBUG]  Got the link to download the wheel.
+2021-02-13 15:57:30 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "curl -sS -o /tmp/freedomroboticsu972AI/freedomrobotics-0.1.154-cp27-cp27mu-linux_aarch64.whl 'https://mission-control-download.s3.amazonaws.com/agent/release/0.1.154/freedomrobotics-0.1.154-cp27-cp27mu-linux_aarch64.whl?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Expires=100&X-Amz-Date=20210213T155730Z&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMiJHMEUCIQCeI0AMXSW65Gh2r4AgK4awpqCIR95iLonwGEvCwhb1NgIgS0UWKIPCssuX8U8mefLQv4tR1%2B1JgyLpYJjAZx910Gcq%2BwEI8P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARACGgw2NDk3NDY2MDA4NzUiDE7t8oBRy180we5gvCrPAWLI1xjCJwe5eIkoPwkuvN1%2FbxCLbe5oVCyvdklfM1XkfZ3msF0Tmg3suRTShLv3k%2BQcQc%2F75JuWH2JxkncrbnbonBECVJMdCIBFGfzHFUtko4HnRi4wkEH%2FWQknb4KYc%2ByqFxDItuAnNOxsQ95i%2BVCAhn13w%2FHA%2FWSa5M3n%2FjJ2mvpnFaXsufrkCLifR1IpGetjgAXUDlsZ9k2Re2zo4y8C1ZyAMuJAZnHUPisA7knFgrw4BkwaTkFRVQbOcGVrICFeINC6PSb7%2Bup5zZjWKDDLyZ%2BBBjrgAcKmVv%2FrzQ9S0D8c6u7YWNy0u2H4NrOOd9vB2fiAFNIL56WpDW6598CekBRqmZKPGs%2FUmpaA4%2BmnmM%2FfsjpQSTlsch4lki2p1W3ZJmh4azHk9imYkHUh7FoDyTCp9M%2B9S2M9M1T6K2YLKkotxjnFDlXjfc1IDBsSEsVrgGVaiK45wyiX3bBt6up4nJNOEy5RGl9IjaCFsWaAzFeYJ1EOLj%2FG374HHrpoW4G7%2FACyFYkg67erRH8HjM5kxhek2z9PUbSw2xFQ%2Fhk%2BZaa2FJxBsd7UzlnVwnRxkX%2FJGRcWyDSY&X-Amz-Credential=ASIAZOR7KKOVVIZY3L5O%2F20210213%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Signature=9bab9b5ff5582462e6ff7f2de86bcd353b5888e09f01a5ff1e429ea141ee0e76'"
+2021-02-13 15:57:31 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.88s
+2021-02-13 15:57:31 [DEBUG]  Downloaded the wheel.
+2021-02-13 15:57:31 [INFO ]  Installing freedomrobotics agent and its direct dependencies for python 2.7. This might take a few minutes.
+2021-02-13 15:57:31 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -m pip install --user /tmp/freedomroboticsu972AI/freedomrobotics-0.1.154-cp27-cp27mu-linux_aarch64.whl"
+2021-02-13 15:57:34 [DEBUG]  		STANDARD ERROR:
+2021-02-13 15:57:34 [DEBUG]  			DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+2021-02-13 15:57:34 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 2.62s
+2021-02-13 15:57:34 [DEBUG]  Successfully installed python package 'freedomrobotics'
+2021-02-13 15:57:34 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "which roscore"
+2021-02-13 15:57:34 [DEBUG]  		ERROR RESPONSE CODE: 1, EXECUTION TIME: 0.01s
+2021-02-13 15:57:34 [DEBUG]  Executable `roscore` was not found using current PATH: Command '/bin/bash -c "which roscore"' returned non-zero exit status 1
+2021-02-13 15:57:34 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "which ros2"
+2021-02-13 15:57:34 [DEBUG]  		ERROR RESPONSE CODE: 1, EXECUTION TIME: 0.01s
+2021-02-13 15:57:34 [DEBUG]  Executable `ros2` was not found using current PATH: Command '/bin/bash -c "which ros2"' returned non-zero exit status 1
+2021-02-13 15:57:34 [DEBUG]  No suitable ros installation found
+2021-02-13 15:57:34 [INFO ]      COMPLETE
+2021-02-13 15:57:34 [DEBUG]  Installing the agent one more time on python3 (/usr/bin/python3) to enable WebRTC.
+2021-02-13 15:57:34 [INFO ]  
+2021-02-13 15:57:34 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2021-02-13 15:57:34 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.11s
+2021-02-13 15:57:34 [INFO ]  Step 5/7: INSTALLING PACKAGE (python3.6)
+2021-02-13 15:57:34 [DEBUG]  Using python3.6 from path: /usr/bin/python3
+2021-02-13 15:57:34 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2021-02-13 15:57:34 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.11s
+2021-02-13 15:57:34 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show freedomrobotics | grep \"Location: \""
+2021-02-13 15:57:38 [DEBUG]  		ERROR RESPONSE CODE: 1, EXECUTION TIME: 4.17s
+2021-02-13 15:57:38 [DEBUG]  Could not find the location of the freedomrobotics package for python3.6, it might not have been previously installed: Could not find freedomrobotics python package install location:  Command '/bin/bash -c "/usr/bin/python3 -m pip show freedomrobotics | grep \"Location: \""' returned non-zero exit status 1
+2021-02-13 15:57:38 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c 'import sys
+import os
+if (hasattr(sys, \"base_prefix\") and sys.base_prefix != sys.prefix) or hasattr(sys, \"real_prefix\") or os.environ.get(\"CONDA_PREFIX\"):
+    print(\"Detected we are dealing with a virtual environment for /usr/bin/python3\")'"
+2021-02-13 15:57:38 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.10s
+2021-02-13 15:57:38 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show numpy | grep \"Version: \""
+2021-02-13 15:57:43 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 4.26s
+2021-02-13 15:57:43 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip install --user SharedArray"
+2021-02-13 15:57:47 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 4.24s
+2021-02-13 15:57:47 [DEBUG]  Preparing to install agent from wheel package.
+2021-02-13 15:57:47 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip install --user \"packaging>=20.0\""
+2021-02-13 15:57:51 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 4.27s
+2021-02-13 15:57:51 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c \"
+import warnings
+warnings.filterwarnings('ignore')
+import json
+import platform
+import sys
+
+try:
+    import distro
+except ImportError:
+    # we don't have distro module
+    distro = lambda: None
+    distro.linux_distribution = lambda: 'Failed to get: Distro is not available.'
+
+try:
+    from pip import __version__ as pip_version
+except ImportError:
+    # we don't have pip module
+    pip_version = '0.0.0 (Pip is not available.)'
+
+try:
+    from packaging import __version__ as packaging_version
+except ImportError:
+    # we don't have pip module
+    packaging_version = '0.0.0 (Packaging is not available.)'
+
+try:
+    from packaging import tags
+    pip_supported_tags = list(tags.cpython_tags())
+except ImportError:
+    try:
+        if pip_version < '20.1' and pip_version >= '10.0':
+            from pip._internal import pep425tags
+            pip_supported_tags = pep425tags.get_supported()
+        elif pip_version >= '1.4':
+            from pip import pep425tags
+            pip_supported_tags = pep425tags.get_supported()
+        else:
+            pip_supported_tags = []
+    except ImportError:
+        pip_supported_tags = []
+
+if pip_supported_tags and hasattr(pip_supported_tags[0], 'platform'):
+    pip_supported_tags = [(tag.interpreter, tag.abi, tag.platform) for tag in pip_supported_tags]
+
+print(json.dumps({
+    'platform_system': platform.system(),
+    'platform_release': platform.release(),
+    'platform_machine': platform.machine(),
+    'platform_processor': platform.processor(),
+    'platform_linux_distribution': 
+        platform.linux_distribution() if hasattr(platform, 'linux_distribution') else distro.linux_distribution(),
+    'platform_mac_ver': platform.mac_ver(),
+    'platform_uname': platform.uname(),
+    'platform_python_implementation': platform.python_implementation(),
+    'platform_python_version': platform.python_version(),
+    'platform_python_compiler': platform.python_compiler(),
+    'platform_python_build': platform.python_build(),
+    'pip_supported_tags': pip_supported_tags,
+    'pip_version': pip_version,
+    'packaging_version': packaging_version,
+}))
+\""
+2021-02-13 15:57:55 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 3.92s
+2021-02-13 15:57:55 [DEBUG]  Collected next system details: {u'platform_linux_distribution': [u'Ubuntu', u'18.04', u'bionic'], u'platform_machine': u'aarch64', u'platform_python_implementation': u'CPython', u'packaging_version': u'17.1', u'platform_system': u'Linux', u'pip_version': u'9.0.1', u'platform_processor': u'aarch64', u'platform_release': u'5.4.0-1015-raspi', u'platform_uname': [u'Linux', u'ubuntu', u'5.4.0-1015-raspi', u'#15~18.04.1-Ubuntu SMP Fri Jul 10 09:20:51 UTC 2020', u'aarch64', u'aarch64'], u'platform_python_version': u'3.6.9', u'platform_python_build': [u'default', u'Oct  8 2020 12:12:24'], u'platform_mac_ver': [u'', [u'', u'', u''], u''], 'code_branch': 'release', u'platform_python_compiler': u'GCC 8.4.0', u'pip_supported_tags': [[u'cp36', u'cp36m', u'linux_aarch64'], [u'cp36', u'abi3', u'linux_aarch64'], [u'cp36', u'none', u'linux_aarch64'], [u'cp35', u'abi3', u'linux_aarch64'], [u'cp34', u'abi3', u'linux_aarch64'], [u'cp33', u'abi3', u'linux_aarch64'], [u'cp32', u'abi3', u'linux_aarch64'], [u'py3', u'none', u'linux_aarch64'], [u'cp36', u'none', u'any'], [u'cp3', u'none', u'any'], [u'py36', u'none', u'any'], [u'py3', u'none', u'any'], [u'py35', u'none', u'any'], [u'py34', u'none', u'any'], [u'py33', u'none', u'any'], [u'py32', u'none', u'any'], [u'py31', u'none', u'any'], [u'py30', u'none', u'any']], 'agent_version': 'latest'}
+2021-02-13 15:57:55 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "curl -sS -X POST -H 'mc_token: T19435F20337E8877FF8213DB' -H 'content-type: application/json' -H 'mc_secret: Sbcb130d5afc654af0e9f35dd' -d '{\"platform_linux_distribution\": [\"Ubuntu\", \"18.04\", \"bionic\"], \"platform_machine\": \"aarch64\", \"platform_python_implementation\": \"CPython\", \"packaging_version\": \"17.1\", \"platform_system\": \"Linux\", \"pip_version\": \"9.0.1\", \"platform_processor\": \"aarch64\", \"platform_release\": \"5.4.0-1015-raspi\", \"platform_uname\": [\"Linux\", \"ubuntu\", \"5.4.0-1015-raspi\", \"#15~18.04.1-Ubuntu SMP Fri Jul 10 09:20:51 UTC 2020\", \"aarch64\", \"aarch64\"], \"platform_python_version\": \"3.6.9\", \"platform_python_build\": [\"default\", \"Oct  8 2020 12:12:24\"], \"platform_mac_ver\": [\"\", [\"\", \"\", \"\"], \"\"], \"code_branch\": \"release\", \"platform_python_compiler\": \"GCC 8.4.0\", \"pip_supported_tags\": [[\"cp36\", \"cp36m\", \"linux_aarch64\"], [\"cp36\", \"abi3\", \"linux_aarch64\"], [\"cp36\", \"none\", \"linux_aarch64\"], [\"cp35\", \"abi3\", \"linux_aarch64\"], [\"cp34\", \"abi3\", \"linux_aarch64\"], [\"cp33\", \"abi3\", \"linux_aarch64\"], [\"cp32\", \"abi3\", \"linux_aarch64\"], [\"py3\", \"none\", \"linux_aarch64\"], [\"cp36\", \"none\", \"any\"], [\"cp3\", \"none\", \"any\"], [\"py36\", \"none\", \"any\"], [\"py3\", \"none\", \"any\"], [\"py35\", \"none\", \"any\"], [\"py34\", \"none\", \"any\"], [\"py33\", \"none\", \"any\"], [\"py32\", \"none\", \"any\"], [\"py31\", \"none\", \"any\"], [\"py30\", \"none\", \"any\"]], \"agent_version\": \"latest\"}' 'https://api.freedomrobotics.ai/download_wheel_link'"
+2021-02-13 15:57:58 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 3.39s
+2021-02-13 15:57:58 [DEBUG]  Got the link to download the wheel.
+2021-02-13 15:57:58 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "curl -sS -o /tmp/freedomroboticsubOjKR/freedomrobotics-0.1.154-cp36-cp36m-linux_aarch64.whl 'https://mission-control-download.s3.amazonaws.com/agent/release/0.1.154/freedomrobotics-0.1.154-cp36-cp36m-linux_aarch64.whl?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Expires=100&X-Amz-Date=20210213T155758Z&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMiJIMEYCIQCVXB0ZD7%2FsmokSkl93oOtDv6LUePICjtzeYrm59f5NbAIhAK4d2rOnfvlept8lkJSHI%2BEtI8Tv4rDU4h7q5evwIWfeKvsBCPD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAhoMNjQ5NzQ2NjAwODc1IgzeRu%2FcS8qH%2B9%2F6KG8qzwFl02Qji%2BUcc2r1%2BIYaKxzImcEbi%2BJgmXw%2B9cOYfVfg90V2IDgtJVu0rd5B0l9lI7E1w09pbxq%2F1ikfW2SIFfB8rd8GDAwBfqZglWAPbCxNMnvz9XTDExTUU1d4f0DAmhvs9aO2YdFt%2Bt5U42gWYwycozsVyxca1jXItYAClTMGX8D38b8N4Sgk9UFyWi1WgscTfLyiyY7M0AEPobaskcGCZHqzq8Ila51sL%2FzqCdjrOXidsGN7nrGt8ib31EIrMECe8N9Xgd%2BAqT9Vq2bTRKYwrMqfgQY63wHu8E5ECqH3m4z4IiDeQHdv1DnA%2BV6cEbXWfWFluqP7XcOi%2F5UmVj3s4JNt3sJpIYhUif5RSIjdWrruCnsx5wT6MCWCj0XWjGGDg3GXljcGsLg3mdkr%2BakuhRQjH2kSj9mvV8SCEFr0pq5WCuJ9GoP1UpYiWHHrso%2B3i5mMSyB%2BuVpQsQxn5CskzDnRcyFh%2BPwPm1VIBrmRNxF8MZALr71aYHz4alk1VGssX1mgQFVqbisH599HVBXtv0IZSom4JVNtkAlzcteVfawna2ssoj5UjRwbt1f3QrNGWweHx%2F6F&X-Amz-Credential=ASIAZOR7KKOVRHZGNKQ7%2F20210213%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Signature=94f4e8400e850d3ec2458cc9474c12ff094b2bb807e015a30440599ac97f19cf'"
+2021-02-13 15:57:59 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.02s
+2021-02-13 15:57:59 [DEBUG]  Downloaded the wheel.
+2021-02-13 15:57:59 [INFO ]  Installing freedomrobotics agent and its direct dependencies for python 3.6. This might take a few minutes.
+2021-02-13 15:57:59 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip install --user /tmp/freedomroboticsubOjKR/freedomrobotics-0.1.154-cp36-cp36m-linux_aarch64.whl"
+2021-02-13 15:58:05 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 5.59s
+2021-02-13 15:58:05 [DEBUG]  Successfully installed python package 'freedomrobotics'
+2021-02-13 15:58:05 [INFO ]      COMPLETE
+2021-02-13 15:58:05 [INFO ]  
+2021-02-13 15:58:05 [INFO ]  Step 6/7: RTC DEPENDENCIES
+2021-02-13 15:58:05 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pkg-config --modversion libavdevice"
+2021-02-13 15:58:05 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.01s
+2021-02-13 15:58:05 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pkg-config --modversion libavfilter"
+2021-02-13 15:58:05 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.01s
+2021-02-13 15:58:05 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show av | grep \"Version: \""
+2021-02-13 15:58:09 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 4.23s
+2021-02-13 15:58:09 [INFO ]  Installing webrtc dependencies. First installation might take a few minutes.
+2021-02-13 15:58:09 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip install --user crc32c==2.0.1 aiortc SharedArray av dataclasses"
+2021-02-13 15:58:37 [DEBUG]  		STANDARD ERROR:
+2021-02-13 15:58:37 [DEBUG]  			Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-41gyiwgn/cryptography/
+2021-02-13 15:58:37 [DEBUG]  		ERROR RESPONSE CODE: 1, EXECUTION TIME: 27.84s
+2021-02-13 15:58:37 [INFO ]  
+2021-02-13 15:58:37 [INFO ]  
+2021-02-13 15:58:37 [INFO ]  
+2021-02-13 15:58:37 [CRITI]  [31m################################################################################[39m
+2021-02-13 15:58:37 [CRITI]  [31m[39m
+2021-02-13 15:58:37 [CRITI]  [31mINSTALL DID NOT COMPLETE SUCCESSFULLY[39m
+2021-02-13 15:58:37 [CRITI]  [31m[39m
+2021-02-13 15:58:37 [CRITI]  [31mFailed to install RTC python package dependencies: Collecting crc32c==2.0.1
+Using cached https://files.pythonhosted.org/packages/9e/4f/78049a7bc27fc9e23a9f7a9896554646de0ad1309510d2dbe58336d5c5cf/crc32c-2.0.1.tar.gz
+Collecting aiortc
+Using cached https://files.pythonhosted.org/packages/58/bc/5267cad79282ed8020032586e804ebb2f8084d972d89d3c19200de8510c4/aiortc-1.1.2.tar.gz
+Requirement already satisfied: SharedArray in ./.local/lib/python3.6/site-packages
+Requirement already satisfied: av in ./.local/lib/python3.6/site-packages
+Collecting dataclasses
+Using cached https://files.pythonhosted.org/packages/fe/ca/75fac5856ab5cfa51bbbcefa250182e50441074fdc3f803f6e76451fab43/dataclasses-0.8-py3-none-any.whl
+Collecting aioice<0.8.0,>=0.7.5 (from aiortc)
+Using cached https://files.pythonhosted.org/packages/5a/32/31ec785c02ac848aa4a8503b86afe63e94c6bffd0d53a758a11f1e58224b/aioice-0.7.5-py3-none-any.whl
+Collecting cffi>=1.0.0 (from aiortc)
+Using cached https://files.pythonhosted.org/packages/a8/20/025f59f929bbcaa579704f443a438135918484fffaacfaddba776b374563/cffi-1.14.5.tar.gz
+Collecting cryptography>=2.2 (from aiortc)
+Using cached https://files.pythonhosted.org/packages/27/5a/007acee0243186123a55423d49cbb5c15cb02d76dd1b6a27659a894b13a2/cryptography-3.4.4.tar.gz
+Complete output from command python setup.py egg_info:
+Traceback (most recent call last):
+File "<string>", line 1, in <module>
+File "/tmp/pip-build-41gyiwgn/cryptography/setup.py", line 14, in <module>
+from setuptools_rust import RustExtension
+ModuleNotFoundError: No module named 'setuptools_rust'
+
+=============================DEBUG ASSISTANCE==========================
+If you are seeing an error here please try the following to
+successfully install cryptography:
+
+Upgrade to the latest pip and try again. This will fix errors for most
+users. See: https://pip.pypa.io/en/stable/installing/#upgrading-pip
+=============================DEBUG ASSISTANCE==========================
+
+
+----------------------------------------[39m
+2021-02-13 15:58:37 [CRITI]  [31m[39m
+2021-02-13 15:58:37 [CRITI]  [31m############################################################[39m
+2021-02-13 15:58:37 [CRITI]  [31m[39m
+2021-02-13 15:58:37 [CRITI]  [31m( NO STACK TRACE REPORTED )[39m
+2021-02-13 15:58:37 [CRITI]  [31m[39m
+2021-02-13 15:58:37 [CRITI]  [31m############################################################[39m
+2021-02-13 15:58:37 [CRITI]  [31m[39m
+2021-02-13 15:58:37 [CRITI]  [31mSTOPPING AGENT IF NECESSARY AND UNINSTALLING[39m
+2021-02-13 15:58:37 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "sudo -n service freedomrobotics stop"
+2021-02-13 15:58:41 [DEBUG]  		STANDARD ERROR:
+2021-02-13 15:58:42 [DEBUG]  			Failed to stop freedomrobotics.service: Unit freedomrobotics.service not loaded.
+2021-02-13 15:58:42 [DEBUG]  		ERROR RESPONSE CODE: 5, EXECUTION TIME: 4.09s
+2021-02-13 15:58:42 [CRITI]  [31m    - AGENT NOT RUNNING[39m
+2021-02-13 15:58:42 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "sudo -n systemctl daemon-reload"
+2021-02-13 15:58:42 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.69s
+2021-02-13 15:58:42 [DEBUG]  Systemd / Systemctl are running so registering as systemd service
+2021-02-13 15:58:42 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -m pip show freedomrobotics | grep \"Location: \""
+2021-02-13 15:58:43 [DEBUG]  		STANDARD ERROR:
+2021-02-13 15:58:43 [DEBUG]  			DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+2021-02-13 15:58:43 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.70s
+2021-02-13 15:58:43 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python /home/ubuntu/.local/lib/python2.7/site-packages/freedomrobotics/management/unregister_systemd_service.py"
+2021-02-13 15:58:44 [DEBUG]  		STANDARD ERROR:
+2021-02-13 15:58:44 [DEBUG]  			DEBUG:__main__:	Checking sudo privileges
+2021-02-13 15:58:44 [DEBUG]  			DEBUG:__main__:
+2021-02-13 15:58:44 [DEBUG]  			DEBUG:__main__:################################################################################
+2021-02-13 15:58:44 [DEBUG]  			DEBUG:__main__:# UNREGISTERING Freedom Robotics system.d service
+2021-02-13 15:58:44 [DEBUG]  			DEBUG:__main__:#    INSTALLED: False
+2021-02-13 15:58:44 [DEBUG]  			DEBUG:__main__:#    RUNNING:   False
+2021-02-13 15:58:44 [DEBUG]  			DEBUG:__main__:################################################################################
+2021-02-13 15:58:44 [DEBUG]  			DEBUG:__main__:################################################################################
+2021-02-13 15:58:44 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.02s
+2021-02-13 15:58:44 [DEBUG]  Service unregistration log: 
+2021-02-13 15:58:44 [CRITI]  [31m    SERVICE REMOVED[39m
+2021-02-13 15:58:44 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2021-02-13 15:58:44 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-02-13 15:58:44 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -m pip show freedomrobotics"
+2021-02-13 15:58:45 [DEBUG]  		STANDARD ERROR:
+2021-02-13 15:58:45 [DEBUG]  			DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+2021-02-13 15:58:45 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.69s
+2021-02-13 15:58:45 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -m pip uninstall -y freedomrobotics"
+2021-02-13 15:58:47 [DEBUG]  		STANDARD ERROR:
+2021-02-13 15:58:47 [DEBUG]  			DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+2021-02-13 15:58:47 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.58s
+2021-02-13 15:58:47 [CRITI]  [31m    UNINSTALLED PACKAGE (python2.7)[39m
+2021-02-13 15:58:47 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2021-02-13 15:58:47 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.11s
+2021-02-13 15:58:47 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show freedomrobotics"
+2021-02-13 15:58:51 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 4.21s
+2021-02-13 15:58:51 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip uninstall -y freedomrobotics"
+2021-02-13 15:58:55 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 4.40s
+2021-02-13 15:58:55 [CRITI]  [31m    UNINSTALLED PACKAGE (python3.6)[39m
+2021-02-13 15:58:55 [CRITI]  [31m[39m
+2021-02-13 15:58:55 [CRITI]  [31mUPLOADING INSTALL ERROR REPORT[39m
+2021-02-13 15:58:55 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pgrep fr_agent"
+2021-02-13 15:58:55 [DEBUG]  		ERROR RESPONSE CODE: 1, EXECUTION TIME: 0.03s
+2021-02-13 15:58:56 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pgrep fr_agent"
+2021-02-13 15:58:56 [DEBUG]  		ERROR RESPONSE CODE: 1, EXECUTION TIME: 0.03s
+2021-02-13 15:58:57 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pgrep fr_agent"
+2021-02-13 15:58:57 [DEBUG]  		ERROR RESPONSE CODE: 1, EXECUTION TIME: 0.03s
+2021-02-13 15:58:58 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pgrep fr_agent"
+2021-02-13 15:58:58 [DEBUG]  		ERROR RESPONSE CODE: 1, EXECUTION TIME: 0.03s
+2021-02-13 15:58:59 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pgrep fr_agent"
+2021-02-13 15:58:59 [DEBUG]  		ERROR RESPONSE CODE: 1, EXECUTION TIME: 0.04s
+2021-02-13 15:59:00 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "service_path=\$(which service) && output=\$( \$service_path ssh status ) && echo \"\$output\""
+2021-02-13 15:59:00 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.07s
+2021-02-13 15:59:00 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -m pip show freedomrobotics"
+2021-02-13 15:59:01 [DEBUG]  		STANDARD ERROR:
+2021-02-13 15:59:01 [DEBUG]  			DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+2021-02-13 15:59:01 [DEBUG]  			WARNING: Package(s) not found: freedomrobotics
+2021-02-13 15:59:01 [DEBUG]  		ERROR RESPONSE CODE: 1, EXECUTION TIME: 0.47s
+2021-02-13 15:59:01 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2021-02-13 15:59:01 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-02-13 15:59:01 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show freedomrobotics"
+2021-02-13 15:59:05 [DEBUG]  		ERROR RESPONSE CODE: 1, EXECUTION TIME: 4.18s
+2021-02-13 15:59:05 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2021-02-13 15:59:05 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.10s
+2021-02-13 15:59:05 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show aiortc"
+2021-02-13 15:59:09 [DEBUG]  		ERROR RESPONSE CODE: 1, EXECUTION TIME: 4.19s
+2021-02-13 15:59:09 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -c \"
+import warnings
+warnings.filterwarnings('ignore')
+import json
+import platform
+import sys
+
+try:
+    import distro
+except ImportError:
+    # we don't have distro module
+    distro = lambda: None
+    distro.linux_distribution = lambda: 'Failed to get: Distro is not available.'
+
+try:
+    from pip import __version__ as pip_version
+except ImportError:
+    # we don't have pip module
+    pip_version = '0.0.0 (Pip is not available.)'
+
+try:
+    from packaging import __version__ as packaging_version
+except ImportError:
+    # we don't have pip module
+    packaging_version = '0.0.0 (Packaging is not available.)'
+
+try:
+    from packaging import tags
+    pip_supported_tags = list(tags.cpython_tags())
+except ImportError:
+    try:
+        if pip_version < '20.1' and pip_version >= '10.0':
+            from pip._internal import pep425tags
+            pip_supported_tags = pep425tags.get_supported()
+        elif pip_version >= '1.4':
+            from pip import pep425tags
+            pip_supported_tags = pep425tags.get_supported()
+        else:
+            pip_supported_tags = []
+    except ImportError:
+        pip_supported_tags = []
+
+if pip_supported_tags and hasattr(pip_supported_tags[0], 'platform'):
+    pip_supported_tags = [(tag.interpreter, tag.abi, tag.platform) for tag in pip_supported_tags]
+
+print(json.dumps({
+    'platform_system': platform.system(),
+    'platform_release': platform.release(),
+    'platform_machine': platform.machine(),
+    'platform_processor': platform.processor(),
+    'platform_linux_distribution': 
+        platform.linux_distribution() if hasattr(platform, 'linux_distribution') else distro.linux_distribution(),
+    'platform_mac_ver': platform.mac_ver(),
+    'platform_uname': platform.uname(),
+    'platform_python_implementation': platform.python_implementation(),
+    'platform_python_version': platform.python_version(),
+    'platform_python_compiler': platform.python_compiler(),
+    'platform_python_build': platform.python_build(),
+    'pip_supported_tags': pip_supported_tags,
+    'pip_version': pip_version,
+    'packaging_version': packaging_version,
+}))
+\""
+2021-02-13 15:59:10 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.14s
+2021-02-13 15:59:10 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -m pip freeze"
+2021-02-13 15:59:10 [DEBUG]  		STANDARD ERROR:
+2021-02-13 15:59:10 [DEBUG]  			DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+2021-02-13 15:59:10 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.85s
+2021-02-13 15:59:10 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "runlevel"
+2021-02-13 15:59:10 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s
+2021-02-13 15:59:10 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' sudo"
+2021-02-13 15:59:11 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-02-13 15:59:11 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pgrep -a ros"
+2021-02-13 15:59:11 [DEBUG]  		ERROR RESPONSE CODE: 1, EXECUTION TIME: 0.03s
+2021-02-13 15:59:11 [DEBUG]  Command '/bin/bash -c "pgrep -a ros"' returned non-zero exit status 1
+2021-02-13 15:59:11 [DEBUG]  Could not detect ros processes.
+2021-02-13 15:59:11 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "curl -sS -X PUT -H 'mc_token: T19435F20337E8877FF8213DB' -H 'content-type: application/json' -H 'mc_secret: Sbcb130d5afc654af0e9f35dd' -d @/tmp/tmp0pY1wL 'https://api.freedomrobotics.ai/issues'"
+2021-02-13 15:59:12 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.10s
+2021-02-13 15:59:12 [DEBUG]  {"status":"success","action":"reported issue","report":{"account":"AA2E4916C77670BAA7DA84BD4","code":"AIS_F_RTC_INSTALL","logs":["2021-02-13 15:57:15 [INFO ]  ################################################################################","2021-02-13 15:57:15 [INFO ]  ","2021-02-13 15:57:15 [INFO ]  Installing FREEDOM ROBOTICS Micro Service","2021-02-13 15:57:15 [INFO ]  ","2021-02-13 15:57:15 [INFO ]  Copyright Freedom Robotics Inc 2020. All rights reserved. Confidential.","2021-02-13 15:57:15 [INFO ]  ","2021-02-13 15:57:15 [INFO ]  ################################################################################","2021-02-13 15:57:15 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"whoami\"","2021-02-13 15:57:15 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s","2021-02-13 15:57:15 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"sudo -nv\"","2021-02-13 15:57:15 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.03s","2021-02-13 15:57:15 [INFO ]  ","2021-02-13 15:57:15 [INFO ]  Step 1/7: VERIFYING PREREQUISITES","2021-02-13 15:57:15 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python -m pip &> /dev/null\"","2021-02-13 15:57:16 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.47s","2021-02-13 15:57:16 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python3 -c 'import sys; print(\\\"{}.{}\\\".format(sys.version_info.major, sys.version_info.minor))'\"","2021-02-13 15:57:16 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.10s","2021-02-13 15:57:16 [DEBUG]  Using the python3 binary specified in credentials file: /usr/bin/python3. Try to remove credentials file or its `python3` item if you want the installation script to reconsider the best python3 available option.","2021-02-13 15:57:16 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python3 -c 'import sys; print(\\\"{}.{}\\\".format(sys.version_info.major, sys.version_info.minor))'\"","2021-02-13 15:57:16 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.10s","2021-02-13 15:57:16 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python3 -m pip &> /dev/null\"","2021-02-13 15:57:20 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 4.20s","2021-02-13 15:57:21 [DEBUG]  Urllib2 can be use for ssl communication.","2021-02-13 15:57:21 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"dpkg-query -W -f='\\${Status} \\${Version}\\n' python-dev\"","2021-02-13 15:57:21 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s","2021-02-13 15:57:21 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"dpkg-query -W -f='\\${Status} \\${Version}\\n' python3-dev\"","2021-02-13 15:57:21 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s","2021-02-13 15:57:21 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"dpkg-query -W -f='\\${Status} \\${Version}\\n' pkg-config\"","2021-02-13 15:57:21 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s","2021-02-13 15:57:21 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"dpkg-query -W -f='\\${Status} \\${Version}\\n' libopus-dev\"","2021-02-13 15:57:21 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s","2021-02-13 15:57:21 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"dpkg-query -W -f='\\${Status} \\${Version}\\n' libvpx-dev\"","2021-02-13 15:57:21 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s","2021-02-13 15:57:21 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"dpkg-query -W -f='\\${Status} \\${Version}\\n' libffi-dev\"","2021-02-13 15:57:21 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s","2021-02-13 15:57:21 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"dpkg-query -W -f='\\${Status} \\${Version}\\n' libssl-dev\"","2021-02-13 15:57:21 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s","2021-02-13 15:57:21 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"dpkg-query -W -f='\\${Status} \\${Version}\\n' libsrtp2-dev\"","2021-02-13 15:57:21 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s","2021-02-13 15:57:21 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"dpkg-query -W -f='\\${Status} \\${Version}\\n' python3-dev\"","2021-02-13 15:57:21 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s","2021-02-13 15:57:21 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"pkg-config --modversion libavdevice\"","2021-02-13 15:57:21 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.01s","2021-02-13 15:57:21 [DEBUG]  Found library libavdevice installed at version 58.8.100","2021-02-13 15:57:21 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"pkg-config --modversion libavfilter\"","2021-02-13 15:57:21 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s","2021-02-13 15:57:21 [DEBUG]  Found library libavfilter installed at version 7.57.100","2021-02-13 15:57:21 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"pkg-config --modversion libsrtp2\"","2021-02-13 15:57:21 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s","2021-02-13 15:57:21 [DEBUG]  Found library libsrtp2 installed at version 2.1.0","2021-02-13 15:57:21 [INFO ]      COMPLETE","2021-02-13 15:57:21 [INFO ]  ","2021-02-13 15:57:21 [INFO ]  Step 2/7: INSTALLING CREDENTIALS","2021-02-13 15:57:21 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"mkdir -p  /home/ubuntu/.config/freedomrobotics ; echo '{","    \\\"device\\\": \\\"D7530172466E9EC156991C77C54\\\", ","    \\\"account\\\": \\\"AA2E4916C77670BAA7DA84BD4\\\", ","    \\\"configuration\\\": {","        \\\"measurements\\\": {","            \\\"disabled\\\": [], ","            \\\"enabled\\\": [","                \\\"resources\\\", ","                \\\"platform\\\", ","                \\\"ros\\\", ","                \\\"processes\\\", ","                \\\"network\\\", ","                \\\"webrtc\\\", ","                \\\"gpu\\\"","            ], ","            \\\"details\\\": \\\"If a measurement is mentioned in both lists, it will be disabled, andif it is not mentioned in any of the lists, it will be enabled.\\\"","        }, ","        \\\"webrtc_local_port\\\": 5540","    }, ","    \\\"log_level\\\": \\\"INFO\\\", ","    \\\"code_branch\\\": \\\"release\\\", ","    \\\"url\\\": \\\"https://api.freedomrobotics.ai/\\\", ","    \\\"secret\\\": \\\"Sbcb130d5afc654af0e9f35dd\\\", ","    \\\"token\\\": \\\"T19435F20337E8877FF8213DB\\\", ","    \\\"python3\\\": \\\"/usr/bin/python3\\\", ","    \\\"install_elements\\\": [","        \\\"webrtc\\\"","    ]","}' > /home/ubuntu/.config/freedomrobotics/credentials\"","2021-02-13 15:57:21 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s","2021-02-13 15:57:21 [INFO ]      COMPLETE","2021-02-13 15:57:21 [INFO ]  ","2021-02-13 15:57:21 [INFO ]  Step 3/7: REMOTE CONNECTION","2021-02-13 15:57:21 [DEBUG]  Installing Remote SSH","2021-02-13 15:57:21 [DEBUG]      SSH Tunnel already installed","2021-02-13 15:57:21 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/home/ubuntu/.config/freedomrobotics/ssh/ngrok authtoken 5mYNtDswTRChsKRZB7KCX_4UbxchYqyjmGGbc2Qkuc3\"","2021-02-13 15:57:21 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.05s","2021-02-13 15:57:21 [DEBUG]      Authenticated SSH Tunnel","2021-02-13 15:57:21 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"service_path=\\$(which service) && output=\\$( \\$service_path ssh status ) && echo \\\"\\$output\\\"\"","2021-02-13 15:57:21 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.07s","2021-02-13 15:57:21 [DEBUG]      SSH Server is already installed and running. Will skip install.","2021-02-13 15:57:21 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"service_path=\\$(which service) && output=\\$( \\$service_path ssh status ) && echo \\\"\\$output\\\"\"","2021-02-13 15:57:21 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.06s","2021-02-13 15:57:21 [INFO ]      COMPLETE","2021-02-13 15:57:21 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"cat /etc/ssh/sshd_config | grep PasswordAuthentication\"","2021-02-13 15:57:21 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.01s","2021-02-13 15:57:21 [DEBUG]  PasswordAuthentication: ['PasswordAuthentication yes', '# PasswordAuthentication.  Depending on your PAM configuration,', '# PAM authentication, then enable this but set PasswordAuthentication']","2021-02-13 15:57:21 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"passwd --status ubuntu\"","2021-02-13 15:57:21 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s","2021-02-13 15:57:21 [DEBUG]  password_status: ubuntu P 02/11/2021 0 99999 7 -1","2021-02-13 15:57:21 [DEBUG]  User `ubuntu` should be able to ssh with its password.","2021-02-13 15:57:21 [INFO ]  ","2021-02-13 15:57:21 [DEBUG]  ROS is not installed so not checking if old version of Freedom Robotics exists.","2021-02-13 15:57:21 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python -c 'import sys; print(\\\"{}.{}\\\".format(sys.version_info.major, sys.version_info.minor))'\"","2021-02-13 15:57:21 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.05s","2021-02-13 15:57:21 [INFO ]  Step 4/7: INSTALLING PACKAGE (python2.7)","2021-02-13 15:57:21 [DEBUG]  Using python2.7 from path: /usr/bin/python","2021-02-13 15:57:21 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python -c 'import sys; print(\\\"{}.{}\\\".format(sys.version_info.major, sys.version_info.minor))'\"","2021-02-13 15:57:21 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s","2021-02-13 15:57:21 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python -m pip show freedomrobotics | grep \\\"Location: \\\"\"","2021-02-13 15:57:22 [DEBUG]  \t\tSTANDARD ERROR:","2021-02-13 15:57:22 [DEBUG]  \t\t\tDEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.","2021-02-13 15:57:22 [DEBUG]  \t\t\tWARNING: Package(s) not found: freedomrobotics","2021-02-13 15:57:22 [DEBUG]  \t\tERROR RESPONSE CODE: 1, EXECUTION TIME: 0.48s","2021-02-13 15:57:22 [DEBUG]  Could not find the location of the freedomrobotics package for python2.7, it might not have been previously installed: Could not find freedomrobotics python package install location:  Command '/bin/bash -c \"/usr/bin/python -m pip show freedomrobotics | grep \\\"Location: \\\"\"' returned non-zero exit status 1","2021-02-13 15:57:22 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python -c 'import sys","import os","if (hasattr(sys, \\\"base_prefix\\\") and sys.base_prefix != sys.prefix) or hasattr(sys, \\\"real_prefix\\\") or os.environ.get(\\\"CONDA_PREFIX\\\"):","    print(\\\"Detected we are dealing with a virtual environment for /usr/bin/python\\\")'\"","2021-02-13 15:57:22 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s","2021-02-13 15:57:22 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python -m pip show numpy | grep \\\"Version: \\\"\"","2021-02-13 15:57:23 [DEBUG]  \t\tSTANDARD ERROR:","2021-02-13 15:57:23 [DEBUG]  \t\t\tDEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.","2021-02-13 15:57:23 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.71s","2021-02-13 15:57:23 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python -m pip install --user SharedArray\"","2021-02-13 15:57:25 [DEBUG]  \t\tSTANDARD ERROR:","2021-02-13 15:57:25 [DEBUG]  \t\t\tDEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.","2021-02-13 15:57:25 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 2.48s","2021-02-13 15:57:25 [DEBUG]  Preparing to install agent from wheel package.","2021-02-13 15:57:25 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python -m pip install --user \\\"packaging>=20.0\\\"\"","2021-02-13 15:57:27 [DEBUG]  \t\tSTANDARD ERROR:","2021-02-13 15:57:27 [DEBUG]  \t\t\tDEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.","2021-02-13 15:57:27 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.76s","2021-02-13 15:57:27 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python -c \\\"","import warnings","warnings.filterwarnings('ignore')","import json","import platform","import sys","","try:","    import distro","except ImportError:","    # we don't have distro module","    distro = lambda: None","    distro.linux_distribution = lambda: 'Failed to get: Distro is not available.'","","try:","    from pip import __version__ as pip_version","except ImportError:","    # we don't have pip module","    pip_version = '0.0.0 (Pip is not available.)'","","try:","    from packaging import __version__ as packaging_version","except ImportError:","    # we don't have pip module","    packaging_version = '0.0.0 (Packaging is not available.)'","","try:","    from packaging import tags","    pip_supported_tags = list(tags.cpython_tags())","except ImportError:","    try:","        if pip_version < '20.1' and pip_version >= '10.0':","            from pip._internal import pep425tags","            pip_supported_tags = pep425tags.get_supported()","        elif pip_version >= '1.4':","            from pip import pep425tags","            pip_supported_tags = pep425tags.get_supported()","        else:","            pip_supported_tags = []","    except ImportError:","        pip_supported_tags = []","","if pip_supported_tags and hasattr(pip_supported_tags[0], 'platform'):","    pip_supported_tags = [(tag.interpreter, tag.abi, tag.platform) for tag in pip_supported_tags]","","print(json.dumps({","    'platform_system': platform.system(),","    'platform_release': platform.release(),","    'platform_machine': platform.machine(),","    'platform_processor': platform.processor(),","    'platform_linux_distribution': ","        platform.linux_distribution() if hasattr(platform, 'linux_distribution') else distro.linux_distribution(),","    'platform_mac_ver': platform.mac_ver(),","    'platform_uname': platform.uname(),","    'platform_python_implementation': platform.python_implementation(),","    'platform_python_version': platform.python_version(),","    'platform_python_compiler': platform.python_compiler(),","    'platform_python_build': platform.python_build(),","    'pip_supported_tags': pip_supported_tags,","    'pip_version': pip_version,","    'packaging_version': packaging_version,","}))","\\\"\"","2021-02-13 15:57:27 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.14s","2021-02-13 15:57:27 [DEBUG]  Collected next system details: {u'platform_linux_distribution': [u'Ubuntu', u'18.04', u'bionic'], u'platform_machine': u'aarch64', u'platform_python_implementation': u'CPython', 'code_branch': 'release', u'platform_python_version': u'2.7.17', u'pip_version': u'20.3.4', u'platform_processor': u'aarch64', u'platform_release': u'5.4.0-1015-raspi', u'platform_uname': [u'Linux', u'ubuntu', u'5.4.0-1015-raspi', u'#15~18.04.1-Ubuntu SMP Fri Jul 10 09:20:51 UTC 2020', u'aarch64', u'aarch64'], u'platform_system': u'Linux', u'packaging_version': u'20.9', u'platform_python_build': [u'default', u'Sep 30 2020 13:38:04'], u'platform_mac_ver': [u'', [u'', u'', u''], u''], u'pip_supported_tags': [[u'cp27', u'cp27mu', u'manylinux_2_27_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_26_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_25_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_24_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_23_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_22_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_21_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_20_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_19_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_18_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_17_aarch64'], [u'cp27', u'cp27mu', u'manylinux2014_aarch64'], [u'cp27', u'cp27mu', u'linux_aarch64'], [u'cp27', u'none', u'manylinux_2_27_aarch64'], [u'cp27', u'none', u'manylinux_2_26_aarch64'], [u'cp27', u'none', u'manylinux_2_25_aarch64'], [u'cp27', u'none', u'manylinux_2_24_aarch64'], [u'cp27', u'none', u'manylinux_2_23_aarch64'], [u'cp27', u'none', u'manylinux_2_22_aarch64'], [u'cp27', u'none', u'manylinux_2_21_aarch64'], [u'cp27', u'none', u'manylinux_2_20_aarch64'], [u'cp27', u'none', u'manylinux_2_19_aarch64'], [u'cp27', u'none', u'manylinux_2_18_aarch64'], [u'cp27', u'none', u'manylinux_2_17_aarch64'], [u'cp27', u'none', u'manylinux2014_aarch64'], [u'cp27', u'none', u'linux_aarch64']], u'platform_python_compiler': u'GCC 7.5.0', 'agent_version': 'latest'}","2021-02-13 15:57:27 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"curl -sS -X POST -H 'mc_token: T19435F20337E8877FF8213DB' -H 'content-type: application/json' -H 'mc_secret: Sbcb130d5afc654af0e9f35dd' -d '{\\\"platform_linux_distribution\\\": [\\\"Ubuntu\\\", \\\"18.04\\\", \\\"bionic\\\"], \\\"platform_machine\\\": \\\"aarch64\\\", \\\"platform_python_implementation\\\": \\\"CPython\\\", \\\"code_branch\\\": \\\"release\\\", \\\"platform_python_version\\\": \\\"2.7.17\\\", \\\"pip_version\\\": \\\"20.3.4\\\", \\\"platform_processor\\\": \\\"aarch64\\\", \\\"platform_release\\\": \\\"5.4.0-1015-raspi\\\", \\\"platform_uname\\\": [\\\"Linux\\\", \\\"ubuntu\\\", \\\"5.4.0-1015-raspi\\\", \\\"#15~18.04.1-Ubuntu SMP Fri Jul 10 09:20:51 UTC 2020\\\", \\\"aarch64\\\", \\\"aarch64\\\"], \\\"platform_system\\\": \\\"Linux\\\", \\\"packaging_version\\\": \\\"20.9\\\", \\\"platform_python_build\\\": [\\\"default\\\", \\\"Sep 30 2020 13:38:04\\\"], \\\"platform_mac_ver\\\": [\\\"\\\", [\\\"\\\", \\\"\\\", \\\"\\\"], \\\"\\\"], \\\"pip_supported_tags\\\": [[\\\"cp27\\\", \\\"cp27mu\\\", \\\"manylinux_2_27_aarch64\\\"], [\\\"cp27\\\", \\\"cp27mu\\\", \\\"manylinux_2_26_aarch64\\\"], [\\\"cp27\\\", \\\"cp27mu\\\", \\\"manylinux_2_25_aarch64\\\"], [\\\"cp27\\\", \\\"cp27mu\\\", \\\"manylinux_2_24_aarch64\\\"], [\\\"cp27\\\", \\\"cp27mu\\\", \\\"manylinux_2_23_aarch64\\\"], [\\\"cp27\\\", \\\"cp27mu\\\", \\\"manylinux_2_22_aarch64\\\"], [\\\"cp27\\\", \\\"cp27mu\\\", \\\"manylinux_2_21_aarch64\\\"], [\\\"cp27\\\", \\\"cp27mu\\\", \\\"manylinux_2_20_aarch64\\\"], [\\\"cp27\\\", \\\"cp27mu\\\", \\\"manylinux_2_19_aarch64\\\"], [\\\"cp27\\\", \\\"cp27mu\\\", \\\"manylinux_2_18_aarch64\\\"], [\\\"cp27\\\", \\\"cp27mu\\\", \\\"manylinux_2_17_aarch64\\\"], [\\\"cp27\\\", \\\"cp27mu\\\", \\\"manylinux2014_aarch64\\\"], [\\\"cp27\\\", \\\"cp27mu\\\", \\\"linux_aarch64\\\"], [\\\"cp27\\\", \\\"none\\\", \\\"manylinux_2_27_aarch64\\\"], [\\\"cp27\\\", \\\"none\\\", \\\"manylinux_2_26_aarch64\\\"], [\\\"cp27\\\", \\\"none\\\", \\\"manylinux_2_25_aarch64\\\"], [\\\"cp27\\\", \\\"none\\\", \\\"manylinux_2_24_aarch64\\\"], [\\\"cp27\\\", \\\"none\\\", \\\"manylinux_2_23_aarch64\\\"], [\\\"cp27\\\", \\\"none\\\", \\\"manylinux_2_22_aarch64\\\"], [\\\"cp27\\\", \\\"none\\\", \\\"manylinux_2_21_aarch64\\\"], [\\\"cp27\\\", \\\"none\\\", \\\"manylinux_2_20_aarch64\\\"], [\\\"cp27\\\", \\\"none\\\", \\\"manylinux_2_19_aarch64\\\"], [\\\"cp27\\\", \\\"none\\\", \\\"manylinux_2_18_aarch64\\\"], [\\\"cp27\\\", \\\"none\\\", \\\"manylinux_2_17_aarch64\\\"], [\\\"cp27\\\", \\\"none\\\", \\\"manylinux2014_aarch64\\\"], [\\\"cp27\\\", \\\"none\\\", \\\"linux_aarch64\\\"]], \\\"platform_python_compiler\\\": \\\"GCC 7.5.0\\\", \\\"agent_version\\\": \\\"latest\\\"}' 'https://api.freedomrobotics.ai/download_wheel_link'\"","2021-02-13 15:57:30 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 3.44s","2021-02-13 15:57:30 [DEBUG]  Got the link to download the wheel.","2021-02-13 15:57:30 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"curl -sS -o /tmp/freedomroboticsu972AI/freedomrobotics-0.1.154-cp27-cp27mu-linux_aarch64.whl 'https://mission-control-download.s3.amazonaws.com/agent/release/0.1.154/freedomrobotics-0.1.154-cp27-cp27mu-linux_aarch64.whl?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Expires=100&X-Amz-Date=20210213T155730Z&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMiJHMEUCIQCeI0AMXSW65Gh2r4AgK4awpqCIR95iLonwGEvCwhb1NgIgS0UWKIPCssuX8U8mefLQv4tR1%2B1JgyLpYJjAZx910Gcq%2BwEI8P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARACGgw2NDk3NDY2MDA4NzUiDE7t8oBRy180we5gvCrPAWLI1xjCJwe5eIkoPwkuvN1%2FbxCLbe5oVCyvdklfM1XkfZ3msF0Tmg3suRTShLv3k%2BQcQc%2F75JuWH2JxkncrbnbonBECVJMdCIBFGfzHFUtko4HnRi4wkEH%2FWQknb4KYc%2ByqFxDItuAnNOxsQ95i%2BVCAhn13w%2FHA%2FWSa5M3n%2FjJ2mvpnFaXsufrkCLifR1IpGetjgAXUDlsZ9k2Re2zo4y8C1ZyAMuJAZnHUPisA7knFgrw4BkwaTkFRVQbOcGVrICFeINC6PSb7%2Bup5zZjWKDDLyZ%2BBBjrgAcKmVv%2FrzQ9S0D8c6u7YWNy0u2H4NrOOd9vB2fiAFNIL56WpDW6598CekBRqmZKPGs%2FUmpaA4%2BmnmM%2FfsjpQSTlsch4lki2p1W3ZJmh4azHk9imYkHUh7FoDyTCp9M%2B9S2M9M1T6K2YLKkotxjnFDlXjfc1IDBsSEsVrgGVaiK45wyiX3bBt6up4nJNOEy5RGl9IjaCFsWaAzFeYJ1EOLj%2FG374HHrpoW4G7%2FACyFYkg67erRH8HjM5kxhek2z9PUbSw2xFQ%2Fhk%2BZaa2FJxBsd7UzlnVwnRxkX%2FJGRcWyDSY&X-Amz-Credential=ASIAZOR7KKOVVIZY3L5O%2F20210213%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Signature=9bab9b5ff5582462e6ff7f2de86bcd353b5888e09f01a5ff1e429ea141ee0e76'\"","2021-02-13 15:57:31 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.88s","2021-02-13 15:57:31 [DEBUG]  Downloaded the wheel.","2021-02-13 15:57:31 [INFO ]  Installing freedomrobotics agent and its direct dependencies for python 2.7. This might take a few minutes.","2021-02-13 15:57:31 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python -m pip install --user /tmp/freedomroboticsu972AI/freedomrobotics-0.1.154-cp27-cp27mu-linux_aarch64.whl\"","2021-02-13 15:57:34 [DEBUG]  \t\tSTANDARD ERROR:","2021-02-13 15:57:34 [DEBUG]  \t\t\tDEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.","2021-02-13 15:57:34 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 2.62s","2021-02-13 15:57:34 [DEBUG]  Successfully installed python package 'freedomrobotics'","2021-02-13 15:57:34 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"which roscore\"","2021-02-13 15:57:34 [DEBUG]  \t\tERROR RESPONSE CODE: 1, EXECUTION TIME: 0.01s","2021-02-13 15:57:34 [DEBUG]  Executable `roscore` was not found using current PATH: Command '/bin/bash -c \"which roscore\"' returned non-zero exit status 1","2021-02-13 15:57:34 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"which ros2\"","2021-02-13 15:57:34 [DEBUG]  \t\tERROR RESPONSE CODE: 1, EXECUTION TIME: 0.01s","2021-02-13 15:57:34 [DEBUG]  Executable `ros2` was not found using current PATH: Command '/bin/bash -c \"which ros2\"' returned non-zero exit status 1","2021-02-13 15:57:34 [DEBUG]  No suitable ros installation found","2021-02-13 15:57:34 [INFO ]      COMPLETE","2021-02-13 15:57:34 [DEBUG]  Installing the agent one more time on python3 (/usr/bin/python3) to enable WebRTC.","2021-02-13 15:57:34 [INFO ]  ","2021-02-13 15:57:34 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python3 -c 'import sys; print(\\\"{}.{}\\\".format(sys.version_info.major, sys.version_info.minor))'\"","2021-02-13 15:57:34 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.11s","2021-02-13 15:57:34 [INFO ]  Step 5/7: INSTALLING PACKAGE (python3.6)","2021-02-13 15:57:34 [DEBUG]  Using python3.6 from path: /usr/bin/python3","2021-02-13 15:57:34 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python3 -c 'import sys; print(\\\"{}.{}\\\".format(sys.version_info.major, sys.version_info.minor))'\"","2021-02-13 15:57:34 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.11s","2021-02-13 15:57:34 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python3 -m pip show freedomrobotics | grep \\\"Location: \\\"\"","2021-02-13 15:57:38 [DEBUG]  \t\tERROR RESPONSE CODE: 1, EXECUTION TIME: 4.17s","2021-02-13 15:57:38 [DEBUG]  Could not find the location of the freedomrobotics package for python3.6, it might not have been previously installed: Could not find freedomrobotics python package install location:  Command '/bin/bash -c \"/usr/bin/python3 -m pip show freedomrobotics | grep \\\"Location: \\\"\"' returned non-zero exit status 1","2021-02-13 15:57:38 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python3 -c 'import sys","import os","if (hasattr(sys, \\\"base_prefix\\\") and sys.base_prefix != sys.prefix) or hasattr(sys, \\\"real_prefix\\\") or os.environ.get(\\\"CONDA_PREFIX\\\"):","    print(\\\"Detected we are dealing with a virtual environment for /usr/bin/python3\\\")'\"","2021-02-13 15:57:38 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.10s","2021-02-13 15:57:38 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python3 -m pip show numpy | grep \\\"Version: \\\"\"","2021-02-13 15:57:43 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 4.26s","2021-02-13 15:57:43 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python3 -m pip install --user SharedArray\"","2021-02-13 15:57:47 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 4.24s","2021-02-13 15:57:47 [DEBUG]  Preparing to install agent from wheel package.","2021-02-13 15:57:47 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python3 -m pip install --user \\\"packaging>=20.0\\\"\"","2021-02-13 15:57:51 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 4.27s","2021-02-13 15:57:51 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python3 -c \\\"","import warnings","warnings.filterwarnings('ignore')","import json","import platform","import sys","","try:","    import distro","except ImportError:","    # we don't have distro module","    distro = lambda: None","    distro.linux_distribution = lambda: 'Failed to get: Distro is not available.'","","try:","    from pip import __version__ as pip_version","except ImportError:","    # we don't have pip module","    pip_version = '0.0.0 (Pip is not available.)'","","try:","    from packaging import __version__ as packaging_version","except ImportError:","    # we don't have pip module","    packaging_version = '0.0.0 (Packaging is not available.)'","","try:","    from packaging import tags","    pip_supported_tags = list(tags.cpython_tags())","except ImportError:","    try:","        if pip_version < '20.1' and pip_version >= '10.0':","            from pip._internal import pep425tags","            pip_supported_tags = pep425tags.get_supported()","        elif pip_version >= '1.4':","            from pip import pep425tags","            pip_supported_tags = pep425tags.get_supported()","        else:","            pip_supported_tags = []","    except ImportError:","        pip_supported_tags = []","","if pip_supported_tags and hasattr(pip_supported_tags[0], 'platform'):","    pip_supported_tags = [(tag.interpreter, tag.abi, tag.platform) for tag in pip_supported_tags]","","print(json.dumps({","    'platform_system': platform.system(),","    'platform_release': platform.release(),","    'platform_machine': platform.machine(),","    'platform_processor': platform.processor(),","    'platform_linux_distribution': ","        platform.linux_distribution() if hasattr(platform, 'linux_distribution') else distro.linux_distribution(),","    'platform_mac_ver': platform.mac_ver(),","    'platform_uname': platform.uname(),","    'platform_python_implementation': platform.python_implementation(),","    'platform_python_version': platform.python_version(),","    'platform_python_compiler': platform.python_compiler(),","    'platform_python_build': platform.python_build(),","    'pip_supported_tags': pip_supported_tags,","    'pip_version': pip_version,","    'packaging_version': packaging_version,","}))","\\\"\"","2021-02-13 15:57:55 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 3.92s","2021-02-13 15:57:55 [DEBUG]  Collected next system details: {u'platform_linux_distribution': [u'Ubuntu', u'18.04', u'bionic'], u'platform_machine': u'aarch64', u'platform_python_implementation': u'CPython', u'packaging_version': u'17.1', u'platform_system': u'Linux', u'pip_version': u'9.0.1', u'platform_processor': u'aarch64', u'platform_release': u'5.4.0-1015-raspi', u'platform_uname': [u'Linux', u'ubuntu', u'5.4.0-1015-raspi', u'#15~18.04.1-Ubuntu SMP Fri Jul 10 09:20:51 UTC 2020', u'aarch64', u'aarch64'], u'platform_python_version': u'3.6.9', u'platform_python_build': [u'default', u'Oct  8 2020 12:12:24'], u'platform_mac_ver': [u'', [u'', u'', u''], u''], 'code_branch': 'release', u'platform_python_compiler': u'GCC 8.4.0', u'pip_supported_tags': [[u'cp36', u'cp36m', u'linux_aarch64'], [u'cp36', u'abi3', u'linux_aarch64'], [u'cp36', u'none', u'linux_aarch64'], [u'cp35', u'abi3', u'linux_aarch64'], [u'cp34', u'abi3', u'linux_aarch64'], [u'cp33', u'abi3', u'linux_aarch64'], [u'cp32', u'abi3', u'linux_aarch64'], [u'py3', u'none', u'linux_aarch64'], [u'cp36', u'none', u'any'], [u'cp3', u'none', u'any'], [u'py36', u'none', u'any'], [u'py3', u'none', u'any'], [u'py35', u'none', u'any'], [u'py34', u'none', u'any'], [u'py33', u'none', u'any'], [u'py32', u'none', u'any'], [u'py31', u'none', u'any'], [u'py30', u'none', u'any']], 'agent_version': 'latest'}","2021-02-13 15:57:55 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"curl -sS -X POST -H 'mc_token: T19435F20337E8877FF8213DB' -H 'content-type: application/json' -H 'mc_secret: Sbcb130d5afc654af0e9f35dd' -d '{\\\"platform_linux_distribution\\\": [\\\"Ubuntu\\\", \\\"18.04\\\", \\\"bionic\\\"], \\\"platform_machine\\\": \\\"aarch64\\\", \\\"platform_python_implementation\\\": \\\"CPython\\\", \\\"packaging_version\\\": \\\"17.1\\\", \\\"platform_system\\\": \\\"Linux\\\", \\\"pip_version\\\": \\\"9.0.1\\\", \\\"platform_processor\\\": \\\"aarch64\\\", \\\"platform_release\\\": \\\"5.4.0-1015-raspi\\\", \\\"platform_uname\\\": [\\\"Linux\\\", \\\"ubuntu\\\", \\\"5.4.0-1015-raspi\\\", \\\"#15~18.04.1-Ubuntu SMP Fri Jul 10 09:20:51 UTC 2020\\\", \\\"aarch64\\\", \\\"aarch64\\\"], \\\"platform_python_version\\\": \\\"3.6.9\\\", \\\"platform_python_build\\\": [\\\"default\\\", \\\"Oct  8 2020 12:12:24\\\"], \\\"platform_mac_ver\\\": [\\\"\\\", [\\\"\\\", \\\"\\\", \\\"\\\"], \\\"\\\"], \\\"code_branch\\\": \\\"release\\\", \\\"platform_python_compiler\\\": \\\"GCC 8.4.0\\\", \\\"pip_supported_tags\\\": [[\\\"cp36\\\", \\\"cp36m\\\", \\\"linux_aarch64\\\"], [\\\"cp36\\\", \\\"abi3\\\", \\\"linux_aarch64\\\"], [\\\"cp36\\\", \\\"none\\\", \\\"linux_aarch64\\\"], [\\\"cp35\\\", \\\"abi3\\\", \\\"linux_aarch64\\\"], [\\\"cp34\\\", \\\"abi3\\\", \\\"linux_aarch64\\\"], [\\\"cp33\\\", \\\"abi3\\\", \\\"linux_aarch64\\\"], [\\\"cp32\\\", \\\"abi3\\\", \\\"linux_aarch64\\\"], [\\\"py3\\\", \\\"none\\\", \\\"linux_aarch64\\\"], [\\\"cp36\\\", \\\"none\\\", \\\"any\\\"], [\\\"cp3\\\", \\\"none\\\", \\\"any\\\"], [\\\"py36\\\", \\\"none\\\", \\\"any\\\"], [\\\"py3\\\", \\\"none\\\", \\\"any\\\"], [\\\"py35\\\", \\\"none\\\", \\\"any\\\"], [\\\"py34\\\", \\\"none\\\", \\\"any\\\"], [\\\"py33\\\", \\\"none\\\", \\\"any\\\"], [\\\"py32\\\", \\\"none\\\", \\\"any\\\"], [\\\"py31\\\", \\\"none\\\", \\\"any\\\"], [\\\"py30\\\", \\\"none\\\", \\\"any\\\"]], \\\"agent_version\\\": \\\"latest\\\"}' 'https://api.freedomrobotics.ai/download_wheel_link'\"","2021-02-13 15:57:58 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 3.39s","2021-02-13 15:57:58 [DEBUG]  Got the link to download the wheel.","2021-02-13 15:57:58 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"curl -sS -o /tmp/freedomroboticsubOjKR/freedomrobotics-0.1.154-cp36-cp36m-linux_aarch64.whl 'https://mission-control-download.s3.amazonaws.com/agent/release/0.1.154/freedomrobotics-0.1.154-cp36-cp36m-linux_aarch64.whl?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Expires=100&X-Amz-Date=20210213T155758Z&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMiJIMEYCIQCVXB0ZD7%2FsmokSkl93oOtDv6LUePICjtzeYrm59f5NbAIhAK4d2rOnfvlept8lkJSHI%2BEtI8Tv4rDU4h7q5evwIWfeKvsBCPD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAhoMNjQ5NzQ2NjAwODc1IgzeRu%2FcS8qH%2B9%2F6KG8qzwFl02Qji%2BUcc2r1%2BIYaKxzImcEbi%2BJgmXw%2B9cOYfVfg90V2IDgtJVu0rd5B0l9lI7E1w09pbxq%2F1ikfW2SIFfB8rd8GDAwBfqZglWAPbCxNMnvz9XTDExTUU1d4f0DAmhvs9aO2YdFt%2Bt5U42gWYwycozsVyxca1jXItYAClTMGX8D38b8N4Sgk9UFyWi1WgscTfLyiyY7M0AEPobaskcGCZHqzq8Ila51sL%2FzqCdjrOXidsGN7nrGt8ib31EIrMECe8N9Xgd%2BAqT9Vq2bTRKYwrMqfgQY63wHu8E5ECqH3m4z4IiDeQHdv1DnA%2BV6cEbXWfWFluqP7XcOi%2F5UmVj3s4JNt3sJpIYhUif5RSIjdWrruCnsx5wT6MCWCj0XWjGGDg3GXljcGsLg3mdkr%2BakuhRQjH2kSj9mvV8SCEFr0pq5WCuJ9GoP1UpYiWHHrso%2B3i5mMSyB%2BuVpQsQxn5CskzDnRcyFh%2BPwPm1VIBrmRNxF8MZALr71aYHz4alk1VGssX1mgQFVqbisH599HVBXtv0IZSom4JVNtkAlzcteVfawna2ssoj5UjRwbt1f3QrNGWweHx%2F6F&X-Amz-Credential=ASIAZOR7KKOVRHZGNKQ7%2F20210213%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Signature=94f4e8400e850d3ec2458cc9474c12ff094b2bb807e015a30440599ac97f19cf'\"","2021-02-13 15:57:59 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.02s","2021-02-13 15:57:59 [DEBUG]  Downloaded the wheel.","2021-02-13 15:57:59 [INFO ]  Installing freedomrobotics agent and its direct dependencies for python 3.6. This might take a few minutes.","2021-02-13 15:57:59 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python3 -m pip install --user /tmp/freedomroboticsubOjKR/freedomrobotics-0.1.154-cp36-cp36m-linux_aarch64.whl\"","2021-02-13 15:58:05 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 5.59s","2021-02-13 15:58:05 [DEBUG]  Successfully installed python package 'freedomrobotics'","2021-02-13 15:58:05 [INFO ]      COMPLETE","2021-02-13 15:58:05 [INFO ]  ","2021-02-13 15:58:05 [INFO ]  Step 6/7: RTC DEPENDENCIES","2021-02-13 15:58:05 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"pkg-config --modversion libavdevice\"","2021-02-13 15:58:05 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.01s","2021-02-13 15:58:05 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"pkg-config --modversion libavfilter\"","2021-02-13 15:58:05 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.01s","2021-02-13 15:58:05 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python3 -m pip show av | grep \\\"Version: \\\"\"","2021-02-13 15:58:09 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 4.23s","2021-02-13 15:58:09 [INFO ]  Installing webrtc dependencies. First installation might take a few minutes.","2021-02-13 15:58:09 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python3 -m pip install --user crc32c==2.0.1 aiortc SharedArray av dataclasses\"","2021-02-13 15:58:37 [DEBUG]  \t\tSTANDARD ERROR:","2021-02-13 15:58:37 [DEBUG]  \t\t\tCommand \"python setup.py egg_info\" failed with error code 1 in /tmp/pip-build-41gyiwgn/cryptography/","2021-02-13 15:58:37 [DEBUG]  \t\tERROR RESPONSE CODE: 1, EXECUTION TIME: 27.84s","2021-02-13 15:58:37 [INFO ]  ","2021-02-13 15:58:37 [INFO ]  ","2021-02-13 15:58:37 [INFO ]  ","2021-02-13 15:58:37 [CRITI]  \u001b[31m################################################################################\u001b[39m","2021-02-13 15:58:37 [CRITI]  \u001b[31m\u001b[39m","2021-02-13 15:58:37 [CRITI]  \u001b[31mINSTALL DID NOT COMPLETE SUCCESSFULLY\u001b[39m","2021-02-13 15:58:37 [CRITI]  \u001b[31m\u001b[39m","2021-02-13 15:58:37 [CRITI]  \u001b[31mFailed to install RTC python package dependencies: Collecting crc32c==2.0.1","Using cached https://files.pythonhosted.org/packages/9e/4f/78049a7bc27fc9e23a9f7a9896554646de0ad1309510d2dbe58336d5c5cf/crc32c-2.0.1.tar.gz","Collecting aiortc","Using cached https://files.pythonhosted.org/packages/58/bc/5267cad79282ed8020032586e804ebb2f8084d972d89d3c19200de8510c4/aiortc-1.1.2.tar.gz","Requirement already satisfied: SharedArray in ./.local/lib/python3.6/site-packages","Requirement already satisfied: av in ./.local/lib/python3.6/site-packages","Collecting dataclasses","Using cached https://files.pythonhosted.org/packages/fe/ca/75fac5856ab5cfa51bbbcefa250182e50441074fdc3f803f6e76451fab43/dataclasses-0.8-py3-none-any.whl","Collecting aioice<0.8.0,>=0.7.5 (from aiortc)","Using cached https://files.pythonhosted.org/packages/5a/32/31ec785c02ac848aa4a8503b86afe63e94c6bffd0d53a758a11f1e58224b/aioice-0.7.5-py3-none-any.whl","Collecting cffi>=1.0.0 (from aiortc)","Using cached https://files.pythonhosted.org/packages/a8/20/025f59f929bbcaa579704f443a438135918484fffaacfaddba776b374563/cffi-1.14.5.tar.gz","Collecting cryptography>=2.2 (from aiortc)","Using cached https://files.pythonhosted.org/packages/27/5a/007acee0243186123a55423d49cbb5c15cb02d76dd1b6a27659a894b13a2/cryptography-3.4.4.tar.gz","Complete output from command python setup.py egg_info:","Traceback (most recent call last):","File \"<string>\", line 1, in <module>","File \"/tmp/pip-build-41gyiwgn/cryptography/setup.py\", line 14, in <module>","from setuptools_rust import RustExtension","ModuleNotFoundError: No module named 'setuptools_rust'","","=============================DEBUG ASSISTANCE==========================","If you are seeing an error here please try the following to","successfully install cryptography:","","Upgrade to the latest pip and try again. This will fix errors for most","users. See: https://pip.pypa.io/en/stable/installing/#upgrading-pip","=============================DEBUG ASSISTANCE==========================","","","----------------------------------------\u001b[39m","2021-02-13 15:58:37 [CRITI]  \u001b[31m\u001b[39m","2021-02-13 15:58:37 [CRITI]  \u001b[31m############################################################\u001b[39m","2021-02-13 15:58:37 [CRITI]  \u001b[31m\u001b[39m","2021-02-13 15:58:37 [CRITI]  \u001b[31m( NO STACK TRACE REPORTED )\u001b[39m","2021-02-13 15:58:37 [CRITI]  \u001b[31m\u001b[39m","2021-02-13 15:58:37 [CRITI]  \u001b[31m############################################################\u001b[39m","2021-02-13 15:58:37 [CRITI]  \u001b[31m\u001b[39m","2021-02-13 15:58:37 [CRITI]  \u001b[31mSTOPPING AGENT IF NECESSARY AND UNINSTALLING\u001b[39m","2021-02-13 15:58:37 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"sudo -n service freedomrobotics stop\"","2021-02-13 15:58:41 [DEBUG]  \t\tSTANDARD ERROR:","2021-02-13 15:58:42 [DEBUG]  \t\t\tFailed to stop freedomrobotics.service: Unit freedomrobotics.service not loaded.","2021-02-13 15:58:42 [DEBUG]  \t\tERROR RESPONSE CODE: 5, EXECUTION TIME: 4.09s","2021-02-13 15:58:42 [CRITI]  \u001b[31m    - AGENT NOT RUNNING\u001b[39m","2021-02-13 15:58:42 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"sudo -n systemctl daemon-reload\"","2021-02-13 15:58:42 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.69s","2021-02-13 15:58:42 [DEBUG]  Systemd / Systemctl are running so registering as systemd service","2021-02-13 15:58:42 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python -m pip show freedomrobotics | grep \\\"Location: \\\"\"","2021-02-13 15:58:43 [DEBUG]  \t\tSTANDARD ERROR:","2021-02-13 15:58:43 [DEBUG]  \t\t\tDEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.","2021-02-13 15:58:43 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.70s","2021-02-13 15:58:43 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python /home/ubuntu/.local/lib/python2.7/site-packages/freedomrobotics/management/unregister_systemd_service.py\"","2021-02-13 15:58:44 [DEBUG]  \t\tSTANDARD ERROR:","2021-02-13 15:58:44 [DEBUG]  \t\t\tDEBUG:__main__:\tChecking sudo privileges","2021-02-13 15:58:44 [DEBUG]  \t\t\tDEBUG:__main__:","2021-02-13 15:58:44 [DEBUG]  \t\t\tDEBUG:__main__:################################################################################","2021-02-13 15:58:44 [DEBUG]  \t\t\tDEBUG:__main__:# UNREGISTERING Freedom Robotics system.d service","2021-02-13 15:58:44 [DEBUG]  \t\t\tDEBUG:__main__:#    INSTALLED: False","2021-02-13 15:58:44 [DEBUG]  \t\t\tDEBUG:__main__:#    RUNNING:   False","2021-02-13 15:58:44 [DEBUG]  \t\t\tDEBUG:__main__:################################################################################","2021-02-13 15:58:44 [DEBUG]  \t\t\tDEBUG:__main__:################################################################################","2021-02-13 15:58:44 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.02s","2021-02-13 15:58:44 [DEBUG]  Service unregistration log: ","2021-02-13 15:58:44 [CRITI]  \u001b[31m    SERVICE REMOVED\u001b[39m","2021-02-13 15:58:44 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python -c 'import sys; print(\\\"{}.{}\\\".format(sys.version_info.major, sys.version_info.minor))'\"","2021-02-13 15:58:44 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s","2021-02-13 15:58:44 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python -m pip show freedomrobotics\"","2021-02-13 15:58:45 [DEBUG]  \t\tSTANDARD ERROR:","2021-02-13 15:58:45 [DEBUG]  \t\t\tDEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.","2021-02-13 15:58:45 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.69s","2021-02-13 15:58:45 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python -m pip uninstall -y freedomrobotics\"","2021-02-13 15:58:47 [DEBUG]  \t\tSTANDARD ERROR:","2021-02-13 15:58:47 [DEBUG]  \t\t\tDEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.","2021-02-13 15:58:47 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.58s","2021-02-13 15:58:47 [CRITI]  \u001b[31m    UNINSTALLED PACKAGE (python2.7)\u001b[39m","2021-02-13 15:58:47 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python3 -c 'import sys; print(\\\"{}.{}\\\".format(sys.version_info.major, sys.version_info.minor))'\"","2021-02-13 15:58:47 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.11s","2021-02-13 15:58:47 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python3 -m pip show freedomrobotics\"","2021-02-13 15:58:51 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 4.21s","2021-02-13 15:58:51 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python3 -m pip uninstall -y freedomrobotics\"","2021-02-13 15:58:55 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 4.40s","2021-02-13 15:58:55 [CRITI]  \u001b[31m    UNINSTALLED PACKAGE (python3.6)\u001b[39m","2021-02-13 15:58:55 [CRITI]  \u001b[31m\u001b[39m","2021-02-13 15:58:55 [CRITI]  \u001b[31mUPLOADING INSTALL ERROR REPORT\u001b[39m","2021-02-13 15:58:55 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"pgrep fr_agent\"","2021-02-13 15:58:55 [DEBUG]  \t\tERROR RESPONSE CODE: 1, EXECUTION TIME: 0.03s","2021-02-13 15:58:56 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"pgrep fr_agent\"","2021-02-13 15:58:56 [DEBUG]  \t\tERROR RESPONSE CODE: 1, EXECUTION TIME: 0.03s","2021-02-13 15:58:57 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"pgrep fr_agent\"","2021-02-13 15:58:57 [DEBUG]  \t\tERROR RESPONSE CODE: 1, EXECUTION TIME: 0.03s","2021-02-13 15:58:58 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"pgrep fr_agent\"","2021-02-13 15:58:58 [DEBUG]  \t\tERROR RESPONSE CODE: 1, EXECUTION TIME: 0.03s","2021-02-13 15:58:59 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"pgrep fr_agent\"","2021-02-13 15:58:59 [DEBUG]  \t\tERROR RESPONSE CODE: 1, EXECUTION TIME: 0.04s","2021-02-13 15:59:00 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"service_path=\\$(which service) && output=\\$( \\$service_path ssh status ) && echo \\\"\\$output\\\"\"","2021-02-13 15:59:00 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.07s","2021-02-13 15:59:00 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python -m pip show freedomrobotics\"","2021-02-13 15:59:01 [DEBUG]  \t\tSTANDARD ERROR:","2021-02-13 15:59:01 [DEBUG]  \t\t\tDEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.","2021-02-13 15:59:01 [DEBUG]  \t\t\tWARNING: Package(s) not found: freedomrobotics","2021-02-13 15:59:01 [DEBUG]  \t\tERROR RESPONSE CODE: 1, EXECUTION TIME: 0.47s","2021-02-13 15:59:01 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python -c 'import sys; print(\\\"{}.{}\\\".format(sys.version_info.major, sys.version_info.minor))'\"","2021-02-13 15:59:01 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s","2021-02-13 15:59:01 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python3 -m pip show freedomrobotics\"","2021-02-13 15:59:05 [DEBUG]  \t\tERROR RESPONSE CODE: 1, EXECUTION TIME: 4.18s","2021-02-13 15:59:05 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python3 -c 'import sys; print(\\\"{}.{}\\\".format(sys.version_info.major, sys.version_info.minor))'\"","2021-02-13 15:59:05 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.10s","2021-02-13 15:59:05 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python3 -m pip show aiortc\"","2021-02-13 15:59:09 [DEBUG]  \t\tERROR RESPONSE CODE: 1, EXECUTION TIME: 4.19s","2021-02-13 15:59:09 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python -c \\\"","import warnings","warnings.filterwarnings('ignore')","import json","import platform","import sys","","try:","    import distro","except ImportError:","    # we don't have distro module","    distro = lambda: None","    distro.linux_distribution = lambda: 'Failed to get: Distro is not available.'","","try:","    from pip import __version__ as pip_version","except ImportError:","    # we don't have pip module","    pip_version = '0.0.0 (Pip is not available.)'","","try:","    from packaging import __version__ as packaging_version","except ImportError:","    # we don't have pip module","    packaging_version = '0.0.0 (Packaging is not available.)'","","try:","    from packaging import tags","    pip_supported_tags = list(tags.cpython_tags())","except ImportError:","    try:","        if pip_version < '20.1' and pip_version >= '10.0':","            from pip._internal import pep425tags","            pip_supported_tags = pep425tags.get_supported()","        elif pip_version >= '1.4':","            from pip import pep425tags","            pip_supported_tags = pep425tags.get_supported()","        else:","            pip_supported_tags = []","    except ImportError:","        pip_supported_tags = []","","if pip_supported_tags and hasattr(pip_supported_tags[0], 'platform'):","    pip_supported_tags = [(tag.interpreter, tag.abi, tag.platform) for tag in pip_supported_tags]","","print(json.dumps({","    'platform_system': platform.system(),","    'platform_release': platform.release(),","    'platform_machine': platform.machine(),","    'platform_processor': platform.processor(),","    'platform_linux_distribution': ","        platform.linux_distribution() if hasattr(platform, 'linux_distribution') else distro.linux_distribution(),","    'platform_mac_ver': platform.mac_ver(),","    'platform_uname': platform.uname(),","    'platform_python_implementation': platform.python_implementation(),","    'platform_python_version': platform.python_version(),","    'platform_python_compiler': platform.python_compiler(),","    'platform_python_build': platform.python_build(),","    'pip_supported_tags': pip_supported_tags,","    'pip_version': pip_version,","    'packaging_version': packaging_version,","}))","\\\"\"","2021-02-13 15:59:10 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.14s","2021-02-13 15:59:10 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"/usr/bin/python -m pip freeze\"","2021-02-13 15:59:10 [DEBUG]  \t\tSTANDARD ERROR:","2021-02-13 15:59:10 [DEBUG]  \t\t\tDEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.","2021-02-13 15:59:10 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.85s","2021-02-13 15:59:10 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"runlevel\"","2021-02-13 15:59:10 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s","2021-02-13 15:59:10 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"dpkg-query -W -f='\\${Status} \\${Version}\\n' sudo\"","2021-02-13 15:59:11 [DEBUG]  \t\tSUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s","2021-02-13 15:59:11 [DEBUG]  \t\tEXECUTING SYSTEM COMMAND: /bin/bash -c \"pgrep -a ros\"","2021-02-13 15:59:11 [DEBUG]  \t\tERROR RESPONSE CODE: 1, EXECUTION TIME: 0.03s","2021-02-13 15:59:11 [DEBUG]  Command '/bin/bash -c \"pgrep -a ros\"' returned non-zero exit status 1","2021-02-13 15:59:11 [DEBUG]  Could not detect ros processes.",""],"level":"fatal","created":"2021-02-13 15:59:11","component":"installer","times":{"uninstall_current_agent":[0.52,4.28],"install_webrtc_av_dependency":4.23,"install_prerequisites":0.41,"install_credentials":0.02,"get_wheel_package":[6.23,12.61],"verify_prerequisites":5.54,"python_ssl_check":0.15,"platform_details":[0.14,3.92,0.14],"disable_old_freedomrobotics":0.0,"has_sudo_rights":0.03,"time_total_install":115.0,"install_remote_ssh":0.22,"local_folders_permissions_check":0.27,"install_webrtc_dependencies":27.84,"check_ros_version":0.03,"agent_running_check":5.17},"requesting_token":"***FF8213DB","device":"D7530172466E9EC156991C77C54","attributes":{"install_status":{"ACCOUNT":"AA2E4916C77670BAA7DA84BD4","PYTHON3.6 PACKAGE":"X","ROS SHADOW":"X","PYTHON2.7 PACKAGE":"X","DEVICE":"D7530172466E9EC156991C77C54","REMOTE SSH":"INSTALLED","RTC DEPENDENCIES":"X","MICRO AGENT":"X"},"pip_freeze":"asn1crypto==0.24.0\ncertifi==2020.12.5\nchardet==4.0.0\ncryptography==2.1.4\ndistro==1.5.0\nenum34==1.1.6\nidna==2.6\nipaddress==1.0.17\nkeyring==10.6.0\nkeyrings.alt==3.0\nnumpy==1.16.6\npackaging==20.9\nprotobuf==3.14.0\nprotobuf-to-dict==0.1.0\npsutil==5.8.0\npycrypto==2.6.1\npygobject==3.26.1\npyparsing==2.4.7\npython-cjson==1.2.2\npyxdg==0.25\nrequests==2.25.1\nSecretStorage==2.3.1\nsetproctitle==1.1.10\nSharedArray==3.2.1\nsix==1.11.0\nurllib3==1.26.3\nyappi==1.3.2","code_version":"latest","debug_details":{"ros_processes":["failed to get"],"is_docker":false,"sudo_available":true,"is_python_virtual_env":false,"user":"ubuntu","user_is_privileged":true,"environment_variables":{"PATH":"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"},"python_bin_path":"/usr/bin/python","run_level":"N 5"},"platform_details":{"platform_linux_distribution":["Ubuntu","18.04","bionic"],"platform_release":"5.4.0-1015-raspi","platform_python_implementation":"CPython","packaging_version":"20.9","platform_python_version":"2.7.17","pip_version":"20.3.4","platform_processor":"aarch64","platform_machine":"aarch64","platform_uname":["Linux","ubuntu","5.4.0-1015-raspi","#15~18.04.1-Ubuntu SMP Fri Jul 10 09:20:51 UTC 2020","aarch64","aarch64"],"platform_system":"Linux","platform_python_build":["default","Sep 30 2020 13:38:04"],"platform_mac_ver":["",["","",""],""],"pip_supported_tags":[["cp27","cp27mu","manylinux_2_27_aarch64"],["cp27","cp27mu","manylinux_2_26_aarch64"],["cp27","cp27mu","manylinux_2_25_aarch64"],["cp27","cp27mu","manylinux_2_24_aarch64"],["cp27","cp27mu","manylinux_2_23_aarch64"],["cp27","cp27mu","manylinux_2_22_aarch64"],["cp27","cp27mu","manylinux_2_21_aarch64"],["cp27","cp27mu","manylinux_2_20_aarch64"],["cp27","cp27mu","manylinux_2_19_aarch64"],["cp27","cp27mu","manylinux_2_18_aarch64"],["cp27","cp27mu","manylinux_2_17_aarch64"],["cp27","cp27mu","manylinux2014_aarch64"],["cp27","cp27mu","linux_aarch64"],["cp27","none","manylinux_2_27_aarch64"],["cp27","none","manylinux_2_26_aarch64"],["cp27","none","manylinux_2_25_aarch64"],["cp27","none","manylinux_2_24_aarch64"],["cp27","none","manylinux_2_23_aarch64"],["cp27","none","manylinux_2_22_aarch64"],["cp27","none","manylinux_2_21_aarch64"],["cp27","none","manylinux_2_20_aarch64"],["cp27","none","manylinux_2_19_aarch64"],["cp27","none","manylinux_2_18_aarch64"],["cp27","none","manylinux_2_17_aarch64"],["cp27","none","manylinux2014_aarch64"],["cp27","none","linux_aarch64"]],"platform_python_compiler":"GCC 7.5.0"},"environment":{"country":"US","source-ip":"24.170.25.246","user-agent":"curl/7.58.0"},"code_branch":"release","token":"***FF8213DB","install_elements":["webrtc"]},"message":"Failed to install RTC python package dependencies: Collecting crc32c==2.0.1\nUsing cached https://files.pythonhosted.org/packages/9e/4f/78049a7bc27fc9e23a9f7a9896554646de0ad1309510d2dbe58336d5c5cf/crc32c-2.0.1.tar.gz\nCollecting aiortc\nUsing cached https://files.pythonhosted.org/packages/58/bc/5267cad79282ed8020032586e804ebb2f8084d972d89d3c19200de8510c4/aiortc-1.1.2.tar.gz\nRequirement already satisfied: SharedArray in ./.local/lib/python3.6/site-packages\nRequirement already satisfied: av in ./.local/lib/python3.6/site-packages\nCollecting dataclasses\nUsing cached https://files.pythonhosted.org/packages/fe/ca/75fac5856ab5cfa51bbbcefa250182e50441074fdc3f803f6e76451fab43/dataclasses-0.8-py3-none-any.whl\nCollecting aioice<0.8.0,>=0.7.5 (from aiortc)\nUsing cached https://files.pythonhosted.org/packages/5a/32/31ec785c02ac848aa4a8503b86afe63e94c6bffd0d53a758a11f1e58224b/aioice-0.7.5-py3-none-any.whl\nCollecting cffi>=1.0.0 (from aiortc)\nUsing cached https://files.pythonhosted.org/packages/a8/20/025f59f929bbcaa579704f443a438135918484fffaacfaddba776b374563/cffi-1.14.5.tar.gz\nCollecting cryptography>=2.2 (from aiortc)\nUsing cached https://files.pythonhosted.org/packages/27/5a/007acee0243186123a55423d49cbb5c15cb02d76dd1b6a27659a894b13a2/cryptography-3.4.4.tar.gz\nComplete output from command python setup.py egg_info:\nTraceback (most recent call last):\nFile \"<string>\", line 1, in <module>\nFile \"/tmp/pip-build-41gyiwgn/cryptography/setup.py\", line 14, in <module>\nfrom setuptools_rust import RustExtension\nModuleNotFoundError: No module named 'setuptools_rust'\n\n=============================DEBUG ASSISTANCE==========================\nIf you are seeing an error here please try the following to\nsuccessfully install cryptography:\n\nUpgrade to the latest pip and try again. This will fix errors for most\nusers. See: https://pip.pypa.io/en/stable/installing/#upgrading-pip\n=============================DEBUG ASSISTANCE==========================\n\n\n----------------------------------------","device_name":"Default","issue":"MTYxMzIzMTk1MS41NjUyMTY5","account_name":"Freedom Industries (h+demos@freedomrobotics.ai)","requesting_token_type":"device"}}
+2021-02-13 15:59:12 [CRITI]  [31m    COMPLETE[39m
+2021-02-13 15:59:12 [CRITI]  [31m[39m
+2021-02-13 15:59:12 [CRITI]  [31m################################################################################[39m

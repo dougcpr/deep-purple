@@ -1,0 +1,5 @@
+
+
+1643380593.056206771  Node Startup
+1643380599.210601091 INFO /link_ros [threading.py:754(Thread.run)] [topics: /rosout] [FREEDOM] Starting to listen to topic: /rosout_agg
+1643380600.169264078 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout, /rosout_agg] [FREEDOM] Completed initializing LinkROS

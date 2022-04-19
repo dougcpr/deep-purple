@@ -1,0 +1,36 @@
+[rosmaster.main][INFO] 2022-01-25 16:33:38,286: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-01-25 16:33:38,286: Starting ROS Master Node
+[xmlrpc][INFO] 2022-01-25 16:33:38,288: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-01-25 16:33:38,289: Started XML-RPC server [http://ubuntu:11311/]
+[rosmaster.master][INFO] 2022-01-25 16:33:38,289: Master initialized: port[11311], uri[http://ubuntu:11311/]
+[xmlrpc][INFO] 2022-01-25 16:33:38,289: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-01-25 16:33:38,391: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-01-25 16:33:38,394: +PARAM [/roslaunch/uris/host_ubuntu__43027] by /roslaunch
+[rosmaster.master][INFO] 2022-01-25 16:33:38,479: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-01-25 16:33:38,480: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-01-25 16:33:38,511: +SERVICE [/rosout/get_loggers] /rosout http://ubuntu:37039/
+[rosmaster.master][INFO] 2022-01-25 16:33:38,512: +SERVICE [/rosout/set_logger_level] /rosout http://ubuntu:37039/
+[rosmaster.master][INFO] 2022-01-25 16:33:38,515: +PUB [/rosout_agg] /rosout http://ubuntu:37039/
+[rosmaster.master][INFO] 2022-01-25 16:33:38,520: +SUB [/rosout] /rosout http://ubuntu:37039/
+[rosmaster.master][INFO] 2022-01-25 16:33:41,986: +PUB [/rosout] /link_ros http://ubuntu:46187/
+[rosmaster.master][INFO] 2022-01-25 16:33:41,995: publisherUpdate[/rosout] -> http://ubuntu:37039/ ['http://ubuntu:46187/']
+[rosmaster.master][INFO] 2022-01-25 16:33:41,995: +SERVICE [/link_ros/get_loggers] /link_ros http://ubuntu:46187/
+[rosmaster.master][INFO] 2022-01-25 16:33:42,000: +SERVICE [/link_ros/set_logger_level] /link_ros http://ubuntu:46187/
+[rosmaster.master][INFO] 2022-01-25 16:33:42,005: publisherUpdate[/rosout] -> http://ubuntu:37039/ ['http://ubuntu:46187/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-25 16:33:44,701: +CACHEDPARAM [/rosout_disable_topics_generation] by /link_ros
+[rosmaster.master][INFO] 2022-01-25 16:33:44,706: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2022-01-25 16:33:44,718: +SUB [/rosout_agg] /link_ros http://ubuntu:46187/
+[rosmaster.master][INFO] 2022-01-25 16:33:45,660: +CACHEDPARAM [/rosout_disable_topics_generation] by /link_ros
+[rosmaster.master][INFO] 2022-01-25 16:33:45,671: +SERVICE [/link_ros/tf2_frames] /link_ros http://ubuntu:46187/
+[rosmaster.master][INFO] 2022-01-25 16:33:45,675: +SUB [/tf] /link_ros http://ubuntu:46187/
+[rosmaster.master][INFO] 2022-01-25 16:33:45,679: +SUB [/tf_static] /link_ros http://ubuntu:46187/
+[rosmaster.master][INFO] 2022-01-25 16:35:38,861: -PUB [/rosout_agg] /rosout http://ubuntu:37039/
+[rosmaster.master][INFO] 2022-01-25 16:35:38,862: -SUB [/rosout] /rosout http://ubuntu:37039/
+[rosmaster.master][INFO] 2022-01-25 16:35:38,864: -SERVICE [/rosout/get_loggers] /rosout rosrpc://ubuntu:33635
+[rosmaster.master][INFO] 2022-01-25 16:35:38,866: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://ubuntu:33635
+[rosmaster.master][INFO] 2022-01-25 16:35:38,867: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2022-01-25 16:35:38,915: publisherUpdate[/rosout_agg] -> http://ubuntu:46187/ []
+[rosmaster.master][INFO] 2022-01-25 16:35:38,929: publisherUpdate[/rosout_agg] -> http://ubuntu:46187/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.main][INFO] 2022-01-25 16:35:38,962: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2022-01-25 16:35:38,963: stopping master...
+[rospy.core][INFO] 2022-01-25 16:35:38,964: signal_shutdown [atexit]

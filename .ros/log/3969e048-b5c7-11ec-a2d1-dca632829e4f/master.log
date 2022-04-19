@@ -1,0 +1,964 @@
+[rosmaster.main][INFO] 2022-04-06 16:33:02,323: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-04-06 16:33:02,324: Starting ROS Master Node
+[xmlrpc][INFO] 2022-04-06 16:33:02,325: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-04-06 16:33:02,326: Started XML-RPC server [http://ubuntu:11311/]
+[rosmaster.master][INFO] 2022-04-06 16:33:02,326: Master initialized: port[11311], uri[http://ubuntu:11311/]
+[xmlrpc][INFO] 2022-04-06 16:33:02,327: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-04-06 16:33:02,444: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-04-06 16:33:02,447: +PARAM [/roslaunch/uris/host_ubuntu__39477] by /roslaunch
+[rosmaster.master][INFO] 2022-04-06 16:33:02,533: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-04-06 16:33:02,533: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-04-06 16:33:02,563: +SERVICE [/rosout/get_loggers] /rosout http://ubuntu:37939/
+[rosmaster.master][INFO] 2022-04-06 16:33:02,564: +SERVICE [/rosout/set_logger_level] /rosout http://ubuntu:37939/
+[rosmaster.master][INFO] 2022-04-06 16:33:02,567: +PUB [/rosout_agg] /rosout http://ubuntu:37939/
+[rosmaster.master][INFO] 2022-04-06 16:33:02,571: +SUB [/rosout] /rosout http://ubuntu:37939/
+[rosmaster.master][INFO] 2022-04-06 16:33:06,614: +PUB [/rosout] /link_ros http://ubuntu:38995/
+[rosmaster.master][INFO] 2022-04-06 16:33:06,622: +SERVICE [/link_ros/get_loggers] /link_ros http://ubuntu:38995/
+[rosmaster.master][INFO] 2022-04-06 16:33:06,625: +SERVICE [/link_ros/set_logger_level] /link_ros http://ubuntu:38995/
+[rosmaster.master][INFO] 2022-04-06 16:33:06,635: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/']
+[rosmaster.master][INFO] 2022-04-06 16:33:06,648: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 16:33:09,288: +CACHEDPARAM [/rosout_disable_topics_generation] by /link_ros
+[rosmaster.master][INFO] 2022-04-06 16:33:09,292: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2022-04-06 16:33:09,306: +SUB [/rosout_agg] /link_ros http://ubuntu:38995/
+[rosmaster.master][INFO] 2022-04-06 16:33:10,311: +CACHEDPARAM [/rosout_disable_topics_generation] by /link_ros
+[rosmaster.master][INFO] 2022-04-06 16:33:10,318: +SERVICE [/link_ros/tf2_frames] /link_ros http://ubuntu:38995/
+[rosmaster.master][INFO] 2022-04-06 16:33:10,323: +SUB [/tf] /link_ros http://ubuntu:38995/
+[rosmaster.master][INFO] 2022-04-06 16:33:10,328: +SUB [/tf_static] /link_ros http://ubuntu:38995/
+[rosmaster.master][INFO] 2022-04-06 16:33:10,943: +PARAM [/roslaunch/uris/host_ubuntu__46391] by /roslaunch
+[rosmaster.master][INFO] 2022-04-06 16:33:10,950: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-04-06 16:33:10,950: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-04-06 16:33:13,227: +PUB [/video/click] /talker http://ubuntu:44381/
+[rosmaster.master][INFO] 2022-04-06 16:33:13,318: +PUB [/rosout] /joystick http://ubuntu:41241/
+[rosmaster.master][INFO] 2022-04-06 16:33:13,320: +PUB [/rosout] /talker http://ubuntu:44381/
+[rosmaster.master][INFO] 2022-04-06 16:33:13,330: +SERVICE [/talker/get_loggers] /talker http://ubuntu:44381/
+[rosmaster.master][INFO] 2022-04-06 16:33:13,334: +SERVICE [/joystick/get_loggers] /joystick http://ubuntu:41241/
+[rosmaster.master][INFO] 2022-04-06 16:33:13,336: +SERVICE [/talker/set_logger_level] /talker http://ubuntu:44381/
+[rosmaster.master][INFO] 2022-04-06 16:33:13,341: +SERVICE [/joystick/set_logger_level] /joystick http://ubuntu:41241/
+[rosmaster.master][INFO] 2022-04-06 16:33:13,348: +SUB [/cmd_vel] /joystick http://ubuntu:41241/
+[rosmaster.master][INFO] 2022-04-06 16:33:13,356: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/']
+[rosmaster.master][INFO] 2022-04-06 16:33:13,366: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 16:33:13,367: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/']
+[rosmaster.master][INFO] 2022-04-06 16:33:13,372: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 16:33:13,539: +PUB [/rosout] /listener http://ubuntu:41881/
+[rosmaster.master][INFO] 2022-04-06 16:33:13,548: +SERVICE [/listener/get_loggers] /listener http://ubuntu:41881/
+[rosmaster.master][INFO] 2022-04-06 16:33:13,552: +SERVICE [/listener/set_logger_level] /listener http://ubuntu:41881/
+[rosmaster.master][INFO] 2022-04-06 16:33:13,558: +SUB [/video/click] /listener http://ubuntu:41881/
+[rosmaster.master][INFO] 2022-04-06 16:33:13,567: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/']
+[rosmaster.master][INFO] 2022-04-06 16:33:13,584: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 16:33:13,661: +PUB [/rosout] /cancelJoystick http://ubuntu:41161/
+[rosmaster.master][INFO] 2022-04-06 16:33:13,670: +SERVICE [/cancelJoystick/get_loggers] /cancelJoystick http://ubuntu:41161/
+[rosmaster.master][INFO] 2022-04-06 16:33:13,672: +CACHEDPARAM [/rosout_disable_topics_generation] by /link_ros
+[rosmaster.master][INFO] 2022-04-06 16:33:13,674: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 16:33:13,674: +SERVICE [/cancelJoystick/set_logger_level] /cancelJoystick http://ubuntu:41161/
+[rosmaster.master][INFO] 2022-04-06 16:33:13,679: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 16:33:13,685: +SUB [/move_base/cancel] /cancelJoystick http://ubuntu:41161/
+[rosmaster.master][INFO] 2022-04-06 16:33:13,696: +SUB [/video/click] /link_ros http://ubuntu:38995/
+[rosmaster.master][INFO] 2022-04-06 16:33:14,034: +PUB [/image_raw_2] /webcam http://ubuntu:40511/
+[rosmaster.master][INFO] 2022-04-06 16:33:14,037: +PUB [/image_raw] /webcam http://ubuntu:40511/
+[rosmaster.master][INFO] 2022-04-06 16:33:14,132: +PUB [/rosout] /webcam http://ubuntu:40511/
+[rosmaster.master][INFO] 2022-04-06 16:33:14,140: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:40511/
+[rosmaster.master][INFO] 2022-04-06 16:33:14,143: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:40511/
+[rosmaster.master][INFO] 2022-04-06 16:33:14,183: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:40511/']
+[rosmaster.master][INFO] 2022-04-06 16:33:14,189: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:40511/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 16:33:15,703: +CACHEDPARAM [/rosout_disable_topics_generation] by /link_ros
+[rosmaster.master][INFO] 2022-04-06 16:33:15,717: +SUB [/image_raw_2] /link_ros http://ubuntu:38995/
+[rosmaster.master][INFO] 2022-04-06 16:33:15,720: +CACHEDPARAM [/rosout_disable_topics_generation] by /link_ros
+[rosmaster.master][INFO] 2022-04-06 16:33:15,726: +SUB [/image_raw] /link_ros http://ubuntu:38995/
+[rosmaster.master][INFO] 2022-04-06 17:55:35,060: -PUB [/rosout] /webcam http://ubuntu:40511/
+[rosmaster.master][INFO] 2022-04-06 17:55:35,061: -PUB [/image_raw_2] /webcam http://ubuntu:40511/
+[rosmaster.master][INFO] 2022-04-06 17:55:35,061: -PUB [/image_raw] /webcam http://ubuntu:40511/
+[rosmaster.master][INFO] 2022-04-06 17:55:35,062: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:46631
+[rosmaster.master][INFO] 2022-04-06 17:55:35,062: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:46631
+[rosmaster.master][INFO] 2022-04-06 17:55:35,103: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:55:35,104: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:55:35,107: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:35,118: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:35,118: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:55:35,120: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:37,697: +PUB [/image_raw_2] /webcam http://ubuntu:34841/
+[rosmaster.master][INFO] 2022-04-06 17:55:37,701: +PUB [/image_raw] /webcam http://ubuntu:34841/
+[rosmaster.master][INFO] 2022-04-06 17:55:37,709: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:34841/']
+[rosmaster.master][INFO] 2022-04-06 17:55:37,715: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:34841/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:37,716: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:34841/']
+[rosmaster.master][INFO] 2022-04-06 17:55:37,720: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:34841/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:37,796: +PUB [/rosout] /webcam http://ubuntu:34841/
+[rosmaster.master][INFO] 2022-04-06 17:55:37,804: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:34841/
+[rosmaster.master][INFO] 2022-04-06 17:55:37,806: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:34841/
+[rosmaster.master][INFO] 2022-04-06 17:55:37,810: -PUB [/rosout] /webcam http://ubuntu:34841/
+[rosmaster.master][INFO] 2022-04-06 17:55:37,811: -PUB [/image_raw_2] /webcam http://ubuntu:34841/
+[rosmaster.master][INFO] 2022-04-06 17:55:37,811: -PUB [/image_raw] /webcam http://ubuntu:34841/
+[rosmaster.master][INFO] 2022-04-06 17:55:37,811: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:40625
+[rosmaster.master][INFO] 2022-04-06 17:55:37,812: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:40625
+[rosmaster.master][INFO] 2022-04-06 17:55:37,814: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:34841/']
+[rosmaster.master][INFO] 2022-04-06 17:55:37,818: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:34841/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:37,818: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:55:37,820: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:37,820: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:55:37,824: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:37,825: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:55:37,827: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:39,786: +PUB [/image_raw_2] /webcam http://ubuntu:40675/
+[rosmaster.master][INFO] 2022-04-06 17:55:39,790: +PUB [/image_raw] /webcam http://ubuntu:40675/
+[rosmaster.master][INFO] 2022-04-06 17:55:39,825: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:40675/']
+[rosmaster.master][INFO] 2022-04-06 17:55:39,830: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:40675/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:39,831: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:40675/']
+[rosmaster.master][INFO] 2022-04-06 17:55:39,836: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:40675/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:39,884: +PUB [/rosout] /webcam http://ubuntu:40675/
+[rosmaster.master][INFO] 2022-04-06 17:55:39,890: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:40675/
+[rosmaster.master][INFO] 2022-04-06 17:55:39,892: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:40675/
+[rosmaster.master][INFO] 2022-04-06 17:55:39,896: -PUB [/rosout] /webcam http://ubuntu:40675/
+[rosmaster.master][INFO] 2022-04-06 17:55:39,897: -PUB [/image_raw_2] /webcam http://ubuntu:40675/
+[rosmaster.master][INFO] 2022-04-06 17:55:39,897: -PUB [/image_raw] /webcam http://ubuntu:40675/
+[rosmaster.master][INFO] 2022-04-06 17:55:39,898: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:46859
+[rosmaster.master][INFO] 2022-04-06 17:55:39,898: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:46859
+[rosmaster.master][INFO] 2022-04-06 17:55:39,931: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:40675/']
+[rosmaster.master][INFO] 2022-04-06 17:55:39,932: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:55:39,938: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:40675/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:39,940: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:39,940: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:55:39,941: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:55:39,942: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:39,943: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:41,947: +PUB [/image_raw_2] /webcam http://ubuntu:37935/
+[rosmaster.master][INFO] 2022-04-06 17:55:41,948: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:37935/']
+[rosmaster.master][INFO] 2022-04-06 17:55:41,950: +PUB [/image_raw] /webcam http://ubuntu:37935/
+[rosmaster.master][INFO] 2022-04-06 17:55:41,952: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:37935/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:41,952: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:37935/']
+[rosmaster.master][INFO] 2022-04-06 17:55:41,955: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:37935/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:42,045: +PUB [/rosout] /webcam http://ubuntu:37935/
+[rosmaster.master][INFO] 2022-04-06 17:55:42,051: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:37935/']
+[rosmaster.master][INFO] 2022-04-06 17:55:42,054: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:37935/
+[rosmaster.master][INFO] 2022-04-06 17:55:42,056: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:37935/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:42,058: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:37935/
+[rosmaster.master][INFO] 2022-04-06 17:55:42,063: -PUB [/rosout] /webcam http://ubuntu:37935/
+[rosmaster.master][INFO] 2022-04-06 17:55:42,063: -PUB [/image_raw_2] /webcam http://ubuntu:37935/
+[rosmaster.master][INFO] 2022-04-06 17:55:42,063: -PUB [/image_raw] /webcam http://ubuntu:37935/
+[rosmaster.master][INFO] 2022-04-06 17:55:42,064: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:45699
+[rosmaster.master][INFO] 2022-04-06 17:55:42,064: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:45699
+[rosmaster.master][INFO] 2022-04-06 17:55:42,141: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:55:42,144: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:42,145: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:55:42,149: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:42,150: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:55:42,153: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:44,074: +PUB [/image_raw_2] /webcam http://ubuntu:36363/
+[rosmaster.master][INFO] 2022-04-06 17:55:44,078: +PUB [/image_raw] /webcam http://ubuntu:36363/
+[rosmaster.master][INFO] 2022-04-06 17:55:44,161: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:36363/']
+[rosmaster.master][INFO] 2022-04-06 17:55:44,167: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:36363/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:44,168: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:36363/']
+[rosmaster.master][INFO] 2022-04-06 17:55:44,173: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:36363/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:44,173: +PUB [/rosout] /webcam http://ubuntu:36363/
+[rosmaster.master][INFO] 2022-04-06 17:55:44,173: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:36363/']
+[rosmaster.master][INFO] 2022-04-06 17:55:44,177: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:36363/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:44,180: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:36363/
+[rosmaster.master][INFO] 2022-04-06 17:55:44,183: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:36363/
+[rosmaster.master][INFO] 2022-04-06 17:55:44,187: -PUB [/rosout] /webcam http://ubuntu:36363/
+[rosmaster.master][INFO] 2022-04-06 17:55:44,188: -PUB [/image_raw_2] /webcam http://ubuntu:36363/
+[rosmaster.master][INFO] 2022-04-06 17:55:44,188: -PUB [/image_raw] /webcam http://ubuntu:36363/
+[rosmaster.master][INFO] 2022-04-06 17:55:44,188: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:38449
+[rosmaster.master][INFO] 2022-04-06 17:55:44,189: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:38449
+[rosmaster.master][INFO] 2022-04-06 17:55:44,261: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:55:44,262: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:55:44,265: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:44,267: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:44,268: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:55:44,273: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:46,298: +PUB [/image_raw_2] /webcam http://ubuntu:37017/
+[rosmaster.master][INFO] 2022-04-06 17:55:46,301: +PUB [/image_raw] /webcam http://ubuntu:37017/
+[rosmaster.master][INFO] 2022-04-06 17:55:46,370: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:37017/']
+[rosmaster.master][INFO] 2022-04-06 17:55:46,373: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:37017/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:46,374: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:37017/']
+[rosmaster.master][INFO] 2022-04-06 17:55:46,376: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:37017/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:46,393: +PUB [/rosout] /webcam http://ubuntu:37017/
+[rosmaster.master][INFO] 2022-04-06 17:55:46,401: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:37017/
+[rosmaster.master][INFO] 2022-04-06 17:55:46,404: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:37017/
+[rosmaster.master][INFO] 2022-04-06 17:55:46,410: -PUB [/rosout] /webcam http://ubuntu:37017/
+[rosmaster.master][INFO] 2022-04-06 17:55:46,411: -PUB [/image_raw_2] /webcam http://ubuntu:37017/
+[rosmaster.master][INFO] 2022-04-06 17:55:46,412: -PUB [/image_raw] /webcam http://ubuntu:37017/
+[rosmaster.master][INFO] 2022-04-06 17:55:46,413: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:38755
+[rosmaster.master][INFO] 2022-04-06 17:55:46,414: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:38755
+[rosmaster.master][INFO] 2022-04-06 17:55:46,477: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:37017/']
+[rosmaster.master][INFO] 2022-04-06 17:55:46,479: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:55:46,483: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:37017/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:46,485: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:46,486: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:55:46,487: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:55:46,490: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:46,493: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:48,616: +PUB [/image_raw_2] /webcam http://ubuntu:43255/
+[rosmaster.master][INFO] 2022-04-06 17:55:48,621: +PUB [/image_raw] /webcam http://ubuntu:43255/
+[rosmaster.master][INFO] 2022-04-06 17:55:48,687: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:43255/']
+[rosmaster.master][INFO] 2022-04-06 17:55:48,693: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:43255/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:48,694: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:43255/']
+[rosmaster.master][INFO] 2022-04-06 17:55:48,698: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:43255/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:48,710: +PUB [/rosout] /webcam http://ubuntu:43255/
+[rosmaster.master][INFO] 2022-04-06 17:55:48,718: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:43255/
+[rosmaster.master][INFO] 2022-04-06 17:55:48,720: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:43255/
+[rosmaster.master][INFO] 2022-04-06 17:55:48,725: -PUB [/rosout] /webcam http://ubuntu:43255/
+[rosmaster.master][INFO] 2022-04-06 17:55:48,725: -PUB [/image_raw_2] /webcam http://ubuntu:43255/
+[rosmaster.master][INFO] 2022-04-06 17:55:48,726: -PUB [/image_raw] /webcam http://ubuntu:43255/
+[rosmaster.master][INFO] 2022-04-06 17:55:48,726: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:45859
+[rosmaster.master][INFO] 2022-04-06 17:55:48,726: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:45859
+[rosmaster.master][INFO] 2022-04-06 17:55:48,799: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:43255/']
+[rosmaster.master][INFO] 2022-04-06 17:55:48,800: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:55:48,806: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:48,808: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:43255/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:48,808: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:55:48,809: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:55:48,812: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:48,813: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:50,752: +PUB [/image_raw_2] /webcam http://ubuntu:35817/
+[rosmaster.master][INFO] 2022-04-06 17:55:50,755: +PUB [/image_raw] /webcam http://ubuntu:35817/
+[rosmaster.master][INFO] 2022-04-06 17:55:50,804: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:35817/']
+[rosmaster.master][INFO] 2022-04-06 17:55:50,810: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:35817/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:50,810: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:35817/']
+[rosmaster.master][INFO] 2022-04-06 17:55:50,815: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:35817/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:50,854: +PUB [/rosout] /webcam http://ubuntu:35817/
+[rosmaster.master][INFO] 2022-04-06 17:55:50,862: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:35817/
+[rosmaster.master][INFO] 2022-04-06 17:55:50,865: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:35817/
+[rosmaster.master][INFO] 2022-04-06 17:55:50,871: -PUB [/rosout] /webcam http://ubuntu:35817/
+[rosmaster.master][INFO] 2022-04-06 17:55:50,871: -PUB [/image_raw_2] /webcam http://ubuntu:35817/
+[rosmaster.master][INFO] 2022-04-06 17:55:50,872: -PUB [/image_raw] /webcam http://ubuntu:35817/
+[rosmaster.master][INFO] 2022-04-06 17:55:50,872: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:39949
+[rosmaster.master][INFO] 2022-04-06 17:55:50,872: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:39949
+[rosmaster.master][INFO] 2022-04-06 17:55:50,916: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:35817/']
+[rosmaster.master][INFO] 2022-04-06 17:55:50,918: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:55:50,923: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:35817/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:50,925: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:50,925: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:55:50,926: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:55:50,928: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:50,930: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:53,476: +PUB [/image_raw_2] /webcam http://ubuntu:46507/
+[rosmaster.master][INFO] 2022-04-06 17:55:53,480: +PUB [/image_raw] /webcam http://ubuntu:46507/
+[rosmaster.master][INFO] 2022-04-06 17:55:53,523: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:46507/']
+[rosmaster.master][INFO] 2022-04-06 17:55:53,529: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:46507/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:53,529: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:46507/']
+[rosmaster.master][INFO] 2022-04-06 17:55:53,534: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:46507/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:53,575: +PUB [/rosout] /webcam http://ubuntu:46507/
+[rosmaster.master][INFO] 2022-04-06 17:55:53,582: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:46507/
+[rosmaster.master][INFO] 2022-04-06 17:55:53,585: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:46507/
+[rosmaster.master][INFO] 2022-04-06 17:55:53,590: -PUB [/rosout] /webcam http://ubuntu:46507/
+[rosmaster.master][INFO] 2022-04-06 17:55:53,591: -PUB [/image_raw_2] /webcam http://ubuntu:46507/
+[rosmaster.master][INFO] 2022-04-06 17:55:53,591: -PUB [/image_raw] /webcam http://ubuntu:46507/
+[rosmaster.master][INFO] 2022-04-06 17:55:53,591: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:45749
+[rosmaster.master][INFO] 2022-04-06 17:55:53,592: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:45749
+[rosmaster.master][INFO] 2022-04-06 17:55:53,635: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:46507/']
+[rosmaster.master][INFO] 2022-04-06 17:55:53,636: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:55:53,642: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:46507/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:53,644: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:53,645: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:55:53,645: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:55:53,647: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:53,648: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:55,620: +PUB [/image_raw_2] /webcam http://ubuntu:35771/
+[rosmaster.master][INFO] 2022-04-06 17:55:55,624: +PUB [/image_raw] /webcam http://ubuntu:35771/
+[rosmaster.master][INFO] 2022-04-06 17:55:55,644: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:35771/']
+[rosmaster.master][INFO] 2022-04-06 17:55:55,649: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:35771/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:55,650: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:35771/']
+[rosmaster.master][INFO] 2022-04-06 17:55:55,655: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:35771/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:55,717: +PUB [/rosout] /webcam http://ubuntu:35771/
+[rosmaster.master][INFO] 2022-04-06 17:55:55,725: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:35771/
+[rosmaster.master][INFO] 2022-04-06 17:55:55,727: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:35771/
+[rosmaster.master][INFO] 2022-04-06 17:55:55,732: -PUB [/rosout] /webcam http://ubuntu:35771/
+[rosmaster.master][INFO] 2022-04-06 17:55:55,732: -PUB [/image_raw_2] /webcam http://ubuntu:35771/
+[rosmaster.master][INFO] 2022-04-06 17:55:55,732: -PUB [/image_raw] /webcam http://ubuntu:35771/
+[rosmaster.master][INFO] 2022-04-06 17:55:55,733: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:46143
+[rosmaster.master][INFO] 2022-04-06 17:55:55,733: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:46143
+[rosmaster.master][INFO] 2022-04-06 17:55:55,753: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:35771/']
+[rosmaster.master][INFO] 2022-04-06 17:55:55,753: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:55:55,757: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:55,759: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:35771/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:55,759: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:55:55,759: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:55:55,762: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:55,763: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:57,784: +PUB [/image_raw_2] /webcam http://ubuntu:42837/
+[rosmaster.master][INFO] 2022-04-06 17:55:57,787: +PUB [/image_raw] /webcam http://ubuntu:42837/
+[rosmaster.master][INFO] 2022-04-06 17:55:57,865: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:42837/']
+[rosmaster.master][INFO] 2022-04-06 17:55:57,868: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:42837/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:57,869: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:42837/']
+[rosmaster.master][INFO] 2022-04-06 17:55:57,872: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:42837/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:57,879: +PUB [/rosout] /webcam http://ubuntu:42837/
+[rosmaster.master][INFO] 2022-04-06 17:55:57,889: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:42837/
+[rosmaster.master][INFO] 2022-04-06 17:55:57,892: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:42837/
+[rosmaster.master][INFO] 2022-04-06 17:55:57,899: -PUB [/rosout] /webcam http://ubuntu:42837/
+[rosmaster.master][INFO] 2022-04-06 17:55:57,900: -PUB [/image_raw_2] /webcam http://ubuntu:42837/
+[rosmaster.master][INFO] 2022-04-06 17:55:57,900: -PUB [/image_raw] /webcam http://ubuntu:42837/
+[rosmaster.master][INFO] 2022-04-06 17:55:57,900: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:37345
+[rosmaster.master][INFO] 2022-04-06 17:55:57,900: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:37345
+[rosmaster.master][INFO] 2022-04-06 17:55:57,969: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:42837/']
+[rosmaster.master][INFO] 2022-04-06 17:55:57,970: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:55:57,975: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:57,976: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:42837/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:57,977: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:55:57,977: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:55:57,980: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:55:57,981: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:00,116: +PUB [/image_raw_2] /webcam http://ubuntu:35541/
+[rosmaster.master][INFO] 2022-04-06 17:56:00,119: +PUB [/image_raw] /webcam http://ubuntu:35541/
+[rosmaster.master][INFO] 2022-04-06 17:56:00,177: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:35541/']
+[rosmaster.master][INFO] 2022-04-06 17:56:00,182: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:35541/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:00,183: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:35541/']
+[rosmaster.master][INFO] 2022-04-06 17:56:00,188: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:35541/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:00,213: +PUB [/rosout] /webcam http://ubuntu:35541/
+[rosmaster.master][INFO] 2022-04-06 17:56:00,222: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:35541/
+[rosmaster.master][INFO] 2022-04-06 17:56:00,225: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:35541/
+[rosmaster.master][INFO] 2022-04-06 17:56:00,230: -PUB [/rosout] /webcam http://ubuntu:35541/
+[rosmaster.master][INFO] 2022-04-06 17:56:00,231: -PUB [/image_raw_2] /webcam http://ubuntu:35541/
+[rosmaster.master][INFO] 2022-04-06 17:56:00,231: -PUB [/image_raw] /webcam http://ubuntu:35541/
+[rosmaster.master][INFO] 2022-04-06 17:56:00,232: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:32865
+[rosmaster.master][INFO] 2022-04-06 17:56:00,232: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:32865
+[rosmaster.master][INFO] 2022-04-06 17:56:00,289: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:00,289: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:35541/']
+[rosmaster.master][INFO] 2022-04-06 17:56:00,293: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:00,293: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:00,294: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:35541/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:00,296: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:56:00,298: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:00,299: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:02,880: +PUB [/image_raw_2] /webcam http://ubuntu:38069/
+[rosmaster.master][INFO] 2022-04-06 17:56:02,884: +PUB [/image_raw] /webcam http://ubuntu:38069/
+[rosmaster.master][INFO] 2022-04-06 17:56:02,894: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:38069/']
+[rosmaster.master][INFO] 2022-04-06 17:56:02,897: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:38069/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:02,898: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:38069/']
+[rosmaster.master][INFO] 2022-04-06 17:56:02,900: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:38069/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:02,977: +PUB [/rosout] /webcam http://ubuntu:38069/
+[rosmaster.master][INFO] 2022-04-06 17:56:02,985: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:38069/
+[rosmaster.master][INFO] 2022-04-06 17:56:02,989: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:38069/
+[rosmaster.master][INFO] 2022-04-06 17:56:02,994: -PUB [/rosout] /webcam http://ubuntu:38069/
+[rosmaster.master][INFO] 2022-04-06 17:56:02,994: -PUB [/image_raw_2] /webcam http://ubuntu:38069/
+[rosmaster.master][INFO] 2022-04-06 17:56:02,995: -PUB [/image_raw] /webcam http://ubuntu:38069/
+[rosmaster.master][INFO] 2022-04-06 17:56:02,995: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:40913
+[rosmaster.master][INFO] 2022-04-06 17:56:02,995: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:40913
+[rosmaster.master][INFO] 2022-04-06 17:56:03,001: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:38069/']
+[rosmaster.master][INFO] 2022-04-06 17:56:03,004: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:38069/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:03,005: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:03,005: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:56:03,007: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:03,008: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:03,008: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:03,011: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:05,031: +PUB [/image_raw_2] /webcam http://ubuntu:34547/
+[rosmaster.master][INFO] 2022-04-06 17:56:05,035: +PUB [/image_raw] /webcam http://ubuntu:34547/
+[rosmaster.master][INFO] 2022-04-06 17:56:05,109: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:34547/']
+[rosmaster.master][INFO] 2022-04-06 17:56:05,115: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:34547/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:05,115: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:34547/']
+[rosmaster.master][INFO] 2022-04-06 17:56:05,120: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:34547/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:05,127: +PUB [/rosout] /webcam http://ubuntu:34547/
+[rosmaster.master][INFO] 2022-04-06 17:56:05,138: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:34547/
+[rosmaster.master][INFO] 2022-04-06 17:56:05,142: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:34547/
+[rosmaster.master][INFO] 2022-04-06 17:56:05,148: -PUB [/rosout] /webcam http://ubuntu:34547/
+[rosmaster.master][INFO] 2022-04-06 17:56:05,148: -PUB [/image_raw_2] /webcam http://ubuntu:34547/
+[rosmaster.master][INFO] 2022-04-06 17:56:05,148: -PUB [/image_raw] /webcam http://ubuntu:34547/
+[rosmaster.master][INFO] 2022-04-06 17:56:05,149: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:33565
+[rosmaster.master][INFO] 2022-04-06 17:56:05,149: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:33565
+[rosmaster.master][INFO] 2022-04-06 17:56:05,212: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:34547/']
+[rosmaster.master][INFO] 2022-04-06 17:56:05,215: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:05,218: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:34547/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:05,219: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:05,219: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:56:05,220: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:05,223: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:05,224: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:07,136: +PUB [/image_raw_2] /webcam http://ubuntu:46523/
+[rosmaster.master][INFO] 2022-04-06 17:56:07,140: +PUB [/image_raw] /webcam http://ubuntu:46523/
+[rosmaster.master][INFO] 2022-04-06 17:56:07,225: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:46523/']
+[rosmaster.master][INFO] 2022-04-06 17:56:07,231: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:46523/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:07,231: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:46523/']
+[rosmaster.master][INFO] 2022-04-06 17:56:07,234: +PUB [/rosout] /webcam http://ubuntu:46523/
+[rosmaster.master][INFO] 2022-04-06 17:56:07,236: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:46523/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:07,236: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:46523/']
+[rosmaster.master][INFO] 2022-04-06 17:56:07,240: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:46523/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:07,243: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:46523/
+[rosmaster.master][INFO] 2022-04-06 17:56:07,246: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:46523/
+[rosmaster.master][INFO] 2022-04-06 17:56:07,254: -PUB [/rosout] /webcam http://ubuntu:46523/
+[rosmaster.master][INFO] 2022-04-06 17:56:07,254: -PUB [/image_raw_2] /webcam http://ubuntu:46523/
+[rosmaster.master][INFO] 2022-04-06 17:56:07,255: -PUB [/image_raw] /webcam http://ubuntu:46523/
+[rosmaster.master][INFO] 2022-04-06 17:56:07,255: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:35679
+[rosmaster.master][INFO] 2022-04-06 17:56:07,256: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:35679
+[rosmaster.master][INFO] 2022-04-06 17:56:07,328: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:56:07,329: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:07,332: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:07,334: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:07,335: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:07,338: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:09,858: +PUB [/image_raw_2] /webcam http://ubuntu:38155/
+[rosmaster.master][INFO] 2022-04-06 17:56:09,862: +PUB [/image_raw] /webcam http://ubuntu:38155/
+[rosmaster.master][INFO] 2022-04-06 17:56:09,938: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:38155/']
+[rosmaster.master][INFO] 2022-04-06 17:56:09,943: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:38155/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:09,944: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:38155/']
+[rosmaster.master][INFO] 2022-04-06 17:56:09,949: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:38155/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:09,955: +PUB [/rosout] /webcam http://ubuntu:38155/
+[rosmaster.master][INFO] 2022-04-06 17:56:09,963: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:38155/
+[rosmaster.master][INFO] 2022-04-06 17:56:09,968: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:38155/
+[rosmaster.master][INFO] 2022-04-06 17:56:09,977: -PUB [/rosout] /webcam http://ubuntu:38155/
+[rosmaster.master][INFO] 2022-04-06 17:56:09,977: -PUB [/image_raw_2] /webcam http://ubuntu:38155/
+[rosmaster.master][INFO] 2022-04-06 17:56:09,978: -PUB [/image_raw] /webcam http://ubuntu:38155/
+[rosmaster.master][INFO] 2022-04-06 17:56:09,979: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:42315
+[rosmaster.master][INFO] 2022-04-06 17:56:09,980: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:42315
+[rosmaster.master][INFO] 2022-04-06 17:56:10,045: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:38155/']
+[rosmaster.master][INFO] 2022-04-06 17:56:10,046: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:10,051: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:10,053: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:38155/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:10,053: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:10,054: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:56:10,058: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:10,059: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:12,801: +PUB [/image_raw_2] /webcam http://ubuntu:44997/
+[rosmaster.master][INFO] 2022-04-06 17:56:12,805: +PUB [/image_raw] /webcam http://ubuntu:44997/
+[rosmaster.master][INFO] 2022-04-06 17:56:12,855: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:44997/']
+[rosmaster.master][INFO] 2022-04-06 17:56:12,861: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:44997/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:12,862: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:44997/']
+[rosmaster.master][INFO] 2022-04-06 17:56:12,867: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:44997/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:12,898: +PUB [/rosout] /webcam http://ubuntu:44997/
+[rosmaster.master][INFO] 2022-04-06 17:56:12,910: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:44997/
+[rosmaster.master][INFO] 2022-04-06 17:56:12,913: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:44997/
+[rosmaster.master][INFO] 2022-04-06 17:56:12,920: -PUB [/rosout] /webcam http://ubuntu:44997/
+[rosmaster.master][INFO] 2022-04-06 17:56:12,920: -PUB [/image_raw_2] /webcam http://ubuntu:44997/
+[rosmaster.master][INFO] 2022-04-06 17:56:12,920: -PUB [/image_raw] /webcam http://ubuntu:44997/
+[rosmaster.master][INFO] 2022-04-06 17:56:12,920: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:33541
+[rosmaster.master][INFO] 2022-04-06 17:56:12,921: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:33541
+[rosmaster.master][INFO] 2022-04-06 17:56:12,968: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:44997/']
+[rosmaster.master][INFO] 2022-04-06 17:56:12,969: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:12,973: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:12,974: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:44997/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:12,975: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:12,975: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:56:12,977: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:12,979: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:15,514: +PUB [/image_raw_2] /webcam http://ubuntu:46021/
+[rosmaster.master][INFO] 2022-04-06 17:56:15,517: +PUB [/image_raw] /webcam http://ubuntu:46021/
+[rosmaster.master][INFO] 2022-04-06 17:56:15,575: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:46021/']
+[rosmaster.master][INFO] 2022-04-06 17:56:15,580: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:46021/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:15,581: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:46021/']
+[rosmaster.master][INFO] 2022-04-06 17:56:15,585: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:46021/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:15,611: +PUB [/rosout] /webcam http://ubuntu:46021/
+[rosmaster.master][INFO] 2022-04-06 17:56:15,626: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:46021/
+[rosmaster.master][INFO] 2022-04-06 17:56:15,629: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:46021/
+[rosmaster.master][INFO] 2022-04-06 17:56:15,635: -PUB [/rosout] /webcam http://ubuntu:46021/
+[rosmaster.master][INFO] 2022-04-06 17:56:15,636: -PUB [/image_raw_2] /webcam http://ubuntu:46021/
+[rosmaster.master][INFO] 2022-04-06 17:56:15,636: -PUB [/image_raw] /webcam http://ubuntu:46021/
+[rosmaster.master][INFO] 2022-04-06 17:56:15,636: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:37303
+[rosmaster.master][INFO] 2022-04-06 17:56:15,637: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:37303
+[rosmaster.master][INFO] 2022-04-06 17:56:15,686: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:46021/']
+[rosmaster.master][INFO] 2022-04-06 17:56:15,687: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:15,692: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:46021/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:15,694: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:15,695: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:56:15,695: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:15,698: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:15,699: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:18,253: +PUB [/image_raw_2] /webcam http://ubuntu:43953/
+[rosmaster.master][INFO] 2022-04-06 17:56:18,257: +PUB [/image_raw] /webcam http://ubuntu:43953/
+[rosmaster.master][INFO] 2022-04-06 17:56:18,293: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:43953/']
+[rosmaster.master][INFO] 2022-04-06 17:56:18,296: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:43953/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:18,296: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:43953/']
+[rosmaster.master][INFO] 2022-04-06 17:56:18,299: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:43953/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:18,347: +PUB [/rosout] /webcam http://ubuntu:43953/
+[rosmaster.master][INFO] 2022-04-06 17:56:18,355: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:43953/
+[rosmaster.master][INFO] 2022-04-06 17:56:18,359: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:43953/
+[rosmaster.master][INFO] 2022-04-06 17:56:18,364: -PUB [/rosout] /webcam http://ubuntu:43953/
+[rosmaster.master][INFO] 2022-04-06 17:56:18,364: -PUB [/image_raw_2] /webcam http://ubuntu:43953/
+[rosmaster.master][INFO] 2022-04-06 17:56:18,365: -PUB [/image_raw] /webcam http://ubuntu:43953/
+[rosmaster.master][INFO] 2022-04-06 17:56:18,365: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:45529
+[rosmaster.master][INFO] 2022-04-06 17:56:18,365: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:45529
+[rosmaster.master][INFO] 2022-04-06 17:56:18,399: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:43953/']
+[rosmaster.master][INFO] 2022-04-06 17:56:18,403: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:43953/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:18,403: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:56:18,405: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:18,405: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:18,408: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:18,408: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:18,411: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:20,400: +PUB [/image_raw_2] /webcam http://ubuntu:33111/
+[rosmaster.master][INFO] 2022-04-06 17:56:20,403: +PUB [/image_raw] /webcam http://ubuntu:33111/
+[rosmaster.master][INFO] 2022-04-06 17:56:20,409: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:33111/']
+[rosmaster.master][INFO] 2022-04-06 17:56:20,412: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:33111/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:20,412: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:33111/']
+[rosmaster.master][INFO] 2022-04-06 17:56:20,415: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:33111/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:20,497: +PUB [/rosout] /webcam http://ubuntu:33111/
+[rosmaster.master][INFO] 2022-04-06 17:56:20,506: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:33111/
+[rosmaster.master][INFO] 2022-04-06 17:56:20,508: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:33111/
+[rosmaster.master][INFO] 2022-04-06 17:56:20,510: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:33111/']
+[rosmaster.master][INFO] 2022-04-06 17:56:20,513: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:33111/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:20,514: -PUB [/rosout] /webcam http://ubuntu:33111/
+[rosmaster.master][INFO] 2022-04-06 17:56:20,514: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:56:20,515: -PUB [/image_raw_2] /webcam http://ubuntu:33111/
+[rosmaster.master][INFO] 2022-04-06 17:56:20,515: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:20,516: -PUB [/image_raw] /webcam http://ubuntu:33111/
+[rosmaster.master][INFO] 2022-04-06 17:56:20,517: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:20,518: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:39567
+[rosmaster.master][INFO] 2022-04-06 17:56:20,518: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:39567
+[rosmaster.master][INFO] 2022-04-06 17:56:20,519: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:20,520: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:20,523: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:23,108: +PUB [/image_raw_2] /webcam http://ubuntu:35755/
+[rosmaster.master][INFO] 2022-04-06 17:56:23,111: +PUB [/image_raw] /webcam http://ubuntu:35755/
+[rosmaster.master][INFO] 2022-04-06 17:56:23,121: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:35755/']
+[rosmaster.master][INFO] 2022-04-06 17:56:23,124: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:35755/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:23,125: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:35755/']
+[rosmaster.master][INFO] 2022-04-06 17:56:23,127: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:35755/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:23,204: +PUB [/rosout] /webcam http://ubuntu:35755/
+[rosmaster.master][INFO] 2022-04-06 17:56:23,211: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:35755/
+[rosmaster.master][INFO] 2022-04-06 17:56:23,215: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:35755/
+[rosmaster.master][INFO] 2022-04-06 17:56:23,221: -PUB [/rosout] /webcam http://ubuntu:35755/
+[rosmaster.master][INFO] 2022-04-06 17:56:23,221: -PUB [/image_raw_2] /webcam http://ubuntu:35755/
+[rosmaster.master][INFO] 2022-04-06 17:56:23,222: -PUB [/image_raw] /webcam http://ubuntu:35755/
+[rosmaster.master][INFO] 2022-04-06 17:56:23,222: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:44343
+[rosmaster.master][INFO] 2022-04-06 17:56:23,223: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:44343
+[rosmaster.master][INFO] 2022-04-06 17:56:23,224: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:35755/']
+[rosmaster.master][INFO] 2022-04-06 17:56:23,228: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:23,229: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:35755/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:23,231: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:56:23,234: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:23,235: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:23,237: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:23,238: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:25,447: +PUB [/image_raw_2] /webcam http://ubuntu:38327/
+[rosmaster.master][INFO] 2022-04-06 17:56:25,451: +PUB [/image_raw] /webcam http://ubuntu:38327/
+[rosmaster.master][INFO] 2022-04-06 17:56:25,535: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:38327/']
+[rosmaster.master][INFO] 2022-04-06 17:56:25,545: +PUB [/rosout] /webcam http://ubuntu:38327/
+[rosmaster.master][INFO] 2022-04-06 17:56:25,545: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:38327/']
+[rosmaster.master][INFO] 2022-04-06 17:56:25,547: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:38327/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:25,550: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:38327/']
+[rosmaster.master][INFO] 2022-04-06 17:56:25,556: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:38327/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:25,558: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:38327/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:25,560: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:38327/
+[rosmaster.master][INFO] 2022-04-06 17:56:25,564: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:38327/
+[rosmaster.master][INFO] 2022-04-06 17:56:25,574: -PUB [/rosout] /webcam http://ubuntu:38327/
+[rosmaster.master][INFO] 2022-04-06 17:56:25,575: -PUB [/image_raw_2] /webcam http://ubuntu:38327/
+[rosmaster.master][INFO] 2022-04-06 17:56:25,575: -PUB [/image_raw] /webcam http://ubuntu:38327/
+[rosmaster.master][INFO] 2022-04-06 17:56:25,576: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:46185
+[rosmaster.master][INFO] 2022-04-06 17:56:25,576: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:46185
+[rosmaster.master][INFO] 2022-04-06 17:56:25,647: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:56:25,650: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:25,651: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:25,656: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:25,658: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:25,661: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:27,671: +PUB [/image_raw_2] /webcam http://ubuntu:44043/
+[rosmaster.master][INFO] 2022-04-06 17:56:27,674: +PUB [/image_raw] /webcam http://ubuntu:44043/
+[rosmaster.master][INFO] 2022-04-06 17:56:27,761: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:44043/']
+[rosmaster.master][INFO] 2022-04-06 17:56:27,767: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:44043/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:27,767: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:44043/']
+[rosmaster.master][INFO] 2022-04-06 17:56:27,769: +PUB [/rosout] /webcam http://ubuntu:44043/
+[rosmaster.master][INFO] 2022-04-06 17:56:27,772: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:44043/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:27,773: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:44043/']
+[rosmaster.master][INFO] 2022-04-06 17:56:27,778: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:44043/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:27,779: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:44043/
+[rosmaster.master][INFO] 2022-04-06 17:56:27,781: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:44043/
+[rosmaster.master][INFO] 2022-04-06 17:56:27,786: -PUB [/rosout] /webcam http://ubuntu:44043/
+[rosmaster.master][INFO] 2022-04-06 17:56:27,787: -PUB [/image_raw_2] /webcam http://ubuntu:44043/
+[rosmaster.master][INFO] 2022-04-06 17:56:27,787: -PUB [/image_raw] /webcam http://ubuntu:44043/
+[rosmaster.master][INFO] 2022-04-06 17:56:27,787: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:33349
+[rosmaster.master][INFO] 2022-04-06 17:56:27,788: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:33349
+[rosmaster.master][INFO] 2022-04-06 17:56:27,864: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:56:27,867: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:27,867: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:27,872: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:27,873: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:27,877: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:30,415: +PUB [/image_raw_2] /webcam http://ubuntu:33353/
+[rosmaster.master][INFO] 2022-04-06 17:56:30,418: +PUB [/image_raw] /webcam http://ubuntu:33353/
+[rosmaster.master][INFO] 2022-04-06 17:56:30,476: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:33353/']
+[rosmaster.master][INFO] 2022-04-06 17:56:30,482: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:33353/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:30,483: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:33353/']
+[rosmaster.master][INFO] 2022-04-06 17:56:30,486: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:33353/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:30,513: +PUB [/rosout] /webcam http://ubuntu:33353/
+[rosmaster.master][INFO] 2022-04-06 17:56:30,526: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:33353/
+[rosmaster.master][INFO] 2022-04-06 17:56:30,529: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:33353/
+[rosmaster.master][INFO] 2022-04-06 17:56:30,535: -PUB [/rosout] /webcam http://ubuntu:33353/
+[rosmaster.master][INFO] 2022-04-06 17:56:30,535: -PUB [/image_raw_2] /webcam http://ubuntu:33353/
+[rosmaster.master][INFO] 2022-04-06 17:56:30,536: -PUB [/image_raw] /webcam http://ubuntu:33353/
+[rosmaster.master][INFO] 2022-04-06 17:56:30,536: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:43487
+[rosmaster.master][INFO] 2022-04-06 17:56:30,536: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:43487
+[rosmaster.master][INFO] 2022-04-06 17:56:30,583: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:33353/']
+[rosmaster.master][INFO] 2022-04-06 17:56:30,585: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:30,590: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:33353/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:30,592: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:30,593: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:56:30,593: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:30,596: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:30,597: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:33,142: +PUB [/image_raw_2] /webcam http://ubuntu:46255/
+[rosmaster.master][INFO] 2022-04-06 17:56:33,145: +PUB [/image_raw] /webcam http://ubuntu:46255/
+[rosmaster.master][INFO] 2022-04-06 17:56:33,192: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:46255/']
+[rosmaster.master][INFO] 2022-04-06 17:56:33,198: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:46255/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:33,198: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:46255/']
+[rosmaster.master][INFO] 2022-04-06 17:56:33,202: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:46255/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:33,239: +PUB [/rosout] /webcam http://ubuntu:46255/
+[rosmaster.master][INFO] 2022-04-06 17:56:33,251: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:46255/
+[rosmaster.master][INFO] 2022-04-06 17:56:33,254: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:46255/
+[rosmaster.master][INFO] 2022-04-06 17:56:33,260: -PUB [/rosout] /webcam http://ubuntu:46255/
+[rosmaster.master][INFO] 2022-04-06 17:56:33,260: -PUB [/image_raw_2] /webcam http://ubuntu:46255/
+[rosmaster.master][INFO] 2022-04-06 17:56:33,261: -PUB [/image_raw] /webcam http://ubuntu:46255/
+[rosmaster.master][INFO] 2022-04-06 17:56:33,261: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:39727
+[rosmaster.master][INFO] 2022-04-06 17:56:33,261: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:39727
+[rosmaster.master][INFO] 2022-04-06 17:56:33,303: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:46255/']
+[rosmaster.master][INFO] 2022-04-06 17:56:33,304: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:33,311: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:33,312: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:46255/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:33,313: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:33,314: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:56:33,316: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:33,317: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:35,845: +PUB [/image_raw_2] /webcam http://ubuntu:34089/
+[rosmaster.master][INFO] 2022-04-06 17:56:35,849: +PUB [/image_raw] /webcam http://ubuntu:34089/
+[rosmaster.master][INFO] 2022-04-06 17:56:35,909: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:34089/']
+[rosmaster.master][INFO] 2022-04-06 17:56:35,912: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:34089/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:35,912: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:34089/']
+[rosmaster.master][INFO] 2022-04-06 17:56:35,915: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:34089/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:35,938: +PUB [/rosout] /webcam http://ubuntu:34089/
+[rosmaster.master][INFO] 2022-04-06 17:56:35,946: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:34089/
+[rosmaster.master][INFO] 2022-04-06 17:56:35,950: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:34089/
+[rosmaster.master][INFO] 2022-04-06 17:56:35,961: -PUB [/rosout] /webcam http://ubuntu:34089/
+[rosmaster.master][INFO] 2022-04-06 17:56:35,962: -PUB [/image_raw_2] /webcam http://ubuntu:34089/
+[rosmaster.master][INFO] 2022-04-06 17:56:35,963: -PUB [/image_raw] /webcam http://ubuntu:34089/
+[rosmaster.master][INFO] 2022-04-06 17:56:35,964: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:46421
+[rosmaster.master][INFO] 2022-04-06 17:56:35,965: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:46421
+[rosmaster.master][INFO] 2022-04-06 17:56:36,016: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:34089/']
+[rosmaster.master][INFO] 2022-04-06 17:56:36,021: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:34089/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:36,022: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:56:36,024: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:36,029: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:36,036: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:36,037: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:36,043: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:38,658: +PUB [/image_raw_2] /webcam http://ubuntu:38727/
+[rosmaster.master][INFO] 2022-04-06 17:56:38,662: +PUB [/image_raw] /webcam http://ubuntu:38727/
+[rosmaster.master][INFO] 2022-04-06 17:56:38,730: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:38727/']
+[rosmaster.master][INFO] 2022-04-06 17:56:38,736: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:38727/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:38,737: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:38727/']
+[rosmaster.master][INFO] 2022-04-06 17:56:38,740: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:38727/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:38,754: +PUB [/rosout] /webcam http://ubuntu:38727/
+[rosmaster.master][INFO] 2022-04-06 17:56:38,762: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:38727/
+[rosmaster.master][INFO] 2022-04-06 17:56:38,766: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:38727/
+[rosmaster.master][INFO] 2022-04-06 17:56:38,772: -PUB [/rosout] /webcam http://ubuntu:38727/
+[rosmaster.master][INFO] 2022-04-06 17:56:38,772: -PUB [/image_raw_2] /webcam http://ubuntu:38727/
+[rosmaster.master][INFO] 2022-04-06 17:56:38,773: -PUB [/image_raw] /webcam http://ubuntu:38727/
+[rosmaster.master][INFO] 2022-04-06 17:56:38,774: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:40817
+[rosmaster.master][INFO] 2022-04-06 17:56:38,774: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:40817
+[rosmaster.master][INFO] 2022-04-06 17:56:38,836: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:38727/']
+[rosmaster.master][INFO] 2022-04-06 17:56:38,841: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:38,843: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:38727/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:38,844: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:38,845: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:56:38,845: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:38,847: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:38,849: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:40,756: +PUB [/image_raw_2] /webcam http://ubuntu:44939/
+[rosmaster.master][INFO] 2022-04-06 17:56:40,759: +PUB [/image_raw] /webcam http://ubuntu:44939/
+[rosmaster.master][INFO] 2022-04-06 17:56:40,851: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:44939/']
+[rosmaster.master][INFO] 2022-04-06 17:56:40,855: +PUB [/rosout] /webcam http://ubuntu:44939/
+[rosmaster.master][INFO] 2022-04-06 17:56:40,858: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:44939/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:40,859: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:44939/']
+[rosmaster.master][INFO] 2022-04-06 17:56:40,862: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:44939/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:40,862: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:44939/']
+[rosmaster.master][INFO] 2022-04-06 17:56:40,865: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:44939/
+[rosmaster.master][INFO] 2022-04-06 17:56:40,867: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:44939/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:40,869: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:44939/
+[rosmaster.master][INFO] 2022-04-06 17:56:40,874: -PUB [/rosout] /webcam http://ubuntu:44939/
+[rosmaster.master][INFO] 2022-04-06 17:56:40,874: -PUB [/image_raw_2] /webcam http://ubuntu:44939/
+[rosmaster.master][INFO] 2022-04-06 17:56:40,874: -PUB [/image_raw] /webcam http://ubuntu:44939/
+[rosmaster.master][INFO] 2022-04-06 17:56:40,875: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:38201
+[rosmaster.master][INFO] 2022-04-06 17:56:40,875: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:38201
+[rosmaster.master][INFO] 2022-04-06 17:56:40,953: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:56:40,953: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:40,955: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:40,956: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:40,956: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:40,959: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:43,434: +PUB [/image_raw_2] /webcam http://ubuntu:39847/
+[rosmaster.master][INFO] 2022-04-06 17:56:43,437: +PUB [/image_raw] /webcam http://ubuntu:39847/
+[rosmaster.master][INFO] 2022-04-06 17:56:43,460: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:39847/']
+[rosmaster.master][INFO] 2022-04-06 17:56:43,464: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:39847/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:43,465: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:39847/']
+[rosmaster.master][INFO] 2022-04-06 17:56:43,468: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:39847/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:43,530: +PUB [/rosout] /webcam http://ubuntu:39847/
+[rosmaster.master][INFO] 2022-04-06 17:56:43,536: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:39847/
+[rosmaster.master][INFO] 2022-04-06 17:56:43,540: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:39847/
+[rosmaster.master][INFO] 2022-04-06 17:56:43,544: -PUB [/rosout] /webcam http://ubuntu:39847/
+[rosmaster.master][INFO] 2022-04-06 17:56:43,545: -PUB [/image_raw_2] /webcam http://ubuntu:39847/
+[rosmaster.master][INFO] 2022-04-06 17:56:43,545: -PUB [/image_raw] /webcam http://ubuntu:39847/
+[rosmaster.master][INFO] 2022-04-06 17:56:43,545: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:41839
+[rosmaster.master][INFO] 2022-04-06 17:56:43,546: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:41839
+[rosmaster.master][INFO] 2022-04-06 17:56:43,563: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:39847/']
+[rosmaster.master][INFO] 2022-04-06 17:56:43,568: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:39847/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:43,568: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:56:43,568: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:43,571: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:43,572: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:43,573: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:43,576: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:45,598: +PUB [/image_raw_2] /webcam http://ubuntu:39621/
+[rosmaster.master][INFO] 2022-04-06 17:56:45,601: +PUB [/image_raw] /webcam http://ubuntu:39621/
+[rosmaster.master][INFO] 2022-04-06 17:56:45,677: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:39621/']
+[rosmaster.master][INFO] 2022-04-06 17:56:45,682: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:39621/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:45,682: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:39621/']
+[rosmaster.master][INFO] 2022-04-06 17:56:45,685: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:39621/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:45,694: +PUB [/rosout] /webcam http://ubuntu:39621/
+[rosmaster.master][INFO] 2022-04-06 17:56:45,702: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:39621/
+[rosmaster.master][INFO] 2022-04-06 17:56:45,706: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:39621/
+[rosmaster.master][INFO] 2022-04-06 17:56:45,710: -PUB [/rosout] /webcam http://ubuntu:39621/
+[rosmaster.master][INFO] 2022-04-06 17:56:45,711: -PUB [/image_raw_2] /webcam http://ubuntu:39621/
+[rosmaster.master][INFO] 2022-04-06 17:56:45,711: -PUB [/image_raw] /webcam http://ubuntu:39621/
+[rosmaster.master][INFO] 2022-04-06 17:56:45,711: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:37875
+[rosmaster.master][INFO] 2022-04-06 17:56:45,711: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:37875
+[rosmaster.master][INFO] 2022-04-06 17:56:45,778: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:39621/']
+[rosmaster.master][INFO] 2022-04-06 17:56:45,781: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:45,784: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:39621/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:45,786: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:45,787: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:56:45,787: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:45,791: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:45,792: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:47,718: +PUB [/image_raw_2] /webcam http://ubuntu:40141/
+[rosmaster.master][INFO] 2022-04-06 17:56:47,722: +PUB [/image_raw] /webcam http://ubuntu:40141/
+[rosmaster.master][INFO] 2022-04-06 17:56:47,791: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:40141/']
+[rosmaster.master][INFO] 2022-04-06 17:56:47,796: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:40141/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:47,797: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:40141/']
+[rosmaster.master][INFO] 2022-04-06 17:56:47,801: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:40141/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:47,815: +PUB [/rosout] /webcam http://ubuntu:40141/
+[rosmaster.master][INFO] 2022-04-06 17:56:47,821: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:40141/
+[rosmaster.master][INFO] 2022-04-06 17:56:47,824: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:40141/
+[rosmaster.master][INFO] 2022-04-06 17:56:47,828: -PUB [/rosout] /webcam http://ubuntu:40141/
+[rosmaster.master][INFO] 2022-04-06 17:56:47,829: -PUB [/image_raw_2] /webcam http://ubuntu:40141/
+[rosmaster.master][INFO] 2022-04-06 17:56:47,829: -PUB [/image_raw] /webcam http://ubuntu:40141/
+[rosmaster.master][INFO] 2022-04-06 17:56:47,829: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:46875
+[rosmaster.master][INFO] 2022-04-06 17:56:47,830: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:46875
+[rosmaster.master][INFO] 2022-04-06 17:56:47,897: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:40141/']
+[rosmaster.master][INFO] 2022-04-06 17:56:47,898: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:47,903: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:40141/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:47,904: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:47,905: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:56:47,905: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:47,908: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:47,909: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:50,111: +PUB [/image_raw_2] /webcam http://ubuntu:39151/
+[rosmaster.master][INFO] 2022-04-06 17:56:50,115: +PUB [/image_raw] /webcam http://ubuntu:39151/
+[rosmaster.master][INFO] 2022-04-06 17:56:50,115: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:39151/']
+[rosmaster.master][INFO] 2022-04-06 17:56:50,118: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:39151/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:50,119: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:39151/']
+[rosmaster.master][INFO] 2022-04-06 17:56:50,121: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:39151/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:50,209: +PUB [/rosout] /webcam http://ubuntu:39151/
+[rosmaster.master][INFO] 2022-04-06 17:56:50,209: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:39151/']
+[rosmaster.master][INFO] 2022-04-06 17:56:50,215: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/', 'http://ubuntu:39151/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:50,218: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:39151/
+[rosmaster.master][INFO] 2022-04-06 17:56:50,221: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:39151/
+[rosmaster.master][INFO] 2022-04-06 17:56:50,226: -PUB [/rosout] /webcam http://ubuntu:39151/
+[rosmaster.master][INFO] 2022-04-06 17:56:50,226: -PUB [/image_raw_2] /webcam http://ubuntu:39151/
+[rosmaster.master][INFO] 2022-04-06 17:56:50,226: -PUB [/image_raw] /webcam http://ubuntu:39151/
+[rosmaster.master][INFO] 2022-04-06 17:56:50,227: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:44501
+[rosmaster.master][INFO] 2022-04-06 17:56:50,227: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:44501
+[rosmaster.master][INFO] 2022-04-06 17:56:50,316: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']
+[rosmaster.master][INFO] 2022-04-06 17:56:50,316: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:50,319: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/', 'http://ubuntu:41161/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:50,322: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:50,322: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:50,324: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:52,084: -SUB [/move_base/cancel] /cancelJoystick http://ubuntu:41161/
+[rosmaster.master][INFO] 2022-04-06 17:56:52,085: -PUB [/rosout] /cancelJoystick http://ubuntu:41161/
+[rosmaster.master][INFO] 2022-04-06 17:56:52,086: -SERVICE [/cancelJoystick/set_logger_level] /cancelJoystick rosrpc://ubuntu:44881
+[rosmaster.master][INFO] 2022-04-06 17:56:52,092: -PUB [/rosout] /talker http://ubuntu:44381/
+[rosmaster.master][INFO] 2022-04-06 17:56:52,093: -SUB [/video/click] /listener http://ubuntu:41881/
+[rosmaster.master][INFO] 2022-04-06 17:56:52,094: -SUB [/cmd_vel] /joystick http://ubuntu:41241/
+[rosmaster.master][INFO] 2022-04-06 17:56:52,094: -SERVICE [/cancelJoystick/get_loggers] /cancelJoystick rosrpc://ubuntu:44881
+[rosmaster.master][INFO] 2022-04-06 17:56:52,095: -PUB [/video/click] /talker http://ubuntu:44381/
+[rosmaster.master][INFO] 2022-04-06 17:56:52,096: -PUB [/rosout] /listener http://ubuntu:41881/
+[rosmaster.master][INFO] 2022-04-06 17:56:52,097: -PUB [/rosout] /joystick http://ubuntu:41241/
+[rosmaster.master][INFO] 2022-04-06 17:56:52,097: -SERVICE [/talker/get_loggers] /talker rosrpc://ubuntu:39305
+[rosmaster.master][INFO] 2022-04-06 17:56:52,098: -SERVICE [/listener/set_logger_level] /listener rosrpc://ubuntu:35603
+[rosmaster.master][INFO] 2022-04-06 17:56:52,099: -SERVICE [/listener/get_loggers] /listener rosrpc://ubuntu:35603
+[rosmaster.master][INFO] 2022-04-06 17:56:52,099: -SERVICE [/talker/set_logger_level] /talker rosrpc://ubuntu:39305
+[rosmaster.master][INFO] 2022-04-06 17:56:52,101: -SERVICE [/joystick/set_logger_level] /joystick rosrpc://ubuntu:46419
+[rosmaster.master][INFO] 2022-04-06 17:56:52,101: -SERVICE [/joystick/get_loggers] /joystick rosrpc://ubuntu:46419
+[rosmaster.master][INFO] 2022-04-06 17:56:52,124: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/']
+[rosmaster.master][INFO] 2022-04-06 17:56:52,126: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:44381/', 'http://ubuntu:41881/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:52,127: publisherUpdate[/video/click] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:52,127: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:41881/']
+[rosmaster.master][INFO] 2022-04-06 17:56:52,130: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/', 'http://ubuntu:41881/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:52,132: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/']
+[rosmaster.master][INFO] 2022-04-06 17:56:52,131: publisherUpdate[/video/click] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:52,134: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:41241/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:52,134: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/']
+[rosmaster.master][INFO] 2022-04-06 17:56:52,136: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:55,067: +PARAM [/roslaunch/uris/host_ubuntu__38711] by /roslaunch
+[rosmaster.master][INFO] 2022-04-06 17:56:55,073: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-04-06 17:56:55,074: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-04-06 17:56:57,355: +PUB [/rosout] /listener http://ubuntu:42829/
+[rosmaster.master][INFO] 2022-04-06 17:56:57,363: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/']
+[rosmaster.master][INFO] 2022-04-06 17:56:57,370: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:57,372: +SERVICE [/listener/get_loggers] /listener http://ubuntu:42829/
+[rosmaster.master][INFO] 2022-04-06 17:56:57,377: +SERVICE [/listener/set_logger_level] /listener http://ubuntu:42829/
+[rosmaster.master][INFO] 2022-04-06 17:56:57,386: +SUB [/video/click] /listener http://ubuntu:42829/
+[rosmaster.master][INFO] 2022-04-06 17:56:57,558: +PUB [/video/click] /talker http://ubuntu:39009/
+[rosmaster.master][INFO] 2022-04-06 17:56:57,567: publisherUpdate[/video/click] -> http://ubuntu:38995/ ['http://ubuntu:39009/']
+[rosmaster.master][INFO] 2022-04-06 17:56:57,571: publisherUpdate[/video/click] -> http://ubuntu:42829/ ['http://ubuntu:39009/']
+[rosmaster.master][INFO] 2022-04-06 17:56:57,572: publisherUpdate[/video/click] -> http://ubuntu:38995/ ['http://ubuntu:39009/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:57,581: publisherUpdate[/video/click] -> http://ubuntu:42829/ ['http://ubuntu:39009/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:57,652: +PUB [/rosout] /talker http://ubuntu:39009/
+[rosmaster.master][INFO] 2022-04-06 17:56:57,659: +SERVICE [/talker/get_loggers] /talker http://ubuntu:39009/
+[rosmaster.master][INFO] 2022-04-06 17:56:57,665: +SERVICE [/talker/set_logger_level] /talker http://ubuntu:39009/
+[rosmaster.master][INFO] 2022-04-06 17:56:57,674: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/']
+[rosmaster.master][INFO] 2022-04-06 17:56:57,679: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:57,684: +PUB [/rosout] /cancelJoystick http://ubuntu:39237/
+[rosmaster.master][INFO] 2022-04-06 17:56:57,695: +SERVICE [/cancelJoystick/get_loggers] /cancelJoystick http://ubuntu:39237/
+[rosmaster.master][INFO] 2022-04-06 17:56:57,698: +SERVICE [/cancelJoystick/set_logger_level] /cancelJoystick http://ubuntu:39237/
+[rosmaster.master][INFO] 2022-04-06 17:56:57,703: +SUB [/move_base/cancel] /cancelJoystick http://ubuntu:39237/
+[rosmaster.master][INFO] 2022-04-06 17:56:57,778: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/']
+[rosmaster.master][INFO] 2022-04-06 17:56:57,781: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:57,799: +PUB [/rosout] /joystick http://ubuntu:46701/
+[rosmaster.master][INFO] 2022-04-06 17:56:57,806: +SERVICE [/joystick/get_loggers] /joystick http://ubuntu:46701/
+[rosmaster.master][INFO] 2022-04-06 17:56:57,809: +SERVICE [/joystick/set_logger_level] /joystick http://ubuntu:46701/
+[rosmaster.master][INFO] 2022-04-06 17:56:57,815: +SUB [/cmd_vel] /joystick http://ubuntu:46701/
+[rosmaster.master][INFO] 2022-04-06 17:56:57,880: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/', 'http://ubuntu:46701/']
+[rosmaster.master][INFO] 2022-04-06 17:56:57,883: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/', 'http://ubuntu:46701/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:58,182: +PUB [/image_raw_2] /webcam http://ubuntu:36131/
+[rosmaster.master][INFO] 2022-04-06 17:56:58,183: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:36131/']
+[rosmaster.master][INFO] 2022-04-06 17:56:58,185: +PUB [/image_raw] /webcam http://ubuntu:36131/
+[rosmaster.master][INFO] 2022-04-06 17:56:58,186: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:36131/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:58,187: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:36131/']
+[rosmaster.master][INFO] 2022-04-06 17:56:58,189: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:36131/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:58,280: +PUB [/rosout] /webcam http://ubuntu:36131/
+[rosmaster.master][INFO] 2022-04-06 17:56:58,283: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/', 'http://ubuntu:46701/', 'http://ubuntu:36131/']
+[rosmaster.master][INFO] 2022-04-06 17:56:58,288: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:36131/
+[rosmaster.master][INFO] 2022-04-06 17:56:58,291: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/', 'http://ubuntu:46701/', 'http://ubuntu:36131/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:58,292: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:36131/
+[rosmaster.master][INFO] 2022-04-06 17:56:58,297: -PUB [/rosout] /webcam http://ubuntu:36131/
+[rosmaster.master][INFO] 2022-04-06 17:56:58,297: -PUB [/image_raw_2] /webcam http://ubuntu:36131/
+[rosmaster.master][INFO] 2022-04-06 17:56:58,298: -PUB [/image_raw] /webcam http://ubuntu:36131/
+[rosmaster.master][INFO] 2022-04-06 17:56:58,298: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:33831
+[rosmaster.master][INFO] 2022-04-06 17:56:58,298: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:33831
+[rosmaster.master][INFO] 2022-04-06 17:56:58,386: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/', 'http://ubuntu:46701/']
+[rosmaster.master][INFO] 2022-04-06 17:56:58,389: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/', 'http://ubuntu:46701/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:58,390: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:58,395: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:56:58,395: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:56:58,399: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:00,257: +PUB [/image_raw_2] /webcam http://ubuntu:42831/
+[rosmaster.master][INFO] 2022-04-06 17:57:00,260: +PUB [/image_raw] /webcam http://ubuntu:42831/
+[rosmaster.master][INFO] 2022-04-06 17:57:00,294: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:42831/']
+[rosmaster.master][INFO] 2022-04-06 17:57:00,299: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:42831/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:00,299: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:42831/']
+[rosmaster.master][INFO] 2022-04-06 17:57:00,302: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:42831/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:00,353: +PUB [/rosout] /webcam http://ubuntu:42831/
+[rosmaster.master][INFO] 2022-04-06 17:57:00,363: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:42831/
+[rosmaster.master][INFO] 2022-04-06 17:57:00,366: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:42831/
+[rosmaster.master][INFO] 2022-04-06 17:57:00,370: -PUB [/rosout] /webcam http://ubuntu:42831/
+[rosmaster.master][INFO] 2022-04-06 17:57:00,371: -PUB [/image_raw_2] /webcam http://ubuntu:42831/
+[rosmaster.master][INFO] 2022-04-06 17:57:00,371: -PUB [/image_raw] /webcam http://ubuntu:42831/
+[rosmaster.master][INFO] 2022-04-06 17:57:00,371: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:46501
+[rosmaster.master][INFO] 2022-04-06 17:57:00,372: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:46501
+[rosmaster.master][INFO] 2022-04-06 17:57:00,396: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/', 'http://ubuntu:46701/', 'http://ubuntu:42831/']
+[rosmaster.master][INFO] 2022-04-06 17:57:00,402: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/', 'http://ubuntu:46701/', 'http://ubuntu:42831/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:00,403: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:57:00,403: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/', 'http://ubuntu:46701/']
+[rosmaster.master][INFO] 2022-04-06 17:57:00,408: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/', 'http://ubuntu:46701/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:00,409: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:00,409: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:57:00,411: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:02,687: +PUB [/image_raw_2] /webcam http://ubuntu:38883/
+[rosmaster.master][INFO] 2022-04-06 17:57:02,690: +PUB [/image_raw] /webcam http://ubuntu:38883/
+[rosmaster.master][INFO] 2022-04-06 17:57:02,709: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:38883/']
+[rosmaster.master][INFO] 2022-04-06 17:57:02,714: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:38883/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:02,715: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:38883/']
+[rosmaster.master][INFO] 2022-04-06 17:57:02,718: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:38883/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:02,783: +PUB [/rosout] /webcam http://ubuntu:38883/
+[rosmaster.master][INFO] 2022-04-06 17:57:02,788: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:38883/
+[rosmaster.master][INFO] 2022-04-06 17:57:02,790: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:38883/
+[rosmaster.master][INFO] 2022-04-06 17:57:02,795: -PUB [/rosout] /webcam http://ubuntu:38883/
+[rosmaster.master][INFO] 2022-04-06 17:57:02,796: -PUB [/image_raw_2] /webcam http://ubuntu:38883/
+[rosmaster.master][INFO] 2022-04-06 17:57:02,796: -PUB [/image_raw] /webcam http://ubuntu:38883/
+[rosmaster.master][INFO] 2022-04-06 17:57:02,796: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:35701
+[rosmaster.master][INFO] 2022-04-06 17:57:02,796: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:35701
+[rosmaster.master][INFO] 2022-04-06 17:57:02,815: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/', 'http://ubuntu:46701/', 'http://ubuntu:38883/']
+[rosmaster.master][INFO] 2022-04-06 17:57:02,817: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:57:02,820: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/', 'http://ubuntu:46701/', 'http://ubuntu:38883/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:02,821: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/', 'http://ubuntu:46701/']
+[rosmaster.master][INFO] 2022-04-06 17:57:02,823: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:02,826: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/', 'http://ubuntu:46701/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:02,826: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:57:02,829: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:04,844: +PUB [/image_raw_2] /webcam http://ubuntu:41669/
+[rosmaster.master][INFO] 2022-04-06 17:57:04,848: +PUB [/image_raw] /webcam http://ubuntu:41669/
+[rosmaster.master][INFO] 2022-04-06 17:57:04,923: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:41669/']
+[rosmaster.master][INFO] 2022-04-06 17:57:04,928: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:41669/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:04,928: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:41669/']
+[rosmaster.master][INFO] 2022-04-06 17:57:04,933: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:41669/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:04,941: +PUB [/rosout] /webcam http://ubuntu:41669/
+[rosmaster.master][INFO] 2022-04-06 17:57:04,948: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:41669/
+[rosmaster.master][INFO] 2022-04-06 17:57:04,951: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:41669/
+[rosmaster.master][INFO] 2022-04-06 17:57:04,957: -PUB [/rosout] /webcam http://ubuntu:41669/
+[rosmaster.master][INFO] 2022-04-06 17:57:04,957: -PUB [/image_raw_2] /webcam http://ubuntu:41669/
+[rosmaster.master][INFO] 2022-04-06 17:57:04,957: -PUB [/image_raw] /webcam http://ubuntu:41669/
+[rosmaster.master][INFO] 2022-04-06 17:57:04,958: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:41185
+[rosmaster.master][INFO] 2022-04-06 17:57:04,958: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:41185
+[rosmaster.master][INFO] 2022-04-06 17:57:05,031: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/', 'http://ubuntu:46701/', 'http://ubuntu:41669/']
+[rosmaster.master][INFO] 2022-04-06 17:57:05,034: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:57:05,037: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/', 'http://ubuntu:46701/', 'http://ubuntu:41669/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:05,039: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:05,039: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/', 'http://ubuntu:46701/']
+[rosmaster.master][INFO] 2022-04-06 17:57:05,039: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:57:05,042: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/', 'http://ubuntu:46701/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:05,043: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:06,975: +PUB [/image_raw_2] /webcam http://ubuntu:35461/
+[rosmaster.master][INFO] 2022-04-06 17:57:06,978: +PUB [/image_raw] /webcam http://ubuntu:35461/
+[rosmaster.master][INFO] 2022-04-06 17:57:07,038: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:35461/']
+[rosmaster.master][INFO] 2022-04-06 17:57:07,043: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ ['http://ubuntu:35461/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:07,044: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:35461/']
+[rosmaster.master][INFO] 2022-04-06 17:57:07,049: publisherUpdate[/image_raw] -> http://ubuntu:38995/ ['http://ubuntu:35461/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:07,070: +PUB [/rosout] /webcam http://ubuntu:35461/
+[rosmaster.master][INFO] 2022-04-06 17:57:07,076: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:35461/
+[rosmaster.master][INFO] 2022-04-06 17:57:07,078: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:35461/
+[rosmaster.master][INFO] 2022-04-06 17:57:07,083: -PUB [/rosout] /webcam http://ubuntu:35461/
+[rosmaster.master][INFO] 2022-04-06 17:57:07,083: -PUB [/image_raw_2] /webcam http://ubuntu:35461/
+[rosmaster.master][INFO] 2022-04-06 17:57:07,083: -PUB [/image_raw] /webcam http://ubuntu:35461/
+[rosmaster.master][INFO] 2022-04-06 17:57:07,084: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:34587
+[rosmaster.master][INFO] 2022-04-06 17:57:07,084: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:34587
+[rosmaster.master][INFO] 2022-04-06 17:57:07,149: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/', 'http://ubuntu:46701/', 'http://ubuntu:35461/']
+[rosmaster.master][INFO] 2022-04-06 17:57:07,150: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:57:07,156: publisherUpdate[/image_raw_2] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:07,157: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/', 'http://ubuntu:46701/', 'http://ubuntu:35461/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:07,158: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:57:07,158: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/', 'http://ubuntu:46701/']
+[rosmaster.master][INFO] 2022-04-06 17:57:07,162: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:39237/', 'http://ubuntu:46701/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:07,163: publisherUpdate[/image_raw] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:08,411: -SUB [/move_base/cancel] /cancelJoystick http://ubuntu:39237/
+[rosmaster.master][INFO] 2022-04-06 17:57:08,411: -PUB [/rosout] /cancelJoystick http://ubuntu:39237/
+[rosmaster.master][INFO] 2022-04-06 17:57:08,412: -SERVICE [/cancelJoystick/set_logger_level] /cancelJoystick rosrpc://ubuntu:41255
+[rosmaster.master][INFO] 2022-04-06 17:57:08,412: -SERVICE [/cancelJoystick/get_loggers] /cancelJoystick rosrpc://ubuntu:41255
+[rosmaster.master][INFO] 2022-04-06 17:57:08,415: -PUB [/rosout] /talker http://ubuntu:39009/
+[rosmaster.master][INFO] 2022-04-06 17:57:08,416: -PUB [/video/click] /talker http://ubuntu:39009/
+[rosmaster.master][INFO] 2022-04-06 17:57:08,417: -SERVICE [/talker/get_loggers] /talker rosrpc://ubuntu:35629
+[rosmaster.master][INFO] 2022-04-06 17:57:08,422: -SUB [/video/click] /listener http://ubuntu:42829/
+[rosmaster.master][INFO] 2022-04-06 17:57:08,422: -SUB [/cmd_vel] /joystick http://ubuntu:46701/
+[rosmaster.master][INFO] 2022-04-06 17:57:08,423: -SERVICE [/talker/set_logger_level] /talker rosrpc://ubuntu:35629
+[rosmaster.master][INFO] 2022-04-06 17:57:08,424: -PUB [/rosout] /listener http://ubuntu:42829/
+[rosmaster.master][INFO] 2022-04-06 17:57:08,424: -SERVICE [/listener/set_logger_level] /listener rosrpc://ubuntu:44829
+[rosmaster.master][INFO] 2022-04-06 17:57:08,425: -SERVICE [/listener/get_loggers] /listener rosrpc://ubuntu:44829
+[rosmaster.master][INFO] 2022-04-06 17:57:08,427: -PUB [/rosout] /joystick http://ubuntu:46701/
+[rosmaster.master][INFO] 2022-04-06 17:57:08,428: -SERVICE [/joystick/set_logger_level] /joystick rosrpc://ubuntu:38815
+[rosmaster.master][INFO] 2022-04-06 17:57:08,428: -SERVICE [/joystick/get_loggers] /joystick rosrpc://ubuntu:38815
+[rosmaster.master][INFO] 2022-04-06 17:57:08,453: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:46701/']
+[rosmaster.master][INFO] 2022-04-06 17:57:08,455: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:39009/', 'http://ubuntu:46701/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:08,456: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:46701/']
+[rosmaster.master][INFO] 2022-04-06 17:57:08,458: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:42829/', 'http://ubuntu:46701/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:08,458: publisherUpdate[/video/click] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:57:08,461: publisherUpdate[/video/click] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:08,461: publisherUpdate[/video/click] -> http://ubuntu:42829/ []
+[rosmaster.master][INFO] 2022-04-06 17:57:08,464: publisherUpdate[/video/click] -> http://ubuntu:42829/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:08,464: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:46701/']
+[rosmaster.master][INFO] 2022-04-06 17:57:08,466: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/', 'http://ubuntu:46701/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:08,467: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/']
+[rosmaster.master][INFO] 2022-04-06 17:57:08,468: publisherUpdate[/rosout] -> http://ubuntu:37939/ ['http://ubuntu:38995/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:11,074: -PUB [/rosout_agg] /rosout http://ubuntu:37939/
+[rosmaster.master][INFO] 2022-04-06 17:57:11,074: publisherUpdate[/rosout_agg] -> http://ubuntu:38995/ []
+[rosmaster.master][INFO] 2022-04-06 17:57:11,076: -SUB [/rosout] /rosout http://ubuntu:37939/
+[rosmaster.master][INFO] 2022-04-06 17:57:11,078: publisherUpdate[/rosout_agg] -> http://ubuntu:38995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-06 17:57:11,079: -SERVICE [/rosout/get_loggers] /rosout rosrpc://ubuntu:34485
+[rosmaster.master][INFO] 2022-04-06 17:57:11,080: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://ubuntu:34485
+[rosmaster.master][INFO] 2022-04-06 17:57:11,082: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2022-04-06 17:57:11,100: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2022-04-06 17:57:11,100: stopping master...
+[rospy.core][INFO] 2022-04-06 17:57:11,101: signal_shutdown [atexit]

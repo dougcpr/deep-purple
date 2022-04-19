@@ -1,0 +1,65 @@
+[rospy.client][INFO] 2022-02-07 16:59:18,375: init_node, name[/listener], pid[17610]
+[xmlrpc][INFO] 2022-02-07 16:59:18,376: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-07 16:59:18,378: Started XML-RPC server [http://ubuntu:38675/]
+[rospy.init][INFO] 2022-02-07 16:59:18,379: ROS Slave URI: [http://ubuntu:38675/]
+[rospy.impl.masterslave][INFO] 2022-02-07 16:59:18,379: _ready: http://ubuntu:38675/
+[xmlrpc][INFO] 2022-02-07 16:59:18,381: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-02-07 16:59:18,383: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-02-07 16:59:18,480: registered with master
+[rospy.rosout][INFO] 2022-02-07 16:59:18,481: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-07 16:59:18,495: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-07 16:59:18,498: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-07 16:59:18,596: topic[/video/click] adding connection to [http://ubuntu:46319/], count 0
+[rospy.internal][INFO] 2022-02-07 16:59:18,786: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-02-07 17:50:57,240: topic[/video/click] adding connection to [http://ubuntu:32967/], count 1
+[rosout][INFO] 2022-02-07 17:50:58,033: --------------------
+[rosout][INFO] 2022-02-07 17:51:00,917: --------------------
+[rosout][INFO] 2022-02-07 17:51:09,439: --------------------
+[rosout][INFO] 2022-02-07 17:51:17,074: --------------------
+[rosout][INFO] 2022-02-07 17:52:03,362: --------------------
+[rosout][INFO] 2022-02-07 17:52:06,793: --------------------
+[rosout][INFO] 2022-02-07 17:52:10,465: --------------------
+[rosout][INFO] 2022-02-07 17:52:13,614: --------------------
+[rosout][INFO] 2022-02-07 17:52:17,674: --------------------
+[rosout][INFO] 2022-02-07 17:52:20,722: --------------------
+[rosout][INFO] 2022-02-07 17:53:36,805: --------------------
+[rosout][INFO] 2022-02-07 17:53:39,383: --------------------
+[rosout][INFO] 2022-02-07 17:53:44,194: --------------------
+[rosout][INFO] 2022-02-07 17:53:47,285: --------------------
+[rosout][INFO] 2022-02-07 17:53:49,979: --------------------
+[rosout][INFO] 2022-02-07 17:53:52,294: --------------------
+[rosout][INFO] 2022-02-07 18:13:36,169: --------------------
+[rosout][INFO] 2022-02-07 18:15:23,411: --------------------
+[rospy.internal][ERROR] 2022-02-07 18:16:13,361: Unable to initiate TCP/IP socket to ubuntu:34623 (http://ubuntu:32967/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2022-02-07 18:16:14,566: Unknown error initiating TCP/IP socket to ubuntu:34623 (http://ubuntu:32967/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 357, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2022-02-07 18:16:14,567: topic[/video/click] removing connection to http://ubuntu:32967/
+[rospy.internal][ERROR] 2022-02-07 21:12:07,359: Unable to initiate TCP/IP socket to ubuntu:36511 (http://ubuntu:46319/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.core][INFO] 2022-02-07 21:12:07,364: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-07 21:12:07,371: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-02-07 21:12:07,371: topic[/video/click] removing connection to http://ubuntu:46319/
+[rospy.impl.masterslave][INFO] 2022-02-07 21:12:07,372: signal-2
+[rospy.core][INFO] 2022-02-07 21:12:07,488: signal_shutdown [atexit]

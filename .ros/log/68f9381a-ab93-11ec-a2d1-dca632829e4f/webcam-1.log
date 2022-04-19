@@ -1,0 +1,20 @@
+[rospy.client][INFO] 2022-03-24 16:58:30,624: init_node, name[/webcam], pid[6880]
+[xmlrpc][INFO] 2022-03-24 16:58:30,625: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-03-24 16:58:30,626: Started XML-RPC server [http://ubuntu:42995/]
+[rospy.init][INFO] 2022-03-24 16:58:30,626: ROS Slave URI: [http://ubuntu:42995/]
+[rospy.impl.masterslave][INFO] 2022-03-24 16:58:30,627: _ready: http://ubuntu:42995/
+[rospy.registration][INFO] 2022-03-24 16:58:30,629: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-03-24 16:58:30,629: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-03-24 16:58:30,629: Registering publisher topic [/image_raw] type [sensor_msgs/Image] with master
+[rospy.init][INFO] 2022-03-24 16:58:30,727: registered with master
+[rospy.rosout][INFO] 2022-03-24 16:58:30,728: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-24 16:58:30,734: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-24 16:58:30,737: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-24 16:58:31,035: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-03-24 16:58:32,461: topic[/image_raw] adding connection to [/link_ros], count 0
+[rospy.internal][INFO] 2022-03-24 21:09:45,538: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-24 21:09:46,905: topic[/image_raw] removing connection to /link_ros
+[rospy.core][INFO] 2022-03-24 21:11:56,119: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2022-03-24 21:11:56,122: cannot unregister with master due to network issues
+[rospy.impl.masterslave][INFO] 2022-03-24 21:11:56,122: signal-2
+[rospy.core][INFO] 2022-03-24 21:11:56,231: signal_shutdown [atexit]

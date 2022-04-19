@@ -1,0 +1,30 @@
+[5.201s] Invoking command in '/home/ubuntu/ros2_foxy/build/ament_cpplint': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_lint PATH=/home/ubuntu/ros2_foxy/install/ament_copyright/bin:/home/ubuntu/ros2_foxy/install/ament_pep257/bin:/home/ubuntu/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_foxy/install/ament_cpplint/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_copyright/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_pep257/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_flake8/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint:/home/ubuntu/ros2_foxy/install/ament_lint/lib/python3.6/site-packages /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/ament_cpplint --editable --build-directory /home/ubuntu/ros2_foxy/build/ament_cpplint/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/ament_cpplint
+[7.755s] running develop
+[7.757s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.758s]   EasyInstallDeprecationWarning,
+[7.763s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.764s]   setuptools.SetuptoolsDeprecationWarning,
+[8.062s] /home/ubuntu/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[8.063s]   PkgResourcesDeprecationWarning,
+[8.531s] running egg_info
+[8.532s] creating ament_cpplint.egg-info
+[8.532s] writing ament_cpplint.egg-info/PKG-INFO
+[8.533s] writing dependency_links to ament_cpplint.egg-info/dependency_links.txt
+[8.533s] writing entry points to ament_cpplint.egg-info/entry_points.txt
+[8.534s] writing requirements to ament_cpplint.egg-info/requires.txt
+[8.535s] writing top-level names to ament_cpplint.egg-info/top_level.txt
+[8.544s] writing manifest file 'ament_cpplint.egg-info/SOURCES.txt'
+[8.557s] reading manifest file 'ament_cpplint.egg-info/SOURCES.txt'
+[8.564s] writing manifest file 'ament_cpplint.egg-info/SOURCES.txt'
+[8.740s] running build_ext
+[8.742s] Creating /home/ubuntu/ros2_foxy/install/ament_cpplint/lib/python3.6/site-packages/ament-cpplint.egg-link (link to .)
+[10.178s] Installing ament_cpplint script to /home/ubuntu/ros2_foxy/install/ament_cpplint/bin
+[10.181s] 
+[10.182s] Installed /home/ubuntu/ros2_foxy/build/ament_cpplint
+[10.183s] running install_data
+[10.183s] copying package.xml -> /home/ubuntu/ros2_foxy/install/ament_cpplint/share/ament_cpplint
+[10.184s] creating /home/ubuntu/ros2_foxy/install/ament_cpplint/share/ament_index
+[10.185s] creating /home/ubuntu/ros2_foxy/install/ament_cpplint/share/ament_index/resource_index
+[10.186s] creating /home/ubuntu/ros2_foxy/install/ament_cpplint/share/ament_index/resource_index/packages
+[10.187s] copying resource/ament_cpplint -> /home/ubuntu/ros2_foxy/install/ament_cpplint/share/ament_index/resource_index/packages
+[10.315s] Invoked command in '/home/ubuntu/ros2_foxy/build/ament_cpplint' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_lint PATH=/home/ubuntu/ros2_foxy/install/ament_copyright/bin:/home/ubuntu/ros2_foxy/install/ament_pep257/bin:/home/ubuntu/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_foxy/install/ament_cpplint/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_copyright/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_pep257/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_flake8/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint:/home/ubuntu/ros2_foxy/install/ament_lint/lib/python3.6/site-packages /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/ament_cpplint --editable --build-directory /home/ubuntu/ros2_foxy/build/ament_cpplint/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/ament_cpplint

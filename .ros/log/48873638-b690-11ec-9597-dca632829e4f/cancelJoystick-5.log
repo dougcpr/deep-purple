@@ -1,0 +1,28 @@
+[rospy.client][INFO] 2022-04-07 16:32:22,306: init_node, name[/cancelJoystick], pid[2476]
+[xmlrpc][INFO] 2022-04-07 16:32:22,308: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-04-07 16:32:22,309: Started XML-RPC server [http://ubuntu:43549/]
+[rospy.init][INFO] 2022-04-07 16:32:22,310: ROS Slave URI: [http://ubuntu:43549/]
+[rospy.impl.masterslave][INFO] 2022-04-07 16:32:22,310: _ready: http://ubuntu:43549/
+[xmlrpc][INFO] 2022-04-07 16:32:22,311: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-04-07 16:32:22,313: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-04-07 16:32:22,411: registered with master
+[rospy.rosout][INFO] 2022-04-07 16:32:22,412: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-04-07 16:32:22,418: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-04-07 16:32:22,421: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-04-07 16:32:22,667: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-04-07 19:19:42,163: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-04-07 19:19:42,181: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-04-07 19:19:42,182: signal-2
+[rospy.core][INFO] 2022-04-07 19:19:42,293: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-04-07 19:19:48,961: init_node, name[/cancelJoystick], pid[19805]
+[xmlrpc][INFO] 2022-04-07 19:19:48,962: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-04-07 19:19:48,964: Started XML-RPC server [http://ubuntu:35077/]
+[rospy.init][INFO] 2022-04-07 19:19:48,965: ROS Slave URI: [http://ubuntu:35077/]
+[rospy.impl.masterslave][INFO] 2022-04-07 19:19:48,965: _ready: http://ubuntu:35077/
+[xmlrpc][INFO] 2022-04-07 19:19:48,966: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-04-07 19:19:48,968: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-04-07 19:19:49,066: registered with master
+[rospy.rosout][INFO] 2022-04-07 19:19:49,067: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-04-07 19:19:49,074: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-04-07 19:19:49,078: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-04-07 19:19:49,357: topic[/rosout] adding connection to [/rosout], count 0

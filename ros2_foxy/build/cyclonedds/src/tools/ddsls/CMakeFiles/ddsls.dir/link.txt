@@ -1,0 +1,1 @@
+/usr/bin/cc -O2 -g -DNDEBUG   CMakeFiles/ddsls.dir/ddsls.c.o  -o ../../../bin/ddsls -Wl,-rpath,/home/ubuntu/ros2_foxy/build/cyclonedds/lib: ../../../lib/libddsc.so.0.7.0 

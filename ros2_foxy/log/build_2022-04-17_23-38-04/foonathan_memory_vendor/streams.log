@@ -1,0 +1,53 @@
+[0.202s] Invoking command in '/home/ubuntu/ros2_foxy/build/foonathan_memory_vendor': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake_xmllint:/home/ubuntu/ros2_foxy/install/ament_cmake_copyright:/home/ubuntu/ros2_foxy/install/ament_cmake_lint_cmake:/home/ubuntu/ros2_foxy/install/ament_xmllint:/home/ubuntu/ros2_foxy/install/ament_lint_cmake:/home/ubuntu/ros2_foxy/install/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_cmake_test:/home/ubuntu/ros2_foxy/install/ament_cmake_core:/home/ubuntu/ros2_foxy/install/ament_package:/home/ubuntu/ros2_foxy/install/ament_lint CMAKE_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake_xmllint:/home/ubuntu/ros2_foxy/install/ament_cmake_copyright:/home/ubuntu/ros2_foxy/install/ament_cmake_lint_cmake:/home/ubuntu/ros2_foxy/install/ament_cmake_test:/home/ubuntu/ros2_foxy/install/ament_cmake_core PATH=/home/ubuntu/ros2_foxy/install/ament_xmllint/bin:/home/ubuntu/ros2_foxy/install/ament_lint_cmake/bin:/home/ubuntu/ros2_foxy/install/ament_copyright/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_foxy/build/ament_xmllint:/home/ubuntu/ros2_foxy/install/ament_xmllint/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint_cmake:/home/ubuntu/ros2_foxy/install/ament_lint_cmake/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_copyright/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/install/ament_cmake_test/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_package:/home/ubuntu/ros2_foxy/install/ament_package/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint:/home/ubuntu/ros2_foxy/install/ament_lint/lib/python3.6/site-packages /usr/bin/cmake /home/ubuntu/ros2_foxy/src/eProsima/foonathan_memory_vendor -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_foxy/install/foonathan_memory_vendor
+[1.269s] -- The C compiler identification is GNU 7.5.0
+[1.552s] -- The CXX compiler identification is GNU 7.5.0
+[1.581s] -- Check for working C compiler: /usr/bin/cc
+[1.929s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.931s] -- Detecting C compiler ABI info
+[2.344s] -- Detecting C compiler ABI info - done
+[2.367s] -- Detecting C compile features
+[3.474s] -- Detecting C compile features - done
+[3.485s] -- Check for working CXX compiler: /usr/bin/c++
+[3.890s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.895s] -- Detecting CXX compiler ABI info
+[4.435s] -- Detecting CXX compiler ABI info - done
+[4.447s] -- Detecting CXX compile features
+[8.058s] -- Detecting CXX compile features - done
+[8.483s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[8.484s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.284s] -- Configuring done
+[10.308s] -- Generating done
+[10.319s] -- Build files have been written to: /home/ubuntu/ros2_foxy/build/foonathan_memory_vendor
+[10.794s] Invoked command in '/home/ubuntu/ros2_foxy/build/foonathan_memory_vendor' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake_xmllint:/home/ubuntu/ros2_foxy/install/ament_cmake_copyright:/home/ubuntu/ros2_foxy/install/ament_cmake_lint_cmake:/home/ubuntu/ros2_foxy/install/ament_xmllint:/home/ubuntu/ros2_foxy/install/ament_lint_cmake:/home/ubuntu/ros2_foxy/install/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_cmake_test:/home/ubuntu/ros2_foxy/install/ament_cmake_core:/home/ubuntu/ros2_foxy/install/ament_package:/home/ubuntu/ros2_foxy/install/ament_lint CMAKE_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake_xmllint:/home/ubuntu/ros2_foxy/install/ament_cmake_copyright:/home/ubuntu/ros2_foxy/install/ament_cmake_lint_cmake:/home/ubuntu/ros2_foxy/install/ament_cmake_test:/home/ubuntu/ros2_foxy/install/ament_cmake_core PATH=/home/ubuntu/ros2_foxy/install/ament_xmllint/bin:/home/ubuntu/ros2_foxy/install/ament_lint_cmake/bin:/home/ubuntu/ros2_foxy/install/ament_copyright/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_foxy/build/ament_xmllint:/home/ubuntu/ros2_foxy/install/ament_xmllint/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint_cmake:/home/ubuntu/ros2_foxy/install/ament_lint_cmake/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_copyright/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/install/ament_cmake_test/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_package:/home/ubuntu/ros2_foxy/install/ament_package/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint:/home/ubuntu/ros2_foxy/install/ament_lint/lib/python3.6/site-packages /usr/bin/cmake /home/ubuntu/ros2_foxy/src/eProsima/foonathan_memory_vendor -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_foxy/install/foonathan_memory_vendor
+[10.809s] Invoking command in '/home/ubuntu/ros2_foxy/build/foonathan_memory_vendor': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake_xmllint:/home/ubuntu/ros2_foxy/install/ament_cmake_copyright:/home/ubuntu/ros2_foxy/install/ament_cmake_lint_cmake:/home/ubuntu/ros2_foxy/install/ament_xmllint:/home/ubuntu/ros2_foxy/install/ament_lint_cmake:/home/ubuntu/ros2_foxy/install/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_cmake_test:/home/ubuntu/ros2_foxy/install/ament_cmake_core:/home/ubuntu/ros2_foxy/install/ament_package:/home/ubuntu/ros2_foxy/install/ament_lint CMAKE_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake_xmllint:/home/ubuntu/ros2_foxy/install/ament_cmake_copyright:/home/ubuntu/ros2_foxy/install/ament_cmake_lint_cmake:/home/ubuntu/ros2_foxy/install/ament_cmake_test:/home/ubuntu/ros2_foxy/install/ament_cmake_core PATH=/home/ubuntu/ros2_foxy/install/ament_xmllint/bin:/home/ubuntu/ros2_foxy/install/ament_lint_cmake/bin:/home/ubuntu/ros2_foxy/install/ament_copyright/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_foxy/build/ament_xmllint:/home/ubuntu/ros2_foxy/install/ament_xmllint/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint_cmake:/home/ubuntu/ros2_foxy/install/ament_lint_cmake/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_copyright/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/install/ament_cmake_test/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_package:/home/ubuntu/ros2_foxy/install/ament_package/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint:/home/ubuntu/ros2_foxy/install/ament_lint/lib/python3.6/site-packages /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/foonathan_memory_vendor -- -j4 -l4
+[11.097s] [35m[1mScanning dependencies of target foo_mem-ext[0m
+[11.189s] [ 12%] [34m[1mCreating directories for 'foo_mem-ext'[0m
+[11.543s] [ 25%] [34m[1mPerforming download step (git clone) for 'foo_mem-ext'[0m
+[11.618s] Cloning into 'foo_mem-ext'...
+[25.434s] Note: checking out 'v0.7-1'.
+[25.435s] 
+[25.435s] You are in 'detached HEAD' state. You can look around, make experimental
+[25.436s] changes and commit them, and you can discard any commits you make in this
+[25.437s] state without impacting any branches by performing another checkout.
+[25.438s] 
+[25.439s] If you want to create a new branch to retain commits you create, you may
+[25.439s] do so (now or later) by using -b with the checkout command again. Example:
+[25.440s] 
+[25.441s]   git checkout -b <new-branch-name>
+[25.441s] 
+[25.442s] HEAD is now at 19ab075 Release 0.7-1
+[33.494s] [ 37%] [34m[1mNo patch step for 'foo_mem-ext'[0m
+[33.609s] [ 50%] [34m[1mNo update step for 'foo_mem-ext'[0m
+[33.745s] [ 62%] [34m[1mPerforming configure step for 'foo_mem-ext'[0m
+[33.920s] CMake Error at CMakeLists.txt:7 (cmake_minimum_required):
+[33.921s]   CMake 3.11 or higher is required.  You are running version 3.10.2
+[33.922s] 
+[33.923s] 
+[33.924s] -- Configuring incomplete, errors occurred!
+[33.935s] CMakeFiles/foo_mem-ext.dir/build.make:106: recipe for target 'foo_mem-ext-prefix/src/foo_mem-ext-stamp/foo_mem-ext-configure' failed
+[33.937s] make[2]: *** [foo_mem-ext-prefix/src/foo_mem-ext-stamp/foo_mem-ext-configure] Error 1
+[33.939s] CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/foo_mem-ext.dir/all' failed
+[33.941s] make[1]: *** [CMakeFiles/foo_mem-ext.dir/all] Error 2
+[33.943s] Makefile:140: recipe for target 'all' failed
+[33.951s] make: *** [all] Error 2
+[33.954s] Invoked command in '/home/ubuntu/ros2_foxy/build/foonathan_memory_vendor' returned '2': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake_xmllint:/home/ubuntu/ros2_foxy/install/ament_cmake_copyright:/home/ubuntu/ros2_foxy/install/ament_cmake_lint_cmake:/home/ubuntu/ros2_foxy/install/ament_xmllint:/home/ubuntu/ros2_foxy/install/ament_lint_cmake:/home/ubuntu/ros2_foxy/install/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_cmake_test:/home/ubuntu/ros2_foxy/install/ament_cmake_core:/home/ubuntu/ros2_foxy/install/ament_package:/home/ubuntu/ros2_foxy/install/ament_lint CMAKE_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake_xmllint:/home/ubuntu/ros2_foxy/install/ament_cmake_copyright:/home/ubuntu/ros2_foxy/install/ament_cmake_lint_cmake:/home/ubuntu/ros2_foxy/install/ament_cmake_test:/home/ubuntu/ros2_foxy/install/ament_cmake_core PATH=/home/ubuntu/ros2_foxy/install/ament_xmllint/bin:/home/ubuntu/ros2_foxy/install/ament_lint_cmake/bin:/home/ubuntu/ros2_foxy/install/ament_copyright/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_foxy/build/ament_xmllint:/home/ubuntu/ros2_foxy/install/ament_xmllint/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint_cmake:/home/ubuntu/ros2_foxy/install/ament_lint_cmake/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_copyright/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/install/ament_cmake_test/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_package:/home/ubuntu/ros2_foxy/install/ament_package/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint:/home/ubuntu/ros2_foxy/install/ament_lint/lib/python3.6/site-packages /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/foonathan_memory_vendor -- -j4 -l4

@@ -1,0 +1,63 @@
+Performing C++ SOURCE FILE Test CXXFLAG_Wc_11_extensions failed with the following output:
+Change Dir: /home/ubuntu/ros2_foxy/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8bd96/fast"
+make[3]: Entering directory '/home/ubuntu/ros2_foxy/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8bd96.dir/build.make CMakeFiles/cmTC_8bd96.dir/build
+make[4]: Entering directory '/home/ubuntu/ros2_foxy/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8bd96.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -DCXXFLAG_Wc_11_extensions   -Wc++11-extensions -o CMakeFiles/cmTC_8bd96.dir/src.cxx.o -c /home/ubuntu/ros2_foxy/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wc++11-extensions'; did you mean '-fms-extensions'?
+CMakeFiles/cmTC_8bd96.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8bd96.dir/src.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_8bd96.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/ubuntu/ros2_foxy/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8bd96/fast' failed
+make[3]: *** [cmTC_8bd96/fast] Error 2
+make[3]: Leaving directory '/home/ubuntu/ros2_foxy/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the strchr exist failed with the following output:
+Change Dir: /home/ubuntu/ros2_foxy/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5692f/fast"
+make[3]: Entering directory '/home/ubuntu/ros2_foxy/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5692f.dir/build.make CMakeFiles/cmTC_5692f.dir/build
+make[4]: Entering directory '/home/ubuntu/ros2_foxy/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5692f.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align    -o CMakeFiles/cmTC_5692f.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/ros2_foxy/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/ubuntu/ros2_foxy/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/ubuntu/ros2_foxy/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:17:18: error: address of overloaded function with no contextual type information
+   return ((int*)(&strchr))[argc];
+                 ~^~~~~~~~
+CMakeFiles/cmTC_5692f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5692f.dir/CheckSymbolExists.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_5692f.dir/CheckSymbolExists.cxx.o] Error 1
+make[4]: Leaving directory '/home/ubuntu/ros2_foxy/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5692f/fast' failed
+make[3]: *** [cmTC_5692f/fast] Error 2
+make[3]: Leaving directory '/home/ubuntu/ros2_foxy/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/CMakeFiles/CMakeTmp'
+
+File /home/ubuntu/ros2_foxy/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <inttypes.h>
+#include <memory.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <strings.h>
+#include <string.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <unistd.h>
+#include <utime.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strchr
+  return ((int*)(&strchr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

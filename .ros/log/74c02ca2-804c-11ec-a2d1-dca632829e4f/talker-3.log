@@ -1,0 +1,588 @@
+[rospy.client][INFO] 2022-01-28 15:10:47,812: init_node, name[/talker], pid[26226]
+[xmlrpc][INFO] 2022-01-28 15:10:47,819: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-28 15:10:47,820: Started XML-RPC server [http://ubuntu:45229/]
+[rospy.init][INFO] 2022-01-28 15:10:47,820: ROS Slave URI: [http://ubuntu:45229/]
+[rospy.impl.masterslave][INFO] 2022-01-28 15:10:47,821: _ready: http://ubuntu:45229/
+[rospy.registration][INFO] 2022-01-28 15:10:47,823: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-28 15:10:47,823: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-01-28 15:10:47,824: Registering publisher topic [/chatter] type [std_msgs/String] with master
+[rospy.init][INFO] 2022-01-28 15:10:47,922: registered with master
+[rospy.rosout][INFO] 2022-01-28 15:10:47,922: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-28 15:10:47,926: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-28 15:10:47,928: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2022-01-28 15:10:47,935: hello world 1643382647.94
+[rospy.internal][INFO] 2022-01-28 15:10:47,978: topic[/chatter] adding connection to [/sweeper], count 0
+[rospy.internal][INFO] 2022-01-28 15:10:48,078: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-28 15:10:48,810: topic[/chatter] adding connection to [/link_ros], count 1
+[rospy.core][INFO] 2022-01-28 15:10:49,980: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-28 15:10:49,990: topic[/chatter] removing connection to /sweeper
+[rospy.internal][INFO] 2022-01-28 15:10:49,991: topic[/chatter] removing connection to /link_ros
+[rospy.internal][INFO] 2022-01-28 15:10:49,992: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-01-28 15:10:49,992: signal-2
+[rospy.core][INFO] 2022-01-28 15:10:50,097: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-28 15:12:28,665: init_node, name[/talker], pid[27660]
+[xmlrpc][INFO] 2022-01-28 15:12:28,678: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-01-28 15:12:28,680: ROS Slave URI: [http://ubuntu:45343/]
+[xmlrpc][INFO] 2022-01-28 15:12:28,681: Started XML-RPC server [http://ubuntu:45343/]
+[rospy.impl.masterslave][INFO] 2022-01-28 15:12:28,682: _ready: http://ubuntu:45343/
+[rospy.registration][INFO] 2022-01-28 15:12:28,684: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2022-01-28 15:12:28,685: Registering publisher topic [/chatter] type [std_msgs/String] with master
+[xmlrpc][INFO] 2022-01-28 15:12:28,690: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-28 15:12:28,781: registered with master
+[rospy.rosout][INFO] 2022-01-28 15:12:28,782: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-28 15:12:28,786: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-28 15:12:28,790: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-01-28 15:12:28,798: topic[/chatter] adding connection to [/listener], count 0
+[rosout][INFO] 2022-01-28 15:12:28,812: hello world 1643382748.81
+[rospy.internal][INFO] 2022-01-28 15:12:28,851: topic[/chatter] adding connection to [/link_ros], count 1
+[rospy.internal][INFO] 2022-01-28 15:12:29,013: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-01-28 15:12:32,813: hello world 1643382752.81
+[rosout][INFO] 2022-01-28 15:12:36,816: hello world 1643382756.82
+[rosout][INFO] 2022-01-28 15:12:40,816: hello world 1643382760.82
+[rospy.internal][INFO] 2022-01-28 15:12:43,688: topic[/chatter] adding connection to [/rostopic_27890_1643382763447], count 2
+[rosout][INFO] 2022-01-28 15:12:44,816: hello world 1643382764.82
+[rosout][INFO] 2022-01-28 15:12:48,816: hello world 1643382768.82
+[rosout][INFO] 2022-01-28 15:12:52,813: hello world 1643382772.81
+[rosout][INFO] 2022-01-28 15:12:56,816: hello world 1643382776.82
+[rosout][INFO] 2022-01-28 15:13:00,813: hello world 1643382780.81
+[rosout][INFO] 2022-01-28 15:13:04,816: hello world 1643382784.82
+[rosout][INFO] 2022-01-28 15:13:08,814: hello world 1643382788.81
+[rosout][INFO] 2022-01-28 15:13:12,812: hello world 1643382792.81
+[rosout][INFO] 2022-01-28 15:13:16,813: hello world 1643382796.81
+[rosout][INFO] 2022-01-28 15:13:20,813: hello world 1643382800.81
+[rosout][INFO] 2022-01-28 15:13:24,816: hello world 1643382804.82
+[rosout][INFO] 2022-01-28 15:13:28,817: hello world 1643382808.82
+[rosout][INFO] 2022-01-28 15:13:32,816: hello world 1643382812.82
+[rosout][INFO] 2022-01-28 15:13:36,814: hello world 1643382816.81
+[rosout][INFO] 2022-01-28 15:13:40,813: hello world 1643382820.81
+[rosout][INFO] 2022-01-28 15:13:44,816: hello world 1643382824.82
+[rosout][INFO] 2022-01-28 15:13:48,816: hello world 1643382828.82
+[rosout][INFO] 2022-01-28 15:13:52,816: hello world 1643382832.82
+[rosout][INFO] 2022-01-28 15:13:56,816: hello world 1643382836.82
+[rosout][INFO] 2022-01-28 15:14:00,814: hello world 1643382840.81
+[rosout][INFO] 2022-01-28 15:14:04,815: hello world 1643382844.82
+[rosout][INFO] 2022-01-28 15:14:08,815: hello world 1643382848.82
+[rosout][INFO] 2022-01-28 15:14:12,816: hello world 1643382852.82
+[rosout][INFO] 2022-01-28 15:14:16,816: hello world 1643382856.82
+[rosout][INFO] 2022-01-28 15:14:20,816: hello world 1643382860.82
+[rosout][INFO] 2022-01-28 15:14:24,818: hello world 1643382864.82
+[rosout][INFO] 2022-01-28 15:14:28,816: hello world 1643382868.82
+[rosout][INFO] 2022-01-28 15:14:32,814: hello world 1643382872.81
+[rospy.internal][INFO] 2022-01-28 15:14:34,795: topic[/chatter] removing connection to /rostopic_27890_1643382763447
+[rosout][INFO] 2022-01-28 15:14:36,814: hello world 1643382876.81
+[rosout][INFO] 2022-01-28 15:14:40,816: hello world 1643382880.82
+[rosout][INFO] 2022-01-28 15:14:44,815: hello world 1643382884.82
+[rosout][INFO] 2022-01-28 15:14:48,815: hello world 1643382888.82
+[rosout][INFO] 2022-01-28 15:14:52,813: hello world 1643382892.81
+[rosout][INFO] 2022-01-28 15:14:56,814: hello world 1643382896.81
+[rosout][INFO] 2022-01-28 15:15:00,813: hello world 1643382900.81
+[rosout][INFO] 2022-01-28 15:15:04,816: hello world 1643382904.82
+[rosout][INFO] 2022-01-28 15:15:08,814: hello world 1643382908.81
+[rosout][INFO] 2022-01-28 15:15:12,815: hello world 1643382912.82
+[rosout][INFO] 2022-01-28 15:15:16,816: hello world 1643382916.82
+[rosout][INFO] 2022-01-28 15:15:20,816: hello world 1643382920.82
+[rosout][INFO] 2022-01-28 15:15:24,816: hello world 1643382924.82
+[rosout][INFO] 2022-01-28 15:15:28,813: hello world 1643382928.81
+[rosout][INFO] 2022-01-28 15:15:32,815: hello world 1643382932.82
+[rosout][INFO] 2022-01-28 15:15:36,816: hello world 1643382936.82
+[rosout][INFO] 2022-01-28 15:15:40,816: hello world 1643382940.82
+[rosout][INFO] 2022-01-28 15:15:44,813: hello world 1643382944.81
+[rosout][INFO] 2022-01-28 15:15:48,813: hello world 1643382948.81
+[rosout][INFO] 2022-01-28 15:15:52,812: hello world 1643382952.81
+[rosout][INFO] 2022-01-28 15:15:56,816: hello world 1643382956.82
+[rosout][INFO] 2022-01-28 15:16:00,813: hello world 1643382960.81
+[rosout][INFO] 2022-01-28 15:16:04,815: hello world 1643382964.82
+[rosout][INFO] 2022-01-28 15:16:08,816: hello world 1643382968.82
+[rosout][INFO] 2022-01-28 15:16:12,813: hello world 1643382972.81
+[rosout][INFO] 2022-01-28 15:16:16,816: hello world 1643382976.82
+[rosout][INFO] 2022-01-28 15:16:20,816: hello world 1643382980.82
+[rosout][INFO] 2022-01-28 15:16:24,816: hello world 1643382984.82
+[rosout][INFO] 2022-01-28 15:16:28,816: hello world 1643382988.82
+[rosout][INFO] 2022-01-28 15:16:32,816: hello world 1643382992.82
+[rosout][INFO] 2022-01-28 15:16:36,814: hello world 1643382996.81
+[rosout][INFO] 2022-01-28 15:16:40,816: hello world 1643383000.82
+[rosout][INFO] 2022-01-28 15:16:44,816: hello world 1643383004.82
+[rosout][INFO] 2022-01-28 15:16:48,816: hello world 1643383008.82
+[rosout][INFO] 2022-01-28 15:16:52,816: hello world 1643383012.82
+[rosout][INFO] 2022-01-28 15:16:56,816: hello world 1643383016.82
+[rosout][INFO] 2022-01-28 15:17:00,813: hello world 1643383020.81
+[rosout][INFO] 2022-01-28 15:17:04,816: hello world 1643383024.82
+[rosout][INFO] 2022-01-28 15:17:08,815: hello world 1643383028.82
+[rosout][INFO] 2022-01-28 15:17:12,814: hello world 1643383032.81
+[rosout][INFO] 2022-01-28 15:17:16,816: hello world 1643383036.82
+[rosout][INFO] 2022-01-28 15:17:20,815: hello world 1643383040.81
+[rosout][INFO] 2022-01-28 15:17:24,813: hello world 1643383044.81
+[rosout][INFO] 2022-01-28 15:17:28,813: hello world 1643383048.81
+[rosout][INFO] 2022-01-28 15:17:32,814: hello world 1643383052.81
+[rosout][INFO] 2022-01-28 15:17:36,816: hello world 1643383056.82
+[rosout][INFO] 2022-01-28 15:17:40,816: hello world 1643383060.82
+[rosout][INFO] 2022-01-28 15:17:44,813: hello world 1643383064.81
+[rosout][INFO] 2022-01-28 15:17:48,816: hello world 1643383068.82
+[rosout][INFO] 2022-01-28 15:17:52,813: hello world 1643383072.81
+[rosout][INFO] 2022-01-28 15:17:56,816: hello world 1643383076.82
+[rosout][INFO] 2022-01-28 15:18:00,815: hello world 1643383080.81
+[rosout][INFO] 2022-01-28 15:18:04,814: hello world 1643383084.81
+[rosout][INFO] 2022-01-28 15:18:08,813: hello world 1643383088.81
+[rosout][INFO] 2022-01-28 15:18:12,816: hello world 1643383092.82
+[rospy.internal][INFO] 2022-01-28 15:18:15,784: topic[/chatter] adding connection to [/rostopic_31950_1643383095548], count 2
+[rosout][INFO] 2022-01-28 15:18:16,814: hello world 1643383096.81
+[rosout][INFO] 2022-01-28 15:18:20,816: hello world 1643383100.82
+[rosout][INFO] 2022-01-28 15:18:24,816: hello world 1643383104.82
+[rosout][INFO] 2022-01-28 15:18:28,816: hello world 1643383108.82
+[rosout][INFO] 2022-01-28 15:18:32,815: hello world 1643383112.82
+[rosout][INFO] 2022-01-28 15:18:36,816: hello world 1643383116.82
+[rosout][INFO] 2022-01-28 15:18:40,814: hello world 1643383120.81
+[rosout][INFO] 2022-01-28 15:18:44,816: hello world 1643383124.82
+[rosout][INFO] 2022-01-28 15:18:48,815: hello world 1643383128.81
+[rosout][INFO] 2022-01-28 15:18:52,816: hello world 1643383132.82
+[rosout][INFO] 2022-01-28 15:18:56,813: hello world 1643383136.81
+[rosout][INFO] 2022-01-28 15:19:00,814: hello world 1643383140.81
+[rosout][INFO] 2022-01-28 15:19:04,814: hello world 1643383144.81
+[rosout][INFO] 2022-01-28 15:19:08,813: hello world 1643383148.81
+[rosout][INFO] 2022-01-28 15:19:12,813: hello world 1643383152.81
+[rosout][INFO] 2022-01-28 15:19:16,812: hello world 1643383156.81
+[rosout][INFO] 2022-01-28 15:19:20,815: hello world 1643383160.82
+[rosout][INFO] 2022-01-28 15:19:24,813: hello world 1643383164.81
+[rosout][INFO] 2022-01-28 15:19:28,815: hello world 1643383168.82
+[rosout][INFO] 2022-01-28 15:19:32,813: hello world 1643383172.81
+[rosout][INFO] 2022-01-28 15:19:36,814: hello world 1643383176.81
+[rosout][INFO] 2022-01-28 15:19:40,813: hello world 1643383180.81
+[rosout][INFO] 2022-01-28 15:19:44,813: hello world 1643383184.81
+[rosout][INFO] 2022-01-28 15:19:48,816: hello world 1643383188.82
+[rosout][INFO] 2022-01-28 15:19:52,814: hello world 1643383192.81
+[rosout][INFO] 2022-01-28 15:19:56,813: hello world 1643383196.81
+[rosout][INFO] 2022-01-28 15:20:00,813: hello world 1643383200.81
+[rosout][INFO] 2022-01-28 15:20:04,816: hello world 1643383204.82
+[rosout][INFO] 2022-01-28 15:20:08,814: hello world 1643383208.81
+[rosout][INFO] 2022-01-28 15:20:12,813: hello world 1643383212.81
+[rosout][INFO] 2022-01-28 15:20:16,816: hello world 1643383216.82
+[rosout][INFO] 2022-01-28 15:20:20,813: hello world 1643383220.81
+[rosout][INFO] 2022-01-28 15:20:24,813: hello world 1643383224.81
+[rosout][INFO] 2022-01-28 15:20:28,813: hello world 1643383228.81
+[rosout][INFO] 2022-01-28 15:20:32,815: hello world 1643383232.82
+[rosout][INFO] 2022-01-28 15:20:36,816: hello world 1643383236.82
+[rosout][INFO] 2022-01-28 15:20:40,816: hello world 1643383240.82
+[rosout][INFO] 2022-01-28 15:20:44,816: hello world 1643383244.82
+[rosout][INFO] 2022-01-28 15:20:48,816: hello world 1643383248.82
+[rosout][INFO] 2022-01-28 15:20:52,816: hello world 1643383252.82
+[rosout][INFO] 2022-01-28 15:20:56,816: hello world 1643383256.82
+[rosout][INFO] 2022-01-28 15:21:00,816: hello world 1643383260.82
+[rosout][INFO] 2022-01-28 15:21:04,816: hello world 1643383264.82
+[rosout][INFO] 2022-01-28 15:21:08,814: hello world 1643383268.81
+[rosout][INFO] 2022-01-28 15:21:12,814: hello world 1643383272.81
+[rosout][INFO] 2022-01-28 15:21:16,813: hello world 1643383276.81
+[rosout][INFO] 2022-01-28 15:21:20,814: hello world 1643383280.81
+[rosout][INFO] 2022-01-28 15:21:24,816: hello world 1643383284.82
+[rosout][INFO] 2022-01-28 15:21:28,816: hello world 1643383288.82
+[rosout][INFO] 2022-01-28 15:21:32,816: hello world 1643383292.82
+[rosout][INFO] 2022-01-28 15:21:36,816: hello world 1643383296.82
+[rosout][INFO] 2022-01-28 15:21:40,816: hello world 1643383300.82
+[rosout][INFO] 2022-01-28 15:21:44,816: hello world 1643383304.82
+[rosout][INFO] 2022-01-28 15:21:48,814: hello world 1643383308.81
+[rosout][INFO] 2022-01-28 15:21:52,814: hello world 1643383312.81
+[rosout][INFO] 2022-01-28 15:21:56,814: hello world 1643383316.81
+[rosout][INFO] 2022-01-28 15:22:00,816: hello world 1643383320.82
+[rosout][INFO] 2022-01-28 15:22:04,815: hello world 1643383324.82
+[rosout][INFO] 2022-01-28 15:22:08,817: hello world 1643383328.82
+[rosout][INFO] 2022-01-28 15:22:12,816: hello world 1643383332.82
+[rosout][INFO] 2022-01-28 15:22:16,815: hello world 1643383336.82
+[rosout][INFO] 2022-01-28 15:22:20,813: hello world 1643383340.81
+[rosout][INFO] 2022-01-28 15:22:24,813: hello world 1643383344.81
+[rosout][INFO] 2022-01-28 15:22:28,816: hello world 1643383348.82
+[rosout][INFO] 2022-01-28 15:22:32,813: hello world 1643383352.81
+[rosout][INFO] 2022-01-28 15:22:36,813: hello world 1643383356.81
+[rosout][INFO] 2022-01-28 15:22:40,813: hello world 1643383360.81
+[rosout][INFO] 2022-01-28 15:22:44,814: hello world 1643383364.81
+[rosout][INFO] 2022-01-28 15:22:48,815: hello world 1643383368.82
+[rosout][INFO] 2022-01-28 15:22:52,813: hello world 1643383372.81
+[rosout][INFO] 2022-01-28 15:22:56,813: hello world 1643383376.81
+[rosout][INFO] 2022-01-28 15:23:00,813: hello world 1643383380.81
+[rospy.internal][INFO] 2022-01-28 15:23:03,181: topic[/chatter] removing connection to /rostopic_31950_1643383095548
+[rosout][INFO] 2022-01-28 15:23:04,813: hello world 1643383384.81
+[rosout][INFO] 2022-01-28 15:23:08,816: hello world 1643383388.82
+[rosout][INFO] 2022-01-28 15:23:12,813: hello world 1643383392.81
+[rosout][INFO] 2022-01-28 15:23:16,813: hello world 1643383396.81
+[rosout][INFO] 2022-01-28 15:23:20,816: hello world 1643383400.82
+[rosout][INFO] 2022-01-28 15:23:24,813: hello world 1643383404.81
+[rosout][INFO] 2022-01-28 15:23:28,816: hello world 1643383408.82
+[rosout][INFO] 2022-01-28 15:23:32,816: hello world 1643383412.82
+[rosout][INFO] 2022-01-28 15:23:36,813: hello world 1643383416.81
+[rosout][INFO] 2022-01-28 15:23:40,815: hello world 1643383420.82
+[rosout][INFO] 2022-01-28 15:23:44,813: hello world 1643383424.81
+[rosout][INFO] 2022-01-28 15:23:48,813: hello world 1643383428.81
+[rosout][INFO] 2022-01-28 15:23:52,816: hello world 1643383432.82
+[rosout][INFO] 2022-01-28 15:23:56,815: hello world 1643383436.82
+[rosout][INFO] 2022-01-28 15:24:00,815: hello world 1643383440.82
+[rosout][INFO] 2022-01-28 15:24:04,816: hello world 1643383444.82
+[rosout][INFO] 2022-01-28 15:24:08,813: hello world 1643383448.81
+[rosout][INFO] 2022-01-28 15:24:12,813: hello world 1643383452.81
+[rosout][INFO] 2022-01-28 15:24:16,816: hello world 1643383456.82
+[rosout][INFO] 2022-01-28 15:24:20,816: hello world 1643383460.82
+[rosout][INFO] 2022-01-28 15:24:24,813: hello world 1643383464.81
+[rosout][INFO] 2022-01-28 15:24:28,814: hello world 1643383468.81
+[rosout][INFO] 2022-01-28 15:24:32,813: hello world 1643383472.81
+[rosout][INFO] 2022-01-28 15:24:36,813: hello world 1643383476.81
+[rosout][INFO] 2022-01-28 15:24:40,816: hello world 1643383480.82
+[rosout][INFO] 2022-01-28 15:24:44,816: hello world 1643383484.82
+[rosout][INFO] 2022-01-28 15:24:48,816: hello world 1643383488.82
+[rosout][INFO] 2022-01-28 15:24:52,816: hello world 1643383492.82
+[rosout][INFO] 2022-01-28 15:24:56,816: hello world 1643383496.82
+[rosout][INFO] 2022-01-28 15:25:00,816: hello world 1643383500.82
+[rosout][INFO] 2022-01-28 15:25:04,812: hello world 1643383504.81
+[rosout][INFO] 2022-01-28 15:25:08,813: hello world 1643383508.81
+[rosout][INFO] 2022-01-28 15:25:12,816: hello world 1643383512.82
+[rosout][INFO] 2022-01-28 15:25:16,814: hello world 1643383516.81
+[rosout][INFO] 2022-01-28 15:25:20,813: hello world 1643383520.81
+[rosout][INFO] 2022-01-28 15:25:24,813: hello world 1643383524.81
+[rosout][INFO] 2022-01-28 15:25:28,813: hello world 1643383528.81
+[rosout][INFO] 2022-01-28 15:25:32,816: hello world 1643383532.82
+[rosout][INFO] 2022-01-28 15:25:36,813: hello world 1643383536.81
+[rosout][INFO] 2022-01-28 15:25:40,812: hello world 1643383540.81
+[rosout][INFO] 2022-01-28 15:25:44,815: hello world 1643383544.82
+[rosout][INFO] 2022-01-28 15:25:48,814: hello world 1643383548.81
+[rosout][INFO] 2022-01-28 15:25:52,813: hello world 1643383552.81
+[rosout][INFO] 2022-01-28 15:25:56,813: hello world 1643383556.81
+[rosout][INFO] 2022-01-28 15:26:00,814: hello world 1643383560.81
+[rosout][INFO] 2022-01-28 15:26:04,816: hello world 1643383564.82
+[rosout][INFO] 2022-01-28 15:26:08,813: hello world 1643383568.81
+[rosout][INFO] 2022-01-28 15:26:12,816: hello world 1643383572.82
+[rosout][INFO] 2022-01-28 15:26:16,816: hello world 1643383576.82
+[rosout][INFO] 2022-01-28 15:26:20,816: hello world 1643383580.82
+[rosout][INFO] 2022-01-28 15:26:24,816: hello world 1643383584.82
+[rosout][INFO] 2022-01-28 15:26:28,816: hello world 1643383588.82
+[rosout][INFO] 2022-01-28 15:26:32,813: hello world 1643383592.81
+[rosout][INFO] 2022-01-28 15:26:36,816: hello world 1643383596.82
+[rosout][INFO] 2022-01-28 15:26:40,813: hello world 1643383600.81
+[rosout][INFO] 2022-01-28 15:26:44,816: hello world 1643383604.82
+[rosout][INFO] 2022-01-28 15:26:48,816: hello world 1643383608.82
+[rosout][INFO] 2022-01-28 15:26:52,813: hello world 1643383612.81
+[rosout][INFO] 2022-01-28 15:26:56,816: hello world 1643383616.82
+[rosout][INFO] 2022-01-28 15:27:00,813: hello world 1643383620.81
+[rosout][INFO] 2022-01-28 15:27:04,815: hello world 1643383624.82
+[rosout][INFO] 2022-01-28 15:27:08,816: hello world 1643383628.82
+[rosout][INFO] 2022-01-28 15:27:12,814: hello world 1643383632.81
+[rosout][INFO] 2022-01-28 15:27:16,813: hello world 1643383636.81
+[rosout][INFO] 2022-01-28 15:27:20,816: hello world 1643383640.82
+[rosout][INFO] 2022-01-28 15:27:24,816: hello world 1643383644.82
+[rosout][INFO] 2022-01-28 15:27:28,815: hello world 1643383648.82
+[rosout][INFO] 2022-01-28 15:27:32,816: hello world 1643383652.82
+[rosout][INFO] 2022-01-28 15:27:36,816: hello world 1643383656.82
+[rosout][INFO] 2022-01-28 15:27:40,813: hello world 1643383660.81
+[rosout][INFO] 2022-01-28 15:27:44,816: hello world 1643383664.82
+[rosout][INFO] 2022-01-28 15:27:48,813: hello world 1643383668.81
+[rosout][INFO] 2022-01-28 15:27:52,813: hello world 1643383672.81
+[rosout][INFO] 2022-01-28 15:27:56,816: hello world 1643383676.82
+[rosout][INFO] 2022-01-28 15:28:00,813: hello world 1643383680.81
+[rosout][INFO] 2022-01-28 15:28:04,816: hello world 1643383684.82
+[rosout][INFO] 2022-01-28 15:28:08,816: hello world 1643383688.82
+[rosout][INFO] 2022-01-28 15:28:12,814: hello world 1643383692.81
+[rosout][INFO] 2022-01-28 15:28:16,814: hello world 1643383696.81
+[rosout][INFO] 2022-01-28 15:28:20,813: hello world 1643383700.81
+[rosout][INFO] 2022-01-28 15:28:24,814: hello world 1643383704.81
+[rosout][INFO] 2022-01-28 15:28:28,816: hello world 1643383708.82
+[rosout][INFO] 2022-01-28 15:28:32,816: hello world 1643383712.82
+[rosout][INFO] 2022-01-28 15:28:36,815: hello world 1643383716.82
+[rosout][INFO] 2022-01-28 15:28:40,816: hello world 1643383720.82
+[rosout][INFO] 2022-01-28 15:28:44,816: hello world 1643383724.82
+[rosout][INFO] 2022-01-28 15:28:48,813: hello world 1643383728.81
+[rosout][INFO] 2022-01-28 15:28:52,813: hello world 1643383732.81
+[rosout][INFO] 2022-01-28 15:28:56,816: hello world 1643383736.82
+[rosout][INFO] 2022-01-28 15:29:00,813: hello world 1643383740.81
+[rosout][INFO] 2022-01-28 15:29:04,818: hello world 1643383744.82
+[rosout][INFO] 2022-01-28 15:29:08,816: hello world 1643383748.82
+[rosout][INFO] 2022-01-28 15:29:12,816: hello world 1643383752.82
+[rosout][INFO] 2022-01-28 15:29:16,816: hello world 1643383756.82
+[rosout][INFO] 2022-01-28 15:29:20,816: hello world 1643383760.82
+[rosout][INFO] 2022-01-28 15:29:24,813: hello world 1643383764.81
+[rosout][INFO] 2022-01-28 15:29:28,816: hello world 1643383768.82
+[rosout][INFO] 2022-01-28 15:29:32,816: hello world 1643383772.82
+[rosout][INFO] 2022-01-28 15:29:36,813: hello world 1643383776.81
+[rosout][INFO] 2022-01-28 15:29:40,816: hello world 1643383780.82
+[rosout][INFO] 2022-01-28 15:29:44,814: hello world 1643383784.81
+[rosout][INFO] 2022-01-28 15:29:48,815: hello world 1643383788.82
+[rosout][INFO] 2022-01-28 15:29:52,814: hello world 1643383792.81
+[rosout][INFO] 2022-01-28 15:29:56,813: hello world 1643383796.81
+[rosout][INFO] 2022-01-28 15:30:00,816: hello world 1643383800.82
+[rosout][INFO] 2022-01-28 15:30:04,816: hello world 1643383804.82
+[rosout][INFO] 2022-01-28 15:30:08,815: hello world 1643383808.82
+[rosout][INFO] 2022-01-28 15:30:12,813: hello world 1643383812.81
+[rosout][INFO] 2022-01-28 15:30:16,813: hello world 1643383816.81
+[rosout][INFO] 2022-01-28 15:30:20,814: hello world 1643383820.81
+[rosout][INFO] 2022-01-28 15:30:24,816: hello world 1643383824.82
+[rosout][INFO] 2022-01-28 15:30:28,816: hello world 1643383828.82
+[rosout][INFO] 2022-01-28 15:30:32,813: hello world 1643383832.81
+[rosout][INFO] 2022-01-28 15:30:36,816: hello world 1643383836.82
+[rosout][INFO] 2022-01-28 15:30:40,814: hello world 1643383840.81
+[rosout][INFO] 2022-01-28 15:30:44,814: hello world 1643383844.81
+[rosout][INFO] 2022-01-28 15:30:48,813: hello world 1643383848.81
+[rosout][INFO] 2022-01-28 15:30:52,816: hello world 1643383852.82
+[rosout][INFO] 2022-01-28 15:30:56,816: hello world 1643383856.82
+[rosout][INFO] 2022-01-28 15:31:00,813: hello world 1643383860.81
+[rosout][INFO] 2022-01-28 15:31:04,813: hello world 1643383864.81
+[rosout][INFO] 2022-01-28 15:31:08,816: hello world 1643383868.82
+[rosout][INFO] 2022-01-28 15:31:12,815: hello world 1643383872.81
+[rosout][INFO] 2022-01-28 15:31:16,813: hello world 1643383876.81
+[rosout][INFO] 2022-01-28 15:31:20,813: hello world 1643383880.81
+[rosout][INFO] 2022-01-28 15:31:24,814: hello world 1643383884.81
+[rosout][INFO] 2022-01-28 15:31:28,812: hello world 1643383888.81
+[rosout][INFO] 2022-01-28 15:31:32,815: hello world 1643383892.82
+[rosout][INFO] 2022-01-28 15:31:36,816: hello world 1643383896.82
+[rosout][INFO] 2022-01-28 15:31:40,813: hello world 1643383900.81
+[rosout][INFO] 2022-01-28 15:31:44,816: hello world 1643383904.82
+[rosout][INFO] 2022-01-28 15:31:48,816: hello world 1643383908.82
+[rosout][INFO] 2022-01-28 15:31:52,812: hello world 1643383912.81
+[rosout][INFO] 2022-01-28 15:31:56,813: hello world 1643383916.81
+[rosout][INFO] 2022-01-28 15:32:00,813: hello world 1643383920.81
+[rosout][INFO] 2022-01-28 15:32:04,814: hello world 1643383924.81
+[rosout][INFO] 2022-01-28 15:32:08,815: hello world 1643383928.82
+[rosout][INFO] 2022-01-28 15:32:12,816: hello world 1643383932.82
+[rosout][INFO] 2022-01-28 15:32:16,814: hello world 1643383936.81
+[rosout][INFO] 2022-01-28 15:32:20,813: hello world 1643383940.81
+[rosout][INFO] 2022-01-28 15:32:24,816: hello world 1643383944.82
+[rosout][INFO] 2022-01-28 15:32:28,813: hello world 1643383948.81
+[rosout][INFO] 2022-01-28 15:32:32,814: hello world 1643383952.81
+[rosout][INFO] 2022-01-28 15:32:36,814: hello world 1643383956.81
+[rosout][INFO] 2022-01-28 15:32:40,816: hello world 1643383960.82
+[rosout][INFO] 2022-01-28 15:32:44,814: hello world 1643383964.81
+[rosout][INFO] 2022-01-28 15:32:48,813: hello world 1643383968.81
+[rosout][INFO] 2022-01-28 15:32:52,814: hello world 1643383972.81
+[rosout][INFO] 2022-01-28 15:32:56,816: hello world 1643383976.82
+[rosout][INFO] 2022-01-28 15:33:00,814: hello world 1643383980.81
+[rosout][INFO] 2022-01-28 15:33:04,813: hello world 1643383984.81
+[rosout][INFO] 2022-01-28 15:33:08,816: hello world 1643383988.82
+[rosout][INFO] 2022-01-28 15:33:12,813: hello world 1643383992.81
+[rosout][INFO] 2022-01-28 15:33:16,813: hello world 1643383996.81
+[rosout][INFO] 2022-01-28 15:33:20,814: hello world 1643384000.81
+[rosout][INFO] 2022-01-28 15:33:24,812: hello world 1643384004.81
+[rosout][INFO] 2022-01-28 15:33:28,816: hello world 1643384008.82
+[rosout][INFO] 2022-01-28 15:33:32,813: hello world 1643384012.81
+[rosout][INFO] 2022-01-28 15:33:36,816: hello world 1643384016.82
+[rosout][INFO] 2022-01-28 15:33:40,813: hello world 1643384020.81
+[rosout][INFO] 2022-01-28 15:33:44,814: hello world 1643384024.81
+[rosout][INFO] 2022-01-28 15:33:48,813: hello world 1643384028.81
+[rosout][INFO] 2022-01-28 15:33:52,813: hello world 1643384032.81
+[rosout][INFO] 2022-01-28 15:33:56,816: hello world 1643384036.82
+[rosout][INFO] 2022-01-28 15:34:00,816: hello world 1643384040.82
+[rosout][INFO] 2022-01-28 15:34:04,816: hello world 1643384044.82
+[rosout][INFO] 2022-01-28 15:34:08,816: hello world 1643384048.82
+[rosout][INFO] 2022-01-28 15:34:12,816: hello world 1643384052.82
+[rosout][INFO] 2022-01-28 15:34:16,815: hello world 1643384056.82
+[rosout][INFO] 2022-01-28 15:34:20,815: hello world 1643384060.81
+[rosout][INFO] 2022-01-28 15:34:24,813: hello world 1643384064.81
+[rosout][INFO] 2022-01-28 15:34:28,814: hello world 1643384068.81
+[rosout][INFO] 2022-01-28 15:34:32,816: hello world 1643384072.82
+[rosout][INFO] 2022-01-28 15:34:36,816: hello world 1643384076.82
+[rosout][INFO] 2022-01-28 15:34:40,813: hello world 1643384080.81
+[rosout][INFO] 2022-01-28 15:34:44,812: hello world 1643384084.81
+[rosout][INFO] 2022-01-28 15:34:48,815: hello world 1643384088.81
+[rosout][INFO] 2022-01-28 15:34:52,813: hello world 1643384092.81
+[rosout][INFO] 2022-01-28 15:34:56,813: hello world 1643384096.81
+[rosout][INFO] 2022-01-28 15:35:00,813: hello world 1643384100.81
+[rosout][INFO] 2022-01-28 15:35:04,813: hello world 1643384104.81
+[rosout][INFO] 2022-01-28 15:35:08,813: hello world 1643384108.81
+[rosout][INFO] 2022-01-28 15:35:12,815: hello world 1643384112.81
+[rosout][INFO] 2022-01-28 15:35:16,813: hello world 1643384116.81
+[rosout][INFO] 2022-01-28 15:35:20,813: hello world 1643384120.81
+[rosout][INFO] 2022-01-28 15:35:24,816: hello world 1643384124.82
+[rosout][INFO] 2022-01-28 15:35:28,816: hello world 1643384128.82
+[rosout][INFO] 2022-01-28 15:35:32,815: hello world 1643384132.81
+[rosout][INFO] 2022-01-28 15:35:36,814: hello world 1643384136.81
+[rosout][INFO] 2022-01-28 15:35:40,816: hello world 1643384140.82
+[rosout][INFO] 2022-01-28 15:35:44,813: hello world 1643384144.81
+[rosout][INFO] 2022-01-28 15:35:48,814: hello world 1643384148.81
+[rosout][INFO] 2022-01-28 15:35:52,815: hello world 1643384152.82
+[rosout][INFO] 2022-01-28 15:35:56,813: hello world 1643384156.81
+[rosout][INFO] 2022-01-28 15:36:00,813: hello world 1643384160.81
+[rosout][INFO] 2022-01-28 15:36:04,813: hello world 1643384164.81
+[rosout][INFO] 2022-01-28 15:36:08,814: hello world 1643384168.81
+[rosout][INFO] 2022-01-28 15:36:12,813: hello world 1643384172.81
+[rosout][INFO] 2022-01-28 15:36:16,815: hello world 1643384176.82
+[rosout][INFO] 2022-01-28 15:36:20,813: hello world 1643384180.81
+[rosout][INFO] 2022-01-28 15:36:24,813: hello world 1643384184.81
+[rosout][INFO] 2022-01-28 15:36:28,813: hello world 1643384188.81
+[rosout][INFO] 2022-01-28 15:36:32,815: hello world 1643384192.82
+[rosout][INFO] 2022-01-28 15:36:36,813: hello world 1643384196.81
+[rosout][INFO] 2022-01-28 15:36:40,816: hello world 1643384200.82
+[rosout][INFO] 2022-01-28 15:36:44,813: hello world 1643384204.81
+[rosout][INFO] 2022-01-28 15:36:48,816: hello world 1643384208.82
+[rosout][INFO] 2022-01-28 15:36:52,815: hello world 1643384212.81
+[rosout][INFO] 2022-01-28 15:36:56,815: hello world 1643384216.82
+[rosout][INFO] 2022-01-28 15:37:00,816: hello world 1643384220.82
+[rosout][INFO] 2022-01-28 15:37:04,816: hello world 1643384224.82
+[rosout][INFO] 2022-01-28 15:37:08,816: hello world 1643384228.82
+[rosout][INFO] 2022-01-28 15:37:12,813: hello world 1643384232.81
+[rosout][INFO] 2022-01-28 15:37:16,813: hello world 1643384236.81
+[rosout][INFO] 2022-01-28 15:37:20,813: hello world 1643384240.81
+[rosout][INFO] 2022-01-28 15:37:24,816: hello world 1643384244.82
+[rosout][INFO] 2022-01-28 15:37:28,816: hello world 1643384248.82
+[rosout][INFO] 2022-01-28 15:37:32,813: hello world 1643384252.81
+[rosout][INFO] 2022-01-28 15:37:36,813: hello world 1643384256.81
+[rosout][INFO] 2022-01-28 15:37:40,816: hello world 1643384260.82
+[rosout][INFO] 2022-01-28 15:37:44,816: hello world 1643384264.82
+[rosout][INFO] 2022-01-28 15:37:48,816: hello world 1643384268.82
+[rosout][INFO] 2022-01-28 15:37:52,813: hello world 1643384272.81
+[rosout][INFO] 2022-01-28 15:37:56,813: hello world 1643384276.81
+[rosout][INFO] 2022-01-28 15:38:00,812: hello world 1643384280.81
+[rosout][INFO] 2022-01-28 15:38:04,814: hello world 1643384284.81
+[rosout][INFO] 2022-01-28 15:38:08,816: hello world 1643384288.82
+[rosout][INFO] 2022-01-28 15:38:12,816: hello world 1643384292.82
+[rosout][INFO] 2022-01-28 15:38:16,814: hello world 1643384296.81
+[rosout][INFO] 2022-01-28 15:38:20,814: hello world 1643384300.81
+[rosout][INFO] 2022-01-28 15:38:24,816: hello world 1643384304.82
+[rosout][INFO] 2022-01-28 15:38:28,813: hello world 1643384308.81
+[rosout][INFO] 2022-01-28 15:38:32,813: hello world 1643384312.81
+[rosout][INFO] 2022-01-28 15:38:36,813: hello world 1643384316.81
+[rosout][INFO] 2022-01-28 15:38:40,813: hello world 1643384320.81
+[rosout][INFO] 2022-01-28 15:38:44,815: hello world 1643384324.81
+[rosout][INFO] 2022-01-28 15:38:48,815: hello world 1643384328.81
+[rosout][INFO] 2022-01-28 15:38:52,813: hello world 1643384332.81
+[rosout][INFO] 2022-01-28 15:38:56,813: hello world 1643384336.81
+[rosout][INFO] 2022-01-28 15:39:00,816: hello world 1643384340.82
+[rosout][INFO] 2022-01-28 15:39:04,814: hello world 1643384344.81
+[rosout][INFO] 2022-01-28 15:39:08,816: hello world 1643384348.82
+[rosout][INFO] 2022-01-28 15:39:12,814: hello world 1643384352.81
+[rosout][INFO] 2022-01-28 15:39:16,813: hello world 1643384356.81
+[rosout][INFO] 2022-01-28 15:39:20,818: hello world 1643384360.82
+[rosout][INFO] 2022-01-28 15:39:24,814: hello world 1643384364.81
+[rosout][INFO] 2022-01-28 15:39:28,813: hello world 1643384368.81
+[rosout][INFO] 2022-01-28 15:39:32,816: hello world 1643384372.82
+[rosout][INFO] 2022-01-28 15:39:36,813: hello world 1643384376.81
+[rosout][INFO] 2022-01-28 15:39:40,815: hello world 1643384380.82
+[rosout][INFO] 2022-01-28 15:39:44,814: hello world 1643384384.81
+[rosout][INFO] 2022-01-28 15:39:48,814: hello world 1643384388.81
+[rosout][INFO] 2022-01-28 15:39:52,813: hello world 1643384392.81
+[rosout][INFO] 2022-01-28 15:39:56,816: hello world 1643384396.82
+[rospy.core][INFO] 2022-01-28 15:39:56,834: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-28 15:39:56,847: topic[/chatter] removing connection to /listener
+[rospy.internal][INFO] 2022-01-28 15:39:56,848: topic[/chatter] removing connection to /link_ros
+[rospy.internal][INFO] 2022-01-28 15:39:56,850: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-01-28 15:39:56,851: signal-2
+[rospy.core][INFO] 2022-01-28 15:39:57,468: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-28 16:17:17,278: init_node, name[/talker], pid[7444]
+[xmlrpc][INFO] 2022-01-28 16:17:17,280: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-28 16:17:17,281: Started XML-RPC server [http://ubuntu:33187/]
+[rospy.init][INFO] 2022-01-28 16:17:17,281: ROS Slave URI: [http://ubuntu:33187/]
+[rospy.impl.masterslave][INFO] 2022-01-28 16:17:17,282: _ready: http://ubuntu:33187/
+[rospy.registration][INFO] 2022-01-28 16:17:17,284: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-28 16:17:17,285: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-01-28 16:17:17,285: Registering publisher topic [/chatter] type [beginner_tutorials/SweeperCmdMsg] with master
+[rospy.init][INFO] 2022-01-28 16:17:17,383: registered with master
+[rospy.rosout][INFO] 2022-01-28 16:17:17,384: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-28 16:17:17,389: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-28 16:17:17,393: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-01-28 16:17:17,394: topic[/chatter] adding connection to [/link_ros], count 0
+[rosout][INFO] 2022-01-28 16:17:17,400: hello world 1643386637.4
+[rospy.topics][ERROR] 2022-01-28 16:17:17,406: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 1066, in publish
+    serialize_message(b, self.seq, message)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/msg.py", line 152, in serialize_message
+    msg.serialize(b)
+  File "/home/ubuntu/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/msg/_SweeperCmdMsg.py", line 67, in serialize
+    except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/genpy/message.py", line 392, in _check_types
+    check_type(n, t, getattr(self, n))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/genpy/message.py", line 266, in check_type
+    raise SerializationError('field %s must be unsigned integer type' % field_name)
+SerializationError: field mode must be unsigned integer type
+
+[rospy.core][INFO] 2022-01-28 16:17:17,408: signal_shutdown [atexit]
+[rospy.internal][INFO] 2022-01-28 16:17:17,418: topic[/chatter] removing connection to /link_ros
+[rospy.impl.masterslave][INFO] 2022-01-28 16:17:17,419: atexit
+[rospy.client][INFO] 2022-01-28 16:18:35,167: init_node, name[/talker], pid[8668]
+[xmlrpc][INFO] 2022-01-28 16:18:35,168: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-28 16:18:35,170: Started XML-RPC server [http://ubuntu:43705/]
+[rospy.init][INFO] 2022-01-28 16:18:35,170: ROS Slave URI: [http://ubuntu:43705/]
+[rospy.impl.masterslave][INFO] 2022-01-28 16:18:35,171: _ready: http://ubuntu:43705/
+[rospy.registration][INFO] 2022-01-28 16:18:35,173: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-28 16:18:35,174: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-01-28 16:18:35,174: Registering publisher topic [/chatter] type [beginner_tutorials/SweeperCmdMsg] with master
+[rospy.init][INFO] 2022-01-28 16:18:35,272: registered with master
+[rospy.rosout][INFO] 2022-01-28 16:18:35,272: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-28 16:18:35,277: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-28 16:18:35,280: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-01-28 16:18:35,302: topic[/chatter] adding connection to [/link_ros], count 0
+[rospy.internal][INFO] 2022-01-28 16:18:35,358: topic[/chatter] adding connection to [/listener], count 1
+[rospy.internal][INFO] 2022-01-28 16:18:35,572: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-01-28 16:18:49,354: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-28 16:18:49,365: topic[/chatter] removing connection to /link_ros
+[rospy.internal][INFO] 2022-01-28 16:18:49,367: topic[/chatter] removing connection to /listener
+[rospy.internal][INFO] 2022-01-28 16:18:49,369: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-01-28 16:18:49,372: signal-2
+[rospy.core][INFO] 2022-01-28 16:18:49,990: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-28 16:19:17,358: init_node, name[/talker], pid[9374]
+[xmlrpc][INFO] 2022-01-28 16:19:17,359: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-28 16:19:17,360: Started XML-RPC server [http://ubuntu:42405/]
+[rospy.init][INFO] 2022-01-28 16:19:17,361: ROS Slave URI: [http://ubuntu:42405/]
+[rospy.impl.masterslave][INFO] 2022-01-28 16:19:17,362: _ready: http://ubuntu:42405/
+[rospy.registration][INFO] 2022-01-28 16:19:17,364: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-28 16:19:17,365: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-01-28 16:19:17,365: Registering publisher topic [/chatter] type [beginner_tutorials/SweeperCmdMsg] with master
+[rospy.init][INFO] 2022-01-28 16:19:17,462: registered with master
+[rospy.rosout][INFO] 2022-01-28 16:19:17,463: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-28 16:19:17,467: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-28 16:19:17,471: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-01-28 16:19:17,513: topic[/chatter] adding connection to [/link_ros], count 0
+[rospy.internal][INFO] 2022-01-28 16:19:17,586: topic[/chatter] adding connection to [/listener], count 1
+[rospy.internal][INFO] 2022-01-28 16:19:17,681: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-01-28 16:22:18,003: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-28 16:22:18,013: topic[/chatter] removing connection to /link_ros
+[rospy.internal][INFO] 2022-01-28 16:22:18,014: topic[/chatter] removing connection to /listener
+[rospy.internal][INFO] 2022-01-28 16:22:18,015: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-01-28 16:22:18,016: signal-2
+[rospy.core][INFO] 2022-01-28 16:22:18,633: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-28 16:23:04,916: init_node, name[/talker], pid[12166]
+[xmlrpc][INFO] 2022-01-28 16:23:04,917: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-28 16:23:04,918: Started XML-RPC server [http://ubuntu:38437/]
+[rospy.init][INFO] 2022-01-28 16:23:04,919: ROS Slave URI: [http://ubuntu:38437/]
+[rospy.impl.masterslave][INFO] 2022-01-28 16:23:04,919: _ready: http://ubuntu:38437/
+[rospy.registration][INFO] 2022-01-28 16:23:04,922: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-28 16:23:04,922: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-01-28 16:23:04,923: Registering publisher topic [/chatter] type [beginner_tutorials/SweeperCmdMsg] with master
+[rospy.internal][INFO] 2022-01-28 16:23:04,974: topic[/chatter] adding connection to [/link_ros], count 0
+[rospy.init][INFO] 2022-01-28 16:23:05,020: registered with master
+[rospy.rosout][INFO] 2022-01-28 16:23:05,021: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-28 16:23:05,024: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-28 16:23:05,027: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.topics][ERROR] 2022-01-28 16:23:05,035: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 1066, in publish
+    serialize_message(b, self.seq, message)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/msg.py", line 152, in serialize_message
+    msg.serialize(b)
+  File "/home/ubuntu/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/msg/_SweeperCmdMsg.py", line 67, in serialize
+    except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/genpy/message.py", line 392, in _check_types
+    check_type(n, t, getattr(self, n))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/genpy/message.py", line 266, in check_type
+    raise SerializationError('field %s must be unsigned integer type' % field_name)
+SerializationError: field mode must be unsigned integer type
+
+[rospy.core][INFO] 2022-01-28 16:23:05,036: signal_shutdown [atexit]
+[rospy.internal][INFO] 2022-01-28 16:23:05,043: topic[/chatter] removing connection to /link_ros
+[rospy.impl.masterslave][INFO] 2022-01-28 16:23:05,045: atexit
+[rospy.client][INFO] 2022-01-28 16:24:33,674: init_node, name[/talker], pid[13284]
+[xmlrpc][INFO] 2022-01-28 16:24:33,685: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-28 16:24:33,689: Started XML-RPC server [http://ubuntu:38667/]
+[rospy.impl.masterslave][INFO] 2022-01-28 16:24:33,690: _ready: http://ubuntu:38667/
+[rospy.init][INFO] 2022-01-28 16:24:33,691: ROS Slave URI: [http://ubuntu:38667/]
+[xmlrpc][INFO] 2022-01-28 16:24:33,692: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-01-28 16:24:33,694: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2022-01-28 16:24:33,695: Registering publisher topic [/chatter] type [beginner_tutorials/SweeperCmdMsg] with master
+[rospy.init][INFO] 2022-01-28 16:24:33,792: registered with master
+[rospy.rosout][INFO] 2022-01-28 16:24:33,793: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-28 16:24:33,802: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-28 16:24:33,806: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-01-28 16:24:33,824: topic[/chatter] adding connection to [/link_ros], count 0
+[rospy.internal][INFO] 2022-01-28 16:24:33,828: topic[/chatter] adding connection to [/listener], count 1
+[rospy.internal][INFO] 2022-01-28 16:24:33,993: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-28 16:26:36,189: topic[/chatter] adding connection to [/rostopic_14984_1643387195925], count 2
+[rospy.internal][INFO] 2022-01-28 16:27:57,854: topic[/chatter] removing connection to /rostopic_14984_1643387195925
+[rospy.core][INFO] 2022-01-28 16:27:59,517: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-28 16:27:59,530: topic[/chatter] removing connection to /link_ros
+[rospy.internal][INFO] 2022-01-28 16:27:59,531: topic[/chatter] removing connection to /listener
+[rospy.internal][INFO] 2022-01-28 16:27:59,532: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-01-28 16:27:59,533: signal-2
+[rospy.core][INFO] 2022-01-28 16:28:00,149: signal_shutdown [atexit]

@@ -1,0 +1,93 @@
+[rospy.client][INFO] 2022-01-28 16:26:35,990: init_node, name[/rostopic_14984_1643387195925], pid[14984]
+[xmlrpc][INFO] 2022-01-28 16:26:35,991: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-28 16:26:35,993: Started XML-RPC server [http://ubuntu:42155/]
+[rospy.init][INFO] 2022-01-28 16:26:35,994: ROS Slave URI: [http://ubuntu:42155/]
+[rospy.impl.masterslave][INFO] 2022-01-28 16:26:35,996: _ready: http://ubuntu:42155/
+[xmlrpc][INFO] 2022-01-28 16:26:35,998: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-01-28 16:26:35,998: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-01-28 16:26:36,097: registered with master
+[rospy.rosout][INFO] 2022-01-28 16:26:36,098: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-28 16:26:36,105: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-28 16:26:36,109: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-01-28 16:26:36,180: topic[/chatter] adding connection to [http://ubuntu:36843/], count 0
+[rospy.internal][INFO] 2022-01-28 16:26:36,180: topic[/chatter] adding connection to [http://ubuntu:38667/], count 0
+[rospy.internal][ERROR] 2022-01-28 16:26:36,189: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.internal][ERROR] 2022-01-28 16:26:36,189: unable to create subscriber transport: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String].  Will try again in 0.5s
+[rospy.internal][INFO] 2022-01-28 16:26:36,356: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][ERROR] 2022-01-28 16:26:37,199: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.internal][ERROR] 2022-01-28 16:26:38,203: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.internal][ERROR] 2022-01-28 16:26:40,210: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.internal][ERROR] 2022-01-28 16:26:44,216: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.internal][ERROR] 2022-01-28 16:26:52,221: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.internal][ERROR] 2022-01-28 16:27:08,240: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.internal][ERROR] 2022-01-28 16:27:40,280: Unable to initiate TCP/IP socket to ubuntu:45829 (http://ubuntu:36843/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]
+
+[rospy.core][INFO] 2022-01-28 16:27:57,414: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-28 16:27:57,423: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-28 16:27:57,425: topic[/chatter] removing connection to http://ubuntu:36843/
+[rospy.internal][INFO] 2022-01-28 16:27:57,426: topic[/chatter] removing connection to http://ubuntu:38667/
+[rospy.impl.masterslave][INFO] 2022-01-28 16:27:57,428: signal-2
+[rospy.core][INFO] 2022-01-28 16:27:57,561: signal_shutdown [atexit]

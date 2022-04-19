@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+a60e08f52dde5657e79604b4ef8da810 CMakeFiles/foo_mem-ext
+98b22848f9be8181df37a9ab453f1a1a CMakeFiles/foo_mem-ext-complete
+d2e9395d675cbd984f0ed880e1d116f6 CMakeFiles/foonathan_memory_vendor_uninstall
+2e8b308da8259eecb653c0417b09e66e foo_mem-ext-prefix/src/foo_mem-ext-stamp/foo_mem-ext-build
+ed4a53507820f522ca0dbb55f86f5ca1 foo_mem-ext-prefix/src/foo_mem-ext-stamp/foo_mem-ext-configure
+2ec572bcfaf8dd3cb10909ca4a2d2c67 foo_mem-ext-prefix/src/foo_mem-ext-stamp/foo_mem-ext-download
+7a3d0db9e1934b6174309cd31bd28825 foo_mem-ext-prefix/src/foo_mem-ext-stamp/foo_mem-ext-install
+ffad4691ee63357f49f58ff659e123de foo_mem-ext-prefix/src/foo_mem-ext-stamp/foo_mem-ext-mkdir
+4a543fa72785cf54b799b05ff6b79d18 foo_mem-ext-prefix/src/foo_mem-ext-stamp/foo_mem-ext-patch
+0dbc0e363f2c2bcefa1e8ce458ccd189 foo_mem-ext-prefix/src/foo_mem-ext-stamp/foo_mem-ext-update

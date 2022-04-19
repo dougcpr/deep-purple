@@ -1,0 +1,27 @@
+[6.106s] Invoking command in '/home/ubuntu/ros2_foxy/build/rpyutils': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_xmllint:/home/ubuntu/ros2_foxy/install/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_lint PATH=/home/ubuntu/ros2_foxy/install/ament_xmllint/bin:/home/ubuntu/ros2_foxy/install/ament_copyright/bin:/home/ubuntu/ros2_foxy/install/ament_pep257/bin:/home/ubuntu/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_foxy/install/rpyutils/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_xmllint:/home/ubuntu/ros2_foxy/install/ament_xmllint/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_copyright/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_pep257/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_flake8/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint:/home/ubuntu/ros2_foxy/install/ament_lint/lib/python3.6/site-packages /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/rpyutils --editable --build-directory /home/ubuntu/ros2_foxy/build/rpyutils/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/rpyutils
+[8.393s] running develop
+[8.396s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.397s]   EasyInstallDeprecationWarning,
+[8.403s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.404s]   setuptools.SetuptoolsDeprecationWarning,
+[8.814s] /home/ubuntu/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[8.816s]   PkgResourcesDeprecationWarning,
+[9.467s] running egg_info
+[9.468s] creating rpyutils.egg-info
+[9.468s] writing rpyutils.egg-info/PKG-INFO
+[9.469s] writing dependency_links to rpyutils.egg-info/dependency_links.txt
+[9.470s] writing top-level names to rpyutils.egg-info/top_level.txt
+[9.479s] writing manifest file 'rpyutils.egg-info/SOURCES.txt'
+[9.486s] reading manifest file 'rpyutils.egg-info/SOURCES.txt'
+[9.490s] writing manifest file 'rpyutils.egg-info/SOURCES.txt'
+[9.498s] running build_ext
+[9.499s] Creating /home/ubuntu/ros2_foxy/install/rpyutils/lib/python3.6/site-packages/rpyutils.egg-link (link to .)
+[9.503s] 
+[9.504s] Installed /home/ubuntu/ros2_foxy/build/rpyutils
+[9.505s] running install_data
+[9.506s] copying package.xml -> /home/ubuntu/ros2_foxy/install/rpyutils/share/rpyutils
+[9.506s] creating /home/ubuntu/ros2_foxy/install/rpyutils/share/ament_index
+[9.507s] creating /home/ubuntu/ros2_foxy/install/rpyutils/share/ament_index/resource_index
+[9.508s] creating /home/ubuntu/ros2_foxy/install/rpyutils/share/ament_index/resource_index/packages
+[9.509s] copying resource/rpyutils -> /home/ubuntu/ros2_foxy/install/rpyutils/share/ament_index/resource_index/packages
+[9.625s] Invoked command in '/home/ubuntu/ros2_foxy/build/rpyutils' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_xmllint:/home/ubuntu/ros2_foxy/install/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_lint PATH=/home/ubuntu/ros2_foxy/install/ament_xmllint/bin:/home/ubuntu/ros2_foxy/install/ament_copyright/bin:/home/ubuntu/ros2_foxy/install/ament_pep257/bin:/home/ubuntu/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_foxy/install/rpyutils/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_xmllint:/home/ubuntu/ros2_foxy/install/ament_xmllint/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_copyright/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_pep257/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_flake8/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint:/home/ubuntu/ros2_foxy/install/ament_lint/lib/python3.6/site-packages /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/rpyutils --editable --build-directory /home/ubuntu/ros2_foxy/build/rpyutils/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/rpyutils

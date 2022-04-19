@@ -1,0 +1,103 @@
+{
+    "code": "FRA_LINK_BASE_GENERIC", 
+    "logs": [
+        "topic type: beginner_tutorials/SweeperCmdMsg", 
+        "Traceback (most recent call last):", 
+        "", 
+        "  File \"freedomrobotics/link_ros_common.py\", line 206, in freedomrobotics.link_ros_common.LinkROSCommon._topic_subscriber_callback", 
+        "", 
+        "  File \"freedomrobotics/link_ros_base.py\", line 259, in freedomrobotics.link_ros_base.LinkROSBase.deserialize_ros_message", 
+        "", 
+        "  File \"/home/ubuntu/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/msg/_SweeperCmdMsg.py\", line 84, in deserialize", 
+        "    raise genpy.DeserializationError(e)  # most likely buffer underfill", 
+        "", 
+        "DeserializationError: unpack requires a string argument of length 1", 
+        ""
+    ], 
+    "level": "fatal", 
+    "errorMessage": "/sweeper_cmd_bt topic has been quarantined as an error happened while uploading it.", 
+    "component": "agent", 
+    "attributes": {
+        "python": {
+            "implementation": "CPython", 
+            "version": "2.7.17", 
+            "build": [
+                "default", 
+                "Feb 27 2021 15:10:58"
+            ]
+        }, 
+        "thread": {
+            "daemon": true, 
+            "name": "/sweeper_cmd_bt"
+        }, 
+        "geo": {
+            "city": "San Francisco", 
+            "zip": "94103", 
+            "countryCode": "US", 
+            "country": "United States", 
+            "region": "CA", 
+            "isp": "Another Corporate ISP", 
+            "lon": -122.406, 
+            "as": "AS32329 Another Corporate ISP, LLC", 
+            "query": "199.241.200.231", 
+            "org": "MonkeyBrains", 
+            "lat": 37.7771, 
+            "timezone": "America/Los_Angeles", 
+            "regionName": "California"
+        }, 
+        "system": {
+            "linux_dist": [
+                "Ubuntu", 
+                "18.04", 
+                "bionic"
+            ], 
+            "ip": "199.241.200.231", 
+            "user": "ubuntu", 
+            "arch": "Unknown: aarch64", 
+            "service": "systemd", 
+            "hostname": "ubuntu", 
+            "environment": {
+                "ROS_DISTRO": "melodic", 
+                "ROSLISP_PACKAGE_DIRECTORIES": "/home/ubuntu/catkin_ws/devel/share/common-lisp", 
+                "LOGNAME": "ubuntu", 
+                "USER": "ubuntu", 
+                "PATH": "/opt/ros/melodic/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin", 
+                "HOME": "/home/ubuntu", 
+                "CMAKE_PREFIX_PATH": "/home/ubuntu/catkin_ws/devel:/opt/ros/melodic", 
+                "ROS_LOG_FILENAME": "/home/ubuntu/.ros/log/link_ros.log", 
+                "LANG": "C.UTF-8", 
+                "SHELL": "/bin/bash", 
+                "JOURNAL_STREAM": "9:21768530", 
+                "SHLVL": "1", 
+                "LD_LIBRARY_PATH": "/home/ubuntu/catkin_ws/devel/lib:/opt/ros/melodic/lib:/opt/ros/melodic/lib/aarch64-linux-gnu", 
+                "ROS_MASTER_URI": "http://localhost:11311", 
+                "ROS_PYTHON_VERSION": "2", 
+                "INVOCATION_ID": "3858cc156d9747d6a6b6d1d410e9ac25", 
+                "PYTHONPATH": "/home/ubuntu/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages", 
+                "ROS_ROOT": "/opt/ros/melodic/share/ros", 
+                "PKG_CONFIG_PATH": "/home/ubuntu/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig", 
+                "ROS_PACKAGE_PATH": "/home/ubuntu/catkin_ws/src:/opt/ros/melodic/share", 
+                "_": "/usr/bin/python", 
+                "LD_PRELOAD": "/usr/lib/aarch64-linux-gnu/coreutils/libstdbuf.so", 
+                "_STDBUF_O": "L", 
+                "_STDBUF_E": "L", 
+                "PWD": "/", 
+                "ROS_ETC_DIR": "/opt/ros/melodic/etc/ros", 
+                "ROS_VERSION": "1"
+            }, 
+            "platform": "Linux-5.4.0-1050-raspi-aarch64-with-Ubuntu-18.04-bionic", 
+            "version": "#56~18.04.1-Ubuntu SMP PREEMPT Thu Jan 13 14:51:09 UTC 2022", 
+            "release": "5.4.0-1050-raspi", 
+            "docker": false, 
+            "os": "Linux", 
+            "processor": "aarch64"
+        }, 
+        "freedom_robotics": {
+            "device": "D36F4D9E51F228A3B221D203CB1", 
+            "freedom_python_module_version": "0.1.165", 
+            "token": "***C420CFDF", 
+            "account": "A139C78C471C762F34F31F8DD", 
+            "code_branch": "staging"
+        }
+    }
+}

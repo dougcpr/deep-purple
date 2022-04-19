@@ -1,0 +1,17 @@
+/home/ubuntu/ros2_foxy/install/fastcdr/share/fastcdr/LICENSE
+/home/ubuntu/ros2_foxy/install/fastcdr/include/fastcdr/exceptions/Exception.h
+/home/ubuntu/ros2_foxy/install/fastcdr/include/fastcdr/exceptions/BadParamException.h
+/home/ubuntu/ros2_foxy/install/fastcdr/include/fastcdr/exceptions/NotEnoughMemoryException.h
+/home/ubuntu/ros2_foxy/install/fastcdr/include/fastcdr/FastCdr.h
+/home/ubuntu/ros2_foxy/install/fastcdr/include/fastcdr/FastBuffer.h
+/home/ubuntu/ros2_foxy/install/fastcdr/include/fastcdr/eProsima_auto_link.h
+/home/ubuntu/ros2_foxy/install/fastcdr/include/fastcdr/Cdr.h
+/home/ubuntu/ros2_foxy/install/fastcdr/include/fastcdr/fastcdr_dll.h
+/home/ubuntu/ros2_foxy/install/fastcdr/include/fastcdr/config.h
+/home/ubuntu/ros2_foxy/install/fastcdr/lib/libfastcdr.so.1.0.13
+/home/ubuntu/ros2_foxy/install/fastcdr/lib/libfastcdr.so.1
+/home/ubuntu/ros2_foxy/install/fastcdr/lib/libfastcdr.so
+/home/ubuntu/ros2_foxy/install/fastcdr/lib/cmake/fastcdr/fastcdr-targets.cmake
+/home/ubuntu/ros2_foxy/install/fastcdr/lib/cmake/fastcdr/fastcdr-targets-release.cmake
+/home/ubuntu/ros2_foxy/install/fastcdr/lib/cmake/fastcdr/fastcdr-config.cmake
+/home/ubuntu/ros2_foxy/install/fastcdr/lib/cmake/fastcdr/fastcdr-config-version.cmake

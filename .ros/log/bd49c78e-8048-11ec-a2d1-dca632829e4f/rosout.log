@@ -1,0 +1,577 @@
+
+
+1643381046.096136049  Node Startup
+1643381051.999492883 INFO /link_ros [threading.py:754(Thread.run)] [topics: /rosout] [FREEDOM] Starting to listen to topic: /rosout_agg
+1643381052.957149028 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout, /rosout_agg] [FREEDOM] Completed initializing LinkROS
+1643381082.146204948 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381082.14
+1643381083.164865016 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout, /rosout_agg, /tf] [FREEDOM] Starting to listen to topic: /chatter
+1643381083.179387092 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /chatter, /rosout, /rosout_agg, /tf] [FREEDOM] Starting to listen to topic: /image_raw
+1643381086.150469064 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381086.15
+1643381090.147501945 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381090.14
+1643381094.149655103 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381094.15
+1643381098.150228977 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381098.15
+1643381102.149455070 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381102.15
+1643381106.151170015 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381106.15
+1643381110.152214050 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381110.15
+1643381114.153321027 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381114.15
+1643381118.154526948 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381118.15
+1643381122.152288913 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381122.15
+1643381126.149156093 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381126.15
+1643381130.148458957 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381130.15
+1643381134.152615070 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381134.15
+1643381138.148535013 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381138.15
+1643381142.152278900 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381142.15
+1643381146.152678966 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381146.15
+1643381150.149312019 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381150.15
+1643381154.148551940 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381154.15
+1643381158.151763916 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381158.15
+1643381162.152628898 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381162.15
+1643381166.152754068 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381166.15
+1643381170.150551080 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381170.15
+1643381174.152687072 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381174.15
+1643381178.152934074 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381178.15
+1643381182.151814937 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381182.15
+1643381186.153094053 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381186.15
+1643381190.149657011 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381190.15
+1643381194.149452924 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381194.14
+1643381198.152664899 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381198.15
+1643381202.148957967 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381202.15
+1643381206.151758909 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381206.15
+1643381210.149934053 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381210.15
+1643381214.149580955 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381214.15
+1643381218.151779890 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381218.15
+1643381222.150959968 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381222.15
+1643381226.151074886 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381226.14
+1643381230.148976087 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381230.15
+1643381234.150002956 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381234.15
+1643381238.152714014 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381238.15
+1643381242.153774976 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381242.15
+1643381246.152019023 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381246.15
+1643381250.153706073 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381250.15
+1643381254.152695894 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381254.15
+1643381258.148865938 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381258.15
+1643381262.150341987 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381262.15
+1643381266.155184984 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381266.15
+1643381270.153055906 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381270.15
+1643381274.152714014 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381274.15
+1643381278.152820110 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381278.15
+1643381282.152813911 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381282.15
+1643381286.148488998 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381286.15
+1643381290.153342008 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381290.15
+1643381294.150202989 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381294.15
+1643381298.150041103 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381298.14
+1643381298.181782007 INFO /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] [FREEDOM] Starting to listen to topic: /sweeper
+1643381298.756336927 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] [FREEDOM] received ROS command which was not formatted correctly for a message on topic: /sweeper of type: std_msgs/String : ROS message type "std_msgs/String" has no field named "test"
+1643381298.762734889 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] EXPECTED FORMAT: 
+{
+    "data": ""
+}
+1643381298.767261981 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] RECEIVED FORMAT: 
+{
+    "test": "hello"
+}
+1643381302.150263071 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381302.15
+1643381306.148751020 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381306.15
+1643381310.148612976 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381310.15
+1643381314.150027036 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381314.15
+1643381318.149616003 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381318.15
+1643381322.154673099 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381322.15
+1643381326.149863958 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381326.15
+1643381330.151853084 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381330.15
+1643381334.151227951 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381334.14
+1643381338.149991035 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381338.15
+1643381342.150038003 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381342.15
+1643381346.149832010 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381346.15
+1643381350.149954080 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381350.15
+1643381354.150058984 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381354.15
+1643381358.148672103 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381358.15
+1643381362.149207115 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381362.15
+1643381366.152276039 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381366.15
+1643381370.149636030 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381370.14
+1643381374.150819063 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381374.15
+1643381378.150120019 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381378.15
+1643381382.152844905 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381382.15
+1643381386.152729034 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381386.15
+1643381390.148821115 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381390.15
+1643381394.152659893 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381394.15
+1643381398.152633905 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381398.15
+1643381402.149331092 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381402.15
+1643381406.152497053 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381406.15
+1643381410.152889966 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381410.15
+1643381414.150022983 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381414.15
+1643381418.150027036 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381418.15
+1643381422.151020050 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381422.15
+1643381426.149102926 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381426.15
+1643381426.190808057 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] [FREEDOM] received ROS command which was not formatted correctly for a message on topic: /sweeper of type: std_msgs/String : ROS message type "std_msgs/String" has no field named "test"
+1643381426.197959899 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] EXPECTED FORMAT: 
+{
+    "data": ""
+}
+1643381426.204099893 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] RECEIVED FORMAT: 
+{
+    "test": "hello world"
+}
+1643381430.151293992 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381430.15
+1643381431.157171010 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] [FREEDOM] received ROS command which was not formatted correctly for a message on topic: /sweeper of type: std_msgs/String : ROS message type "std_msgs/String" has no field named "test"
+1643381431.162089109 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] EXPECTED FORMAT: 
+{
+    "data": ""
+}
+1643381431.166044950 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] RECEIVED FORMAT: 
+{
+    "test": "hello world"
+}
+1643381432.638428926 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] [FREEDOM] received ROS command which was not formatted correctly for a message on topic: /sweeper of type: std_msgs/String : ROS message type "std_msgs/String" has no field named "test"
+1643381432.645648956 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] EXPECTED FORMAT: 
+{
+    "data": ""
+}
+1643381432.650471925 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] RECEIVED FORMAT: 
+{
+    "test": "hello world"
+}
+1643381433.216304063 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] [FREEDOM] received ROS command which was not formatted correctly for a message on topic: /sweeper of type: std_msgs/String : ROS message type "std_msgs/String" has no field named "test"
+1643381433.223567008 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] EXPECTED FORMAT: 
+{
+    "data": ""
+}
+1643381433.227469921 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] RECEIVED FORMAT: 
+{
+    "test": "hello world"
+}
+1643381434.151956081 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381434.15
+1643381434.993791103 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] [FREEDOM] received ROS command which was not formatted correctly for a message on topic: /sweeper of type: std_msgs/String : ROS message type "std_msgs/String" has no field named "test"
+1643381435.001156091 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] EXPECTED FORMAT: 
+{
+    "data": ""
+}
+1643381435.005784988 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] RECEIVED FORMAT: 
+{
+    "test": "hello world"
+}
+1643381438.149970054 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381438.15
+1643381442.148789882 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381442.15
+1643381446.150841951 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381446.15
+1643381450.152674913 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381450.15
+1643381454.155860900 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381454.15
+1643381458.151864051 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381458.15
+1643381460.369410991 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] [FREEDOM] received ROS command which was not formatted correctly for a message on topic: /sweeper of type: std_msgs/String : ROS message type "std_msgs/String" has no field named "test"
+1643381460.378112077 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] EXPECTED FORMAT: 
+{
+    "data": ""
+}
+1643381460.384488105 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] RECEIVED FORMAT: 
+{
+    "test": "hello world"
+}
+1643381462.151012897 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381462.15
+1643381466.146990060 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381466.14
+1643381469.838023900 INFO /link_ros [threading.py:754(Thread.run)] [topics: /sweeper, /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] [FREEDOM] Topic not found. No one is publishing on it currently. Will create the first publisher: /video/click
+1643381469.845906019 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /rosout_agg, /chatter, /video/click] [FREEDOM] Starting to listen to topic: /video/click
+1643381470.151814937 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381470.15
+1643381470.414370059 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /rosout_agg, /chatter, /video/click] [FREEDOM] Failed to convert to ros message: Field 'seq' has wrong type <type 'float'> (valid types: [<type 'int'>, <type 'long'>, <type 'numpy.uint8'>, <type 'numpy.uint16'>, <type 'numpy.uint32'>])
+1643381471.293809890 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /rosout_agg, /chatter, /video/click] [FREEDOM] Failed to convert to ros message: Field 'seq' has wrong type <type 'float'> (valid types: [<type 'int'>, <type 'long'>, <type 'numpy.uint8'>, <type 'numpy.uint16'>, <type 'numpy.uint32'>])
+1643381474.151350021 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381474.15
+1643381478.149641036 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381478.15
+1643381479.958003044 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /rosout_agg, /chatter, /video/click] [FREEDOM] Failed to convert to ros message: Field 'seq' has wrong type <type 'float'> (valid types: [<type 'int'>, <type 'long'>, <type 'numpy.uint8'>, <type 'numpy.uint16'>, <type 'numpy.uint32'>])
+1643381482.149583101 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381482.14
+1643381486.153027057 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381486.15
+1643381490.153135061 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381490.15
+1643381494.153814077 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381494.15
+1643381498.150480985 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381498.15
+1643381502.150904893 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381502.15
+1643381506.156331062 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381506.15
+1643381510.151036024 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381510.15
+1643381514.151667118 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381514.15
+1643381518.151925086 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381518.15
+1643381522.152064085 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381522.15
+1643381526.149168014 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381526.14
+1643381530.151609897 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381530.15
+1643381534.151828050 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381534.15
+1643381538.151037931 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381538.15
+1643381542.150548934 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381542.15
+1643381546.151350975 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381546.15
+1643381550.150234937 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381550.15
+1643381554.151200056 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381554.15
+1643381558.149291992 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381558.15
+1643381562.155114889 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381562.15
+1643381566.153290987 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381566.15
+1643381570.150868892 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381570.15
+1643381574.154103994 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381574.15
+1643381578.150378942 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381578.15
+1643381582.152853965 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381582.15
+1643381586.148924112 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381586.15
+1643381590.150166988 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381590.15
+1643381594.149498939 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381594.15
+1643381598.150392055 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381598.15
+1643381602.150846958 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381602.15
+1643381606.149454116 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381606.15
+1643381610.150305032 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381610.15
+1643381614.151007890 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381614.15
+1643381618.150312900 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381618.15
+1643381622.150369882 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381622.15
+1643381626.150197982 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381626.15
+1643381630.149039030 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381630.15
+1643381634.148529052 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381634.15
+1643381638.151349067 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381638.15
+1643381642.148992061 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381642.15
+1643381646.151587009 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381646.15
+1643381650.150744915 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381650.15
+1643381654.148432016 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381654.15
+1643381658.150465965 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381658.15
+1643381662.148518085 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381662.14
+1643381666.150063991 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381666.15
+1643381670.150096893 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381670.15
+1643381674.151772022 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381674.15
+1643381678.151910066 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381678.15
+1643381682.149096965 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381682.15
+1643381686.164184093 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381686.15
+1643381690.151452064 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381690.15
+1643381694.152996063 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381694.15
+1643381698.153142929 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381698.15
+1643381721.924000978 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /rosout_agg, /chatter, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643381721.830497980 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381721.83
+1643381722.937750101 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /rosout_agg, /chatter, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643381723.943767070 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /rosout_agg, /chatter, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643381725.838404893 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381725.83
+1643381725.949439048 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /rosout_agg, /chatter, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643381729.837568044 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381729.83
+1643381729.957444906 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /rosout_agg, /chatter, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643381733.832180976 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381733.83
+1643381737.832720994 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381737.83
+1643381737.971976041 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /rosout_agg, /chatter, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643381741.828857898 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381741.83
+1643381745.832206010 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381745.83
+1643381749.829591035 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381749.83
+1643381753.832474946 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381753.83
+1643381753.989206075 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /rosout_agg, /chatter, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643381757.832452058 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381757.83
+1643381761.833261966 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381761.83
+1643381765.833138942 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381765.83
+1643381769.835294961 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381769.83
+1643381773.832618951 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381773.83
+1643381777.831954956 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381777.83
+1643381781.837307929 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381781.83
+1643381785.834244012 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381785.83
+1643381786.004390001 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /rosout_agg, /chatter, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643381789.832624912 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381789.83
+1643381793.830951929 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381793.83
+1643381797.833259105 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381797.83
+1643381801.829104900 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381801.83
+1643381805.829972982 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381805.83
+1643381809.834166049 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381809.83
+1643381813.830925941 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381813.83
+1643381817.834197044 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381817.83
+1643381818.038424968 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /rosout_agg, /chatter, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643381821.834913969 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381821.83
+1643381825.835505962 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381825.83
+1643381829.833025932 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381829.83
+1643381833.835222005 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381833.83
+1643381837.832945108 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381837.83
+1643381841.832674026 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381841.83
+1643381845.829528093 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381845.83
+1643381849.834516048 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381849.83
+1643381850.050153017 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /rosout_agg, /chatter, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643381853.833030939 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381853.83
+1643381857.832644939 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381857.83
+1643381857.942882061 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /rosout_agg, /chatter, /video/click] [FREEDOM] Failed to convert to ros message: Field 'seq' has wrong type <type 'float'> (valid types: [<type 'int'>, <type 'long'>, <type 'numpy.uint8'>, <type 'numpy.uint16'>, <type 'numpy.uint32'>])
+1643381860.587223052 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /rosout_agg, /chatter, /video/click] [FREEDOM] Failed to convert to ros message: Field 'seq' has wrong type <type 'float'> (valid types: [<type 'int'>, <type 'long'>, <type 'numpy.uint8'>, <type 'numpy.uint16'>, <type 'numpy.uint32'>])
+1643381861.832359075 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381861.83
+1643381865.835658073 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381865.83
+1643381868.127049922 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /rosout_agg, /chatter, /video/click] [FREEDOM] Failed to convert to ros message: Field 'seq' has wrong type <type 'float'> (valid types: [<type 'int'>, <type 'long'>, <type 'numpy.uint8'>, <type 'numpy.uint16'>, <type 'numpy.uint32'>])
+1643381869.834898948 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381869.83
+1643381873.832887887 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381873.83
+1643381877.835460901 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381877.83
+1643381881.832612037 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381881.83
+1643381882.071970939 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /rosout_agg, /chatter, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643381885.829081058 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381885.83
+1643381889.829566001 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381889.83
+1643381893.833728075 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381893.83
+1643381897.833739995 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381897.83
+1643381898.192939996 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /rosout_agg, /chatter, /video/click] [FREEDOM] Topic not found. No one is publishing on it currently. Will create the first publisher: /move_base/cancel
+1643381898.215763092 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /video/click] [FREEDOM] Starting to listen to topic: /move_base/cancel
+1643381898.793602943 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /video/click] [FREEDOM] Topic not found. No one is publishing on it currently. Will create the first publisher: /cmd_vel
+1643381898.802166938 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] [FREEDOM] Starting to listen to topic: /cmd_vel
+1643381901.835311889 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381901.83
+1643381905.832511901 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381905.83
+1643381909.834768056 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381909.83
+1643381913.830809116 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381913.83
+1643381914.108092069 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643381917.834203958 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381917.83
+1643381921.828783035 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381921.83
+1643381925.834352970 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381925.83
+1643381929.835285902 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381929.83
+1643381933.832422018 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381933.83
+1643381937.836010932 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381937.83
+1643381941.832143068 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381941.83
+1643381945.830152034 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381945.83
+1643381946.147732973 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643381949.833180904 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381949.83
+1643381953.833600997 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381953.83
+1643381957.835294961 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381957.83
+1643381961.832572937 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381961.83
+1643381965.828927040 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381965.83
+1643381969.829317092 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381969.83
+1643381973.833714008 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381973.83
+1643381977.835475921 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381977.83
+1643381978.167557954 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643381981.833215951 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381981.83
+1643381985.835284948 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381985.83
+1643381989.832784891 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381989.83
+1643381993.835839986 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381993.83
+1643381997.834889888 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643381997.83
+1643382001.832710027 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382001.83
+1643382005.832674980 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382005.83
+1643382009.836519956 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382009.83
+1643382010.252194881 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643382013.834840059 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382013.83
+1643382017.835386037 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382017.83
+1643382021.832503080 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382021.83
+1643382025.835272073 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382025.83
+1643382029.832811117 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382029.83
+1643382033.835269927 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382033.83
+1643382037.834305047 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382037.83
+1643382041.829196929 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382041.83
+1643382042.232449054 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643382045.831356048 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382045.83
+1643382049.831937074 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382049.83
+1643382053.835887908 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382053.83
+1643382057.835170984 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382057.83
+1643382061.831226110 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382061.83
+1643382065.831135034 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382065.83
+1643382069.834892034 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382069.83
+1643382073.835247039 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382073.83
+1643382074.267147064 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643382077.833478927 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382077.83
+1643382081.832941055 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382081.83
+1643382085.832704067 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382085.83
+1643382089.832581043 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382089.83
+1643382093.835047960 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382093.83
+1643382097.835542917 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382097.83
+1643382101.835328102 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382101.83
+1643382105.833581924 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382105.83
+1643382106.302742004 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643382109.835228919 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382109.83
+1643382113.833555936 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382113.83
+1643382117.833153963 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382117.83
+1643382121.833070993 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382121.83
+1643382125.838006973 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382125.83
+1643382129.833842992 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382129.83
+1643382133.830337047 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382133.83
+1643382137.832983016 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382137.83
+1643382138.336771011 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643382141.834748983 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382141.83
+1643382145.836230993 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382145.83
+1643382149.832488059 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382149.83
+1643382153.834089040 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382153.83
+1643382157.833174943 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382157.83
+1643382161.832540988 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382161.83
+1643382165.835167884 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382165.83
+1643382169.834651947 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382169.83
+1643382170.367372035 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643382173.832493066 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382173.83
+1643382177.834146022 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382177.83
+1643382181.832690954 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382181.83
+1643382185.831876039 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382185.83
+1643382189.832855939 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382189.83
+1643382193.833297967 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382193.83
+1643382197.832645893 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382197.83
+1643382201.830140113 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382201.83
+1643382202.400518894 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643382205.835539102 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382205.83
+1643382209.834302902 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382209.83
+1643382213.833012104 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382213.83
+1643382217.835172891 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382217.83
+1643382221.835344076 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382221.83
+1643382225.834503889 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382225.83
+1643382229.833311080 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382229.83
+1643382233.832676887 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382233.83
+1643382234.437459945 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643382237.835340023 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382237.83
+1643382241.835994005 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382241.83
+1643382245.835855960 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382245.83
+1643382249.832237005 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382249.83
+1643382253.835062980 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382253.83
+1643382257.834914922 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382257.83
+1643382261.833405971 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382261.83
+1643382265.832549095 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382265.83
+1643382266.472089052 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643382269.833431005 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382269.83
+1643382273.833326101 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382273.83
+1643382277.832675933 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382277.83
+1643382281.835093975 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382281.83
+1643382285.834640026 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382285.83
+1643382289.833884954 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382289.83
+1643382293.833467006 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382293.83
+1643382297.835197925 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382297.83
+1643382298.491929054 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643382301.833487033 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382301.83
+1643382305.835134029 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382305.83
+1643382309.835256099 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382309.83
+1643382313.832019090 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382313.83
+1643382317.835567951 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382317.83
+1643382321.834975004 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382321.83
+1643382325.832974910 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382325.83
+1643382329.835192918 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382329.83
+1643382330.526839017 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] Could not process inbound connection: topic types do not match: [geometry_msgs/PoseStamped] vs. [geometry_msgs/PointStamped]{'message_definition': "# A Pose with reference coordinate frame and timestamp\nHeader header\nPose pose\n\n================================================================================\nMSG: std_msgs/Header\n# Standard metadata for higher-level stamped data types.\n# This is generally used to communicate timestamped data \n# in a particular coordinate frame.\n# \n# sequence ID: consecutively increasing ID \nuint32 seq\n#Two-integer timestamp that is expressed as:\n# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n# time-handling sugar is provided by the client library\ntime stamp\n#Frame this data is associated with\nstring frame_id\n\n================================================================================\nMSG: geometry_msgs/Pose\n# A representation of pose in free space, composed of position and orientation. \nPoint position\nQuaternion orientation\n\n================================================================================\nMSG: geometry_msgs/Point\n# This contains the position of a point in free space\nfloat64 x\nfloat64 y\nfloat64 z\n\n================================================================================\nMSG: geometry_msgs/Quaternion\n# This represents an orientation in free space in quaternion form.\n\nfloat64 x\nfloat64 y\nfloat64 z\nfloat64 w\n", 'callerid': '/sweeper', 'tcp_nodelay': '0', 'md5sum': 'd3812c3cbc69362b77dc0b19b345f8f5', 'topic': '/video/click', 'type': 'geometry_msgs/PoseStamped'}
+1643382333.835653066 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382333.83
+1643382337.835235118 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382337.83
+1643382341.832715034 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382341.83
+1643382368.123199939 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382368.11
+1643382372.115430116 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382372.11
+1643382372.121998071 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382372.11
+1643382376.114741086 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382376.11
+1643382376.118926048 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382376.11
+1643382380.114092111 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382380.11
+1643382380.118298053 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382380.11
+1643382384.116914987 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382384.11
+1643382384.122694015 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382384.11
+1643382388.116655111 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382388.11
+1643382388.122124910 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382388.11
+1643382392.116769075 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382392.11
+1643382392.122239112 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382392.11
+1643382396.116996049 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382396.11
+1643382396.122757911 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382396.11
+1643382400.116890907 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382400.11
+1643382400.122423887 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382400.11
+1643382404.112711906 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382404.11
+1643382404.117660999 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382404.11
+1643382408.118792057 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382408.11
+1643382408.125210046 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382408.11
+1643382412.118665933 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382412.11
+1643382412.126070022 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382412.11
+1643382416.117577075 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382416.11
+1643382416.123986959 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382416.11
+1643382420.117316961 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382420.11
+1643382420.125602960 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382420.11
+1643382424.115904092 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382424.11
+1643382424.120807886 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382424.11
+1643382428.112901926 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382428.11
+1643382428.118032932 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382428.11
+1643382432.118011951 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382432.11
+1643382432.125829935 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382432.11
+1643382433.243299961 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] [FREEDOM] received ROS command which was not formatted correctly for a message on topic: /chatter of type: std_msgs/String : ROS message type "std_msgs/String" has no field named "test"
+1643382433.249546051 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] EXPECTED FORMAT: 
+{
+    "data": ""
+}
+1643382433.255613088 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] RECEIVED FORMAT: 
+{
+    "test": "hello world"
+}
+1643382436.118858098 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382436.11
+1643382436.124445915 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382436.11
+1643382440.112653017 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382440.11
+1643382440.117582082 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382440.11
+1643382444.115060091 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382444.11
+1643382444.119951009 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382444.11
+1643382448.118094921 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382448.11
+1643382448.124187946 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382448.11
+1643382452.112865924 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382452.11
+1643382452.118298053 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382452.11
+1643382456.113034963 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382456.11
+1643382456.118721008 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382456.11
+1643382460.112972021 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382460.11
+1643382460.118953943 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382460.11
+1643382464.118972063 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382464.11
+1643382464.125906944 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382464.11
+1643382467.939889907 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] [FREEDOM] received ROS command which was not formatted correctly for a message on topic: /chatter of type: std_msgs/String : ROS message type "std_msgs/String" has no field named "test"
+1643382467.944793939 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] EXPECTED FORMAT: 
+{
+    "data": ""
+}
+1643382467.949012041 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] RECEIVED FORMAT: 
+{
+    "test": "hello world"
+}
+1643382468.116971015 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382468.11
+1643382468.122355937 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382468.11
+1643382472.116147041 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382472.11
+1643382472.120573043 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382472.11
+1643382476.114404916 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382476.11
+1643382476.121788978 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382476.11
+1643382480.112981081 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382480.11
+1643382480.119802951 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382480.11
+1643382480.223275899 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] [FREEDOM] received ROS command which was not formatted correctly for a message on topic: /chatter of type: std_msgs/String : ROS message type "std_msgs/String" has no field named "test"
+1643382480.227494955 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] EXPECTED FORMAT: 
+{
+    "data": ""
+}
+1643382480.231545925 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /image_raw, /rosout, /tf, /sweeper, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel, /video/click] RECEIVED FORMAT: 
+{
+    "test": "hello world"
+}
+1643382484.117600917 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382484.11
+1643382484.122688055 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382484.11
+1643382488.115859031 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382488.11
+1643382488.120101928 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382488.11
+1643382492.114104986 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382492.11
+1643382492.119932889 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382492.11
+1643382496.120922088 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382496.11
+1643382496.127249002 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382496.11
+1643382500.113425970 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382500.11
+1643382500.118309020 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382500.11
+1643382504.112700939 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382504.11
+1643382504.118129014 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382504.11
+1643382508.118781089 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382508.11
+1643382508.124253034 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382508.11
+1643382512.114118099 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382512.11
+1643382512.122528076 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382512.11
+1643382516.117156982 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382516.11
+1643382516.122646093 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382516.11
+1643382520.118839979 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382520.11
+1643382520.125350952 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382520.11
+1643382524.118284940 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382524.11
+1643382524.124006032 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382524.11
+1643382528.114311933 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382528.11
+1643382528.120027065 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382528.11
+1643382532.112550973 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382532.11
+1643382532.117484092 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382532.11
+1643382536.115933895 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382536.11
+1643382536.121556997 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382536.11
+1643382540.116978883 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382540.11
+1643382540.123707056 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382540.11
+1643382544.117902994 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382544.11
+1643382544.123955011 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382544.11
+1643382548.115266084 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382548.11
+1643382548.123203992 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382548.11
+1643382552.118417978 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382552.11
+1643382552.124089002 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382552.11
+1643382556.114176034 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382556.11
+1643382556.119903087 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382556.11
+1643382560.117106914 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382560.11
+1643382560.125010967 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382560.11
+1643382564.117238044 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382564.11
+1643382564.123817920 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382564.11
+1643382568.113035917 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382568.11
+1643382568.118808031 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382568.11
+1643382572.116929054 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382572.11
+1643382572.132817983 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382572.11
+1643382576.117069005 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382576.11
+1643382576.124891996 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382576.11
+1643382580.119190931 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382580.11
+1643382580.134268045 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382580.11
+1643382584.118228912 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382584.11
+1643382584.126951932 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382584.11
+1643382588.118112087 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382588.11
+1643382588.125971078 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382588.11
+1643382592.119187116 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382592.11
+1643382592.125546932 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382592.11
+1643382596.118516921 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382596.11
+1643382596.127094984 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382596.11
+1643382600.119546890 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382600.11
+1643382600.126321077 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382600.11
+1643382604.115669965 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382604.11
+1643382604.124269962 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382604.11
+1643382608.120331048 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382608.11
+1643382608.126471042 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382608.11
+1643382612.119436025 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382612.11
+1643382612.127439975 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382612.11
+1643382616.118117094 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382616.11
+1643382616.126482009 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382616.11
+1643382620.114869117 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382620.11
+1643382620.120949029 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382620.11
+1643382624.114589929 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382624.11
+1643382624.120887994 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382624.11
+1643382628.115120887 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382628.11
+1643382628.119687080 INFO /sweeper [listener.py:12(callback)] [topics: /chatter, /rosout] /sweeperI heard hello world 1643382628.11

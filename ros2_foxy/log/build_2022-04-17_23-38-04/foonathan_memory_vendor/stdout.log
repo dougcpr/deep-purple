@@ -1,0 +1,29 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/ros2_foxy/build/foonathan_memory_vendor
+[35m[1mScanning dependencies of target foo_mem-ext[0m
+[ 12%] [34m[1mCreating directories for 'foo_mem-ext'[0m
+[ 25%] [34m[1mPerforming download step (git clone) for 'foo_mem-ext'[0m
+[ 37%] [34m[1mNo patch step for 'foo_mem-ext'[0m
+[ 50%] [34m[1mNo update step for 'foo_mem-ext'[0m
+[ 62%] [34m[1mPerforming configure step for 'foo_mem-ext'[0m
+-- Configuring incomplete, errors occurred!
+CMakeFiles/foo_mem-ext.dir/build.make:106: recipe for target 'foo_mem-ext-prefix/src/foo_mem-ext-stamp/foo_mem-ext-configure' failed
+CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/foo_mem-ext.dir/all' failed
+Makefile:140: recipe for target 'all' failed

@@ -1,0 +1,64 @@
+{
+    "code": "FRA_LINK_BASE_GENERIC", 
+    "logs": [
+        "Traceback (most recent call last):", 
+        "", 
+        "  File \"freedomrobotics/link_base.py\", line 578, in freedomrobotics.link_base.LinkUploader.__loop_connection_check_to_freedom_api", 
+        "", 
+        "Exception: Could not connect to Freedom API after 3 attempts. No Internet connection.", 
+        ""
+    ], 
+    "level": "fatal", 
+    "errorMessage": "Unhandled exception in Link `agent_link` freedom api connection check loop: <type 'exceptions.Exception'> Could not connect to Freedom API after 3 attempts. No Internet connection.", 
+    "component": "agent", 
+    "attributes": {
+        "python": {
+            "implementation": "CPython", 
+            "version": "2.7.17", 
+            "build": [
+                "default", 
+                "Feb 27 2021 15:10:58"
+            ]
+        }, 
+        "thread": {
+            "daemon": false, 
+            "name": "freedom_agent_link_connection_check_thread"
+        }, 
+        "geo": "Could not get geographic details: HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff8c0c7c90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))", 
+        "system": {
+            "linux_dist": [
+                "Ubuntu", 
+                "18.04", 
+                "bionic"
+            ], 
+            "ip": "Could not get ip: HTTPConnectionPool(host='ip.42.pl', port=80): Max retries exceeded with url: /raw (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff8d498250>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))", 
+            "user": "ubuntu", 
+            "arch": "Unknown: aarch64", 
+            "service": "systemd", 
+            "hostname": "ubuntu", 
+            "environment": {
+                "LANG": "C.UTF-8", 
+                "SHELL": "/bin/bash", 
+                "JOURNAL_STREAM": "9:42616", 
+                "LOGNAME": "ubuntu", 
+                "USER": "ubuntu", 
+                "PATH": "/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin", 
+                "HOME": "/home/ubuntu", 
+                "INVOCATION_ID": "c5bca14037144838a839993c9a49e04a"
+            }, 
+            "platform": "Linux-5.4.0-1035-raspi-aarch64-with-Ubuntu-18.04-bionic", 
+            "version": "#38~18.04.1-Ubuntu SMP PREEMPT Wed Apr 21 00:17:21 UTC 2021", 
+            "release": "5.4.0-1035-raspi", 
+            "docker": false, 
+            "os": "Linux", 
+            "processor": "aarch64"
+        }, 
+        "freedom_robotics": {
+            "device": "D36F4D9E51F228A3B221D203CB1", 
+            "freedom_python_module_version": "0.1.157", 
+            "token": "***C390FC37", 
+            "account": "A139C78C471C762F34F31F8DD", 
+            "code_branch": "release"
+        }
+    }
+}

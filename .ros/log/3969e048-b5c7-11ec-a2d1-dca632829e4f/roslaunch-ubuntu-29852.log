@@ -1,0 +1,375 @@
+[roslaunch][INFO] 2022-04-06 16:33:10,367: Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2022-04-06 16:33:10,398: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2022-04-06 16:33:10,399: roslaunch starting with args ['/opt/ros/melodic/bin/roslaunch', 'camera_node', 'publisher.launch']
+[roslaunch][INFO] 2022-04-06 16:33:10,400: roslaunch env is {'ROS_DISTRO': 'melodic', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SSH_CLIENT': '10.1.0.201 51062 22', 'LOGNAME': 'ubuntu', 'USER': 'ubuntu', 'PATH': '/home/ubuntu/.local/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'HOME': '/home/ubuntu', 'CMAKE_PREFIX_PATH': '/home/ubuntu/catkin_ws/devel:/opt/ros/melodic', 'LD_LIBRARY_PATH': '/home/ubuntu/catkin_ws/devel/lib:/opt/ros/melodic/lib:/opt/ros/melodic/lib/aarch64-linux-gnu', 'LANG': 'C.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'XAUTHORITY': '/home/ubuntu/.Xauthority', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'ROS_LOG_FILENAME': '/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/roslaunch-ubuntu-29852.log', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/home/ubuntu/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/ubuntu/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/ubuntu/catkin_ws/src:/opt/ros/melodic/share', 'XDG_SESSION_ID': '1978', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_': '/opt/ros/melodic/bin/roslaunch', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/1', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ubuntu/catkin_ws/devel/share/common-lisp', 'SHLVL': '1', 'PWD': '/home/ubuntu', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1', 'MAIL': '/var/mail/ubuntu', 'SSH_CONNECTION': '10.1.0.201 51062 10.1.0.196 22'}
+[roslaunch][INFO] 2022-04-06 16:33:10,400: starting in server mode
+[roslaunch.parent][INFO] 2022-04-06 16:33:10,400: starting roslaunch parent run
+[roslaunch][INFO] 2022-04-06 16:33:10,401: loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+[roslaunch][INFO] 2022-04-06 16:33:10,888: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2022-04-06 16:33:10,888: loading config file /home/ubuntu/catkin_ws/src/camera_node/launch/publisher.launch
+[roslaunch][INFO] 2022-04-06 16:33:10,900: Added node of type [camera_node/image_publisher.py] in namespace [/]
+[roslaunch][INFO] 2022-04-06 16:33:10,901: Added node of type [beginner_tutorials/listener.py] in namespace [/]
+[roslaunch][INFO] 2022-04-06 16:33:10,903: Added node of type [beginner_tutorials/talker.py] in namespace [/]
+[roslaunch][INFO] 2022-04-06 16:33:10,903: Added node of type [beginner_tutorials/joystick.py] in namespace [/]
+[roslaunch][INFO] 2022-04-06 16:33:10,904: Added node of type [beginner_tutorials/cancelJoystick.py] in namespace [/]
+[roslaunch][INFO] 2022-04-06 16:33:10,905: ... selected machine [] for node of type [camera_node/image_publisher.py]
+[roslaunch][INFO] 2022-04-06 16:33:10,906: ... selected machine [] for node of type [beginner_tutorials/listener.py]
+[roslaunch][INFO] 2022-04-06 16:33:10,906: ... selected machine [] for node of type [beginner_tutorials/talker.py]
+[roslaunch][INFO] 2022-04-06 16:33:10,906: ... selected machine [] for node of type [beginner_tutorials/joystick.py]
+[roslaunch][INFO] 2022-04-06 16:33:10,907: ... selected machine [] for node of type [beginner_tutorials/cancelJoystick.py]
+[roslaunch.pmon][INFO] 2022-04-06 16:33:10,910: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2022-04-06 16:33:10,910: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2022-04-06 16:33:10,911: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2022-04-06 16:33:10,911: starting parent XML-RPC server
+[roslaunch.server][INFO] 2022-04-06 16:33:10,911: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2022-04-06 16:33:10,912: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2022-04-06 16:33:10,912: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-04-06 16:33:10,913: Started XML-RPC server [http://ubuntu:46391/]
+[xmlrpc][INFO] 2022-04-06 16:33:10,913: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2022-04-06 16:33:10,927: started roslaunch server http://ubuntu:46391/
+[roslaunch.parent][INFO] 2022-04-06 16:33:10,927: ... parent XML-RPC server started
+[roslaunch][INFO] 2022-04-06 16:33:10,929: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2022-04-06 16:33:10,933: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2022-04-06 16:33:10,937: ROS_MASTER_URI=http://localhost:11311
+[roslaunch][INFO] 2022-04-06 16:33:10,942: setting /roslaunch/uris/host_ubuntu__46391' to http://ubuntu:46391/
+[roslaunch][INFO] 2022-04-06 16:33:10,945: load_parameters starting ...
+[roslaunch][INFO] 2022-04-06 16:33:10,951: ... load_parameters complete
+[roslaunch][INFO] 2022-04-06 16:33:10,952: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2022-04-06 16:33:10,952: ... preparing to launch node of type [camera_node/image_publisher.py]
+[roslaunch][INFO] 2022-04-06 16:33:10,953: create_node_process: package[camera_node] type[image_publisher.py] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2022-04-06 16:33:10,953: process[webcam-1]: env[{'ROS_DISTRO': 'melodic', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SSH_CLIENT': '10.1.0.201 51062 22', 'LOGNAME': 'ubuntu', 'USER': 'ubuntu', 'PATH': '/home/ubuntu/.local/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'HOME': '/home/ubuntu', 'CMAKE_PREFIX_PATH': '/home/ubuntu/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/roslaunch-ubuntu-29852.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'XAUTHORITY': '/home/ubuntu/.Xauthority', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LD_LIBRARY_PATH': '/home/ubuntu/catkin_ws/devel/lib:/opt/ros/melodic/lib:/opt/ros/melodic/lib/aarch64-linux-gnu', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_PYTHON_VERSION': '2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/home/ubuntu/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/ubuntu/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/ubuntu/catkin_ws/src:/opt/ros/melodic/share', 'XDG_SESSION_ID': '1978', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_': '/opt/ros/melodic/bin/roslaunch', 'SSH_CONNECTION': '10.1.0.201 51062 10.1.0.196 22', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/1', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ubuntu/catkin_ws/devel/share/common-lisp', 'SHLVL': '1', 'PWD': '/home/ubuntu', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1', 'MAIL': '/var/mail/ubuntu', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'}]
+[roslaunch][INFO] 2022-04-06 16:33:11,007: process[webcam-1]: args[[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam']]
+[roslaunch][INFO] 2022-04-06 16:33:11,007: ... created process [webcam-1]
+[roslaunch.pmon][INFO] 2022-04-06 16:33:11,008: ProcessMonitor.register[webcam-1]
+[roslaunch.pmon][INFO] 2022-04-06 16:33:11,008: ProcessMonitor.register[webcam-1] complete
+[roslaunch][INFO] 2022-04-06 16:33:11,008: ... registered process [webcam-1]
+[roslaunch][INFO] 2022-04-06 16:33:11,008: process[webcam-1]: starting os process
+[roslaunch][INFO] 2022-04-06 16:33:11,009: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 16:33:11,009: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 16:33:11,022: process[webcam-1]: started with pid [29872]
+[roslaunch][INFO] 2022-04-06 16:33:11,022: ... successfully launched [webcam-1]
+[roslaunch][INFO] 2022-04-06 16:33:11,023: ... preparing to launch node of type [beginner_tutorials/listener.py]
+[roslaunch][INFO] 2022-04-06 16:33:11,023: create_node_process: package[beginner_tutorials] type[listener.py] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2022-04-06 16:33:11,023: process[listener-2]: env[{'ROS_DISTRO': 'melodic', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SSH_CLIENT': '10.1.0.201 51062 22', 'LOGNAME': 'ubuntu', 'USER': 'ubuntu', 'PATH': '/home/ubuntu/.local/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'HOME': '/home/ubuntu', 'CMAKE_PREFIX_PATH': '/home/ubuntu/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/roslaunch-ubuntu-29852.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'XAUTHORITY': '/home/ubuntu/.Xauthority', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LD_LIBRARY_PATH': '/home/ubuntu/catkin_ws/devel/lib:/opt/ros/melodic/lib:/opt/ros/melodic/lib/aarch64-linux-gnu', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_PYTHON_VERSION': '2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/home/ubuntu/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/ubuntu/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/ubuntu/catkin_ws/src:/opt/ros/melodic/share', 'XDG_SESSION_ID': '1978', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_': '/opt/ros/melodic/bin/roslaunch', 'SSH_CONNECTION': '10.1.0.201 51062 10.1.0.196 22', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/1', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ubuntu/catkin_ws/devel/share/common-lisp', 'SHLVL': '1', 'PWD': '/home/ubuntu', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1', 'MAIL': '/var/mail/ubuntu', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'}]
+[roslaunch][INFO] 2022-04-06 16:33:11,027: process[listener-2]: args[[u'/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py', u'__name:=listener']]
+[roslaunch][INFO] 2022-04-06 16:33:11,028: ... created process [listener-2]
+[roslaunch.pmon][INFO] 2022-04-06 16:33:11,028: ProcessMonitor.register[listener-2]
+[roslaunch.pmon][INFO] 2022-04-06 16:33:11,029: ProcessMonitor.register[listener-2] complete
+[roslaunch][INFO] 2022-04-06 16:33:11,029: ... registered process [listener-2]
+[roslaunch][INFO] 2022-04-06 16:33:11,029: process[listener-2]: starting os process
+[roslaunch][INFO] 2022-04-06 16:33:11,030: process[listener-2]: start w/ args [[u'/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py', u'__name:=listener', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/listener-2.log']]
+[roslaunch][INFO] 2022-04-06 16:33:11,030: process[listener-2]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 16:33:11,044: process[listener-2]: started with pid [29873]
+[roslaunch][INFO] 2022-04-06 16:33:11,045: ... successfully launched [listener-2]
+[roslaunch][INFO] 2022-04-06 16:33:11,045: ... preparing to launch node of type [beginner_tutorials/talker.py]
+[roslaunch][INFO] 2022-04-06 16:33:11,046: create_node_process: package[beginner_tutorials] type[talker.py] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2022-04-06 16:33:11,047: process[talker-3]: env[{'ROS_DISTRO': 'melodic', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SSH_CLIENT': '10.1.0.201 51062 22', 'LOGNAME': 'ubuntu', 'USER': 'ubuntu', 'PATH': '/home/ubuntu/.local/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'HOME': '/home/ubuntu', 'CMAKE_PREFIX_PATH': '/home/ubuntu/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/roslaunch-ubuntu-29852.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'XAUTHORITY': '/home/ubuntu/.Xauthority', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LD_LIBRARY_PATH': '/home/ubuntu/catkin_ws/devel/lib:/opt/ros/melodic/lib:/opt/ros/melodic/lib/aarch64-linux-gnu', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_PYTHON_VERSION': '2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/home/ubuntu/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/ubuntu/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/ubuntu/catkin_ws/src:/opt/ros/melodic/share', 'XDG_SESSION_ID': '1978', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_': '/opt/ros/melodic/bin/roslaunch', 'SSH_CONNECTION': '10.1.0.201 51062 10.1.0.196 22', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/1', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ubuntu/catkin_ws/devel/share/common-lisp', 'SHLVL': '1', 'PWD': '/home/ubuntu', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1', 'MAIL': '/var/mail/ubuntu', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'}]
+[roslaunch][INFO] 2022-04-06 16:33:11,051: process[talker-3]: args[[u'/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/talker.py', u'__name:=talker']]
+[roslaunch][INFO] 2022-04-06 16:33:11,052: ... created process [talker-3]
+[roslaunch.pmon][INFO] 2022-04-06 16:33:11,052: ProcessMonitor.register[talker-3]
+[roslaunch.pmon][INFO] 2022-04-06 16:33:11,053: ProcessMonitor.register[talker-3] complete
+[roslaunch][INFO] 2022-04-06 16:33:11,053: ... registered process [talker-3]
+[roslaunch][INFO] 2022-04-06 16:33:11,053: process[talker-3]: starting os process
+[roslaunch][INFO] 2022-04-06 16:33:11,054: process[talker-3]: start w/ args [[u'/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/talker.py', u'__name:=talker', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/talker-3.log']]
+[roslaunch][INFO] 2022-04-06 16:33:11,055: process[talker-3]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 16:33:11,069: process[talker-3]: started with pid [29874]
+[roslaunch][INFO] 2022-04-06 16:33:11,070: ... successfully launched [talker-3]
+[roslaunch][INFO] 2022-04-06 16:33:11,071: ... preparing to launch node of type [beginner_tutorials/joystick.py]
+[roslaunch][INFO] 2022-04-06 16:33:11,071: create_node_process: package[beginner_tutorials] type[joystick.py] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2022-04-06 16:33:11,072: process[joystick-4]: env[{'ROS_DISTRO': 'melodic', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SSH_CLIENT': '10.1.0.201 51062 22', 'LOGNAME': 'ubuntu', 'USER': 'ubuntu', 'PATH': '/home/ubuntu/.local/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'HOME': '/home/ubuntu', 'CMAKE_PREFIX_PATH': '/home/ubuntu/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/roslaunch-ubuntu-29852.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'XAUTHORITY': '/home/ubuntu/.Xauthority', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LD_LIBRARY_PATH': '/home/ubuntu/catkin_ws/devel/lib:/opt/ros/melodic/lib:/opt/ros/melodic/lib/aarch64-linux-gnu', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_PYTHON_VERSION': '2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/home/ubuntu/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/ubuntu/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/ubuntu/catkin_ws/src:/opt/ros/melodic/share', 'XDG_SESSION_ID': '1978', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_': '/opt/ros/melodic/bin/roslaunch', 'SSH_CONNECTION': '10.1.0.201 51062 10.1.0.196 22', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/1', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ubuntu/catkin_ws/devel/share/common-lisp', 'SHLVL': '1', 'PWD': '/home/ubuntu', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1', 'MAIL': '/var/mail/ubuntu', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'}]
+[roslaunch][INFO] 2022-04-06 16:33:11,077: process[joystick-4]: args[[u'/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py', u'__name:=joystick']]
+[roslaunch][INFO] 2022-04-06 16:33:11,078: ... created process [joystick-4]
+[roslaunch.pmon][INFO] 2022-04-06 16:33:11,079: ProcessMonitor.register[joystick-4]
+[roslaunch.pmon][INFO] 2022-04-06 16:33:11,079: ProcessMonitor.register[joystick-4] complete
+[roslaunch][INFO] 2022-04-06 16:33:11,080: ... registered process [joystick-4]
+[roslaunch][INFO] 2022-04-06 16:33:11,080: process[joystick-4]: starting os process
+[roslaunch][INFO] 2022-04-06 16:33:11,081: process[joystick-4]: start w/ args [[u'/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py', u'__name:=joystick', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/joystick-4.log']]
+[roslaunch][INFO] 2022-04-06 16:33:11,081: process[joystick-4]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 16:33:11,097: process[joystick-4]: started with pid [29875]
+[roslaunch][INFO] 2022-04-06 16:33:11,098: ... successfully launched [joystick-4]
+[roslaunch][INFO] 2022-04-06 16:33:11,099: ... preparing to launch node of type [beginner_tutorials/cancelJoystick.py]
+[roslaunch][INFO] 2022-04-06 16:33:11,099: create_node_process: package[beginner_tutorials] type[cancelJoystick.py] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2022-04-06 16:33:11,100: process[cancelJoystick-5]: env[{'ROS_DISTRO': 'melodic', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SSH_CLIENT': '10.1.0.201 51062 22', 'LOGNAME': 'ubuntu', 'USER': 'ubuntu', 'PATH': '/home/ubuntu/.local/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'HOME': '/home/ubuntu', 'CMAKE_PREFIX_PATH': '/home/ubuntu/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/roslaunch-ubuntu-29852.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'XAUTHORITY': '/home/ubuntu/.Xauthority', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LD_LIBRARY_PATH': '/home/ubuntu/catkin_ws/devel/lib:/opt/ros/melodic/lib:/opt/ros/melodic/lib/aarch64-linux-gnu', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_PYTHON_VERSION': '2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/home/ubuntu/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/ubuntu/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/ubuntu/catkin_ws/src:/opt/ros/melodic/share', 'XDG_SESSION_ID': '1978', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_': '/opt/ros/melodic/bin/roslaunch', 'SSH_CONNECTION': '10.1.0.201 51062 10.1.0.196 22', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/1', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ubuntu/catkin_ws/devel/share/common-lisp', 'SHLVL': '1', 'PWD': '/home/ubuntu', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1', 'MAIL': '/var/mail/ubuntu', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'}]
+[roslaunch][INFO] 2022-04-06 16:33:11,105: process[cancelJoystick-5]: args[[u'/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/cancelJoystick.py', u'__name:=cancelJoystick']]
+[roslaunch][INFO] 2022-04-06 16:33:11,106: ... created process [cancelJoystick-5]
+[roslaunch.pmon][INFO] 2022-04-06 16:33:11,106: ProcessMonitor.register[cancelJoystick-5]
+[roslaunch.pmon][INFO] 2022-04-06 16:33:11,107: ProcessMonitor.register[cancelJoystick-5] complete
+[roslaunch][INFO] 2022-04-06 16:33:11,107: ... registered process [cancelJoystick-5]
+[roslaunch][INFO] 2022-04-06 16:33:11,107: process[cancelJoystick-5]: starting os process
+[roslaunch][INFO] 2022-04-06 16:33:11,108: process[cancelJoystick-5]: start w/ args [[u'/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/cancelJoystick.py', u'__name:=cancelJoystick', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/cancelJoystick-5.log']]
+[roslaunch][INFO] 2022-04-06 16:33:11,108: process[cancelJoystick-5]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 16:33:11,144: process[cancelJoystick-5]: started with pid [29876]
+[roslaunch][INFO] 2022-04-06 16:33:11,145: ... successfully launched [cancelJoystick-5]
+[roslaunch][INFO] 2022-04-06 16:33:11,146: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2022-04-06 16:33:11,146: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 281473771237872)>
+[roslaunch.parent][INFO] 2022-04-06 16:33:11,146: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2022-04-06 16:33:11,147: spin
+[roslaunch][INFO] 2022-04-06 17:55:35,854: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:55:35,855: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:55:35,856: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:55:35,858: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:55:35,858: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:55:35,874: process[webcam-1]: started with pid [19904]
+[roslaunch][INFO] 2022-04-06 17:55:38,083: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:55:38,084: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:55:38,085: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:55:38,086: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:55:38,087: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:55:38,102: process[webcam-1]: started with pid [19948]
+[roslaunch][INFO] 2022-04-06 17:55:40,210: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:55:40,211: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:55:40,212: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:55:40,214: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:55:40,214: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:55:40,228: process[webcam-1]: started with pid [19979]
+[roslaunch][INFO] 2022-04-06 17:55:42,336: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:55:42,337: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:55:42,338: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:55:42,339: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:55:42,340: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:55:42,357: process[webcam-1]: started with pid [20014]
+[roslaunch][INFO] 2022-04-06 17:55:44,466: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:55:44,467: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:55:44,468: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:55:44,469: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:55:44,469: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:55:44,485: process[webcam-1]: started with pid [20048]
+[roslaunch][INFO] 2022-04-06 17:55:46,796: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:55:46,797: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:55:46,798: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:55:46,798: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:55:46,799: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:55:46,812: process[webcam-1]: started with pid [20112]
+[roslaunch][INFO] 2022-04-06 17:55:49,021: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:55:49,022: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:55:49,023: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:55:49,024: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:55:49,025: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:55:49,041: process[webcam-1]: started with pid [20154]
+[roslaunch][INFO] 2022-04-06 17:55:51,651: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:55:51,652: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:55:51,653: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:55:51,654: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:55:51,655: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:55:51,670: process[webcam-1]: started with pid [20186]
+[roslaunch][INFO] 2022-04-06 17:55:53,879: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:55:53,880: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:55:53,881: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:55:53,882: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:55:53,883: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:55:53,900: process[webcam-1]: started with pid [20226]
+[roslaunch][INFO] 2022-04-06 17:55:56,008: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:55:56,009: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:55:56,013: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:55:56,014: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:55:56,014: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:55:56,027: process[webcam-1]: started with pid [20262]
+[roslaunch][INFO] 2022-04-06 17:55:58,136: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:55:58,137: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:55:58,137: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:55:58,138: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:55:58,138: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:55:58,151: process[webcam-1]: started with pid [20304]
+[roslaunch][INFO] 2022-04-06 17:56:01,065: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:56:01,066: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:56:01,071: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:56:01,072: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:56:01,073: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:56:01,087: process[webcam-1]: started with pid [20376]
+[roslaunch][INFO] 2022-04-06 17:56:03,296: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:56:03,297: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:56:03,298: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:56:03,299: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:56:03,300: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:56:03,315: process[webcam-1]: started with pid [20415]
+[roslaunch][INFO] 2022-04-06 17:56:05,423: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:56:05,424: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:56:05,425: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:56:05,426: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:56:05,427: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:56:05,442: process[webcam-1]: started with pid [20449]
+[roslaunch][INFO] 2022-04-06 17:56:08,052: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:56:08,052: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:56:08,053: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:56:08,053: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:56:08,054: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:56:08,067: process[webcam-1]: started with pid [20481]
+[roslaunch][INFO] 2022-04-06 17:56:10,777: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:56:10,777: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:56:10,778: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:56:10,779: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:56:10,779: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:56:10,792: process[webcam-1]: started with pid [20525]
+[roslaunch][INFO] 2022-04-06 17:56:13,708: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:56:13,709: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:56:13,710: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:56:13,711: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:56:13,712: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:56:13,727: process[webcam-1]: started with pid [20592]
+[roslaunch][INFO] 2022-04-06 17:56:16,437: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:56:16,438: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:56:16,439: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:56:16,440: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:56:16,441: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:56:16,457: process[webcam-1]: started with pid [20625]
+[roslaunch][INFO] 2022-04-06 17:56:18,666: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:56:18,667: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:56:18,668: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:56:18,669: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:56:18,670: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:56:18,686: process[webcam-1]: started with pid [20661]
+[roslaunch][INFO] 2022-04-06 17:56:21,296: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:56:21,297: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:56:21,298: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:56:21,299: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:56:21,300: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:56:21,316: process[webcam-1]: started with pid [20696]
+[roslaunch][INFO] 2022-04-06 17:56:23,525: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:56:23,526: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:56:23,527: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:56:23,528: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:56:23,528: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:56:23,547: process[webcam-1]: started with pid [20759]
+[roslaunch][INFO] 2022-04-06 17:56:25,957: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:56:25,959: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:56:25,960: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:56:25,961: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:56:25,961: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:56:25,977: process[webcam-1]: started with pid [20804]
+[roslaunch][INFO] 2022-04-06 17:56:28,588: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:56:28,590: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:56:28,591: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:56:28,592: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:56:28,592: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:56:28,608: process[webcam-1]: started with pid [20832]
+[roslaunch][INFO] 2022-04-06 17:56:31,318: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:56:31,319: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:56:31,320: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:56:31,321: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:56:31,322: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:56:31,336: process[webcam-1]: started with pid [20869]
+[roslaunch][INFO] 2022-04-06 17:56:34,046: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:56:34,055: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:56:34,056: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:56:34,057: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:56:34,057: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:56:34,072: process[webcam-1]: started with pid [20917]
+[roslaunch][INFO] 2022-04-06 17:56:36,782: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:56:36,783: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:56:36,783: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:56:36,784: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:56:36,784: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:56:36,798: process[webcam-1]: started with pid [20978]
+[roslaunch][INFO] 2022-04-06 17:56:39,006: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:56:39,007: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:56:39,007: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:56:39,008: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:56:39,008: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:56:39,021: process[webcam-1]: started with pid [21010]
+[roslaunch][INFO] 2022-04-06 17:56:41,632: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:56:41,632: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:56:41,633: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:56:41,634: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:56:41,634: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:56:41,649: process[webcam-1]: started with pid [21042]
+[roslaunch][INFO] 2022-04-06 17:56:43,857: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:56:43,858: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:56:43,859: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:56:43,860: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:56:43,861: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:56:43,876: process[webcam-1]: started with pid [21081]
+[roslaunch][INFO] 2022-04-06 17:56:45,984: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:56:45,985: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:56:45,986: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:56:45,987: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:56:45,988: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:56:46,004: process[webcam-1]: started with pid [21109]
+[roslaunch][INFO] 2022-04-06 17:56:48,112: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:56:48,113: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:56:48,113: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:56:48,114: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:56:48,115: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:56:48,128: process[webcam-1]: started with pid [21155]
+[roslaunch][INFO] 2022-04-06 17:56:50,538: [webcam-1] process has finished cleanly
+log file: /home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1*.log
+[roslaunch][INFO] 2022-04-06 17:56:50,539: [webcam-1] restarting process
+[roslaunch][INFO] 2022-04-06 17:56:50,540: process[webcam-1]: restarting os process
+[roslaunch][INFO] 2022-04-06 17:56:50,541: process[webcam-1]: start w/ args [[u'/home/ubuntu/catkin_ws/src/camera_node/scripts/image_publisher.py', u'__name:=webcam', u'__log:=/home/ubuntu/.ros/log/3969e048-b5c7-11ec-a2d1-dca632829e4f/webcam-1.log']]
+[roslaunch][INFO] 2022-04-06 17:56:50,542: process[webcam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-04-06 17:56:50,558: process[webcam-1]: started with pid [21219]
+[roslaunch.pmon][INFO] 2022-04-06 17:56:52,048: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 281473771237872)>
+[roslaunch.pmon][INFO] 2022-04-06 17:56:52,065: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 281473771237872)>
+[roslaunch.pmon][INFO] 2022-04-06 17:56:52,065: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 281473771237872)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0xffffb840f7d0>, <roslaunch.nodeprocess.LocalProcess object at 0xffffb8264f90>, <roslaunch.nodeprocess.LocalProcess object at 0xffffb8264e10>, <roslaunch.nodeprocess.LocalProcess object at 0xffffb8264fd0>, <roslaunch.nodeprocess.LocalProcess object at 0xffffb828b190>]
+[roslaunch.pmon][INFO] 2022-04-06 17:56:52,067: ProcessMonitor exit: killing cancelJoystick-5
+[roslaunch.pmon][INFO] 2022-04-06 17:56:52,068: ProcessMonitor exit: killing joystick-4
+[roslaunch.pmon][INFO] 2022-04-06 17:56:52,068: ProcessMonitor exit: killing talker-3
+[roslaunch][INFO] 2022-04-06 17:56:52,069: [cancelJoystick-5] killing on exit
+[roslaunch.pmon][INFO] 2022-04-06 17:56:52,069: ProcessMonitor exit: killing listener-2
+[roslaunch][INFO] 2022-04-06 17:56:52,070: [joystick-4] killing on exit
+[roslaunch][INFO] 2022-04-06 17:56:52,071: [talker-3] killing on exit
+[roslaunch.pmon][INFO] 2022-04-06 17:56:52,071: ProcessMonitor exit: killing webcam-1
+[roslaunch][INFO] 2022-04-06 17:56:52,072: [listener-2] killing on exit
+[roslaunch][INFO] 2022-04-06 17:56:52,074: process[cancelJoystick-5]: killing os process with pid[29876] pgid[29876]
+[roslaunch][INFO] 2022-04-06 17:56:52,075: process[talker-3]: killing os process with pid[29874] pgid[29874]
+[roslaunch][INFO] 2022-04-06 17:56:52,075: [webcam-1] killing on exit
+[roslaunch][INFO] 2022-04-06 17:56:52,076: process[joystick-4]: killing os process with pid[29875] pgid[29875]
+[roslaunch][INFO] 2022-04-06 17:56:52,077: process[listener-2]: killing os process with pid[29873] pgid[29873]
+[roslaunch][INFO] 2022-04-06 17:56:52,078: [cancelJoystick-5] sending SIGINT to pgid [29876]
+[roslaunch][INFO] 2022-04-06 17:56:52,079: [talker-3] sending SIGINT to pgid [29874]
+[roslaunch][INFO] 2022-04-06 17:56:52,079: process[webcam-1]: killing os process with pid[21219] pgid[21219]
+[roslaunch][INFO] 2022-04-06 17:56:52,080: [joystick-4] sending SIGINT to pgid [29875]
+[roslaunch][INFO] 2022-04-06 17:56:52,080: [listener-2] sending SIGINT to pgid [29873]
+[roslaunch][INFO] 2022-04-06 17:56:52,081: [cancelJoystick-5] sent SIGINT to pgid [29876]
+[roslaunch][INFO] 2022-04-06 17:56:52,081: [talker-3] sent SIGINT to pgid [29874]
+[roslaunch][INFO] 2022-04-06 17:56:52,084: [joystick-4] sent SIGINT to pgid [29875]
+[roslaunch][INFO] 2022-04-06 17:56:52,084: [webcam-1] sending SIGINT to pgid [21219]
+[roslaunch][INFO] 2022-04-06 17:56:52,086: [listener-2] sent SIGINT to pgid [29873]
+[roslaunch][INFO] 2022-04-06 17:56:52,090: [webcam-1] sent SIGINT to pgid [21219]
+[roslaunch][INFO] 2022-04-06 17:56:52,390: process[cancelJoystick-5]: SIGINT killed with return value 0
+[roslaunch][INFO] 2022-04-06 17:56:52,391: process[listener-2]: SIGINT killed with return value 0
+[roslaunch][INFO] 2022-04-06 17:56:52,491: process[joystick-4]: SIGINT killed with return value 0
+[roslaunch][INFO] 2022-04-06 17:56:52,491: process[talker-3]: SIGINT killed with return value 0
+[roslaunch][INFO] 2022-04-06 17:56:52,593: process[webcam-1]: SIGINT killed with return value 1
+[roslaunch.pmon][INFO] 2022-04-06 17:56:52,594: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2022-04-06 17:56:52,595: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2022-04-06 17:56:52,614: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2022-04-06 17:56:52,615: runner.stop()
+[roslaunch][INFO] 2022-04-06 17:56:52,615: shutting down processing monitor...
+[roslaunch][INFO] 2022-04-06 17:56:52,616: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 281473771237872)>
+[roslaunch.pmon][INFO] 2022-04-06 17:56:52,616: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 281473771237872)>
+[roslaunch][INFO] 2022-04-06 17:56:52,617: ... shutting down processing monitor complete
+[roslaunch][INFO] 2022-04-06 17:56:52,617: done
+[roslaunch.pmon][INFO] 2022-04-06 17:56:52,618: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 281473771237872)>
+[rospy.core][INFO] 2022-04-06 17:56:52,618: signal_shutdown [atexit]

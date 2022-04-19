@@ -1,0 +1,16 @@
+
+
+1642962177.405296056  Node Startup
+1642962180.398112058 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642962180.39
+1642962184.400053024 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642962184.4
+1642962188.400037050 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642962188.4
+1642962192.399981975 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642962192.4
+1642962196.401880979 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642962196.4
+1642962200.398737907 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642962200.4
+1642962204.401772022 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642962204.4
+1642962208.401714086 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642962208.4
+1642962212.400330066 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642962212.4
+1642962216.404294967 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642962216.4
+1642962220.400691032 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642962220.4
+1642962224.402735948 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642962224.4
+1642962228.404352903 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642962228.4

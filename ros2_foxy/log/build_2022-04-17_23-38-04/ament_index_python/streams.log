@@ -1,0 +1,33 @@
+[6.799s] Invoking command in '/home/ubuntu/ros2_foxy/build/ament_index_python': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_lint PATH=/home/ubuntu/ros2_foxy/install/ament_copyright/bin:/home/ubuntu/ros2_foxy/install/ament_pep257/bin:/home/ubuntu/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_foxy/install/ament_index_python/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_copyright/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_pep257/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_flake8/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint:/home/ubuntu/ros2_foxy/install/ament_lint/lib/python3.6/site-packages /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/ament_index_python --editable --build-directory /home/ubuntu/ros2_foxy/build/ament_index_python/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/ament_index_python
+[9.080s] running develop
+[9.082s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.083s]   EasyInstallDeprecationWarning,
+[9.090s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.091s]   setuptools.SetuptoolsDeprecationWarning,
+[9.467s] /home/ubuntu/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[9.468s]   PkgResourcesDeprecationWarning,
+[10.180s] running egg_info
+[10.181s] creating ament_index_python.egg-info
+[10.182s] writing ament_index_python.egg-info/PKG-INFO
+[10.183s] writing dependency_links to ament_index_python.egg-info/dependency_links.txt
+[10.184s] writing entry points to ament_index_python.egg-info/entry_points.txt
+[10.185s] writing requirements to ament_index_python.egg-info/requires.txt
+[10.186s] writing top-level names to ament_index_python.egg-info/top_level.txt
+[10.197s] writing manifest file 'ament_index_python.egg-info/SOURCES.txt'
+[10.207s] reading manifest file 'ament_index_python.egg-info/SOURCES.txt'
+[10.213s] writing manifest file 'ament_index_python.egg-info/SOURCES.txt'
+[10.222s] running build_ext
+[10.223s] Creating /home/ubuntu/ros2_foxy/install/ament_index_python/lib/python3.6/site-packages/ament-index-python.egg-link (link to .)
+[10.229s] Installing ament_index script to /home/ubuntu/ros2_foxy/install/ament_index_python/bin
+[10.231s] 
+[10.233s] Installed /home/ubuntu/ros2_foxy/build/ament_index_python
+[10.234s] running install_data
+[10.235s] copying package.xml -> /home/ubuntu/ros2_foxy/install/ament_index_python/share/ament_index_python
+[10.236s] creating /home/ubuntu/ros2_foxy/install/ament_index_python/share/ament_index_python/environment
+[10.237s] copying completion/ament_index-argcomplete.bash -> /home/ubuntu/ros2_foxy/install/ament_index_python/share/ament_index_python/environment
+[10.238s] copying completion/ament_index-argcomplete.zsh -> /home/ubuntu/ros2_foxy/install/ament_index_python/share/ament_index_python/environment
+[10.249s] creating /home/ubuntu/ros2_foxy/install/ament_index_python/share/ament_index
+[10.252s] creating /home/ubuntu/ros2_foxy/install/ament_index_python/share/ament_index/resource_index
+[10.253s] creating /home/ubuntu/ros2_foxy/install/ament_index_python/share/ament_index/resource_index/packages
+[10.255s] copying resource/ament_index_python -> /home/ubuntu/ros2_foxy/install/ament_index_python/share/ament_index/resource_index/packages
+[10.406s] Invoked command in '/home/ubuntu/ros2_foxy/build/ament_index_python' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_lint PATH=/home/ubuntu/ros2_foxy/install/ament_copyright/bin:/home/ubuntu/ros2_foxy/install/ament_pep257/bin:/home/ubuntu/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_foxy/install/ament_index_python/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_copyright/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_pep257/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_flake8/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint:/home/ubuntu/ros2_foxy/install/ament_lint/lib/python3.6/site-packages /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/ament_index_python --editable --build-directory /home/ubuntu/ros2_foxy/build/ament_index_python/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/ament_index_python

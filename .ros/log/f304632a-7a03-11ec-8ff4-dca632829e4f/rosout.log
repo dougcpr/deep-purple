@@ -1,0 +1,8 @@
+
+
+1642691793.833723742  Node Startup
+1642691976.101401090 INFO /talker_18571_1642691975925 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642691976.1
+1642691980.108100891 INFO /talker_18571_1642691975925 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642691980.1
+1642691984.107340097 INFO /talker_18571_1642691975925 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642691984.1
+1642691988.108500003 INFO /talker_18571_1642691975925 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642691988.1
+1642691992.107944011 INFO /talker_18571_1642691975925 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642691992.1

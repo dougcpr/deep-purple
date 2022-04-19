@@ -1,0 +1,191 @@
+
+
+1647534457.092732982  Node Startup
+1647534463.086775064 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout] [FREEDOM] Starting to listen to topic: /rosout_agg
+1647534464.109072923 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout, /rosout_agg] [FREEDOM] Completed initializing LinkROS
+1647534508.691807031 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout, /rosout_agg, /tf] [FREEDOM] Starting to listen to topic: /video/click
+1647534508.714327096 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout, /rosout_agg, /tf, /video/click] [FREEDOM] Starting to listen to topic: /image_raw
+1647535785.582890033 INFO /link_ros [pool.py:113(worker)] [topics: /tf_static, /rosout_agg, /image_raw, /rosout, /tf, /video/click] [FREEDOM] Topic not found. No one is publishing on it currently. Will create the first publisher: /cmd_vel
+1647535785.596259117 INFO /link_ros [pool.py:113(worker)] [topics: /tf_static, /rosout_agg, /image_raw, /rosout, /cmd_vel, /tf, /video/click] [FREEDOM] Starting to listen to topic: /cmd_vel
+1647535923.612945079 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647535926.295226097 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647535929.458939075 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647535934.102767944 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647535937.569935083 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647535940.479707002 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647535973.782457113 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647535974.394310951 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647535975.881031990 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647535976.763150930 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647535977.719018936 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647535998.488367080 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647535998.802547931 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647536002.069160938 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647536003.402142047 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647536007.452131032 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647536008.243940114 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647536091.625202894 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647536092.129498004 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647536097.961560964 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647536100.003974914 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647536109.142292022 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647536111.917215108 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647536114.881613016 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647536117.722652912 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647537774.200356006 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647548981.530242919 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647548983.683340072 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647549049.079519033 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout_agg, /image_raw, /rosout, /cmd_vel, /tf, /video/click] [FREEDOM] received ROS command which was not formatted correctly for a message on topic: /video/click of type: geometry_msgs/PointStamped : ROS message type "geometry_msgs/PointStamped" has no field named "topic"
+1647549049.090332984 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout_agg, /image_raw, /rosout, /cmd_vel, /tf, /video/click] EXPECTED FORMAT: 
+{
+    "header": {
+        "stamp": {
+            "secs": 0, 
+            "nsecs": 0
+        }, 
+        "frame_id": "", 
+        "seq": 0
+    }, 
+    "point": {
+        "y": 0.0, 
+        "x": 0.0, 
+        "z": 0.0
+    }
+}
+1647549049.098419904 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout_agg, /image_raw, /rosout, /cmd_vel, /tf, /video/click] RECEIVED FORMAT: 
+{
+    "topic": "/video/click", 
+    "platform": "ros", 
+    "message": {
+        "header": {
+            "stamp": "now", 
+            "frame_id": "/image_raw", 
+            "seq": 0
+        }, 
+        "point": {
+            "y": 0.44, 
+            "x": 0.22, 
+            "z": 0
+        }
+    }, 
+    "expiration_secs": 5, 
+    "type": "geometry_msgs/PointStamped"
+}
+1647549058.928267955 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout_agg, /image_raw, /rosout, /cmd_vel, /tf, /video/click] [FREEDOM] received ROS command which was not formatted correctly for a message on topic: /video/click of type: geometry_msgs/PointStamped : ROS message type "geometry_msgs/PointStamped" has no field named "topic"
+1647549058.934272050 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout_agg, /image_raw, /rosout, /cmd_vel, /tf, /video/click] EXPECTED FORMAT: 
+{
+    "header": {
+        "stamp": {
+            "secs": 0, 
+            "nsecs": 0
+        }, 
+        "frame_id": "", 
+        "seq": 0
+    }, 
+    "point": {
+        "y": 0.0, 
+        "x": 0.0, 
+        "z": 0.0
+    }
+}
+1647549058.941509008 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout_agg, /image_raw, /rosout, /cmd_vel, /tf, /video/click] RECEIVED FORMAT: 
+{
+    "topic": "/video/click", 
+    "platform": "ros", 
+    "message": {
+        "header": {
+            "stamp": "now", 
+            "frame_id": "/image_raw", 
+            "seq": 0
+        }, 
+        "point": {
+            "y": 0.44, 
+            "x": 0.22, 
+            "z": 0
+        }
+    }, 
+    "expiration_secs": 5, 
+    "type": "geometry_msgs/PointStamped"
+}
+1647549073.563000917 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647549150.586508035 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647549156.449192047 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout_agg, /image_raw, /rosout, /cmd_vel, /tf, /video/click] [FREEDOM] received command for topic /video/click, but we failed to convert it to a geometry_msgs/PointStamped ros message: 'list' object has no attribute 'items'
+1647549159.607985973 WARN /talker [tcpros_base.py:355(TCPROSServer._tcp_server_callback)] [topics: /rosout, /video/click] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1647549171.733580112 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout] [FREEDOM] Starting to listen to topic: /rosout_agg
+1647549171.803162097 INFO /link_ros [threading.py:754(Thread.run)] [topics: /rosout, /rosout_agg] [FREEDOM] Starting to listen to topic: /video/click
+1647549171.818751096 INFO /link_ros [threading.py:754(Thread.run)] [topics: /rosout, /video/click, /rosout_agg] [FREEDOM] Starting to listen to topic: /image_raw
+1647549172.753851890 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout, /video/click, /rosout_agg, /image_raw] [FREEDOM] Completed initializing LinkROS
+1647549229.165205001 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /video/click, /rosout_agg, /image_raw, /rosout, /tf] [FREEDOM] received ROS command which was not formatted correctly for a message on topic: /video/click of type: geometry_msgs/PointStamped : ROS message type "geometry_msgs/PointStamped" has no field named "topic"
+1647549229.174544095 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /video/click, /rosout_agg, /image_raw, /rosout, /tf] EXPECTED FORMAT: 
+{
+    "header": {
+        "stamp": {
+            "secs": 0, 
+            "nsecs": 0
+        }, 
+        "frame_id": "", 
+        "seq": 0
+    }, 
+    "point": {
+        "y": 0.0, 
+        "x": 0.0, 
+        "z": 0.0
+    }
+}
+1647549229.197930097 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /video/click, /rosout_agg, /image_raw, /rosout, /tf] RECEIVED FORMAT: 
+{
+    "topic": "/video/click", 
+    "platform": "ros", 
+    "message": {
+        "header": {
+            "stamp": "now", 
+            "frame_id": "/image_raw", 
+            "seq": 0
+        }, 
+        "point": {
+            "y": 0.37, 
+            "x": 0.3, 
+            "z": 0
+        }
+    }, 
+    "expiration_secs": 5, 
+    "type": "geometry_msgs/PointStamped"
+}
+1647549268.288878917 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------
+1647549290.299940109 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /video/click, /rosout_agg, /image_raw, /rosout, /tf] [FREEDOM] received ROS command which was not formatted correctly for a message on topic: /video/click of type: geometry_msgs/PointStamped : ROS message type "geometry_msgs/PointStamped" has no field named "topic"
+1647549290.307946920 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /video/click, /rosout_agg, /image_raw, /rosout, /tf] EXPECTED FORMAT: 
+{
+    "header": {
+        "stamp": {
+            "secs": 0, 
+            "nsecs": 0
+        }, 
+        "frame_id": "", 
+        "seq": 0
+    }, 
+    "point": {
+        "y": 0.0, 
+        "x": 0.0, 
+        "z": 0.0
+    }
+}
+1647549290.330382108 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /video/click, /rosout_agg, /image_raw, /rosout, /tf] RECEIVED FORMAT: 
+{
+    "topic": "/video/click", 
+    "platform": "ros", 
+    "message": {
+        "header": {
+            "stamp": "now", 
+            "frame_id": "/image_raw", 
+            "seq": 0
+        }, 
+        "point": {
+            "y": 0.37, 
+            "x": 0.3, 
+            "z": 0
+        }
+    }, 
+    "expiration_secs": 5, 
+    "type": "geometry_msgs/PointStamped"
+}
+1647549383.695717096 INFO /listener [listener.py:36(callback)] [topics: /rosout, /video/click] --------------------

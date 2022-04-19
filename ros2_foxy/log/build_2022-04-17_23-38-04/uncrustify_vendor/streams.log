@@ -1,0 +1,205 @@
+[0.155s] Invoking command in '/home/ubuntu/ros2_foxy/build/uncrustify_vendor': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake:/home/ubuntu/ros2_foxy/install/ament_cmake_test:/home/ubuntu/ros2_foxy/install/ament_cmake_target_dependencies:/home/ubuntu/ros2_foxy/install/ament_cmake_export_targets:/home/ubuntu/ros2_foxy/install/ament_cmake_export_interfaces:/home/ubuntu/ros2_foxy/install/ament_cmake_export_dependencies:/home/ubuntu/ros2_foxy/install/ament_cmake_version:/home/ubuntu/ros2_foxy/install/ament_cmake_python:/home/ubuntu/ros2_foxy/install/ament_cmake_libraries:/home/ubuntu/ros2_foxy/install/ament_cmake_include_directories:/home/ubuntu/ros2_foxy/install/ament_cmake_export_link_flags:/home/ubuntu/ros2_foxy/install/ament_cmake_export_libraries:/home/ubuntu/ros2_foxy/install/ament_cmake_export_include_directories:/home/ubuntu/ros2_foxy/install/ament_cmake_export_definitions:/home/ubuntu/ros2_foxy/install/ament_cmake_core:/home/ubuntu/ros2_foxy/install/ament_package CMAKE_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake:/home/ubuntu/ros2_foxy/install/ament_cmake_test:/home/ubuntu/ros2_foxy/install/ament_cmake_target_dependencies:/home/ubuntu/ros2_foxy/install/ament_cmake_export_targets:/home/ubuntu/ros2_foxy/install/ament_cmake_export_interfaces:/home/ubuntu/ros2_foxy/install/ament_cmake_export_dependencies:/home/ubuntu/ros2_foxy/install/ament_cmake_version:/home/ubuntu/ros2_foxy/install/ament_cmake_python:/home/ubuntu/ros2_foxy/install/ament_cmake_libraries:/home/ubuntu/ros2_foxy/install/ament_cmake_include_directories:/home/ubuntu/ros2_foxy/install/ament_cmake_export_link_flags:/home/ubuntu/ros2_foxy/install/ament_cmake_export_libraries:/home/ubuntu/ros2_foxy/install/ament_cmake_export_include_directories:/home/ubuntu/ros2_foxy/install/ament_cmake_export_definitions:/home/ubuntu/ros2_foxy/install/ament_cmake_core PYTHONPATH=/home/ubuntu/ros2_foxy/install/ament_cmake_test/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_package:/home/ubuntu/ros2_foxy/install/ament_package/lib/python3.6/site-packages /usr/bin/cmake /home/ubuntu/ros2_foxy/src/ament/uncrustify_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_foxy/install/uncrustify_vendor
+[0.469s] -- The C compiler identification is GNU 7.5.0
+[0.739s] -- The CXX compiler identification is GNU 7.5.0
+[0.759s] -- Check for working C compiler: /usr/bin/cc
+[2.091s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.095s] -- Detecting C compiler ABI info
+[2.787s] -- Detecting C compiler ABI info - done
+[2.815s] -- Detecting C compile features
+[4.037s] -- Detecting C compile features - done
+[4.049s] -- Check for working CXX compiler: /usr/bin/c++
+[4.423s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.427s] -- Detecting CXX compiler ABI info
+[4.853s] -- Detecting CXX compiler ABI info - done
+[4.873s] -- Detecting CXX compile features
+[6.683s] -- Detecting CXX compile features - done
+[6.691s] -- Found ament_cmake: 0.9.9 (/home/ubuntu/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+[6.972s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[6.973s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.540s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.725s] -- Found Patch: /usr/bin/patch  
+[9.232s] -- Configuring done
+[9.251s] -- Generating done
+[9.258s] -- Build files have been written to: /home/ubuntu/ros2_foxy/build/uncrustify_vendor
+[9.272s] Invoked command in '/home/ubuntu/ros2_foxy/build/uncrustify_vendor' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake:/home/ubuntu/ros2_foxy/install/ament_cmake_test:/home/ubuntu/ros2_foxy/install/ament_cmake_target_dependencies:/home/ubuntu/ros2_foxy/install/ament_cmake_export_targets:/home/ubuntu/ros2_foxy/install/ament_cmake_export_interfaces:/home/ubuntu/ros2_foxy/install/ament_cmake_export_dependencies:/home/ubuntu/ros2_foxy/install/ament_cmake_version:/home/ubuntu/ros2_foxy/install/ament_cmake_python:/home/ubuntu/ros2_foxy/install/ament_cmake_libraries:/home/ubuntu/ros2_foxy/install/ament_cmake_include_directories:/home/ubuntu/ros2_foxy/install/ament_cmake_export_link_flags:/home/ubuntu/ros2_foxy/install/ament_cmake_export_libraries:/home/ubuntu/ros2_foxy/install/ament_cmake_export_include_directories:/home/ubuntu/ros2_foxy/install/ament_cmake_export_definitions:/home/ubuntu/ros2_foxy/install/ament_cmake_core:/home/ubuntu/ros2_foxy/install/ament_package CMAKE_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake:/home/ubuntu/ros2_foxy/install/ament_cmake_test:/home/ubuntu/ros2_foxy/install/ament_cmake_target_dependencies:/home/ubuntu/ros2_foxy/install/ament_cmake_export_targets:/home/ubuntu/ros2_foxy/install/ament_cmake_export_interfaces:/home/ubuntu/ros2_foxy/install/ament_cmake_export_dependencies:/home/ubuntu/ros2_foxy/install/ament_cmake_version:/home/ubuntu/ros2_foxy/install/ament_cmake_python:/home/ubuntu/ros2_foxy/install/ament_cmake_libraries:/home/ubuntu/ros2_foxy/install/ament_cmake_include_directories:/home/ubuntu/ros2_foxy/install/ament_cmake_export_link_flags:/home/ubuntu/ros2_foxy/install/ament_cmake_export_libraries:/home/ubuntu/ros2_foxy/install/ament_cmake_export_include_directories:/home/ubuntu/ros2_foxy/install/ament_cmake_export_definitions:/home/ubuntu/ros2_foxy/install/ament_cmake_core PYTHONPATH=/home/ubuntu/ros2_foxy/install/ament_cmake_test/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_package:/home/ubuntu/ros2_foxy/install/ament_package/lib/python3.6/site-packages /usr/bin/cmake /home/ubuntu/ros2_foxy/src/ament/uncrustify_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_foxy/install/uncrustify_vendor
+[9.286s] Invoking command in '/home/ubuntu/ros2_foxy/build/uncrustify_vendor': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake:/home/ubuntu/ros2_foxy/install/ament_cmake_test:/home/ubuntu/ros2_foxy/install/ament_cmake_target_dependencies:/home/ubuntu/ros2_foxy/install/ament_cmake_export_targets:/home/ubuntu/ros2_foxy/install/ament_cmake_export_interfaces:/home/ubuntu/ros2_foxy/install/ament_cmake_export_dependencies:/home/ubuntu/ros2_foxy/install/ament_cmake_version:/home/ubuntu/ros2_foxy/install/ament_cmake_python:/home/ubuntu/ros2_foxy/install/ament_cmake_libraries:/home/ubuntu/ros2_foxy/install/ament_cmake_include_directories:/home/ubuntu/ros2_foxy/install/ament_cmake_export_link_flags:/home/ubuntu/ros2_foxy/install/ament_cmake_export_libraries:/home/ubuntu/ros2_foxy/install/ament_cmake_export_include_directories:/home/ubuntu/ros2_foxy/install/ament_cmake_export_definitions:/home/ubuntu/ros2_foxy/install/ament_cmake_core:/home/ubuntu/ros2_foxy/install/ament_package CMAKE_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake:/home/ubuntu/ros2_foxy/install/ament_cmake_test:/home/ubuntu/ros2_foxy/install/ament_cmake_target_dependencies:/home/ubuntu/ros2_foxy/install/ament_cmake_export_targets:/home/ubuntu/ros2_foxy/install/ament_cmake_export_interfaces:/home/ubuntu/ros2_foxy/install/ament_cmake_export_dependencies:/home/ubuntu/ros2_foxy/install/ament_cmake_version:/home/ubuntu/ros2_foxy/install/ament_cmake_python:/home/ubuntu/ros2_foxy/install/ament_cmake_libraries:/home/ubuntu/ros2_foxy/install/ament_cmake_include_directories:/home/ubuntu/ros2_foxy/install/ament_cmake_export_link_flags:/home/ubuntu/ros2_foxy/install/ament_cmake_export_libraries:/home/ubuntu/ros2_foxy/install/ament_cmake_export_include_directories:/home/ubuntu/ros2_foxy/install/ament_cmake_export_definitions:/home/ubuntu/ros2_foxy/install/ament_cmake_core PYTHONPATH=/home/ubuntu/ros2_foxy/install/ament_cmake_test/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_package:/home/ubuntu/ros2_foxy/install/ament_package/lib/python3.6/site-packages /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/uncrustify_vendor -- -j4 -l4
+[9.465s] [35m[1mScanning dependencies of target uncrustify-0.68.1[0m
+[9.520s] [ 12%] [34m[1mCreating directories for 'uncrustify-0.68.1'[0m
+[9.812s] [ 25%] [34m[1mPerforming download step (download, verify and extract) for 'uncrustify-0.68.1'[0m
+[9.853s] -- Downloading...
+[9.854s]    dst='/home/ubuntu/ros2_foxy/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/45b836cff040594994d364ad6fd3f04adc890a26.tar.gz'
+[9.855s]    timeout='600 seconds'
+[9.856s] -- Using src='https://github.com/uncrustify/uncrustify/archive/45b836cff040594994d364ad6fd3f04adc890a26.tar.gz'
+[10.122s] -- [download 100% complete]
+[10.986s] -- verifying file...
+[10.987s]        file='/home/ubuntu/ros2_foxy/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/45b836cff040594994d364ad6fd3f04adc890a26.tar.gz'
+[10.999s] -- Downloading... done
+[11.101s] -- extracting...
+[11.103s]      src='/home/ubuntu/ros2_foxy/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/45b836cff040594994d364ad6fd3f04adc890a26.tar.gz'
+[11.104s]      dst='/home/ubuntu/ros2_foxy/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1'
+[11.106s] -- extracting... [tar xfz]
+[13.095s] -- extracting... [analysis]
+[13.097s] -- extracting... [rename]
+[13.098s] -- extracting... [clean up]
+[13.099s] -- extracting... done
+[13.277s] [ 37%] [34m[1mPerforming patch step for 'uncrustify-0.68.1'[0m
+[13.358s] patching file CMakeLists.txt
+[13.498s] [ 50%] [34m[1mNo update step for 'uncrustify-0.68.1'[0m
+[13.642s] [ 62%] [34m[1mPerforming configure step for 'uncrustify-0.68.1'[0m
+[13.995s] -- The C compiler identification is GNU 7.5.0
+[14.307s] -- The CXX compiler identification is GNU 7.5.0
+[14.336s] -- Check for working C compiler: /usr/bin/cc
+[14.714s] -- Check for working C compiler: /usr/bin/cc -- works
+[14.718s] -- Detecting C compiler ABI info
+[15.079s] -- Detecting C compiler ABI info - done
+[15.129s] -- Detecting C compile features
+[21.484s] -- Detecting C compile features - done
+[21.501s] -- Check for working CXX compiler: /usr/bin/c++
+[21.909s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[21.912s] -- Detecting CXX compiler ABI info
+[22.294s] -- Detecting CXX compiler ABI info - done
+[22.340s] -- Detecting CXX compile features
+[24.493s] -- Detecting CXX compile features - done
+[24.569s] -- Performing Test CXXFLAG_Wall
+[24.970s] -- Performing Test CXXFLAG_Wall - Success
+[24.990s] -- Performing Test CXXFLAG_Wextra
+[25.394s] -- Performing Test CXXFLAG_Wextra - Success
+[25.412s] -- Performing Test CXXFLAG_Wshadow
+[25.802s] -- Performing Test CXXFLAG_Wshadow - Success
+[25.821s] -- Performing Test CXXFLAG_Wpointer_arith
+[26.211s] -- Performing Test CXXFLAG_Wpointer_arith - Success
+[26.227s] -- Performing Test CXXFLAG_Wcast_qual
+[26.626s] -- Performing Test CXXFLAG_Wcast_qual - Success
+[26.643s] -- Performing Test CXXFLAG_Wcast_align
+[27.035s] -- Performing Test CXXFLAG_Wcast_align - Success
+[27.051s] -- Performing Test CXXFLAG_Wc_11_extensions
+[27.168s] -- Performing Test CXXFLAG_Wc_11_extensions - Failed
+[27.173s] -- Looking for C++ include inttypes.h
+[27.602s] -- Looking for C++ include inttypes.h - found
+[27.606s] -- Looking for C++ include memory.h
+[28.055s] -- Looking for C++ include memory.h - found
+[28.062s] -- Looking for C++ include stdint.h
+[28.466s] -- Looking for C++ include stdint.h - found
+[28.469s] -- Looking for C++ include stdlib.h
+[28.943s] -- Looking for C++ include stdlib.h - found
+[28.946s] -- Looking for C++ include strings.h
+[29.633s] -- Looking for C++ include strings.h - found
+[29.638s] -- Looking for C++ include string.h
+[30.113s] -- Looking for C++ include string.h - found
+[30.117s] -- Looking for C++ include sys/stat.h
+[30.616s] -- Looking for C++ include sys/stat.h - found
+[30.617s] -- Looking for C++ include sys/types.h
+[31.058s] -- Looking for C++ include sys/types.h - found
+[31.065s] -- Looking for C++ include unistd.h
+[32.120s] -- Looking for C++ include unistd.h - found
+[32.127s] -- Looking for C++ include utime.h
+[32.560s] -- Looking for C++ include utime.h - found
+[32.572s] -- Looking for stdbool.h
+[32.971s] -- Looking for stdbool.h - found
+[32.976s] -- Looking for memset
+[33.474s] -- Looking for memset - found
+[33.480s] -- Looking for strcasecmp
+[33.978s] -- Looking for strcasecmp - found
+[33.984s] -- Looking for strchr
+[34.229s] -- Looking for strchr - not found
+[34.236s] -- Looking for strdup
+[34.855s] -- Looking for strdup - found
+[34.861s] -- Looking for strerror
+[35.353s] -- Looking for strerror - found
+[35.356s] -- Looking for strtol
+[35.861s] -- Looking for strtol - found
+[35.867s] -- Looking for strtoul
+[38.191s] -- Looking for strtoul - found
+[38.195s] -- Looking for stddef.h
+[38.561s] -- Looking for stddef.h - found
+[38.564s] -- Check size of _Bool
+[38.951s] -- Check size of _Bool - done
+[39.036s] -- Found PythonInterp: /usr/bin/python (found version "2.7.17") 
+[39.122s] -- scripts/make_version.py exited with code 64: Unknown version control system in '/home/ubuntu/ros2_foxy/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1'.
+[39.122s] 
+[39.123s] As a fallback, version 'Uncrustify-0.69.0_f' will be used.
+[39.322s] -- Configuring done
+[40.058s] -- Generating done
+[40.189s] -- Build files have been written to: /home/ubuntu/ros2_foxy/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build
+[40.300s] [ 75%] [34m[1mPerforming build step for 'uncrustify-0.68.1'[0m
+[40.522s] [  2%] [34m[1mGenerating option_enum.cpp[0m
+[40.724s] [  5%] [34m[1mGenerating punctuator_table.h[0m
+[40.936s] [  5%] [34m[1mGenerating token_names.h[0m
+[41.068s] [  5%] [34m[1mGenerating options.cpp[0m
+[41.279s] [  7%] [34m[1mGenerating option_enum.h[0m
+[41.490s] [35m[1mScanning dependencies of target uncrustify[0m
+[41.921s] [  7%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align.cpp.o[0m
+[44.619s] [ 10%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_asm_colon.cpp.o[0m
+[50.290s] [ 10%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_func_params.cpp.o[0m
+[53.536s] [ 13%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_func_proto.cpp.o[0m
+[56.260s] [ 13%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_init_brace.cpp.o[0m
+[64.201s] [ 15%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_left_shift.cpp.o[0m
+[65.604s] [ 15%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_log_al.cpp.o[0m
+[66.611s] [ 18%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_nl_cont.cpp.o[0m
+[67.758s] [ 18%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_oc_decl_colon.cpp.o[0m
+[68.758s] [ 21%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_oc_msg_spec.cpp.o[0m
+[69.730s] [ 21%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_oc_msg_colons.cpp.o[0m
+[70.850s] [ 23%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_preprocessor.cpp.o[0m
+[71.879s] [ 23%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_same_func_call_params.cpp.o[0m
+[73.435s] [ 26%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_stack.cpp.o[0m
+[74.567s] [ 26%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_struct_initializers.cpp.o[0m
+[76.353s] [ 28%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_tab_column.cpp.o[0m
+[78.289s] [ 31%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_tools.cpp.o[0m
+[79.187s] [ 31%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_trailing_comments.cpp.o[0m
+[81.923s] [ 34%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_typedefs.cpp.o[0m
+[82.977s] [ 34%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_var_def_brace.cpp.o[0m
+[84.047s] [ 36%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/args.cpp.o[0m
+[84.261s] [ 36%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/backup.cpp.o[0m
+[85.699s] [ 39%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/braces.cpp.o[0m
+[87.283s] [ 39%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/brace_cleanup.cpp.o[0m
+[89.895s] [ 42%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/ChunkStack.cpp.o[0m
+[91.026s] [ 42%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/chunk_list.cpp.o[0m
+[92.216s] [ 44%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/combine.cpp.o[0m
+[95.842s] [ 44%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/combine_labels.cpp.o[0m
+[97.417s] [ 47%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/compat_posix.cpp.o[0m
+[98.282s] [ 47%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/compat_win32.cpp.o[0m
+[98.378s] [ 50%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/cs_top_is_question.cpp.o[0m
+[99.390s] [ 50%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/detect.cpp.o[0m
+[100.443s] [ 52%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/enum_cleanup.cpp.o[0m
+[101.366s] [ 52%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/flag_parens.cpp.o[0m
+[111.021s] [ 55%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/indent.cpp.o[0m
+[116.413s] [ 55%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/keywords.cpp.o[0m
+[117.818s] [ 57%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/lang_pawn.cpp.o[0m
+[118.998s] [ 57%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/language_tools.cpp.o[0m
+[119.731s] [ 60%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/logger.cpp.o[0m
+[120.867s] [ 60%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/logmask.cpp.o[0m
+[121.447s] [ 63%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/md5.cpp.o[0m
+[121.690s] [ 65%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/newlines.cpp.o[0m
+[123.859s] [ 65%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/option.cpp.o[0m
+[126.461s] [ 68%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/options_for_QT.cpp.o[0m
+[128.439s] [ 68%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/output.cpp.o[0m
+[128.478s] [ 68%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_assign.cpp.o[0m
+[129.507s] [ 71%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/parens.cpp.o[0m
+[129.789s] [ 71%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/quick_align_again.cpp.o[0m
+[130.458s] [ 73%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/frame_list.cpp.o[0m
+[130.774s] [ 73%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/ParseFrame.cpp.o[0m
+[132.174s] [ 73%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/semicolons.cpp.o[0m
+[132.980s] [ 76%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/sorting.cpp.o[0m
+[135.018s] [ 76%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/space.cpp.o[0m
+[137.022s] [ 78%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/punctuators.cpp.o[0m
+[138.031s] [ 81%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/tokenize.cpp.o[0m
+[139.072s] [ 81%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/tokenize_cleanup.cpp.o[0m
+[139.670s] [ 84%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_add.cpp.o[0m
+[140.702s] [ 86%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/uncrustify.cpp.o[0m
+[140.762s] [ 86%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/uncrustify_types.cpp.o[0m
+[141.051s] [ 89%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/unc_text.cpp.o[0m
+[141.681s] [ 89%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/unc_tools.cpp.o[0m
+[142.622s] [ 92%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/unicode.cpp.o[0m
+[143.484s] [ 92%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/universalindentgui.cpp.o[0m
+[143.701s] [ 94%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/width.cpp.o[0m
+[144.194s] [ 94%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/options.cpp.o[0m
+[144.710s] [ 97%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/option_enum.cpp.o[0m
+[146.344s] [100%] [32m[1mLinking CXX executable uncrustify[0m
+[147.267s] [100%] Built target uncrustify
+[147.383s] [ 87%] [34m[1mPerforming install step for 'uncrustify-0.68.1'[0m
+[147.673s] [100%] Built target uncrustify
+[147.761s] [36mInstall the project...[0m
+[147.793s] -- Install configuration: ""
+[147.794s] -- Installing: /home/ubuntu/ros2_foxy/build/uncrustify_vendor/uncrustify_vendor_install/bin/uncrustify
+[147.881s] [100%] [34m[1mCompleted 'uncrustify-0.68.1'[0m
+[148.006s] [100%] Built target uncrustify-0.68.1

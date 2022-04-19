@@ -1,0 +1,13 @@
+[rospy.client][INFO] 2022-01-28 19:53:51,589: init_node, name[/rostopic_11635_1643399631526], pid[11635]
+[xmlrpc][INFO] 2022-01-28 19:53:51,590: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-28 19:53:51,591: Started XML-RPC server [http://ubuntu:41485/]
+[rospy.init][INFO] 2022-01-28 19:53:51,592: ROS Slave URI: [http://ubuntu:41485/]
+[rospy.impl.masterslave][INFO] 2022-01-28 19:53:51,592: _ready: http://ubuntu:41485/
+[rospy.registration][INFO] 2022-01-28 19:53:51,593: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-28 19:53:51,593: xml rpc node: starting XML-RPC server
+[rospy.core][INFO] 2022-01-28 19:53:51,627: signal_shutdown [signal-2]
+[rospy.init][INFO] 2022-01-28 19:53:51,762: registered with master
+[rospy.core][WARNING] 2022-01-28 19:53:51,763: add_shutdown_hook called after shutdown
+[rospy.impl.masterslave][INFO] 2022-01-28 19:53:51,763: already shutdown
+[rospy.client][WARNING] 2022-01-28 19:53:51,763: aborting node initialization as shutdown has been triggered
+[rospy.core][INFO] 2022-01-28 19:53:51,769: signal_shutdown [atexit]

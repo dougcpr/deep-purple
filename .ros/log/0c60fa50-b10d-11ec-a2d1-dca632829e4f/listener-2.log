@@ -1,0 +1,692 @@
+[rospy.client][INFO] 2022-03-31 16:17:38,392: init_node, name[/listener], pid[9237]
+[xmlrpc][INFO] 2022-03-31 16:17:38,405: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-03-31 16:17:38,407: Started XML-RPC server [http://ubuntu:36265/]
+[rospy.impl.masterslave][INFO] 2022-03-31 16:17:38,408: _ready: http://ubuntu:36265/
+[rospy.init][INFO] 2022-03-31 16:17:38,413: ROS Slave URI: [http://ubuntu:36265/]
+[xmlrpc][INFO] 2022-03-31 16:17:38,419: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-03-31 16:17:38,421: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-03-31 16:17:38,514: registered with master
+[rospy.rosout][INFO] 2022-03-31 16:17:38,516: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-31 16:17:38,537: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-31 16:17:38,540: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-31 16:17:38,777: topic[/video/click] adding connection to [http://ubuntu:43319/], count 0
+[rospy.internal][INFO] 2022-03-31 16:17:38,848: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-03-31 16:17:43,611: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-31 16:17:43,623: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-31 16:17:43,624: topic[/video/click] removing connection to http://ubuntu:43319/
+[rospy.internal][WARNING] 2022-03-31 16:17:43,627: Unknown error initiating TCP/IP socket to ubuntu:45967 (http://ubuntu:43319/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.impl.masterslave][INFO] 2022-03-31 16:17:43,628: signal-2
+[rospy.core][INFO] 2022-03-31 16:17:43,733: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-03-31 16:19:01,498: init_node, name[/listener], pid[10476]
+[xmlrpc][INFO] 2022-03-31 16:19:01,517: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-03-31 16:19:01,519: Started XML-RPC server [http://ubuntu:38845/]
+[rospy.impl.masterslave][INFO] 2022-03-31 16:19:01,520: _ready: http://ubuntu:38845/
+[rospy.init][INFO] 2022-03-31 16:19:01,521: ROS Slave URI: [http://ubuntu:38845/]
+[rospy.registration][INFO] 2022-03-31 16:19:01,524: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-03-31 16:19:01,533: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-03-31 16:19:01,623: registered with master
+[rospy.rosout][INFO] 2022-03-31 16:19:01,624: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-31 16:19:01,637: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-31 16:19:01,641: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-31 16:19:01,767: topic[/video/click] adding connection to [http://ubuntu:42731/], count 0
+[rospy.internal][INFO] 2022-03-31 16:19:01,853: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-03-31 16:19:08,615: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-31 16:19:08,634: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-31 16:19:08,635: topic[/video/click] removing connection to http://ubuntu:42731/
+[rospy.impl.masterslave][INFO] 2022-03-31 16:19:08,636: signal-2
+[rospy.internal][WARNING] 2022-03-31 16:19:08,639: Unknown error initiating TCP/IP socket to ubuntu:42805 (http://ubuntu:42731/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 561, in connect
+    self.write_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 642, in write_header
+    self.stat_bytes += write_ros_handshake_header(sock, protocol.get_header_fields())
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 417, in write_ros_handshake_header
+    sock.sendall(s)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+  File "/usr/lib/python2.7/socket.py", line 174, in _dummy
+    raise error(EBADF, 'Bad file descriptor')
+error: [Errno 9] Bad file descriptor
+
+[rospy.core][INFO] 2022-03-31 16:19:09,254: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-03-31 16:21:44,126: init_node, name[/listener], pid[12673]
+[xmlrpc][INFO] 2022-03-31 16:21:44,130: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-03-31 16:21:44,132: ROS Slave URI: [http://ubuntu:42175/]
+[xmlrpc][INFO] 2022-03-31 16:21:44,134: Started XML-RPC server [http://ubuntu:42175/]
+[rospy.impl.masterslave][INFO] 2022-03-31 16:21:44,135: _ready: http://ubuntu:42175/
+[rospy.registration][INFO] 2022-03-31 16:21:44,155: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-03-31 16:21:44,156: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-03-31 16:21:44,234: registered with master
+[rospy.rosout][INFO] 2022-03-31 16:21:44,234: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-31 16:21:44,253: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-31 16:21:44,256: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-31 16:21:44,350: topic[/video/click] adding connection to [http://ubuntu:36115/], count 0
+[rospy.internal][INFO] 2022-03-31 16:21:44,542: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-03-31 16:30:23,404: topic[/video/click] adding connection to [http://ubuntu:33967/], count 1
+[rosout][INFO] 2022-03-31 16:30:24,204: --------------------
+[rosout][INFO] 2022-03-31 16:30:26,401: --------------------
+[rosout][INFO] 2022-03-31 16:30:31,354: --------------------
+[rosout][INFO] 2022-03-31 16:30:32,954: --------------------
+[rosout][INFO] 2022-03-31 16:30:35,463: --------------------
+[rosout][INFO] 2022-03-31 16:33:49,926: --------------------
+[rosout][INFO] 2022-03-31 16:37:15,590: --------------------
+[rosout][INFO] 2022-03-31 16:37:17,737: --------------------
+[rosout][INFO] 2022-03-31 16:37:19,699: --------------------
+[rosout][INFO] 2022-03-31 16:37:21,475: --------------------
+[rosout][INFO] 2022-03-31 16:37:26,034: --------------------
+[rosout][INFO] 2022-03-31 16:37:26,707: --------------------
+[rosout][INFO] 2022-03-31 16:37:30,177: --------------------
+[rosout][INFO] 2022-03-31 16:37:33,730: --------------------
+[rosout][INFO] 2022-03-31 16:37:48,592: --------------------
+[rosout][INFO] 2022-03-31 16:38:06,197: --------------------
+[rosout][INFO] 2022-03-31 16:38:17,136: --------------------
+[rosout][INFO] 2022-03-31 16:41:02,198: --------------------
+[rosout][INFO] 2022-03-31 16:41:04,311: --------------------
+[rosout][INFO] 2022-03-31 16:41:06,312: --------------------
+[rosout][ERROR] 2022-03-31 17:01:20,045: bad callback: <function callback at 0xffffbd4c0b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 33, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 17:01:24,309: bad callback: <function callback at 0xffffbd4c0b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 35, in callback
+    move_motor(y_axis, '10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 17:02:29,353: bad callback: <function callback at 0xffffbd4c0b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 33, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 17:02:30,510: bad callback: <function callback at 0xffffbd4c0b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 33, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 17:03:44,280: bad callback: <function callback at 0xffffbd4c0b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 33, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 17:03:46,845: bad callback: <function callback at 0xffffbd4c0b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 33, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 17:03:49,553: bad callback: <function callback at 0xffffbd4c0b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 35, in callback
+    move_motor(y_axis, '10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 17:03:50,456: bad callback: <function callback at 0xffffbd4c0b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 35, in callback
+    move_motor(y_axis, '10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 17:04:04,255: bad callback: <function callback at 0xffffbd4c0b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 35, in callback
+    move_motor(y_axis, '10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 17:04:06,594: bad callback: <function callback at 0xffffbd4c0b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 35, in callback
+    move_motor(y_axis, '10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 17:04:08,055: bad callback: <function callback at 0xffffbd4c0b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 35, in callback
+    move_motor(y_axis, '10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rospy.core][INFO] 2022-03-31 19:33:24,137: signal_shutdown [signal-2]
+[rospy.internal][ERROR] 2022-03-31 19:33:24,151: Unable to initiate TCP/IP socket to ubuntu:46279 (http://ubuntu:36115/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2022-03-31 19:33:24,154: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-31 19:33:24,155: topic[/video/click] removing connection to http://ubuntu:36115/
+[rospy.internal][INFO] 2022-03-31 19:33:24,156: topic[/video/click] removing connection to http://ubuntu:33967/
+[rospy.impl.masterslave][INFO] 2022-03-31 19:33:24,157: signal-2
+[rospy.core][INFO] 2022-03-31 19:33:24,773: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-03-31 19:37:16,387: init_node, name[/listener], pid[14617]
+[xmlrpc][INFO] 2022-03-31 19:37:16,390: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-03-31 19:37:16,393: ROS Slave URI: [http://ubuntu:41707/]
+[xmlrpc][INFO] 2022-03-31 19:37:16,395: Started XML-RPC server [http://ubuntu:41707/]
+[rospy.impl.masterslave][INFO] 2022-03-31 19:37:16,396: _ready: http://ubuntu:41707/
+[xmlrpc][INFO] 2022-03-31 19:37:16,411: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-03-31 19:37:16,411: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-03-31 19:37:16,495: registered with master
+[rospy.rosout][INFO] 2022-03-31 19:37:16,495: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-31 19:37:16,512: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-31 19:37:16,515: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-31 19:37:16,547: topic[/video/click] adding connection to [http://ubuntu:33967/], count 0
+[rospy.internal][INFO] 2022-03-31 19:37:16,727: topic[/video/click] adding connection to [http://ubuntu:44849/], count 1
+[rospy.internal][INFO] 2022-03-31 19:37:16,770: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2022-03-31 19:39:12,885: bad callback: <function callback at 0xffff87b3fb50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 33, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 19:39:13,944: bad callback: <function callback at 0xffff87b3fb50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 35, in callback
+    move_motor(y_axis, '10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 19:39:15,918: bad callback: <function callback at 0xffff87b3fb50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 35, in callback
+    move_motor(y_axis, '10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 19:39:18,080: bad callback: <function callback at 0xffff87b3fb50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 35, in callback
+    move_motor(y_axis, '10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 19:39:20,844: bad callback: <function callback at 0xffff87b3fb50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 35, in callback
+    move_motor(y_axis, '10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 19:39:24,550: bad callback: <function callback at 0xffff87b3fb50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 33, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 19:39:24,975: bad callback: <function callback at 0xffff87b3fb50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 33, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rospy.core][INFO] 2022-03-31 19:40:11,446: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-31 19:40:11,469: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-31 19:40:11,471: topic[/video/click] removing connection to http://ubuntu:33967/
+[rospy.internal][INFO] 2022-03-31 19:40:11,476: topic[/video/click] removing connection to http://ubuntu:44849/
+[rospy.impl.masterslave][INFO] 2022-03-31 19:40:11,478: signal-2
+[rospy.internal][WARNING] 2022-03-31 19:40:11,482: Unknown error initiating TCP/IP socket to ubuntu:33629 (http://ubuntu:44849/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2022-03-31 19:40:11,601: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-03-31 19:41:06,325: init_node, name[/listener], pid[19976]
+[xmlrpc][INFO] 2022-03-31 19:41:06,328: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-03-31 19:41:06,331: ROS Slave URI: [http://ubuntu:35767/]
+[xmlrpc][INFO] 2022-03-31 19:41:06,332: Started XML-RPC server [http://ubuntu:35767/]
+[rospy.impl.masterslave][INFO] 2022-03-31 19:41:06,333: _ready: http://ubuntu:35767/
+[xmlrpc][INFO] 2022-03-31 19:41:06,335: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-03-31 19:41:06,342: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-03-31 19:41:06,433: registered with master
+[rospy.rosout][INFO] 2022-03-31 19:41:06,433: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-31 19:41:06,445: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-31 19:41:06,449: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-31 19:41:06,520: topic[/video/click] adding connection to [http://ubuntu:33967/], count 0
+[rospy.internal][INFO] 2022-03-31 19:41:06,632: topic[/video/click] adding connection to [http://ubuntu:39935/], count 1
+[rospy.internal][INFO] 2022-03-31 19:41:06,819: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2022-03-31 19:41:29,056: bad callback: <function callback at 0xffffb39d8b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 35, in callback
+    move_motor(y_axis, '10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rospy.core][INFO] 2022-03-31 19:42:21,099: signal_shutdown [signal-2]
+[rospy.internal][ERROR] 2022-03-31 19:42:21,123: Unable to initiate TCP/IP socket to ubuntu:39351 (http://ubuntu:39935/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2022-03-31 19:42:21,124: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-31 19:42:21,129: topic[/video/click] removing connection to http://ubuntu:33967/
+[rospy.internal][INFO] 2022-03-31 19:42:21,130: topic[/video/click] removing connection to http://ubuntu:39935/
+[rospy.impl.masterslave][INFO] 2022-03-31 19:42:21,131: signal-2
+[rospy.internal][WARNING] 2022-03-31 19:42:21,131: Unknown error initiating TCP/IP socket to ubuntu:34045 (http://ubuntu:33967/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2022-03-31 19:42:21,250: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-03-31 19:42:36,420: init_node, name[/listener], pid[22602]
+[xmlrpc][INFO] 2022-03-31 19:42:36,422: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-03-31 19:42:36,423: Started XML-RPC server [http://ubuntu:34649/]
+[rospy.init][INFO] 2022-03-31 19:42:36,424: ROS Slave URI: [http://ubuntu:34649/]
+[rospy.impl.masterslave][INFO] 2022-03-31 19:42:36,425: _ready: http://ubuntu:34649/
+[rospy.registration][INFO] 2022-03-31 19:42:36,428: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-03-31 19:42:36,428: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-03-31 19:42:36,526: registered with master
+[rospy.rosout][INFO] 2022-03-31 19:42:36,526: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-31 19:42:36,533: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-31 19:42:36,541: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-31 19:42:36,604: topic[/video/click] adding connection to [http://ubuntu:33967/], count 0
+[rospy.internal][INFO] 2022-03-31 19:42:36,607: topic[/video/click] adding connection to [http://ubuntu:41141/], count 0
+[rospy.internal][INFO] 2022-03-31 19:42:36,765: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2022-03-31 19:43:09,187: bad callback: <function callback at 0xffff85118b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 35, in callback
+    move_motor(y_axis, '10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 19:44:11,991: bad callback: <function callback at 0xffff85118b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 35, in callback
+    move_motor(y_axis, '10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 19:44:15,233: bad callback: <function callback at 0xffff85118b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 33, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 19:44:16,535: bad callback: <function callback at 0xffff85118b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 33, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 19:44:18,465: bad callback: <function callback at 0xffff85118b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 35, in callback
+    move_motor(y_axis, '10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 19:44:20,024: bad callback: <function callback at 0xffff85118b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 35, in callback
+    move_motor(y_axis, '10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rospy.core][INFO] 2022-03-31 19:44:28,946: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-31 19:44:28,985: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-31 19:44:28,987: topic[/video/click] removing connection to http://ubuntu:33967/
+[rospy.internal][WARNING] 2022-03-31 19:44:28,992: Unknown error initiating TCP/IP socket to ubuntu:44805 (http://ubuntu:41141/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 561, in connect
+    self.write_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 642, in write_header
+    self.stat_bytes += write_ros_handshake_header(sock, protocol.get_header_fields())
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 417, in write_ros_handshake_header
+    sock.sendall(s)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][WARNING] 2022-03-31 19:44:28,992: Unknown error initiating TCP/IP socket to ubuntu:34045 (http://ubuntu:33967/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2022-03-31 19:44:28,993: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 846, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2022-03-31 19:44:28,994: topic[/video/click] removing connection to http://ubuntu:41141/
+[rospy.impl.masterslave][INFO] 2022-03-31 19:44:28,995: signal-2
+[rospy.core][INFO] 2022-03-31 19:44:29,128: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-03-31 19:45:04,084: init_node, name[/listener], pid[25732]
+[xmlrpc][INFO] 2022-03-31 19:45:04,086: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-03-31 19:45:04,094: ROS Slave URI: [http://ubuntu:36347/]
+[xmlrpc][INFO] 2022-03-31 19:45:04,095: Started XML-RPC server [http://ubuntu:36347/]
+[rospy.impl.masterslave][INFO] 2022-03-31 19:45:04,095: _ready: http://ubuntu:36347/
+[xmlrpc][INFO] 2022-03-31 19:45:04,096: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-03-31 19:45:04,098: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-03-31 19:45:04,195: registered with master
+[rospy.rosout][INFO] 2022-03-31 19:45:04,196: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-31 19:45:04,229: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-31 19:45:04,235: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-31 19:45:04,278: topic[/video/click] adding connection to [http://ubuntu:33967/], count 0
+[rospy.internal][INFO] 2022-03-31 19:45:04,288: topic[/video/click] adding connection to [http://ubuntu:39799/], count 1
+[rospy.internal][INFO] 2022-03-31 19:45:04,507: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2022-03-31 19:45:11,151: bad callback: <function callback at 0xffff8d027b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 33, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 19:45:13,961: bad callback: <function callback at 0xffff8d027b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 33, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rospy.core][INFO] 2022-03-31 19:45:59,120: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-31 19:45:59,137: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-31 19:45:59,139: topic[/video/click] removing connection to http://ubuntu:33967/
+[rospy.internal][INFO] 2022-03-31 19:45:59,140: topic[/video/click] removing connection to http://ubuntu:39799/
+[rospy.impl.masterslave][INFO] 2022-03-31 19:45:59,142: signal-2
+[rospy.internal][WARNING] 2022-03-31 19:45:59,145: Unknown error initiating TCP/IP socket to ubuntu:34045 (http://ubuntu:33967/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2022-03-31 19:45:59,248: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-03-31 19:51:34,559: init_node, name[/listener], pid[32119]
+[xmlrpc][INFO] 2022-03-31 19:51:34,561: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-03-31 19:51:34,583: ROS Slave URI: [http://ubuntu:37493/]
+[xmlrpc][INFO] 2022-03-31 19:51:34,584: Started XML-RPC server [http://ubuntu:37493/]
+[rospy.impl.masterslave][INFO] 2022-03-31 19:51:34,584: _ready: http://ubuntu:37493/
+[rospy.registration][INFO] 2022-03-31 19:51:34,591: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-03-31 19:51:34,593: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-03-31 19:51:34,684: registered with master
+[rospy.rosout][INFO] 2022-03-31 19:51:34,685: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-31 19:51:34,706: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-31 19:51:34,714: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-31 19:51:34,784: topic[/video/click] adding connection to [http://ubuntu:33967/], count 0
+[rospy.internal][INFO] 2022-03-31 19:51:35,007: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-03-31 19:51:35,255: topic[/video/click] adding connection to [http://ubuntu:36355/], count 1
+[rosout][ERROR] 2022-03-31 19:51:42,600: bad callback: <function callback at 0xffffb6baeb50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 33, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rospy.core][INFO] 2022-03-31 19:51:46,914: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-31 19:51:46,930: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-31 19:51:46,932: topic[/video/click] removing connection to http://ubuntu:33967/
+[rospy.internal][INFO] 2022-03-31 19:51:46,933: topic[/video/click] removing connection to http://ubuntu:36355/
+[rospy.impl.masterslave][INFO] 2022-03-31 19:51:46,935: signal-2
+[rospy.core][INFO] 2022-03-31 19:51:47,561: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-03-31 19:52:00,551: init_node, name[/listener], pid[507]
+[xmlrpc][INFO] 2022-03-31 19:52:00,553: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-03-31 19:52:00,556: ROS Slave URI: [http://ubuntu:43073/]
+[xmlrpc][INFO] 2022-03-31 19:52:00,557: Started XML-RPC server [http://ubuntu:43073/]
+[rospy.impl.masterslave][INFO] 2022-03-31 19:52:00,558: _ready: http://ubuntu:43073/
+[rospy.registration][INFO] 2022-03-31 19:52:00,566: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-03-31 19:52:00,569: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-03-31 19:52:00,657: registered with master
+[rospy.rosout][INFO] 2022-03-31 19:52:00,658: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-31 19:52:00,669: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-31 19:52:00,673: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-31 19:52:00,757: topic[/video/click] adding connection to [http://ubuntu:33967/], count 0
+[rospy.internal][INFO] 2022-03-31 19:52:00,762: topic[/video/click] adding connection to [http://ubuntu:37771/], count 1
+[rospy.internal][INFO] 2022-03-31 19:52:01,003: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2022-03-31 19:52:06,276: bad callback: <function callback at 0xffffa6b4cb50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 33, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rosout][ERROR] 2022-03-31 19:52:08,449: bad callback: <function callback at 0xffffa6b4cb50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 35, in callback
+    move_motor(y_axis, '10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+[rospy.core][INFO] 2022-03-31 19:52:36,538: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-31 19:52:36,563: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-31 19:52:36,565: topic[/video/click] removing connection to http://ubuntu:33967/
+[rospy.internal][INFO] 2022-03-31 19:52:36,565: topic[/video/click] removing connection to http://ubuntu:37771/
+[rospy.impl.masterslave][INFO] 2022-03-31 19:52:36,566: signal-2
+[rospy.core][INFO] 2022-03-31 19:52:37,192: signal_shutdown [atexit]

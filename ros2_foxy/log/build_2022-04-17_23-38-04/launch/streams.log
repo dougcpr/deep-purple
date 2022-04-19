@@ -1,0 +1,29 @@
+[13.236s] Invoking command in '/home/ubuntu/ros2_foxy/build/launch': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_index_python:/home/ubuntu/ros2_foxy/install/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_flake8:/home/ubuntu/ros2_foxy/install/osrf_pycommon:/home/ubuntu/ros2_foxy/install/ament_lint PATH=/home/ubuntu/ros2_foxy/install/ament_index_python/bin:/home/ubuntu/ros2_foxy/install/ament_copyright/bin:/home/ubuntu/ros2_foxy/install/ament_pep257/bin:/home/ubuntu/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_foxy/install/launch/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_index_python:/home/ubuntu/ros2_foxy/install/ament_index_python/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_copyright/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_pep257/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_flake8/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/osrf_pycommon:/home/ubuntu/ros2_foxy/install/osrf_pycommon/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint:/home/ubuntu/ros2_foxy/install/ament_lint/lib/python3.6/site-packages /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/launch --editable --build-directory /home/ubuntu/ros2_foxy/build/launch/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/launch
+[15.622s] running develop
+[15.624s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[15.624s]   EasyInstallDeprecationWarning,
+[15.630s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[15.631s]   setuptools.SetuptoolsDeprecationWarning,
+[16.048s] /home/ubuntu/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[16.049s]   PkgResourcesDeprecationWarning,
+[16.729s] running egg_info
+[16.730s] creating launch.egg-info
+[16.731s] writing launch.egg-info/PKG-INFO
+[16.732s] writing dependency_links to launch.egg-info/dependency_links.txt
+[16.733s] writing requirements to launch.egg-info/requires.txt
+[16.734s] writing top-level names to launch.egg-info/top_level.txt
+[16.743s] writing manifest file 'launch.egg-info/SOURCES.txt'
+[16.767s] reading manifest file 'launch.egg-info/SOURCES.txt'
+[16.777s] writing manifest file 'launch.egg-info/SOURCES.txt'
+[16.786s] running build_ext
+[16.787s] Creating /home/ubuntu/ros2_foxy/install/launch/lib/python3.6/site-packages/launch.egg-link (link to .)
+[16.792s] 
+[16.793s] Installed /home/ubuntu/ros2_foxy/build/launch
+[16.794s] running install_data
+[16.796s] copying package.xml -> /home/ubuntu/ros2_foxy/install/launch/share/launch
+[16.797s] creating /home/ubuntu/ros2_foxy/install/launch/share/ament_index
+[16.798s] creating /home/ubuntu/ros2_foxy/install/launch/share/ament_index/resource_index
+[16.799s] creating /home/ubuntu/ros2_foxy/install/launch/share/ament_index/resource_index/packages
+[16.800s] copying resource/launch -> /home/ubuntu/ros2_foxy/install/launch/share/ament_index/resource_index/packages
+[16.802s] creating /home/ubuntu/ros2_foxy/install/launch/share/launch/frontend
+[16.804s] copying share/launch/frontend/grammar.lark -> /home/ubuntu/ros2_foxy/install/launch/share/launch/frontend

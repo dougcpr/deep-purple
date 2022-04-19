@@ -1,0 +1,31 @@
+[rospy.client][INFO] 2022-01-28 16:51:48,556: init_node, name[/rostopic_16862_1643388708487], pid[16862]
+[xmlrpc][INFO] 2022-01-28 16:51:48,558: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-28 16:51:48,559: Started XML-RPC server [http://ubuntu:43507/]
+[rospy.init][INFO] 2022-01-28 16:51:48,559: ROS Slave URI: [http://ubuntu:43507/]
+[rospy.impl.masterslave][INFO] 2022-01-28 16:51:48,562: _ready: http://ubuntu:43507/
+[rospy.registration][INFO] 2022-01-28 16:51:48,564: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-28 16:51:48,566: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-28 16:51:48,662: registered with master
+[rospy.rosout][INFO] 2022-01-28 16:51:48,664: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-28 16:51:48,671: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-28 16:51:48,673: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-01-28 16:51:48,742: topic[/chatter] adding connection to [http://ubuntu:34037/], count 0
+[rospy.internal][INFO] 2022-01-28 16:51:48,744: topic[/chatter] adding connection to [http://ubuntu:41453/], count 0
+[rospy.internal][INFO] 2022-01-28 16:51:48,937: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][ERROR] 2022-01-28 16:52:00,744: Unable to initiate TCP/IP socket to ubuntu:36685 (http://ubuntu:41453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2022-01-28 16:52:01,748: Unknown error initiating TCP/IP socket to ubuntu:36685 (http://ubuntu:41453/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-01-28 16:52:01,749: topic[/chatter] removing connection to http://ubuntu:41453/

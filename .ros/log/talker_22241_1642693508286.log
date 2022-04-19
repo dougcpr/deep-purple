@@ -1,0 +1,66 @@
+[rospy.client][INFO] 2022-01-20 15:45:08,333: init_node, name[/talker_22241_1642693508286], pid[22241]
+[xmlrpc][INFO] 2022-01-20 15:45:08,338: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-20 15:45:08,339: Started XML-RPC server [http://ubuntu:40489/]
+[rospy.init][INFO] 2022-01-20 15:45:08,340: ROS Slave URI: [http://ubuntu:40489/]
+[rospy.impl.masterslave][INFO] 2022-01-20 15:45:08,340: _ready: http://ubuntu:40489/
+[rospy.registration][INFO] 2022-01-20 15:45:08,342: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-20 15:45:08,342: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-01-20 15:45:08,343: Registering publisher topic [/chatter] type [std_msgs/String] with master
+[rospy.init][INFO] 2022-01-20 15:45:08,441: registered with master
+[rospy.rosout][INFO] 2022-01-20 15:45:08,442: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-20 15:45:08,448: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-20 15:45:08,450: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2022-01-20 15:45:08,462: hello world 1642693508.46
+[rospy.internal][INFO] 2022-01-20 15:45:08,674: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-01-20 15:45:12,466: hello world 1642693512.47
+[rosout][INFO] 2022-01-20 15:45:16,466: hello world 1642693516.47
+[rosout][INFO] 2022-01-20 15:45:20,466: hello world 1642693520.47
+[rosout][INFO] 2022-01-20 15:45:24,466: hello world 1642693524.47
+[rosout][INFO] 2022-01-20 15:45:28,466: hello world 1642693528.47
+[rosout][INFO] 2022-01-20 15:45:32,466: hello world 1642693532.47
+[rosout][INFO] 2022-01-20 15:45:36,464: hello world 1642693536.46
+[rosout][INFO] 2022-01-20 15:45:40,466: hello world 1642693540.47
+[rosout][INFO] 2022-01-20 15:45:44,466: hello world 1642693544.47
+[rosout][INFO] 2022-01-20 15:45:48,466: hello world 1642693548.47
+[rosout][INFO] 2022-01-20 15:45:52,466: hello world 1642693552.47
+[rosout][INFO] 2022-01-20 15:45:56,466: hello world 1642693556.47
+[rosout][INFO] 2022-01-20 15:46:00,466: hello world 1642693560.47
+[rosout][INFO] 2022-01-20 15:46:04,466: hello world 1642693564.47
+[rosout][INFO] 2022-01-20 15:46:08,466: hello world 1642693568.47
+[rosout][INFO] 2022-01-20 15:46:12,466: hello world 1642693572.47
+[rosout][INFO] 2022-01-20 15:46:16,466: hello world 1642693576.47
+[rosout][INFO] 2022-01-20 15:46:20,466: hello world 1642693580.47
+[rosout][INFO] 2022-01-20 15:46:24,466: hello world 1642693584.47
+[rosout][INFO] 2022-01-20 15:46:28,466: hello world 1642693588.47
+[rosout][INFO] 2022-01-20 15:46:32,466: hello world 1642693592.47
+[rosout][INFO] 2022-01-20 15:46:36,466: hello world 1642693596.47
+[rosout][INFO] 2022-01-20 15:46:40,466: hello world 1642693600.47
+[rosout][INFO] 2022-01-20 15:46:44,466: hello world 1642693604.47
+[rosout][INFO] 2022-01-20 15:46:48,466: hello world 1642693608.47
+[rosout][INFO] 2022-01-20 15:46:52,466: hello world 1642693612.47
+[rosout][INFO] 2022-01-20 15:46:56,464: hello world 1642693616.46
+[rosout][INFO] 2022-01-20 15:47:00,466: hello world 1642693620.47
+[rosout][INFO] 2022-01-20 15:47:04,463: hello world 1642693624.46
+[rosout][INFO] 2022-01-20 15:47:08,462: hello world 1642693628.46
+[rosout][INFO] 2022-01-20 15:47:12,466: hello world 1642693632.47
+[rosout][INFO] 2022-01-20 15:47:16,466: hello world 1642693636.47
+[rosout][INFO] 2022-01-20 15:47:20,466: hello world 1642693640.47
+[rosout][INFO] 2022-01-20 15:47:24,466: hello world 1642693644.47
+[rosout][INFO] 2022-01-20 15:47:28,466: hello world 1642693648.47
+[rosout][INFO] 2022-01-20 15:47:32,464: hello world 1642693652.46
+[rosout][INFO] 2022-01-20 15:47:36,466: hello world 1642693656.47
+[rosout][INFO] 2022-01-20 15:47:40,466: hello world 1642693660.47
+[rosout][INFO] 2022-01-20 15:47:44,466: hello world 1642693664.47
+[rosout][INFO] 2022-01-20 15:47:48,466: hello world 1642693668.47
+[rosout][INFO] 2022-01-20 15:47:52,466: hello world 1642693672.47
+[rosout][INFO] 2022-01-20 15:47:56,465: hello world 1642693676.47
+[rosout][INFO] 2022-01-20 15:48:00,466: hello world 1642693680.47
+[rosout][INFO] 2022-01-20 15:48:04,463: hello world 1642693684.46
+[rosout][INFO] 2022-01-20 15:48:08,466: hello world 1642693688.47
+[rosout][INFO] 2022-01-20 15:48:12,466: hello world 1642693692.47
+[rosout][INFO] 2022-01-20 15:48:16,466: hello world 1642693696.47
+[rosout][INFO] 2022-01-20 15:48:20,466: hello world 1642693700.47
+[rospy.core][INFO] 2022-01-20 15:48:22,157: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-20 15:48:22,169: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-01-20 15:48:22,170: signal-2
+[rospy.core][INFO] 2022-01-20 15:48:22,302: signal_shutdown [atexit]

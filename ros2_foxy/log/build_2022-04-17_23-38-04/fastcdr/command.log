@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/ros2_foxy/build/fastcdr': /usr/bin/cmake /home/ubuntu/ros2_foxy/src/eProsima/Fast-CDR -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_foxy/install/fastcdr
+Invoked command in '/home/ubuntu/ros2_foxy/build/fastcdr' returned '0': /usr/bin/cmake /home/ubuntu/ros2_foxy/src/eProsima/Fast-CDR -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_foxy/install/fastcdr
+Invoking command in '/home/ubuntu/ros2_foxy/build/fastcdr': /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/fastcdr -- -j4 -l4
+Invoked command in '/home/ubuntu/ros2_foxy/build/fastcdr' returned '0': /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/fastcdr -- -j4 -l4
+Invoking command in '/home/ubuntu/ros2_foxy/build/fastcdr': /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/fastcdr --target install -- -j4 -l4
+Invoked command in '/home/ubuntu/ros2_foxy/build/fastcdr' returned '0': /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/fastcdr --target install -- -j4 -l4

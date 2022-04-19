@@ -1,0 +1,41 @@
+
+
+1649185709.316642745  Node Startup
+1649185717.321198940 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout] [FREEDOM] Starting to listen to topic: /rosout_agg
+1649185717.395226001 INFO /link_ros [threading.py:754(Thread.run)] [topics: /rosout, /rosout_agg] [FREEDOM] Starting to listen to topic: /image_raw_2
+1649185717.406702041 INFO /link_ros [threading.py:754(Thread.run)] [topics: /rosout, /rosout_agg, /image_raw_2] [FREEDOM] Starting to listen to topic: /video/click
+1649185717.426253080 INFO /link_ros [threading.py:754(Thread.run)] [topics: /rosout, /rosout_agg, /image_raw_2, /video/click] [FREEDOM] Starting to listen to topic: /image_raw
+1649185718.343170881 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /video/click, /rosout, /rosout_agg, /image_raw_2, /image_raw] [FREEDOM] Completed initializing LinkROS
+1649186301.560183048 ERROR /listener [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /video/click] bad callback: <function callback at 0xffff8b9b1b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 35, in callback
+    move_motor(y_axis, '10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+1649186303.700557947 ERROR /listener [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /video/click] bad callback: <function callback at 0xffff8b9b1b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 33, in callback
+    move_motor(y_axis, '-10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', x_axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339688', '--halt-and-hold']' returned non-zero exit status 2
+
+1649186306.866396903 INFO /link_ros [pool.py:113(worker)] [topics: /image_raw, /rosout, /tf, /tf_static, /rosout_agg, /image_raw_2, /cmd_vel, /video/click] [FREEDOM] Starting to listen to topic: /cmd_vel
+1649186324.763582944 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /image_raw, /rosout, /tf, /tf_static, /rosout_agg, /image_raw_2, /cmd_vel, /video/click] [FREEDOM] Received command with incorrect type for topic which already exists: /move_base/cancel type: actionlib_msgs/GoalID should be: geometry_msgs/Twist
+1649186354.486876010 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /image_raw, /rosout, /tf, /tf_static, /rosout_agg, /image_raw_2, /cmd_vel, /video/click] [FREEDOM] Received command with incorrect type for topic which already exists: /move_base/cancel type: actionlib_msgs/GoalID should be: geometry_msgs/Twist
+1649186380.682883977 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /image_raw, /rosout, /tf, /tf_static, /rosout_agg, /image_raw_2, /cmd_vel, /video/click] [FREEDOM] Received command with incorrect type for topic which already exists: /move_base/cancel type: actionlib_msgs/GoalID should be: geometry_msgs/Twist
+1649186410.615576982 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /image_raw, /rosout, /tf, /tf_static, /rosout_agg, /image_raw_2, /cmd_vel, /video/click] [FREEDOM] Received command with incorrect type for topic which already exists: /move_base/cancel type: actionlib_msgs/GoalID should be: geometry_msgs/Twist

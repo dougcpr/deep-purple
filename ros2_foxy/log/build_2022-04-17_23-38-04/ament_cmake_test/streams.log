@@ -1,0 +1,41 @@
+[0.339s] Invoking command in '/home/ubuntu/ros2_foxy/build/ament_cmake_test': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake_python:/home/ubuntu/ros2_foxy/install/ament_cmake_core:/home/ubuntu/ros2_foxy/install/ament_package CMAKE_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake_python:/home/ubuntu/ros2_foxy/install/ament_cmake_core PYTHONPATH=/home/ubuntu/ros2_foxy/build/ament_package:/home/ubuntu/ros2_foxy/install/ament_package/lib/python3.6/site-packages /usr/bin/cmake /home/ubuntu/ros2_foxy/src/ament/ament_cmake/ament_cmake_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_foxy/install/ament_cmake_test
+[0.592s] -- Found ament_cmake_core: 0.9.9 (/home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake)
+[0.873s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.874s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.997s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.014s] -- Found ament_cmake_python: 0.9.9 (/home/ubuntu/ros2_foxy/install/ament_cmake_python/share/ament_cmake_python/cmake)
+[5.167s] -- Configuring done
+[5.193s] -- Generating done
+[5.198s] -- Build files have been written to: /home/ubuntu/ros2_foxy/build/ament_cmake_test
+[5.221s] Invoked command in '/home/ubuntu/ros2_foxy/build/ament_cmake_test' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake_python:/home/ubuntu/ros2_foxy/install/ament_cmake_core:/home/ubuntu/ros2_foxy/install/ament_package CMAKE_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake_python:/home/ubuntu/ros2_foxy/install/ament_cmake_core PYTHONPATH=/home/ubuntu/ros2_foxy/build/ament_package:/home/ubuntu/ros2_foxy/install/ament_package/lib/python3.6/site-packages /usr/bin/cmake /home/ubuntu/ros2_foxy/src/ament/ament_cmake/ament_cmake_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_foxy/install/ament_cmake_test
+[5.224s] Invoking command in '/home/ubuntu/ros2_foxy/build/ament_cmake_test': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake_python:/home/ubuntu/ros2_foxy/install/ament_cmake_core:/home/ubuntu/ros2_foxy/install/ament_package CMAKE_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake_python:/home/ubuntu/ros2_foxy/install/ament_cmake_core PYTHONPATH=/home/ubuntu/ros2_foxy/build/ament_package:/home/ubuntu/ros2_foxy/install/ament_package/lib/python3.6/site-packages /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/ament_cmake_test -- -j4 -l4
+[5.642s] Invoked command in '/home/ubuntu/ros2_foxy/build/ament_cmake_test' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake_python:/home/ubuntu/ros2_foxy/install/ament_cmake_core:/home/ubuntu/ros2_foxy/install/ament_package CMAKE_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake_python:/home/ubuntu/ros2_foxy/install/ament_cmake_core PYTHONPATH=/home/ubuntu/ros2_foxy/build/ament_package:/home/ubuntu/ros2_foxy/install/ament_package/lib/python3.6/site-packages /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/ament_cmake_test -- -j4 -l4
+[6.030s] Invoking command in '/home/ubuntu/ros2_foxy/build/ament_cmake_test': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake_python:/home/ubuntu/ros2_foxy/install/ament_cmake_core:/home/ubuntu/ros2_foxy/install/ament_package CMAKE_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake_python:/home/ubuntu/ros2_foxy/install/ament_cmake_core PYTHONPATH=/home/ubuntu/ros2_foxy/build/ament_package:/home/ubuntu/ros2_foxy/install/ament_package/lib/python3.6/site-packages /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/ament_cmake_test --target install -- -j4 -l4
+[6.687s] [36mInstall the project...[0m
+[6.781s] -- Install configuration: ""
+[6.784s] -- Execute custom install script
+[6.788s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_test/share/ament_cmake_test/environment/pythonpath.sh
+[6.880s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_test/share/ament_cmake_test/environment/pythonpath.dsv
+[7.006s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_test/lib/python3.6/site-packages/ament_cmake_test/__init__.py
+[7.131s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_test/share/ament_index/resource_index/package_run_dependencies/ament_cmake_test
+[7.252s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_test/share/ament_index/resource_index/parent_prefix_path/ament_cmake_test
+[7.383s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_test/share/ament_cmake_test/environment/ament_prefix_path.sh
+[7.485s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_test/share/ament_cmake_test/environment/ament_prefix_path.dsv
+[7.606s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_test/share/ament_cmake_test/environment/path.sh
+[7.687s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_test/share/ament_cmake_test/environment/path.dsv
+[7.799s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_test/share/ament_cmake_test/local_setup.bash
+[7.913s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_test/share/ament_cmake_test/local_setup.sh
+[8.006s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_test/share/ament_cmake_test/local_setup.zsh
+[8.127s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_test/share/ament_cmake_test/local_setup.dsv
+[8.303s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_test/share/ament_cmake_test/package.dsv
+[8.454s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_test/share/ament_index/resource_index/packages/ament_cmake_test
+[8.598s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_test/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake
+[8.712s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_test/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake
+[8.824s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_test/share/ament_cmake_test/cmake/ament_cmake_testConfig-version.cmake
+[8.954s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_test/share/ament_cmake_test/package.xml
+[9.121s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_test/share/ament_cmake_test/cmake/ament_add_test.cmake
+[9.227s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_test/share/ament_cmake_test/cmake/ament_add_test_label.cmake
+[9.330s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py
+[9.806s] Listing '/home/ubuntu/ros2_foxy/install/ament_cmake_test/lib/python3.6/site-packages/ament_cmake_test'...
+[9.808s] Compiling '/home/ubuntu/ros2_foxy/install/ament_cmake_test/lib/python3.6/site-packages/ament_cmake_test/__init__.py'...
+[9.867s] Invoked command in '/home/ubuntu/ros2_foxy/build/ament_cmake_test' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake_python:/home/ubuntu/ros2_foxy/install/ament_cmake_core:/home/ubuntu/ros2_foxy/install/ament_package CMAKE_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_cmake_python:/home/ubuntu/ros2_foxy/install/ament_cmake_core PYTHONPATH=/home/ubuntu/ros2_foxy/build/ament_package:/home/ubuntu/ros2_foxy/install/ament_package/lib/python3.6/site-packages /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/ament_cmake_test --target install -- -j4 -l4

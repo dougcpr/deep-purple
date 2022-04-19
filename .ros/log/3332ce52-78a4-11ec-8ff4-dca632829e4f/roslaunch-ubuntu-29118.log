@@ -1,0 +1,65 @@
+[roslaunch][INFO] 2022-01-18 23:02:12,669: Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2022-01-18 23:02:12,682: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2022-01-18 23:02:12,683: roslaunch starting with args ['/opt/ros/melodic/bin/roslaunch', 'camera.launch']
+[roslaunch][INFO] 2022-01-18 23:02:12,683: roslaunch env is {'ROS_DISTRO': 'melodic', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SSH_CLIENT': '10.1.0.201 55495 22', 'LOGNAME': 'ubuntu', 'USER': 'ubuntu', 'PATH': '/opt/ros/melodic/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'HOME': '/home/ubuntu', 'CMAKE_PREFIX_PATH': '/home/ubuntu/catkin_ws/devel:/opt/ros/melodic', 'LD_LIBRARY_PATH': '/home/ubuntu/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'LANG': 'C.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'XAUTHORITY': '/home/ubuntu/.Xauthority', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'ROS_LOG_FILENAME': '/home/ubuntu/.ros/log/3332ce52-78a4-11ec-8ff4-dca632829e4f/roslaunch-ubuntu-29118.log', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/ubuntu/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/ubuntu/catkin_ws/src:/opt/ros/melodic/share', 'XDG_SESSION_ID': '855', '_': '/opt/ros/melodic/bin/roslaunch', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/2', 'OLDPWD': '/home/ubuntu/catkin_ws/src', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ubuntu/catkin_ws/devel/share/common-lisp', 'SHLVL': '1', 'PWD': '/home/ubuntu/catkin_ws/src/camera', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1', 'MAIL': '/var/mail/ubuntu', 'SSH_CONNECTION': '10.1.0.201 55495 10.1.0.196 22'}
+[roslaunch][INFO] 2022-01-18 23:02:12,683: starting in server mode
+[roslaunch.parent][INFO] 2022-01-18 23:02:12,684: starting roslaunch parent run
+[roslaunch][INFO] 2022-01-18 23:02:12,684: loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+[roslaunch][INFO] 2022-01-18 23:02:13,162: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2022-01-18 23:02:13,162: loading config file camera.launch
+[roslaunch][INFO] 2022-01-18 23:02:13,166: Added node of type [libuvc_camera/camera_node] in namespace [/camera/]
+[roslaunch][INFO] 2022-01-18 23:02:13,166: ... selected machine [] for node of type [libuvc_camera/camera_node]
+[roslaunch.pmon][INFO] 2022-01-18 23:02:13,169: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2022-01-18 23:02:13,170: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2022-01-18 23:02:13,171: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2022-01-18 23:02:13,171: starting parent XML-RPC server
+[roslaunch.server][INFO] 2022-01-18 23:02:13,171: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2022-01-18 23:02:13,172: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2022-01-18 23:02:13,172: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-18 23:02:13,173: Started XML-RPC server [http://ubuntu:40789/]
+[xmlrpc][INFO] 2022-01-18 23:02:13,174: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2022-01-18 23:02:13,190: started roslaunch server http://ubuntu:40789/
+[roslaunch.parent][INFO] 2022-01-18 23:02:13,191: ... parent XML-RPC server started
+[roslaunch][INFO] 2022-01-18 23:02:13,193: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2022-01-18 23:02:13,196: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2022-01-18 23:02:13,200: ROS_MASTER_URI=http://localhost:11311
+[roslaunch][INFO] 2022-01-18 23:02:13,204: setting /roslaunch/uris/host_ubuntu__40789' to http://ubuntu:40789/
+[roslaunch][INFO] 2022-01-18 23:02:13,208: load_parameters starting ...
+[roslaunch][INFO] 2022-01-18 23:02:13,227: ... load_parameters complete
+[roslaunch][INFO] 2022-01-18 23:02:13,227: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2022-01-18 23:02:13,228: ... preparing to launch node of type [libuvc_camera/camera_node]
+[roslaunch][INFO] 2022-01-18 23:02:13,228: create_node_process: package[libuvc_camera] type[camera_node] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2022-01-18 23:02:13,228: process[camera/mycam-1]: env[{'ROS_DISTRO': 'melodic', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SSH_CLIENT': '10.1.0.201 55495 22', 'LOGNAME': 'ubuntu', 'USER': 'ubuntu', 'PATH': '/opt/ros/melodic/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'HOME': '/home/ubuntu', 'CMAKE_PREFIX_PATH': '/home/ubuntu/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/ubuntu/.ros/log/3332ce52-78a4-11ec-8ff4-dca632829e4f/roslaunch-ubuntu-29118.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'XAUTHORITY': '/home/ubuntu/.Xauthority', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LD_LIBRARY_PATH': '/home/ubuntu/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_PYTHON_VERSION': '2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/ubuntu/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/ubuntu/catkin_ws/src:/opt/ros/melodic/share', 'XDG_SESSION_ID': '855', 'ROS_NAMESPACE': '/camera', '_': '/opt/ros/melodic/bin/roslaunch', 'SSH_CONNECTION': '10.1.0.201 55495 10.1.0.196 22', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/2', 'OLDPWD': '/home/ubuntu/catkin_ws/src', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ubuntu/catkin_ws/devel/share/common-lisp', 'SHLVL': '1', 'PWD': '/home/ubuntu/catkin_ws/src/camera', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1', 'MAIL': '/var/mail/ubuntu', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'}]
+[roslaunch][INFO] 2022-01-18 23:02:13,280: process[camera/mycam-1]: args[[u'/opt/ros/melodic/lib/libuvc_camera/camera_node', u'__name:=mycam']]
+[roslaunch][INFO] 2022-01-18 23:02:13,280: ... created process [camera/mycam-1]
+[roslaunch.pmon][INFO] 2022-01-18 23:02:13,280: ProcessMonitor.register[camera/mycam-1]
+[roslaunch.pmon][INFO] 2022-01-18 23:02:13,281: ProcessMonitor.register[camera/mycam-1] complete
+[roslaunch][INFO] 2022-01-18 23:02:13,281: ... registered process [camera/mycam-1]
+[roslaunch][INFO] 2022-01-18 23:02:13,281: process[camera/mycam-1]: starting os process
+[roslaunch][INFO] 2022-01-18 23:02:13,282: process[camera/mycam-1]: start w/ args [[u'/opt/ros/melodic/lib/libuvc_camera/camera_node', u'__name:=mycam', u'__log:=/home/ubuntu/.ros/log/3332ce52-78a4-11ec-8ff4-dca632829e4f/camera-mycam-1.log']]
+[roslaunch][INFO] 2022-01-18 23:02:13,282: process[camera/mycam-1]: cwd will be [/home/ubuntu/.ros]
+[roslaunch][INFO] 2022-01-18 23:02:13,293: process[camera/mycam-1]: started with pid [29152]
+[roslaunch][INFO] 2022-01-18 23:02:13,294: ... successfully launched [camera/mycam-1]
+[roslaunch][INFO] 2022-01-18 23:02:13,294: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2022-01-18 23:02:13,294: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 281472872595952)>
+[roslaunch.parent][INFO] 2022-01-18 23:02:13,295: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2022-01-18 23:02:13,295: spin
+[roslaunch][ERROR] 2022-01-18 23:02:13,372: [camera/mycam-1] process has died [pid 29152, exit code 127, cmd /opt/ros/melodic/lib/libuvc_camera/camera_node __name:=mycam __log:=/home/ubuntu/.ros/log/3332ce52-78a4-11ec-8ff4-dca632829e4f/camera-mycam-1.log].
+log file: /home/ubuntu/.ros/log/3332ce52-78a4-11ec-8ff4-dca632829e4f/camera-mycam-1*.log
+[roslaunch.pmon][INFO] 2022-01-18 23:02:13,373: ProcessMonitor.unregister[camera/mycam-1] starting
+[roslaunch.pmon][INFO] 2022-01-18 23:02:13,373: ProcessMonitor.unregister[camera/mycam-1] complete
+[roslaunch][INFO] 2022-01-18 23:02:13,374: all processes on machine have died, roslaunch will exit
+[roslaunch.pmon][INFO] 2022-01-18 23:02:13,475: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 281472872595952)>
+[roslaunch.pmon][INFO] 2022-01-18 23:02:13,476: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 281472872595952)>: remaining procs are []
+[roslaunch.pmon][INFO] 2022-01-18 23:02:13,483: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2022-01-18 23:02:13,484: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2022-01-18 23:02:13,495: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2022-01-18 23:02:13,496: runner.stop()
+[roslaunch][INFO] 2022-01-18 23:02:13,496: shutting down processing monitor...
+[roslaunch][INFO] 2022-01-18 23:02:13,496: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 281472872595952)>
+[roslaunch.pmon][INFO] 2022-01-18 23:02:13,497: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 281472872595952)>
+[roslaunch][INFO] 2022-01-18 23:02:13,497: ... shutting down processing monitor complete
+[roslaunch][INFO] 2022-01-18 23:02:13,498: done
+[roslaunch.pmon][INFO] 2022-01-18 23:02:13,498: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 281472872595952)>
+[rospy.core][INFO] 2022-01-18 23:02:13,499: signal_shutdown [atexit]

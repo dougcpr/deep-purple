@@ -1,0 +1,110 @@
+[rospy.client][INFO] 2022-02-02 13:33:54,602: init_node, name[/rostopic_15583_1643808834555], pid[15583]
+[xmlrpc][INFO] 2022-02-02 13:33:54,604: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-02 13:33:54,604: Started XML-RPC server [http://ubuntu:44107/]
+[rospy.init][INFO] 2022-02-02 13:33:54,605: ROS Slave URI: [http://ubuntu:44107/]
+[rospy.impl.masterslave][INFO] 2022-02-02 13:33:54,605: _ready: http://ubuntu:44107/
+[rospy.registration][INFO] 2022-02-02 13:33:54,606: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-02 13:33:54,607: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-02 13:33:54,706: registered with master
+[rospy.rosout][INFO] 2022-02-02 13:33:54,707: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-02 13:33:54,713: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-02 13:33:54,717: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-02 13:33:54,783: topic[/sweeper_cmd_bt] adding connection to [http://ubuntu:33825/], count 0
+[rospy.internal][INFO] 2022-02-02 13:33:54,957: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.msg][ERROR] 2022-02-02 13:34:11,422: cannot deserialize message: EXCEPTION Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/msg.py", line 223, in deserialize_messages
+    msg_queue.append(data.deserialize(q))
+  File "/home/ubuntu/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/msg/_SweeperCmdMsg.py", line 84, in deserialize
+    raise genpy.DeserializationError(e)  # most likely buffer underfill
+DeserializationError: unpack requires a string argument of length 1
+
+[rospy.internal][ERROR] 2022-02-02 13:34:11,424: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 735, in receive_once
+    p.read_messages(b, msg_queue, sock)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 398, in read_messages
+    deserialize_messages(b, msg_queue, self.recv_data_class, queue_size=self.queue_size)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/msg.py", line 245, in deserialize_messages
+    raise genpy.DeserializationError("cannot deserialize: %s"%str(e))
+DeserializationError: cannot deserialize: unpack requires a string argument of length 1
+
+[rospy.internal][ERROR] 2022-02-02 13:34:11,432: Unable to initiate TCP/IP socket to ubuntu:34671 (http://ubuntu:33825/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 603, in _validate_header
+    raise TransportInitError("header missing required field [%s]"%required)
+TransportInitError: header missing required field [md5sum]
+
+[rospy.internal][ERROR] 2022-02-02 13:34:12,440: Unable to initiate TCP/IP socket to ubuntu:34671 (http://ubuntu:33825/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 603, in _validate_header
+    raise TransportInitError("header missing required field [%s]"%required)
+TransportInitError: header missing required field [md5sum]
+
+[rospy.internal][WARNING] 2022-02-02 13:34:14,470: Unknown error initiating TCP/IP socket to ubuntu:34671 (http://ubuntu:33825/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 378, in read_ros_handshake_header
+    return decode_ros_handshake_header(bval)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 330, in decode_ros_handshake_header
+    raise ROSHandshakeException("Invalid line length in handshake header: %s"%size)
+ROSHandshakeException: Invalid line length in handshake header: 5
+
+[rospy.internal][INFO] 2022-02-02 13:34:14,472: topic[/sweeper_cmd_bt] removing connection to http://ubuntu:33825/
+[rospy.internal][INFO] 2022-02-02 13:36:03,535: topic[/sweeper_cmd_bt] adding connection to [http://ubuntu:40919/], count 0
+[rospy.msg][ERROR] 2022-02-02 13:36:43,519: cannot deserialize message: EXCEPTION Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/msg.py", line 223, in deserialize_messages
+    msg_queue.append(data.deserialize(q))
+  File "/home/ubuntu/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/msg/_SweeperCmdMsg.py", line 84, in deserialize
+    raise genpy.DeserializationError(e)  # most likely buffer underfill
+DeserializationError: unpack requires a string argument of length 1
+
+[rospy.internal][ERROR] 2022-02-02 13:36:43,520: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 735, in receive_once
+    p.read_messages(b, msg_queue, sock)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 398, in read_messages
+    deserialize_messages(b, msg_queue, self.recv_data_class, queue_size=self.queue_size)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/msg.py", line 245, in deserialize_messages
+    raise genpy.DeserializationError("cannot deserialize: %s"%str(e))
+DeserializationError: cannot deserialize: unpack requires a string argument of length 1
+
+[rospy.internal][ERROR] 2022-02-02 13:36:43,529: Unable to initiate TCP/IP socket to ubuntu:38577 (http://ubuntu:40919/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 603, in _validate_header
+    raise TransportInitError("header missing required field [%s]"%required)
+TransportInitError: header missing required field [md5sum]
+
+[rospy.internal][WARNING] 2022-02-02 13:36:44,535: Unknown error initiating TCP/IP socket to ubuntu:38577 (http://ubuntu:40919/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 378, in read_ros_handshake_header
+    return decode_ros_handshake_header(bval)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 330, in decode_ros_handshake_header
+    raise ROSHandshakeException("Invalid line length in handshake header: %s"%size)
+ROSHandshakeException: Invalid line length in handshake header: 5
+
+[rospy.internal][INFO] 2022-02-02 13:36:44,537: topic[/sweeper_cmd_bt] removing connection to http://ubuntu:40919/
+[rospy.internal][INFO] 2022-02-02 13:38:05,384: topic[/sweeper_cmd_bt] adding connection to [http://ubuntu:45205/], count 0
+[rospy.core][INFO] 2022-02-02 14:36:42,689: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-02 14:36:42,701: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-02-02 14:36:42,702: topic[/sweeper_cmd_bt] removing connection to http://ubuntu:45205/
+[rospy.impl.masterslave][INFO] 2022-02-02 14:36:42,702: signal-2
+[rospy.internal][WARNING] 2022-02-02 14:36:42,704: Unknown error initiating TCP/IP socket to ubuntu:41035 (http://ubuntu:45205/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2022-02-02 14:36:42,835: signal_shutdown [atexit]

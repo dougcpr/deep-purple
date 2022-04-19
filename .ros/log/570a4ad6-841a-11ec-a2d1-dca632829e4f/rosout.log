@@ -1,0 +1,93 @@
+
+
+1643800922.331019391  Node Startup
+1643800928.509443044 INFO /link_ros [threading.py:754(Thread.run)] [topics: /rosout] [FREEDOM] Starting to listen to topic: /rosout_agg
+1643800929.463136911 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout, /rosout_agg] [FREEDOM] Completed initializing LinkROS
+1643801080.968139886 INFO /link_ros [threading.py:754(Thread.run)] [topics: /rosout] [FREEDOM] Starting to listen to topic: /rosout_agg
+1643801081.968060016 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout, /rosout_agg] [FREEDOM] Completed initializing LinkROS
+1643801145.723491907 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout, /rosout_agg, /tf] [FREEDOM] Topic not found. No one is publishing on it currently. Will create the first publisher: /sweeper_cmd
+1643801145.730465888 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout, /rosout_agg, /tf] [FREEDOM] received a command of type r2_platform/SweeperCmdMsg which can not be found. Disregarding message.
+1643801415.459496021 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout, /rosout_agg, /tf] [FREEDOM] Topic not found. No one is publishing on it currently. Will create the first publisher: /sweeper_cmd_bt
+1643801415.472827911 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] [FREEDOM] Starting to listen to topic: /sweeper_cmd_bt
+1643801416.040131092 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] [FREEDOM] received ROS command which was not formatted correctly for a message on topic: /sweeper_cmd_bt of type: beginner_tutorials/SweeperCmdMsg
+1643801416.046292066 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] EXPECTED FORMAT: 
+{
+    "mode": 0
+}
+1643801416.050909996 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] RECEIVED FORMAT: 
+{
+    "data": {
+        "mode": 10.0
+    }
+}
+1643801691.093710899 INFO /link_ros [threading.py:754(Thread.run)] [topics: /rosout] [FREEDOM] Starting to listen to topic: /rosout_agg
+1643801692.090398073 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout, /rosout_agg] [FREEDOM] Completed initializing LinkROS
+1643801733.120888948 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] [FREEDOM] Starting to listen to topic: /sweeper_cmd_bt
+1643801733.738502025 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] [FREEDOM] Failed to convert to ros message: Field 'mode' has wrong type <type 'float'> (valid types: [<type 'int'>, <type 'long'>, <type 'numpy.uint8'>])
+1643801852.578372001 INFO /link_ros [threading.py:754(Thread.run)] [topics: /rosout] [FREEDOM] Starting to listen to topic: /rosout_agg
+1643801853.575612068 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout, /rosout_agg] [FREEDOM] Completed initializing LinkROS
+1643801869.288268089 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] [FREEDOM] Starting to listen to topic: /sweeper_cmd_bt
+1643801869.851965904 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] [FREEDOM] Failed to convert to ros message: Field 'mode' has wrong type <type 'float'> (valid types: [<type 'int'>, <type 'long'>, <type 'numpy.uint8'>])
+1643801886.568161010 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] [FREEDOM] Failed to convert to ros message: Field 'mode' has wrong type <type 'float'> (valid types: [<type 'int'>, <type 'long'>, <type 'numpy.uint8'>])
+1643801900.999666929 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] [FREEDOM] received ROS command which was not formatted correctly for a message on topic: /sweeper_cmd_bt of type: beginner_tutorials/SweeperCmdMsg : ROS message type "beginner_tutorials/SweeperCmdMsg" has no field named "data"
+1643801901.004456996 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] EXPECTED FORMAT: 
+{
+    "mode": 0
+}
+1643801901.008579969 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] RECEIVED FORMAT: 
+{
+    "data": {
+        "mode": 10.0
+    }
+}
+1643802020.025427103 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] [FREEDOM] received ROS command which was not formatted correctly for a message on topic: /sweeper_cmd_bt of type: beginner_tutorials/SweeperCmdMsg : ROS message type "beginner_tutorials/SweeperCmdMsg" has no field named "data"
+1643802020.032044887 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] EXPECTED FORMAT: 
+{
+    "mode": 0
+}
+1643802020.036544084 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] RECEIVED FORMAT: 
+{
+    "data": {
+        "mode": 10.0
+    }
+}
+1643802098.778561115 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] [FREEDOM] Failed to convert to ros message: Field 'mode' has wrong type <type 'float'> (valid types: [<type 'int'>, <type 'long'>, <type 'numpy.uint8'>])
+1643808603.707885026 INFO /link_ros [threading.py:754(Thread.run)] [topics: /rosout] [FREEDOM] Starting to listen to topic: /rosout_agg
+1643808604.705482006 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout, /rosout_agg] [FREEDOM] Completed initializing LinkROS
+1643808639.974755048 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] [FREEDOM] Starting to listen to topic: /sweeper_cmd_bt
+1643808694.622318029 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] [FREEDOM] Failed to convert to ros message: Field 'mode' has wrong type <type 'float'> (valid types: [<type 'int'>, <type 'long'>, <type 'numpy.uint8'>])
+1643808700.569510936 WARN /link_ros [tcpros_base.py:355(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1643808809.829181909 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] [FREEDOM] received ROS command with poor formatting on topic: /sweeper_cmd_bt of type: beginner_tutorials/SweeperCmdMsg<class 'rospy.exceptions.ROSSerializationException'> field mode exceeds specified width [uint8]
+1643808809.834600925 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] Trace: Traceback (most recent call last):
+  File "freedomrobotics/link_ros_base.py", line 559, in freedomrobotics.link_ros_base.LinkROSBase.__publish_ros_message
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 886, in publish
+    raise ROSSerializationException(str(e))
+ROSSerializationException: field mode exceeds specified width [uint8]
+
+1643808809.838767051 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] Message Received:
+mode: 11111
+1643808818.158766031 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] [FREEDOM] received ROS command with poor formatting on topic: /sweeper_cmd_bt of type: beginner_tutorials/SweeperCmdMsg<class 'rospy.exceptions.ROSSerializationException'> field mode exceeds specified width [uint8]
+1643808818.163796901 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] Trace: Traceback (most recent call last):
+  File "freedomrobotics/link_ros_base.py", line 559, in freedomrobotics.link_ros_base.LinkROSBase.__publish_ros_message
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 886, in publish
+    raise ROSSerializationException(str(e))
+ROSSerializationException: field mode exceeds specified width [uint8]
+
+1643808818.167761087 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] Message Received:
+mode: 11111
+1643808956.362030982 INFO /link_ros [threading.py:754(Thread.run)] [topics: /rosout] [FREEDOM] Starting to listen to topic: /rosout_agg
+1643808957.360151052 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout, /rosout_agg] [FREEDOM] Completed initializing LinkROS
+1643808963.474772930 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] [FREEDOM] Starting to listen to topic: /sweeper_cmd_bt
+1643808980.998513936 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] [FREEDOM] received ROS command with poor formatting on topic: /sweeper_cmd_bt of type: beginner_tutorials/SweeperCmdMsg<class 'rospy.exceptions.ROSSerializationException'> field mode must be unsigned integer type
+1643808981.003515005 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] Trace: Traceback (most recent call last):
+  File "freedomrobotics/link_ros_base.py", line 559, in freedomrobotics.link_ros_base.LinkROSBase.__publish_ros_message
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 886, in publish
+    raise ROSSerializationException(str(e))
+ROSSerializationException: field mode must be unsigned integer type
+
+1643808981.007538080 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] Message Received:
+mode: -1
+1643809079.452125072 INFO /link_ros [threading.py:754(Thread.run)] [topics: /rosout] [FREEDOM] Starting to listen to topic: /rosout_agg
+1643809080.451224088 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout, /rosout_agg] [FREEDOM] Completed initializing LinkROS
+1643809085.273483037 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] [FREEDOM] Starting to listen to topic: /sweeper_cmd_bt
+1643812602.916416883 WARN /link_ros [tcpros_base.py:355(TCPROSServer._tcp_server_callback)] [topics: /tf_static, /sweeper_cmd_bt, /rosout, /rosout_agg, /tf] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.

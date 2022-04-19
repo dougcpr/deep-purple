@@ -1,4 +1,7 @@
 <launch>
 <node name="webcam" pkg="camera_node" type="image_publisher.py" respawn="true" />
+<node name="listener" pkg="beginner_tutorials" type="listener.py" />
 <node name="talker" pkg="beginner_tutorials" type="talker.py" />
+<node name="joystick" pkg="beginner_tutorials" type="joystick.py"/>
+<node name="cancelJoystick" pkg="beginner_tutorials" type="cancelJoystick.py"/>
 </launch>

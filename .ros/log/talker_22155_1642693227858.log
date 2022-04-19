@@ -1,0 +1,183 @@
+[rospy.client][INFO] 2022-01-20 15:40:27,905: init_node, name[/talker_22155_1642693227858], pid[22155]
+[xmlrpc][INFO] 2022-01-20 15:40:27,912: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-20 15:40:27,913: Started XML-RPC server [http://ubuntu:38181/]
+[rospy.init][INFO] 2022-01-20 15:40:27,913: ROS Slave URI: [http://ubuntu:38181/]
+[rospy.impl.masterslave][INFO] 2022-01-20 15:40:27,914: _ready: http://ubuntu:38181/
+[rospy.registration][INFO] 2022-01-20 15:40:27,916: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-20 15:40:27,916: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-01-20 15:40:27,916: Registering publisher topic [/chatter] type [std_msgs/String] with master
+[rospy.init][INFO] 2022-01-20 15:40:28,014: registered with master
+[rospy.rosout][INFO] 2022-01-20 15:40:28,015: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-20 15:40:28,021: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-20 15:40:28,028: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2022-01-20 15:40:28,036: hello world 1642693228.04
+[rospy.internal][INFO] 2022-01-20 15:40:28,243: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-01-20 15:40:32,041: hello world 1642693232.04
+[rosout][INFO] 2022-01-20 15:40:36,041: hello world 1642693236.04
+[rosout][INFO] 2022-01-20 15:40:40,041: hello world 1642693240.04
+[rosout][INFO] 2022-01-20 15:40:44,041: hello world 1642693244.04
+[rosout][INFO] 2022-01-20 15:40:48,041: hello world 1642693248.04
+[rosout][INFO] 2022-01-20 15:40:52,041: hello world 1642693252.04
+[rosout][INFO] 2022-01-20 15:40:56,041: hello world 1642693256.04
+[rosout][INFO] 2022-01-20 15:41:00,039: hello world 1642693260.04
+[rosout][INFO] 2022-01-20 15:41:04,041: hello world 1642693264.04
+[rosout][INFO] 2022-01-20 15:41:08,041: hello world 1642693268.04
+[rosout][INFO] 2022-01-20 15:41:12,041: hello world 1642693272.04
+[rosout][INFO] 2022-01-20 15:41:16,041: hello world 1642693276.04
+[rosout][INFO] 2022-01-20 15:41:20,041: hello world 1642693280.04
+[rosout][INFO] 2022-01-20 15:41:24,041: hello world 1642693284.04
+[rosout][INFO] 2022-01-20 15:41:28,041: hello world 1642693288.04
+[rosout][INFO] 2022-01-20 15:41:32,041: hello world 1642693292.04
+[rosout][INFO] 2022-01-20 15:41:36,039: hello world 1642693296.04
+[rosout][INFO] 2022-01-20 15:41:40,041: hello world 1642693300.04
+[rosout][INFO] 2022-01-20 15:41:44,038: hello world 1642693304.04
+[rosout][INFO] 2022-01-20 15:41:48,041: hello world 1642693308.04
+[rosout][INFO] 2022-01-20 15:41:52,041: hello world 1642693312.04
+[rosout][INFO] 2022-01-20 15:41:56,041: hello world 1642693316.04
+[rosout][INFO] 2022-01-20 15:42:00,041: hello world 1642693320.04
+[rosout][INFO] 2022-01-20 15:42:04,041: hello world 1642693324.04
+[rosout][INFO] 2022-01-20 15:42:08,041: hello world 1642693328.04
+[rosout][INFO] 2022-01-20 15:42:12,041: hello world 1642693332.04
+[rospy.internal][INFO] 2022-01-20 15:42:14,494: topic[/rosout] removing connection to /rosout
+[rospy.rosout][ERROR] 2022-01-20 15:42:16,044: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/client.py", line 490, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/msproxy.py", line 168, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/core.py", line 670, in _ServerProxy__request
+    self, methodname, params)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1095, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 898, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 860, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 837, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosout][INFO] 2022-01-20 15:42:16,040: hello world 1642693336.04
+[rospy.rosout][ERROR] 2022-01-20 15:42:20,043: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/client.py", line 490, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/msproxy.py", line 168, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/core.py", line 670, in _ServerProxy__request
+    self, methodname, params)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1095, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 898, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 860, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 837, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosout][INFO] 2022-01-20 15:42:20,040: hello world 1642693340.04
+[rospy.rosout][ERROR] 2022-01-20 15:42:24,041: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/client.py", line 490, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/msproxy.py", line 168, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/core.py", line 670, in _ServerProxy__request
+    self, methodname, params)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1095, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 898, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 860, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 837, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosout][INFO] 2022-01-20 15:42:24,040: hello world 1642693344.04
+[rosout][INFO] 2022-01-20 15:42:28,041: hello world 1642693348.04
+[rosout][INFO] 2022-01-20 15:42:32,039: hello world 1642693352.04
+[rosout][INFO] 2022-01-20 15:42:36,041: hello world 1642693356.04
+[rosout][INFO] 2022-01-20 15:42:40,041: hello world 1642693360.04
+[rosout][INFO] 2022-01-20 15:42:44,041: hello world 1642693364.04
+[rosout][INFO] 2022-01-20 15:42:48,041: hello world 1642693368.04
+[rosout][INFO] 2022-01-20 15:42:52,037: hello world 1642693372.04
+[rosout][INFO] 2022-01-20 15:42:56,041: hello world 1642693376.04
+[rosout][INFO] 2022-01-20 15:43:00,041: hello world 1642693380.04
+[rosout][INFO] 2022-01-20 15:43:04,041: hello world 1642693384.04
+[rosout][INFO] 2022-01-20 15:43:08,040: hello world 1642693388.04
+[rosout][INFO] 2022-01-20 15:43:12,041: hello world 1642693392.04
+[rosout][INFO] 2022-01-20 15:43:16,041: hello world 1642693396.04
+[rosout][INFO] 2022-01-20 15:43:20,041: hello world 1642693400.04
+[rosout][INFO] 2022-01-20 15:43:24,041: hello world 1642693404.04
+[rosout][INFO] 2022-01-20 15:43:28,041: hello world 1642693408.04
+[rosout][INFO] 2022-01-20 15:43:32,041: hello world 1642693412.04
+[rosout][INFO] 2022-01-20 15:43:36,041: hello world 1642693416.04
+[rosout][INFO] 2022-01-20 15:43:40,041: hello world 1642693420.04
+[rosout][INFO] 2022-01-20 15:43:44,041: hello world 1642693424.04
+[rosout][INFO] 2022-01-20 15:43:48,041: hello world 1642693428.04
+[rosout][INFO] 2022-01-20 15:43:52,041: hello world 1642693432.04
+[rosout][INFO] 2022-01-20 15:43:56,041: hello world 1642693436.04
+[rosout][INFO] 2022-01-20 15:44:00,041: hello world 1642693440.04
+[rosout][INFO] 2022-01-20 15:44:04,038: hello world 1642693444.04
+[rosout][INFO] 2022-01-20 15:44:08,041: hello world 1642693448.04
+[rosout][INFO] 2022-01-20 15:44:12,041: hello world 1642693452.04
+[rosout][INFO] 2022-01-20 15:44:16,041: hello world 1642693456.04
+[rosout][INFO] 2022-01-20 15:44:20,041: hello world 1642693460.04
+[rosout][INFO] 2022-01-20 15:44:24,041: hello world 1642693464.04
+[rosout][INFO] 2022-01-20 15:44:28,041: hello world 1642693468.04
+[rosout][INFO] 2022-01-20 15:44:32,039: hello world 1642693472.04
+[rosout][INFO] 2022-01-20 15:44:36,041: hello world 1642693476.04
+[rosout][INFO] 2022-01-20 15:44:40,041: hello world 1642693480.04
+[rosout][INFO] 2022-01-20 15:44:44,041: hello world 1642693484.04
+[rosout][INFO] 2022-01-20 15:44:48,041: hello world 1642693488.04
+[rosout][INFO] 2022-01-20 15:44:52,040: hello world 1642693492.04
+[rosout][INFO] 2022-01-20 15:44:56,041: hello world 1642693496.04
+[rosout][INFO] 2022-01-20 15:45:00,041: hello world 1642693500.04
+[rosout][INFO] 2022-01-20 15:45:04,041: hello world 1642693504.04
+[rospy.core][INFO] 2022-01-20 15:45:04,248: signal_shutdown [signal-2]
+[rospy.impl.masterslave][INFO] 2022-01-20 15:45:04,260: signal-2
+[rospy.core][INFO] 2022-01-20 15:45:04,393: signal_shutdown [atexit]

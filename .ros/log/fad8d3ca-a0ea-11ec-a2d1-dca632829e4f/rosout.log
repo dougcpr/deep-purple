@@ -1,0 +1,8 @@
+
+
+1646969165.008600684  Node Startup
+1646969172.567282915 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout] [FREEDOM] Starting to listen to topic: /rosout_agg
+1646969172.635123968 INFO /link_ros [threading.py:754(Thread.run)] [topics: /rosout, /rosout_agg] [FREEDOM] Starting to listen to topic: /video/click
+1646969172.647335052 INFO /link_ros [threading.py:754(Thread.run)] [topics: /rosout, /video/click, /rosout_agg] [FREEDOM] Starting to listen to topic: /image_raw
+1646969173.589864015 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout, /video/click, /rosout_agg, /image_raw] [FREEDOM] Completed initializing LinkROS
+1646969594.466086303 INFO /record_1646969594336119269 [/tmp/binarydeb/ros-melodic-rosbag-1.14.11/src/recorder.cpp:436(Recorder::startWriting)] [topics: /rosout] Recording to '/home/ubuntu/.inorbit/local/rosbags/2022-03-11T03:33:12.bag'.

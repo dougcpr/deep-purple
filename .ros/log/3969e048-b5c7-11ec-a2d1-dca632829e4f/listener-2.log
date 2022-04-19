@@ -1,0 +1,55 @@
+[rospy.client][INFO] 2022-04-06 16:33:13,423: init_node, name[/listener], pid[29873]
+[xmlrpc][INFO] 2022-04-06 16:33:13,424: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-04-06 16:33:13,427: Started XML-RPC server [http://ubuntu:41881/]
+[rospy.init][INFO] 2022-04-06 16:33:13,428: ROS Slave URI: [http://ubuntu:41881/]
+[rospy.impl.masterslave][INFO] 2022-04-06 16:33:13,429: _ready: http://ubuntu:41881/
+[xmlrpc][INFO] 2022-04-06 16:33:13,433: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-04-06 16:33:13,433: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-04-06 16:33:13,530: registered with master
+[rospy.rosout][INFO] 2022-04-06 16:33:13,531: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-04-06 16:33:13,541: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-04-06 16:33:13,545: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-04-06 16:33:13,611: topic[/video/click] adding connection to [http://ubuntu:44381/], count 0
+[rospy.internal][INFO] 2022-04-06 16:33:13,892: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-04-06 17:56:52,087: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-04-06 17:56:52,102: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-04-06 17:56:52,103: topic[/video/click] removing connection to http://ubuntu:44381/
+[rospy.impl.masterslave][INFO] 2022-04-06 17:56:52,104: signal-2
+[rospy.core][INFO] 2022-04-06 17:56:52,221: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-04-06 17:56:57,227: init_node, name[/listener], pid[21298]
+[xmlrpc][INFO] 2022-04-06 17:56:57,229: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-04-06 17:56:57,233: ROS Slave URI: [http://ubuntu:42829/]
+[xmlrpc][INFO] 2022-04-06 17:56:57,234: Started XML-RPC server [http://ubuntu:42829/]
+[rospy.impl.masterslave][INFO] 2022-04-06 17:56:57,235: _ready: http://ubuntu:42829/
+[xmlrpc][INFO] 2022-04-06 17:56:57,257: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-04-06 17:56:57,259: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-04-06 17:56:57,334: registered with master
+[rospy.rosout][INFO] 2022-04-06 17:56:57,335: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-04-06 17:56:57,357: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-04-06 17:56:57,361: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-04-06 17:56:57,497: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-04-06 17:56:57,600: topic[/video/click] adding connection to [http://ubuntu:39009/], count 0
+[rospy.core][INFO] 2022-04-06 17:57:08,414: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-04-06 17:57:08,428: topic[/rosout] removing connection to /rosout
+[rospy.internal][WARNING] 2022-04-06 17:57:08,432: Unknown error initiating TCP/IP socket to ubuntu:35629 (http://ubuntu:39009/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 561, in connect
+    self.write_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 642, in write_header
+    self.stat_bytes += write_ros_handshake_header(sock, protocol.get_header_fields())
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 417, in write_ros_handshake_header
+    sock.sendall(s)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 32] Broken pipe
+
+[rospy.internal][INFO] 2022-04-06 17:57:08,432: topic[/video/click] removing connection to http://ubuntu:39009/
+[rospy.internal][INFO] 2022-04-06 17:57:08,433: topic[/video/click] removing connection to http://ubuntu:39009/
+[rospy.topics][ERROR] 2022-04-06 17:57:08,435: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 846, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2022-04-06 17:57:08,436: signal-2
+[rospy.core][INFO] 2022-04-06 17:57:08,568: signal_shutdown [atexit]

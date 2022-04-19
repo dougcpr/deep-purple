@@ -1,0 +1,29 @@
+[rospy.client][INFO] 2022-01-28 19:58:02,790: init_node, name[/rostopic_17937_1643399882713], pid[17937]
+[xmlrpc][INFO] 2022-01-28 19:58:02,792: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-28 19:58:02,794: Started XML-RPC server [http://ubuntu:45853/]
+[rospy.init][INFO] 2022-01-28 19:58:02,795: ROS Slave URI: [http://ubuntu:45853/]
+[rospy.impl.masterslave][INFO] 2022-01-28 19:58:02,796: _ready: http://ubuntu:45853/
+[rospy.registration][INFO] 2022-01-28 19:58:02,802: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-28 19:58:02,802: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-28 19:58:02,898: registered with master
+[rospy.rosout][INFO] 2022-01-28 19:58:02,899: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-28 19:58:02,904: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-28 19:58:02,907: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-01-28 19:58:03,105: topic[/video/click] adding connection to [http://ubuntu:40329/], count 0
+[rospy.internal][INFO] 2022-01-28 19:58:03,107: topic[/video/click] adding connection to [http://ubuntu:35815/], count 0
+[rospy.internal][INFO] 2022-01-28 19:58:03,170: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][WARNING] 2022-01-28 19:58:11,069: Unknown error initiating TCP/IP socket to ubuntu:46809 (http://ubuntu:40329/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-01-28 19:58:11,070: topic[/video/click] removing connection to http://ubuntu:40329/
+[rospy.internal][INFO] 2022-01-28 19:58:16,189: topic[/video/click] adding connection to [http://ubuntu:39015/], count 1
+[rospy.core][INFO] 2022-01-28 19:58:33,667: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-28 19:58:33,678: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-28 19:58:33,678: topic[/video/click] removing connection to http://ubuntu:35815/
+[rospy.internal][INFO] 2022-01-28 19:58:33,679: topic[/video/click] removing connection to http://ubuntu:39015/
+[rospy.impl.masterslave][INFO] 2022-01-28 19:58:33,681: signal-2
+[rospy.core][INFO] 2022-01-28 19:58:33,798: signal_shutdown [atexit]

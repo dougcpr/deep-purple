@@ -1,0 +1,15 @@
+[rospy.client][INFO] 2022-04-07 16:03:43,533: init_node, name[/talker], pid[3850]
+[xmlrpc][INFO] 2022-04-07 16:03:43,538: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-04-07 16:03:43,542: ROS Slave URI: [http://ubuntu:36983/]
+[xmlrpc][INFO] 2022-04-07 16:03:43,543: Started XML-RPC server [http://ubuntu:36983/]
+[rospy.impl.masterslave][INFO] 2022-04-07 16:03:43,544: _ready: http://ubuntu:36983/
+[xmlrpc][INFO] 2022-04-07 16:03:43,545: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-04-07 16:03:43,550: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2022-04-07 16:03:43,556: Registering publisher topic [/video/click] type [geometry_msgs/PointStamped] with master
+[rospy.init][INFO] 2022-04-07 16:03:43,643: registered with master
+[rospy.rosout][INFO] 2022-04-07 16:03:43,644: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-04-07 16:03:43,648: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-04-07 16:03:43,652: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-04-07 16:03:43,691: topic[/video/click] adding connection to [/listener], count 0
+[rospy.internal][INFO] 2022-04-07 16:03:43,871: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-04-07 16:03:44,604: topic[/video/click] adding connection to [/link_ros], count 1

@@ -1,0 +1,49 @@
+[rosmaster.main][INFO] 2022-01-20 19:26:37,219: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-01-20 19:26:37,220: Starting ROS Master Node
+[xmlrpc][INFO] 2022-01-20 19:26:37,222: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-01-20 19:26:37,222: Started XML-RPC server [http://ubuntu:11311/]
+[rosmaster.master][INFO] 2022-01-20 19:26:37,223: Master initialized: port[11311], uri[http://ubuntu:11311/]
+[xmlrpc][INFO] 2022-01-20 19:26:37,223: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-01-20 19:26:37,328: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-01-20 19:26:37,330: +PARAM [/roslaunch/uris/host_ubuntu__40763] by /roslaunch
+[rosmaster.master][INFO] 2022-01-20 19:26:37,413: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-01-20 19:26:37,414: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-01-20 19:26:37,443: +SERVICE [/rosout/get_loggers] /rosout http://ubuntu:38465/
+[rosmaster.master][INFO] 2022-01-20 19:26:37,444: +SERVICE [/rosout/set_logger_level] /rosout http://ubuntu:38465/
+[rosmaster.master][INFO] 2022-01-20 19:26:37,447: +PUB [/rosout_agg] /rosout http://ubuntu:38465/
+[rosmaster.master][INFO] 2022-01-20 19:26:37,452: +SUB [/rosout] /rosout http://ubuntu:38465/
+[rosmaster.master][INFO] 2022-01-20 19:26:38,056: -PUB [/chatter] /talker http://ubuntu:34205/
+[rosmaster.master][INFO] 2022-01-20 19:26:38,056: -PUB [/rosout] /talker http://ubuntu:34205/
+[rosmaster.master][INFO] 2022-01-20 19:26:38,056: -SERVICE [/talker/get_loggers] /talker rosrpc://ubuntu:39495
+[rosmaster.master][INFO] 2022-01-20 19:26:38,057: -SERVICE [/talker/set_logger_level] /talker rosrpc://ubuntu:39495
+[rosmaster.master][INFO] 2022-01-20 19:26:38,078: -PUB [/rosout] /webcam http://ubuntu:37353/
+[rosmaster.master][INFO] 2022-01-20 19:26:38,079: -PUB [/image_raw] /webcam http://ubuntu:37353/
+[rosmaster.master][INFO] 2022-01-20 19:26:38,079: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:41627
+[rosmaster.master][INFO] 2022-01-20 19:26:38,079: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:41627
+[rosmaster.master][INFO] 2022-01-20 19:26:41,590: +PARAM [/roslaunch/uris/host_ubuntu__41369] by /roslaunch
+[rosmaster.master][INFO] 2022-01-20 19:26:41,596: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-01-20 19:26:41,596: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-01-20 19:26:42,698: +PUB [/chatter] /talker http://ubuntu:37467/
+[rosmaster.master][INFO] 2022-01-20 19:26:42,793: +PUB [/rosout] /talker http://ubuntu:37467/
+[rosmaster.master][INFO] 2022-01-20 19:26:42,800: +SERVICE [/talker/get_loggers] /talker http://ubuntu:37467/
+[rosmaster.master][INFO] 2022-01-20 19:26:42,803: +SERVICE [/talker/set_logger_level] /talker http://ubuntu:37467/
+[rosmaster.master][INFO] 2022-01-20 19:26:42,807: +CACHEDPARAM [/rosout_disable_topics_generation] by /talker
+[rosmaster.master][INFO] 2022-01-20 19:26:42,834: publisherUpdate[/rosout] -> http://ubuntu:38465/ ['http://ubuntu:37467/']
+[rosmaster.master][INFO] 2022-01-20 19:26:42,843: publisherUpdate[/rosout] -> http://ubuntu:38465/ ['http://ubuntu:37467/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-20 19:26:43,051: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2022-01-20 19:26:43,589: +PUB [/image_raw] /webcam http://ubuntu:32975/
+[rosmaster.master][INFO] 2022-01-20 19:26:43,687: +PUB [/rosout] /webcam http://ubuntu:32975/
+[rosmaster.master][INFO] 2022-01-20 19:26:43,696: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:32975/
+[rosmaster.master][INFO] 2022-01-20 19:26:43,699: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:32975/
+[rosmaster.master][INFO] 2022-01-20 19:26:43,736: publisherUpdate[/rosout] -> http://ubuntu:38465/ ['http://ubuntu:37467/', 'http://ubuntu:32975/']
+[rosmaster.master][INFO] 2022-01-20 19:26:43,746: publisherUpdate[/rosout] -> http://ubuntu:38465/ ['http://ubuntu:37467/', 'http://ubuntu:32975/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-20 19:26:46,809: +CACHEDPARAM [/rosout_disable_topics_generation] by /talker
+[rosmaster.master][INFO] 2022-01-20 19:26:50,812: +CACHEDPARAM [/rosout_disable_topics_generation] by /talker
+[rosmaster.master][INFO] 2022-01-20 19:26:53,671: -PUB [/rosout_agg] /rosout http://ubuntu:38465/
+[rosmaster.master][INFO] 2022-01-20 19:26:53,673: -SUB [/rosout] /rosout http://ubuntu:38465/
+[rosmaster.master][INFO] 2022-01-20 19:26:53,675: -SERVICE [/rosout/get_loggers] /rosout rosrpc://ubuntu:47359
+[rosmaster.master][INFO] 2022-01-20 19:26:53,676: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://ubuntu:47359
+[rosmaster.master][INFO] 2022-01-20 19:26:53,678: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2022-01-20 19:26:53,691: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2022-01-20 19:26:53,692: stopping master...
+[rospy.core][INFO] 2022-01-20 19:26:53,692: signal_shutdown [atexit]

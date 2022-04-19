@@ -1,0 +1,228 @@
+[0.077s] Invoking command in '/home/ubuntu/ros2_foxy/build/cyclonedds': /usr/bin/cmake /home/ubuntu/ros2_foxy/src/eclipse-cyclonedds/cyclonedds -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_foxy/install/cyclonedds
+[0.764s] -- The C compiler identification is GNU 7.5.0
+[0.804s] -- Check for working C compiler: /usr/bin/cc
+[1.588s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.592s] -- Detecting C compiler ABI info
+[2.370s] -- Detecting C compiler ABI info - done
+[2.428s] -- Detecting C compile features
+[4.670s] -- Detecting C compile features - done
+[4.937s] -- The CXX compiler identification is GNU 7.5.0
+[4.951s] -- Check for working CXX compiler: /usr/bin/c++
+[5.344s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.348s] -- Detecting CXX compiler ABI info
+[5.737s] -- Detecting CXX compiler ABI info - done
+[5.757s] -- Detecting CXX compile features
+[7.816s] -- Detecting CXX compile features - done
+[7.818s] -- Setting build type to 'RelWithDebInfo' as none was specified.
+[8.167s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[8.168s] -- Building with OpenSSL support
+[9.840s] -- Looking for pthread.h
+[10.218s] -- Looking for pthread.h - found
+[10.222s] -- Looking for pthread_create
+[10.615s] -- Looking for pthread_create - not found
+[10.617s] -- Looking for pthread_create in pthreads
+[10.935s] -- Looking for pthread_create in pthreads - not found
+[10.937s] -- Looking for pthread_create in pthread
+[11.268s] -- Looking for pthread_create in pthread - found
+[11.273s] -- Found Threads: TRUE  
+[11.276s] -- Looking for clock_gettime in c
+[11.667s] -- Looking for clock_gettime in c - found
+[11.689s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[12.131s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[12.138s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[12.569s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[12.576s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[13.008s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[13.045s] You have called ADD_LIBRARY for library ddsc without any source files. This typically indicates a problem with your CMakeLists.txt file
+[13.181s] -- Configuring done
+[13.605s] -- Generating done
+[13.623s] -- Build files have been written to: /home/ubuntu/ros2_foxy/build/cyclonedds
+[13.660s] Invoked command in '/home/ubuntu/ros2_foxy/build/cyclonedds' returned '0': /usr/bin/cmake /home/ubuntu/ros2_foxy/src/eclipse-cyclonedds/cyclonedds -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_foxy/install/cyclonedds
+[13.672s] Invoking command in '/home/ubuntu/ros2_foxy/build/cyclonedds': /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/cyclonedds -- -j4 -l4
+[13.981s] [35m[1mScanning dependencies of target ddsc[0m
+[16.313s] [  2%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tran.c.o[0m
+[16.316s] [  2%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ssl.c.o[0m
+[16.318s] [  2%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_eth.c.o[0m
+[16.344s] [  2%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tcp.c.o[0m
+[17.059s] [  3%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_udp.c.o[0m
+[17.920s] [  3%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_raweth.c.o[0m
+[18.128s] [  4%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ipaddr.c.o[0m
+[19.028s] [  4%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_mcgroup.c.o[0m
+[19.125s] [  5%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_util.c.o[0m
+[19.437s] [  5%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_omg.c.o[0m
+[19.827s] [  6%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_portmapping.c.o[0m
+[20.280s] [  7%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_handshake.c.o[0m
+[20.580s] [  7%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata.c.o[0m
+[21.361s] [  8%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_default.c.o[0m
+[21.535s] [  8%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_pserop.c.o[0m
+[22.365s] [  9%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_plist.c.o[0m
+[23.106s] [ 10%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertopic.c.o[0m
+[23.200s] [ 10%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertopic_default.c.o[0m
+[23.965s] [ 11%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertopic_pserop.c.o[0m
+[24.154s] [ 11%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertopic_plist.c.o[0m
+[24.167s] [ 12%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_statistics.c.o[0m
+[24.981s] [ 12%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_iid.c.o[0m
+[25.180s] [ 13%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tkmap.c.o[0m
+[25.234s] [ 14%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_vendor.c.o[0m
+[25.677s] [ 14%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_threadmon.c.o[0m
+[25.815s] [ 15%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_rhc.c.o[0m
+[26.331s] [ 15%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_pmd.c.o[0m
+[26.374s] [ 16%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity_index.c.o[0m
+[26.760s] [ 17%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_deadline.c.o[0m
+[26.940s] [ 17%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_deliver_locally.c.o[0m
+[27.282s] [ 18%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_plist.c.o[0m
+[27.550s] [ 18%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_cdrstream.c.o[0m
+[28.279s] [ 19%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_time.c.o[0m
+[28.501s] [ 19%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ownip.c.o[0m
+[28.969s] [ 20%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_acknack.c.o[0m
+[30.026s] [ 21%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_addrset.c.o[0m
+[31.012s] [ 21%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_bitset_inlines.c.o[0m
+[31.604s] [ 22%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_bswap.c.o[0m
+[32.250s] [ 22%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_config.c.o[0m
+[32.658s] [ 23%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_ddsi_discovery.c.o[0m
+[34.526s] [ 24%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_debmon.c.o[0m
+[34.582s] [ 24%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_entity.c.o[0m
+[36.794s] [ 25%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_gc.c.o[0m
+[37.468s] [ 25%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_init.c.o[0m
+[38.291s] [ 26%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_lat_estim.c.o[0m
+[38.505s] [ 27%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_lease.c.o[0m
+[38.980s] [ 27%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_misc.c.o[0m
+[39.608s] [ 28%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_pcap.c.o[0m
+[39.766s] [ 28%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_qosmatch.c.o[0m
+[40.528s] [ 29%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_radmin.c.o[0m
+[40.680s] [ 29%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_receive.c.o[0m
+[47.314s] [ 29%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_transmit.c.o[0m
+[49.517s] [ 30%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_inverse_uint32_set.c.o[0m
+[50.012s] [ 30%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_whc.c.o[0m
+[50.266s] [ 31%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_xevent.c.o[0m
+[56.018s] [ 32%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_xmsg.c.o[0m
+[58.589s] [ 32%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_freelist.c.o[0m
+[59.024s] [ 33%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/sysdeps.c.o[0m
+[59.490s] [ 33%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_lifespan.c.o[0m
+[59.902s] [ 34%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_msg.c.o[0m
+[61.477s] [ 34%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_exchange.c.o[0m
+[62.159s] [ 35%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_alloc.c.o[0m
+[62.579s] [ 36%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_builtin.c.o[0m
+[63.175s] [ 36%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_coherent.c.o[0m
+[63.545s] [ 37%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_participant.c.o[0m
+[64.299s] [ 37%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_reader.c.o[0m
+[66.061s] [ 38%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_writer.c.o[0m
+[67.357s] [ 39%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_init.c.o[0m
+[67.967s] [ 39%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_publisher.c.o[0m
+[68.538s] [ 40%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_rhc.c.o[0m
+[68.854s] [ 40%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_rhc_default.c.o[0m
+[72.224s] [ 41%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_domain.c.o[0m
+[73.165s] [ 41%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_instance.c.o[0m
+[74.109s] [ 42%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_qos.c.o[0m
+[75.626s] [ 43%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_handles.c.o[0m
+[76.453s] [ 43%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_entity.c.o[0m
+[78.416s] [ 44%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_matched.c.o[0m
+[80.257s] [ 44%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_querycond.c.o[0m
+[80.661s] [ 45%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_topic.c.o[0m
+[82.972s] [ 46%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_listener.c.o[0m
+[83.800s] [ 46%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_read.c.o[0m
+[84.773s] [ 47%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_waitset.c.o[0m
+[85.612s] [ 47%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_readcond.c.o[0m
+[88.078s] [ 48%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_guardcond.c.o[0m
+[90.920s] [ 48%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_statistics.c.o[0m
+[91.467s] [ 49%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_subscriber.c.o[0m
+[92.020s] [ 50%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_write.c.o[0m
+[92.831s] [ 50%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_whc.c.o[0m
+[94.671s] [ 51%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_whc_builtintopic.c.o[0m
+[95.269s] [ 51%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_serdata_builtintopic.c.o[0m
+[95.994s] [ 52%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_sertopic_builtintopic.c.o[0m
+[96.535s] [ 53%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_serialize.c.o[0m
+[97.567s] [ 53%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_utils.c.o[0m
+[99.292s] [ 54%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_plugins.c.o[0m
+[100.086s] [ 54%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/shared_secret.c.o[0m
+[100.513s] [ 55%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_fsm.c.o[0m
+[102.160s] [ 56%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_timed_cb.c.o[0m
+[102.642s] [ 56%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/bswap.c.o[0m
+[102.894s] [ 57%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/io.c.o[0m
+[103.206s] [ 57%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/log.c.o[0m
+[103.857s] [ 58%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/retcode.c.o[0m
+[104.046s] [ 58%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/strtod.c.o[0m
+[104.543s] [ 59%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/strtol.c.o[0m
+[104.995s] [ 60%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/mh3.c.o[0m
+[105.232s] [ 60%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/avl.c.o[0m
+[106.939s] [ 61%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/environ.c.o[0m
+[108.252s] [ 61%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/expand_vars.c.o[0m
+[108.834s] [ 62%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/fibheap.c.o[0m
+[109.243s] [ 63%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/hopscotch.c.o[0m
+[110.610s] [ 63%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/thread_pool.c.o[0m
+[111.021s] [ 64%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/xmlparser.c.o[0m
+[113.950s] [ 64%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/circlist.c.o[0m
+[114.165s] [ 65%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/atomics.c.o[0m
+[114.587s] [ 65%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/cdtors.c.o[0m
+[114.888s] [ 66%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/environ/posix/environ.c.o[0m
+[115.147s] [ 67%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/heap/posix/heap.c.o[0m
+[115.469s] [ 67%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/ifaddrs.c.o[0m
+[120.562s] [ 68%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/ifaddrs/posix/ifaddrs.c.o[0m
+[123.784s] [ 68%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/random.c.o[0m
+[134.145s] [ 69%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/random/posix/random.c.o[0m
+[134.424s] [ 70%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/rusage/posix/rusage.c.o[0m
+[135.148s] [ 70%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets.c.o[0m
+[135.674s] [ 71%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets/posix/gethostname.c.o[0m
+[135.933s] [ 71%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets/posix/socket.c.o[0m
+[136.467s] [ 72%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/string.c.o[0m
+[136.855s] [ 72%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/string/posix/strerror.c.o[0m
+[137.013s] [ 73%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sync/posix/sync.c.o[0m
+[137.377s] [ 74%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/threads.c.o[0m
+[137.549s] [ 74%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/threads/posix/threads.c.o[0m
+[138.168s] [ 75%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/time.c.o[0m
+[138.416s] [ 75%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/time/posix/time.c.o[0m
+[138.649s] [ 76%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/md5.c.o[0m
+[139.068s] [ 77%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/process/posix/process.c.o[0m
+[139.480s] [ 77%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/netstat/linux/netstat.c.o[0m
+[139.840s] [ 78%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/dynlib/posix/dynlib.c.o[0m
+[141.159s] [ 78%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/filesystem/posix/filesystem.c.o[0m
+[141.415s] [ 79%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_thread.c.o[0m
+[142.073s] [ 80%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_sockwaitset.c.o[0m
+[142.628s] [ 81%] [32m[1mLinking C shared library ../../lib/libddsc.so[0m
+[143.474s] [ 81%] Built target ddsc
+[143.523s] [35m[1mScanning dependencies of target dds_security_ac[0m
+[143.714s] [ 81%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_objects.c.o[0m
+[144.446s] [ 82%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_parser.c.o[0m
+[146.596s] [ 82%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_utils.c.o[0m
+[148.546s] [ 83%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control.c.o[0m
+[152.253s] [ 83%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/__/__/openssl/src/openssl_support.c.o[0m
+[152.816s] [ 84%] [32m[1mLinking C shared library ../../../../lib/libdds_security_ac.so[0m
+[153.088s] [ 84%] Built target dds_security_ac
+[153.129s] [35m[1mScanning dependencies of target pubsub[0m
+[153.225s] [ 85%] [32mBuilding C object src/tools/pubsub/CMakeFiles/pubsub.dir/pubsub.c.o[0m
+[157.615s] [ 85%] [32mBuilding C object src/tools/pubsub/CMakeFiles/pubsub.dir/common.c.o[0m
+[160.165s] [ 86%] [32mBuilding C object src/tools/pubsub/CMakeFiles/pubsub.dir/testtype.c.o[0m
+[160.343s] [ 86%] [32mBuilding C object src/tools/pubsub/CMakeFiles/pubsub.dir/porting.c.o[0m
+[160.477s] [ 87%] [32m[1mLinking C executable ../../../bin/pubsub[0m
+[160.715s] [ 87%] Built target pubsub
+[160.756s] [35m[1mScanning dependencies of target ddsls[0m
+[160.818s] [ 87%] [32mBuilding C object src/tools/ddsls/CMakeFiles/ddsls.dir/ddsls.c.o[0m
+[161.537s] [ 88%] [32m[1mLinking C executable ../../../bin/ddsls[0m
+[161.764s] [ 88%] Built target ddsls
+[161.807s] [35m[1mScanning dependencies of target ddsconf[0m
+[161.873s] [ 88%] [32mBuilding C object src/tools/ddsconf/CMakeFiles/ddsconf.dir/ddsconf.c.o[0m
+[162.702s] [ 89%] [32mBuilding C object src/tools/ddsconf/CMakeFiles/ddsconf.dir/rnc.c.o[0m
+[163.056s] [ 90%] [32mBuilding C object src/tools/ddsconf/CMakeFiles/ddsconf.dir/md.c.o[0m
+[163.554s] [ 90%] [32mBuilding C object src/tools/ddsconf/CMakeFiles/ddsconf.dir/xsd.c.o[0m
+[164.222s] [ 91%] [32m[1mLinking C executable ../../../bin/ddsconf[0m
+[164.465s] [ 91%] Built target ddsconf
+[164.514s] [35m[1mScanning dependencies of target dds_security_crypto[0m
+[164.774s] [ 92%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_cipher.c.o[0m
+[165.428s] [ 93%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_exchange.c.o[0m
+[166.214s] [ 93%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_factory.c.o[0m
+[167.776s] [ 94%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_objects.c.o[0m
+[168.799s] [ 94%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_transform.c.o[0m
+[170.818s] [ 95%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_utils.c.o[0m
+[171.441s] [ 95%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/cryptography.c.o[0m
+[174.006s] [ 96%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/__/__/openssl/src/openssl_support.c.o[0m
+[181.284s] [ 97%] [32m[1mLinking C shared library ../../../../lib/libdds_security_crypto.so[0m
+[181.589s] [ 97%] Built target dds_security_crypto
+[181.630s] [35m[1mScanning dependencies of target schema[0m
+[181.673s] [ 98%] [34m[1mGenerating cyclonedds.rnc, cyclonedds.xsd, manual/options.md[0m
+[181.897s] [ 98%] Built target schema
+[181.936s] [35m[1mScanning dependencies of target dds_security_auth[0m
+[182.086s] [ 99%] [32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/authentication.c.o[0m
+[185.928s] [100%] [32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/__/__/openssl/src/openssl_support.c.o[0m
+[186.526s] [100%] [32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/auth_utils.c.o[0m
+[187.790s] [100%] [32m[1mLinking C shared library ../../../../lib/libdds_security_auth.so[0m
+[188.055s] [100%] Built target dds_security_auth

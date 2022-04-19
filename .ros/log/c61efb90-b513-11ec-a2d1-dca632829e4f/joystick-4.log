@@ -1,0 +1,37 @@
+[rospy.client][INFO] 2022-04-05 19:08:33,976: init_node, name[/joystick], pid[4718]
+[xmlrpc][INFO] 2022-04-05 19:08:33,993: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-04-05 19:08:33,997: Started XML-RPC server [http://ubuntu:38783/]
+[rospy.init][INFO] 2022-04-05 19:08:33,998: ROS Slave URI: [http://ubuntu:38783/]
+[rospy.impl.masterslave][INFO] 2022-04-05 19:08:33,999: _ready: http://ubuntu:38783/
+[rospy.registration][INFO] 2022-04-05 19:08:34,025: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-04-05 19:08:34,026: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-04-05 19:08:34,100: registered with master
+[rospy.rosout][INFO] 2022-04-05 19:08:34,101: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-04-05 19:08:34,131: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-04-05 19:08:34,135: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-04-05 19:08:34,405: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-04-05 19:18:26,915: topic[/cmd_vel] adding connection to [http://ubuntu:41449/], count 0
+[rospy.internal][INFO] 2022-04-06 03:20:47,403: topic[/rosout] removing connection to /rosout
+[rospy.internal][ERROR] 2022-04-06 03:20:47,734: Unable to initiate TCP/IP socket to ubuntu:39857 (http://ubuntu:41449/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2022-04-06 03:20:49,311: Unknown error initiating TCP/IP socket to ubuntu:39857 (http://ubuntu:41449/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 357, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2022-04-06 03:20:49,312: topic[/cmd_vel] removing connection to http://ubuntu:41449/
+[rospy.core][INFO] 2022-04-06 03:36:41,150: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2022-04-06 03:36:41,153: cannot unregister with master due to network issues
+[rospy.impl.masterslave][INFO] 2022-04-06 03:36:41,153: signal-2
+[rospy.core][INFO] 2022-04-06 03:36:41,318: signal_shutdown [atexit]

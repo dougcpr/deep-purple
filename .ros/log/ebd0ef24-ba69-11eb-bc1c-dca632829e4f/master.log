@@ -1,0 +1,49 @@
+[rosmaster.main][INFO] 2021-05-21 19:22:47,020: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2021-05-21 19:22:47,020: Starting ROS Master Node
+[xmlrpc][INFO] 2021-05-21 19:22:47,022: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2021-05-21 19:22:47,023: Started XML-RPC server [http://ubuntu:11311/]
+[rosmaster.master][INFO] 2021-05-21 19:22:47,023: Master initialized: port[11311], uri[http://ubuntu:11311/]
+[xmlrpc][INFO] 2021-05-21 19:22:47,024: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2021-05-21 19:22:47,115: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2021-05-21 19:22:47,119: +PARAM [/roslaunch/uris/host_ubuntu__41573] by /roslaunch
+[rosmaster.master][INFO] 2021-05-21 19:22:47,202: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2021-05-21 19:22:47,203: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2021-05-21 19:22:47,231: +SERVICE [/rosout/get_loggers] /rosout http://ubuntu:41581/
+[rosmaster.master][INFO] 2021-05-21 19:22:47,232: +SERVICE [/rosout/set_logger_level] /rosout http://ubuntu:41581/
+[rosmaster.master][INFO] 2021-05-21 19:22:47,235: +PUB [/rosout_agg] /rosout http://ubuntu:41581/
+[rosmaster.master][INFO] 2021-05-21 19:22:47,240: +SUB [/rosout] /rosout http://ubuntu:41581/
+[rosmaster.master][INFO] 2021-05-21 19:22:50,888: +PUB [/rosout] /link_ros http://ubuntu:46507/
+[rosmaster.master][INFO] 2021-05-21 19:22:50,896: +SERVICE [/link_ros/get_loggers] /link_ros http://ubuntu:46507/
+[rosmaster.master][INFO] 2021-05-21 19:22:50,898: +SERVICE [/link_ros/set_logger_level] /link_ros http://ubuntu:46507/
+[rosmaster.master][INFO] 2021-05-21 19:22:50,930: publisherUpdate[/rosout] -> http://ubuntu:41581/ ['http://ubuntu:46507/']
+[rosmaster.master][INFO] 2021-05-21 19:22:50,951: publisherUpdate[/rosout] -> http://ubuntu:41581/ ['http://ubuntu:46507/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-21 19:22:53,762: +CACHEDPARAM [/rosout_disable_topics_generation] by /link_ros
+[rosmaster.master][INFO] 2021-05-21 19:22:53,766: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2021-05-21 19:22:53,778: +SUB [/rosout_agg] /link_ros http://ubuntu:46507/
+[rosmaster.master][INFO] 2021-05-21 19:22:54,786: +CACHEDPARAM [/rosout_disable_topics_generation] by /link_ros
+[rosmaster.master][INFO] 2021-05-21 19:22:54,798: +SERVICE [/link_ros/tf2_frames] /link_ros http://ubuntu:46507/
+[rosmaster.master][INFO] 2021-05-21 19:22:54,804: +SUB [/tf] /link_ros http://ubuntu:46507/
+[rosmaster.master][INFO] 2021-05-21 19:22:54,810: +SUB [/tf_static] /link_ros http://ubuntu:46507/
+[rosmaster.master][INFO] 2021-05-21 19:23:13,958: +PARAM [/joy_node/dev] by /rosparam-5779
+[rosmaster.master][INFO] 2021-05-21 19:23:21,013: +PUB [/rosout] /joy_node http://ubuntu:46051/
+[rosmaster.master][INFO] 2021-05-21 19:23:21,015: +SERVICE [/joy_node/get_loggers] /joy_node http://ubuntu:46051/
+[rosmaster.master][INFO] 2021-05-21 19:23:21,016: +SERVICE [/joy_node/set_logger_level] /joy_node http://ubuntu:46051/
+[rosmaster.master][INFO] 2021-05-21 19:23:21,018: +PUB [/diagnostics] /joy_node http://ubuntu:46051/
+[rosmaster.master][INFO] 2021-05-21 19:23:21,020: +CACHEDPARAM [/joy_node/diagnostic_period] by /joy_node
+[rosmaster.master][INFO] 2021-05-21 19:23:21,022: +PUB [/joy] /joy_node http://ubuntu:46051/
+[rosmaster.master][INFO] 2021-05-21 19:23:21,027: +SUB [/joy/set_feedback] /joy_node http://ubuntu:46051/
+[rosmaster.master][INFO] 2021-05-21 19:23:21,082: +CACHEDPARAM [/rosout_disable_topics_generation] by /joy_node
+[rosmaster.master][INFO] 2021-05-21 19:23:21,087: publisherUpdate[/rosout] -> http://ubuntu:41581/ ['http://ubuntu:46507/', 'http://ubuntu:46051/']
+[rosmaster.master][INFO] 2021-05-21 19:23:21,102: publisherUpdate[/rosout] -> http://ubuntu:41581/ ['http://ubuntu:46507/', 'http://ubuntu:46051/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-21 19:23:22,749: +CACHEDPARAM [/rosout_disable_topics_generation] by /link_ros
+[rosmaster.master][INFO] 2021-05-21 19:23:22,781: +SUB [/diagnostics] /link_ros http://ubuntu:46507/
+[rosmaster.master][INFO] 2021-05-21 19:23:22,784: +CACHEDPARAM [/rosout_disable_topics_generation] by /link_ros
+[rosmaster.master][INFO] 2021-05-21 19:23:22,791: +SUB [/joy] /link_ros http://ubuntu:46507/
+[rosmaster.master][INFO] 2021-05-21 20:32:10,388: -PUB [/rosout_agg] /rosout http://ubuntu:41581/
+[rosmaster.master][INFO] 2021-05-21 20:32:10,391: -SUB [/rosout] /rosout http://ubuntu:41581/
+[rosmaster.master][INFO] 2021-05-21 20:32:10,392: -SERVICE [/rosout/get_loggers] /rosout rosrpc://ubuntu:60685
+[rosmaster.master][INFO] 2021-05-21 20:32:10,394: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://ubuntu:60685
+[rosmaster.master][INFO] 2021-05-21 20:32:10,396: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2021-05-21 20:32:10,468: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2021-05-21 20:32:10,469: stopping master...
+[rospy.core][INFO] 2021-05-21 20:32:10,470: signal_shutdown [atexit]

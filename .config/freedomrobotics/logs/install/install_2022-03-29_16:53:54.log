@@ -1,0 +1,1394 @@
+2022-03-29 16:53:54 [INFO ]  ################################################################################
+2022-03-29 16:53:54 [INFO ]  
+2022-03-29 16:53:54 [INFO ]  Installing FREEDOM ROBOTICS Micro Service
+2022-03-29 16:53:54 [INFO ]  
+2022-03-29 16:53:54 [INFO ]  Copyright Freedom Robotics Inc 2021. All rights reserved. Confidential.
+2022-03-29 16:53:54 [INFO ]  
+2022-03-29 16:53:54 [INFO ]  ################################################################################
+2022-03-29 16:53:54 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "whoami"
+2022-03-29 16:53:54 [DEBUG]  				ubuntu
+2022-03-29 16:53:54 [DEBUG]  		STANDARD OUTPUT:
+ubuntu
+2022-03-29 16:53:54 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s
+2022-03-29 16:53:54 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "sudo -nv"
+2022-03-29 16:53:54 [DEBUG]  		STANDARD ERROR:
+2022-03-29 16:53:54 [DEBUG]  			sudo: a password is required
+2022-03-29 16:53:54 [DEBUG]  		ERROR RESPONSE CODE: 1, EXECUTION TIME: 0.03s
+2022-03-29 16:53:54 [INFO ]  
+2022-03-29 16:53:54 [INFO ]  Please enter the sudo password to enable install to set up the
+Freedom SYSTEM SERVICE, Remote SSH, etc... for the Freedom Agent.
+(This will time out after 60 seconds and continue without installing
+the services.)
+2022-03-29 16:53:54 [INFO ]  
+2022-03-29 16:53:54 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "sudo -v"
+2022-03-29 16:54:01 [DEBUG]  		STANDARD OUTPUT:
+
+2022-03-29 16:54:01 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 7.06s
+2022-03-29 16:54:03 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "sudo -nv"
+2022-03-29 16:54:03 [DEBUG]  		STANDARD OUTPUT:
+
+2022-03-29 16:54:03 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.03s
+2022-03-29 16:54:03 [INFO ]  
+2022-03-29 16:54:03 [INFO ]  ################################################################################
+2022-03-29 16:54:03 [DEBUG]  
+2022-03-29 16:54:03 [DEBUG]  user:        ubuntu
+2022-03-29 16:54:03 [DEBUG]  sudo:        True
+2022-03-29 16:54:03 [DEBUG]  sudo prefix: 'sudo -n '
+2022-03-29 16:54:03 [DEBUG]  platform:    linux
+2022-03-29 16:54:03 [DEBUG]  
+2022-03-29 16:54:03 [INFO ]  
+2022-03-29 16:54:03 [INFO ]  Step 1/6: VERIFYING PREREQUISITES
+2022-03-29 16:54:03 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "sudo -n apt-get update"
+2022-03-29 16:54:04 [DEBUG]  				Hit:1 http://packages.ros.org/ros/ubuntu bionic InRelease
+2022-03-29 16:54:04 [DEBUG]  				Hit:2 http://ppa.launchpad.net/freedomrobotics/ppa/ubuntu bionic InRelease
+2022-03-29 16:54:04 [DEBUG]  				Hit:3 http://ports.ubuntu.com/ubuntu-ports bionic InRelease
+2022-03-29 16:54:04 [DEBUG]  				Get:4 http://ports.ubuntu.com/ubuntu-ports bionic-updates InRelease [88.7 kB]
+2022-03-29 16:54:05 [DEBUG]  				Get:5 http://ports.ubuntu.com/ubuntu-ports bionic-backports InRelease [74.6 kB]
+2022-03-29 16:54:05 [DEBUG]  				Get:6 http://ports.ubuntu.com/ubuntu-ports bionic-security InRelease [88.7 kB]
+2022-03-29 16:54:05 [DEBUG]  				Get:7 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main arm64 Packages [1469 kB]
+2022-03-29 16:54:06 [DEBUG]  				Get:8 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main Translation-en [469 kB]
+2022-03-29 16:54:06 [DEBUG]  				Get:9 http://ports.ubuntu.com/ubuntu-ports bionic-updates/restricted Translation-en [95.9 kB]
+2022-03-29 16:54:06 [DEBUG]  				Get:10 http://ports.ubuntu.com/ubuntu-ports bionic-updates/universe arm64 Packages [1604 kB]
+2022-03-29 16:54:06 [DEBUG]  				Get:11 http://ports.ubuntu.com/ubuntu-ports bionic-updates/universe Translation-en [389 kB]
+2022-03-29 16:54:06 [DEBUG]  				Get:12 http://ports.ubuntu.com/ubuntu-ports bionic-backports/main arm64 Packages [10.8 kB]
+2022-03-29 16:54:06 [DEBUG]  				Get:13 http://ports.ubuntu.com/ubuntu-ports bionic-backports/main Translation-en [5016 B]
+2022-03-29 16:54:06 [DEBUG]  				Get:14 http://ports.ubuntu.com/ubuntu-ports bionic-backports/universe arm64 Packages [11.2 kB]
+2022-03-29 16:54:06 [DEBUG]  				Get:15 http://ports.ubuntu.com/ubuntu-ports bionic-backports/universe Translation-en [5864 B]
+2022-03-29 16:54:06 [DEBUG]  				Get:16 http://ports.ubuntu.com/ubuntu-ports bionic-security/main arm64 Packages [1166 kB]
+2022-03-29 16:54:06 [DEBUG]  				Get:17 http://ports.ubuntu.com/ubuntu-ports bionic-security/universe arm64 Packages [1056 kB]
+2022-03-29 16:54:08 [DEBUG]  				Fetched 6533 kB in 4s (1467 kB/s)
+2022-03-29 16:54:11 [DEBUG]  				Reading package lists...
+2022-03-29 16:54:12 [DEBUG]  		STANDARD OUTPUT:
+Hit:1 http://packages.ros.org/ros/ubuntu bionic InRelease
+Hit:2 http://ppa.launchpad.net/freedomrobotics/ppa/ubuntu bionic InRelease
+Hit:3 http://ports.ubuntu.com/ubuntu-ports bionic InRelease
+Get:4 http://ports.ubuntu.com/ubuntu-ports bionic-updates InRelease [88.7 kB]
+Get:5 http://ports.ubuntu.com/ubuntu-ports bionic-backports InRelease [74.6 kB]
+Get:6 http://ports.ubuntu.com/ubuntu-ports bionic-security InRelease [88.7 kB]
+Get:7 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main arm64 Packages [1469 kB]
+Get:8 http://ports.ubuntu.com/ubuntu-ports bionic-updates/main Translation-en [469 kB]
+Get:9 http://ports.ubuntu.com/ubuntu-ports bionic-updates/restricted Translation-en [95.9 kB]
+Get:10 http://ports.ubuntu.com/ubuntu-ports bionic-updates/universe arm64 Packages [1604 kB]
+Get:11 http://ports.ubuntu.com/ubuntu-ports bionic-updates/universe Translation-en [389 kB]
+Get:12 http://ports.ubuntu.com/ubuntu-ports bionic-backports/main arm64 Packages [10.8 kB]
+Get:13 http://ports.ubuntu.com/ubuntu-ports bionic-backports/main Translation-en [5016 B]
+Get:14 http://ports.ubuntu.com/ubuntu-ports bionic-backports/universe arm64 Packages [11.2 kB]
+Get:15 http://ports.ubuntu.com/ubuntu-ports bionic-backports/universe Translation-en [5864 B]
+Get:16 http://ports.ubuntu.com/ubuntu-ports bionic-security/main arm64 Packages [1166 kB]
+Get:17 http://ports.ubuntu.com/ubuntu-ports bionic-security/universe arm64 Packages [1056 kB]
+Fetched 6533 kB in 4s (1467 kB/s)
+Reading package lists...
+2022-03-29 16:54:12 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 8.22s
+2022-03-29 16:54:12 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "sudo -n apt-get install -y python3-distro"
+2022-03-29 16:54:12 [DEBUG]  				Reading package lists...
+2022-03-29 16:54:12 [DEBUG]  				Building dependency tree...
+2022-03-29 16:54:12 [DEBUG]  				Reading state information...
+2022-03-29 16:54:13 [DEBUG]  				python3-distro is already the newest version (1.0.1-2).
+2022-03-29 16:54:13 [DEBUG]  				The following packages were automatically installed and are no longer required:
+2022-03-29 16:54:13 [DEBUG]  				linux-raspi-5.4-headers-5.4.0-1035 linux-raspi-5.4-headers-5.4.0-1047
+2022-03-29 16:54:13 [DEBUG]  				linux-raspi-5.4-headers-5.4.0-1048 linux-raspi-5.4-headers-5.4.0-1052
+2022-03-29 16:54:13 [DEBUG]  				linux-raspi-5.4-headers-5.4.0-1053
+2022-03-29 16:54:13 [DEBUG]  				Use 'sudo apt autoremove' to remove them.
+2022-03-29 16:54:14 [DEBUG]  				0 upgraded, 0 newly installed, 0 to remove and 149 not upgraded.
+2022-03-29 16:54:14 [DEBUG]  		STANDARD OUTPUT:
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python3-distro is already the newest version (1.0.1-2).
+The following packages were automatically installed and are no longer required:
+linux-raspi-5.4-headers-5.4.0-1035 linux-raspi-5.4-headers-5.4.0-1047
+linux-raspi-5.4-headers-5.4.0-1048 linux-raspi-5.4-headers-5.4.0-1052
+linux-raspi-5.4-headers-5.4.0-1053
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 149 not upgraded.
+2022-03-29 16:54:14 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.96s
+2022-03-29 16:54:14 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip &> /dev/null"
+2022-03-29 16:54:15 [DEBUG]  		STANDARD OUTPUT:
+
+2022-03-29 16:54:15 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.50s
+2022-03-29 16:54:16 [DEBUG]  Urllib2 can be use for ssl communication.
+2022-03-29 16:54:16 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2022-03-29 16:54:16 [DEBUG]  				3.6
+2022-03-29 16:54:16 [DEBUG]  		STANDARD OUTPUT:
+3.6
+2022-03-29 16:54:16 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.12s
+2022-03-29 16:54:16 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c 'import sys
+import os
+if (hasattr(sys, \"base_prefix\") and sys.base_prefix != sys.prefix) or hasattr(sys, \"real_prefix\") or os.environ.get(\"CONDA_PREFIX\"):
+    print(\"Detected we are dealing with a virtual environment for /usr/bin/python3\")'"
+2022-03-29 16:54:16 [DEBUG]  		STANDARD OUTPUT:
+
+2022-03-29 16:54:16 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.12s
+2022-03-29 16:54:16 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "which ros2"
+2022-03-29 16:54:16 [DEBUG]  		ERROR RESPONSE CODE: 1, EXECUTION TIME: 0.02s
+2022-03-29 16:54:16 [DEBUG]  Executable `ros2` was not found using current PATH: Command '/bin/bash -c "which ros2"' returned non-zero exit status 1.
+2022-03-29 16:54:16 [WARNI]  [33mWe found ros1 melodic distribution which runs on python2.[39m
+2022-03-29 16:54:16 [WARNI]  [33mAre you sure you don't want to run using python2 instead?[39m
+2022-03-29 16:54:16 [WARNI]  [33mStop the installation NOW and re-launch the installation using python2[39m
+2022-03-29 16:54:16 [WARNI]  [33motherwise the installation will continue in 10 seconds ...[39m
+2022-03-29 16:54:26 [DEBUG]  No suitable ros installation found
+2022-03-29 16:54:26 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' python3-dev"
+2022-03-29 16:54:26 [DEBUG]  				install ok installed 3.6.7-1~18.04
+2022-03-29 16:54:26 [DEBUG]  		STANDARD OUTPUT:
+install ok installed 3.6.7-1~18.04
+2022-03-29 16:54:26 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.08s
+2022-03-29 16:54:26 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' pkg-config"
+2022-03-29 16:54:26 [DEBUG]  				install ok installed 0.29.1-0ubuntu2
+2022-03-29 16:54:26 [DEBUG]  		STANDARD OUTPUT:
+install ok installed 0.29.1-0ubuntu2
+2022-03-29 16:54:26 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.08s
+2022-03-29 16:54:26 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' libffi-dev"
+2022-03-29 16:54:27 [DEBUG]  				install ok installed 3.2.1-8
+2022-03-29 16:54:27 [DEBUG]  		STANDARD OUTPUT:
+install ok installed 3.2.1-8
+2022-03-29 16:54:27 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.07s
+2022-03-29 16:54:27 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' libssl-dev"
+2022-03-29 16:54:27 [DEBUG]  				install ok installed 1.1.1-1ubuntu2.1~18.04.15
+2022-03-29 16:54:27 [DEBUG]  		STANDARD OUTPUT:
+install ok installed 1.1.1-1ubuntu2.1~18.04.15
+2022-03-29 16:54:27 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.06s
+2022-03-29 16:54:27 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' libopus-dev"
+2022-03-29 16:54:27 [DEBUG]  				install ok installed 1.1.2-1ubuntu1
+2022-03-29 16:54:27 [DEBUG]  		STANDARD OUTPUT:
+install ok installed 1.1.2-1ubuntu1
+2022-03-29 16:54:27 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.06s
+2022-03-29 16:54:27 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' libvpx-dev"
+2022-03-29 16:54:27 [DEBUG]  				install ok installed 1.7.0-3ubuntu0.18.04.1
+2022-03-29 16:54:27 [DEBUG]  		STANDARD OUTPUT:
+install ok installed 1.7.0-3ubuntu0.18.04.1
+2022-03-29 16:54:27 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.07s
+2022-03-29 16:54:27 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' libsrtp2-dev"
+2022-03-29 16:54:27 [DEBUG]  				install ok installed 2.1.0-1
+2022-03-29 16:54:27 [DEBUG]  		STANDARD OUTPUT:
+install ok installed 2.1.0-1
+2022-03-29 16:54:27 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.07s
+2022-03-29 16:54:27 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' python3-dev"
+2022-03-29 16:54:27 [DEBUG]  				install ok installed 3.6.7-1~18.04
+2022-03-29 16:54:27 [DEBUG]  		STANDARD OUTPUT:
+install ok installed 3.6.7-1~18.04
+2022-03-29 16:54:27 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.07s
+2022-03-29 16:54:27 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pkg-config --modversion libsrtp2"
+2022-03-29 16:54:27 [DEBUG]  				2.1.0
+2022-03-29 16:54:27 [DEBUG]  		STANDARD OUTPUT:
+2.1.0
+2022-03-29 16:54:27 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.03s
+2022-03-29 16:54:27 [DEBUG]  Found library libsrtp2 installed at version 2.1.0
+2022-03-29 16:54:27 [INFO ]      COMPLETE
+2022-03-29 16:54:27 [INFO ]  
+2022-03-29 16:54:27 [INFO ]  Step 2/6: INSTALLING CREDENTIALS
+2022-03-29 16:54:27 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "mkdir -p  /home/ubuntu/.config/freedomrobotics ; echo '{
+    \"url\": \"https://api.freedomrobotics.ai/\",
+    \"account\": \"AA2E4916C77670BAA7DA84BD4\",
+    \"device\": \"D664A28E6EBCEEF5A1480EC3F8B\",
+    \"token\": \"T7099D2046CE3249E72438963\",
+    \"secret\": \"S1287023c2749ce6d44ef056e\",
+    \"code_branch\": \"release\",
+    \"install_elements\": [
+        \"webrtc\"
+    ],
+    \"configuration\": {
+        \"webrtc_local_port\": 5540,
+        \"measurements\": {
+            \"enabled\": [
+                \"gpu\",
+                \"network\",
+                \"platform\",
+                \"processes\",
+                \"resources\",
+                \"ros\",
+                \"webrtc\"
+            ],
+            \"disabled\": [],
+            \"details\": \"If a measurement is mentioned in both lists, it will be disabled, andif it is not mentioned in any of the lists, it will be enabled.\"
+        }
+    },
+    \"log_level\": \"INFO\"
+}' > /home/ubuntu/.config/freedomrobotics/credentials"
+2022-03-29 16:54:27 [DEBUG]  		STANDARD OUTPUT:
+
+2022-03-29 16:54:27 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s
+2022-03-29 16:54:27 [INFO ]      COMPLETE
+2022-03-29 16:54:27 [INFO ]  
+2022-03-29 16:54:27 [INFO ]  Step 3/6: REMOTE CONNECTION
+2022-03-29 16:54:27 [DEBUG]  Installing Remote SSH
+2022-03-29 16:54:27 [DEBUG]      SSH Tunnel already installed
+2022-03-29 16:54:27 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/home/ubuntu/.config/freedomrobotics/ssh/ngrok authtoken 5mYNtDswTRChsKRZB7KCX_4UbxchYqyjmGGbc2Qkuc3"
+2022-03-29 16:54:27 [DEBUG]  				Authtoken saved to configuration file: /home/ubuntu/.ngrok2/ngrok.yml
+2022-03-29 16:54:27 [DEBUG]  		STANDARD OUTPUT:
+Authtoken saved to configuration file: /home/ubuntu/.ngrok2/ngrok.yml
+2022-03-29 16:54:27 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.05s
+2022-03-29 16:54:27 [DEBUG]      Authenticated SSH Tunnel
+2022-03-29 16:54:27 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "service_path=\$(which service) && output=\$( \$service_path ssh status ) && echo \"\$output\""
+2022-03-29 16:54:27 [DEBUG]  				● ssh.service - OpenBSD Secure Shell server
+2022-03-29 16:54:27 [DEBUG]  				Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+2022-03-29 16:54:27 [DEBUG]  				Active: active (running) since Tue 2022-01-25 01:11:16 UTC; 2 months 2 days ago
+2022-03-29 16:54:27 [DEBUG]  				Main PID: 1413 (sshd)
+2022-03-29 16:54:27 [DEBUG]  				Tasks: 1 (limit: 4442)
+2022-03-29 16:54:27 [DEBUG]  				CGroup: /system.slice/ssh.service
+2022-03-29 16:54:27 [DEBUG]  				└─1413 /usr/sbin/sshd -D
+2022-03-29 16:54:27 [DEBUG]  				
+2022-03-29 16:54:27 [DEBUG]  				Mar 25 16:00:10 ubuntu sshd[16108]: Accepted password for ubuntu from 10.1.1.6 port 52324 ssh2
+2022-03-29 16:54:27 [DEBUG]  				Mar 25 16:00:10 ubuntu sshd[16108]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:54:27 [DEBUG]  				Mar 25 16:00:22 ubuntu sshd[16372]: Accepted password for ubuntu from 10.1.1.6 port 52326 ssh2
+2022-03-29 16:54:27 [DEBUG]  				Mar 25 16:00:22 ubuntu sshd[16372]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:54:27 [DEBUG]  				Mar 29 16:48:41 ubuntu sshd[31124]: Accepted password for ubuntu from 10.1.0.201 port 58066 ssh2
+2022-03-29 16:54:27 [DEBUG]  				Mar 29 16:48:41 ubuntu sshd[31124]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:54:27 [DEBUG]  				Mar 29 16:49:51 ubuntu sshd[31842]: Accepted password for ubuntu from 10.1.0.201 port 58079 ssh2
+2022-03-29 16:54:27 [DEBUG]  				Mar 29 16:49:51 ubuntu sshd[31842]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:54:27 [DEBUG]  				Mar 29 16:53:08 ubuntu sshd[1448]: Accepted password for ubuntu from 10.1.0.201 port 58084 ssh2
+2022-03-29 16:54:27 [DEBUG]  				Mar 29 16:53:08 ubuntu sshd[1448]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:54:27 [DEBUG]  		STANDARD OUTPUT:
+● ssh.service - OpenBSD Secure Shell server
+Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+Active: active (running) since Tue 2022-01-25 01:11:16 UTC; 2 months 2 days ago
+Main PID: 1413 (sshd)
+Tasks: 1 (limit: 4442)
+CGroup: /system.slice/ssh.service
+└─1413 /usr/sbin/sshd -D
+
+Mar 25 16:00:10 ubuntu sshd[16108]: Accepted password for ubuntu from 10.1.1.6 port 52324 ssh2
+Mar 25 16:00:10 ubuntu sshd[16108]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 25 16:00:22 ubuntu sshd[16372]: Accepted password for ubuntu from 10.1.1.6 port 52326 ssh2
+Mar 25 16:00:22 ubuntu sshd[16372]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 29 16:48:41 ubuntu sshd[31124]: Accepted password for ubuntu from 10.1.0.201 port 58066 ssh2
+Mar 29 16:48:41 ubuntu sshd[31124]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 29 16:49:51 ubuntu sshd[31842]: Accepted password for ubuntu from 10.1.0.201 port 58079 ssh2
+Mar 29 16:49:51 ubuntu sshd[31842]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 29 16:53:08 ubuntu sshd[1448]: Accepted password for ubuntu from 10.1.0.201 port 58084 ssh2
+Mar 29 16:53:08 ubuntu sshd[1448]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:54:27 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.09s
+2022-03-29 16:54:27 [DEBUG]      SSH Server is already installed and running. Will skip install.
+2022-03-29 16:54:27 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "service_path=\$(which service) && output=\$( \$service_path ssh status ) && echo \"\$output\""
+2022-03-29 16:54:27 [DEBUG]  				● ssh.service - OpenBSD Secure Shell server
+2022-03-29 16:54:27 [DEBUG]  				Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+2022-03-29 16:54:27 [DEBUG]  				Active: active (running) since Tue 2022-01-25 01:11:16 UTC; 2 months 2 days ago
+2022-03-29 16:54:27 [DEBUG]  				Main PID: 1413 (sshd)
+2022-03-29 16:54:27 [DEBUG]  				Tasks: 1 (limit: 4442)
+2022-03-29 16:54:27 [DEBUG]  				CGroup: /system.slice/ssh.service
+2022-03-29 16:54:27 [DEBUG]  				└─1413 /usr/sbin/sshd -D
+2022-03-29 16:54:27 [DEBUG]  				
+2022-03-29 16:54:27 [DEBUG]  				Mar 25 16:00:10 ubuntu sshd[16108]: Accepted password for ubuntu from 10.1.1.6 port 52324 ssh2
+2022-03-29 16:54:27 [DEBUG]  				Mar 25 16:00:10 ubuntu sshd[16108]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:54:27 [DEBUG]  				Mar 25 16:00:22 ubuntu sshd[16372]: Accepted password for ubuntu from 10.1.1.6 port 52326 ssh2
+2022-03-29 16:54:27 [DEBUG]  				Mar 25 16:00:22 ubuntu sshd[16372]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:54:27 [DEBUG]  				Mar 29 16:48:41 ubuntu sshd[31124]: Accepted password for ubuntu from 10.1.0.201 port 58066 ssh2
+2022-03-29 16:54:27 [DEBUG]  				Mar 29 16:48:41 ubuntu sshd[31124]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:54:27 [DEBUG]  				Mar 29 16:49:51 ubuntu sshd[31842]: Accepted password for ubuntu from 10.1.0.201 port 58079 ssh2
+2022-03-29 16:54:27 [DEBUG]  				Mar 29 16:49:51 ubuntu sshd[31842]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:54:27 [DEBUG]  				Mar 29 16:53:08 ubuntu sshd[1448]: Accepted password for ubuntu from 10.1.0.201 port 58084 ssh2
+2022-03-29 16:54:27 [DEBUG]  				Mar 29 16:53:08 ubuntu sshd[1448]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:54:27 [DEBUG]  		STANDARD OUTPUT:
+● ssh.service - OpenBSD Secure Shell server
+Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+Active: active (running) since Tue 2022-01-25 01:11:16 UTC; 2 months 2 days ago
+Main PID: 1413 (sshd)
+Tasks: 1 (limit: 4442)
+CGroup: /system.slice/ssh.service
+└─1413 /usr/sbin/sshd -D
+
+Mar 25 16:00:10 ubuntu sshd[16108]: Accepted password for ubuntu from 10.1.1.6 port 52324 ssh2
+Mar 25 16:00:10 ubuntu sshd[16108]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 25 16:00:22 ubuntu sshd[16372]: Accepted password for ubuntu from 10.1.1.6 port 52326 ssh2
+Mar 25 16:00:22 ubuntu sshd[16372]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 29 16:48:41 ubuntu sshd[31124]: Accepted password for ubuntu from 10.1.0.201 port 58066 ssh2
+Mar 29 16:48:41 ubuntu sshd[31124]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 29 16:49:51 ubuntu sshd[31842]: Accepted password for ubuntu from 10.1.0.201 port 58079 ssh2
+Mar 29 16:49:51 ubuntu sshd[31842]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 29 16:53:08 ubuntu sshd[1448]: Accepted password for ubuntu from 10.1.0.201 port 58084 ssh2
+Mar 29 16:53:08 ubuntu sshd[1448]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:54:27 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.08s
+2022-03-29 16:54:27 [INFO ]      COMPLETE
+2022-03-29 16:54:27 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "cat /etc/ssh/sshd_config | grep PasswordAuthentication"
+2022-03-29 16:54:27 [DEBUG]  				PasswordAuthentication yes
+2022-03-29 16:54:27 [DEBUG]  				# PasswordAuthentication.  Depending on your PAM configuration,
+2022-03-29 16:54:27 [DEBUG]  				# PAM authentication, then enable this but set PasswordAuthentication
+2022-03-29 16:54:27 [DEBUG]  		STANDARD OUTPUT:
+PasswordAuthentication yes
+# PasswordAuthentication.  Depending on your PAM configuration,
+# PAM authentication, then enable this but set PasswordAuthentication
+2022-03-29 16:54:27 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s
+2022-03-29 16:54:27 [DEBUG]  PasswordAuthentication: ['PasswordAuthentication yes', '# PasswordAuthentication.  Depending on your PAM configuration,', '# PAM authentication, then enable this but set PasswordAuthentication']
+2022-03-29 16:54:27 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "passwd --status ubuntu"
+2022-03-29 16:54:27 [DEBUG]  				ubuntu P 02/11/2021 0 99999 7 -1
+2022-03-29 16:54:27 [DEBUG]  		STANDARD OUTPUT:
+ubuntu P 02/11/2021 0 99999 7 -1
+2022-03-29 16:54:27 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s
+2022-03-29 16:54:27 [DEBUG]  password_status: ubuntu P 02/11/2021 0 99999 7 -1
+2022-03-29 16:54:27 [DEBUG]  User `ubuntu` should be able to ssh with its password.
+2022-03-29 16:54:27 [INFO ]  
+2022-03-29 16:54:27 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "find /opt/ros/ -name life_support.py"
+2022-03-29 16:54:27 [DEBUG]  		STANDARD OUTPUT:
+
+2022-03-29 16:54:27 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.11s
+2022-03-29 16:54:27 [DEBUG]  Old version of Freedom Robotics is not installed
+2022-03-29 16:54:27 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2022-03-29 16:54:27 [DEBUG]  				3.6
+2022-03-29 16:54:27 [DEBUG]  		STANDARD OUTPUT:
+3.6
+2022-03-29 16:54:27 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.11s
+2022-03-29 16:54:27 [INFO ]  Step 4/6: INSTALLING PACKAGE (python3.6)
+2022-03-29 16:54:27 [DEBUG]  Using python3.6 from path: /usr/bin/python3
+2022-03-29 16:54:27 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2022-03-29 16:54:28 [DEBUG]  				3.6
+2022-03-29 16:54:28 [DEBUG]  		STANDARD OUTPUT:
+3.6
+2022-03-29 16:54:28 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.12s
+2022-03-29 16:54:28 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show freedomrobotics | grep \"Location: \""
+2022-03-29 16:54:30 [DEBUG]  				Location: /home/ubuntu/.local/lib/python3.6/site-packages
+2022-03-29 16:54:30 [DEBUG]  		STANDARD OUTPUT:
+Location: /home/ubuntu/.local/lib/python3.6/site-packages
+2022-03-29 16:54:30 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 2.38s
+2022-03-29 16:54:30 [DEBUG]  Stopping freedomrobotics service
+2022-03-29 16:54:30 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "sudo -n service freedomrobotics stop"
+2022-03-29 16:54:42 [DEBUG]  		STANDARD OUTPUT:
+
+2022-03-29 16:54:42 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 12.08s
+2022-03-29 16:54:42 [DEBUG]  Trying to uninstall freedomrobotics python3.6 package.
+2022-03-29 16:54:42 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip uninstall -y freedomrobotics"
+2022-03-29 16:54:45 [DEBUG]  				Found existing installation: freedomrobotics 0.1.165
+2022-03-29 16:54:45 [DEBUG]  				Uninstalling freedomrobotics-0.1.165:
+2022-03-29 16:54:45 [DEBUG]  				Successfully uninstalled freedomrobotics-0.1.165
+2022-03-29 16:54:45 [DEBUG]  		STANDARD ERROR:
+2022-03-29 16:54:45 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2022-03-29 16:54:45 [DEBUG]  			from cryptography.utils import int_from_bytes
+2022-03-29 16:54:45 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/util.py:19: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2022-03-29 16:54:45 [DEBUG]  			from cryptography.utils import int_from_bytes
+2022-03-29 16:54:45 [DEBUG]  		STANDARD OUTPUT:
+Found existing installation: freedomrobotics 0.1.165
+Uninstalling freedomrobotics-0.1.165:
+Successfully uninstalled freedomrobotics-0.1.165
+2022-03-29 16:54:45 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 2.87s
+2022-03-29 16:54:45 [DEBUG]  Uninstalled previous freedomrobotics python3.6 package
+2022-03-29 16:54:45 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show numpy | grep \"Version: \""
+2022-03-29 16:54:47 [DEBUG]  				Version: 1.19.5
+2022-03-29 16:54:47 [DEBUG]  		STANDARD OUTPUT:
+Version: 1.19.5
+2022-03-29 16:54:47 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 2.33s
+2022-03-29 16:54:47 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip install --verbose --user SharedArray"
+2022-03-29 16:54:49 [DEBUG]  				Using pip 21.3.1 from /home/ubuntu/.local/lib/python3.6/site-packages/pip (python 3.6)
+2022-03-29 16:54:50 [DEBUG]  				Requirement already satisfied: SharedArray in /home/ubuntu/.local/lib/python3.6/site-packages (3.2.1)
+2022-03-29 16:54:50 [DEBUG]  				Requirement already satisfied: numpy in /home/ubuntu/.local/lib/python3.6/site-packages (from SharedArray) (1.19.5)
+2022-03-29 16:54:51 [DEBUG]  		STANDARD ERROR:
+2022-03-29 16:54:51 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2022-03-29 16:54:51 [DEBUG]  			from cryptography.utils import int_from_bytes
+2022-03-29 16:54:51 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/util.py:19: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2022-03-29 16:54:51 [DEBUG]  			from cryptography.utils import int_from_bytes
+2022-03-29 16:54:51 [DEBUG]  		STANDARD OUTPUT:
+Using pip 21.3.1 from /home/ubuntu/.local/lib/python3.6/site-packages/pip (python 3.6)
+Requirement already satisfied: SharedArray in /home/ubuntu/.local/lib/python3.6/site-packages (3.2.1)
+Requirement already satisfied: numpy in /home/ubuntu/.local/lib/python3.6/site-packages (from SharedArray) (1.19.5)
+2022-03-29 16:54:51 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 3.87s
+2022-03-29 16:54:51 [DEBUG]  Preparing to install agent from wheel package.
+2022-03-29 16:54:51 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2022-03-29 16:54:51 [DEBUG]  				3.6
+2022-03-29 16:54:51 [DEBUG]  		STANDARD OUTPUT:
+3.6
+2022-03-29 16:54:51 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.11s
+2022-03-29 16:54:51 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip install --verbose --user \"packaging>=20.0\""
+2022-03-29 16:54:53 [DEBUG]  				Using pip 21.3.1 from /home/ubuntu/.local/lib/python3.6/site-packages/pip (python 3.6)
+2022-03-29 16:54:54 [DEBUG]  				Requirement already satisfied: packaging>=20.0 in /home/ubuntu/.local/lib/python3.6/site-packages (20.9)
+2022-03-29 16:54:54 [DEBUG]  				Requirement already satisfied: pyparsing>=2.0.2 in /home/ubuntu/.local/lib/python3.6/site-packages (from packaging>=20.0) (2.4.7)
+2022-03-29 16:54:55 [DEBUG]  		STANDARD ERROR:
+2022-03-29 16:54:55 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2022-03-29 16:54:55 [DEBUG]  			from cryptography.utils import int_from_bytes
+2022-03-29 16:54:55 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/util.py:19: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2022-03-29 16:54:55 [DEBUG]  			from cryptography.utils import int_from_bytes
+2022-03-29 16:54:55 [DEBUG]  		STANDARD OUTPUT:
+Using pip 21.3.1 from /home/ubuntu/.local/lib/python3.6/site-packages/pip (python 3.6)
+Requirement already satisfied: packaging>=20.0 in /home/ubuntu/.local/lib/python3.6/site-packages (20.9)
+Requirement already satisfied: pyparsing>=2.0.2 in /home/ubuntu/.local/lib/python3.6/site-packages (from packaging>=20.0) (2.4.7)
+2022-03-29 16:54:55 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 3.70s
+2022-03-29 16:54:55 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c \"
+import warnings
+warnings.filterwarnings('ignore')
+import json
+import platform
+import sys
+
+try:
+    import distro
+except ImportError:
+    # we don't have distro module
+    distro = lambda: None
+    distro.linux_distribution = lambda: 'Failed to get: Distro is not available.'
+
+try:
+    from pip import __version__ as pip_version
+except ImportError:
+    # we don't have pip module
+    pip_version = '0.0.0 (Pip is not available.)'
+
+try:
+    from packaging import __version__ as packaging_version
+except ImportError:
+    # we don't have pip module
+    packaging_version = '0.0.0 (Packaging is not available.)'
+
+try:
+    from packaging import tags
+    pip_supported_tags = list(tags.cpython_tags())
+except ImportError:
+    try:
+        if pip_version < '20.1' and pip_version >= '10.0':
+            from pip._internal import pep425tags
+            pip_supported_tags = pep425tags.get_supported()
+        elif pip_version >= '1.4':
+            from pip import pep425tags
+            pip_supported_tags = pep425tags.get_supported()
+        else:
+            pip_supported_tags = []
+    except ImportError:
+        pip_supported_tags = []
+
+if pip_supported_tags and hasattr(pip_supported_tags[0], 'platform'):
+    pip_supported_tags = [(tag.interpreter, tag.abi, tag.platform) for tag in pip_supported_tags]
+
+print(json.dumps({
+    'platform_system': platform.system(),
+    'platform_release': platform.release(),
+    'platform_machine': platform.machine(),
+    'platform_processor': platform.processor(),
+    'platform_linux_distribution': 
+        platform.linux_distribution() if hasattr(platform, 'linux_distribution') else distro.linux_distribution(),
+    'platform_mac_ver': platform.mac_ver(),
+    'platform_uname': platform.uname(),
+    'platform_python_implementation': platform.python_implementation(),
+    'platform_python_version': platform.python_version(),
+    'platform_python_compiler': platform.python_compiler(),
+    'platform_python_build': platform.python_build(),
+    'pip_supported_tags': pip_supported_tags,
+    'pip_version': pip_version,
+    'packaging_version': packaging_version,
+}))
+\""
+2022-03-29 16:54:55 [DEBUG]  				{"platform_system": "Linux", "platform_release": "5.4.0-1050-raspi", "platform_machine": "aarch64", "platform_processor": "aarch64", "platform_linux_distribution": ["Ubuntu", "18.04", "bionic"], "platform_mac_ver": ["", ["", "", ""], ""], "platform_uname": ["Linux", "ubuntu", "5.4.0-1050-raspi", "#56~18.04.1-Ubuntu SMP PREEMPT Thu Jan 13 14:51:09 UTC 2022", "aarch64", "aarch64"], "platform_python_implementation": "CPython", "platform_python_version": "3.6.9", "platform_python_compiler": "GCC 8.4.0", "platform_python_build": ["default", "Dec  8 2021 21:08:43"], "pip_supported_tags": [["cp36", "cp36m", "manylinux_2_27_aarch64"], ["cp36", "cp36m", "manylinux_2_26_aarch64"], ["cp36", "cp36m", "manylinux_2_25_aarch64"], ["cp36", "cp36m", "manylinux_2_24_aarch64"], ["cp36", "cp36m", "manylinux_2_23_aarch64"], ["cp36", "cp36m", "manylinux_2_22_aarch64"], ["cp36", "cp36m", "manylinux_2_21_aarch64"], ["cp36", "cp36m", "manylinux_2_20_aarch64"], ["cp36", "cp36m", "manylinux_2_19_aarch64"], ["cp36", "cp36m", "manylinux_2_18_aarch64"], ["cp36", "cp36m", "manylinux_2_17_aarch64"], ["cp36", "cp36m", "manylinux2014_aarch64"], ["cp36", "cp36m", "linux_aarch64"], ["cp36", "abi3", "manylinux_2_27_aarch64"], ["cp36", "abi3", "manylinux_2_26_aarch64"], ["cp36", "abi3", "manylinux_2_25_aarch64"], ["cp36", "abi3", "manylinux_2_24_aarch64"], ["cp36", "abi3", "manylinux_2_23_aarch64"], ["cp36", "abi3", "manylinux_2_22_aarch64"], ["cp36", "abi3", "manylinux_2_21_aarch64"], ["cp36", "abi3", "manylinux_2_20_aarch64"], ["cp36", "abi3", "manylinux_2_19_aarch64"], ["cp36", "abi3", "manylinux_2_18_aarch64"], ["cp36", "abi3", "manylinux_2_17_aarch64"], ["cp36", "abi3", "manylinux2014_aarch64"], ["cp36", "abi3", "linux_aarch64"], ["cp36", "none", "manylinux_2_27_aarch64"], ["cp36", "none", "manylinux_2_26_aarch64"], ["cp36", "none", "manylinux_2_25_aarch64"], ["cp36", "none", "manylinux_2_24_aarch64"], ["cp36", "none", "manylinux_2_23_aarch64"], ["cp36", "none", "manylinux_2_22_aarch64"], ["cp36", "none", "manylinux_2_21_aarch64"], ["cp36", "none", "manylinux_2_20_aarch64"], ["cp36", "none", "manylinux_2_19_aarch64"], ["cp36", "none", "manylinux_2_18_aarch64"], ["cp36", "none", "manylinux_2_17_aarch64"], ["cp36", "none", "manylinux2014_aarch64"], ["cp36", "none", "linux_aarch64"], ["cp35", "abi3", "manylinux_2_27_aarch64"], ["cp35", "abi3", "manylinux_2_26_aarch64"], ["cp35", "abi3", "manylinux_2_25_aarch64"], ["cp35", "abi3", "manylinux_2_24_aarch64"], ["cp35", "abi3", "manylinux_2_23_aarch64"], ["cp35", "abi3", "manylinux_2_22_aarch64"], ["cp35", "abi3", "manylinux_2_21_aarch64"], ["cp35", "abi3", "manylinux_2_20_aarch64"], ["cp35", "abi3", "manylinux_2_19_aarch64"], ["cp35", "abi3", "manylinux_2_18_aarch64"], ["cp35", "abi3", "manylinux_2_17_aarch64"], ["cp35", "abi3", "manylinux2014_aarch64"], ["cp35", "abi3", "linux_aarch64"], ["cp34", "abi3", "manylinux_2_27_aarch64"], ["cp34", "abi3", "manylinux_2_26_aarch64"], ["cp34", "abi3", "manylinux_2_25_aarch64"], ["cp34", "abi3", "manylinux_2_24_aarch64"], ["cp34", "abi3", "manylinux_2_23_aarch64"], ["cp34", "abi3", "manylinux_2_22_aarch64"], ["cp34", "abi3", "manylinux_2_21_aarch64"], ["cp34", "abi3", "manylinux_2_20_aarch64"], ["cp34", "abi3", "manylinux_2_19_aarch64"], ["cp34", "abi3", "manylinux_2_18_aarch64"], ["cp34", "abi3", "manylinux_2_17_aarch64"], ["cp34", "abi3", "manylinux2014_aarch64"], ["cp34", "abi3", "linux_aarch64"], ["cp33", "abi3", "manylinux_2_27_aarch64"], ["cp33", "abi3", "manylinux_2_26_aarch64"], ["cp33", "abi3", "manylinux_2_25_aarch64"], ["cp33", "abi3", "manylinux_2_24_aarch64"], ["cp33", "abi3", "manylinux_2_23_aarch64"], ["cp33", "abi3", "manylinux_2_22_aarch64"], ["cp33", "abi3", "manylinux_2_21_aarch64"], ["cp33", "abi3", "manylinux_2_20_aarch64"], ["cp33", "abi3", "manylinux_2_19_aarch64"], ["cp33", "abi3", "manylinux_2_18_aarch64"], ["cp33", "abi3", "manylinux_2_17_aarch64"], ["cp33", "abi3", "manylinux2014_aarch64"], ["cp33", "abi3", "linux_aarch64"], ["cp32", "abi3", "manylinux_2_27_aarch64"], ["cp32", "abi3", "manylinux_2_26_aarch64"], ["cp32", "abi3", "manylinux_2_25_aarch64"], ["cp32", "abi3", "manylinux_2_24_aarch64"], ["cp32", "abi3", "manylinux_2_23_aarch64"], ["cp32", "abi3", "manylinux_2_22_aarch64"], ["cp32", "abi3", "manylinux_2_21_aarch64"], ["cp32", "abi3", "manylinux_2_20_aarch64"], ["cp32", "abi3", "manylinux_2_19_aarch64"], ["cp32", "abi3", "manylinux_2_18_aarch64"], ["cp32", "abi3", "manylinux_2_17_aarch64"], ["cp32", "abi3", "manylinux2014_aarch64"], ["cp32", "abi3", "linux_aarch64"]], "pip_version": "21.3.1", "packaging_version": "20.9"}
+2022-03-29 16:54:55 [DEBUG]  		STANDARD OUTPUT:
+{"platform_system": "Linux", "platform_release": "5.4.0-1050-raspi", "platform_machine": "aarch64", "platform_processor": "aarch64", "platform_linux_distribution": ["Ubuntu", "18.04", "bionic"], "platform_mac_ver": ["", ["", "", ""], ""], "platform_uname": ["Linux", "ubuntu", "5.4.0-1050-raspi", "#56~18.04.1-Ubuntu SMP PREEMPT Thu Jan 13 14:51:09 UTC 2022", "aarch64", "aarch64"], "platform_python_implementation": "CPython", "platform_python_version": "3.6.9", "platform_python_compiler": "GCC 8.4.0", "platform_python_build": ["default", "Dec  8 2021 21:08:43"], "pip_supported_tags": [["cp36", "cp36m", "manylinux_2_27_aarch64"], ["cp36", "cp36m", "manylinux_2_26_aarch64"], ["cp36", "cp36m", "manylinux_2_25_aarch64"], ["cp36", "cp36m", "manylinux_2_24_aarch64"], ["cp36", "cp36m", "manylinux_2_23_aarch64"], ["cp36", "cp36m", "manylinux_2_22_aarch64"], ["cp36", "cp36m", "manylinux_2_21_aarch64"], ["cp36", "cp36m", "manylinux_2_20_aarch64"], ["cp36", "cp36m", "manylinux_2_19_aarch64"], ["cp36", "cp36m", "manylinux_2_18_aarch64"], ["cp36", "cp36m", "manylinux_2_17_aarch64"], ["cp36", "cp36m", "manylinux2014_aarch64"], ["cp36", "cp36m", "linux_aarch64"], ["cp36", "abi3", "manylinux_2_27_aarch64"], ["cp36", "abi3", "manylinux_2_26_aarch64"], ["cp36", "abi3", "manylinux_2_25_aarch64"], ["cp36", "abi3", "manylinux_2_24_aarch64"], ["cp36", "abi3", "manylinux_2_23_aarch64"], ["cp36", "abi3", "manylinux_2_22_aarch64"], ["cp36", "abi3", "manylinux_2_21_aarch64"], ["cp36", "abi3", "manylinux_2_20_aarch64"], ["cp36", "abi3", "manylinux_2_19_aarch64"], ["cp36", "abi3", "manylinux_2_18_aarch64"], ["cp36", "abi3", "manylinux_2_17_aarch64"], ["cp36", "abi3", "manylinux2014_aarch64"], ["cp36", "abi3", "linux_aarch64"], ["cp36", "none", "manylinux_2_27_aarch64"], ["cp36", "none", "manylinux_2_26_aarch64"], ["cp36", "none", "manylinux_2_25_aarch64"], ["cp36", "none", "manylinux_2_24_aarch64"], ["cp36", "none", "manylinux_2_23_aarch64"], ["cp36", "none", "manylinux_2_22_aarch64"], ["cp36", "none", "manylinux_2_21_aarch64"], ["cp36", "none", "manylinux_2_20_aarch64"], ["cp36", "none", "manylinux_2_19_aarch64"], ["cp36", "none", "manylinux_2_18_aarch64"], ["cp36", "none", "manylinux_2_17_aarch64"], ["cp36", "none", "manylinux2014_aarch64"], ["cp36", "none", "linux_aarch64"], ["cp35", "abi3", "manylinux_2_27_aarch64"], ["cp35", "abi3", "manylinux_2_26_aarch64"], ["cp35", "abi3", "manylinux_2_25_aarch64"], ["cp35", "abi3", "manylinux_2_24_aarch64"], ["cp35", "abi3", "manylinux_2_23_aarch64"], ["cp35", "abi3", "manylinux_2_22_aarch64"], ["cp35", "abi3", "manylinux_2_21_aarch64"], ["cp35", "abi3", "manylinux_2_20_aarch64"], ["cp35", "abi3", "manylinux_2_19_aarch64"], ["cp35", "abi3", "manylinux_2_18_aarch64"], ["cp35", "abi3", "manylinux_2_17_aarch64"], ["cp35", "abi3", "manylinux2014_aarch64"], ["cp35", "abi3", "linux_aarch64"], ["cp34", "abi3", "manylinux_2_27_aarch64"], ["cp34", "abi3", "manylinux_2_26_aarch64"], ["cp34", "abi3", "manylinux_2_25_aarch64"], ["cp34", "abi3", "manylinux_2_24_aarch64"], ["cp34", "abi3", "manylinux_2_23_aarch64"], ["cp34", "abi3", "manylinux_2_22_aarch64"], ["cp34", "abi3", "manylinux_2_21_aarch64"], ["cp34", "abi3", "manylinux_2_20_aarch64"], ["cp34", "abi3", "manylinux_2_19_aarch64"], ["cp34", "abi3", "manylinux_2_18_aarch64"], ["cp34", "abi3", "manylinux_2_17_aarch64"], ["cp34", "abi3", "manylinux2014_aarch64"], ["cp34", "abi3", "linux_aarch64"], ["cp33", "abi3", "manylinux_2_27_aarch64"], ["cp33", "abi3", "manylinux_2_26_aarch64"], ["cp33", "abi3", "manylinux_2_25_aarch64"], ["cp33", "abi3", "manylinux_2_24_aarch64"], ["cp33", "abi3", "manylinux_2_23_aarch64"], ["cp33", "abi3", "manylinux_2_22_aarch64"], ["cp33", "abi3", "manylinux_2_21_aarch64"], ["cp33", "abi3", "manylinux_2_20_aarch64"], ["cp33", "abi3", "manylinux_2_19_aarch64"], ["cp33", "abi3", "manylinux_2_18_aarch64"], ["cp33", "abi3", "manylinux_2_17_aarch64"], ["cp33", "abi3", "manylinux2014_aarch64"], ["cp33", "abi3", "linux_aarch64"], ["cp32", "abi3", "manylinux_2_27_aarch64"], ["cp32", "abi3", "manylinux_2_26_aarch64"], ["cp32", "abi3", "manylinux_2_25_aarch64"], ["cp32", "abi3", "manylinux_2_24_aarch64"], ["cp32", "abi3", "manylinux_2_23_aarch64"], ["cp32", "abi3", "manylinux_2_22_aarch64"], ["cp32", "abi3", "manylinux_2_21_aarch64"], ["cp32", "abi3", "manylinux_2_20_aarch64"], ["cp32", "abi3", "manylinux_2_19_aarch64"], ["cp32", "abi3", "manylinux_2_18_aarch64"], ["cp32", "abi3", "manylinux_2_17_aarch64"], ["cp32", "abi3", "manylinux2014_aarch64"], ["cp32", "abi3", "linux_aarch64"]], "pip_version": "21.3.1", "packaging_version": "20.9"}
+2022-03-29 16:54:55 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.30s
+2022-03-29 16:54:55 [DEBUG]  Collected next system details: {'platform_system': 'Linux', 'platform_release': '5.4.0-1050-raspi', 'platform_machine': 'aarch64', 'platform_processor': 'aarch64', 'platform_linux_distribution': ['Ubuntu', '18.04', 'bionic'], 'platform_mac_ver': ['', ['', '', ''], ''], 'platform_uname': ['Linux', 'ubuntu', '5.4.0-1050-raspi', '#56~18.04.1-Ubuntu SMP PREEMPT Thu Jan 13 14:51:09 UTC 2022', 'aarch64', 'aarch64'], 'platform_python_implementation': 'CPython', 'platform_python_version': '3.6.9', 'platform_python_compiler': 'GCC 8.4.0', 'platform_python_build': ['default', 'Dec  8 2021 21:08:43'], 'pip_supported_tags': [['cp36', 'cp36m', 'manylinux_2_27_aarch64'], ['cp36', 'cp36m', 'manylinux_2_26_aarch64'], ['cp36', 'cp36m', 'manylinux_2_25_aarch64'], ['cp36', 'cp36m', 'manylinux_2_24_aarch64'], ['cp36', 'cp36m', 'manylinux_2_23_aarch64'], ['cp36', 'cp36m', 'manylinux_2_22_aarch64'], ['cp36', 'cp36m', 'manylinux_2_21_aarch64'], ['cp36', 'cp36m', 'manylinux_2_20_aarch64'], ['cp36', 'cp36m', 'manylinux_2_19_aarch64'], ['cp36', 'cp36m', 'manylinux_2_18_aarch64'], ['cp36', 'cp36m', 'manylinux_2_17_aarch64'], ['cp36', 'cp36m', 'manylinux2014_aarch64'], ['cp36', 'cp36m', 'linux_aarch64'], ['cp36', 'abi3', 'manylinux_2_27_aarch64'], ['cp36', 'abi3', 'manylinux_2_26_aarch64'], ['cp36', 'abi3', 'manylinux_2_25_aarch64'], ['cp36', 'abi3', 'manylinux_2_24_aarch64'], ['cp36', 'abi3', 'manylinux_2_23_aarch64'], ['cp36', 'abi3', 'manylinux_2_22_aarch64'], ['cp36', 'abi3', 'manylinux_2_21_aarch64'], ['cp36', 'abi3', 'manylinux_2_20_aarch64'], ['cp36', 'abi3', 'manylinux_2_19_aarch64'], ['cp36', 'abi3', 'manylinux_2_18_aarch64'], ['cp36', 'abi3', 'manylinux_2_17_aarch64'], ['cp36', 'abi3', 'manylinux2014_aarch64'], ['cp36', 'abi3', 'linux_aarch64'], ['cp36', 'none', 'manylinux_2_27_aarch64'], ['cp36', 'none', 'manylinux_2_26_aarch64'], ['cp36', 'none', 'manylinux_2_25_aarch64'], ['cp36', 'none', 'manylinux_2_24_aarch64'], ['cp36', 'none', 'manylinux_2_23_aarch64'], ['cp36', 'none', 'manylinux_2_22_aarch64'], ['cp36', 'none', 'manylinux_2_21_aarch64'], ['cp36', 'none', 'manylinux_2_20_aarch64'], ['cp36', 'none', 'manylinux_2_19_aarch64'], ['cp36', 'none', 'manylinux_2_18_aarch64'], ['cp36', 'none', 'manylinux_2_17_aarch64'], ['cp36', 'none', 'manylinux2014_aarch64'], ['cp36', 'none', 'linux_aarch64'], ['cp35', 'abi3', 'manylinux_2_27_aarch64'], ['cp35', 'abi3', 'manylinux_2_26_aarch64'], ['cp35', 'abi3', 'manylinux_2_25_aarch64'], ['cp35', 'abi3', 'manylinux_2_24_aarch64'], ['cp35', 'abi3', 'manylinux_2_23_aarch64'], ['cp35', 'abi3', 'manylinux_2_22_aarch64'], ['cp35', 'abi3', 'manylinux_2_21_aarch64'], ['cp35', 'abi3', 'manylinux_2_20_aarch64'], ['cp35', 'abi3', 'manylinux_2_19_aarch64'], ['cp35', 'abi3', 'manylinux_2_18_aarch64'], ['cp35', 'abi3', 'manylinux_2_17_aarch64'], ['cp35', 'abi3', 'manylinux2014_aarch64'], ['cp35', 'abi3', 'linux_aarch64'], ['cp34', 'abi3', 'manylinux_2_27_aarch64'], ['cp34', 'abi3', 'manylinux_2_26_aarch64'], ['cp34', 'abi3', 'manylinux_2_25_aarch64'], ['cp34', 'abi3', 'manylinux_2_24_aarch64'], ['cp34', 'abi3', 'manylinux_2_23_aarch64'], ['cp34', 'abi3', 'manylinux_2_22_aarch64'], ['cp34', 'abi3', 'manylinux_2_21_aarch64'], ['cp34', 'abi3', 'manylinux_2_20_aarch64'], ['cp34', 'abi3', 'manylinux_2_19_aarch64'], ['cp34', 'abi3', 'manylinux_2_18_aarch64'], ['cp34', 'abi3', 'manylinux_2_17_aarch64'], ['cp34', 'abi3', 'manylinux2014_aarch64'], ['cp34', 'abi3', 'linux_aarch64'], ['cp33', 'abi3', 'manylinux_2_27_aarch64'], ['cp33', 'abi3', 'manylinux_2_26_aarch64'], ['cp33', 'abi3', 'manylinux_2_25_aarch64'], ['cp33', 'abi3', 'manylinux_2_24_aarch64'], ['cp33', 'abi3', 'manylinux_2_23_aarch64'], ['cp33', 'abi3', 'manylinux_2_22_aarch64'], ['cp33', 'abi3', 'manylinux_2_21_aarch64'], ['cp33', 'abi3', 'manylinux_2_20_aarch64'], ['cp33', 'abi3', 'manylinux_2_19_aarch64'], ['cp33', 'abi3', 'manylinux_2_18_aarch64'], ['cp33', 'abi3', 'manylinux_2_17_aarch64'], ['cp33', 'abi3', 'manylinux2014_aarch64'], ['cp33', 'abi3', 'linux_aarch64'], ['cp32', 'abi3', 'manylinux_2_27_aarch64'], ['cp32', 'abi3', 'manylinux_2_26_aarch64'], ['cp32', 'abi3', 'manylinux_2_25_aarch64'], ['cp32', 'abi3', 'manylinux_2_24_aarch64'], ['cp32', 'abi3', 'manylinux_2_23_aarch64'], ['cp32', 'abi3', 'manylinux_2_22_aarch64'], ['cp32', 'abi3', 'manylinux_2_21_aarch64'], ['cp32', 'abi3', 'manylinux_2_20_aarch64'], ['cp32', 'abi3', 'manylinux_2_19_aarch64'], ['cp32', 'abi3', 'manylinux_2_18_aarch64'], ['cp32', 'abi3', 'manylinux_2_17_aarch64'], ['cp32', 'abi3', 'manylinux2014_aarch64'], ['cp32', 'abi3', 'linux_aarch64']], 'pip_version': '21.3.1', 'packaging_version': '20.9', 'agent_version': 'latest', 'code_branch': 'release'}
+2022-03-29 16:54:55 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "curl -sS -X POST -H 'content-type: application/json' -H 'mc_token: T7099D2046CE3249E72438963' -H 'mc_secret: S1287023c2749ce6d44ef056e' -d '{\"platform_system\": \"Linux\", \"platform_release\": \"5.4.0-1050-raspi\", \"platform_machine\": \"aarch64\", \"platform_processor\": \"aarch64\", \"platform_linux_distribution\": [\"Ubuntu\", \"18.04\", \"bionic\"], \"platform_mac_ver\": [\"\", [\"\", \"\", \"\"], \"\"], \"platform_uname\": [\"Linux\", \"ubuntu\", \"5.4.0-1050-raspi\", \"#56~18.04.1-Ubuntu SMP PREEMPT Thu Jan 13 14:51:09 UTC 2022\", \"aarch64\", \"aarch64\"], \"platform_python_implementation\": \"CPython\", \"platform_python_version\": \"3.6.9\", \"platform_python_compiler\": \"GCC 8.4.0\", \"platform_python_build\": [\"default\", \"Dec  8 2021 21:08:43\"], \"pip_supported_tags\": [[\"cp36\", \"cp36m\", \"manylinux_2_27_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_26_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_25_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_24_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_23_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_22_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_21_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_20_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_19_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_18_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_17_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux2014_aarch64\"], [\"cp36\", \"cp36m\", \"linux_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_27_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_26_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_25_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_24_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_23_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_22_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_21_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_20_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_19_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_18_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_17_aarch64\"], [\"cp36\", \"abi3\", \"manylinux2014_aarch64\"], [\"cp36\", \"abi3\", \"linux_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_27_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_26_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_25_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_24_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_23_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_22_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_21_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_20_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_19_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_18_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_17_aarch64\"], [\"cp36\", \"none\", \"manylinux2014_aarch64\"], [\"cp36\", \"none\", \"linux_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_27_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_26_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_25_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_24_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_23_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_22_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_21_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_20_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_19_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_18_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_17_aarch64\"], [\"cp35\", \"abi3\", \"manylinux2014_aarch64\"], [\"cp35\", \"abi3\", \"linux_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_27_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_26_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_25_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_24_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_23_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_22_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_21_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_20_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_19_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_18_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_17_aarch64\"], [\"cp34\", \"abi3\", \"manylinux2014_aarch64\"], [\"cp34\", \"abi3\", \"linux_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_27_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_26_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_25_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_24_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_23_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_22_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_21_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_20_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_19_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_18_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_17_aarch64\"], [\"cp33\", \"abi3\", \"manylinux2014_aarch64\"], [\"cp33\", \"abi3\", \"linux_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_27_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_26_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_25_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_24_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_23_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_22_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_21_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_20_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_19_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_18_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_17_aarch64\"], [\"cp32\", \"abi3\", \"manylinux2014_aarch64\"], [\"cp32\", \"abi3\", \"linux_aarch64\"]], \"pip_version\": \"21.3.1\", \"packaging_version\": \"20.9\", \"agent_version\": \"latest\", \"code_branch\": \"release\"}' 'https://api.freedomrobotics.ai/download_wheel_link'"
+2022-03-29 16:55:00 [DEBUG]  				{"name":"freedomrobotics-0.1.165-cp36-cp36m-linux_aarch64.whl","location":"https://mission-control-download.s3.amazonaws.com/agent/release/0.1.165/freedomrobotics-0.1.165-cp36-cp36m-linux_aarch64.whl?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAZOR7KKOVQCVMRZ26%2F20220329%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220329T165500Z&X-Amz-Expires=100&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE8aCXVzLWVhc3QtMiJHMEUCIQCDVsG7CJSDq9Ts0lxVF6%2BFakkB8XTw8DO5axIRgHweCwIgWPchd%2B04lgHgwApOxx99N99OH3riiwhaPmvZmg%2FXXIYqwQII2P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgw2NDk3NDY2MDA4NzUiDBri9r%2BKPeGWAG3bCCqVAvX1naFlw75ErtSIiLmf4z9IGES7kG6mg1HRrLpxNGro%2FhrDm%2F7BYHeKomB9ey%2FUraU2LDEttSWhGGoSNoMbWrMnd%2FuwAyCTCUICxK3PlNslwlIaPnedozaTFs1LjeFWmOw6AFY0C%2FUVJM7O%2FG12s6GxU91gP4WOYxwj9TwPVTLtzQZZ7hcdEba5sQWJEYfqJogV%2FutT3Cvd6ffRMIJOsbpKtGFb88xhZ3J%2F6I%2BByDlF8mBGqP0Z4mTv25dadwW%2Bh9LjJhWzYrm27gDc0yowgK8POiunNKM70P21d4j6EHmd86yasx5G2gaLw7To9Y1YOoiZoTGYhdFwAVEqvBcmb5ozdJgyZ25rFIFYgA5I%2FmTW97s1bzkw7baMkgY6mgGrMIHtCpWp9H0%2B4zz6Nz6a5TocwYGItWdGR5ml5jJq2yZKNb5e0%2FYrSyG9aZqlU3zJggy4w6bYub8Z70EQFH60P%2FxVT3ssPD%2B2yKYDPZ0ylpoCHfwkYO8mpllhDqt7dEXt1aK0KwvLBBkkAUYl8IVjNXrUyPnsghtARycNz1CRa4jtpOPgzp1h2YKwA9%2FQk2NXZFz7SBmEEGNQ&X-Amz-Signature=0b76e01315793609b6a0b6bb10079389c9ab41b71ad333f975a9bcdb1e01d9eb"}
+2022-03-29 16:55:00 [DEBUG]  		STANDARD OUTPUT:
+{"name":"freedomrobotics-0.1.165-cp36-cp36m-linux_aarch64.whl","location":"https://mission-control-download.s3.amazonaws.com/agent/release/0.1.165/freedomrobotics-0.1.165-cp36-cp36m-linux_aarch64.whl?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAZOR7KKOVQCVMRZ26%2F20220329%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220329T165500Z&X-Amz-Expires=100&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE8aCXVzLWVhc3QtMiJHMEUCIQCDVsG7CJSDq9Ts0lxVF6%2BFakkB8XTw8DO5axIRgHweCwIgWPchd%2B04lgHgwApOxx99N99OH3riiwhaPmvZmg%2FXXIYqwQII2P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgw2NDk3NDY2MDA4NzUiDBri9r%2BKPeGWAG3bCCqVAvX1naFlw75ErtSIiLmf4z9IGES7kG6mg1HRrLpxNGro%2FhrDm%2F7BYHeKomB9ey%2FUraU2LDEttSWhGGoSNoMbWrMnd%2FuwAyCTCUICxK3PlNslwlIaPnedozaTFs1LjeFWmOw6AFY0C%2FUVJM7O%2FG12s6GxU91gP4WOYxwj9TwPVTLtzQZZ7hcdEba5sQWJEYfqJogV%2FutT3Cvd6ffRMIJOsbpKtGFb88xhZ3J%2F6I%2BByDlF8mBGqP0Z4mTv25dadwW%2Bh9LjJhWzYrm27gDc0yowgK8POiunNKM70P21d4j6EHmd86yasx5G2gaLw7To9Y1YOoiZoTGYhdFwAVEqvBcmb5ozdJgyZ25rFIFYgA5I%2FmTW97s1bzkw7baMkgY6mgGrMIHtCpWp9H0%2B4zz6Nz6a5TocwYGItWdGR5ml5jJq2yZKNb5e0%2FYrSyG9aZqlU3zJggy4w6bYub8Z70EQFH60P%2FxVT3ssPD%2B2yKYDPZ0ylpoCHfwkYO8mpllhDqt7dEXt1aK0KwvLBBkkAUYl8IVjNXrUyPnsghtARycNz1CRa4jtpOPgzp1h2YKwA9%2FQk2NXZFz7SBmEEGNQ&X-Amz-Signature=0b76e01315793609b6a0b6bb10079389c9ab41b71ad333f975a9bcdb1e01d9eb"}
+2022-03-29 16:55:00 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 4.46s
+2022-03-29 16:55:00 [DEBUG]  Got the link to download the wheel.
+2022-03-29 16:55:00 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "curl -sS -o /tmp/freedomrobotics5izxzddc/freedomrobotics-0.1.165-cp36-cp36m-linux_aarch64.whl 'https://mission-control-download.s3.amazonaws.com/agent/release/0.1.165/freedomrobotics-0.1.165-cp36-cp36m-linux_aarch64.whl?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAZOR7KKOVQCVMRZ26%2F20220329%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220329T165500Z&X-Amz-Expires=100&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE8aCXVzLWVhc3QtMiJHMEUCIQCDVsG7CJSDq9Ts0lxVF6%2BFakkB8XTw8DO5axIRgHweCwIgWPchd%2B04lgHgwApOxx99N99OH3riiwhaPmvZmg%2FXXIYqwQII2P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgw2NDk3NDY2MDA4NzUiDBri9r%2BKPeGWAG3bCCqVAvX1naFlw75ErtSIiLmf4z9IGES7kG6mg1HRrLpxNGro%2FhrDm%2F7BYHeKomB9ey%2FUraU2LDEttSWhGGoSNoMbWrMnd%2FuwAyCTCUICxK3PlNslwlIaPnedozaTFs1LjeFWmOw6AFY0C%2FUVJM7O%2FG12s6GxU91gP4WOYxwj9TwPVTLtzQZZ7hcdEba5sQWJEYfqJogV%2FutT3Cvd6ffRMIJOsbpKtGFb88xhZ3J%2F6I%2BByDlF8mBGqP0Z4mTv25dadwW%2Bh9LjJhWzYrm27gDc0yowgK8POiunNKM70P21d4j6EHmd86yasx5G2gaLw7To9Y1YOoiZoTGYhdFwAVEqvBcmb5ozdJgyZ25rFIFYgA5I%2FmTW97s1bzkw7baMkgY6mgGrMIHtCpWp9H0%2B4zz6Nz6a5TocwYGItWdGR5ml5jJq2yZKNb5e0%2FYrSyG9aZqlU3zJggy4w6bYub8Z70EQFH60P%2FxVT3ssPD%2B2yKYDPZ0ylpoCHfwkYO8mpllhDqt7dEXt1aK0KwvLBBkkAUYl8IVjNXrUyPnsghtARycNz1CRa4jtpOPgzp1h2YKwA9%2FQk2NXZFz7SBmEEGNQ&X-Amz-Signature=0b76e01315793609b6a0b6bb10079389c9ab41b71ad333f975a9bcdb1e01d9eb'"
+2022-03-29 16:55:02 [DEBUG]  		STANDARD OUTPUT:
+
+2022-03-29 16:55:02 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 2.45s
+2022-03-29 16:55:02 [DEBUG]  Downloaded the wheel.
+2022-03-29 16:55:02 [INFO ]  Installing freedomrobotics agent and its direct dependencies for python 3.6. This might take a few minutes.
+2022-03-29 16:55:02 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip install --verbose --user /tmp/freedomrobotics5izxzddc/freedomrobotics-0.1.165-cp36-cp36m-linux_aarch64.whl"
+2022-03-29 16:55:04 [DEBUG]  				Using pip 21.3.1 from /home/ubuntu/.local/lib/python3.6/site-packages/pip (python 3.6)
+2022-03-29 16:55:05 [DEBUG]  				Processing /tmp/freedomrobotics5izxzddc/freedomrobotics-0.1.165-cp36-cp36m-linux_aarch64.whl
+2022-03-29 16:55:05 [DEBUG]  				Requirement already satisfied: packaging>=20.0 in /home/ubuntu/.local/lib/python3.6/site-packages (from freedomrobotics==0.1.165) (20.9)
+2022-03-29 16:55:05 [DEBUG]  				Requirement already satisfied: protobuf-to-dict in /home/ubuntu/.local/lib/python3.6/site-packages (from freedomrobotics==0.1.165) (0.1.0)
+2022-03-29 16:55:05 [DEBUG]  				Requirement already satisfied: six>=1.11.0 in /usr/lib/python3/dist-packages (from freedomrobotics==0.1.165) (1.11.0)
+2022-03-29 16:55:05 [DEBUG]  				Requirement already satisfied: numpy>=1.15.0 in /home/ubuntu/.local/lib/python3.6/site-packages (from freedomrobotics==0.1.165) (1.19.5)
+2022-03-29 16:55:05 [DEBUG]  				Requirement already satisfied: psutil>=5.4.0 in /home/ubuntu/.local/lib/python3.6/site-packages (from freedomrobotics==0.1.165) (5.8.0)
+2022-03-29 16:55:05 [DEBUG]  				Requirement already satisfied: setproctitle>=1.1.10 in /home/ubuntu/.local/lib/python3.6/site-packages (from freedomrobotics==0.1.165) (1.2.2)
+2022-03-29 16:55:05 [DEBUG]  				Requirement already satisfied: distro in /home/ubuntu/.local/lib/python3.6/site-packages (from freedomrobotics==0.1.165) (1.5.0)
+2022-03-29 16:55:05 [DEBUG]  				Requirement already satisfied: SharedArray in /home/ubuntu/.local/lib/python3.6/site-packages (from freedomrobotics==0.1.165) (3.2.1)
+2022-03-29 16:55:05 [DEBUG]  				Requirement already satisfied: yappi>=1.0 in /home/ubuntu/.local/lib/python3.6/site-packages (from freedomrobotics==0.1.165) (1.3.2)
+2022-03-29 16:55:05 [DEBUG]  				Requirement already satisfied: requests>=2.15.0 in /usr/lib/python3/dist-packages (from freedomrobotics==0.1.165) (2.18.4)
+2022-03-29 16:55:05 [DEBUG]  				Requirement already satisfied: python-rapidjson>=0.9.1 in /home/ubuntu/.local/lib/python3.6/site-packages (from freedomrobotics==0.1.165) (1.0)
+2022-03-29 16:55:05 [DEBUG]  				Requirement already satisfied: pyparsing>=2.0.2 in /home/ubuntu/.local/lib/python3.6/site-packages (from packaging>=20.0->freedomrobotics==0.1.165) (2.4.7)
+2022-03-29 16:55:05 [DEBUG]  				Requirement already satisfied: protobuf>=2.3.0 in /home/ubuntu/.local/lib/python3.6/site-packages (from protobuf-to-dict->freedomrobotics==0.1.165) (3.14.0)
+2022-03-29 16:55:06 [DEBUG]  				Installing collected packages: freedomrobotics
+2022-03-29 16:55:07 [DEBUG]  				Successfully installed freedomrobotics-0.1.165
+2022-03-29 16:55:07 [DEBUG]  		STANDARD ERROR:
+2022-03-29 16:55:07 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2022-03-29 16:55:07 [DEBUG]  			from cryptography.utils import int_from_bytes
+2022-03-29 16:55:07 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/util.py:19: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2022-03-29 16:55:07 [DEBUG]  			from cryptography.utils import int_from_bytes
+2022-03-29 16:55:07 [DEBUG]  		STANDARD OUTPUT:
+Using pip 21.3.1 from /home/ubuntu/.local/lib/python3.6/site-packages/pip (python 3.6)
+Processing /tmp/freedomrobotics5izxzddc/freedomrobotics-0.1.165-cp36-cp36m-linux_aarch64.whl
+Requirement already satisfied: packaging>=20.0 in /home/ubuntu/.local/lib/python3.6/site-packages (from freedomrobotics==0.1.165) (20.9)
+Requirement already satisfied: protobuf-to-dict in /home/ubuntu/.local/lib/python3.6/site-packages (from freedomrobotics==0.1.165) (0.1.0)
+Requirement already satisfied: six>=1.11.0 in /usr/lib/python3/dist-packages (from freedomrobotics==0.1.165) (1.11.0)
+Requirement already satisfied: numpy>=1.15.0 in /home/ubuntu/.local/lib/python3.6/site-packages (from freedomrobotics==0.1.165) (1.19.5)
+Requirement already satisfied: psutil>=5.4.0 in /home/ubuntu/.local/lib/python3.6/site-packages (from freedomrobotics==0.1.165) (5.8.0)
+Requirement already satisfied: setproctitle>=1.1.10 in /home/ubuntu/.local/lib/python3.6/site-packages (from freedomrobotics==0.1.165) (1.2.2)
+Requirement already satisfied: distro in /home/ubuntu/.local/lib/python3.6/site-packages (from freedomrobotics==0.1.165) (1.5.0)
+Requirement already satisfied: SharedArray in /home/ubuntu/.local/lib/python3.6/site-packages (from freedomrobotics==0.1.165) (3.2.1)
+Requirement already satisfied: yappi>=1.0 in /home/ubuntu/.local/lib/python3.6/site-packages (from freedomrobotics==0.1.165) (1.3.2)
+Requirement already satisfied: requests>=2.15.0 in /usr/lib/python3/dist-packages (from freedomrobotics==0.1.165) (2.18.4)
+Requirement already satisfied: python-rapidjson>=0.9.1 in /home/ubuntu/.local/lib/python3.6/site-packages (from freedomrobotics==0.1.165) (1.0)
+Requirement already satisfied: pyparsing>=2.0.2 in /home/ubuntu/.local/lib/python3.6/site-packages (from packaging>=20.0->freedomrobotics==0.1.165) (2.4.7)
+Requirement already satisfied: protobuf>=2.3.0 in /home/ubuntu/.local/lib/python3.6/site-packages (from protobuf-to-dict->freedomrobotics==0.1.165) (3.14.0)
+Installing collected packages: freedomrobotics
+Successfully installed freedomrobotics-0.1.165
+2022-03-29 16:55:07 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 4.85s
+2022-03-29 16:55:07 [DEBUG]  Successfully installed python package 'freedomrobotics'
+2022-03-29 16:55:07 [INFO ]      COMPLETE
+2022-03-29 16:55:07 [INFO ]  
+2022-03-29 16:55:07 [INFO ]  Step 5/6: RTC DEPENDENCIES
+2022-03-29 16:55:07 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip install --verbose --user -U pip wheel setuptools"
+2022-03-29 16:55:09 [DEBUG]  				Using pip 21.3.1 from /home/ubuntu/.local/lib/python3.6/site-packages/pip (python 3.6)
+2022-03-29 16:55:10 [DEBUG]  				Requirement already satisfied: pip in /home/ubuntu/.local/lib/python3.6/site-packages (21.3.1)
+2022-03-29 16:55:10 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/9f/8b/a094f5da22d7abf5098205367b3296dd15b914f4232af5ca39ba6214d08c/pip-22.0-py3-none-any.whl#sha256=6cb1ea2bd7fda0668e26ae8c3e45188f301a7ef17ff22efe1f70f3643e56a822 (from https://pypi.org/simple/pip/) (requires-python:>=3.7)
+2022-03-29 16:55:10 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/4a/ca/e72b3b399d7a8cb34311aa8f52924108591c013b09f0268820afb4cd96fb/pip-22.0.tar.gz#sha256=d3fa5c3e42b33de52bddce89de40268c9a263cd6ef7c94c40774808dafb32c82 (from https://pypi.org/simple/pip/) (requires-python:>=3.7)
+2022-03-29 16:55:10 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/89/a1/2f4e58eda11e591fbfa518233378835679fc5ab766b690b3df85215014d5/pip-22.0.1-py3-none-any.whl#sha256=30739ac5fb973cfa4399b0afff0523d4fe6bed2f7a5229333f64d9c2ce0d1933 (from https://pypi.org/simple/pip/) (requires-python:>=3.7)
+2022-03-29 16:55:10 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/63/71/5686e51f06fa59da55f7e81c3101844e57434a30f4a0d7456674d1459841/pip-22.0.1.tar.gz#sha256=7fd7a92f2fb1d2ac2ae8c72fb10b1e640560a0361ed4427453509e2bcc18605b (from https://pypi.org/simple/pip/) (requires-python:>=3.7)
+2022-03-29 16:55:10 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/83/b5/df8640236faa5a3cb80bfafd68e9fb4b22578208b8398c032ccff803f9e0/pip-22.0.2-py3-none-any.whl#sha256=682eabc4716bfce606aca8dab488e9c7b58b0737e9001004eb858cdafcd8dbdd (from https://pypi.org/simple/pip/) (requires-python:>=3.7)
+2022-03-29 16:55:10 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/d9/c1/146b24a7648fdf3f8b4dc6521ab0b26ac151ef903bac0b63a4e1450cb4d1/pip-22.0.2.tar.gz#sha256=27b4b70c34ec35f77947f777070d8331adbb1e444842e98e7150c288dc0caea4 (from https://pypi.org/simple/pip/) (requires-python:>=3.7)
+2022-03-29 16:55:10 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/6a/df/a6ef77a6574781a668791419ffe366c8acd1c3cf4709d210cb53cd5ce1c2/pip-22.0.3-py3-none-any.whl#sha256=c146f331f0805c77017c6bb9740cec4a49a0d4582d0c3cc8244b057f83eca359 (from https://pypi.org/simple/pip/) (requires-python:>=3.7)
+2022-03-29 16:55:10 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/88/d9/761f0b1e0551a3559afe4d34bd9bf68fc8de3292363b3775dda39b62ce84/pip-22.0.3.tar.gz#sha256=f29d589df8c8ab99c060e68ad294c4a9ed896624f6368c5349d70aa581b333d0 (from https://pypi.org/simple/pip/) (requires-python:>=3.7)
+2022-03-29 16:55:10 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/4d/16/0a14ca596f30316efd412a60bdfac02a7259bf8673d4d917dc60b9a21812/pip-22.0.4-py3-none-any.whl#sha256=c6aca0f2f081363f689f041d90dab2a07a9a07fb840284db2218117a52da800b (from https://pypi.org/simple/pip/) (requires-python:>=3.7)
+2022-03-29 16:55:10 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/33/c9/e2164122d365d8f823213a53970fa3005eb16218edcfc56ca24cb6deba2b/pip-22.0.4.tar.gz#sha256=b3a9de2c6ef801e9247d1527a4b16f92f2cc141cd1489f3fffaf6a9e96729764 (from https://pypi.org/simple/pip/) (requires-python:>=3.7)
+2022-03-29 16:55:10 [DEBUG]  				Requirement already satisfied: wheel in /home/ubuntu/.local/lib/python3.6/site-packages (0.37.1)
+2022-03-29 16:55:10 [DEBUG]  				Requirement already satisfied: setuptools in /home/ubuntu/.local/lib/python3.6/site-packages (59.6.0)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/4f/27/b51cc9cebfd53b168b8a187c844e7a67dc523dda76be9b46d532815df284/setuptools-59.7.0-py3-none-any.whl#sha256=0c8d5c36aea600828875ab751c03e2c52624edc8382a88a127e31bd8d860e34b (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/99/61/f3b6c920f0e187368f4eeb57a7255afb428926beefba33f05f16214e66bb/setuptools-59.7.0.tar.gz#sha256=a426c5ce42242404fecb1cbce07af79c10b820ab2f684109e8129040413faaa1 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/8d/25/88b377b99ffb4ad0fc44ff5735fd6be605b2183f743d1ff5c10b7790cea5/setuptools-59.8.0-py3-none-any.whl#sha256=608a7885b664342ae9fafc43840b29d219c5a578876f6f7e00c4e2612160587f (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/ef/75/2bc7bef4d668f9caa9c6ed3f3187989922765403198243040d08d2a52725/setuptools-59.8.0.tar.gz#sha256=09980778aa734c3037a47997f28d6db5ab18bdf2af0e49f719bfc53967fd2e82 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/f9/73/a1e8254ee8604a7f8598f5b7c09d587b329ad2727f410a210f26c9595b7a/setuptools-60.0.0-py3-none-any.whl#sha256=75fd345a47ce3d79595b27bf57e6f49c2ca7904f3c7ce75f8a87012046c86b0b (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/57/e8/675eabec05702d8f3cddff494a4bb8c9cdb9e76d295705377b1eb73bfadf/setuptools-60.0.0.tar.gz#sha256=5ec2bbb534ed160b261acbbdd1b463eb3cf52a8d223d96a8ab9981f63798e85c (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/c1/b1/f775e1cce396e9e6905fc61af075f5b4110376306ed92e6dc1a4b79c91af/setuptools-60.0.1-py3-none-any.whl#sha256=18a86ddb51bf17f2b92f422ff57ea04b88b7b4580b9b144ce7422c9e24a6c143 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/6a/ee/0b2929a264a9a967d43321ca44c2ee27dfcc7c6b79a98d3f929433a97e62/setuptools-60.0.1.tar.gz#sha256=6241bb49f6ebab8952550545e99357378ed64847a2d7c851cc59b5d79e25ad32 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/8a/ff/593e863da0712038adb7272172bb2d3ae61b1350094fee9d875674bd9ffd/setuptools-60.0.2-py3-none-any.whl#sha256=451fc25d0d428b69d28e7e519228eafc4e9bd827c2836f961747fe8ad97936f7 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/52/a6/f3ba38bb9994ab8bdbe9164b94ddb4d751ef3ca648ddbcccbff205cc6914/setuptools-60.0.2.tar.gz#sha256=e2b6b147ffc384f3722b567f678379c70b96ac4f195f30490035115b5fe63e2f (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/df/0d/706cb6888df0dfe7f5a3dc4b1b8c39b949386ef28e66cd989d6d5c16b8ca/setuptools-60.0.3-py3-none-any.whl#sha256=032e5949c02878c405552fb800743aad96940097460bc6f115340402852dcdde (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/7f/0c/df74ee211715db60b333eaa7bf1793b1b21c777ce53295a45a98b9b1a0fe/setuptools-60.0.3.tar.gz#sha256=989ab2d3e632ba23358b8d43950bd46babde5bbb1516760dc5f5ccfe7accdd45 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/4f/e6/8502336aa2f185b1d9ca56f2fb5048e138c2322262aa45c09c3b5b40012e/setuptools-60.0.4-py3-none-any.whl#sha256=dae4d7933ca671d51fa44c10b4ef8165319d9be3aa41807dd4c73f1c1ba81dc3 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/3d/52/abcfab4e0f6dcf6b92df7559dce488eac4e3c82f01b82dfb3ac65c18379b/setuptools-60.0.4.tar.gz#sha256=8244876a37456ccbcbe1247b4cba1b015f4e42dfebfadd6a5488bfc12060f21b (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/ff/27/92a1a57aff92dac23df4a6867be19e29449f52fb05e17de9b1d64e61ebe1/setuptools-60.0.5-py3-none-any.whl#sha256=8d1f26f7cc0c81b7b372b0d133bb8b1b0abbb36f2083cb4a474a8b64cede98a7 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/05/ab/69076a67f4f0588838e3afa2adeea837ca58ffc39977a77038ff373d2b3d/setuptools-60.0.5.tar.gz#sha256=4dcae26c87ddbd48275d24a8cb06c30b52503b2dd51619e3ec1bc63b45dacdea (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/75/cd/178028262e067ed10011779e8de4c12821de3dc1598de42920988ebd412d/setuptools-60.1.0-py3-none-any.whl#sha256=ad0ea3d172404abb14d8f7bd7f54f2ccd4ed9dd00c9da0b1398862e69eb22c03 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/80/d3/2954b9ac8ad256f352d941453c44d2d2b219aafeb95277e9282bef606329/setuptools-60.1.0.tar.gz#sha256=a4377723c53721515f72a3dfc1bfacdcd61edfa19a4cccf82e72e4f50d9cecbd (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/d3/6b/9ba419f861fef1eb624f77fcb2c081ccac6f11e363bcf47bee6a4d2d5e0d/setuptools-60.1.1-py3-none-any.whl#sha256=89e8cb2d5ade19e9885e56cd110f2f1e80697f7cffa048886c585fe559ebbe32 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/15/8f/cf533796488c53b4824be97b79b86ac161bcc011af9613bec6027f52e78d/setuptools-60.1.1.tar.gz#sha256=10d6eff7fc27ada30cc87e21abf324713b7169b97af1f81f8744d66260e91d10 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/8e/16/8f64922c8d7cd7ec193b145c9b11ad281064ff8604452ba19a6d5bbd7ed9/setuptools-60.2.0-py3-none-any.whl#sha256=5c89b1a14a67ac5f0956f1cb0aeb7d1d3f4c8ba4e4e1ab7bf1af4933f9a2f0fe (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/9b/be/13f54335c7dba713b0e97e11e7a41db3df4a85073d6c5a6e7f6468b22ee2/setuptools-60.2.0.tar.gz#sha256=675fcebecb43c32eb930481abf907619137547f4336206e4d673180242e1a278 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/eb/0a/d86dd882b2087570ab9cb86c67e720e1bef7532597b467c2909b3930af3c/setuptools-60.3.0-py3-none-any.whl#sha256=1d245c08b5765c30370aef6ccbca50893ce34392cc241316ea70907758fa5327 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/af/34/508a2cc1af07a20ec7542f489734917d15ccaddb67fa09358ea34a4d749b/setuptools-60.3.0.tar.gz#sha256=b56ac4a6155a0ae2345cd89e30340b64f24069c344f2140a6216a1d954f7101d (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/04/e0/2fb461b22be560d2a1f630346bfafde0029205484ccfc4f1046e79f599a3/setuptools-60.3.1-py3-none-any.whl#sha256=2932bfeb248c648dc411ea9714d5a6de7a33ef1a0db2f0fce644d8172b0479e8 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/d9/15/0c48951d6fe38d7b3396401f2cfc43c86bc32408ed6c637ce1a9c6df1bdd/setuptools-60.3.1.tar.gz#sha256=2b62b3dbec1fe95585dadf3bd9a014c8c578624918190428c3a7994bb52ae2b8 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/95/85/1a132ab9f13bbdaba34144ce47e106539ce5480b795f68b7bad2321b56e4/setuptools-60.4.0-py3-none-any.whl#sha256=73e919a82b147f8a2a7b66662707af96b6154d3b8167e886f96875f0d9f3e159 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/b0/4a/bdfc4b6309af6b0a69066bae6e10fd77848a423b173432babf5f11a079eb/setuptools-60.4.0.tar.gz#sha256=7f86e4341d6096f425fc88149e4e0efddd739d6c1993fc1fef5900198ce6249f (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/eb/53/0dd4c7960579da8be13fa9b2c2591643d37f323e3d79f8bc8b1b6c8e6217/setuptools-60.5.0-py3-none-any.whl#sha256=68eb94073fc486091447fcb0501efd6560a0e5a1839ba249e5ff3c4c93f05f90 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/69/77/aee1ecacea4d0db740046ce1785e81d16c4b1755af50eceac4ca1a1f8bfd/setuptools-60.5.0.tar.gz#sha256=2404879cda71495fc4d5cbc445ed52fdaddf352b36e40be8dcc63147cb4edabe (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/11/b9/adac241e2c4aca7ae4ddd86d3c18227667665b6e7eac550695bfc50c7e3d/setuptools-60.6.0-py3-none-any.whl#sha256=c99207037c38984eae838c2fd986f39a9ddf4fabfe0fddd957e622d1d1dcdd05 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/8f/89/9fec81ec84737c925a1ee992af2c6c7153aec4051c26afeadd6b822354d2/setuptools-60.6.0.tar.gz#sha256=eb83b1012ae6bf436901c2a2cee35d45b7260f31fd4b65fd1e50a9f99c11d7f8 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/fa/cb/25e80b7edc9e2d0d49b3c05ee8992220978591290d88d71c595cf1e7d3ad/setuptools-60.7.0-py3-none-any.whl#sha256=f6871e8aba174d1e22f576c7a471d8460e226b8424b0f2e929a13330b8b83118 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/29/dd/48d662bb93e5e51e72265ef612f869947d4ae4126328d7156824cd50d440/setuptools-60.7.0.tar.gz#sha256=b83cf328a4f6a987c95610e76b29a30778db05174eef71f771776c48f8f25d1b (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/3d/93/903f1a10b3c4651d363b559acc4017b05f082b8461928d0b842a8b5d182a/setuptools-60.7.1-py3-none-any.whl#sha256=c9097cbcdefe88a64da966a764f2d95feb1cfaff77cc304528a23cefe3359d9a (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/1b/78/c0316b86d692e3c7f0905bc5506292e2d8ee810d188544c48865a0335c2c/setuptools-60.7.1.tar.gz#sha256=a4dc3af29a67e7a45620aba43dde2c1af2dd6bc49726d78168f0cc6c4fb0c01b (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/c2/14/69df4fd998811fd41c74fab6584ad8576524c87c4da1028a759da655eb39/setuptools-60.8.0-py3-none-any.whl#sha256=4f783948909b28124388eef286572e9e69c228b6866d44ac7475bd82e94b6503 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/d3/a6/ae5e0a6ea3592af875c838c00decb00f1e6f2d0a3bf7604a8cb797eed767/setuptools-60.8.0.tar.gz#sha256=5d7a302d3c3ae24d3bbaaecf5c4544056b2dd44b3e6690014dc096d64f12d672 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/2d/5c/e09f0ce3961663aa323508440796d64f3ca6a874470be76bb2b59acbb26b/setuptools-60.8.1-py3-none-any.whl#sha256=07e97e2f1e5607d240454e98c75c7004560ac8417ca5ae1dbaa50811cb6cc95c (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/56/4a/8ba3babea25b807d6f65258437d8d3bed6a820e4a7166f322ebb60d2d127/setuptools-60.8.1.tar.gz#sha256=23aad87cc27f4ae704079618c1d117a71bd43d41e355f0698c35f6b1c796d26c (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/ad/65/7b98718c0ecebbdae5a5251fffc43dd3800ff3d1a6f7cc1aa09cfbcf17a5/setuptools-60.8.2-py3-none-any.whl#sha256=43a5575eea6d3459789316e1596a3d2a0d215260cacf4189508112f35c9a145b (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/ae/0b/e458b0d07dced3d7fa2d21d828e708f374ef82040f2012c05d35f47f9af3/setuptools-60.8.2.tar.gz#sha256=66b8598da112b8dc8cd941d54cf63ef91d3b50657b374457eda5851f3ff6a899 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/1e/23/d9d5e23c8001f3614aace339b699d4d05fda9f1ec8be9155048d6613ed33/setuptools-60.9.0-py3-none-any.whl#sha256=d181db00651bce5268b8f559795053d5e8f645e4dbafac6d262b22d7e72e19eb (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/3e/d3/e85cd0d84cf52054caed83b64dd8c922bbf0e33071689d7e3da3f96caabd/setuptools-60.9.0.tar.gz#sha256=716f9d20b4c3513d1720245eb1dac009b40c9694c88e940e54b67b8b65d09493 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/42/1f/154a2f2eeaa319a313636a052a3a6cf5ac35ee2aa49ad30f0216ad695678/setuptools-60.9.1-py3-none-any.whl#sha256=71b2b3a334d6fcd2e472fb18d0ff530dc585d62da1494e75d001058f33153257 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/e9/84/a1171328f0a8789a1963e301be7c27163ff67da389b94588ab37a55c49f9/setuptools-60.9.1.tar.gz#sha256=1bc2725f0b4d6eb054ee29a0e05fda9c7c0921a6bdc0cf6dd2204da746872b49 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/7d/c4/33822b323a5d2f6239ea668ad04261b6965c309953880a32ce373caf22c7/setuptools-60.9.2-py3-none-any.whl#sha256=93b1a3037230bf9aa07327b9fc58f527d5f4e22d36705b55d55ba3ece8606ca6 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/bf/b0/b4599baf535aff5a8675f038a9b4b380df7e5de33c78a155e0883da05403/setuptools-60.9.2.tar.gz#sha256=80743e57120665fa65665286369a0734bce0e7a629ad36507fb7a4b65e7d2e3b (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/3b/02/8d4d27b1cacaac2d129a27d17a22d92a2a5eedcb7817d4ed8ab0d4daf5c4/setuptools-60.9.3-py3-none-any.whl#sha256=e4f30b9f84e5ab3decf945113119649fec09c1fc3507c6ebffec75646c56e62b (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/14/74/54890935244ce053abcc4fa01ef4982a84743a8d128d4cf5eae56e2d156c/setuptools-60.9.3.tar.gz#sha256=2347b2b432c891a863acadca2da9ac101eae6169b1d3dfee2ec605ecd50dbfe5 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/7c/5b/3d92b9f0f7ca1645cba48c080b54fe7d8b1033a4e5720091d1631c4266db/setuptools-60.10.0-py3-none-any.whl#sha256=782ef48d58982ddb49920c11a0c5c9c0b02e7d7d1c2ad0aa44e1a1e133051c96 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/af/e8/894c71e914dfbe01276a42dfad40025cd96119f2eefc39c554b6e8b9df86/setuptools-60.10.0.tar.gz#sha256=6599055eeb23bfef457d5605d33a4d68804266e6cb430b0fb12417c5efeae36c (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/50/09/2e7557fff6a272e795930229f17a0a0bc62e11069f0f859ebf961c19ed62/setuptools-61.0.0-py3-none-any.whl#sha256=ad88b13f3dc60420259c9877486908ddad12c7befaff0d624c7190f742abd64f (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/cf/68/bc4babfa1f0853d9164ed8f9fc97e3cc8293fa6e77277fb1a72b4de75ba5/setuptools-61.0.0.tar.gz#sha256=6221e37dc86fcdc9dad9d9eb2002e9f9798fe4aca1bf18f280e66e50c0eb7fca (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/4b/44/4a59818106036bbbbe0fda2a78852077164394b5d842832e254a910d3ae4/setuptools-61.1.0-py3-none-any.whl#sha256=9bc2671450c57d9e4885e7dcdc552e3b107b80a5a8f8b1a1df7d06f52db194be (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/27/01/6d721dbe597bd8234d978270b99717d017cafb6b1115e0eaafd373eaaa68/setuptools-61.1.0.tar.gz#sha256=63b73d83c4d419d9dd992978cf369af5b6efa06236a4a1397b9bdf3ecadb0453 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/0d/2f/3d6bdf48b8ef7b915a2f62568dc3cb856a9afea14adb447ab9585d8dd58c/setuptools-61.1.1-py3-none-any.whl#sha256=92b15f45ab164eb0c410d2bf661a6e9d15e3b78c0dffb0325f2bf0f313071cae (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/81/37/815cc2b7e708d522ccf8051fad1fb278a438fd0e94bcb0a3c2337ee573ce/setuptools-61.1.1.tar.gz#sha256=89eef7b71423ab7fccc7dfafdc145410ef170c4a89567427f932448135e08cdf (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/65/d1/1590f71a3ea7ed5f392ba4a7725205048b52e85102e48cbdc7cae3be8f4b/setuptools-61.2.0-py3-none-any.whl#sha256=8f4813dd6a4d6cc17bde85fb2e635fe19763f96efbb0ddf5575562e5ee0bc47a (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:12 [DEBUG]  				Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/a2/fc/f988372c4cdaaf6151ec4270be4e8ca45f0603256d979f81774fca73ad10/setuptools-61.2.0.tar.gz#sha256=c3d4e2ab578fbf83775755cd76dae73627915a22832cf4ea5de895978767833b (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:13 [DEBUG]  		STANDARD ERROR:
+2022-03-29 16:55:13 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2022-03-29 16:55:13 [DEBUG]  			from cryptography.utils import int_from_bytes
+2022-03-29 16:55:13 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/util.py:19: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2022-03-29 16:55:13 [DEBUG]  			from cryptography.utils import int_from_bytes
+2022-03-29 16:55:13 [DEBUG]  		STANDARD OUTPUT:
+Using pip 21.3.1 from /home/ubuntu/.local/lib/python3.6/site-packages/pip (python 3.6)
+Requirement already satisfied: pip in /home/ubuntu/.local/lib/python3.6/site-packages (21.3.1)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/9f/8b/a094f5da22d7abf5098205367b3296dd15b914f4232af5ca39ba6214d08c/pip-22.0-py3-none-any.whl#sha256=6cb1ea2bd7fda0668e26ae8c3e45188f301a7ef17ff22efe1f70f3643e56a822 (from https://pypi.org/simple/pip/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/4a/ca/e72b3b399d7a8cb34311aa8f52924108591c013b09f0268820afb4cd96fb/pip-22.0.tar.gz#sha256=d3fa5c3e42b33de52bddce89de40268c9a263cd6ef7c94c40774808dafb32c82 (from https://pypi.org/simple/pip/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/89/a1/2f4e58eda11e591fbfa518233378835679fc5ab766b690b3df85215014d5/pip-22.0.1-py3-none-any.whl#sha256=30739ac5fb973cfa4399b0afff0523d4fe6bed2f7a5229333f64d9c2ce0d1933 (from https://pypi.org/simple/pip/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/63/71/5686e51f06fa59da55f7e81c3101844e57434a30f4a0d7456674d1459841/pip-22.0.1.tar.gz#sha256=7fd7a92f2fb1d2ac2ae8c72fb10b1e640560a0361ed4427453509e2bcc18605b (from https://pypi.org/simple/pip/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/83/b5/df8640236faa5a3cb80bfafd68e9fb4b22578208b8398c032ccff803f9e0/pip-22.0.2-py3-none-any.whl#sha256=682eabc4716bfce606aca8dab488e9c7b58b0737e9001004eb858cdafcd8dbdd (from https://pypi.org/simple/pip/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/d9/c1/146b24a7648fdf3f8b4dc6521ab0b26ac151ef903bac0b63a4e1450cb4d1/pip-22.0.2.tar.gz#sha256=27b4b70c34ec35f77947f777070d8331adbb1e444842e98e7150c288dc0caea4 (from https://pypi.org/simple/pip/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/6a/df/a6ef77a6574781a668791419ffe366c8acd1c3cf4709d210cb53cd5ce1c2/pip-22.0.3-py3-none-any.whl#sha256=c146f331f0805c77017c6bb9740cec4a49a0d4582d0c3cc8244b057f83eca359 (from https://pypi.org/simple/pip/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/88/d9/761f0b1e0551a3559afe4d34bd9bf68fc8de3292363b3775dda39b62ce84/pip-22.0.3.tar.gz#sha256=f29d589df8c8ab99c060e68ad294c4a9ed896624f6368c5349d70aa581b333d0 (from https://pypi.org/simple/pip/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/4d/16/0a14ca596f30316efd412a60bdfac02a7259bf8673d4d917dc60b9a21812/pip-22.0.4-py3-none-any.whl#sha256=c6aca0f2f081363f689f041d90dab2a07a9a07fb840284db2218117a52da800b (from https://pypi.org/simple/pip/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/33/c9/e2164122d365d8f823213a53970fa3005eb16218edcfc56ca24cb6deba2b/pip-22.0.4.tar.gz#sha256=b3a9de2c6ef801e9247d1527a4b16f92f2cc141cd1489f3fffaf6a9e96729764 (from https://pypi.org/simple/pip/) (requires-python:>=3.7)
+Requirement already satisfied: wheel in /home/ubuntu/.local/lib/python3.6/site-packages (0.37.1)
+Requirement already satisfied: setuptools in /home/ubuntu/.local/lib/python3.6/site-packages (59.6.0)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/4f/27/b51cc9cebfd53b168b8a187c844e7a67dc523dda76be9b46d532815df284/setuptools-59.7.0-py3-none-any.whl#sha256=0c8d5c36aea600828875ab751c03e2c52624edc8382a88a127e31bd8d860e34b (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/99/61/f3b6c920f0e187368f4eeb57a7255afb428926beefba33f05f16214e66bb/setuptools-59.7.0.tar.gz#sha256=a426c5ce42242404fecb1cbce07af79c10b820ab2f684109e8129040413faaa1 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/8d/25/88b377b99ffb4ad0fc44ff5735fd6be605b2183f743d1ff5c10b7790cea5/setuptools-59.8.0-py3-none-any.whl#sha256=608a7885b664342ae9fafc43840b29d219c5a578876f6f7e00c4e2612160587f (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/ef/75/2bc7bef4d668f9caa9c6ed3f3187989922765403198243040d08d2a52725/setuptools-59.8.0.tar.gz#sha256=09980778aa734c3037a47997f28d6db5ab18bdf2af0e49f719bfc53967fd2e82 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/f9/73/a1e8254ee8604a7f8598f5b7c09d587b329ad2727f410a210f26c9595b7a/setuptools-60.0.0-py3-none-any.whl#sha256=75fd345a47ce3d79595b27bf57e6f49c2ca7904f3c7ce75f8a87012046c86b0b (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/57/e8/675eabec05702d8f3cddff494a4bb8c9cdb9e76d295705377b1eb73bfadf/setuptools-60.0.0.tar.gz#sha256=5ec2bbb534ed160b261acbbdd1b463eb3cf52a8d223d96a8ab9981f63798e85c (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/c1/b1/f775e1cce396e9e6905fc61af075f5b4110376306ed92e6dc1a4b79c91af/setuptools-60.0.1-py3-none-any.whl#sha256=18a86ddb51bf17f2b92f422ff57ea04b88b7b4580b9b144ce7422c9e24a6c143 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/6a/ee/0b2929a264a9a967d43321ca44c2ee27dfcc7c6b79a98d3f929433a97e62/setuptools-60.0.1.tar.gz#sha256=6241bb49f6ebab8952550545e99357378ed64847a2d7c851cc59b5d79e25ad32 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/8a/ff/593e863da0712038adb7272172bb2d3ae61b1350094fee9d875674bd9ffd/setuptools-60.0.2-py3-none-any.whl#sha256=451fc25d0d428b69d28e7e519228eafc4e9bd827c2836f961747fe8ad97936f7 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/52/a6/f3ba38bb9994ab8bdbe9164b94ddb4d751ef3ca648ddbcccbff205cc6914/setuptools-60.0.2.tar.gz#sha256=e2b6b147ffc384f3722b567f678379c70b96ac4f195f30490035115b5fe63e2f (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/df/0d/706cb6888df0dfe7f5a3dc4b1b8c39b949386ef28e66cd989d6d5c16b8ca/setuptools-60.0.3-py3-none-any.whl#sha256=032e5949c02878c405552fb800743aad96940097460bc6f115340402852dcdde (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/7f/0c/df74ee211715db60b333eaa7bf1793b1b21c777ce53295a45a98b9b1a0fe/setuptools-60.0.3.tar.gz#sha256=989ab2d3e632ba23358b8d43950bd46babde5bbb1516760dc5f5ccfe7accdd45 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/4f/e6/8502336aa2f185b1d9ca56f2fb5048e138c2322262aa45c09c3b5b40012e/setuptools-60.0.4-py3-none-any.whl#sha256=dae4d7933ca671d51fa44c10b4ef8165319d9be3aa41807dd4c73f1c1ba81dc3 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/3d/52/abcfab4e0f6dcf6b92df7559dce488eac4e3c82f01b82dfb3ac65c18379b/setuptools-60.0.4.tar.gz#sha256=8244876a37456ccbcbe1247b4cba1b015f4e42dfebfadd6a5488bfc12060f21b (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/ff/27/92a1a57aff92dac23df4a6867be19e29449f52fb05e17de9b1d64e61ebe1/setuptools-60.0.5-py3-none-any.whl#sha256=8d1f26f7cc0c81b7b372b0d133bb8b1b0abbb36f2083cb4a474a8b64cede98a7 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/05/ab/69076a67f4f0588838e3afa2adeea837ca58ffc39977a77038ff373d2b3d/setuptools-60.0.5.tar.gz#sha256=4dcae26c87ddbd48275d24a8cb06c30b52503b2dd51619e3ec1bc63b45dacdea (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/75/cd/178028262e067ed10011779e8de4c12821de3dc1598de42920988ebd412d/setuptools-60.1.0-py3-none-any.whl#sha256=ad0ea3d172404abb14d8f7bd7f54f2ccd4ed9dd00c9da0b1398862e69eb22c03 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/80/d3/2954b9ac8ad256f352d941453c44d2d2b219aafeb95277e9282bef606329/setuptools-60.1.0.tar.gz#sha256=a4377723c53721515f72a3dfc1bfacdcd61edfa19a4cccf82e72e4f50d9cecbd (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/d3/6b/9ba419f861fef1eb624f77fcb2c081ccac6f11e363bcf47bee6a4d2d5e0d/setuptools-60.1.1-py3-none-any.whl#sha256=89e8cb2d5ade19e9885e56cd110f2f1e80697f7cffa048886c585fe559ebbe32 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/15/8f/cf533796488c53b4824be97b79b86ac161bcc011af9613bec6027f52e78d/setuptools-60.1.1.tar.gz#sha256=10d6eff7fc27ada30cc87e21abf324713b7169b97af1f81f8744d66260e91d10 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/8e/16/8f64922c8d7cd7ec193b145c9b11ad281064ff8604452ba19a6d5bbd7ed9/setuptools-60.2.0-py3-none-any.whl#sha256=5c89b1a14a67ac5f0956f1cb0aeb7d1d3f4c8ba4e4e1ab7bf1af4933f9a2f0fe (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/9b/be/13f54335c7dba713b0e97e11e7a41db3df4a85073d6c5a6e7f6468b22ee2/setuptools-60.2.0.tar.gz#sha256=675fcebecb43c32eb930481abf907619137547f4336206e4d673180242e1a278 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/eb/0a/d86dd882b2087570ab9cb86c67e720e1bef7532597b467c2909b3930af3c/setuptools-60.3.0-py3-none-any.whl#sha256=1d245c08b5765c30370aef6ccbca50893ce34392cc241316ea70907758fa5327 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/af/34/508a2cc1af07a20ec7542f489734917d15ccaddb67fa09358ea34a4d749b/setuptools-60.3.0.tar.gz#sha256=b56ac4a6155a0ae2345cd89e30340b64f24069c344f2140a6216a1d954f7101d (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/04/e0/2fb461b22be560d2a1f630346bfafde0029205484ccfc4f1046e79f599a3/setuptools-60.3.1-py3-none-any.whl#sha256=2932bfeb248c648dc411ea9714d5a6de7a33ef1a0db2f0fce644d8172b0479e8 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/d9/15/0c48951d6fe38d7b3396401f2cfc43c86bc32408ed6c637ce1a9c6df1bdd/setuptools-60.3.1.tar.gz#sha256=2b62b3dbec1fe95585dadf3bd9a014c8c578624918190428c3a7994bb52ae2b8 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/95/85/1a132ab9f13bbdaba34144ce47e106539ce5480b795f68b7bad2321b56e4/setuptools-60.4.0-py3-none-any.whl#sha256=73e919a82b147f8a2a7b66662707af96b6154d3b8167e886f96875f0d9f3e159 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/b0/4a/bdfc4b6309af6b0a69066bae6e10fd77848a423b173432babf5f11a079eb/setuptools-60.4.0.tar.gz#sha256=7f86e4341d6096f425fc88149e4e0efddd739d6c1993fc1fef5900198ce6249f (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/eb/53/0dd4c7960579da8be13fa9b2c2591643d37f323e3d79f8bc8b1b6c8e6217/setuptools-60.5.0-py3-none-any.whl#sha256=68eb94073fc486091447fcb0501efd6560a0e5a1839ba249e5ff3c4c93f05f90 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/69/77/aee1ecacea4d0db740046ce1785e81d16c4b1755af50eceac4ca1a1f8bfd/setuptools-60.5.0.tar.gz#sha256=2404879cda71495fc4d5cbc445ed52fdaddf352b36e40be8dcc63147cb4edabe (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/11/b9/adac241e2c4aca7ae4ddd86d3c18227667665b6e7eac550695bfc50c7e3d/setuptools-60.6.0-py3-none-any.whl#sha256=c99207037c38984eae838c2fd986f39a9ddf4fabfe0fddd957e622d1d1dcdd05 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/8f/89/9fec81ec84737c925a1ee992af2c6c7153aec4051c26afeadd6b822354d2/setuptools-60.6.0.tar.gz#sha256=eb83b1012ae6bf436901c2a2cee35d45b7260f31fd4b65fd1e50a9f99c11d7f8 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/fa/cb/25e80b7edc9e2d0d49b3c05ee8992220978591290d88d71c595cf1e7d3ad/setuptools-60.7.0-py3-none-any.whl#sha256=f6871e8aba174d1e22f576c7a471d8460e226b8424b0f2e929a13330b8b83118 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/29/dd/48d662bb93e5e51e72265ef612f869947d4ae4126328d7156824cd50d440/setuptools-60.7.0.tar.gz#sha256=b83cf328a4f6a987c95610e76b29a30778db05174eef71f771776c48f8f25d1b (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/3d/93/903f1a10b3c4651d363b559acc4017b05f082b8461928d0b842a8b5d182a/setuptools-60.7.1-py3-none-any.whl#sha256=c9097cbcdefe88a64da966a764f2d95feb1cfaff77cc304528a23cefe3359d9a (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/1b/78/c0316b86d692e3c7f0905bc5506292e2d8ee810d188544c48865a0335c2c/setuptools-60.7.1.tar.gz#sha256=a4dc3af29a67e7a45620aba43dde2c1af2dd6bc49726d78168f0cc6c4fb0c01b (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/c2/14/69df4fd998811fd41c74fab6584ad8576524c87c4da1028a759da655eb39/setuptools-60.8.0-py3-none-any.whl#sha256=4f783948909b28124388eef286572e9e69c228b6866d44ac7475bd82e94b6503 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/d3/a6/ae5e0a6ea3592af875c838c00decb00f1e6f2d0a3bf7604a8cb797eed767/setuptools-60.8.0.tar.gz#sha256=5d7a302d3c3ae24d3bbaaecf5c4544056b2dd44b3e6690014dc096d64f12d672 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/2d/5c/e09f0ce3961663aa323508440796d64f3ca6a874470be76bb2b59acbb26b/setuptools-60.8.1-py3-none-any.whl#sha256=07e97e2f1e5607d240454e98c75c7004560ac8417ca5ae1dbaa50811cb6cc95c (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/56/4a/8ba3babea25b807d6f65258437d8d3bed6a820e4a7166f322ebb60d2d127/setuptools-60.8.1.tar.gz#sha256=23aad87cc27f4ae704079618c1d117a71bd43d41e355f0698c35f6b1c796d26c (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/ad/65/7b98718c0ecebbdae5a5251fffc43dd3800ff3d1a6f7cc1aa09cfbcf17a5/setuptools-60.8.2-py3-none-any.whl#sha256=43a5575eea6d3459789316e1596a3d2a0d215260cacf4189508112f35c9a145b (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/ae/0b/e458b0d07dced3d7fa2d21d828e708f374ef82040f2012c05d35f47f9af3/setuptools-60.8.2.tar.gz#sha256=66b8598da112b8dc8cd941d54cf63ef91d3b50657b374457eda5851f3ff6a899 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/1e/23/d9d5e23c8001f3614aace339b699d4d05fda9f1ec8be9155048d6613ed33/setuptools-60.9.0-py3-none-any.whl#sha256=d181db00651bce5268b8f559795053d5e8f645e4dbafac6d262b22d7e72e19eb (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/3e/d3/e85cd0d84cf52054caed83b64dd8c922bbf0e33071689d7e3da3f96caabd/setuptools-60.9.0.tar.gz#sha256=716f9d20b4c3513d1720245eb1dac009b40c9694c88e940e54b67b8b65d09493 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/42/1f/154a2f2eeaa319a313636a052a3a6cf5ac35ee2aa49ad30f0216ad695678/setuptools-60.9.1-py3-none-any.whl#sha256=71b2b3a334d6fcd2e472fb18d0ff530dc585d62da1494e75d001058f33153257 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/e9/84/a1171328f0a8789a1963e301be7c27163ff67da389b94588ab37a55c49f9/setuptools-60.9.1.tar.gz#sha256=1bc2725f0b4d6eb054ee29a0e05fda9c7c0921a6bdc0cf6dd2204da746872b49 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/7d/c4/33822b323a5d2f6239ea668ad04261b6965c309953880a32ce373caf22c7/setuptools-60.9.2-py3-none-any.whl#sha256=93b1a3037230bf9aa07327b9fc58f527d5f4e22d36705b55d55ba3ece8606ca6 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/bf/b0/b4599baf535aff5a8675f038a9b4b380df7e5de33c78a155e0883da05403/setuptools-60.9.2.tar.gz#sha256=80743e57120665fa65665286369a0734bce0e7a629ad36507fb7a4b65e7d2e3b (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/3b/02/8d4d27b1cacaac2d129a27d17a22d92a2a5eedcb7817d4ed8ab0d4daf5c4/setuptools-60.9.3-py3-none-any.whl#sha256=e4f30b9f84e5ab3decf945113119649fec09c1fc3507c6ebffec75646c56e62b (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/14/74/54890935244ce053abcc4fa01ef4982a84743a8d128d4cf5eae56e2d156c/setuptools-60.9.3.tar.gz#sha256=2347b2b432c891a863acadca2da9ac101eae6169b1d3dfee2ec605ecd50dbfe5 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/7c/5b/3d92b9f0f7ca1645cba48c080b54fe7d8b1033a4e5720091d1631c4266db/setuptools-60.10.0-py3-none-any.whl#sha256=782ef48d58982ddb49920c11a0c5c9c0b02e7d7d1c2ad0aa44e1a1e133051c96 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/af/e8/894c71e914dfbe01276a42dfad40025cd96119f2eefc39c554b6e8b9df86/setuptools-60.10.0.tar.gz#sha256=6599055eeb23bfef457d5605d33a4d68804266e6cb430b0fb12417c5efeae36c (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/50/09/2e7557fff6a272e795930229f17a0a0bc62e11069f0f859ebf961c19ed62/setuptools-61.0.0-py3-none-any.whl#sha256=ad88b13f3dc60420259c9877486908ddad12c7befaff0d624c7190f742abd64f (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/cf/68/bc4babfa1f0853d9164ed8f9fc97e3cc8293fa6e77277fb1a72b4de75ba5/setuptools-61.0.0.tar.gz#sha256=6221e37dc86fcdc9dad9d9eb2002e9f9798fe4aca1bf18f280e66e50c0eb7fca (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/4b/44/4a59818106036bbbbe0fda2a78852077164394b5d842832e254a910d3ae4/setuptools-61.1.0-py3-none-any.whl#sha256=9bc2671450c57d9e4885e7dcdc552e3b107b80a5a8f8b1a1df7d06f52db194be (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/27/01/6d721dbe597bd8234d978270b99717d017cafb6b1115e0eaafd373eaaa68/setuptools-61.1.0.tar.gz#sha256=63b73d83c4d419d9dd992978cf369af5b6efa06236a4a1397b9bdf3ecadb0453 (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/0d/2f/3d6bdf48b8ef7b915a2f62568dc3cb856a9afea14adb447ab9585d8dd58c/setuptools-61.1.1-py3-none-any.whl#sha256=92b15f45ab164eb0c410d2bf661a6e9d15e3b78c0dffb0325f2bf0f313071cae (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/81/37/815cc2b7e708d522ccf8051fad1fb278a438fd0e94bcb0a3c2337ee573ce/setuptools-61.1.1.tar.gz#sha256=89eef7b71423ab7fccc7dfafdc145410ef170c4a89567427f932448135e08cdf (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/65/d1/1590f71a3ea7ed5f392ba4a7725205048b52e85102e48cbdc7cae3be8f4b/setuptools-61.2.0-py3-none-any.whl#sha256=8f4813dd6a4d6cc17bde85fb2e635fe19763f96efbb0ddf5575562e5ee0bc47a (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+Link requires a different Python (3.6.9 not in: '>=3.7'): https://files.pythonhosted.org/packages/a2/fc/f988372c4cdaaf6151ec4270be4e8ca45f0603256d979f81774fca73ad10/setuptools-61.2.0.tar.gz#sha256=c3d4e2ab578fbf83775755cd76dae73627915a22832cf4ea5de895978767833b (from https://pypi.org/simple/setuptools/) (requires-python:>=3.7)
+2022-03-29 16:55:13 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 6.38s
+2022-03-29 16:55:13 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show cryptography | grep \"Version: \""
+2022-03-29 16:55:16 [DEBUG]  				Version: 3.4.4
+2022-03-29 16:55:16 [DEBUG]  		STANDARD OUTPUT:
+Version: 3.4.4
+2022-03-29 16:55:16 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 2.30s
+2022-03-29 16:55:16 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show av | grep \"Version: \""
+2022-03-29 16:55:18 [DEBUG]  				Version: 8.1.0
+2022-03-29 16:55:18 [DEBUG]  		STANDARD OUTPUT:
+Version: 8.1.0
+2022-03-29 16:55:18 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 2.29s
+2022-03-29 16:55:18 [INFO ]  Installing webrtc dependencies. First installation might take a few minutes.
+2022-03-29 16:55:18 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip install --verbose --user aiortc SharedArray av dataclasses"
+2022-03-29 16:55:20 [DEBUG]  				Using pip 21.3.1 from /home/ubuntu/.local/lib/python3.6/site-packages/pip (python 3.6)
+2022-03-29 16:55:21 [DEBUG]  				Requirement already satisfied: aiortc in /home/ubuntu/.local/lib/python3.6/site-packages (1.0.0)
+2022-03-29 16:55:21 [DEBUG]  				Requirement already satisfied: SharedArray in /home/ubuntu/.local/lib/python3.6/site-packages (3.2.1)
+2022-03-29 16:55:21 [DEBUG]  				Requirement already satisfied: av in /home/ubuntu/.local/lib/python3.6/site-packages (8.1.0)
+2022-03-29 16:55:21 [DEBUG]  				Requirement already satisfied: dataclasses in /home/ubuntu/.local/lib/python3.6/site-packages (0.8)
+2022-03-29 16:55:21 [DEBUG]  				Requirement already satisfied: cryptography>=2.2 in /home/ubuntu/.local/lib/python3.6/site-packages (from aiortc) (3.4.4)
+2022-03-29 16:55:21 [DEBUG]  				Requirement already satisfied: pyee>=6.0.0 in /home/ubuntu/.local/lib/python3.6/site-packages (from aiortc) (8.1.0)
+2022-03-29 16:55:21 [DEBUG]  				Requirement already satisfied: pylibsrtp>=0.5.6 in /home/ubuntu/.local/lib/python3.6/site-packages (from aiortc) (0.6.7)
+2022-03-29 16:55:21 [DEBUG]  				Requirement already satisfied: aioice<0.7.0,>=0.6.17 in /home/ubuntu/.local/lib/python3.6/site-packages (from aiortc) (0.6.18)
+2022-03-29 16:55:21 [DEBUG]  				Requirement already satisfied: crc32c in /home/ubuntu/.local/lib/python3.6/site-packages (from aiortc) (2.0.1)
+2022-03-29 16:55:21 [DEBUG]  				Requirement already satisfied: cffi>=1.0.0 in /home/ubuntu/.local/lib/python3.6/site-packages (from aiortc) (1.14.5)
+2022-03-29 16:55:21 [DEBUG]  				Requirement already satisfied: numpy in /home/ubuntu/.local/lib/python3.6/site-packages (from SharedArray) (1.19.5)
+2022-03-29 16:55:21 [DEBUG]  				Requirement already satisfied: netifaces in /usr/lib/python3/dist-packages (from aioice<0.7.0,>=0.6.17->aiortc) (0.10.4)
+2022-03-29 16:55:21 [DEBUG]  				Requirement already satisfied: pycparser in /home/ubuntu/.local/lib/python3.6/site-packages (from cffi>=1.0.0->aiortc) (2.20)
+2022-03-29 16:55:22 [DEBUG]  		STANDARD ERROR:
+2022-03-29 16:55:22 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2022-03-29 16:55:22 [DEBUG]  			from cryptography.utils import int_from_bytes
+2022-03-29 16:55:22 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/util.py:19: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2022-03-29 16:55:22 [DEBUG]  			from cryptography.utils import int_from_bytes
+2022-03-29 16:55:22 [DEBUG]  		STANDARD OUTPUT:
+Using pip 21.3.1 from /home/ubuntu/.local/lib/python3.6/site-packages/pip (python 3.6)
+Requirement already satisfied: aiortc in /home/ubuntu/.local/lib/python3.6/site-packages (1.0.0)
+Requirement already satisfied: SharedArray in /home/ubuntu/.local/lib/python3.6/site-packages (3.2.1)
+Requirement already satisfied: av in /home/ubuntu/.local/lib/python3.6/site-packages (8.1.0)
+Requirement already satisfied: dataclasses in /home/ubuntu/.local/lib/python3.6/site-packages (0.8)
+Requirement already satisfied: cryptography>=2.2 in /home/ubuntu/.local/lib/python3.6/site-packages (from aiortc) (3.4.4)
+Requirement already satisfied: pyee>=6.0.0 in /home/ubuntu/.local/lib/python3.6/site-packages (from aiortc) (8.1.0)
+Requirement already satisfied: pylibsrtp>=0.5.6 in /home/ubuntu/.local/lib/python3.6/site-packages (from aiortc) (0.6.7)
+Requirement already satisfied: aioice<0.7.0,>=0.6.17 in /home/ubuntu/.local/lib/python3.6/site-packages (from aiortc) (0.6.18)
+Requirement already satisfied: crc32c in /home/ubuntu/.local/lib/python3.6/site-packages (from aiortc) (2.0.1)
+Requirement already satisfied: cffi>=1.0.0 in /home/ubuntu/.local/lib/python3.6/site-packages (from aiortc) (1.14.5)
+Requirement already satisfied: numpy in /home/ubuntu/.local/lib/python3.6/site-packages (from SharedArray) (1.19.5)
+Requirement already satisfied: netifaces in /usr/lib/python3/dist-packages (from aioice<0.7.0,>=0.6.17->aiortc) (0.10.4)
+Requirement already satisfied: pycparser in /home/ubuntu/.local/lib/python3.6/site-packages (from cffi>=1.0.0->aiortc) (2.20)
+2022-03-29 16:55:22 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 3.78s
+2022-03-29 16:55:22 [INFO ]      COMPLETE
+2022-03-29 16:55:22 [INFO ]  
+2022-03-29 16:55:22 [INFO ]  Step 6/6: INSTALLING MICRO SERVICE
+2022-03-29 16:55:22 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "sudo -n systemctl daemon-reload"
+2022-03-29 16:55:23 [DEBUG]  		STANDARD OUTPUT:
+
+2022-03-29 16:55:23 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.73s
+2022-03-29 16:55:23 [DEBUG]  Systemd / Systemctl are running so registering as systemd service
+2022-03-29 16:55:23 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show freedomrobotics | grep \"Location: \""
+2022-03-29 16:55:25 [DEBUG]  				Location: /home/ubuntu/.local/lib/python3.6/site-packages
+2022-03-29 16:55:25 [DEBUG]  		STANDARD OUTPUT:
+Location: /home/ubuntu/.local/lib/python3.6/site-packages
+2022-03-29 16:55:25 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 2.29s
+2022-03-29 16:55:25 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 /home/ubuntu/.local/lib/python3.6/site-packages/freedomrobotics/management/register_systemd_service.py"
+2022-03-29 16:55:40 [DEBUG]  		STANDARD ERROR:
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:	Checking if systemd is running
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:	Checking sudo privileges
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:################################################################################
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:# UNREGISTERING Freedom Robotics init.d service
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:#    Service not installed.
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:################################################################################
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:	Checking sudo privileges
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:################################################################################
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:# UNREGISTERING Freedom Robotics system.d service
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:#    INSTALLED: True
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:#    RUNNING:   False
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:################################################################################
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:    Removing system.d service
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:    Disabled system.d service
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:    Removed system.d service from systemctl
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:    Removed system.d service files
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:################################################################################
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:	Checking sudo privileges
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:	Finding out who am I
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:################################################################################
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:# REGISTERING Freedom Robotics systemd service
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:# PACKAGE LOCATION: /home/ubuntu/.local/lib/python3.6/site-packages/freedomrobotics
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:# USER: ubuntu
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:################################################################################
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:	Found credentials file
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:	Credentials have correct formatting
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:	Validated credentials for account and device
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:	Moving systemd service file to correct location
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:	Moving systemd environment file to correct location
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:	Wrote service files
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:	Set permissions on systemd service files
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:	Reloaded systemd
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:	Enabled service
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:	Not already running
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:	Started service
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:	Got new service pid
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:	Checked Service running
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:	Got again service pid
+2022-03-29 16:55:40 [DEBUG]  			DEBUG:__main__:################################################################################
+2022-03-29 16:55:40 [DEBUG]  		STANDARD OUTPUT:
+
+2022-03-29 16:55:40 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 15.69s
+2022-03-29 16:55:40 [DEBUG]  Service registration log: 
+2022-03-29 16:55:40 [INFO ]      COMPLETE
+2022-03-29 16:55:40 [INFO ]  
+2022-03-29 16:55:40 [INFO ]  ################################################################################
+2022-03-29 16:55:40 [INFO ]  
+2022-03-29 16:55:40 [INFO ]  INSTALL COMPLETE 
+2022-03-29 16:55:40 [INFO ]  
+2022-03-29 16:55:40 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pgrep fr_agent"
+2022-03-29 16:55:41 [DEBUG]  				3807
+2022-03-29 16:55:41 [DEBUG]  		STANDARD OUTPUT:
+3807
+2022-03-29 16:55:41 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.03s
+2022-03-29 16:55:41 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "service_path=\$(which service) && output=\$( \$service_path ssh status ) && echo \"\$output\""
+2022-03-29 16:55:41 [DEBUG]  				● ssh.service - OpenBSD Secure Shell server
+2022-03-29 16:55:41 [DEBUG]  				Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+2022-03-29 16:55:41 [DEBUG]  				Active: active (running) since Tue 2022-01-25 01:11:16 UTC; 2 months 2 days ago
+2022-03-29 16:55:41 [DEBUG]  				Main PID: 1413 (sshd)
+2022-03-29 16:55:41 [DEBUG]  				Tasks: 1 (limit: 4442)
+2022-03-29 16:55:41 [DEBUG]  				CGroup: /system.slice/ssh.service
+2022-03-29 16:55:41 [DEBUG]  				└─1413 /usr/sbin/sshd -D
+2022-03-29 16:55:41 [DEBUG]  				
+2022-03-29 16:55:41 [DEBUG]  				Mar 25 16:00:10 ubuntu sshd[16108]: Accepted password for ubuntu from 10.1.1.6 port 52324 ssh2
+2022-03-29 16:55:41 [DEBUG]  				Mar 25 16:00:10 ubuntu sshd[16108]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:55:41 [DEBUG]  				Mar 25 16:00:22 ubuntu sshd[16372]: Accepted password for ubuntu from 10.1.1.6 port 52326 ssh2
+2022-03-29 16:55:41 [DEBUG]  				Mar 25 16:00:22 ubuntu sshd[16372]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:55:41 [DEBUG]  				Mar 29 16:48:41 ubuntu sshd[31124]: Accepted password for ubuntu from 10.1.0.201 port 58066 ssh2
+2022-03-29 16:55:41 [DEBUG]  				Mar 29 16:48:41 ubuntu sshd[31124]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:55:41 [DEBUG]  				Mar 29 16:49:51 ubuntu sshd[31842]: Accepted password for ubuntu from 10.1.0.201 port 58079 ssh2
+2022-03-29 16:55:41 [DEBUG]  				Mar 29 16:49:51 ubuntu sshd[31842]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:55:41 [DEBUG]  				Mar 29 16:53:08 ubuntu sshd[1448]: Accepted password for ubuntu from 10.1.0.201 port 58084 ssh2
+2022-03-29 16:55:41 [DEBUG]  				Mar 29 16:53:08 ubuntu sshd[1448]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:55:41 [DEBUG]  		STANDARD OUTPUT:
+● ssh.service - OpenBSD Secure Shell server
+Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+Active: active (running) since Tue 2022-01-25 01:11:16 UTC; 2 months 2 days ago
+Main PID: 1413 (sshd)
+Tasks: 1 (limit: 4442)
+CGroup: /system.slice/ssh.service
+└─1413 /usr/sbin/sshd -D
+
+Mar 25 16:00:10 ubuntu sshd[16108]: Accepted password for ubuntu from 10.1.1.6 port 52324 ssh2
+Mar 25 16:00:10 ubuntu sshd[16108]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 25 16:00:22 ubuntu sshd[16372]: Accepted password for ubuntu from 10.1.1.6 port 52326 ssh2
+Mar 25 16:00:22 ubuntu sshd[16372]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 29 16:48:41 ubuntu sshd[31124]: Accepted password for ubuntu from 10.1.0.201 port 58066 ssh2
+Mar 29 16:48:41 ubuntu sshd[31124]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 29 16:49:51 ubuntu sshd[31842]: Accepted password for ubuntu from 10.1.0.201 port 58079 ssh2
+Mar 29 16:49:51 ubuntu sshd[31842]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 29 16:53:08 ubuntu sshd[1448]: Accepted password for ubuntu from 10.1.0.201 port 58084 ssh2
+Mar 29 16:53:08 ubuntu sshd[1448]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:55:41 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.09s
+2022-03-29 16:55:41 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "which python3"
+2022-03-29 16:55:41 [DEBUG]  				/usr/bin/python3
+2022-03-29 16:55:41 [DEBUG]  		STANDARD OUTPUT:
+/usr/bin/python3
+2022-03-29 16:55:41 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.01s
+2022-03-29 16:55:41 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2022-03-29 16:55:41 [DEBUG]  				3.6
+2022-03-29 16:55:41 [DEBUG]  		STANDARD OUTPUT:
+3.6
+2022-03-29 16:55:41 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.13s
+2022-03-29 16:55:41 [DEBUG]  Using the default python3 binary: /usr/bin/python3
+2022-03-29 16:55:41 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show freedomrobotics"
+2022-03-29 16:55:43 [DEBUG]  				Name: freedomrobotics
+2022-03-29 16:55:43 [DEBUG]  				Version: 0.1.165
+2022-03-29 16:55:43 [DEBUG]  				Summary: The Freedom Agent Python library
+2022-03-29 16:55:43 [DEBUG]  				Home-page: https://github.com/freedomrobotsoft/freedom_python
+2022-03-29 16:55:43 [DEBUG]  				Author: Freedom Robotics, Inc.
+2022-03-29 16:55:43 [DEBUG]  				Author-email: support@freedomrobotics.ai
+2022-03-29 16:55:43 [DEBUG]  				License: Proprietary
+2022-03-29 16:55:43 [DEBUG]  				Location: /home/ubuntu/.local/lib/python3.6/site-packages
+2022-03-29 16:55:43 [DEBUG]  				Requires: distro, numpy, packaging, protobuf-to-dict, psutil, python-rapidjson, requests, setproctitle, SharedArray, six, yappi
+2022-03-29 16:55:43 [DEBUG]  				Required-by:
+2022-03-29 16:55:43 [DEBUG]  		STANDARD OUTPUT:
+Name: freedomrobotics
+Version: 0.1.165
+Summary: The Freedom Agent Python library
+Home-page: https://github.com/freedomrobotsoft/freedom_python
+Author: Freedom Robotics, Inc.
+Author-email: support@freedomrobotics.ai
+License: Proprietary
+Location: /home/ubuntu/.local/lib/python3.6/site-packages
+Requires: distro, numpy, packaging, protobuf-to-dict, psutil, python-rapidjson, requests, setproctitle, SharedArray, six, yappi
+Required-by:
+2022-03-29 16:55:43 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 2.35s
+2022-03-29 16:55:43 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2022-03-29 16:55:43 [DEBUG]  				3.6
+2022-03-29 16:55:43 [DEBUG]  		STANDARD OUTPUT:
+3.6
+2022-03-29 16:55:43 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.11s
+2022-03-29 16:55:43 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show aiortc"
+2022-03-29 16:55:46 [DEBUG]  				Name: aiortc
+2022-03-29 16:55:46 [DEBUG]  				Version: 1.0.0
+2022-03-29 16:55:46 [DEBUG]  				Summary: An implementation of WebRTC and ORTC
+2022-03-29 16:55:46 [DEBUG]  				Home-page: https://github.com/aiortc/aiortc
+2022-03-29 16:55:46 [DEBUG]  				Author: Jeremy Lainé
+2022-03-29 16:55:46 [DEBUG]  				Author-email: jeremy.laine@m4x.org
+2022-03-29 16:55:46 [DEBUG]  				License: BSD
+2022-03-29 16:55:46 [DEBUG]  				Location: /home/ubuntu/.local/lib/python3.6/site-packages
+2022-03-29 16:55:46 [DEBUG]  				Requires: aioice, av, cffi, crc32c, cryptography, dataclasses, pyee, pylibsrtp
+2022-03-29 16:55:46 [DEBUG]  				Required-by:
+2022-03-29 16:55:46 [DEBUG]  		STANDARD OUTPUT:
+Name: aiortc
+Version: 1.0.0
+Summary: An implementation of WebRTC and ORTC
+Home-page: https://github.com/aiortc/aiortc
+Author: Jeremy Lainé
+Author-email: jeremy.laine@m4x.org
+License: BSD
+Location: /home/ubuntu/.local/lib/python3.6/site-packages
+Requires: aioice, av, cffi, crc32c, cryptography, dataclasses, pyee, pylibsrtp
+Required-by:
+2022-03-29 16:55:46 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 2.70s
+2022-03-29 16:55:46 [INFO ]  MICRO AGENT       : INSTALLED AND ACTIVE
+2022-03-29 16:55:46 [INFO ]  ROS SHADOW        : X
+2022-03-29 16:55:46 [INFO ]  REMOTE SSH        : INSTALLED
+2022-03-29 16:55:46 [INFO ]  PYTHON3.6 PACKAGE : INSTALLED
+2022-03-29 16:55:46 [INFO ]  RTC DEPENDENCIES  : INSTALLED
+2022-03-29 16:55:46 [INFO ]  
+2022-03-29 16:55:46 [INFO ]  ACCOUNT           : AA2E4916C77670BAA7DA84BD4
+2022-03-29 16:55:46 [INFO ]  DEVICE            : D664A28E6EBCEEF5A1480EC3F8B
+2022-03-29 16:55:46 [INFO ]  
+2022-03-29 16:55:46 [INFO ]  ################################################################################
+2022-03-29 16:55:46 [DEBUG]  Total install times:{
+    "has_sudo_rights": 9.14,
+    "apt_update": 8.22,
+    "local_folders_permissions_check": 0.52,
+    "python_ssl_check": 0.12,
+    "check_ros_version": 10.03,
+    "verify_prerequisites": 22.93,
+    "install_prerequisites": 0.62,
+    "install_credentials": 0.02,
+    "install_remote_ssh": 0.27,
+    "disable_old_freedomrobotics": 0.12,
+    "uninstall_current_agent": 17.45,
+    "platform_details": 0.3,
+    "get_wheel_package": 11.03,
+    "install_webrtc_av_dependency": 2.29,
+    "install_webrtc_dependencies": 3.78,
+    "install_freedom_main_python_package": 54.48,
+    "install_freedom_robotics_service": 18.72,
+    "agent_running_check": 0.04,
+    "time_total_install": 112
+}
+2022-03-29 16:55:46 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pgrep fr_agent"
+2022-03-29 16:55:46 [DEBUG]  				3807
+2022-03-29 16:55:46 [DEBUG]  		STANDARD OUTPUT:
+3807
+2022-03-29 16:55:46 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.03s
+2022-03-29 16:55:46 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "service_path=\$(which service) && output=\$( \$service_path ssh status ) && echo \"\$output\""
+2022-03-29 16:55:46 [DEBUG]  				● ssh.service - OpenBSD Secure Shell server
+2022-03-29 16:55:46 [DEBUG]  				Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+2022-03-29 16:55:46 [DEBUG]  				Active: active (running) since Tue 2022-01-25 01:11:16 UTC; 2 months 2 days ago
+2022-03-29 16:55:46 [DEBUG]  				Main PID: 1413 (sshd)
+2022-03-29 16:55:46 [DEBUG]  				Tasks: 1 (limit: 4442)
+2022-03-29 16:55:46 [DEBUG]  				CGroup: /system.slice/ssh.service
+2022-03-29 16:55:46 [DEBUG]  				└─1413 /usr/sbin/sshd -D
+2022-03-29 16:55:46 [DEBUG]  				
+2022-03-29 16:55:46 [DEBUG]  				Mar 25 16:00:10 ubuntu sshd[16108]: Accepted password for ubuntu from 10.1.1.6 port 52324 ssh2
+2022-03-29 16:55:46 [DEBUG]  				Mar 25 16:00:10 ubuntu sshd[16108]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:55:46 [DEBUG]  				Mar 25 16:00:22 ubuntu sshd[16372]: Accepted password for ubuntu from 10.1.1.6 port 52326 ssh2
+2022-03-29 16:55:46 [DEBUG]  				Mar 25 16:00:22 ubuntu sshd[16372]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:55:46 [DEBUG]  				Mar 29 16:48:41 ubuntu sshd[31124]: Accepted password for ubuntu from 10.1.0.201 port 58066 ssh2
+2022-03-29 16:55:46 [DEBUG]  				Mar 29 16:48:41 ubuntu sshd[31124]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:55:46 [DEBUG]  				Mar 29 16:49:51 ubuntu sshd[31842]: Accepted password for ubuntu from 10.1.0.201 port 58079 ssh2
+2022-03-29 16:55:46 [DEBUG]  				Mar 29 16:49:51 ubuntu sshd[31842]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:55:46 [DEBUG]  				Mar 29 16:53:08 ubuntu sshd[1448]: Accepted password for ubuntu from 10.1.0.201 port 58084 ssh2
+2022-03-29 16:55:46 [DEBUG]  				Mar 29 16:53:08 ubuntu sshd[1448]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:55:46 [DEBUG]  		STANDARD OUTPUT:
+● ssh.service - OpenBSD Secure Shell server
+Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+Active: active (running) since Tue 2022-01-25 01:11:16 UTC; 2 months 2 days ago
+Main PID: 1413 (sshd)
+Tasks: 1 (limit: 4442)
+CGroup: /system.slice/ssh.service
+└─1413 /usr/sbin/sshd -D
+
+Mar 25 16:00:10 ubuntu sshd[16108]: Accepted password for ubuntu from 10.1.1.6 port 52324 ssh2
+Mar 25 16:00:10 ubuntu sshd[16108]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 25 16:00:22 ubuntu sshd[16372]: Accepted password for ubuntu from 10.1.1.6 port 52326 ssh2
+Mar 25 16:00:22 ubuntu sshd[16372]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 29 16:48:41 ubuntu sshd[31124]: Accepted password for ubuntu from 10.1.0.201 port 58066 ssh2
+Mar 29 16:48:41 ubuntu sshd[31124]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 29 16:49:51 ubuntu sshd[31842]: Accepted password for ubuntu from 10.1.0.201 port 58079 ssh2
+Mar 29 16:49:51 ubuntu sshd[31842]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 29 16:53:08 ubuntu sshd[1448]: Accepted password for ubuntu from 10.1.0.201 port 58084 ssh2
+Mar 29 16:53:08 ubuntu sshd[1448]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+2022-03-29 16:55:46 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.08s
+2022-03-29 16:55:46 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show freedomrobotics"
+2022-03-29 16:55:49 [DEBUG]  				Name: freedomrobotics
+2022-03-29 16:55:49 [DEBUG]  				Version: 0.1.165
+2022-03-29 16:55:49 [DEBUG]  				Summary: The Freedom Agent Python library
+2022-03-29 16:55:49 [DEBUG]  				Home-page: https://github.com/freedomrobotsoft/freedom_python
+2022-03-29 16:55:49 [DEBUG]  				Author: Freedom Robotics, Inc.
+2022-03-29 16:55:49 [DEBUG]  				Author-email: support@freedomrobotics.ai
+2022-03-29 16:55:49 [DEBUG]  				License: Proprietary
+2022-03-29 16:55:49 [DEBUG]  				Location: /home/ubuntu/.local/lib/python3.6/site-packages
+2022-03-29 16:55:49 [DEBUG]  				Requires: distro, numpy, packaging, protobuf-to-dict, psutil, python-rapidjson, requests, setproctitle, SharedArray, six, yappi
+2022-03-29 16:55:49 [DEBUG]  				Required-by:
+2022-03-29 16:55:49 [DEBUG]  		STANDARD OUTPUT:
+Name: freedomrobotics
+Version: 0.1.165
+Summary: The Freedom Agent Python library
+Home-page: https://github.com/freedomrobotsoft/freedom_python
+Author: Freedom Robotics, Inc.
+Author-email: support@freedomrobotics.ai
+License: Proprietary
+Location: /home/ubuntu/.local/lib/python3.6/site-packages
+Requires: distro, numpy, packaging, protobuf-to-dict, psutil, python-rapidjson, requests, setproctitle, SharedArray, six, yappi
+Required-by:
+2022-03-29 16:55:49 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 2.72s
+2022-03-29 16:55:49 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2022-03-29 16:55:49 [DEBUG]  				3.6
+2022-03-29 16:55:49 [DEBUG]  		STANDARD OUTPUT:
+3.6
+2022-03-29 16:55:49 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.14s
+2022-03-29 16:55:49 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show aiortc"
+2022-03-29 16:55:52 [DEBUG]  				Name: aiortc
+2022-03-29 16:55:52 [DEBUG]  				Version: 1.0.0
+2022-03-29 16:55:52 [DEBUG]  				Summary: An implementation of WebRTC and ORTC
+2022-03-29 16:55:52 [DEBUG]  				Home-page: https://github.com/aiortc/aiortc
+2022-03-29 16:55:52 [DEBUG]  				Author: Jeremy Lainé
+2022-03-29 16:55:52 [DEBUG]  				Author-email: jeremy.laine@m4x.org
+2022-03-29 16:55:52 [DEBUG]  				License: BSD
+2022-03-29 16:55:52 [DEBUG]  				Location: /home/ubuntu/.local/lib/python3.6/site-packages
+2022-03-29 16:55:52 [DEBUG]  				Requires: aioice, av, cffi, crc32c, cryptography, dataclasses, pyee, pylibsrtp
+2022-03-29 16:55:52 [DEBUG]  				Required-by:
+2022-03-29 16:55:52 [DEBUG]  		STANDARD OUTPUT:
+Name: aiortc
+Version: 1.0.0
+Summary: An implementation of WebRTC and ORTC
+Home-page: https://github.com/aiortc/aiortc
+Author: Jeremy Lainé
+Author-email: jeremy.laine@m4x.org
+License: BSD
+Location: /home/ubuntu/.local/lib/python3.6/site-packages
+Requires: aioice, av, cffi, crc32c, cryptography, dataclasses, pyee, pylibsrtp
+Required-by:
+2022-03-29 16:55:52 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 2.88s
+2022-03-29 16:55:52 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c \"
+import warnings
+warnings.filterwarnings('ignore')
+import json
+import platform
+import sys
+
+try:
+    import distro
+except ImportError:
+    # we don't have distro module
+    distro = lambda: None
+    distro.linux_distribution = lambda: 'Failed to get: Distro is not available.'
+
+try:
+    from pip import __version__ as pip_version
+except ImportError:
+    # we don't have pip module
+    pip_version = '0.0.0 (Pip is not available.)'
+
+try:
+    from packaging import __version__ as packaging_version
+except ImportError:
+    # we don't have pip module
+    packaging_version = '0.0.0 (Packaging is not available.)'
+
+try:
+    from packaging import tags
+    pip_supported_tags = list(tags.cpython_tags())
+except ImportError:
+    try:
+        if pip_version < '20.1' and pip_version >= '10.0':
+            from pip._internal import pep425tags
+            pip_supported_tags = pep425tags.get_supported()
+        elif pip_version >= '1.4':
+            from pip import pep425tags
+            pip_supported_tags = pep425tags.get_supported()
+        else:
+            pip_supported_tags = []
+    except ImportError:
+        pip_supported_tags = []
+
+if pip_supported_tags and hasattr(pip_supported_tags[0], 'platform'):
+    pip_supported_tags = [(tag.interpreter, tag.abi, tag.platform) for tag in pip_supported_tags]
+
+print(json.dumps({
+    'platform_system': platform.system(),
+    'platform_release': platform.release(),
+    'platform_machine': platform.machine(),
+    'platform_processor': platform.processor(),
+    'platform_linux_distribution': 
+        platform.linux_distribution() if hasattr(platform, 'linux_distribution') else distro.linux_distribution(),
+    'platform_mac_ver': platform.mac_ver(),
+    'platform_uname': platform.uname(),
+    'platform_python_implementation': platform.python_implementation(),
+    'platform_python_version': platform.python_version(),
+    'platform_python_compiler': platform.python_compiler(),
+    'platform_python_build': platform.python_build(),
+    'pip_supported_tags': pip_supported_tags,
+    'pip_version': pip_version,
+    'packaging_version': packaging_version,
+}))
+\""
+2022-03-29 16:55:52 [DEBUG]  				{"platform_system": "Linux", "platform_release": "5.4.0-1050-raspi", "platform_machine": "aarch64", "platform_processor": "aarch64", "platform_linux_distribution": ["Ubuntu", "18.04", "bionic"], "platform_mac_ver": ["", ["", "", ""], ""], "platform_uname": ["Linux", "ubuntu", "5.4.0-1050-raspi", "#56~18.04.1-Ubuntu SMP PREEMPT Thu Jan 13 14:51:09 UTC 2022", "aarch64", "aarch64"], "platform_python_implementation": "CPython", "platform_python_version": "3.6.9", "platform_python_compiler": "GCC 8.4.0", "platform_python_build": ["default", "Dec  8 2021 21:08:43"], "pip_supported_tags": [["cp36", "cp36m", "manylinux_2_27_aarch64"], ["cp36", "cp36m", "manylinux_2_26_aarch64"], ["cp36", "cp36m", "manylinux_2_25_aarch64"], ["cp36", "cp36m", "manylinux_2_24_aarch64"], ["cp36", "cp36m", "manylinux_2_23_aarch64"], ["cp36", "cp36m", "manylinux_2_22_aarch64"], ["cp36", "cp36m", "manylinux_2_21_aarch64"], ["cp36", "cp36m", "manylinux_2_20_aarch64"], ["cp36", "cp36m", "manylinux_2_19_aarch64"], ["cp36", "cp36m", "manylinux_2_18_aarch64"], ["cp36", "cp36m", "manylinux_2_17_aarch64"], ["cp36", "cp36m", "manylinux2014_aarch64"], ["cp36", "cp36m", "linux_aarch64"], ["cp36", "abi3", "manylinux_2_27_aarch64"], ["cp36", "abi3", "manylinux_2_26_aarch64"], ["cp36", "abi3", "manylinux_2_25_aarch64"], ["cp36", "abi3", "manylinux_2_24_aarch64"], ["cp36", "abi3", "manylinux_2_23_aarch64"], ["cp36", "abi3", "manylinux_2_22_aarch64"], ["cp36", "abi3", "manylinux_2_21_aarch64"], ["cp36", "abi3", "manylinux_2_20_aarch64"], ["cp36", "abi3", "manylinux_2_19_aarch64"], ["cp36", "abi3", "manylinux_2_18_aarch64"], ["cp36", "abi3", "manylinux_2_17_aarch64"], ["cp36", "abi3", "manylinux2014_aarch64"], ["cp36", "abi3", "linux_aarch64"], ["cp36", "none", "manylinux_2_27_aarch64"], ["cp36", "none", "manylinux_2_26_aarch64"], ["cp36", "none", "manylinux_2_25_aarch64"], ["cp36", "none", "manylinux_2_24_aarch64"], ["cp36", "none", "manylinux_2_23_aarch64"], ["cp36", "none", "manylinux_2_22_aarch64"], ["cp36", "none", "manylinux_2_21_aarch64"], ["cp36", "none", "manylinux_2_20_aarch64"], ["cp36", "none", "manylinux_2_19_aarch64"], ["cp36", "none", "manylinux_2_18_aarch64"], ["cp36", "none", "manylinux_2_17_aarch64"], ["cp36", "none", "manylinux2014_aarch64"], ["cp36", "none", "linux_aarch64"], ["cp35", "abi3", "manylinux_2_27_aarch64"], ["cp35", "abi3", "manylinux_2_26_aarch64"], ["cp35", "abi3", "manylinux_2_25_aarch64"], ["cp35", "abi3", "manylinux_2_24_aarch64"], ["cp35", "abi3", "manylinux_2_23_aarch64"], ["cp35", "abi3", "manylinux_2_22_aarch64"], ["cp35", "abi3", "manylinux_2_21_aarch64"], ["cp35", "abi3", "manylinux_2_20_aarch64"], ["cp35", "abi3", "manylinux_2_19_aarch64"], ["cp35", "abi3", "manylinux_2_18_aarch64"], ["cp35", "abi3", "manylinux_2_17_aarch64"], ["cp35", "abi3", "manylinux2014_aarch64"], ["cp35", "abi3", "linux_aarch64"], ["cp34", "abi3", "manylinux_2_27_aarch64"], ["cp34", "abi3", "manylinux_2_26_aarch64"], ["cp34", "abi3", "manylinux_2_25_aarch64"], ["cp34", "abi3", "manylinux_2_24_aarch64"], ["cp34", "abi3", "manylinux_2_23_aarch64"], ["cp34", "abi3", "manylinux_2_22_aarch64"], ["cp34", "abi3", "manylinux_2_21_aarch64"], ["cp34", "abi3", "manylinux_2_20_aarch64"], ["cp34", "abi3", "manylinux_2_19_aarch64"], ["cp34", "abi3", "manylinux_2_18_aarch64"], ["cp34", "abi3", "manylinux_2_17_aarch64"], ["cp34", "abi3", "manylinux2014_aarch64"], ["cp34", "abi3", "linux_aarch64"], ["cp33", "abi3", "manylinux_2_27_aarch64"], ["cp33", "abi3", "manylinux_2_26_aarch64"], ["cp33", "abi3", "manylinux_2_25_aarch64"], ["cp33", "abi3", "manylinux_2_24_aarch64"], ["cp33", "abi3", "manylinux_2_23_aarch64"], ["cp33", "abi3", "manylinux_2_22_aarch64"], ["cp33", "abi3", "manylinux_2_21_aarch64"], ["cp33", "abi3", "manylinux_2_20_aarch64"], ["cp33", "abi3", "manylinux_2_19_aarch64"], ["cp33", "abi3", "manylinux_2_18_aarch64"], ["cp33", "abi3", "manylinux_2_17_aarch64"], ["cp33", "abi3", "manylinux2014_aarch64"], ["cp33", "abi3", "linux_aarch64"], ["cp32", "abi3", "manylinux_2_27_aarch64"], ["cp32", "abi3", "manylinux_2_26_aarch64"], ["cp32", "abi3", "manylinux_2_25_aarch64"], ["cp32", "abi3", "manylinux_2_24_aarch64"], ["cp32", "abi3", "manylinux_2_23_aarch64"], ["cp32", "abi3", "manylinux_2_22_aarch64"], ["cp32", "abi3", "manylinux_2_21_aarch64"], ["cp32", "abi3", "manylinux_2_20_aarch64"], ["cp32", "abi3", "manylinux_2_19_aarch64"], ["cp32", "abi3", "manylinux_2_18_aarch64"], ["cp32", "abi3", "manylinux_2_17_aarch64"], ["cp32", "abi3", "manylinux2014_aarch64"], ["cp32", "abi3", "linux_aarch64"]], "pip_version": "21.3.1", "packaging_version": "20.9"}
+2022-03-29 16:55:52 [DEBUG]  		STANDARD OUTPUT:
+{"platform_system": "Linux", "platform_release": "5.4.0-1050-raspi", "platform_machine": "aarch64", "platform_processor": "aarch64", "platform_linux_distribution": ["Ubuntu", "18.04", "bionic"], "platform_mac_ver": ["", ["", "", ""], ""], "platform_uname": ["Linux", "ubuntu", "5.4.0-1050-raspi", "#56~18.04.1-Ubuntu SMP PREEMPT Thu Jan 13 14:51:09 UTC 2022", "aarch64", "aarch64"], "platform_python_implementation": "CPython", "platform_python_version": "3.6.9", "platform_python_compiler": "GCC 8.4.0", "platform_python_build": ["default", "Dec  8 2021 21:08:43"], "pip_supported_tags": [["cp36", "cp36m", "manylinux_2_27_aarch64"], ["cp36", "cp36m", "manylinux_2_26_aarch64"], ["cp36", "cp36m", "manylinux_2_25_aarch64"], ["cp36", "cp36m", "manylinux_2_24_aarch64"], ["cp36", "cp36m", "manylinux_2_23_aarch64"], ["cp36", "cp36m", "manylinux_2_22_aarch64"], ["cp36", "cp36m", "manylinux_2_21_aarch64"], ["cp36", "cp36m", "manylinux_2_20_aarch64"], ["cp36", "cp36m", "manylinux_2_19_aarch64"], ["cp36", "cp36m", "manylinux_2_18_aarch64"], ["cp36", "cp36m", "manylinux_2_17_aarch64"], ["cp36", "cp36m", "manylinux2014_aarch64"], ["cp36", "cp36m", "linux_aarch64"], ["cp36", "abi3", "manylinux_2_27_aarch64"], ["cp36", "abi3", "manylinux_2_26_aarch64"], ["cp36", "abi3", "manylinux_2_25_aarch64"], ["cp36", "abi3", "manylinux_2_24_aarch64"], ["cp36", "abi3", "manylinux_2_23_aarch64"], ["cp36", "abi3", "manylinux_2_22_aarch64"], ["cp36", "abi3", "manylinux_2_21_aarch64"], ["cp36", "abi3", "manylinux_2_20_aarch64"], ["cp36", "abi3", "manylinux_2_19_aarch64"], ["cp36", "abi3", "manylinux_2_18_aarch64"], ["cp36", "abi3", "manylinux_2_17_aarch64"], ["cp36", "abi3", "manylinux2014_aarch64"], ["cp36", "abi3", "linux_aarch64"], ["cp36", "none", "manylinux_2_27_aarch64"], ["cp36", "none", "manylinux_2_26_aarch64"], ["cp36", "none", "manylinux_2_25_aarch64"], ["cp36", "none", "manylinux_2_24_aarch64"], ["cp36", "none", "manylinux_2_23_aarch64"], ["cp36", "none", "manylinux_2_22_aarch64"], ["cp36", "none", "manylinux_2_21_aarch64"], ["cp36", "none", "manylinux_2_20_aarch64"], ["cp36", "none", "manylinux_2_19_aarch64"], ["cp36", "none", "manylinux_2_18_aarch64"], ["cp36", "none", "manylinux_2_17_aarch64"], ["cp36", "none", "manylinux2014_aarch64"], ["cp36", "none", "linux_aarch64"], ["cp35", "abi3", "manylinux_2_27_aarch64"], ["cp35", "abi3", "manylinux_2_26_aarch64"], ["cp35", "abi3", "manylinux_2_25_aarch64"], ["cp35", "abi3", "manylinux_2_24_aarch64"], ["cp35", "abi3", "manylinux_2_23_aarch64"], ["cp35", "abi3", "manylinux_2_22_aarch64"], ["cp35", "abi3", "manylinux_2_21_aarch64"], ["cp35", "abi3", "manylinux_2_20_aarch64"], ["cp35", "abi3", "manylinux_2_19_aarch64"], ["cp35", "abi3", "manylinux_2_18_aarch64"], ["cp35", "abi3", "manylinux_2_17_aarch64"], ["cp35", "abi3", "manylinux2014_aarch64"], ["cp35", "abi3", "linux_aarch64"], ["cp34", "abi3", "manylinux_2_27_aarch64"], ["cp34", "abi3", "manylinux_2_26_aarch64"], ["cp34", "abi3", "manylinux_2_25_aarch64"], ["cp34", "abi3", "manylinux_2_24_aarch64"], ["cp34", "abi3", "manylinux_2_23_aarch64"], ["cp34", "abi3", "manylinux_2_22_aarch64"], ["cp34", "abi3", "manylinux_2_21_aarch64"], ["cp34", "abi3", "manylinux_2_20_aarch64"], ["cp34", "abi3", "manylinux_2_19_aarch64"], ["cp34", "abi3", "manylinux_2_18_aarch64"], ["cp34", "abi3", "manylinux_2_17_aarch64"], ["cp34", "abi3", "manylinux2014_aarch64"], ["cp34", "abi3", "linux_aarch64"], ["cp33", "abi3", "manylinux_2_27_aarch64"], ["cp33", "abi3", "manylinux_2_26_aarch64"], ["cp33", "abi3", "manylinux_2_25_aarch64"], ["cp33", "abi3", "manylinux_2_24_aarch64"], ["cp33", "abi3", "manylinux_2_23_aarch64"], ["cp33", "abi3", "manylinux_2_22_aarch64"], ["cp33", "abi3", "manylinux_2_21_aarch64"], ["cp33", "abi3", "manylinux_2_20_aarch64"], ["cp33", "abi3", "manylinux_2_19_aarch64"], ["cp33", "abi3", "manylinux_2_18_aarch64"], ["cp33", "abi3", "manylinux_2_17_aarch64"], ["cp33", "abi3", "manylinux2014_aarch64"], ["cp33", "abi3", "linux_aarch64"], ["cp32", "abi3", "manylinux_2_27_aarch64"], ["cp32", "abi3", "manylinux_2_26_aarch64"], ["cp32", "abi3", "manylinux_2_25_aarch64"], ["cp32", "abi3", "manylinux_2_24_aarch64"], ["cp32", "abi3", "manylinux_2_23_aarch64"], ["cp32", "abi3", "manylinux_2_22_aarch64"], ["cp32", "abi3", "manylinux_2_21_aarch64"], ["cp32", "abi3", "manylinux_2_20_aarch64"], ["cp32", "abi3", "manylinux_2_19_aarch64"], ["cp32", "abi3", "manylinux_2_18_aarch64"], ["cp32", "abi3", "manylinux_2_17_aarch64"], ["cp32", "abi3", "manylinux2014_aarch64"], ["cp32", "abi3", "linux_aarch64"]], "pip_version": "21.3.1", "packaging_version": "20.9"}
+2022-03-29 16:55:52 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.39s
+2022-03-29 16:55:52 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip freeze"
+2022-03-29 16:55:56 [DEBUG]  				actionlib==1.12.1
+2022-03-29 16:55:56 [DEBUG]  				aioice==0.6.18
+2022-03-29 16:55:56 [DEBUG]  				aiortc==1.0.0
+2022-03-29 16:55:56 [DEBUG]  				asn1crypto==0.24.0
+2022-03-29 16:55:56 [DEBUG]  				attrs==17.4.0
+2022-03-29 16:55:56 [DEBUG]  				Automat==0.6.0
+2022-03-29 16:55:56 [DEBUG]  				av @ file:///tmp/freedomrobotics5fjqmvtp/av-8.1.0-cp36-cp36m-manylinux_2_17_aarch64.whl
+2022-03-29 16:55:56 [DEBUG]  				blinker==1.4
+2022-03-29 16:55:56 [DEBUG]  				bondpy==1.8.5
+2022-03-29 16:55:56 [DEBUG]  				camera_calibration_parsers==1.11.13
+2022-03-29 16:55:56 [DEBUG]  				catkin==0.7.29
+2022-03-29 16:55:56 [DEBUG]  				catkin-pkg==0.4.23
+2022-03-29 16:55:56 [DEBUG]  				certifi==2018.1.18
+2022-03-29 16:55:56 [DEBUG]  				cffi==1.14.5
+2022-03-29 16:55:56 [DEBUG]  				chardet==3.0.4
+2022-03-29 16:55:56 [DEBUG]  				click==6.7
+2022-03-29 16:55:56 [DEBUG]  				cloud-init==20.2
+2022-03-29 16:55:56 [DEBUG]  				colorama==0.3.7
+2022-03-29 16:55:56 [DEBUG]  				command-not-found==0.3
+2022-03-29 16:55:56 [DEBUG]  				configobj==5.0.6
+2022-03-29 16:55:56 [DEBUG]  				constantly==15.1.0
+2022-03-29 16:55:56 [DEBUG]  				crc32c==2.0.1
+2022-03-29 16:55:56 [DEBUG]  				cryptography==3.4.4
+2022-03-29 16:55:56 [DEBUG]  				cv_bridge==1.13.0
+2022-03-29 16:55:56 [DEBUG]  				dataclasses==0.8
+2022-03-29 16:55:56 [DEBUG]  				diagnostic_updater==1.9.7
+2022-03-29 16:55:56 [DEBUG]  				distro==1.5.0
+2022-03-29 16:55:56 [DEBUG]  				distro-info===0.18ubuntu0.18.04.1
+2022-03-29 16:55:56 [DEBUG]  				docutils==0.17.1
+2022-03-29 16:55:56 [DEBUG]  				dynamic_reconfigure==1.6.3
+2022-03-29 16:55:56 [DEBUG]  				empy==3.3.2
+2022-03-29 16:55:56 [DEBUG]  				evdev==1.4.0
+2022-03-29 16:55:56 [DEBUG]  				Flask==1.1.2
+2022-03-29 16:55:56 [DEBUG]  				freedomrobotics @ file:///tmp/freedomrobotics5izxzddc/freedomrobotics-0.1.165-cp36-cp36m-linux_aarch64.whl
+2022-03-29 16:55:56 [DEBUG]  				gencpp==0.6.5
+2022-03-29 16:55:56 [DEBUG]  				geneus==2.2.6
+2022-03-29 16:55:56 [DEBUG]  				genlisp==0.4.16
+2022-03-29 16:55:56 [DEBUG]  				genmsg==0.5.16
+2022-03-29 16:55:56 [DEBUG]  				gennodejs==2.0.1
+2022-03-29 16:55:56 [DEBUG]  				genpy==0.6.16
+2022-03-29 16:55:56 [DEBUG]  				httplib2==0.9.2
+2022-03-29 16:55:56 [DEBUG]  				hyperlink==17.3.1
+2022-03-29 16:55:56 [DEBUG]  				idna==2.6
+2022-03-29 16:55:56 [DEBUG]  				incremental==16.10.1
+2022-03-29 16:55:56 [DEBUG]  				itsdangerous==1.1.0
+2022-03-29 16:55:56 [DEBUG]  				Jinja2==2.11.3
+2022-03-29 16:55:56 [DEBUG]  				jsonpatch==1.16
+2022-03-29 16:55:56 [DEBUG]  				jsonpointer==1.10
+2022-03-29 16:55:56 [DEBUG]  				jsonschema==2.6.0
+2022-03-29 16:55:56 [DEBUG]  				keyboard==0.13.5
+2022-03-29 16:55:56 [DEBUG]  				keyring==10.6.0
+2022-03-29 16:55:56 [DEBUG]  				keyrings.alt==3.0
+2022-03-29 16:55:56 [DEBUG]  				language-selector==0.1
+2022-03-29 16:55:56 [DEBUG]  				MarkupSafe==1.0
+2022-03-29 16:55:56 [DEBUG]  				message_filters==1.14.11
+2022-03-29 16:55:56 [DEBUG]  				netifaces==0.10.4
+2022-03-29 16:55:56 [DEBUG]  				numpy==1.19.5
+2022-03-29 16:55:56 [DEBUG]  				oauthlib==2.0.6
+2022-03-29 16:55:56 [DEBUG]  				opencv-python==4.5.5.62
+2022-03-29 16:55:56 [DEBUG]  				packaging==20.9
+2022-03-29 16:55:56 [DEBUG]  				PAM==0.4.2
+2022-03-29 16:55:56 [DEBUG]  				protobuf==3.14.0
+2022-03-29 16:55:56 [DEBUG]  				protobuf-to-dict==0.1.0
+2022-03-29 16:55:56 [DEBUG]  				psutil==5.8.0
+2022-03-29 16:55:56 [DEBUG]  				pyasn1==0.4.2
+2022-03-29 16:55:56 [DEBUG]  				pyasn1-modules==0.2.1
+2022-03-29 16:55:56 [DEBUG]  				pycparser==2.20
+2022-03-29 16:55:56 [DEBUG]  				pycrypto==2.6.1
+2022-03-29 16:55:56 [DEBUG]  				pyee==8.1.0
+2022-03-29 16:55:56 [DEBUG]  				pygame==1.9.6
+2022-03-29 16:55:56 [DEBUG]  				PyGObject==3.26.1
+2022-03-29 16:55:56 [DEBUG]  				PyJWT==1.5.3
+2022-03-29 16:55:56 [DEBUG]  				pylibsrtp==0.6.7
+2022-03-29 16:55:56 [DEBUG]  				pynput==1.7.3
+2022-03-29 16:55:56 [DEBUG]  				PyOpenGL==3.1.0
+2022-03-29 16:55:56 [DEBUG]  				pyOpenSSL==17.5.0
+2022-03-29 16:55:56 [DEBUG]  				pyparsing==2.4.7
+2022-03-29 16:55:56 [DEBUG]  				pyserial==3.4
+2022-03-29 16:55:56 [DEBUG]  				python-apt==1.6.5+ubuntu0.5
+2022-03-29 16:55:56 [DEBUG]  				python-dateutil==2.8.1
+2022-03-29 16:55:56 [DEBUG]  				python-debian==0.1.32
+2022-03-29 16:55:56 [DEBUG]  				python-rapidjson==1.0
+2022-03-29 16:55:56 [DEBUG]  				python-xlib==0.30
+2022-03-29 16:55:56 [DEBUG]  				pyxdg==0.25
+2022-03-29 16:55:56 [DEBUG]  				PyYAML==3.12
+2022-03-29 16:55:56 [DEBUG]  				requests==2.18.4
+2022-03-29 16:55:56 [DEBUG]  				requests-unixsocket==0.1.5
+2022-03-29 16:55:56 [DEBUG]  				rosbag==1.14.11
+2022-03-29 16:55:56 [DEBUG]  				rosboost-cfg==1.14.9
+2022-03-29 16:55:56 [DEBUG]  				rosclean==1.14.9
+2022-03-29 16:55:56 [DEBUG]  				roscreate==1.14.9
+2022-03-29 16:55:56 [DEBUG]  				rosdep==0.20.1
+2022-03-29 16:55:56 [DEBUG]  				rosdistro==0.8.3
+2022-03-29 16:55:56 [DEBUG]  				rosgraph==1.14.11
+2022-03-29 16:55:56 [DEBUG]  				roslaunch==1.14.11
+2022-03-29 16:55:56 [DEBUG]  				roslib==1.14.9
+2022-03-29 16:55:56 [DEBUG]  				roslz4==1.14.11
+2022-03-29 16:55:56 [DEBUG]  				rosmake==1.14.9
+2022-03-29 16:55:56 [DEBUG]  				rosmaster==1.14.11
+2022-03-29 16:55:56 [DEBUG]  				rosmsg==1.14.11
+2022-03-29 16:55:56 [DEBUG]  				rosnode==1.14.11
+2022-03-29 16:55:56 [DEBUG]  				rosparam==1.14.11
+2022-03-29 16:55:56 [DEBUG]  				rospkg==1.3.0
+2022-03-29 16:55:56 [DEBUG]  				rospy==1.14.11
+2022-03-29 16:55:56 [DEBUG]  				rosservice==1.14.11
+2022-03-29 16:55:56 [DEBUG]  				rostest==1.14.11
+2022-03-29 16:55:56 [DEBUG]  				rostopic==1.14.11
+2022-03-29 16:55:56 [DEBUG]  				rosunit==1.14.9
+2022-03-29 16:55:56 [DEBUG]  				roswtf==1.14.11
+2022-03-29 16:55:56 [DEBUG]  				RPi.GPIO==0.7.0
+2022-03-29 16:55:56 [DEBUG]  				rpimotorlib==2.7
+2022-03-29 16:55:56 [DEBUG]  				SecretStorage==2.3.1
+2022-03-29 16:55:56 [DEBUG]  				sensor-msgs==1.12.8
+2022-03-29 16:55:56 [DEBUG]  				service-identity==16.0.0
+2022-03-29 16:55:56 [DEBUG]  				setproctitle==1.2.2
+2022-03-29 16:55:56 [DEBUG]  				SharedArray==3.2.1
+2022-03-29 16:55:56 [DEBUG]  				six==1.11.0
+2022-03-29 16:55:56 [DEBUG]  				smclib==1.8.5
+2022-03-29 16:55:56 [DEBUG]  				ssh-import-id==5.7
+2022-03-29 16:55:56 [DEBUG]  				systemd-python==234
+2022-03-29 16:55:56 [DEBUG]  				tf2_py==0.6.5
+2022-03-29 16:55:56 [DEBUG]  				tf2_ros==0.6.5
+2022-03-29 16:55:56 [DEBUG]  				topic_tools==1.14.11
+2022-03-29 16:55:56 [DEBUG]  				Twisted==17.9.0
+2022-03-29 16:55:56 [DEBUG]  				ufw==0.36
+2022-03-29 16:55:56 [DEBUG]  				unattended-upgrades==0.1
+2022-03-29 16:55:56 [DEBUG]  				urllib3==1.22
+2022-03-29 16:55:56 [DEBUG]  				virtualenv==15.1.0
+2022-03-29 16:55:56 [DEBUG]  				Werkzeug==1.0.1
+2022-03-29 16:55:56 [DEBUG]  				xbox==0.1.3
+2022-03-29 16:55:56 [DEBUG]  				xbox360controller==1.1.2
+2022-03-29 16:55:56 [DEBUG]  				yappi==1.3.2
+2022-03-29 16:55:56 [DEBUG]  				zope.interface==4.3.2
+2022-03-29 16:55:56 [DEBUG]  		STANDARD ERROR:
+2022-03-29 16:55:56 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2022-03-29 16:55:56 [DEBUG]  			from cryptography.utils import int_from_bytes
+2022-03-29 16:55:56 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/util.py:19: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2022-03-29 16:55:56 [DEBUG]  			from cryptography.utils import int_from_bytes
+2022-03-29 16:55:56 [DEBUG]  		STANDARD OUTPUT:
+actionlib==1.12.1
+aioice==0.6.18
+aiortc==1.0.0
+asn1crypto==0.24.0
+attrs==17.4.0
+Automat==0.6.0
+av @ file:///tmp/freedomrobotics5fjqmvtp/av-8.1.0-cp36-cp36m-manylinux_2_17_aarch64.whl
+blinker==1.4
+bondpy==1.8.5
+camera_calibration_parsers==1.11.13
+catkin==0.7.29
+catkin-pkg==0.4.23
+certifi==2018.1.18
+cffi==1.14.5
+chardet==3.0.4
+click==6.7
+cloud-init==20.2
+colorama==0.3.7
+command-not-found==0.3
+configobj==5.0.6
+constantly==15.1.0
+crc32c==2.0.1
+cryptography==3.4.4
+cv_bridge==1.13.0
+dataclasses==0.8
+diagnostic_updater==1.9.7
+distro==1.5.0
+distro-info===0.18ubuntu0.18.04.1
+docutils==0.17.1
+dynamic_reconfigure==1.6.3
+empy==3.3.2
+evdev==1.4.0
+Flask==1.1.2
+freedomrobotics @ file:///tmp/freedomrobotics5izxzddc/freedomrobotics-0.1.165-cp36-cp36m-linux_aarch64.whl
+gencpp==0.6.5
+geneus==2.2.6
+genlisp==0.4.16
+genmsg==0.5.16
+gennodejs==2.0.1
+genpy==0.6.16
+httplib2==0.9.2
+hyperlink==17.3.1
+idna==2.6
+incremental==16.10.1
+itsdangerous==1.1.0
+Jinja2==2.11.3
+jsonpatch==1.16
+jsonpointer==1.10
+jsonschema==2.6.0
+keyboard==0.13.5
+keyring==10.6.0
+keyrings.alt==3.0
+language-selector==0.1
+MarkupSafe==1.0
+message_filters==1.14.11
+netifaces==0.10.4
+numpy==1.19.5
+oauthlib==2.0.6
+opencv-python==4.5.5.62
+packaging==20.9
+PAM==0.4.2
+protobuf==3.14.0
+protobuf-to-dict==0.1.0
+psutil==5.8.0
+pyasn1==0.4.2
+pyasn1-modules==0.2.1
+pycparser==2.20
+pycrypto==2.6.1
+pyee==8.1.0
+pygame==1.9.6
+PyGObject==3.26.1
+PyJWT==1.5.3
+pylibsrtp==0.6.7
+pynput==1.7.3
+PyOpenGL==3.1.0
+pyOpenSSL==17.5.0
+pyparsing==2.4.7
+pyserial==3.4
+python-apt==1.6.5+ubuntu0.5
+python-dateutil==2.8.1
+python-debian==0.1.32
+python-rapidjson==1.0
+python-xlib==0.30
+pyxdg==0.25
+PyYAML==3.12
+requests==2.18.4
+requests-unixsocket==0.1.5
+rosbag==1.14.11
+rosboost-cfg==1.14.9
+rosclean==1.14.9
+roscreate==1.14.9
+rosdep==0.20.1
+rosdistro==0.8.3
+rosgraph==1.14.11
+roslaunch==1.14.11
+roslib==1.14.9
+roslz4==1.14.11
+rosmake==1.14.9
+rosmaster==1.14.11
+rosmsg==1.14.11
+rosnode==1.14.11
+rosparam==1.14.11
+rospkg==1.3.0
+rospy==1.14.11
+rosservice==1.14.11
+rostest==1.14.11
+rostopic==1.14.11
+rosunit==1.14.9
+roswtf==1.14.11
+RPi.GPIO==0.7.0
+rpimotorlib==2.7
+SecretStorage==2.3.1
+sensor-msgs==1.12.8
+service-identity==16.0.0
+setproctitle==1.2.2
+SharedArray==3.2.1
+six==1.11.0
+smclib==1.8.5
+ssh-import-id==5.7
+systemd-python==234
+tf2_py==0.6.5
+tf2_ros==0.6.5
+topic_tools==1.14.11
+Twisted==17.9.0
+ufw==0.36
+unattended-upgrades==0.1
+urllib3==1.22
+virtualenv==15.1.0
+Werkzeug==1.0.1
+xbox==0.1.3
+xbox360controller==1.1.2
+yappi==1.3.2
+zope.interface==4.3.2
+2022-03-29 16:55:56 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 3.72s
+2022-03-29 16:55:56 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "runlevel"
+2022-03-29 16:55:56 [DEBUG]  				N 5
+2022-03-29 16:55:56 [DEBUG]  		STANDARD OUTPUT:
+N 5
+2022-03-29 16:55:56 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s
+2022-03-29 16:55:56 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' sudo"
+2022-03-29 16:55:56 [DEBUG]  				install ok installed 1.8.21p2-3ubuntu1.4
+2022-03-29 16:55:56 [DEBUG]  		STANDARD OUTPUT:
+install ok installed 1.8.21p2-3ubuntu1.4
+2022-03-29 16:55:56 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.07s
+2022-03-29 16:55:56 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pgrep -a ros"
+2022-03-29 16:55:56 [DEBUG]  				1116 /usr/bin/python /opt/ros/melodic/bin/roscore
+2022-03-29 16:55:56 [DEBUG]  				1135 /usr/bin/python /opt/ros/melodic/bin/rosmaster --core -p 11311 -w 3 __log:=/home/ubuntu/.ros/log/a4d92a70-af80-11ec-a2d1-dca632829e4f/master.log
+2022-03-29 16:55:56 [DEBUG]  				1150 /opt/ros/melodic/lib/rosout/rosout __name:=rosout __log:=/home/ubuntu/.ros/log/a4d92a70-af80-11ec-a2d1-dca632829e4f/rosout-1.log
+2022-03-29 16:55:56 [DEBUG]  		STANDARD OUTPUT:
+1116 /usr/bin/python /opt/ros/melodic/bin/roscore
+1135 /usr/bin/python /opt/ros/melodic/bin/rosmaster --core -p 11311 -w 3 __log:=/home/ubuntu/.ros/log/a4d92a70-af80-11ec-a2d1-dca632829e4f/master.log
+1150 /opt/ros/melodic/lib/rosout/rosout __name:=rosout __log:=/home/ubuntu/.ros/log/a4d92a70-af80-11ec-a2d1-dca632829e4f/rosout-1.log
+2022-03-29 16:55:56 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2022-03-29 16:55:56 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "curl -sS -X PUT -H 'content-type: application/json' -H 'mc_token: T7099D2046CE3249E72438963' -H 'mc_secret: S1287023c2749ce6d44ef056e' -d @/tmp/tmp2h7cafbw 'https://api.freedomrobotics.ai/reports'"
+2022-03-29 16:55:56 [DEBUG]  				{"status":"success","action":"reported issue","report":{"component":"installer","level":"info","code":"AIS_OK","message":"Successful Agent Installation","attributes":{"token":"***72438963","code_branch":"release","code_version":"latest","install_elements":["webrtc"],"install_status":{"MICRO AGENT":"INSTALLED AND ACTIVE","ROS SHADOW":"X","REMOTE SSH":"INSTALLED","PYTHON3.6 PACKAGE":"INSTALLED","RTC DEPENDENCIES":"INSTALLED","ACCOUNT":"AA2E4916C77670BAA7DA84BD4","DEVICE":"D664A28E6EBCEEF5A1480EC3F8B"},"platform_details":{"platform_system":"Linux","platform_release":"5.4.0-1050-raspi","platform_machine":"aarch64","platform_processor":"aarch64","platform_linux_distribution":["Ubuntu","18.04","bionic"],"platform_mac_ver":["",["","",""],""],"platform_uname":["Linux","ubuntu","5.4.0-1050-raspi","#56~18.04.1-Ubuntu SMP PREEMPT Thu Jan 13 14:51:09 UTC 2022","aarch64","aarch64"],"platform_python_implementation":"CPython","platform_python_version":"3.6.9","platform_python_compiler":"GCC 8.4.0","platform_python_build":["default","Dec  8 2021 21:08:43"],"pip_supported_tags":[["cp36","cp36m","manylinux_2_27_aarch64"],["cp36","cp36m","manylinux_2_26_aarch64"],["cp36","cp36m","manylinux_2_25_aarch64"],["cp36","cp36m","manylinux_2_24_aarch64"],["cp36","cp36m","manylinux_2_23_aarch64"],["cp36","cp36m","manylinux_2_22_aarch64"],["cp36","cp36m","manylinux_2_21_aarch64"],["cp36","cp36m","manylinux_2_20_aarch64"],["cp36","cp36m","manylinux_2_19_aarch64"],["cp36","cp36m","manylinux_2_18_aarch64"],["cp36","cp36m","manylinux_2_17_aarch64"],["cp36","cp36m","manylinux2014_aarch64"],["cp36","cp36m","linux_aarch64"],["cp36","abi3","manylinux_2_27_aarch64"],["cp36","abi3","manylinux_2_26_aarch64"],["cp36","abi3","manylinux_2_25_aarch64"],["cp36","abi3","manylinux_2_24_aarch64"],["cp36","abi3","manylinux_2_23_aarch64"],["cp36","abi3","manylinux_2_22_aarch64"],["cp36","abi3","manylinux_2_21_aarch64"],["cp36","abi3","manylinux_2_20_aarch64"],["cp36","abi3","manylinux_2_19_aarch64"],["cp36","abi3","manylinux_2_18_aarch64"],["cp36","abi3","manylinux_2_17_aarch64"],["cp36","abi3","manylinux2014_aarch64"],["cp36","abi3","linux_aarch64"],["cp36","none","manylinux_2_27_aarch64"],["cp36","none","manylinux_2_26_aarch64"],["cp36","none","manylinux_2_25_aarch64"],["cp36","none","manylinux_2_24_aarch64"],["cp36","none","manylinux_2_23_aarch64"],["cp36","none","manylinux_2_22_aarch64"],["cp36","none","manylinux_2_21_aarch64"],["cp36","none","manylinux_2_20_aarch64"],["cp36","none","manylinux_2_19_aarch64"],["cp36","none","manylinux_2_18_aarch64"],["cp36","none","manylinux_2_17_aarch64"],["cp36","none","manylinux2014_aarch64"],["cp36","none","linux_aarch64"],["cp35","abi3","manylinux_2_27_aarch64"],["cp35","abi3","manylinux_2_26_aarch64"],["cp35","abi3","manylinux_2_25_aarch64"],["cp35","abi3","manylinux_2_24_aarch64"],["cp35","abi3","manylinux_2_23_aarch64"],["cp35","abi3","manylinux_2_22_aarch64"],["cp35","abi3","manylinux_2_21_aarch64"],["cp35","abi3","manylinux_2_20_aarch64"],["cp35","abi3","manylinux_2_19_aarch64"],["cp35","abi3","manylinux_2_18_aarch64"],["cp35","abi3","manylinux_2_17_aarch64"],["cp35","abi3","manylinux2014_aarch64"],["cp35","abi3","linux_aarch64"],["cp34","abi3","manylinux_2_27_aarch64"],["cp34","abi3","manylinux_2_26_aarch64"],["cp34","abi3","manylinux_2_25_aarch64"],["cp34","abi3","manylinux_2_24_aarch64"],["cp34","abi3","manylinux_2_23_aarch64"],["cp34","abi3","manylinux_2_22_aarch64"],["cp34","abi3","manylinux_2_21_aarch64"],["cp34","abi3","manylinux_2_20_aarch64"],["cp34","abi3","manylinux_2_19_aarch64"],["cp34","abi3","manylinux_2_18_aarch64"],["cp34","abi3","manylinux_2_17_aarch64"],["cp34","abi3","manylinux2014_aarch64"],["cp34","abi3","linux_aarch64"],["cp33","abi3","manylinux_2_27_aarch64"],["cp33","abi3","manylinux_2_26_aarch64"],["cp33","abi3","manylinux_2_25_aarch64"],["cp33","abi3","manylinux_2_24_aarch64"],["cp33","abi3","manylinux_2_23_aarch64"],["cp33","abi3","manylinux_2_22_aarch64"],["cp33","abi3","manylinux_2_21_aarch64"],["cp33","abi3","manylinux_2_20_aarch64"],["cp33","abi3","manylinux_2_19_aarch64"],["cp33","abi3","manylinux_2_18_aarch64"],["cp33","abi3","manylinux_2_17_aarch64"],["cp33","abi3","manylinux2014_aarch64"],["cp33","abi3","linux_aarch64"],["cp32","abi3","manylinux_2_27_aarch64"],["cp32","abi3","manylinux_2_26_aarch64"],["cp32","abi3","manylinux_2_25_aarch64"],["cp32","abi3","manylinux_2_24_aarch64"],["cp32","abi3","manylinux_2_23_aarch64"],["cp32","abi3","manylinux_2_22_aarch64"],["cp32","abi3","manylinux_2_21_aarch64"],["cp32","abi3","manylinux_2_20_aarch64"],["cp32","abi3","manylinux_2_19_aarch64"],["cp32","abi3","manylinux_2_18_aarch64"],["cp32","abi3","manylinux_2_17_aarch64"],["cp32","abi3","manylinux2014_aarch64"],["cp32","abi3","linux_aarch64"]],"pip_version":"21.3.1","packaging_version":"20.9"},"pip_freeze":"actionlib==1.12.1\naioice==0.6.18\naiortc==1.0.0\nasn1crypto==0.24.0\nattrs==17.4.0\nAutomat==0.6.0\nav @ file:///tmp/freedomrobotics5fjqmvtp/av-8.1.0-cp36-cp36m-manylinux_2_17_aarch64.whl\nblinker==1.4\nbondpy==1.8.5\ncamera_calibration_parsers==1.11.13\ncatkin==0.7.29\ncatkin-pkg==0.4.23\ncertifi==2018.1.18\ncffi==1.14.5\nchardet==3.0.4\nclick==6.7\ncloud-init==20.2\ncolorama==0.3.7\ncommand-not-found==0.3\nconfigobj==5.0.6\nconstantly==15.1.0\ncrc32c==2.0.1\ncryptography==3.4.4\ncv_bridge==1.13.0\ndataclasses==0.8\ndiagnostic_updater==1.9.7\ndistro==1.5.0\ndistro-info===0.18ubuntu0.18.04.1\ndocutils==0.17.1\ndynamic_reconfigure==1.6.3\nempy==3.3.2\nevdev==1.4.0\nFlask==1.1.2\nfreedomrobotics @ file:///tmp/freedomrobotics5izxzddc/freedomrobotics-0.1.165-cp36-cp36m-linux_aarch64.whl\ngencpp==0.6.5\ngeneus==2.2.6\ngenlisp==0.4.16\ngenmsg==0.5.16\ngennodejs==2.0.1\ngenpy==0.6.16\nhttplib2==0.9.2\nhyperlink==17.3.1\nidna==2.6\nincremental==16.10.1\nitsdangerous==1.1.0\nJinja2==2.11.3\njsonpatch==1.16\njsonpointer==1.10\njsonschema==2.6.0\nkeyboard==0.13.5\nkeyring==10.6.0\nkeyrings.alt==3.0\nlanguage-selector==0.1\nMarkupSafe==1.0\nmessage_filters==1.14.11\nnetifaces==0.10.4\nnumpy==1.19.5\noauthlib==2.0.6\nopencv-python==4.5.5.62\npackaging==20.9\nPAM==0.4.2\nprotobuf==3.14.0\nprotobuf-to-dict==0.1.0\npsutil==5.8.0\npyasn1==0.4.2\npyasn1-modules==0.2.1\npycparser==2.20\npycrypto==2.6.1\npyee==8.1.0\npygame==1.9.6\nPyGObject==3.26.1\nPyJWT==1.5.3\npylibsrtp==0.6.7\npynput==1.7.3\nPyOpenGL==3.1.0\npyOpenSSL==17.5.0\npyparsing==2.4.7\npyserial==3.4\npython-apt==1.6.5+ubuntu0.5\npython-dateutil==2.8.1\npython-debian==0.1.32\npython-rapidjson==1.0\npython-xlib==0.30\npyxdg==0.25\nPyYAML==3.12\nrequests==2.18.4\nrequests-unixsocket==0.1.5\nrosbag==1.14.11\nrosboost-cfg==1.14.9\nrosclean==1.14.9\nroscreate==1.14.9\nrosdep==0.20.1\nrosdistro==0.8.3\nrosgraph==1.14.11\nroslaunch==1.14.11\nroslib==1.14.9\nroslz4==1.14.11\nrosmake==1.14.9\nrosmaster==1.14.11\nrosmsg==1.14.11\nrosnode==1.14.11\nrosparam==1.14.11\nrospkg==1.3.0\nrospy==1.14.11\nrosservice==1.14.11\nrostest==1.14.11\nrostopic==1.14.11\nrosunit==1.14.9\nroswtf==1.14.11\nRPi.GPIO==0.7.0\nrpimotorlib==2.7\nSecretStorage==2.3.1\nsensor-msgs==1.12.8\nservice-identity==16.0.0\nsetproctitle==1.2.2\nSharedArray==3.2.1\nsix==1.11.0\nsmclib==1.8.5\nssh-import-id==5.7\nsystemd-python==234\ntf2_py==0.6.5\ntf2_ros==0.6.5\ntopic_tools==1.14.11\nTwisted==17.9.0\nufw==0.36\nunattended-upgrades==0.1\nurllib3==1.22\nvirtualenv==15.1.0\nWerkzeug==1.0.1\nxbox==0.1.3\nxbox360controller==1.1.2\nyappi==1.3.2\nzope.interface==4.3.2","debug_details":{"run_level":"N 5","user":"ubuntu","sudo_available":true,"user_is_privileged":true,"is_python_virtual_env":false,"is_docker":false,"environment_variables":{"LD_LIBRARY_PATH":"/home/ubuntu/catkin_ws/devel/lib:/opt/ros/melodic/lib:/opt/ros/melodic/lib/aarch64-linux-gnu","ROS_ETC_DIR":"/opt/ros/melodic/etc/ros","CMAKE_PREFIX_PATH":"/home/ubuntu/catkin_ws/devel:/opt/ros/melodic","ROS_ROOT":"/opt/ros/melodic/share/ros","ROS_MASTER_URI":"http://localhost:11311","ROS_VERSION":"1","ROS_PYTHON_VERSION":"2","PYTHONPATH":"/home/ubuntu/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages","ROS_PACKAGE_PATH":"/home/ubuntu/catkin_ws/src:/opt/ros/melodic/share","ROSLISP_PACKAGE_DIRECTORIES":"/home/ubuntu/catkin_ws/devel/share/common-lisp","PATH":"/home/ubuntu/.local/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin","PKG_CONFIG_PATH":"/home/ubuntu/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig","ROS_DISTRO":"melodic"},"python_bin_path":"/usr/bin/python3","ros_processes":["1116 /usr/bin/python /opt/ros/melodic/bin/roscore","1135 /usr/bin/python /opt/ros/melodic/bin/rosmaster --core -p 11311 -w 3 __log:=/home/ubuntu/.ros/log/a4d92a70-af80-11ec-a2d1-dca632829e4f/master.log","1150 /opt/ros/melodic/lib/rosout/rosout __name:=rosout __log:=/home/ubuntu/.ros/log/a4d92a70-af80-11ec-a2d1-dca632829e4f/rosout-1.log"]},"environment":{"user-agent":"curl/7.58.0","source-ip":"199.241.200.231","country":"US"}},"times":{"has_sudo_rights":9.14,"apt_update":8.22,"local_folders_permissions_check":0.52,"python_ssl_check":0.12,"check_ros_version":10.03,"verify_prerequisites":22.93,"install_prerequisites":0.62,"install_credentials":0.02,"install_remote_ssh":0.27,"disable_old_freedomrobotics":0.12,"uninstall_current_agent":17.45,"platform_details":[0.3,0.39],"get_wheel_package":11.03,"install_webrtc_av_dependency":2.29,"install_webrtc_dependencies":3.78,"install_freedom_main_python_package":54.48,"install_freedom_robotics_service":18.72,"agent_running_check":[0.04,0.03],"time_total_install":112},"report":"b'MTY0ODU3Mjk1Ni43MDg5NT","created":"2022-03-29 16:55:56","requesting_token":"***72438963","requesting_token_type":"device","account":"AA2E4916C77670BAA7DA84BD4","device":"D664A28E6EBCEEF5A1480EC3F8B","account_name":"Freedom Industries (c@freedomrobotics.ai)","device_name":"Deep Purple"}}
+2022-03-29 16:55:56 [DEBUG]  		STANDARD OUTPUT:
+{"status":"success","action":"reported issue","report":{"component":"installer","level":"info","code":"AIS_OK","message":"Successful Agent Installation","attributes":{"token":"***72438963","code_branch":"release","code_version":"latest","install_elements":["webrtc"],"install_status":{"MICRO AGENT":"INSTALLED AND ACTIVE","ROS SHADOW":"X","REMOTE SSH":"INSTALLED","PYTHON3.6 PACKAGE":"INSTALLED","RTC DEPENDENCIES":"INSTALLED","ACCOUNT":"AA2E4916C77670BAA7DA84BD4","DEVICE":"D664A28E6EBCEEF5A1480EC3F8B"},"platform_details":{"platform_system":"Linux","platform_release":"5.4.0-1050-raspi","platform_machine":"aarch64","platform_processor":"aarch64","platform_linux_distribution":["Ubuntu","18.04","bionic"],"platform_mac_ver":["",["","",""],""],"platform_uname":["Linux","ubuntu","5.4.0-1050-raspi","#56~18.04.1-Ubuntu SMP PREEMPT Thu Jan 13 14:51:09 UTC 2022","aarch64","aarch64"],"platform_python_implementation":"CPython","platform_python_version":"3.6.9","platform_python_compiler":"GCC 8.4.0","platform_python_build":["default","Dec  8 2021 21:08:43"],"pip_supported_tags":[["cp36","cp36m","manylinux_2_27_aarch64"],["cp36","cp36m","manylinux_2_26_aarch64"],["cp36","cp36m","manylinux_2_25_aarch64"],["cp36","cp36m","manylinux_2_24_aarch64"],["cp36","cp36m","manylinux_2_23_aarch64"],["cp36","cp36m","manylinux_2_22_aarch64"],["cp36","cp36m","manylinux_2_21_aarch64"],["cp36","cp36m","manylinux_2_20_aarch64"],["cp36","cp36m","manylinux_2_19_aarch64"],["cp36","cp36m","manylinux_2_18_aarch64"],["cp36","cp36m","manylinux_2_17_aarch64"],["cp36","cp36m","manylinux2014_aarch64"],["cp36","cp36m","linux_aarch64"],["cp36","abi3","manylinux_2_27_aarch64"],["cp36","abi3","manylinux_2_26_aarch64"],["cp36","abi3","manylinux_2_25_aarch64"],["cp36","abi3","manylinux_2_24_aarch64"],["cp36","abi3","manylinux_2_23_aarch64"],["cp36","abi3","manylinux_2_22_aarch64"],["cp36","abi3","manylinux_2_21_aarch64"],["cp36","abi3","manylinux_2_20_aarch64"],["cp36","abi3","manylinux_2_19_aarch64"],["cp36","abi3","manylinux_2_18_aarch64"],["cp36","abi3","manylinux_2_17_aarch64"],["cp36","abi3","manylinux2014_aarch64"],["cp36","abi3","linux_aarch64"],["cp36","none","manylinux_2_27_aarch64"],["cp36","none","manylinux_2_26_aarch64"],["cp36","none","manylinux_2_25_aarch64"],["cp36","none","manylinux_2_24_aarch64"],["cp36","none","manylinux_2_23_aarch64"],["cp36","none","manylinux_2_22_aarch64"],["cp36","none","manylinux_2_21_aarch64"],["cp36","none","manylinux_2_20_aarch64"],["cp36","none","manylinux_2_19_aarch64"],["cp36","none","manylinux_2_18_aarch64"],["cp36","none","manylinux_2_17_aarch64"],["cp36","none","manylinux2014_aarch64"],["cp36","none","linux_aarch64"],["cp35","abi3","manylinux_2_27_aarch64"],["cp35","abi3","manylinux_2_26_aarch64"],["cp35","abi3","manylinux_2_25_aarch64"],["cp35","abi3","manylinux_2_24_aarch64"],["cp35","abi3","manylinux_2_23_aarch64"],["cp35","abi3","manylinux_2_22_aarch64"],["cp35","abi3","manylinux_2_21_aarch64"],["cp35","abi3","manylinux_2_20_aarch64"],["cp35","abi3","manylinux_2_19_aarch64"],["cp35","abi3","manylinux_2_18_aarch64"],["cp35","abi3","manylinux_2_17_aarch64"],["cp35","abi3","manylinux2014_aarch64"],["cp35","abi3","linux_aarch64"],["cp34","abi3","manylinux_2_27_aarch64"],["cp34","abi3","manylinux_2_26_aarch64"],["cp34","abi3","manylinux_2_25_aarch64"],["cp34","abi3","manylinux_2_24_aarch64"],["cp34","abi3","manylinux_2_23_aarch64"],["cp34","abi3","manylinux_2_22_aarch64"],["cp34","abi3","manylinux_2_21_aarch64"],["cp34","abi3","manylinux_2_20_aarch64"],["cp34","abi3","manylinux_2_19_aarch64"],["cp34","abi3","manylinux_2_18_aarch64"],["cp34","abi3","manylinux_2_17_aarch64"],["cp34","abi3","manylinux2014_aarch64"],["cp34","abi3","linux_aarch64"],["cp33","abi3","manylinux_2_27_aarch64"],["cp33","abi3","manylinux_2_26_aarch64"],["cp33","abi3","manylinux_2_25_aarch64"],["cp33","abi3","manylinux_2_24_aarch64"],["cp33","abi3","manylinux_2_23_aarch64"],["cp33","abi3","manylinux_2_22_aarch64"],["cp33","abi3","manylinux_2_21_aarch64"],["cp33","abi3","manylinux_2_20_aarch64"],["cp33","abi3","manylinux_2_19_aarch64"],["cp33","abi3","manylinux_2_18_aarch64"],["cp33","abi3","manylinux_2_17_aarch64"],["cp33","abi3","manylinux2014_aarch64"],["cp33","abi3","linux_aarch64"],["cp32","abi3","manylinux_2_27_aarch64"],["cp32","abi3","manylinux_2_26_aarch64"],["cp32","abi3","manylinux_2_25_aarch64"],["cp32","abi3","manylinux_2_24_aarch64"],["cp32","abi3","manylinux_2_23_aarch64"],["cp32","abi3","manylinux_2_22_aarch64"],["cp32","abi3","manylinux_2_21_aarch64"],["cp32","abi3","manylinux_2_20_aarch64"],["cp32","abi3","manylinux_2_19_aarch64"],["cp32","abi3","manylinux_2_18_aarch64"],["cp32","abi3","manylinux_2_17_aarch64"],["cp32","abi3","manylinux2014_aarch64"],["cp32","abi3","linux_aarch64"]],"pip_version":"21.3.1","packaging_version":"20.9"},"pip_freeze":"actionlib==1.12.1\naioice==0.6.18\naiortc==1.0.0\nasn1crypto==0.24.0\nattrs==17.4.0\nAutomat==0.6.0\nav @ file:///tmp/freedomrobotics5fjqmvtp/av-8.1.0-cp36-cp36m-manylinux_2_17_aarch64.whl\nblinker==1.4\nbondpy==1.8.5\ncamera_calibration_parsers==1.11.13\ncatkin==0.7.29\ncatkin-pkg==0.4.23\ncertifi==2018.1.18\ncffi==1.14.5\nchardet==3.0.4\nclick==6.7\ncloud-init==20.2\ncolorama==0.3.7\ncommand-not-found==0.3\nconfigobj==5.0.6\nconstantly==15.1.0\ncrc32c==2.0.1\ncryptography==3.4.4\ncv_bridge==1.13.0\ndataclasses==0.8\ndiagnostic_updater==1.9.7\ndistro==1.5.0\ndistro-info===0.18ubuntu0.18.04.1\ndocutils==0.17.1\ndynamic_reconfigure==1.6.3\nempy==3.3.2\nevdev==1.4.0\nFlask==1.1.2\nfreedomrobotics @ file:///tmp/freedomrobotics5izxzddc/freedomrobotics-0.1.165-cp36-cp36m-linux_aarch64.whl\ngencpp==0.6.5\ngeneus==2.2.6\ngenlisp==0.4.16\ngenmsg==0.5.16\ngennodejs==2.0.1\ngenpy==0.6.16\nhttplib2==0.9.2\nhyperlink==17.3.1\nidna==2.6\nincremental==16.10.1\nitsdangerous==1.1.0\nJinja2==2.11.3\njsonpatch==1.16\njsonpointer==1.10\njsonschema==2.6.0\nkeyboard==0.13.5\nkeyring==10.6.0\nkeyrings.alt==3.0\nlanguage-selector==0.1\nMarkupSafe==1.0\nmessage_filters==1.14.11\nnetifaces==0.10.4\nnumpy==1.19.5\noauthlib==2.0.6\nopencv-python==4.5.5.62\npackaging==20.9\nPAM==0.4.2\nprotobuf==3.14.0\nprotobuf-to-dict==0.1.0\npsutil==5.8.0\npyasn1==0.4.2\npyasn1-modules==0.2.1\npycparser==2.20\npycrypto==2.6.1\npyee==8.1.0\npygame==1.9.6\nPyGObject==3.26.1\nPyJWT==1.5.3\npylibsrtp==0.6.7\npynput==1.7.3\nPyOpenGL==3.1.0\npyOpenSSL==17.5.0\npyparsing==2.4.7\npyserial==3.4\npython-apt==1.6.5+ubuntu0.5\npython-dateutil==2.8.1\npython-debian==0.1.32\npython-rapidjson==1.0\npython-xlib==0.30\npyxdg==0.25\nPyYAML==3.12\nrequests==2.18.4\nrequests-unixsocket==0.1.5\nrosbag==1.14.11\nrosboost-cfg==1.14.9\nrosclean==1.14.9\nroscreate==1.14.9\nrosdep==0.20.1\nrosdistro==0.8.3\nrosgraph==1.14.11\nroslaunch==1.14.11\nroslib==1.14.9\nroslz4==1.14.11\nrosmake==1.14.9\nrosmaster==1.14.11\nrosmsg==1.14.11\nrosnode==1.14.11\nrosparam==1.14.11\nrospkg==1.3.0\nrospy==1.14.11\nrosservice==1.14.11\nrostest==1.14.11\nrostopic==1.14.11\nrosunit==1.14.9\nroswtf==1.14.11\nRPi.GPIO==0.7.0\nrpimotorlib==2.7\nSecretStorage==2.3.1\nsensor-msgs==1.12.8\nservice-identity==16.0.0\nsetproctitle==1.2.2\nSharedArray==3.2.1\nsix==1.11.0\nsmclib==1.8.5\nssh-import-id==5.7\nsystemd-python==234\ntf2_py==0.6.5\ntf2_ros==0.6.5\ntopic_tools==1.14.11\nTwisted==17.9.0\nufw==0.36\nunattended-upgrades==0.1\nurllib3==1.22\nvirtualenv==15.1.0\nWerkzeug==1.0.1\nxbox==0.1.3\nxbox360controller==1.1.2\nyappi==1.3.2\nzope.interface==4.3.2","debug_details":{"run_level":"N 5","user":"ubuntu","sudo_available":true,"user_is_privileged":true,"is_python_virtual_env":false,"is_docker":false,"environment_variables":{"LD_LIBRARY_PATH":"/home/ubuntu/catkin_ws/devel/lib:/opt/ros/melodic/lib:/opt/ros/melodic/lib/aarch64-linux-gnu","ROS_ETC_DIR":"/opt/ros/melodic/etc/ros","CMAKE_PREFIX_PATH":"/home/ubuntu/catkin_ws/devel:/opt/ros/melodic","ROS_ROOT":"/opt/ros/melodic/share/ros","ROS_MASTER_URI":"http://localhost:11311","ROS_VERSION":"1","ROS_PYTHON_VERSION":"2","PYTHONPATH":"/home/ubuntu/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages","ROS_PACKAGE_PATH":"/home/ubuntu/catkin_ws/src:/opt/ros/melodic/share","ROSLISP_PACKAGE_DIRECTORIES":"/home/ubuntu/catkin_ws/devel/share/common-lisp","PATH":"/home/ubuntu/.local/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin","PKG_CONFIG_PATH":"/home/ubuntu/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig","ROS_DISTRO":"melodic"},"python_bin_path":"/usr/bin/python3","ros_processes":["1116 /usr/bin/python /opt/ros/melodic/bin/roscore","1135 /usr/bin/python /opt/ros/melodic/bin/rosmaster --core -p 11311 -w 3 __log:=/home/ubuntu/.ros/log/a4d92a70-af80-11ec-a2d1-dca632829e4f/master.log","1150 /opt/ros/melodic/lib/rosout/rosout __name:=rosout __log:=/home/ubuntu/.ros/log/a4d92a70-af80-11ec-a2d1-dca632829e4f/rosout-1.log"]},"environment":{"user-agent":"curl/7.58.0","source-ip":"199.241.200.231","country":"US"}},"times":{"has_sudo_rights":9.14,"apt_update":8.22,"local_folders_permissions_check":0.52,"python_ssl_check":0.12,"check_ros_version":10.03,"verify_prerequisites":22.93,"install_prerequisites":0.62,"install_credentials":0.02,"install_remote_ssh":0.27,"disable_old_freedomrobotics":0.12,"uninstall_current_agent":17.45,"platform_details":[0.3,0.39],"get_wheel_package":11.03,"install_webrtc_av_dependency":2.29,"install_webrtc_dependencies":3.78,"install_freedom_main_python_package":54.48,"install_freedom_robotics_service":18.72,"agent_running_check":[0.04,0.03],"time_total_install":112},"report":"b'MTY0ODU3Mjk1Ni43MDg5NT","created":"2022-03-29 16:55:56","requesting_token":"***72438963","requesting_token_type":"device","account":"AA2E4916C77670BAA7DA84BD4","device":"D664A28E6EBCEEF5A1480EC3F8B","account_name":"Freedom Industries (c@freedomrobotics.ai)","device_name":"Deep Purple"}}
+2022-03-29 16:55:56 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.23s
+2022-03-29 16:55:56 [DEBUG]  {"status":"success","action":"reported issue","report":{"component":"installer","level":"info","code":"AIS_OK","message":"Successful Agent Installation","attributes":{"token":"***72438963","code_branch":"release","code_version":"latest","install_elements":["webrtc"],"install_status":{"MICRO AGENT":"INSTALLED AND ACTIVE","ROS SHADOW":"X","REMOTE SSH":"INSTALLED","PYTHON3.6 PACKAGE":"INSTALLED","RTC DEPENDENCIES":"INSTALLED","ACCOUNT":"AA2E4916C77670BAA7DA84BD4","DEVICE":"D664A28E6EBCEEF5A1480EC3F8B"},"platform_details":{"platform_system":"Linux","platform_release":"5.4.0-1050-raspi","platform_machine":"aarch64","platform_processor":"aarch64","platform_linux_distribution":["Ubuntu","18.04","bionic"],"platform_mac_ver":["",["","",""],""],"platform_uname":["Linux","ubuntu","5.4.0-1050-raspi","#56~18.04.1-Ubuntu SMP PREEMPT Thu Jan 13 14:51:09 UTC 2022","aarch64","aarch64"],"platform_python_implementation":"CPython","platform_python_version":"3.6.9","platform_python_compiler":"GCC 8.4.0","platform_python_build":["default","Dec  8 2021 21:08:43"],"pip_supported_tags":[["cp36","cp36m","manylinux_2_27_aarch64"],["cp36","cp36m","manylinux_2_26_aarch64"],["cp36","cp36m","manylinux_2_25_aarch64"],["cp36","cp36m","manylinux_2_24_aarch64"],["cp36","cp36m","manylinux_2_23_aarch64"],["cp36","cp36m","manylinux_2_22_aarch64"],["cp36","cp36m","manylinux_2_21_aarch64"],["cp36","cp36m","manylinux_2_20_aarch64"],["cp36","cp36m","manylinux_2_19_aarch64"],["cp36","cp36m","manylinux_2_18_aarch64"],["cp36","cp36m","manylinux_2_17_aarch64"],["cp36","cp36m","manylinux2014_aarch64"],["cp36","cp36m","linux_aarch64"],["cp36","abi3","manylinux_2_27_aarch64"],["cp36","abi3","manylinux_2_26_aarch64"],["cp36","abi3","manylinux_2_25_aarch64"],["cp36","abi3","manylinux_2_24_aarch64"],["cp36","abi3","manylinux_2_23_aarch64"],["cp36","abi3","manylinux_2_22_aarch64"],["cp36","abi3","manylinux_2_21_aarch64"],["cp36","abi3","manylinux_2_20_aarch64"],["cp36","abi3","manylinux_2_19_aarch64"],["cp36","abi3","manylinux_2_18_aarch64"],["cp36","abi3","manylinux_2_17_aarch64"],["cp36","abi3","manylinux2014_aarch64"],["cp36","abi3","linux_aarch64"],["cp36","none","manylinux_2_27_aarch64"],["cp36","none","manylinux_2_26_aarch64"],["cp36","none","manylinux_2_25_aarch64"],["cp36","none","manylinux_2_24_aarch64"],["cp36","none","manylinux_2_23_aarch64"],["cp36","none","manylinux_2_22_aarch64"],["cp36","none","manylinux_2_21_aarch64"],["cp36","none","manylinux_2_20_aarch64"],["cp36","none","manylinux_2_19_aarch64"],["cp36","none","manylinux_2_18_aarch64"],["cp36","none","manylinux_2_17_aarch64"],["cp36","none","manylinux2014_aarch64"],["cp36","none","linux_aarch64"],["cp35","abi3","manylinux_2_27_aarch64"],["cp35","abi3","manylinux_2_26_aarch64"],["cp35","abi3","manylinux_2_25_aarch64"],["cp35","abi3","manylinux_2_24_aarch64"],["cp35","abi3","manylinux_2_23_aarch64"],["cp35","abi3","manylinux_2_22_aarch64"],["cp35","abi3","manylinux_2_21_aarch64"],["cp35","abi3","manylinux_2_20_aarch64"],["cp35","abi3","manylinux_2_19_aarch64"],["cp35","abi3","manylinux_2_18_aarch64"],["cp35","abi3","manylinux_2_17_aarch64"],["cp35","abi3","manylinux2014_aarch64"],["cp35","abi3","linux_aarch64"],["cp34","abi3","manylinux_2_27_aarch64"],["cp34","abi3","manylinux_2_26_aarch64"],["cp34","abi3","manylinux_2_25_aarch64"],["cp34","abi3","manylinux_2_24_aarch64"],["cp34","abi3","manylinux_2_23_aarch64"],["cp34","abi3","manylinux_2_22_aarch64"],["cp34","abi3","manylinux_2_21_aarch64"],["cp34","abi3","manylinux_2_20_aarch64"],["cp34","abi3","manylinux_2_19_aarch64"],["cp34","abi3","manylinux_2_18_aarch64"],["cp34","abi3","manylinux_2_17_aarch64"],["cp34","abi3","manylinux2014_aarch64"],["cp34","abi3","linux_aarch64"],["cp33","abi3","manylinux_2_27_aarch64"],["cp33","abi3","manylinux_2_26_aarch64"],["cp33","abi3","manylinux_2_25_aarch64"],["cp33","abi3","manylinux_2_24_aarch64"],["cp33","abi3","manylinux_2_23_aarch64"],["cp33","abi3","manylinux_2_22_aarch64"],["cp33","abi3","manylinux_2_21_aarch64"],["cp33","abi3","manylinux_2_20_aarch64"],["cp33","abi3","manylinux_2_19_aarch64"],["cp33","abi3","manylinux_2_18_aarch64"],["cp33","abi3","manylinux_2_17_aarch64"],["cp33","abi3","manylinux2014_aarch64"],["cp33","abi3","linux_aarch64"],["cp32","abi3","manylinux_2_27_aarch64"],["cp32","abi3","manylinux_2_26_aarch64"],["cp32","abi3","manylinux_2_25_aarch64"],["cp32","abi3","manylinux_2_24_aarch64"],["cp32","abi3","manylinux_2_23_aarch64"],["cp32","abi3","manylinux_2_22_aarch64"],["cp32","abi3","manylinux_2_21_aarch64"],["cp32","abi3","manylinux_2_20_aarch64"],["cp32","abi3","manylinux_2_19_aarch64"],["cp32","abi3","manylinux_2_18_aarch64"],["cp32","abi3","manylinux_2_17_aarch64"],["cp32","abi3","manylinux2014_aarch64"],["cp32","abi3","linux_aarch64"]],"pip_version":"21.3.1","packaging_version":"20.9"},"pip_freeze":"actionlib==1.12.1\naioice==0.6.18\naiortc==1.0.0\nasn1crypto==0.24.0\nattrs==17.4.0\nAutomat==0.6.0\nav @ file:///tmp/freedomrobotics5fjqmvtp/av-8.1.0-cp36-cp36m-manylinux_2_17_aarch64.whl\nblinker==1.4\nbondpy==1.8.5\ncamera_calibration_parsers==1.11.13\ncatkin==0.7.29\ncatkin-pkg==0.4.23\ncertifi==2018.1.18\ncffi==1.14.5\nchardet==3.0.4\nclick==6.7\ncloud-init==20.2\ncolorama==0.3.7\ncommand-not-found==0.3\nconfigobj==5.0.6\nconstantly==15.1.0\ncrc32c==2.0.1\ncryptography==3.4.4\ncv_bridge==1.13.0\ndataclasses==0.8\ndiagnostic_updater==1.9.7\ndistro==1.5.0\ndistro-info===0.18ubuntu0.18.04.1\ndocutils==0.17.1\ndynamic_reconfigure==1.6.3\nempy==3.3.2\nevdev==1.4.0\nFlask==1.1.2\nfreedomrobotics @ file:///tmp/freedomrobotics5izxzddc/freedomrobotics-0.1.165-cp36-cp36m-linux_aarch64.whl\ngencpp==0.6.5\ngeneus==2.2.6\ngenlisp==0.4.16\ngenmsg==0.5.16\ngennodejs==2.0.1\ngenpy==0.6.16\nhttplib2==0.9.2\nhyperlink==17.3.1\nidna==2.6\nincremental==16.10.1\nitsdangerous==1.1.0\nJinja2==2.11.3\njsonpatch==1.16\njsonpointer==1.10\njsonschema==2.6.0\nkeyboard==0.13.5\nkeyring==10.6.0\nkeyrings.alt==3.0\nlanguage-selector==0.1\nMarkupSafe==1.0\nmessage_filters==1.14.11\nnetifaces==0.10.4\nnumpy==1.19.5\noauthlib==2.0.6\nopencv-python==4.5.5.62\npackaging==20.9\nPAM==0.4.2\nprotobuf==3.14.0\nprotobuf-to-dict==0.1.0\npsutil==5.8.0\npyasn1==0.4.2\npyasn1-modules==0.2.1\npycparser==2.20\npycrypto==2.6.1\npyee==8.1.0\npygame==1.9.6\nPyGObject==3.26.1\nPyJWT==1.5.3\npylibsrtp==0.6.7\npynput==1.7.3\nPyOpenGL==3.1.0\npyOpenSSL==17.5.0\npyparsing==2.4.7\npyserial==3.4\npython-apt==1.6.5+ubuntu0.5\npython-dateutil==2.8.1\npython-debian==0.1.32\npython-rapidjson==1.0\npython-xlib==0.30\npyxdg==0.25\nPyYAML==3.12\nrequests==2.18.4\nrequests-unixsocket==0.1.5\nrosbag==1.14.11\nrosboost-cfg==1.14.9\nrosclean==1.14.9\nroscreate==1.14.9\nrosdep==0.20.1\nrosdistro==0.8.3\nrosgraph==1.14.11\nroslaunch==1.14.11\nroslib==1.14.9\nroslz4==1.14.11\nrosmake==1.14.9\nrosmaster==1.14.11\nrosmsg==1.14.11\nrosnode==1.14.11\nrosparam==1.14.11\nrospkg==1.3.0\nrospy==1.14.11\nrosservice==1.14.11\nrostest==1.14.11\nrostopic==1.14.11\nrosunit==1.14.9\nroswtf==1.14.11\nRPi.GPIO==0.7.0\nrpimotorlib==2.7\nSecretStorage==2.3.1\nsensor-msgs==1.12.8\nservice-identity==16.0.0\nsetproctitle==1.2.2\nSharedArray==3.2.1\nsix==1.11.0\nsmclib==1.8.5\nssh-import-id==5.7\nsystemd-python==234\ntf2_py==0.6.5\ntf2_ros==0.6.5\ntopic_tools==1.14.11\nTwisted==17.9.0\nufw==0.36\nunattended-upgrades==0.1\nurllib3==1.22\nvirtualenv==15.1.0\nWerkzeug==1.0.1\nxbox==0.1.3\nxbox360controller==1.1.2\nyappi==1.3.2\nzope.interface==4.3.2","debug_details":{"run_level":"N 5","user":"ubuntu","sudo_available":true,"user_is_privileged":true,"is_python_virtual_env":false,"is_docker":false,"environment_variables":{"LD_LIBRARY_PATH":"/home/ubuntu/catkin_ws/devel/lib:/opt/ros/melodic/lib:/opt/ros/melodic/lib/aarch64-linux-gnu","ROS_ETC_DIR":"/opt/ros/melodic/etc/ros","CMAKE_PREFIX_PATH":"/home/ubuntu/catkin_ws/devel:/opt/ros/melodic","ROS_ROOT":"/opt/ros/melodic/share/ros","ROS_MASTER_URI":"http://localhost:11311","ROS_VERSION":"1","ROS_PYTHON_VERSION":"2","PYTHONPATH":"/home/ubuntu/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages","ROS_PACKAGE_PATH":"/home/ubuntu/catkin_ws/src:/opt/ros/melodic/share","ROSLISP_PACKAGE_DIRECTORIES":"/home/ubuntu/catkin_ws/devel/share/common-lisp","PATH":"/home/ubuntu/.local/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin","PKG_CONFIG_PATH":"/home/ubuntu/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig","ROS_DISTRO":"melodic"},"python_bin_path":"/usr/bin/python3","ros_processes":["1116 /usr/bin/python /opt/ros/melodic/bin/roscore","1135 /usr/bin/python /opt/ros/melodic/bin/rosmaster --core -p 11311 -w 3 __log:=/home/ubuntu/.ros/log/a4d92a70-af80-11ec-a2d1-dca632829e4f/master.log","1150 /opt/ros/melodic/lib/rosout/rosout __name:=rosout __log:=/home/ubuntu/.ros/log/a4d92a70-af80-11ec-a2d1-dca632829e4f/rosout-1.log"]},"environment":{"user-agent":"curl/7.58.0","source-ip":"199.241.200.231","country":"US"}},"times":{"has_sudo_rights":9.14,"apt_update":8.22,"local_folders_permissions_check":0.52,"python_ssl_check":0.12,"check_ros_version":10.03,"verify_prerequisites":22.93,"install_prerequisites":0.62,"install_credentials":0.02,"install_remote_ssh":0.27,"disable_old_freedomrobotics":0.12,"uninstall_current_agent":17.45,"platform_details":[0.3,0.39],"get_wheel_package":11.03,"install_webrtc_av_dependency":2.29,"install_webrtc_dependencies":3.78,"install_freedom_main_python_package":54.48,"install_freedom_robotics_service":18.72,"agent_running_check":[0.04,0.03],"time_total_install":112},"report":"b'MTY0ODU3Mjk1Ni43MDg5NT","created":"2022-03-29 16:55:56","requesting_token":"***72438963","requesting_token_type":"device","account":"AA2E4916C77670BAA7DA84BD4","device":"D664A28E6EBCEEF5A1480EC3F8B","account_name":"Freedom Industries (c@freedomrobotics.ai)","device_name":"Deep Purple"}}

@@ -1,0 +1,22 @@
+[rospy.client][INFO] 2022-02-08 17:46:18,353: init_node, name[/talker], pid[20286]
+[xmlrpc][INFO] 2022-02-08 17:46:18,354: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-02-08 17:46:18,356: ROS Slave URI: [http://ubuntu:42273/]
+[xmlrpc][INFO] 2022-02-08 17:46:18,355: Started XML-RPC server [http://ubuntu:42273/]
+[rospy.impl.masterslave][INFO] 2022-02-08 17:46:18,357: _ready: http://ubuntu:42273/
+[xmlrpc][INFO] 2022-02-08 17:46:18,358: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-02-08 17:46:18,359: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2022-02-08 17:46:18,360: Registering publisher topic [/video/click] type [geometry_msgs/PointStamped] with master
+[rospy.init][INFO] 2022-02-08 17:46:18,457: registered with master
+[rospy.rosout][INFO] 2022-02-08 17:46:18,458: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-08 17:46:18,462: connected to core topic /rosout
+[rospy.internal][INFO] 2022-02-08 17:46:18,464: topic[/video/click] adding connection to [/listener], count 0
+[rospy.simtime][INFO] 2022-02-08 17:46:18,465: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-08 17:46:18,655: topic[/video/click] adding connection to [/link_ros], count 1
+[rospy.internal][INFO] 2022-02-08 17:46:18,657: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-02-08 23:57:45,949: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-02-08 23:57:47,452: topic[/video/click] removing connection to /link_ros
+[rospy.core][INFO] 2022-02-08 23:59:56,377: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2022-02-08 23:59:56,379: cannot unregister with master due to network issues
+[rospy.internal][INFO] 2022-02-08 23:59:56,379: topic[/video/click] removing connection to /listener
+[rospy.impl.masterslave][INFO] 2022-02-08 23:59:56,380: signal-2
+[rospy.core][INFO] 2022-02-08 23:59:56,514: signal_shutdown [atexit]

@@ -1,0 +1,72 @@
+[2.995s] Invoking command in '/home/ubuntu/ros2_foxy/build/fastcdr': /usr/bin/cmake /home/ubuntu/ros2_foxy/src/eProsima/Fast-CDR -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_foxy/install/fastcdr
+[3.054s] -- Setting build type to 'Release' as none was specified.
+[3.930s] -- The C compiler identification is GNU 7.5.0
+[4.730s] -- The CXX compiler identification is GNU 7.5.0
+[4.757s] -- Check for working C compiler: /usr/bin/cc
+[5.154s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.158s] -- Detecting C compiler ABI info
+[5.503s] -- Detecting C compiler ABI info - done
+[5.552s] -- Detecting C compile features
+[6.724s] -- Detecting C compile features - done
+[6.738s] -- Check for working CXX compiler: /usr/bin/c++
+[7.050s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[7.054s] -- Detecting CXX compiler ABI info
+[7.633s] -- Detecting CXX compiler ABI info - done
+[7.698s] -- Detecting CXX compile features
+[9.791s] -- Detecting CXX compile features - done
+[9.797s] -- Configuring Fast CDR
+[9.799s] -- Version: 1.0.13
+[9.800s] -- To change the version modify the file configure.ac
+[9.817s] -- Performing Test SUPPORTS_CXX14
+[10.222s] -- Performing Test SUPPORTS_CXX14 - Success
+[10.225s] -- Check if the system is big endian
+[10.225s] -- Searching 16 bit integer
+[10.229s] -- Looking for sys/types.h
+[10.676s] -- Looking for sys/types.h - found
+[10.678s] -- Looking for stdint.h
+[11.073s] -- Looking for stdint.h - found
+[11.077s] -- Looking for stddef.h
+[11.426s] -- Looking for stddef.h - found
+[11.428s] -- Check size of unsigned short
+[11.797s] -- Check size of unsigned short - done
+[11.798s] -- Using unsigned short
+[12.102s] -- Check if the system is big endian - little endian
+[12.175s] -- Configuring done
+[12.199s] -- Generating done
+[12.205s] -- Build files have been written to: /home/ubuntu/ros2_foxy/build/fastcdr
+[12.888s] Invoked command in '/home/ubuntu/ros2_foxy/build/fastcdr' returned '0': /usr/bin/cmake /home/ubuntu/ros2_foxy/src/eProsima/Fast-CDR -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_foxy/install/fastcdr
+[12.901s] Invoking command in '/home/ubuntu/ros2_foxy/build/fastcdr': /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/fastcdr -- -j4 -l4
+[13.150s] [35m[1mScanning dependencies of target fastcdr[0m
+[13.320s] [ 14%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/Cdr.cpp.o[0m
+[13.360s] [ 28%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/FastCdr.cpp.o[0m
+[13.362s] [ 42%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/FastBuffer.cpp.o[0m
+[13.365s] [ 57%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/Exception.cpp.o[0m
+[14.336s] [ 71%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/NotEnoughMemoryException.cpp.o[0m
+[15.176s] [ 85%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/BadParamException.cpp.o[0m
+[20.748s] [100%] [32m[1mLinking CXX shared library libfastcdr.so[0m
+[21.166s] [100%] Built target fastcdr
+[22.744s] Invoked command in '/home/ubuntu/ros2_foxy/build/fastcdr' returned '0': /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/fastcdr -- -j4 -l4
+[22.861s] Invoking command in '/home/ubuntu/ros2_foxy/build/fastcdr': /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/fastcdr --target install -- -j4 -l4
+[23.117s] [100%] Built target fastcdr
+[23.237s] [36mInstall the project...[0m
+[23.279s] -- Install configuration: "Release"
+[23.280s] -- Installing: /home/ubuntu/ros2_foxy/install/fastcdr/share/fastcdr/LICENSE
+[23.282s] -- Installing: /home/ubuntu/ros2_foxy/install/fastcdr/include/fastcdr
+[23.283s] -- Installing: /home/ubuntu/ros2_foxy/install/fastcdr/include/fastcdr/exceptions
+[23.284s] -- Installing: /home/ubuntu/ros2_foxy/install/fastcdr/include/fastcdr/exceptions/Exception.h
+[23.285s] -- Installing: /home/ubuntu/ros2_foxy/install/fastcdr/include/fastcdr/exceptions/BadParamException.h
+[23.287s] -- Installing: /home/ubuntu/ros2_foxy/install/fastcdr/include/fastcdr/exceptions/NotEnoughMemoryException.h
+[23.288s] -- Installing: /home/ubuntu/ros2_foxy/install/fastcdr/include/fastcdr/FastCdr.h
+[23.290s] -- Installing: /home/ubuntu/ros2_foxy/install/fastcdr/include/fastcdr/FastBuffer.h
+[23.291s] -- Installing: /home/ubuntu/ros2_foxy/install/fastcdr/include/fastcdr/eProsima_auto_link.h
+[23.293s] -- Installing: /home/ubuntu/ros2_foxy/install/fastcdr/include/fastcdr/Cdr.h
+[23.294s] -- Installing: /home/ubuntu/ros2_foxy/install/fastcdr/include/fastcdr/fastcdr_dll.h
+[23.295s] -- Installing: /home/ubuntu/ros2_foxy/install/fastcdr/include/fastcdr/config.h
+[23.297s] -- Installing: /home/ubuntu/ros2_foxy/install/fastcdr/lib/libfastcdr.so.1.0.13
+[23.298s] -- Installing: /home/ubuntu/ros2_foxy/install/fastcdr/lib/libfastcdr.so.1
+[23.299s] -- Installing: /home/ubuntu/ros2_foxy/install/fastcdr/lib/libfastcdr.so
+[23.303s] -- Installing: /home/ubuntu/ros2_foxy/install/fastcdr/lib/cmake/fastcdr/fastcdr-targets.cmake
+[23.304s] -- Installing: /home/ubuntu/ros2_foxy/install/fastcdr/lib/cmake/fastcdr/fastcdr-targets-release.cmake
+[23.304s] -- Installing: /home/ubuntu/ros2_foxy/install/fastcdr/lib/cmake/fastcdr/fastcdr-config.cmake
+[23.305s] -- Installing: /home/ubuntu/ros2_foxy/install/fastcdr/lib/cmake/fastcdr/fastcdr-config-version.cmake
+[23.332s] Invoked command in '/home/ubuntu/ros2_foxy/build/fastcdr' returned '0': /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/fastcdr --target install -- -j4 -l4

@@ -1,0 +1,1 @@
+/usr/bin/cc -O2 -g -DNDEBUG   CMakeFiles/ddsconf.dir/ddsconf.c.o CMakeFiles/ddsconf.dir/rnc.c.o CMakeFiles/ddsconf.dir/md.c.o CMakeFiles/ddsconf.dir/xsd.c.o  -o ../../../bin/ddsconf -Wl,-rpath,/home/ubuntu/ros2_foxy/build/cyclonedds/lib ../../../lib/libddsc.so.0.7.0 

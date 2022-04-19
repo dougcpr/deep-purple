@@ -1,0 +1,22 @@
+
+
+1642692930.191992423  Node Startup
+1642692934.396249055 INFO /talker_21698_1642692934181 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642692934.39
+1642692938.401222944 INFO /talker_21698_1642692934181 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642692938.4
+1642692942.401921987 INFO /talker_21698_1642692934181 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642692942.4
+1642692946.399069070 INFO /talker_21698_1642692934181 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642692946.39
+1642692950.402003049 INFO /talker_21698_1642692934181 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642692950.4
+1642692954.402502059 INFO /talker_21698_1642692934181 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642692954.4
+1642692958.402900934 INFO /talker_21698_1642692934181 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642692958.4
+1642692962.402220010 INFO /talker_21698_1642692934181 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642692962.4
+1642692966.403002023 INFO /talker_21698_1642692934181 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642692966.4
+1642692970.400995016 INFO /talker_21698_1642692934181 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642692970.4
+1642692974.397514104 INFO /talker_21698_1642692934181 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642692974.39
+1642692978.402146100 INFO /talker_21698_1642692934181 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642692978.4
+1642692982.403084993 INFO /talker_21698_1642692934181 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642692982.4
+1642692986.402734041 INFO /talker_21698_1642692934181 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642692986.4
+1642692990.401828050 INFO /talker_21698_1642692934181 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642692990.4
+1642692994.402704000 INFO /talker_21698_1642692934181 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642692994.4
+1642692998.402738094 INFO /talker_21698_1642692934181 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642692998.4
+1642693002.399777889 INFO /talker_21698_1642692934181 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642693002.39
+1642693006.402524948 INFO /talker_21698_1642692934181 [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642693006.4

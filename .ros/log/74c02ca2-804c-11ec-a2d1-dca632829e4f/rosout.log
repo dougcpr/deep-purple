@@ -1,0 +1,1025 @@
+
+
+1643382642.379684272  Node Startup
+1643382647.938946962 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382647.94
+1643382648.726243019 INFO /link_ros [threading.py:754(Thread.run)] [topics: /rosout] [FREEDOM] Starting to listen to topic: /chatter
+1643382648.745311975 INFO /link_ros [threading.py:754(Thread.run)] [topics: /chatter, /rosout] [FREEDOM] Starting to listen to topic: /rosout_agg
+1643382649.683912038 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /chatter, /rosout, /rosout_agg] [FREEDOM] Completed initializing LinkROS
+1643382748.816526889 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382748.81
+1643382748.820998907 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382748.81
+1643382750.772731065 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /chatter, /rosout, /rosout_agg, /tf] [FREEDOM] Starting to listen to topic: /image_raw
+1643382752.819386005 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382752.81
+1643382752.828447103 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382752.81
+1643382756.821671962 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382756.82
+1643382756.829524993 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382756.82
+1643382760.819904088 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382760.82
+1643382760.824959993 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382760.82
+1643382764.820163965 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382764.82
+1643382764.825649976 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382764.82
+1643382768.821003913 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382768.82
+1643382768.835364103 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382768.82
+1643382772.817415952 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382772.81
+1643382772.821681976 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382772.81
+1643382775.019160032 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout_agg, /image_raw, /chatter, /rosout, /tf] [FREEDOM] Topic not found. No one is publishing on it currently. Will create the first publisher: /move_base/cancel
+1643382775.026633024 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /move_base/cancel, /rosout_agg, /image_raw, /chatter, /rosout, /tf] [FREEDOM] Starting to listen to topic: /move_base/cancel
+1643382775.600142002 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /move_base/cancel, /rosout_agg, /image_raw, /chatter, /rosout, /tf] [FREEDOM] Topic not found. No one is publishing on it currently. Will create the first publisher: /cmd_vel
+1643382775.607748985 INFO /link_ros [threading.py:754(Thread.run)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] [FREEDOM] Starting to listen to topic: /cmd_vel
+1643382776.821533918 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382776.82
+1643382776.828378915 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382776.82
+1643382780.819376945 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382780.81
+1643382780.824796915 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382780.81
+1643382784.819354057 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382784.82
+1643382784.826102018 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382784.82
+1643382788.817915916 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382788.81
+1643382788.822566032 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382788.81
+1643382792.816525936 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382792.81
+1643382792.822604894 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382792.81
+1643382796.817812919 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382796.81
+1643382796.823677062 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382796.81
+1643382800.818150043 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382800.81
+1643382800.824553966 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382800.81
+1643382804.821319103 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382804.82
+1643382804.828042030 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382804.82
+1643382808.822325944 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382808.82
+1643382808.827590942 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382808.82
+1643382811.129036903 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] [FREEDOM] received ROS command which was not formatted correctly for a message on topic: /chatter of type: std_msgs/String : ROS message type "std_msgs/String" has no field named "test"
+1643382811.135114908 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] EXPECTED FORMAT: 
+{
+    "data": ""
+}
+1643382811.139617919 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] RECEIVED FORMAT: 
+{
+    "test": "hello world"
+}
+1643382812.819402933 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382812.82
+1643382812.824043989 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382812.82
+1643382816.819967985 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382816.81
+1643382816.826803922 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382816.81
+1643382820.817907094 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382820.81
+1643382820.824372053 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382820.81
+1643382824.819993972 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382824.82
+1643382824.825511932 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382824.82
+1643382828.820975065 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382828.82
+1643382828.826529026 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382828.82
+1643382832.820045948 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382832.82
+1643382832.824911117 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382832.82
+1643382836.820986032 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382836.82
+1643382836.826098918 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382836.82
+1643382840.820207118 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382840.81
+1643382840.826666116 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382840.81
+1643382842.657026052 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] [FREEDOM] received ROS command which was not formatted correctly for a message on topic: /chatter of type: std_msgs/String : ROS message type "std_msgs/String" has no field named "test"
+1643382842.666820049 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] EXPECTED FORMAT: 
+{
+    "data": ""
+}
+1643382842.671713113 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] RECEIVED FORMAT: 
+{
+    "test": "hello world"
+}
+1643382844.820749998 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382844.82
+1643382844.827521085 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382844.82
+1643382848.826251029 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382848.82
+1643382848.832633972 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382848.82
+1643382852.822352886 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382852.82
+1643382852.829979896 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382852.82
+1643382856.822257041 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382856.82
+1643382856.828602075 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382856.82
+1643382860.822289943 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382860.82
+1643382860.828206062 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382860.82
+1643382864.824069976 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382864.82
+1643382864.830882072 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382864.82
+1643382868.821573019 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382868.82
+1643382868.828681945 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382868.82
+1643382872.819395065 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382872.81
+1643382872.826018095 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382872.81
+1643382876.820267915 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382876.81
+1643382876.825983047 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382876.81
+1643382880.821430921 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382880.82
+1643382880.827172994 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382880.82
+1643382884.819820880 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382884.82
+1643382884.830528974 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382884.82
+1643382888.819374084 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382888.82
+1643382888.826984882 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382888.82
+1643382892.818811893 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382892.81
+1643382892.827605962 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382892.81
+1643382896.819586038 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382896.81
+1643382896.831402063 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382896.81
+1643382900.818085908 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382900.81
+1643382900.826584100 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382900.81
+1643382904.822622060 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382904.82
+1643382904.826883077 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382904.82
+1643382908.819760084 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382908.81
+1643382908.825068950 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382908.81
+1643382912.818842887 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382912.82
+1643382912.823576927 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382912.82
+1643382916.821186065 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382916.82
+1643382916.825126886 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382916.82
+1643382920.819437980 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382920.82
+1643382920.823714971 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382920.82
+1643382924.819634914 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382924.82
+1643382924.823753118 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382924.82
+1643382928.816442012 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382928.81
+1643382928.821655035 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382928.81
+1643382932.818954944 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382932.82
+1643382932.823198080 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382932.82
+1643382936.819005012 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382936.82
+1643382936.824013948 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382936.82
+1643382940.819900035 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382940.82
+1643382940.825016975 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382940.82
+1643382944.816991090 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382944.81
+1643382944.823400020 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382944.81
+1643382948.819016933 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382948.81
+1643382948.825649976 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382948.81
+1643382952.816219091 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382952.81
+1643382952.821528911 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382952.81
+1643382956.820869922 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382956.82
+1643382956.826515913 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382956.82
+1643382960.817344903 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382960.81
+1643382960.824275016 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382960.81
+1643382964.820697069 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382964.82
+1643382964.825983047 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382964.82
+1643382968.821804046 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382968.82
+1643382968.826967954 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382968.82
+1643382972.817084074 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382972.81
+1643382972.822310924 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382972.81
+1643382976.821599960 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382976.82
+1643382976.828676939 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382976.82
+1643382980.821449041 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382980.82
+1643382980.826962947 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382980.82
+1643382984.820441007 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382984.82
+1643382984.826309919 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382984.82
+1643382988.821947097 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382988.82
+1643382988.827188014 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382988.82
+1643382992.820801973 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382992.82
+1643382992.827397108 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382992.82
+1643382996.817739963 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643382996.81
+1643382996.822155952 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643382996.81
+1643383000.821834087 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383000.82
+1643383000.829467058 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383000.82
+1643383004.821937084 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383004.82
+1643383004.827032089 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383004.82
+1643383008.821566104 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383008.82
+1643383008.828603029 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383008.82
+1643383012.819067001 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383012.82
+1643383012.824074983 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383012.82
+1643383016.821268081 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383016.82
+1643383016.827955007 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383016.82
+1643383020.816499948 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383020.81
+1643383020.825289964 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383020.81
+1643383024.820866107 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383024.82
+1643383024.825993061 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383024.82
+1643383028.818938970 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383028.82
+1643383028.823949098 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383028.82
+1643383032.820034980 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383032.81
+1643383032.825517892 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383032.81
+1643383036.821901082 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383036.82
+1643383036.827930927 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383036.82
+1643383040.820276021 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383040.81
+1643383040.826170921 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383040.81
+1643383044.817715883 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383044.81
+1643383044.824237108 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383044.81
+1643383048.819816112 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383048.81
+1643383048.828146934 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383048.81
+1643383052.818250894 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383052.81
+1643383052.823410987 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383052.81
+1643383056.821918010 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383056.82
+1643383056.826073884 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383056.82
+1643383060.821304082 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383060.82
+1643383060.827827930 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383060.82
+1643383064.816754102 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383064.81
+1643383064.821531057 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383064.81
+1643383068.819190025 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383068.82
+1643383068.823596954 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383068.82
+1643383072.818438053 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383072.81
+1643383072.826432943 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383072.81
+1643383076.821904897 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383076.82
+1643383076.827194929 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383076.82
+1643383080.820720911 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383080.81
+1643383080.825975894 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383080.81
+1643383084.818497896 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383084.81
+1643383084.824810028 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383084.81
+1643383088.818412065 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383088.81
+1643383088.823682069 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383088.81
+1643383092.822173118 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383092.82
+1643383092.829602956 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383092.82
+1643383096.818775892 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383096.81
+1643383096.826714992 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383096.81
+1643383098.059299945 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world
+1643383100.822195053 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383100.82
+1643383100.829948902 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383100.82
+1643383104.821600914 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383104.82
+1643383104.828833103 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383104.82
+1643383108.821140050 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383108.82
+1643383108.828741073 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383108.82
+1643383112.821067094 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383112.82
+1643383112.828928947 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383112.82
+1643383116.821768999 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383116.82
+1643383116.828982114 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383116.82
+1643383120.818474054 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383120.81
+1643383120.824039936 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383120.81
+1643383124.822115898 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383124.82
+1643383124.828263044 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383124.82
+1643383127.503854036 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world
+1643383128.821224927 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383128.81
+1643383128.828145027 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383128.81
+1643383132.820470094 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383132.82
+1643383132.825093030 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383132.82
+1643383136.816963911 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383136.81
+1643383136.822362899 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383136.81
+1643383140.819195985 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383140.81
+1643383140.827171087 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383140.81
+1643383144.820821046 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383144.81
+1643383144.832421064 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383144.81
+1643383148.817346096 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383148.81
+1643383148.822139978 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383148.81
+1643383152.816966056 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383152.81
+1643383152.832180023 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383152.81
+1643383156.817306041 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383156.81
+1643383156.824414014 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383156.81
+1643383160.819338083 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383160.82
+1643383160.824815034 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383160.82
+1643383164.816813945 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383164.81
+1643383164.822108030 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383164.81
+1643383168.819156885 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383168.82
+1643383168.825092077 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383168.82
+1643383172.817012071 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383172.81
+1643383172.822196006 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383172.81
+1643383176.818579912 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383176.81
+1643383176.823904991 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383176.81
+1643383180.817250967 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383180.81
+1643383180.823096036 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383180.81
+1643383184.817032098 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383184.81
+1643383184.822326898 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383184.81
+1643383188.820385932 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383188.82
+1643383188.831294059 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383188.82
+1643383192.819176912 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383192.81
+1643383192.825958967 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383192.81
+1643383196.817959070 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383196.81
+1643383196.823487043 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383196.81
+1643383200.819705009 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383200.81
+1643383200.826509952 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383200.81
+1643383204.819041967 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383204.82
+1643383204.824207067 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383204.82
+1643383208.817643880 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383208.81
+1643383208.822978019 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383208.81
+1643383212.817150115 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383212.81
+1643383212.821949958 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383212.81
+1643383216.819137096 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383216.82
+1643383216.827626943 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383216.82
+1643383220.816804885 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383220.81
+1643383220.821683883 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383220.81
+1643383224.817014932 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383224.81
+1643383224.822240114 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383224.81
+1643383228.818584918 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383228.81
+1643383228.829231977 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383228.81
+1643383232.818468093 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383232.82
+1643383232.822652101 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383232.82
+1643383236.819895982 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383236.82
+1643383236.825336933 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383236.82
+1643383240.821636915 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383240.82
+1643383240.827238082 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383240.82
+1643383244.821489095 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383244.82
+1643383244.828273057 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383244.82
+1643383248.822357892 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383248.82
+1643383248.828687906 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383248.82
+1643383252.820924997 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383252.82
+1643383252.826622009 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383252.82
+1643383256.820837020 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383256.82
+1643383256.826769113 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383256.82
+1643383260.821203947 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383260.82
+1643383260.826749086 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383260.82
+1643383264.820852994 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383264.82
+1643383264.826282978 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383264.82
+1643383268.819428920 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383268.81
+1643383268.825947046 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383268.81
+1643383272.819848060 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383272.81
+1643383272.825916051 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383272.81
+1643383276.816500902 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383276.81
+1643383276.821003913 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383276.81
+1643383280.820077896 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383280.81
+1643383280.827205896 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383280.81
+1643383284.821501970 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383284.82
+1643383284.828162908 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383284.82
+1643383288.820071935 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383288.82
+1643383288.827308893 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383288.82
+1643383292.822433948 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383292.82
+1643383292.827893972 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383292.82
+1643383296.821167945 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383296.82
+1643383296.831027030 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383296.82
+1643383300.820420980 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383300.82
+1643383300.829149007 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383300.82
+1643383304.820677995 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383304.82
+1643383304.828041076 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383304.82
+1643383308.818099975 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383308.81
+1643383308.826103925 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383308.81
+1643383312.818237066 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383312.81
+1643383312.827979087 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383312.81
+1643383316.820024967 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383316.81
+1643383316.827346086 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383316.81
+1643383320.822419881 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383320.82
+1643383320.829029083 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383320.82
+1643383324.820295095 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383324.82
+1643383324.824955940 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383324.82
+1643383328.820756912 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383328.82
+1643383328.826570034 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383328.82
+1643383332.820225954 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383332.82
+1643383332.825053930 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383332.82
+1643383336.818334102 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383336.82
+1643383336.823637008 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383336.82
+1643383340.817023992 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383340.81
+1643383340.822500944 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383340.81
+1643383344.817573070 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383344.81
+1643383344.822693109 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383344.81
+1643383348.819078922 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383348.82
+1643383348.824559926 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383348.82
+1643383352.818012952 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383352.81
+1643383352.824064016 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383352.81
+1643383356.816911935 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383356.81
+1643383356.821809053 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383356.81
+1643383360.818397045 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383360.81
+1643383360.823951959 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383360.81
+1643383364.819278001 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383364.81
+1643383364.830015897 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383364.81
+1643383368.820473909 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383368.82
+1643383368.829401969 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383368.82
+1643383372.816896915 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383372.81
+1643383372.822221040 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383372.81
+1643383376.818062067 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383376.81
+1643383376.823507070 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383376.81
+1643383380.817117929 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383380.81
+1643383380.823091983 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383380.81
+1643383384.817589998 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383384.81
+1643383384.822401046 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383384.81
+1643383388.819331884 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383388.82
+1643383388.823534011 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383388.82
+1643383392.817682981 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383392.81
+1643383392.822489976 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383392.81
+1643383396.817076921 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383396.81
+1643383396.822750091 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383396.81
+1643383400.820135116 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383400.82
+1643383400.824784040 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383400.82
+1643383404.816737890 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383404.81
+1643383404.821301937 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383404.81
+1643383408.818953037 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383408.82
+1643383408.823060035 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383408.82
+1643383412.821038007 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383412.82
+1643383412.826915979 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383412.82
+1643383416.817483901 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383416.81
+1643383416.823239088 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383416.81
+1643383420.819557905 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383420.82
+1643383420.824877023 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383420.82
+1643383424.816576004 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383424.81
+1643383424.821883916 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383424.81
+1643383428.817015886 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383428.81
+1643383428.822318077 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383428.81
+1643383432.819065093 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383432.82
+1643383432.823538064 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383432.82
+1643383436.818382978 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383436.82
+1643383436.823003053 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383436.82
+1643383440.818339109 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383440.82
+1643383440.823935031 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383440.82
+1643383444.821981906 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383444.82
+1643383444.828553915 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383444.82
+1643383448.816920042 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383448.81
+1643383448.823584079 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383448.81
+1643383452.816899061 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383452.81
+1643383452.821542978 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383452.81
+1643383456.820132017 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383456.82
+1643383456.825649976 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383456.82
+1643383460.821014881 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383460.82
+1643383460.826369047 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383460.82
+1643383464.816648960 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383464.81
+1643383464.820743083 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383464.81
+1643383468.818919897 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383468.81
+1643383468.825588941 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383468.81
+1643383472.818300962 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383472.81
+1643383472.824006080 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383472.81
+1643383476.816570043 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383476.81
+1643383476.821275949 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383476.81
+1643383480.819961071 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383480.82
+1643383480.825527906 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383480.82
+1643383484.822103977 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383484.82
+1643383484.827563047 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383484.82
+1643383488.819144964 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383488.82
+1643383488.824083089 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383488.82
+1643383492.819952011 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383492.82
+1643383492.825299978 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383492.82
+1643383496.819994926 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383496.82
+1643383496.824073076 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383496.82
+1643383500.825217962 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383500.82
+1643383500.830915927 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383500.82
+1643383504.815979957 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383504.81
+1643383504.820761919 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383504.81
+1643383508.816461086 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383508.81
+1643383508.820977926 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383508.81
+1643383512.822159051 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383512.82
+1643383512.829514980 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383512.82
+1643383516.818090915 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383516.81
+1643383516.823812961 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383516.81
+1643383520.818238019 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383520.81
+1643383520.826459884 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383520.81
+1643383524.819070100 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383524.81
+1643383524.826268911 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383524.81
+1643383528.820501089 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383528.81
+1643383528.829214096 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383528.81
+1643383532.822418928 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383532.82
+1643383532.827955961 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383532.82
+1643383536.818586111 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383536.81
+1643383536.823370933 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383536.81
+1643383540.815231084 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383540.81
+1643383540.819425106 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383540.81
+1643383544.818739891 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383544.82
+1643383544.822808980 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383544.82
+1643383548.818562030 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383548.81
+1643383548.823496103 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383548.81
+1643383552.817178010 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383552.81
+1643383552.821969985 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383552.81
+1643383556.817770004 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383556.81
+1643383556.825578927 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383556.81
+1643383560.817938089 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383560.81
+1643383560.823285102 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383560.81
+1643383564.821784973 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383564.82
+1643383564.828223943 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383564.82
+1643383568.819068908 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383568.81
+1643383568.825474977 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383568.81
+1643383572.820990085 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383572.82
+1643383572.826265096 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383572.82
+1643383576.819937944 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383576.82
+1643383576.825203895 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383576.82
+1643383580.819180965 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383580.82
+1643383580.823385953 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383580.82
+1643383584.819092988 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383584.82
+1643383584.823158979 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383584.82
+1643383588.819622993 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383588.82
+1643383588.824430942 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383588.82
+1643383592.817521095 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383592.81
+1643383592.823118925 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383592.81
+1643383596.819768905 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383596.82
+1643383596.824280977 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383596.82
+1643383600.819700956 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383600.81
+1643383600.825706958 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383600.81
+1643383604.820336103 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383604.82
+1643383604.827521085 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383604.82
+1643383608.822021961 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383608.82
+1643383608.831095933 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383608.82
+1643383612.816550970 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383612.81
+1643383612.820545911 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383612.81
+1643383616.820285081 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383616.82
+1643383616.826859951 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383616.82
+1643383620.816435098 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383620.81
+1643383620.821732997 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383620.81
+1643383624.819819927 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383624.82
+1643383624.824660062 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383624.82
+1643383628.819530010 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383628.82
+1643383628.824232101 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383628.82
+1643383632.817979097 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383632.81
+1643383632.823636054 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383632.81
+1643383636.818944931 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383636.81
+1643383636.824321031 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383636.81
+1643383640.821321964 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383640.82
+1643383640.828417062 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383640.82
+1643383644.821882963 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383644.82
+1643383644.828154087 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383644.82
+1643383648.818464994 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383648.82
+1643383648.822679042 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383648.82
+1643383652.819314002 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383652.82
+1643383652.824685096 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383652.82
+1643383656.819334983 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383656.82
+1643383656.824028968 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383656.82
+1643383660.816637992 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383660.81
+1643383660.820671081 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383660.81
+1643383664.820095062 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383664.82
+1643383664.824785947 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383664.82
+1643383668.817011117 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383668.81
+1643383668.822109937 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383668.81
+1643383672.818573951 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383672.81
+1643383672.823818922 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383672.81
+1643383676.820966958 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383676.82
+1643383676.828126907 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383676.82
+1643383680.817856073 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383680.81
+1643383680.823160886 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383680.81
+1643383684.822134971 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383684.82
+1643383684.827980995 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383684.82
+1643383688.819072961 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383688.82
+1643383688.825236082 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383688.82
+1643383692.817878007 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383692.81
+1643383692.824238061 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383692.81
+1643383696.820311069 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383696.81
+1643383696.827713012 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383696.81
+1643383700.817094087 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383700.81
+1643383700.822698116 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383700.81
+1643383704.818063020 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383704.81
+1643383704.823076009 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383704.81
+1643383708.820373058 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383708.82
+1643383708.825959920 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383708.82
+1643383712.822197914 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383712.82
+1643383712.828675985 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383712.82
+1643383716.821043014 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383716.82
+1643383716.829036951 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383716.82
+1643383720.821496009 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383720.82
+1643383720.828316926 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383720.82
+1643383724.820036888 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383724.82
+1643383724.825162887 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383724.82
+1643383728.816471099 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383728.81
+1643383728.820533990 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383728.81
+1643383732.816961050 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383732.81
+1643383732.821657896 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383732.81
+1643383736.819633960 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383736.82
+1643383736.826386928 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383736.82
+1643383740.818739891 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383740.81
+1643383740.828314065 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383740.81
+1643383744.824145078 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383744.82
+1643383744.831115007 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383744.82
+1643383748.819966077 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383748.82
+1643383748.824376106 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383748.82
+1643383752.821415901 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383752.82
+1643383752.827202081 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383752.82
+1643383756.819349050 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383756.82
+1643383756.824084043 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383756.82
+1643383760.819909095 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383760.82
+1643383760.825603961 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383760.82
+1643383764.817461013 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383764.81
+1643383764.822669982 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383764.81
+1643383768.819102048 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383768.82
+1643383768.824362993 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383768.82
+1643383772.819683074 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383772.82
+1643383772.825635910 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383772.82
+1643383776.816975116 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383776.81
+1643383776.821746110 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383776.81
+1643383780.819360971 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383780.82
+1643383780.823561906 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383780.82
+1643383784.820348978 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383784.81
+1643383784.827826023 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383784.81
+1643383788.819530963 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383788.82
+1643383788.826706886 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383788.82
+1643383792.818092107 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383792.81
+1643383792.823297023 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383792.81
+1643383796.817789077 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383796.81
+1643383796.823759078 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383796.81
+1643383800.819119930 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383800.82
+1643383800.823175907 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383800.82
+1643383804.820143938 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383804.82
+1643383804.825130939 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383804.82
+1643383808.830724954 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383808.82
+1643383808.852541923 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383808.82
+1643383812.817038059 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383812.81
+1643383812.821793079 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383812.81
+1643383816.817097902 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383816.81
+1643383816.822135925 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383816.81
+1643383820.821346998 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383820.81
+1643383820.828574895 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383820.81
+1643383824.820677995 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383824.82
+1643383824.827804088 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383824.82
+1643383828.822061061 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383828.82
+1643383828.828196048 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383828.82
+1643383832.816617012 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383832.81
+1643383832.821654081 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383832.81
+1643383836.821208000 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383836.82
+1643383836.829567909 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383836.82
+1643383840.817811965 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383840.81
+1643383840.821950912 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383840.81
+1643383844.817646980 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383844.81
+1643383844.822451114 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383844.81
+1643383848.817051887 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383848.81
+1643383848.822603940 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383848.81
+1643383852.820142984 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383852.82
+1643383852.824989080 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383852.82
+1643383856.822252035 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383856.82
+1643383856.828444957 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383856.82
+1643383860.817859888 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383860.81
+1643383860.823766946 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383860.81
+1643383864.817028999 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383864.81
+1643383864.821222066 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383864.81
+1643383868.820804119 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383868.82
+1643383868.826956033 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383868.82
+1643383872.818878889 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383872.81
+1643383872.824460029 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383872.81
+1643383876.816888093 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383876.81
+1643383876.822540998 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383876.81
+1643383880.816828966 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383880.81
+1643383880.822228908 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383880.81
+1643383884.820588111 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383884.81
+1643383884.826591968 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383884.81
+1643383888.816870927 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383888.81
+1643383888.821774005 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383888.81
+1643383892.821212053 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383892.82
+1643383892.827301979 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383892.82
+1643383896.819777011 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383896.82
+1643383896.826536893 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383896.82
+1643383900.817720890 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383900.81
+1643383900.823084115 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383900.81
+1643383904.820332050 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383904.82
+1643383904.826769113 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383904.82
+1643383908.819744110 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383908.82
+1643383908.824475049 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383908.82
+1643383912.815622091 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383912.81
+1643383912.820339918 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383912.81
+1643383916.817009925 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383916.81
+1643383916.822318077 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383916.81
+1643383920.817004919 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383920.81
+1643383920.821758031 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383920.81
+1643383924.818094968 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383924.81
+1643383924.823056936 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383924.81
+1643383928.822556018 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383928.82
+1643383928.829777002 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383928.82
+1643383932.821335077 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383932.82
+1643383932.826644897 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383932.82
+1643383936.818284988 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383936.81
+1643383936.823542118 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383936.81
+1643383940.816581010 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383940.81
+1643383940.820753097 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383940.81
+1643383944.819889068 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383944.82
+1643383944.825716972 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383944.82
+1643383948.816637039 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383948.81
+1643383948.820883035 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383948.81
+1643383952.817406892 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383952.81
+1643383952.822957992 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383952.81
+1643383956.818408012 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383956.81
+1643383956.823033094 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383956.81
+1643383960.839281082 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383960.82
+1643383960.851288080 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383960.82
+1643383964.820421934 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383964.81
+1643383964.826721906 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383964.81
+1643383968.817142963 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383968.81
+1643383968.822964906 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383968.81
+1643383972.817137002 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383972.81
+1643383972.821971893 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383972.81
+1643383976.820945978 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383976.82
+1643383976.826502084 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383976.82
+1643383980.820154905 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383980.81
+1643383980.828326940 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383980.81
+1643383984.818279027 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383984.81
+1643383984.823501110 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383984.81
+1643383988.819252014 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383988.82
+1643383988.824345111 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383988.82
+1643383992.816890954 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383992.81
+1643383992.822310924 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383992.81
+1643383996.818692922 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643383996.81
+1643383996.824546098 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643383996.81
+1643384000.820266962 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384000.81
+1643384000.827702999 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384000.81
+1643384004.815946102 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384004.81
+1643384004.821206092 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384004.81
+1643384008.819538116 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384008.82
+1643384008.824280023 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384008.82
+1643384012.817821025 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384012.81
+1643384012.823331117 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384012.81
+1643384016.819154024 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384016.82
+1643384016.823199033 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384016.82
+1643384020.817564010 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384020.81
+1643384020.822712898 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384020.81
+1643384024.820482969 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384024.81
+1643384024.830876111 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384024.81
+1643384028.816991090 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384028.81
+1643384028.821734905 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384028.81
+1643384032.818433046 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384032.81
+1643384032.824624061 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384032.81
+1643384036.822978019 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384036.82
+1643384036.828895092 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384036.82
+1643384040.819470882 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384040.82
+1643384040.824661016 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384040.82
+1643384044.820369005 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384044.82
+1643384044.827100038 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384044.82
+1643384048.820926904 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384048.82
+1643384048.826620101 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384048.82
+1643384052.819184064 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384052.82
+1643384052.825349092 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384052.82
+1643384056.818698883 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384056.82
+1643384056.822782993 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384056.82
+1643384060.818186998 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384060.81
+1643384060.822650909 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384060.81
+1643384064.817444086 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384064.81
+1643384064.821906089 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384064.81
+1643384068.819277048 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384068.81
+1643384068.826982021 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384068.81
+1643384072.821424961 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384072.82
+1643384072.827254056 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384072.82
+1643384076.820029020 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384076.82
+1643384076.825421094 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384076.82
+1643384080.818188905 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384080.81
+1643384080.823033094 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384080.81
+1643384084.816077947 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384084.81
+1643384084.821615934 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384084.81
+1643384088.819344997 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384088.81
+1643384088.825632095 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384088.81
+1643384092.816967964 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384092.81
+1643384092.821455001 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384092.81
+1643384096.816874980 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384096.81
+1643384096.822055101 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384096.81
+1643384100.817624092 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384100.81
+1643384100.824753046 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384100.81
+1643384104.817775964 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384104.81
+1643384104.825048923 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384104.81
+1643384108.820331096 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384108.81
+1643384108.826664924 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384108.81
+1643384112.820193052 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384112.81
+1643384112.827112913 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384112.81
+1643384116.817131996 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384116.81
+1643384116.822225093 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384116.81
+1643384120.817564010 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384120.81
+1643384120.822813034 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384120.81
+1643384124.819498062 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384124.82
+1643384124.824901103 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384124.82
+1643384128.819637060 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384128.82
+1643384128.825599908 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384128.82
+1643384132.819195032 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384132.81
+1643384132.825412034 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384132.81
+1643384136.819716930 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384136.81
+1643384136.825719118 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384136.81
+1643384140.821010112 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384140.82
+1643384140.826093912 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384140.82
+1643384144.817212104 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384144.81
+1643384144.824358940 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384144.81
+1643384148.817709922 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384148.81
+1643384148.823302984 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384148.81
+1643384152.822650909 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384152.82
+1643384152.831479072 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384152.82
+1643384156.816847085 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384156.81
+1643384156.822324037 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384156.81
+1643384160.816986083 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384160.81
+1643384160.821304082 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384160.81
+1643384164.818511009 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384164.81
+1643384164.828037977 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384164.81
+1643384168.820297002 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384168.81
+1643384168.825292110 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384168.81
+1643384172.819619894 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384172.81
+1643384172.825757026 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384172.81
+1643384176.820473909 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384176.82
+1643384176.826195955 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384176.82
+1643384180.817965030 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384180.81
+1643384180.825193881 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384180.81
+1643384184.817673921 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384184.81
+1643384184.823126077 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384184.81
+1643384188.817079067 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384188.81
+1643384188.822304964 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384188.81
+1643384192.819020986 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384192.82
+1643384192.823822021 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384192.82
+1643384196.816930055 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384196.81
+1643384196.822478055 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384196.81
+1643384200.819869041 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384200.82
+1643384200.825839996 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384200.82
+1643384204.817806005 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384204.81
+1643384204.822618007 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384204.81
+1643384208.820183992 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384208.82
+1643384208.826922893 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384208.82
+1643384212.820482969 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384212.81
+1643384212.828298091 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384212.81
+1643384216.818696975 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384216.82
+1643384216.826611042 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384216.82
+1643384220.820521116 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384220.82
+1643384220.826138973 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384220.82
+1643384224.820102930 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384224.82
+1643384224.826767921 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384224.82
+1643384228.818928956 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384228.82
+1643384228.823287010 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384228.82
+1643384232.817179918 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384232.81
+1643384232.821896076 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384232.81
+1643384236.818023920 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384236.81
+1643384236.822863101 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384236.81
+1643384240.817284107 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384240.81
+1643384240.822396039 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384240.81
+1643384244.820096969 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384244.82
+1643384244.824950933 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384244.82
+1643384248.822839021 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384248.82
+1643384248.828723907 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384248.82
+1643384252.823499917 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384252.81
+1643384252.833050966 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384252.81
+1643384256.817281007 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384256.81
+1643384256.822617053 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384256.81
+1643384260.820131063 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384260.82
+1643384260.825421094 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384260.82
+1643384264.820137977 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384264.82
+1643384264.825745105 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384264.82
+1643384268.819129943 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384268.82
+1643384268.823292970 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384268.82
+1643384272.817785024 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384272.81
+1643384272.822603940 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384272.81
+1643384276.816909074 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384276.81
+1643384276.821706056 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384276.81
+1643384280.816905021 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384280.81
+1643384280.821619987 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384280.81
+1643384284.818996906 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384284.81
+1643384284.825253963 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384284.81
+1643384288.820194005 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384288.82
+1643384288.827480077 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384288.82
+1643384292.820945024 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384292.82
+1643384292.826411008 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384292.82
+1643384296.818366050 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384296.81
+1643384296.823616027 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384296.81
+1643384300.818270921 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384300.81
+1643384300.823215961 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384300.81
+1643384304.819411039 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384304.82
+1643384304.823827981 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384304.82
+1643384308.816838979 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384308.81
+1643384308.821619987 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384308.81
+1643384312.817080974 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384312.81
+1643384312.821923017 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384312.81
+1643384316.818124055 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384316.81
+1643384316.822834014 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384316.81
+1643384320.818135023 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384320.81
+1643384320.826513051 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384320.81
+1643384324.819499969 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384324.81
+1643384324.825644016 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384324.81
+1643384328.820719003 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384328.81
+1643384328.827032089 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384328.81
+1643384332.817485094 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384332.81
+1643384332.822784900 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384332.81
+1643384336.816970109 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384336.81
+1643384336.823086977 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384336.81
+1643384340.819725036 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384340.82
+1643384340.833987951 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384340.82
+1643384344.822213888 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384344.81
+1643384344.830488920 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384344.81
+1643384348.819498062 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384348.82
+1643384348.824395895 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384348.82
+1643384352.819716930 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384352.81
+1643384352.824361085 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384352.81
+1643384356.818572044 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384356.81
+1643384356.830548048 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384356.81
+1643384360.822760105 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384360.82
+1643384360.841329097 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384360.82
+1643384364.819091081 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384364.81
+1643384364.825112104 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384364.81
+1643384368.816766023 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384368.81
+1643384368.821789026 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384368.81
+1643384372.819552898 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384372.82
+1643384372.824309110 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384372.82
+1643384376.817500114 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384376.81
+1643384376.823781013 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384376.81
+1643384380.819508075 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384380.82
+1643384380.826272010 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384380.82
+1643384384.821333885 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384384.81
+1643384384.830811023 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384384.81
+1643384388.818696022 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384388.81
+1643384388.825869083 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384388.81
+1643384392.818100929 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384392.81
+1643384392.826692104 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384392.81
+1643384396.819619894 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1643384396.82
+1643384396.827006101 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard hello world 1643384396.82
+1643386637.433471918 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386638.452065944 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386639.457672119 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386641.466645002 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386645.478154897 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386653.487632989 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386715.362221956 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386716.374391078 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386717.382064104 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386719.303091049 ERROR /listener [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /chatter, /rosout] bad callback: <function callback at 0xffffaafd35d0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 12, in callback
+    rospy.loginfo(rospy.get_caller_id() + 'I heard %s', data.data)
+AttributeError: 'SweeperCmdMsg' object has no attribute 'data'
+
+1643386719.388703107 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386723.301233053 ERROR /listener [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /chatter, /rosout] bad callback: <function callback at 0xffffaafd35d0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 12, in callback
+    rospy.loginfo(rospy.get_caller_id() + 'I heard %s', data.data)
+AttributeError: 'SweeperCmdMsg' object has no attribute 'data'
+
+1643386723.391310930 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386727.295250892 ERROR /listener [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /chatter, /rosout] bad callback: <function callback at 0xffffaafd35d0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 12, in callback
+    rospy.loginfo(rospy.get_caller_id() + 'I heard %s', data.data)
+AttributeError: 'SweeperCmdMsg' object has no attribute 'data'
+
+1643386757.588269948 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386758.598289012 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386759.612198114 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386761.490725040 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386761.613607883 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386765.488806962 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386765.620687007 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386769.489051103 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386773.488370895 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386773.632215023 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386777.490035057 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386781.487317085 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386785.492153882 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386789.491425037 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386789.654115915 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386793.487104892 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386797.489177942 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386801.490624904 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386805.492398977 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386809.593909025 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386813.491350889 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386817.490197896 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386821.488464117 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386821.776184082 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386825.485589027 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386829.488709926 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386833.485749006 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386837.489481925 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386841.489217996 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386845.490605115 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386849.488790988 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386853.489773988 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386853.749568939 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386857.488495111 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386861.489064931 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386865.489557981 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386869.487131118 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386873.488852024 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386877.491343975 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386881.490451097 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386885.494050025 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386885.778207063 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386889.485996007 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386893.490946054 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386897.487926006 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386901.489517927 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386905.489003896 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386909.488464117 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386913.488357067 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386917.491735935 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386917.806505918 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386921.490504026 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386925.488432884 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386929.488591909 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386933.491890907 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386937.488769054 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 1
+1643386985.063302040 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386986.073584079 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386987.077862977 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643386989.084178924 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643387073.828268051 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643387074.841289997 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643387075.845113992 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643387077.829910039 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387077.852361917 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643387081.830267906 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387081.875554084 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643387085.832017898 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387089.834558963 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387089.883137941 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643387093.830858945 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387097.831300020 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387101.831315040 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387105.833012104 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387105.899394989 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643387109.833067893 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387113.833502054 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387117.834136009 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387121.834444046 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387125.833767890 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387129.833899974 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387133.833182096 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387137.832149028 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387137.929071903 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643387141.833203077 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387145.832062005 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387149.831378936 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387153.834069967 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387157.833844900 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387161.833612918 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387165.831249952 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387169.834441900 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387169.971048116 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643387173.833319902 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387177.834779977 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387181.832495927 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387185.834932088 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387189.830890893 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387193.833626031 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387196.191931009 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/rostopic_14984_1643387195925', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643387197.202910900 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/rostopic_14984_1643387195925', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643387197.830456018 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387198.206943035 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/rostopic_14984_1643387195925', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643387200.219521045 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/rostopic_14984_1643387195925', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643387201.832962989 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387201.996711969 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643387204.207087993 ERROR /link_ros [threading.py:754(Thread.run)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] [FREEDOM] Received message of a type which is not known: beginner_tutorials/SweeperCmdMsg
+1643387204.219944953 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/rostopic_14984_1643387195925', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643387205.831218004 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387209.834841012 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387212.227416038 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/rostopic_14984_1643387195925', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643387213.832207918 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387217.834239006 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387221.832437992 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387225.836895942 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387228.244996070 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/rostopic_14984_1643387195925', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643387229.832798004 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387233.832942008 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387234.031527042 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643387237.832083940 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387241.830748081 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387245.832189083 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387249.831739902 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387253.831868886 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387257.829579114 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387260.286804914 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/rostopic_14984_1643387195925', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643387261.830480098 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387265.829529047 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387266.066092967 WARN /link_ros [tcpros_base.py:349(TCPROSServer._tcp_server_callback)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /chatter, /cmd_vel] Could not process inbound connection: topic types do not match: [beginner_tutorials/SweeperCmdMsg] vs. [std_msgs/String]{'message_definition': '\nuint8 MODE_STOPPED = 0\nuint8 MODE_ON = 1\nuint8 MODE_SELF_EMPTY = 2\n\n\n##############\nuint8 mode   #\n', 'callerid': '/listener', 'tcp_nodelay': '0', 'md5sum': '8cd54b419a6b44f31c7e87885e628597', 'topic': '/chatter', 'type': 'beginner_tutorials/SweeperCmdMsg'}
+1643387269.829983949 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387273.829444885 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10
+1643387277.833447933 INFO /listener [listener.py:12(callback)] [topics: /chatter, /rosout] /listenerI heard 10

@@ -1,0 +1,111 @@
+{
+    "code": "FRA_ROS_LOOP_START", 
+    "logs": [
+        "Traceback (most recent call last):", 
+        "", 
+        "  File \"freedomrobotics/agent_base.py\", line 384, in freedomrobotics.agent_base.Agent.loop_watching_for_ros", 
+        "", 
+        "  File \"freedomrobotics/helpers/ros_helpers.py\", line 544, in freedomrobotics.helpers.ros_helpers.ROS1.import_py_modules", 
+        "", 
+        "  File \"/usr/lib/python2.7/importlib/__init__.py\", line 37, in import_module", 
+        "    __import__(name)", 
+        "", 
+        "ImportError: No module named rospy", 
+        ""
+    ], 
+    "level": "fatal", 
+    "errorMessage": "Exception in Agent starting loop watching ROS: ROS is installed but not sourced so can't shadow ROS. Please source ROS.", 
+    "component": "agent", 
+    "attributes": {
+        "extra_details": {
+            "shutting_down_agent": false, 
+            "api_errors": 0, 
+            "ros": {
+                "distribution": "melodic", 
+                "version": 1, 
+                "source_paths": [
+                    "/home/ubuntu/catkin_ws/devel/setup.bash"
+                ], 
+                "base_path": "/opt/ros/melodic"
+            }, 
+            "freeze_agent": false
+        }, 
+        "thread": {
+            "daemon": false, 
+            "name": "freedom_agent_ros_watcher_thread"
+        }, 
+        "python": {
+            "implementation": "CPython", 
+            "version": "2.7.17", 
+            "build": [
+                "default", 
+                "Feb 27 2021 15:10:58"
+            ]
+        }, 
+        "system": {
+            "linux_dist": [
+                "Ubuntu", 
+                "18.04", 
+                "bionic"
+            ], 
+            "ip": "199.241.200.231", 
+            "user": "ubuntu", 
+            "arch": "Unknown: aarch64", 
+            "service": "systemd", 
+            "hostname": "ubuntu", 
+            "environment": {
+                "ROS_DISTRO": "melodic", 
+                "ROSLISP_PACKAGE_DIRECTORIES": "/home/ubuntu/catkin_ws/devel/share/common-lisp", 
+                "LOGNAME": "ubuntu", 
+                "USER": "ubuntu", 
+                "HOME": "/home/ubuntu", 
+                "PATH": "/opt/ros/melodic/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin", 
+                "CMAKE_PREFIX_PATH": "/home/ubuntu/catkin_ws/devel:/opt/ros/melodic", 
+                "LD_LIBRARY_PATH": "/home/ubuntu/catkin_ws/devel/lib:/opt/ros/melodic/lib:/opt/ros/melodic/lib/aarch64-linux-gnu", 
+                "LANG": "C.UTF-8", 
+                "SHELL": "/bin/bash", 
+                "JOURNAL_STREAM": "9:76682432", 
+                "SHLVL": "1", 
+                "ROS_MASTER_URI": "http://localhost:11311", 
+                "ROS_PYTHON_VERSION": "2", 
+                "INVOCATION_ID": "0937cc9a75ea429f879139c218415355", 
+                "PYTHONPATH": "", 
+                "ROS_ROOT": "/opt/ros/melodic/share/ros", 
+                "PKG_CONFIG_PATH": "/home/ubuntu/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig", 
+                "ROS_PACKAGE_PATH": "/home/ubuntu/catkin_ws/src:/opt/ros/melodic/share", 
+                "_": "/usr/bin/env", 
+                "PWD": "/", 
+                "ROS_ETC_DIR": "/opt/ros/melodic/etc/ros", 
+                "ROS_VERSION": "1"
+            }, 
+            "platform": "Linux-5.4.0-1047-raspi-aarch64-with-Ubuntu-18.04-bionic", 
+            "version": "#52~18.04.1-Ubuntu SMP PREEMPT Wed Nov 24 12:29:36 UTC 2021", 
+            "release": "5.4.0-1047-raspi", 
+            "docker": false, 
+            "os": "Linux", 
+            "processor": "aarch64"
+        }, 
+        "freedom_robotics": {
+            "device": "D36F4D9E51F228A3B221D203CB1", 
+            "freedom_python_module_version": "0.1.165", 
+            "token": "***FE7395E3", 
+            "account": "A139C78C471C762F34F31F8DD", 
+            "code_branch": "release"
+        }, 
+        "geo": {
+            "city": "San Francisco", 
+            "zip": "94103", 
+            "countryCode": "US", 
+            "country": "United States", 
+            "region": "CA", 
+            "isp": "Another Corporate ISP", 
+            "lon": -122.406, 
+            "as": "AS32329 Another Corporate ISP, LLC", 
+            "query": "199.241.200.231", 
+            "org": "MonkeyBrains", 
+            "lat": 37.7771, 
+            "timezone": "America/Los_Angeles", 
+            "regionName": "California"
+        }
+    }
+}

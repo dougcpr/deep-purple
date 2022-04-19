@@ -1,0 +1,28 @@
+[7.322s] Invoking command in '/home/ubuntu/ros2_foxy/build/domain_coordinator': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_lint PATH=/home/ubuntu/ros2_foxy/install/ament_copyright/bin:/home/ubuntu/ros2_foxy/install/ament_pep257/bin:/home/ubuntu/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_foxy/install/domain_coordinator/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_copyright/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_pep257/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_flake8/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint:/home/ubuntu/ros2_foxy/install/ament_lint/lib/python3.6/site-packages /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/domain_coordinator --editable --build-directory /home/ubuntu/ros2_foxy/build/domain_coordinator/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/domain_coordinator
+[9.712s] running develop
+[9.716s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.717s]   EasyInstallDeprecationWarning,
+[9.724s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.726s]   setuptools.SetuptoolsDeprecationWarning,
+[10.143s] /home/ubuntu/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[10.144s]   PkgResourcesDeprecationWarning,
+[10.963s] running egg_info
+[10.964s] creating domain_coordinator.egg-info
+[10.965s] writing domain_coordinator.egg-info/PKG-INFO
+[10.966s] writing dependency_links to domain_coordinator.egg-info/dependency_links.txt
+[10.968s] writing requirements to domain_coordinator.egg-info/requires.txt
+[10.969s] writing top-level names to domain_coordinator.egg-info/top_level.txt
+[10.980s] writing manifest file 'domain_coordinator.egg-info/SOURCES.txt'
+[10.989s] reading manifest file 'domain_coordinator.egg-info/SOURCES.txt'
+[10.995s] writing manifest file 'domain_coordinator.egg-info/SOURCES.txt'
+[11.004s] running build_ext
+[11.005s] Creating /home/ubuntu/ros2_foxy/install/domain_coordinator/lib/python3.6/site-packages/domain-coordinator.egg-link (link to .)
+[11.013s] 
+[11.014s] Installed /home/ubuntu/ros2_foxy/build/domain_coordinator
+[11.016s] running install_data
+[11.016s] copying package.xml -> /home/ubuntu/ros2_foxy/install/domain_coordinator/share/domain_coordinator
+[11.018s] creating /home/ubuntu/ros2_foxy/install/domain_coordinator/share/ament_index
+[11.019s] creating /home/ubuntu/ros2_foxy/install/domain_coordinator/share/ament_index/resource_index
+[11.020s] creating /home/ubuntu/ros2_foxy/install/domain_coordinator/share/ament_index/resource_index/packages
+[11.021s] copying resource/domain_coordinator -> /home/ubuntu/ros2_foxy/install/domain_coordinator/share/ament_index/resource_index/packages
+[11.183s] Invoked command in '/home/ubuntu/ros2_foxy/build/domain_coordinator' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_lint PATH=/home/ubuntu/ros2_foxy/install/ament_copyright/bin:/home/ubuntu/ros2_foxy/install/ament_pep257/bin:/home/ubuntu/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_foxy/install/domain_coordinator/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_copyright:/home/ubuntu/ros2_foxy/install/ament_copyright/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_pep257:/home/ubuntu/ros2_foxy/install/ament_pep257/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_flake8:/home/ubuntu/ros2_foxy/install/ament_flake8/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint:/home/ubuntu/ros2_foxy/install/ament_lint/lib/python3.6/site-packages /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/domain_coordinator --editable --build-directory /home/ubuntu/ros2_foxy/build/domain_coordinator/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/domain_coordinator

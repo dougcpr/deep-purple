@@ -19,6 +19,7 @@ def publish_camera_node():
 
     # sets up publisher with /image_raw name, "read choosing a good size"
     pub = rospy.Publisher('/image_raw', Image, queue_size = 1)
+    pub_2 = rospy.Publisher('image_raw_2', Image, queue_size = 1)
 
     # initializes image node with flag to not append name. There aren't a bunch running so unique names aren't important
     rospy.init_node('image', anonymous = False)
@@ -35,9 +36,10 @@ def publish_camera_node():
         # using the bridge convert the frame into blue green red 8 bit unsigned format
         # so it can only hold positive values
         msg = bridge.cv2_to_imgmsg(frame, "bgr8")
-        
+        msg_2 = bridge.cv2_to_imgmsg(frame, "rgb8") 
         # publish the msg after converting
         pub.publish(msg)
+        pub_2.publish(msg_2)
 
         if rospy.is_shutdown():
             cap.release()

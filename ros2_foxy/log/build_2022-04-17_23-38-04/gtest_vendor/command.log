@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/ros2_foxy/build/gtest_vendor': /usr/bin/cmake /home/ubuntu/ros2_foxy/src/ament/googletest/googletest -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_foxy/install/gtest_vendor
+Invoked command in '/home/ubuntu/ros2_foxy/build/gtest_vendor' returned '0': /usr/bin/cmake /home/ubuntu/ros2_foxy/src/ament/googletest/googletest -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_foxy/install/gtest_vendor
+Invoking command in '/home/ubuntu/ros2_foxy/build/gtest_vendor': /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/gtest_vendor -- -j4 -l4
+Invoked command in '/home/ubuntu/ros2_foxy/build/gtest_vendor' returned '0': /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/gtest_vendor -- -j4 -l4
+Invoking command in '/home/ubuntu/ros2_foxy/build/gtest_vendor': /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/gtest_vendor --target install -- -j4 -l4
+Invoked command in '/home/ubuntu/ros2_foxy/build/gtest_vendor' returned '0': /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/gtest_vendor --target install -- -j4 -l4

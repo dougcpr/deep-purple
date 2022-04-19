@@ -1,0 +1,691 @@
+2021-03-30 18:57:10 [INFO ]  ################################################################################
+2021-03-30 18:57:10 [INFO ]  
+2021-03-30 18:57:10 [INFO ]  Installing FREEDOM ROBOTICS Micro Service
+2021-03-30 18:57:10 [INFO ]  
+2021-03-30 18:57:10 [INFO ]  Copyright Freedom Robotics Inc 2020. All rights reserved. Confidential.
+2021-03-30 18:57:10 [INFO ]  
+2021-03-30 18:57:10 [INFO ]  ################################################################################
+2021-03-30 18:57:10 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "whoami"
+2021-03-30 18:57:10 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s
+2021-03-30 18:57:10 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "sudo -nv"
+2021-03-30 18:57:10 [DEBUG]  		STANDARD ERROR:
+2021-03-30 18:57:10 [DEBUG]  			sudo: a password is required
+2021-03-30 18:57:10 [DEBUG]  		ERROR RESPONSE CODE: 1, EXECUTION TIME: 0.06s
+2021-03-30 18:57:10 [INFO ]  
+2021-03-30 18:57:10 [INFO ]  Please enter the sudo password to enable install to set up the
+Freedom SYSTEM SERVICE, Remote SSH, etc... for the Freedom Agent.
+(This will time out after 60 seconds and continue without installing
+the services.)
+2021-03-30 18:57:10 [INFO ]  
+2021-03-30 18:57:10 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "sudo -v"
+2021-03-30 18:57:13 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 3.71s
+2021-03-30 18:57:15 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "sudo -nv"
+2021-03-30 18:57:16 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.03s
+2021-03-30 18:57:16 [INFO ]  
+2021-03-30 18:57:16 [INFO ]  ################################################################################
+2021-03-30 18:57:16 [INFO ]  
+2021-03-30 18:57:16 [INFO ]  Step 1/7: VERIFYING PREREQUISITES
+2021-03-30 18:57:16 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -m pip &> /dev/null"
+2021-03-30 18:57:16 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.60s
+2021-03-30 18:57:16 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2021-03-30 18:57:16 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.11s
+2021-03-30 18:57:16 [DEBUG]  Using the python3 binary specified in credentials file: /usr/bin/python3. Try to remove credentials file or its `python3` item if you want the installation script to reconsider the best python3 available option.
+2021-03-30 18:57:16 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2021-03-30 18:57:17 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.10s
+2021-03-30 18:57:17 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip &> /dev/null"
+2021-03-30 18:57:18 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.99s
+2021-03-30 18:57:19 [DEBUG]  Urllib2 can be use for ssl communication.
+2021-03-30 18:57:19 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' python-dev"
+2021-03-30 18:57:19 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-03-30 18:57:19 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' python3-dev"
+2021-03-30 18:57:19 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-03-30 18:57:19 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' pkg-config"
+2021-03-30 18:57:19 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-03-30 18:57:19 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' libopus-dev"
+2021-03-30 18:57:19 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-03-30 18:57:19 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' libvpx-dev"
+2021-03-30 18:57:19 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-03-30 18:57:19 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' libffi-dev"
+2021-03-30 18:57:19 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-03-30 18:57:19 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' libssl-dev"
+2021-03-30 18:57:19 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-03-30 18:57:19 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' libsrtp2-dev"
+2021-03-30 18:57:19 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-03-30 18:57:19 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' python3-dev"
+2021-03-30 18:57:19 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-03-30 18:57:19 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pkg-config --modversion libavdevice"
+2021-03-30 18:57:19 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-03-30 18:57:19 [DEBUG]  Found library libavdevice installed at version 58.8.100
+2021-03-30 18:57:19 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pkg-config --modversion libavfilter"
+2021-03-30 18:57:19 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s
+2021-03-30 18:57:19 [DEBUG]  Found library libavfilter installed at version 7.57.100
+2021-03-30 18:57:19 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pkg-config --modversion libsrtp2"
+2021-03-30 18:57:19 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s
+2021-03-30 18:57:19 [DEBUG]  Found library libsrtp2 installed at version 2.1.0
+2021-03-30 18:57:19 [INFO ]      COMPLETE
+2021-03-30 18:57:19 [INFO ]  
+2021-03-30 18:57:19 [INFO ]  Step 2/7: INSTALLING CREDENTIALS
+2021-03-30 18:57:19 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "mkdir -p  /home/ubuntu/.config/freedomrobotics ; echo '{
+    \"device\": \"DCBCB2C933D41380633D02D59B5\", 
+    \"account\": \"AA2E4916C77670BAA7DA84BD4\", 
+    \"configuration\": {
+        \"measurements\": {
+            \"disabled\": [], 
+            \"enabled\": [
+                \"gpu\", 
+                \"network\", 
+                \"platform\", 
+                \"processes\", 
+                \"resources\", 
+                \"ros\", 
+                \"webrtc\"
+            ], 
+            \"details\": \"If a measurement is mentioned in both lists, it will be disabled, andif it is not mentioned in any of the lists, it will be enabled.\"
+        }, 
+        \"webrtc_local_port\": 5540
+    }, 
+    \"log_level\": \"INFO\", 
+    \"code_branch\": \"release\", 
+    \"url\": \"https://api.freedomrobotics.ai/\", 
+    \"secret\": \"Sfc57913d42b639293d0fcb8b\", 
+    \"token\": \"T22D6A610BFD68EC5021F8D3D\", 
+    \"python3\": \"/usr/bin/python3\", 
+    \"install_elements\": [
+        \"webrtc\"
+    ]
+}' > /home/ubuntu/.config/freedomrobotics/credentials"
+2021-03-30 18:57:19 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s
+2021-03-30 18:57:19 [INFO ]      COMPLETE
+2021-03-30 18:57:19 [INFO ]  
+2021-03-30 18:57:19 [INFO ]  Step 3/7: REMOTE CONNECTION
+2021-03-30 18:57:19 [DEBUG]  Installing Remote SSH
+2021-03-30 18:57:19 [DEBUG]      SSH Tunnel already installed
+2021-03-30 18:57:19 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/home/ubuntu/.config/freedomrobotics/ssh/ngrok authtoken 5mYNtDswTRChsKRZB7KCX_4UbxchYqyjmGGbc2Qkuc3"
+2021-03-30 18:57:19 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.32s
+2021-03-30 18:57:19 [DEBUG]      Authenticated SSH Tunnel
+2021-03-30 18:57:19 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "service_path=\$(which service) && output=\$( \$service_path ssh status ) && echo \"\$output\""
+2021-03-30 18:57:20 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.98s
+2021-03-30 18:57:20 [DEBUG]      SSH Server is already installed and running. Will skip install.
+2021-03-30 18:57:20 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "service_path=\$(which service) && output=\$( \$service_path ssh status ) && echo \"\$output\""
+2021-03-30 18:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.07s
+2021-03-30 18:57:21 [INFO ]      COMPLETE
+2021-03-30 18:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "cat /etc/ssh/sshd_config | grep PasswordAuthentication"
+2021-03-30 18:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s
+2021-03-30 18:57:21 [DEBUG]  PasswordAuthentication: ['PasswordAuthentication yes', '# PasswordAuthentication.  Depending on your PAM configuration,', '# PAM authentication, then enable this but set PasswordAuthentication']
+2021-03-30 18:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "passwd --status ubuntu"
+2021-03-30 18:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s
+2021-03-30 18:57:21 [DEBUG]  password_status: ubuntu P 02/11/2021 0 99999 7 -1
+2021-03-30 18:57:21 [DEBUG]  User `ubuntu` should be able to ssh with its password.
+2021-03-30 18:57:21 [INFO ]  
+2021-03-30 18:57:21 [DEBUG]  ROS is not installed so not checking if old version of Freedom Robotics exists.
+2021-03-30 18:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2021-03-30 18:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.05s
+2021-03-30 18:57:21 [INFO ]  Step 4/7: INSTALLING PACKAGE (python2.7)
+2021-03-30 18:57:21 [DEBUG]  Using python2.7 from path: /usr/bin/python
+2021-03-30 18:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2021-03-30 18:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-03-30 18:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -m pip show freedomrobotics | grep \"Location: \""
+2021-03-30 18:57:21 [DEBUG]  		STANDARD ERROR:
+2021-03-30 18:57:21 [DEBUG]  			DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+2021-03-30 18:57:21 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.72s
+2021-03-30 18:57:21 [DEBUG]  Stopping freedomrobotics service
+2021-03-30 18:57:21 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "sudo -n service freedomrobotics stop"
+2021-03-30 18:57:28 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 6.53s
+2021-03-30 18:57:28 [DEBUG]  Trying to uninstall freedomrobotics python2.7 package.
+2021-03-30 18:57:28 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -m pip uninstall -y freedomrobotics"
+2021-03-30 18:57:30 [DEBUG]  		STANDARD ERROR:
+2021-03-30 18:57:30 [DEBUG]  			DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+2021-03-30 18:57:30 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 2.00s
+2021-03-30 18:57:30 [DEBUG]  Uninstalled previous freedomrobotics python2.7 package
+2021-03-30 18:57:30 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -c 'import sys
+import os
+if (hasattr(sys, \"base_prefix\") and sys.base_prefix != sys.prefix) or hasattr(sys, \"real_prefix\") or os.environ.get(\"CONDA_PREFIX\"):
+    print(\"Detected we are dealing with a virtual environment for /usr/bin/python\")'"
+2021-03-30 18:57:30 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-03-30 18:57:30 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -m pip show numpy | grep \"Version: \""
+2021-03-30 18:57:31 [DEBUG]  		STANDARD ERROR:
+2021-03-30 18:57:31 [DEBUG]  			DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+2021-03-30 18:57:31 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.71s
+2021-03-30 18:57:31 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -m pip install --user SharedArray"
+2021-03-30 18:57:32 [DEBUG]  		STANDARD ERROR:
+2021-03-30 18:57:32 [DEBUG]  			DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+2021-03-30 18:57:32 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.80s
+2021-03-30 18:57:32 [DEBUG]  Preparing to install agent from wheel package.
+2021-03-30 18:57:32 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -m pip install --user \"packaging>=20.0\""
+2021-03-30 18:57:34 [DEBUG]  		STANDARD ERROR:
+2021-03-30 18:57:34 [DEBUG]  			DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+2021-03-30 18:57:34 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.78s
+2021-03-30 18:57:34 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -c \"
+import warnings
+warnings.filterwarnings('ignore')
+import json
+import platform
+import sys
+
+try:
+    import distro
+except ImportError:
+    # we don't have distro module
+    distro = lambda: None
+    distro.linux_distribution = lambda: 'Failed to get: Distro is not available.'
+
+try:
+    from pip import __version__ as pip_version
+except ImportError:
+    # we don't have pip module
+    pip_version = '0.0.0 (Pip is not available.)'
+
+try:
+    from packaging import __version__ as packaging_version
+except ImportError:
+    # we don't have pip module
+    packaging_version = '0.0.0 (Packaging is not available.)'
+
+try:
+    from packaging import tags
+    pip_supported_tags = list(tags.cpython_tags())
+except ImportError:
+    try:
+        if pip_version < '20.1' and pip_version >= '10.0':
+            from pip._internal import pep425tags
+            pip_supported_tags = pep425tags.get_supported()
+        elif pip_version >= '1.4':
+            from pip import pep425tags
+            pip_supported_tags = pep425tags.get_supported()
+        else:
+            pip_supported_tags = []
+    except ImportError:
+        pip_supported_tags = []
+
+if pip_supported_tags and hasattr(pip_supported_tags[0], 'platform'):
+    pip_supported_tags = [(tag.interpreter, tag.abi, tag.platform) for tag in pip_supported_tags]
+
+print(json.dumps({
+    'platform_system': platform.system(),
+    'platform_release': platform.release(),
+    'platform_machine': platform.machine(),
+    'platform_processor': platform.processor(),
+    'platform_linux_distribution': 
+        platform.linux_distribution() if hasattr(platform, 'linux_distribution') else distro.linux_distribution(),
+    'platform_mac_ver': platform.mac_ver(),
+    'platform_uname': platform.uname(),
+    'platform_python_implementation': platform.python_implementation(),
+    'platform_python_version': platform.python_version(),
+    'platform_python_compiler': platform.python_compiler(),
+    'platform_python_build': platform.python_build(),
+    'pip_supported_tags': pip_supported_tags,
+    'pip_version': pip_version,
+    'packaging_version': packaging_version,
+}))
+\""
+2021-03-30 18:57:34 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.15s
+2021-03-30 18:57:34 [DEBUG]  Collected next system details: {u'platform_linux_distribution': [u'Ubuntu', u'18.04', u'bionic'], u'platform_machine': u'aarch64', u'platform_python_implementation': u'CPython', 'code_branch': 'release', u'platform_python_version': u'2.7.17', u'pip_version': u'20.3.4', u'platform_processor': u'aarch64', u'platform_release': u'5.4.0-1032-raspi', u'platform_uname': [u'Linux', u'ubuntu', u'5.4.0-1032-raspi', u'#35~18.04.1-Ubuntu SMP PREEMPT Mon Mar 22 13:12:55 UTC 2021', u'aarch64', u'aarch64'], u'platform_system': u'Linux', u'packaging_version': u'20.9', u'platform_python_build': [u'default', u'Feb 27 2021 15:10:58'], u'platform_mac_ver': [u'', [u'', u'', u''], u''], u'pip_supported_tags': [[u'cp27', u'cp27mu', u'manylinux_2_27_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_26_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_25_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_24_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_23_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_22_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_21_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_20_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_19_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_18_aarch64'], [u'cp27', u'cp27mu', u'manylinux_2_17_aarch64'], [u'cp27', u'cp27mu', u'manylinux2014_aarch64'], [u'cp27', u'cp27mu', u'linux_aarch64'], [u'cp27', u'none', u'manylinux_2_27_aarch64'], [u'cp27', u'none', u'manylinux_2_26_aarch64'], [u'cp27', u'none', u'manylinux_2_25_aarch64'], [u'cp27', u'none', u'manylinux_2_24_aarch64'], [u'cp27', u'none', u'manylinux_2_23_aarch64'], [u'cp27', u'none', u'manylinux_2_22_aarch64'], [u'cp27', u'none', u'manylinux_2_21_aarch64'], [u'cp27', u'none', u'manylinux_2_20_aarch64'], [u'cp27', u'none', u'manylinux_2_19_aarch64'], [u'cp27', u'none', u'manylinux_2_18_aarch64'], [u'cp27', u'none', u'manylinux_2_17_aarch64'], [u'cp27', u'none', u'manylinux2014_aarch64'], [u'cp27', u'none', u'linux_aarch64']], u'platform_python_compiler': u'GCC 7.5.0', 'agent_version': 'latest'}
+2021-03-30 18:57:34 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "curl -sS -X POST -H 'mc_token: T22D6A610BFD68EC5021F8D3D' -H 'content-type: application/json' -H 'mc_secret: Sfc57913d42b639293d0fcb8b' -d '{\"platform_linux_distribution\": [\"Ubuntu\", \"18.04\", \"bionic\"], \"platform_machine\": \"aarch64\", \"platform_python_implementation\": \"CPython\", \"code_branch\": \"release\", \"platform_python_version\": \"2.7.17\", \"pip_version\": \"20.3.4\", \"platform_processor\": \"aarch64\", \"platform_release\": \"5.4.0-1032-raspi\", \"platform_uname\": [\"Linux\", \"ubuntu\", \"5.4.0-1032-raspi\", \"#35~18.04.1-Ubuntu SMP PREEMPT Mon Mar 22 13:12:55 UTC 2021\", \"aarch64\", \"aarch64\"], \"platform_system\": \"Linux\", \"packaging_version\": \"20.9\", \"platform_python_build\": [\"default\", \"Feb 27 2021 15:10:58\"], \"platform_mac_ver\": [\"\", [\"\", \"\", \"\"], \"\"], \"pip_supported_tags\": [[\"cp27\", \"cp27mu\", \"manylinux_2_27_aarch64\"], [\"cp27\", \"cp27mu\", \"manylinux_2_26_aarch64\"], [\"cp27\", \"cp27mu\", \"manylinux_2_25_aarch64\"], [\"cp27\", \"cp27mu\", \"manylinux_2_24_aarch64\"], [\"cp27\", \"cp27mu\", \"manylinux_2_23_aarch64\"], [\"cp27\", \"cp27mu\", \"manylinux_2_22_aarch64\"], [\"cp27\", \"cp27mu\", \"manylinux_2_21_aarch64\"], [\"cp27\", \"cp27mu\", \"manylinux_2_20_aarch64\"], [\"cp27\", \"cp27mu\", \"manylinux_2_19_aarch64\"], [\"cp27\", \"cp27mu\", \"manylinux_2_18_aarch64\"], [\"cp27\", \"cp27mu\", \"manylinux_2_17_aarch64\"], [\"cp27\", \"cp27mu\", \"manylinux2014_aarch64\"], [\"cp27\", \"cp27mu\", \"linux_aarch64\"], [\"cp27\", \"none\", \"manylinux_2_27_aarch64\"], [\"cp27\", \"none\", \"manylinux_2_26_aarch64\"], [\"cp27\", \"none\", \"manylinux_2_25_aarch64\"], [\"cp27\", \"none\", \"manylinux_2_24_aarch64\"], [\"cp27\", \"none\", \"manylinux_2_23_aarch64\"], [\"cp27\", \"none\", \"manylinux_2_22_aarch64\"], [\"cp27\", \"none\", \"manylinux_2_21_aarch64\"], [\"cp27\", \"none\", \"manylinux_2_20_aarch64\"], [\"cp27\", \"none\", \"manylinux_2_19_aarch64\"], [\"cp27\", \"none\", \"manylinux_2_18_aarch64\"], [\"cp27\", \"none\", \"manylinux_2_17_aarch64\"], [\"cp27\", \"none\", \"manylinux2014_aarch64\"], [\"cp27\", \"none\", \"linux_aarch64\"]], \"platform_python_compiler\": \"GCC 7.5.0\", \"agent_version\": \"latest\"}' 'https://api.freedomrobotics.ai/download_wheel_link'"
+2021-03-30 18:57:38 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 3.54s
+2021-03-30 18:57:38 [DEBUG]  Got the link to download the wheel.
+2021-03-30 18:57:38 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "curl -sS -o /tmp/freedomroboticsq3Bhhy/freedomrobotics-0.1.157-cp27-cp27mu-linux_aarch64.whl 'https://mission-control-download.s3.amazonaws.com/agent/release/0.1.157/freedomrobotics-0.1.157-cp27-cp27mu-linux_aarch64.whl?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Expires=100&X-Amz-Date=20210330T185738Z&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDIaCXVzLWVhc3QtMiJGMEQCIFyUeeKc3iKjTGkiyrcTMF5kxaYS3xrFXQIZmpKc8d4HAiAcONTDGQQBe0EmKnqvKVp9eedpAZ400C1Eh6Ha1oGrIyryAQh7EAIaDDY0OTc0NjYwMDg3NSIMWm0NnClJ137ofAAYKs8BBlfcqwhGW5bboEwfken97iPgy7J4yfXrGF9PtkCV9gW6UoXwWVcjIm0lF%2B3DHEYdFqOMrMxcXWZzKJcVrA9FxDwfCVsuOwGwjMllKJy5oGA9%2FwyUSxQKWLKicoyeJWMtGr%2BtszxNXY8MgEQMBUT81h6YKyVfpOYtvzdqO4tRolFwCLdrmT1CWmqwPQSOZsl7fSxanXviGOBAphJyrvG7IdyH1nrjwb%2B%2BYFrIVjANSFeqdvIAvY9YnmYO6yisKvVmmlp%2BifIhTDTcol1NFdTkMIDYjYMGOuEBTeeFPW7iId4X0dvtXgVI%2Bh%2F82lq1NzZeaUXv7PAwPw4CODbk7ThovTJz4Y8HBBqTzFywM4aF7PRYHE1Kd48LQ9P5ivQuyrd%2Fl6pPcn4zKPWyDC2Du1ltIQpbsXjDs3FQ6hdukmA%2BlWYcgTatst4kAmoHeaZWx5xkQwyR1%2F87KEN79HQ1bAQJPEGSYS0rWMxr%2Bh7tV0c0Ca%2FV2IWLWEKTS18pG0XFTuuViwbvyX9rDwbDB9r%2BW3nCu7RsdFzMRl65pzRFo3i5dUL8ZYUxZeC8YnX6NEK4b5bG%2FiOHpjjaEoSO&X-Amz-Credential=ASIAZOR7KKOVW3FLAWOT%2F20210330%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Signature=8caff002c177512ae77f7912f73340a246fec08cdf67c1e35033f57bc2009b5e'"
+2021-03-30 18:57:39 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.02s
+2021-03-30 18:57:39 [DEBUG]  Downloaded the wheel.
+2021-03-30 18:57:39 [INFO ]  Installing freedomrobotics agent and its direct dependencies for python 2.7. This might take a few minutes.
+2021-03-30 18:57:39 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -m pip install --user /tmp/freedomroboticsq3Bhhy/freedomrobotics-0.1.157-cp27-cp27mu-linux_aarch64.whl"
+2021-03-30 18:57:42 [DEBUG]  		STANDARD ERROR:
+2021-03-30 18:57:42 [DEBUG]  			DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+2021-03-30 18:57:42 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 2.69s
+2021-03-30 18:57:42 [DEBUG]  Successfully installed python package 'freedomrobotics'
+2021-03-30 18:57:42 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "which roscore"
+2021-03-30 18:57:42 [DEBUG]  		ERROR RESPONSE CODE: 1, EXECUTION TIME: 0.01s
+2021-03-30 18:57:42 [DEBUG]  Executable `roscore` was not found using current PATH: Command '/bin/bash -c "which roscore"' returned non-zero exit status 1
+2021-03-30 18:57:42 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "which ros2"
+2021-03-30 18:57:42 [DEBUG]  		ERROR RESPONSE CODE: 1, EXECUTION TIME: 0.02s
+2021-03-30 18:57:42 [DEBUG]  Executable `ros2` was not found using current PATH: Command '/bin/bash -c "which ros2"' returned non-zero exit status 1
+2021-03-30 18:57:42 [DEBUG]  No suitable ros installation found
+2021-03-30 18:57:42 [INFO ]      COMPLETE
+2021-03-30 18:57:42 [DEBUG]  Installing the agent one more time on python3 (/usr/bin/python3) to enable WebRTC.
+2021-03-30 18:57:42 [INFO ]  
+2021-03-30 18:57:42 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2021-03-30 18:57:42 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.11s
+2021-03-30 18:57:42 [INFO ]  Step 5/7: INSTALLING PACKAGE (python3.6)
+2021-03-30 18:57:42 [DEBUG]  Using python3.6 from path: /usr/bin/python3
+2021-03-30 18:57:42 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2021-03-30 18:57:42 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.11s
+2021-03-30 18:57:42 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show freedomrobotics | grep \"Location: \""
+2021-03-30 18:57:43 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.47s
+2021-03-30 18:57:43 [DEBUG]  Trying to uninstall freedomrobotics python3.6 package.
+2021-03-30 18:57:43 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip uninstall -y freedomrobotics"
+2021-03-30 18:57:46 [DEBUG]  		STANDARD ERROR:
+2021-03-30 18:57:46 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2021-03-30 18:57:46 [DEBUG]  			from cryptography.utils import int_from_bytes
+2021-03-30 18:57:46 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/util.py:19: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2021-03-30 18:57:46 [DEBUG]  			from cryptography.utils import int_from_bytes
+2021-03-30 18:57:46 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 2.67s
+2021-03-30 18:57:46 [DEBUG]  Uninstalled previous freedomrobotics python3.6 package
+2021-03-30 18:57:46 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c 'import sys
+import os
+if (hasattr(sys, \"base_prefix\") and sys.base_prefix != sys.prefix) or hasattr(sys, \"real_prefix\") or os.environ.get(\"CONDA_PREFIX\"):
+    print(\"Detected we are dealing with a virtual environment for /usr/bin/python3\")'"
+2021-03-30 18:57:46 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.11s
+2021-03-30 18:57:46 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show numpy | grep \"Version: \""
+2021-03-30 18:57:48 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.47s
+2021-03-30 18:57:48 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip install --user SharedArray"
+2021-03-30 18:57:51 [DEBUG]  		STANDARD ERROR:
+2021-03-30 18:57:51 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2021-03-30 18:57:51 [DEBUG]  			from cryptography.utils import int_from_bytes
+2021-03-30 18:57:51 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/util.py:19: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2021-03-30 18:57:51 [DEBUG]  			from cryptography.utils import int_from_bytes
+2021-03-30 18:57:51 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 2.98s
+2021-03-30 18:57:51 [DEBUG]  Preparing to install agent from wheel package.
+2021-03-30 18:57:51 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip install --user \"packaging>=20.0\""
+2021-03-30 18:57:54 [DEBUG]  		STANDARD ERROR:
+2021-03-30 18:57:54 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2021-03-30 18:57:54 [DEBUG]  			from cryptography.utils import int_from_bytes
+2021-03-30 18:57:54 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/util.py:19: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2021-03-30 18:57:54 [DEBUG]  			from cryptography.utils import int_from_bytes
+2021-03-30 18:57:54 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 2.98s
+2021-03-30 18:57:54 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c \"
+import warnings
+warnings.filterwarnings('ignore')
+import json
+import platform
+import sys
+
+try:
+    import distro
+except ImportError:
+    # we don't have distro module
+    distro = lambda: None
+    distro.linux_distribution = lambda: 'Failed to get: Distro is not available.'
+
+try:
+    from pip import __version__ as pip_version
+except ImportError:
+    # we don't have pip module
+    pip_version = '0.0.0 (Pip is not available.)'
+
+try:
+    from packaging import __version__ as packaging_version
+except ImportError:
+    # we don't have pip module
+    packaging_version = '0.0.0 (Packaging is not available.)'
+
+try:
+    from packaging import tags
+    pip_supported_tags = list(tags.cpython_tags())
+except ImportError:
+    try:
+        if pip_version < '20.1' and pip_version >= '10.0':
+            from pip._internal import pep425tags
+            pip_supported_tags = pep425tags.get_supported()
+        elif pip_version >= '1.4':
+            from pip import pep425tags
+            pip_supported_tags = pep425tags.get_supported()
+        else:
+            pip_supported_tags = []
+    except ImportError:
+        pip_supported_tags = []
+
+if pip_supported_tags and hasattr(pip_supported_tags[0], 'platform'):
+    pip_supported_tags = [(tag.interpreter, tag.abi, tag.platform) for tag in pip_supported_tags]
+
+print(json.dumps({
+    'platform_system': platform.system(),
+    'platform_release': platform.release(),
+    'platform_machine': platform.machine(),
+    'platform_processor': platform.processor(),
+    'platform_linux_distribution': 
+        platform.linux_distribution() if hasattr(platform, 'linux_distribution') else distro.linux_distribution(),
+    'platform_mac_ver': platform.mac_ver(),
+    'platform_uname': platform.uname(),
+    'platform_python_implementation': platform.python_implementation(),
+    'platform_python_version': platform.python_version(),
+    'platform_python_compiler': platform.python_compiler(),
+    'platform_python_build': platform.python_build(),
+    'pip_supported_tags': pip_supported_tags,
+    'pip_version': pip_version,
+    'packaging_version': packaging_version,
+}))
+\""
+2021-03-30 18:57:54 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.26s
+2021-03-30 18:57:54 [DEBUG]  Collected next system details: {u'platform_linux_distribution': [u'Ubuntu', u'18.04', u'bionic'], u'platform_machine': u'aarch64', u'platform_python_implementation': u'CPython', u'packaging_version': u'20.9', u'platform_system': u'Linux', u'pip_version': u'21.0.1', u'platform_processor': u'aarch64', u'platform_release': u'5.4.0-1032-raspi', u'platform_uname': [u'Linux', u'ubuntu', u'5.4.0-1032-raspi', u'#35~18.04.1-Ubuntu SMP PREEMPT Mon Mar 22 13:12:55 UTC 2021', u'aarch64', u'aarch64'], u'platform_python_version': u'3.6.9', u'platform_python_build': [u'default', u'Jan 26 2021 15:33:00'], u'platform_mac_ver': [u'', [u'', u'', u''], u''], 'code_branch': 'release', u'platform_python_compiler': u'GCC 8.4.0', u'pip_supported_tags': [[u'cp36', u'cp36m', u'manylinux_2_27_aarch64'], [u'cp36', u'cp36m', u'manylinux_2_26_aarch64'], [u'cp36', u'cp36m', u'manylinux_2_25_aarch64'], [u'cp36', u'cp36m', u'manylinux_2_24_aarch64'], [u'cp36', u'cp36m', u'manylinux_2_23_aarch64'], [u'cp36', u'cp36m', u'manylinux_2_22_aarch64'], [u'cp36', u'cp36m', u'manylinux_2_21_aarch64'], [u'cp36', u'cp36m', u'manylinux_2_20_aarch64'], [u'cp36', u'cp36m', u'manylinux_2_19_aarch64'], [u'cp36', u'cp36m', u'manylinux_2_18_aarch64'], [u'cp36', u'cp36m', u'manylinux_2_17_aarch64'], [u'cp36', u'cp36m', u'manylinux2014_aarch64'], [u'cp36', u'cp36m', u'linux_aarch64'], [u'cp36', u'abi3', u'manylinux_2_27_aarch64'], [u'cp36', u'abi3', u'manylinux_2_26_aarch64'], [u'cp36', u'abi3', u'manylinux_2_25_aarch64'], [u'cp36', u'abi3', u'manylinux_2_24_aarch64'], [u'cp36', u'abi3', u'manylinux_2_23_aarch64'], [u'cp36', u'abi3', u'manylinux_2_22_aarch64'], [u'cp36', u'abi3', u'manylinux_2_21_aarch64'], [u'cp36', u'abi3', u'manylinux_2_20_aarch64'], [u'cp36', u'abi3', u'manylinux_2_19_aarch64'], [u'cp36', u'abi3', u'manylinux_2_18_aarch64'], [u'cp36', u'abi3', u'manylinux_2_17_aarch64'], [u'cp36', u'abi3', u'manylinux2014_aarch64'], [u'cp36', u'abi3', u'linux_aarch64'], [u'cp36', u'none', u'manylinux_2_27_aarch64'], [u'cp36', u'none', u'manylinux_2_26_aarch64'], [u'cp36', u'none', u'manylinux_2_25_aarch64'], [u'cp36', u'none', u'manylinux_2_24_aarch64'], [u'cp36', u'none', u'manylinux_2_23_aarch64'], [u'cp36', u'none', u'manylinux_2_22_aarch64'], [u'cp36', u'none', u'manylinux_2_21_aarch64'], [u'cp36', u'none', u'manylinux_2_20_aarch64'], [u'cp36', u'none', u'manylinux_2_19_aarch64'], [u'cp36', u'none', u'manylinux_2_18_aarch64'], [u'cp36', u'none', u'manylinux_2_17_aarch64'], [u'cp36', u'none', u'manylinux2014_aarch64'], [u'cp36', u'none', u'linux_aarch64'], [u'cp35', u'abi3', u'manylinux_2_27_aarch64'], [u'cp35', u'abi3', u'manylinux_2_26_aarch64'], [u'cp35', u'abi3', u'manylinux_2_25_aarch64'], [u'cp35', u'abi3', u'manylinux_2_24_aarch64'], [u'cp35', u'abi3', u'manylinux_2_23_aarch64'], [u'cp35', u'abi3', u'manylinux_2_22_aarch64'], [u'cp35', u'abi3', u'manylinux_2_21_aarch64'], [u'cp35', u'abi3', u'manylinux_2_20_aarch64'], [u'cp35', u'abi3', u'manylinux_2_19_aarch64'], [u'cp35', u'abi3', u'manylinux_2_18_aarch64'], [u'cp35', u'abi3', u'manylinux_2_17_aarch64'], [u'cp35', u'abi3', u'manylinux2014_aarch64'], [u'cp35', u'abi3', u'linux_aarch64'], [u'cp34', u'abi3', u'manylinux_2_27_aarch64'], [u'cp34', u'abi3', u'manylinux_2_26_aarch64'], [u'cp34', u'abi3', u'manylinux_2_25_aarch64'], [u'cp34', u'abi3', u'manylinux_2_24_aarch64'], [u'cp34', u'abi3', u'manylinux_2_23_aarch64'], [u'cp34', u'abi3', u'manylinux_2_22_aarch64'], [u'cp34', u'abi3', u'manylinux_2_21_aarch64'], [u'cp34', u'abi3', u'manylinux_2_20_aarch64'], [u'cp34', u'abi3', u'manylinux_2_19_aarch64'], [u'cp34', u'abi3', u'manylinux_2_18_aarch64'], [u'cp34', u'abi3', u'manylinux_2_17_aarch64'], [u'cp34', u'abi3', u'manylinux2014_aarch64'], [u'cp34', u'abi3', u'linux_aarch64'], [u'cp33', u'abi3', u'manylinux_2_27_aarch64'], [u'cp33', u'abi3', u'manylinux_2_26_aarch64'], [u'cp33', u'abi3', u'manylinux_2_25_aarch64'], [u'cp33', u'abi3', u'manylinux_2_24_aarch64'], [u'cp33', u'abi3', u'manylinux_2_23_aarch64'], [u'cp33', u'abi3', u'manylinux_2_22_aarch64'], [u'cp33', u'abi3', u'manylinux_2_21_aarch64'], [u'cp33', u'abi3', u'manylinux_2_20_aarch64'], [u'cp33', u'abi3', u'manylinux_2_19_aarch64'], [u'cp33', u'abi3', u'manylinux_2_18_aarch64'], [u'cp33', u'abi3', u'manylinux_2_17_aarch64'], [u'cp33', u'abi3', u'manylinux2014_aarch64'], [u'cp33', u'abi3', u'linux_aarch64'], [u'cp32', u'abi3', u'manylinux_2_27_aarch64'], [u'cp32', u'abi3', u'manylinux_2_26_aarch64'], [u'cp32', u'abi3', u'manylinux_2_25_aarch64'], [u'cp32', u'abi3', u'manylinux_2_24_aarch64'], [u'cp32', u'abi3', u'manylinux_2_23_aarch64'], [u'cp32', u'abi3', u'manylinux_2_22_aarch64'], [u'cp32', u'abi3', u'manylinux_2_21_aarch64'], [u'cp32', u'abi3', u'manylinux_2_20_aarch64'], [u'cp32', u'abi3', u'manylinux_2_19_aarch64'], [u'cp32', u'abi3', u'manylinux_2_18_aarch64'], [u'cp32', u'abi3', u'manylinux_2_17_aarch64'], [u'cp32', u'abi3', u'manylinux2014_aarch64'], [u'cp32', u'abi3', u'linux_aarch64']], 'agent_version': 'latest'}
+2021-03-30 18:57:54 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "curl -sS -X POST -H 'mc_token: T22D6A610BFD68EC5021F8D3D' -H 'content-type: application/json' -H 'mc_secret: Sfc57913d42b639293d0fcb8b' -d '{\"platform_linux_distribution\": [\"Ubuntu\", \"18.04\", \"bionic\"], \"platform_machine\": \"aarch64\", \"platform_python_implementation\": \"CPython\", \"packaging_version\": \"20.9\", \"platform_system\": \"Linux\", \"pip_version\": \"21.0.1\", \"platform_processor\": \"aarch64\", \"platform_release\": \"5.4.0-1032-raspi\", \"platform_uname\": [\"Linux\", \"ubuntu\", \"5.4.0-1032-raspi\", \"#35~18.04.1-Ubuntu SMP PREEMPT Mon Mar 22 13:12:55 UTC 2021\", \"aarch64\", \"aarch64\"], \"platform_python_version\": \"3.6.9\", \"platform_python_build\": [\"default\", \"Jan 26 2021 15:33:00\"], \"platform_mac_ver\": [\"\", [\"\", \"\", \"\"], \"\"], \"code_branch\": \"release\", \"platform_python_compiler\": \"GCC 8.4.0\", \"pip_supported_tags\": [[\"cp36\", \"cp36m\", \"manylinux_2_27_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_26_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_25_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_24_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_23_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_22_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_21_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_20_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_19_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_18_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_17_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux2014_aarch64\"], [\"cp36\", \"cp36m\", \"linux_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_27_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_26_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_25_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_24_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_23_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_22_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_21_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_20_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_19_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_18_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_17_aarch64\"], [\"cp36\", \"abi3\", \"manylinux2014_aarch64\"], [\"cp36\", \"abi3\", \"linux_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_27_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_26_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_25_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_24_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_23_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_22_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_21_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_20_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_19_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_18_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_17_aarch64\"], [\"cp36\", \"none\", \"manylinux2014_aarch64\"], [\"cp36\", \"none\", \"linux_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_27_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_26_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_25_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_24_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_23_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_22_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_21_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_20_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_19_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_18_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_17_aarch64\"], [\"cp35\", \"abi3\", \"manylinux2014_aarch64\"], [\"cp35\", \"abi3\", \"linux_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_27_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_26_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_25_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_24_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_23_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_22_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_21_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_20_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_19_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_18_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_17_aarch64\"], [\"cp34\", \"abi3\", \"manylinux2014_aarch64\"], [\"cp34\", \"abi3\", \"linux_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_27_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_26_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_25_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_24_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_23_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_22_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_21_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_20_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_19_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_18_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_17_aarch64\"], [\"cp33\", \"abi3\", \"manylinux2014_aarch64\"], [\"cp33\", \"abi3\", \"linux_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_27_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_26_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_25_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_24_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_23_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_22_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_21_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_20_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_19_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_18_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_17_aarch64\"], [\"cp32\", \"abi3\", \"manylinux2014_aarch64\"], [\"cp32\", \"abi3\", \"linux_aarch64\"]], \"agent_version\": \"latest\"}' 'https://api.freedomrobotics.ai/download_wheel_link'"
+2021-03-30 18:57:57 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 3.51s
+2021-03-30 18:57:57 [DEBUG]  Got the link to download the wheel.
+2021-03-30 18:57:57 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "curl -sS -o /tmp/freedomroboticsDP05iq/freedomrobotics-0.1.157-cp36-cp36m-linux_aarch64.whl 'https://mission-control-download.s3.amazonaws.com/agent/release/0.1.157/freedomrobotics-0.1.157-cp36-cp36m-linux_aarch64.whl?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Expires=100&X-Amz-Date=20210330T185757Z&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDIaCXVzLWVhc3QtMiJGMEQCIFyUeeKc3iKjTGkiyrcTMF5kxaYS3xrFXQIZmpKc8d4HAiAcONTDGQQBe0EmKnqvKVp9eedpAZ400C1Eh6Ha1oGrIyryAQh7EAIaDDY0OTc0NjYwMDg3NSIMWm0NnClJ137ofAAYKs8BBlfcqwhGW5bboEwfken97iPgy7J4yfXrGF9PtkCV9gW6UoXwWVcjIm0lF%2B3DHEYdFqOMrMxcXWZzKJcVrA9FxDwfCVsuOwGwjMllKJy5oGA9%2FwyUSxQKWLKicoyeJWMtGr%2BtszxNXY8MgEQMBUT81h6YKyVfpOYtvzdqO4tRolFwCLdrmT1CWmqwPQSOZsl7fSxanXviGOBAphJyrvG7IdyH1nrjwb%2B%2BYFrIVjANSFeqdvIAvY9YnmYO6yisKvVmmlp%2BifIhTDTcol1NFdTkMIDYjYMGOuEBTeeFPW7iId4X0dvtXgVI%2Bh%2F82lq1NzZeaUXv7PAwPw4CODbk7ThovTJz4Y8HBBqTzFywM4aF7PRYHE1Kd48LQ9P5ivQuyrd%2Fl6pPcn4zKPWyDC2Du1ltIQpbsXjDs3FQ6hdukmA%2BlWYcgTatst4kAmoHeaZWx5xkQwyR1%2F87KEN79HQ1bAQJPEGSYS0rWMxr%2Bh7tV0c0Ca%2FV2IWLWEKTS18pG0XFTuuViwbvyX9rDwbDB9r%2BW3nCu7RsdFzMRl65pzRFo3i5dUL8ZYUxZeC8YnX6NEK4b5bG%2FiOHpjjaEoSO&X-Amz-Credential=ASIAZOR7KKOVW3FLAWOT%2F20210330%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Signature=4c5be96831078b9029b3a24c537cf51c429f76fd9c286a88a7d06fbeb4b2f81f'"
+2021-03-30 18:57:58 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.02s
+2021-03-30 18:57:58 [DEBUG]  Downloaded the wheel.
+2021-03-30 18:57:58 [INFO ]  Installing freedomrobotics agent and its direct dependencies for python 3.6. This might take a few minutes.
+2021-03-30 18:57:58 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip install --user /tmp/freedomroboticsDP05iq/freedomrobotics-0.1.157-cp36-cp36m-linux_aarch64.whl"
+2021-03-30 18:58:02 [DEBUG]  		STANDARD ERROR:
+2021-03-30 18:58:02 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2021-03-30 18:58:02 [DEBUG]  			from cryptography.utils import int_from_bytes
+2021-03-30 18:58:02 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/util.py:19: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2021-03-30 18:58:02 [DEBUG]  			from cryptography.utils import int_from_bytes
+2021-03-30 18:58:02 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 4.03s
+2021-03-30 18:58:02 [DEBUG]  Successfully installed python package 'freedomrobotics'
+2021-03-30 18:58:02 [INFO ]      COMPLETE
+2021-03-30 18:58:02 [INFO ]  
+2021-03-30 18:58:02 [INFO ]  Step 6/7: RTC DEPENDENCIES
+2021-03-30 18:58:02 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show cryptography | grep \"Version: \""
+2021-03-30 18:58:04 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.43s
+2021-03-30 18:58:04 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show pip | grep \"Version: \""
+2021-03-30 18:58:05 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.48s
+2021-03-30 18:58:05 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pkg-config --modversion libavdevice"
+2021-03-30 18:58:05 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s
+2021-03-30 18:58:05 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pkg-config --modversion libavfilter"
+2021-03-30 18:58:05 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s
+2021-03-30 18:58:05 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show av | grep \"Version: \""
+2021-03-30 18:58:07 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.42s
+2021-03-30 18:58:07 [DEBUG]  We found av python module version 8.0.3, we need to install version 7.0.1
+2021-03-30 18:58:07 [DEBUG]  Preparing to install agent from wheel package.
+2021-03-30 18:58:07 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip install --user \"packaging>=20.0\""
+2021-03-30 18:58:10 [DEBUG]  		STANDARD ERROR:
+2021-03-30 18:58:10 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2021-03-30 18:58:10 [DEBUG]  			from cryptography.utils import int_from_bytes
+2021-03-30 18:58:10 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/util.py:19: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2021-03-30 18:58:10 [DEBUG]  			from cryptography.utils import int_from_bytes
+2021-03-30 18:58:10 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 3.00s
+2021-03-30 18:58:10 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c \"
+import warnings
+warnings.filterwarnings('ignore')
+import json
+import platform
+import sys
+
+try:
+    import distro
+except ImportError:
+    # we don't have distro module
+    distro = lambda: None
+    distro.linux_distribution = lambda: 'Failed to get: Distro is not available.'
+
+try:
+    from pip import __version__ as pip_version
+except ImportError:
+    # we don't have pip module
+    pip_version = '0.0.0 (Pip is not available.)'
+
+try:
+    from packaging import __version__ as packaging_version
+except ImportError:
+    # we don't have pip module
+    packaging_version = '0.0.0 (Packaging is not available.)'
+
+try:
+    from packaging import tags
+    pip_supported_tags = list(tags.cpython_tags())
+except ImportError:
+    try:
+        if pip_version < '20.1' and pip_version >= '10.0':
+            from pip._internal import pep425tags
+            pip_supported_tags = pep425tags.get_supported()
+        elif pip_version >= '1.4':
+            from pip import pep425tags
+            pip_supported_tags = pep425tags.get_supported()
+        else:
+            pip_supported_tags = []
+    except ImportError:
+        pip_supported_tags = []
+
+if pip_supported_tags and hasattr(pip_supported_tags[0], 'platform'):
+    pip_supported_tags = [(tag.interpreter, tag.abi, tag.platform) for tag in pip_supported_tags]
+
+print(json.dumps({
+    'platform_system': platform.system(),
+    'platform_release': platform.release(),
+    'platform_machine': platform.machine(),
+    'platform_processor': platform.processor(),
+    'platform_linux_distribution': 
+        platform.linux_distribution() if hasattr(platform, 'linux_distribution') else distro.linux_distribution(),
+    'platform_mac_ver': platform.mac_ver(),
+    'platform_uname': platform.uname(),
+    'platform_python_implementation': platform.python_implementation(),
+    'platform_python_version': platform.python_version(),
+    'platform_python_compiler': platform.python_compiler(),
+    'platform_python_build': platform.python_build(),
+    'pip_supported_tags': pip_supported_tags,
+    'pip_version': pip_version,
+    'packaging_version': packaging_version,
+}))
+\""
+2021-03-30 18:58:10 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.25s
+2021-03-30 18:58:10 [DEBUG]  Collected next system details: {u'platform_linux_distribution': [u'Ubuntu', u'18.04', u'bionic'], u'platform_machine': u'aarch64', u'platform_python_implementation': u'CPython', u'packaging_version': u'20.9', u'platform_system': u'Linux', u'pip_version': u'21.0.1', u'platform_processor': u'aarch64', u'platform_release': u'5.4.0-1032-raspi', u'platform_uname': [u'Linux', u'ubuntu', u'5.4.0-1032-raspi', u'#35~18.04.1-Ubuntu SMP PREEMPT Mon Mar 22 13:12:55 UTC 2021', u'aarch64', u'aarch64'], 'package': 'av', u'platform_python_version': u'3.6.9', 'version': '7.0.1', u'platform_python_build': [u'default', u'Jan 26 2021 15:33:00'], u'platform_mac_ver': [u'', [u'', u'', u''], u''], 'code_branch': 'release', u'platform_python_compiler': u'GCC 8.4.0', u'pip_supported_tags': [[u'cp36', u'cp36m', u'manylinux_2_27_aarch64'], [u'cp36', u'cp36m', u'manylinux_2_26_aarch64'], [u'cp36', u'cp36m', u'manylinux_2_25_aarch64'], [u'cp36', u'cp36m', u'manylinux_2_24_aarch64'], [u'cp36', u'cp36m', u'manylinux_2_23_aarch64'], [u'cp36', u'cp36m', u'manylinux_2_22_aarch64'], [u'cp36', u'cp36m', u'manylinux_2_21_aarch64'], [u'cp36', u'cp36m', u'manylinux_2_20_aarch64'], [u'cp36', u'cp36m', u'manylinux_2_19_aarch64'], [u'cp36', u'cp36m', u'manylinux_2_18_aarch64'], [u'cp36', u'cp36m', u'manylinux_2_17_aarch64'], [u'cp36', u'cp36m', u'manylinux2014_aarch64'], [u'cp36', u'cp36m', u'linux_aarch64'], [u'cp36', u'abi3', u'manylinux_2_27_aarch64'], [u'cp36', u'abi3', u'manylinux_2_26_aarch64'], [u'cp36', u'abi3', u'manylinux_2_25_aarch64'], [u'cp36', u'abi3', u'manylinux_2_24_aarch64'], [u'cp36', u'abi3', u'manylinux_2_23_aarch64'], [u'cp36', u'abi3', u'manylinux_2_22_aarch64'], [u'cp36', u'abi3', u'manylinux_2_21_aarch64'], [u'cp36', u'abi3', u'manylinux_2_20_aarch64'], [u'cp36', u'abi3', u'manylinux_2_19_aarch64'], [u'cp36', u'abi3', u'manylinux_2_18_aarch64'], [u'cp36', u'abi3', u'manylinux_2_17_aarch64'], [u'cp36', u'abi3', u'manylinux2014_aarch64'], [u'cp36', u'abi3', u'linux_aarch64'], [u'cp36', u'none', u'manylinux_2_27_aarch64'], [u'cp36', u'none', u'manylinux_2_26_aarch64'], [u'cp36', u'none', u'manylinux_2_25_aarch64'], [u'cp36', u'none', u'manylinux_2_24_aarch64'], [u'cp36', u'none', u'manylinux_2_23_aarch64'], [u'cp36', u'none', u'manylinux_2_22_aarch64'], [u'cp36', u'none', u'manylinux_2_21_aarch64'], [u'cp36', u'none', u'manylinux_2_20_aarch64'], [u'cp36', u'none', u'manylinux_2_19_aarch64'], [u'cp36', u'none', u'manylinux_2_18_aarch64'], [u'cp36', u'none', u'manylinux_2_17_aarch64'], [u'cp36', u'none', u'manylinux2014_aarch64'], [u'cp36', u'none', u'linux_aarch64'], [u'cp35', u'abi3', u'manylinux_2_27_aarch64'], [u'cp35', u'abi3', u'manylinux_2_26_aarch64'], [u'cp35', u'abi3', u'manylinux_2_25_aarch64'], [u'cp35', u'abi3', u'manylinux_2_24_aarch64'], [u'cp35', u'abi3', u'manylinux_2_23_aarch64'], [u'cp35', u'abi3', u'manylinux_2_22_aarch64'], [u'cp35', u'abi3', u'manylinux_2_21_aarch64'], [u'cp35', u'abi3', u'manylinux_2_20_aarch64'], [u'cp35', u'abi3', u'manylinux_2_19_aarch64'], [u'cp35', u'abi3', u'manylinux_2_18_aarch64'], [u'cp35', u'abi3', u'manylinux_2_17_aarch64'], [u'cp35', u'abi3', u'manylinux2014_aarch64'], [u'cp35', u'abi3', u'linux_aarch64'], [u'cp34', u'abi3', u'manylinux_2_27_aarch64'], [u'cp34', u'abi3', u'manylinux_2_26_aarch64'], [u'cp34', u'abi3', u'manylinux_2_25_aarch64'], [u'cp34', u'abi3', u'manylinux_2_24_aarch64'], [u'cp34', u'abi3', u'manylinux_2_23_aarch64'], [u'cp34', u'abi3', u'manylinux_2_22_aarch64'], [u'cp34', u'abi3', u'manylinux_2_21_aarch64'], [u'cp34', u'abi3', u'manylinux_2_20_aarch64'], [u'cp34', u'abi3', u'manylinux_2_19_aarch64'], [u'cp34', u'abi3', u'manylinux_2_18_aarch64'], [u'cp34', u'abi3', u'manylinux_2_17_aarch64'], [u'cp34', u'abi3', u'manylinux2014_aarch64'], [u'cp34', u'abi3', u'linux_aarch64'], [u'cp33', u'abi3', u'manylinux_2_27_aarch64'], [u'cp33', u'abi3', u'manylinux_2_26_aarch64'], [u'cp33', u'abi3', u'manylinux_2_25_aarch64'], [u'cp33', u'abi3', u'manylinux_2_24_aarch64'], [u'cp33', u'abi3', u'manylinux_2_23_aarch64'], [u'cp33', u'abi3', u'manylinux_2_22_aarch64'], [u'cp33', u'abi3', u'manylinux_2_21_aarch64'], [u'cp33', u'abi3', u'manylinux_2_20_aarch64'], [u'cp33', u'abi3', u'manylinux_2_19_aarch64'], [u'cp33', u'abi3', u'manylinux_2_18_aarch64'], [u'cp33', u'abi3', u'manylinux_2_17_aarch64'], [u'cp33', u'abi3', u'manylinux2014_aarch64'], [u'cp33', u'abi3', u'linux_aarch64'], [u'cp32', u'abi3', u'manylinux_2_27_aarch64'], [u'cp32', u'abi3', u'manylinux_2_26_aarch64'], [u'cp32', u'abi3', u'manylinux_2_25_aarch64'], [u'cp32', u'abi3', u'manylinux_2_24_aarch64'], [u'cp32', u'abi3', u'manylinux_2_23_aarch64'], [u'cp32', u'abi3', u'manylinux_2_22_aarch64'], [u'cp32', u'abi3', u'manylinux_2_21_aarch64'], [u'cp32', u'abi3', u'manylinux_2_20_aarch64'], [u'cp32', u'abi3', u'manylinux_2_19_aarch64'], [u'cp32', u'abi3', u'manylinux_2_18_aarch64'], [u'cp32', u'abi3', u'manylinux_2_17_aarch64'], [u'cp32', u'abi3', u'manylinux2014_aarch64'], [u'cp32', u'abi3', u'linux_aarch64']]}
+2021-03-30 18:58:10 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "curl -sS -X POST -H 'mc_token: T22D6A610BFD68EC5021F8D3D' -H 'content-type: application/json' -H 'mc_secret: Sfc57913d42b639293d0fcb8b' -d '{\"platform_linux_distribution\": [\"Ubuntu\", \"18.04\", \"bionic\"], \"platform_machine\": \"aarch64\", \"platform_python_implementation\": \"CPython\", \"packaging_version\": \"20.9\", \"platform_system\": \"Linux\", \"pip_version\": \"21.0.1\", \"platform_processor\": \"aarch64\", \"platform_release\": \"5.4.0-1032-raspi\", \"platform_uname\": [\"Linux\", \"ubuntu\", \"5.4.0-1032-raspi\", \"#35~18.04.1-Ubuntu SMP PREEMPT Mon Mar 22 13:12:55 UTC 2021\", \"aarch64\", \"aarch64\"], \"package\": \"av\", \"platform_python_version\": \"3.6.9\", \"version\": \"7.0.1\", \"platform_python_build\": [\"default\", \"Jan 26 2021 15:33:00\"], \"platform_mac_ver\": [\"\", [\"\", \"\", \"\"], \"\"], \"code_branch\": \"release\", \"platform_python_compiler\": \"GCC 8.4.0\", \"pip_supported_tags\": [[\"cp36\", \"cp36m\", \"manylinux_2_27_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_26_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_25_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_24_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_23_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_22_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_21_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_20_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_19_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_18_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux_2_17_aarch64\"], [\"cp36\", \"cp36m\", \"manylinux2014_aarch64\"], [\"cp36\", \"cp36m\", \"linux_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_27_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_26_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_25_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_24_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_23_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_22_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_21_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_20_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_19_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_18_aarch64\"], [\"cp36\", \"abi3\", \"manylinux_2_17_aarch64\"], [\"cp36\", \"abi3\", \"manylinux2014_aarch64\"], [\"cp36\", \"abi3\", \"linux_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_27_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_26_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_25_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_24_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_23_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_22_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_21_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_20_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_19_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_18_aarch64\"], [\"cp36\", \"none\", \"manylinux_2_17_aarch64\"], [\"cp36\", \"none\", \"manylinux2014_aarch64\"], [\"cp36\", \"none\", \"linux_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_27_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_26_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_25_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_24_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_23_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_22_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_21_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_20_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_19_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_18_aarch64\"], [\"cp35\", \"abi3\", \"manylinux_2_17_aarch64\"], [\"cp35\", \"abi3\", \"manylinux2014_aarch64\"], [\"cp35\", \"abi3\", \"linux_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_27_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_26_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_25_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_24_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_23_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_22_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_21_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_20_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_19_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_18_aarch64\"], [\"cp34\", \"abi3\", \"manylinux_2_17_aarch64\"], [\"cp34\", \"abi3\", \"manylinux2014_aarch64\"], [\"cp34\", \"abi3\", \"linux_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_27_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_26_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_25_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_24_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_23_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_22_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_21_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_20_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_19_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_18_aarch64\"], [\"cp33\", \"abi3\", \"manylinux_2_17_aarch64\"], [\"cp33\", \"abi3\", \"manylinux2014_aarch64\"], [\"cp33\", \"abi3\", \"linux_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_27_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_26_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_25_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_24_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_23_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_22_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_21_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_20_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_19_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_18_aarch64\"], [\"cp32\", \"abi3\", \"manylinux_2_17_aarch64\"], [\"cp32\", \"abi3\", \"manylinux2014_aarch64\"], [\"cp32\", \"abi3\", \"linux_aarch64\"]]}' 'https://api.freedomrobotics.ai/download_wheel_link'"
+2021-03-30 18:58:11 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.41s
+2021-03-30 18:58:11 [DEBUG]  Got the link to download the wheel.
+2021-03-30 18:58:11 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "curl -sS -o /tmp/freedomroboticsJsD9_h/av-7.0.1-cp36-cp36m-linux_aarch64.whl 'https://mission-control-download.s3.amazonaws.com/wheels/release/av-7.0.1-cp36-cp36m-linux_aarch64.whl?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Expires=100&X-Amz-Date=20210330T185811Z&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDIaCXVzLWVhc3QtMiJGMEQCIFyUeeKc3iKjTGkiyrcTMF5kxaYS3xrFXQIZmpKc8d4HAiAcONTDGQQBe0EmKnqvKVp9eedpAZ400C1Eh6Ha1oGrIyryAQh7EAIaDDY0OTc0NjYwMDg3NSIMWm0NnClJ137ofAAYKs8BBlfcqwhGW5bboEwfken97iPgy7J4yfXrGF9PtkCV9gW6UoXwWVcjIm0lF%2B3DHEYdFqOMrMxcXWZzKJcVrA9FxDwfCVsuOwGwjMllKJy5oGA9%2FwyUSxQKWLKicoyeJWMtGr%2BtszxNXY8MgEQMBUT81h6YKyVfpOYtvzdqO4tRolFwCLdrmT1CWmqwPQSOZsl7fSxanXviGOBAphJyrvG7IdyH1nrjwb%2B%2BYFrIVjANSFeqdvIAvY9YnmYO6yisKvVmmlp%2BifIhTDTcol1NFdTkMIDYjYMGOuEBTeeFPW7iId4X0dvtXgVI%2Bh%2F82lq1NzZeaUXv7PAwPw4CODbk7ThovTJz4Y8HBBqTzFywM4aF7PRYHE1Kd48LQ9P5ivQuyrd%2Fl6pPcn4zKPWyDC2Du1ltIQpbsXjDs3FQ6hdukmA%2BlWYcgTatst4kAmoHeaZWx5xkQwyR1%2F87KEN79HQ1bAQJPEGSYS0rWMxr%2Bh7tV0c0Ca%2FV2IWLWEKTS18pG0XFTuuViwbvyX9rDwbDB9r%2BW3nCu7RsdFzMRl65pzRFo3i5dUL8ZYUxZeC8YnX6NEK4b5bG%2FiOHpjjaEoSO&X-Amz-Credential=ASIAZOR7KKOVW3FLAWOT%2F20210330%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Signature=04417386ba8a2a3c0c402a9ca389798f024d2f821780b11f6c9b70b54ce41b72'"
+2021-03-30 18:58:11 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.76s
+2021-03-30 18:58:11 [DEBUG]  Downloaded the wheel.
+2021-03-30 18:58:11 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip install --user /tmp/freedomroboticsJsD9_h/av-7.0.1-cp36-cp36m-linux_aarch64.whl"
+2021-03-30 18:58:17 [DEBUG]  		STANDARD ERROR:
+2021-03-30 18:58:17 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2021-03-30 18:58:17 [DEBUG]  			from cryptography.utils import int_from_bytes
+2021-03-30 18:58:17 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/util.py:19: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2021-03-30 18:58:17 [DEBUG]  			from cryptography.utils import int_from_bytes
+2021-03-30 18:58:17 [DEBUG]  			ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+2021-03-30 18:58:17 [DEBUG]  			aiortc 1.0.0 requires av<9.0.0,>=8.0.0, but you have av 7.0.1 which is incompatible.
+2021-03-30 18:58:17 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 5.83s
+2021-03-30 18:58:17 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c \"from av import AudioFrame, VideoFrame\""
+2021-03-30 18:58:18 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.67s
+2021-03-30 18:58:18 [INFO ]  Installing webrtc dependencies. First installation might take a few minutes.
+2021-03-30 18:58:18 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip install --user crc32c==2.0.1 aiortc SharedArray av dataclasses"
+2021-03-30 18:58:22 [DEBUG]  		STANDARD ERROR:
+2021-03-30 18:58:22 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2021-03-30 18:58:22 [DEBUG]  			from cryptography.utils import int_from_bytes
+2021-03-30 18:58:22 [DEBUG]  			/usr/lib/python3/dist-packages/secretstorage/util.py:19: CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+2021-03-30 18:58:22 [DEBUG]  			from cryptography.utils import int_from_bytes
+2021-03-30 18:58:22 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 4.02s
+2021-03-30 18:58:22 [INFO ]      COMPLETE
+2021-03-30 18:58:22 [INFO ]  
+2021-03-30 18:58:22 [INFO ]  Step 7/7: INSTALLING MICRO SERVICE
+2021-03-30 18:58:22 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "sudo -n systemctl daemon-reload"
+2021-03-30 18:58:23 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.75s
+2021-03-30 18:58:23 [DEBUG]  Systemd / Systemctl are running so registering as systemd service
+2021-03-30 18:58:23 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -m pip show freedomrobotics | grep \"Location: \""
+2021-03-30 18:58:23 [DEBUG]  		STANDARD ERROR:
+2021-03-30 18:58:23 [DEBUG]  			DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+2021-03-30 18:58:23 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.69s
+2021-03-30 18:58:23 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python /home/ubuntu/.local/lib/python2.7/site-packages/freedomrobotics/management/register_systemd_service.py"
+2021-03-30 18:58:35 [DEBUG]  		STANDARD ERROR:
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:	Checking if systemd is running
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:	Checking sudo privileges
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:################################################################################
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:# UNREGISTERING Freedom Robotics init.d service
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:#    Service not installed.
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:################################################################################
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:	Checking sudo privileges
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:################################################################################
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:# UNREGISTERING Freedom Robotics system.d service
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:#    INSTALLED: True
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:#    RUNNING:   False
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:################################################################################
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:    Removing system.d service
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:    Disabled system.d service
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:    Removed system.d service from systemctl
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:    Removed system.d service files
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:################################################################################
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:	Checking sudo privileges
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:	Finding out who am I
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:################################################################################
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:# REGISTERING Freedom Robotics systemd service
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:# PACKAGE LOCATION: /home/ubuntu/.local/lib/python2.7/site-packages/freedomrobotics
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:# USER: ubuntu
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:################################################################################
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:	Found credentials file
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:	Credentials have correct formatting
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:	Validated credentials for account and device
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:	Moving systemd service file to correct location
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:	Moving systemd environment file to correct location
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:	Wrote service files
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:	Set permissions on systemd service files
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:	Reloaded systemd
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:	Enabled service
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:	Not already running
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:	Started service
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:	Got new service pid
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:	Checked Service running
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:	Got again service pid
+2021-03-30 18:58:35 [DEBUG]  			DEBUG:__main__:################################################################################
+2021-03-30 18:58:35 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 12.03s
+2021-03-30 18:58:35 [DEBUG]  Service registration log: 
+2021-03-30 18:58:35 [INFO ]      COMPLETE
+2021-03-30 18:58:35 [INFO ]  
+2021-03-30 18:58:35 [INFO ]  ################################################################################
+2021-03-30 18:58:35 [INFO ]  
+2021-03-30 18:58:35 [INFO ]  INSTALL COMPLETE 
+2021-03-30 18:58:35 [INFO ]  
+2021-03-30 18:58:35 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pgrep fr_agent"
+2021-03-30 18:58:35 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.03s
+2021-03-30 18:58:35 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "service_path=\$(which service) && output=\$( \$service_path ssh status ) && echo \"\$output\""
+2021-03-30 18:58:35 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.08s
+2021-03-30 18:58:35 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -m pip show freedomrobotics"
+2021-03-30 18:58:36 [DEBUG]  		STANDARD ERROR:
+2021-03-30 18:58:36 [DEBUG]  			DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+2021-03-30 18:58:36 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.76s
+2021-03-30 18:58:36 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2021-03-30 18:58:36 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.05s
+2021-03-30 18:58:36 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show freedomrobotics"
+2021-03-30 18:58:38 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.45s
+2021-03-30 18:58:38 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2021-03-30 18:58:38 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.11s
+2021-03-30 18:58:38 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show aiortc"
+2021-03-30 18:58:39 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.56s
+2021-03-30 18:58:39 [INFO ]  MICRO AGENT       : INSTALLED AND ACTIVE
+2021-03-30 18:58:39 [INFO ]  ROS SHADOW        : X
+2021-03-30 18:58:39 [INFO ]  REMOTE SSH        : INSTALLED
+2021-03-30 18:58:39 [INFO ]  PYTHON2.7 PACKAGE : INSTALLED
+2021-03-30 18:58:39 [INFO ]  PYTHON3.6 PACKAGE : INSTALLED
+2021-03-30 18:58:39 [INFO ]  RTC DEPENDENCIES  : INSTALLED
+2021-03-30 18:58:39 [INFO ]  
+2021-03-30 18:58:39 [INFO ]  ACCOUNT           : AA2E4916C77670BAA7DA84BD4
+2021-03-30 18:58:39 [INFO ]  DEVICE            : DCBCB2C933D41380633D02D59B5
+2021-03-30 18:58:39 [INFO ]  
+2021-03-30 18:58:39 [INFO ]  ################################################################################
+2021-03-30 18:58:39 [DEBUG]  Total install times:{
+    "install_webrtc_av_dependency": 12.36, 
+    "install_prerequisites": 0.45, 
+    "install_credentials": 0.02, 
+    "get_wheel_package": [
+        6.49, 
+        7.77, 
+        4.43
+    ], 
+    "install_freedom_robotics_service": 13.48, 
+    "install_remote_ssh": 1.41, 
+    "python_ssl_check": 0.15, 
+    "install_freedom_main_python_package": 61.25, 
+    "platform_details": [
+        0.15, 
+        0.26, 
+        0.25
+    ], 
+    "disable_old_freedomrobotics": 0.0, 
+    "install_freedom_python3_package": 40.13, 
+    "has_sudo_rights": 5.82, 
+    "time_total_install": 90.0, 
+    "verify_prerequisites": 3.19, 
+    "local_folders_permissions_check": 1.0, 
+    "install_webrtc_dependencies": 4.02, 
+    "agent_running_check": 0.03, 
+    "check_ros_version": 0.03, 
+    "uninstall_current_agent": [
+        9.3, 
+        4.25
+    ]
+}
+2021-03-30 18:58:39 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pgrep fr_agent"
+2021-03-30 18:58:39 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.03s
+2021-03-30 18:58:39 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "service_path=\$(which service) && output=\$( \$service_path ssh status ) && echo \"\$output\""
+2021-03-30 18:58:39 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.07s
+2021-03-30 18:58:39 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -m pip show freedomrobotics"
+2021-03-30 18:58:40 [DEBUG]  		STANDARD ERROR:
+2021-03-30 18:58:40 [DEBUG]  			DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+2021-03-30 18:58:40 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.74s
+2021-03-30 18:58:40 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2021-03-30 18:58:40 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.05s
+2021-03-30 18:58:40 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show freedomrobotics"
+2021-03-30 18:58:42 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.83s
+2021-03-30 18:58:42 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -c 'import sys; print(\"{}.{}\".format(sys.version_info.major, sys.version_info.minor))'"
+2021-03-30 18:58:42 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.12s
+2021-03-30 18:58:42 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python3 -m pip show aiortc"
+2021-03-30 18:58:44 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.80s
+2021-03-30 18:58:44 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -c \"
+import warnings
+warnings.filterwarnings('ignore')
+import json
+import platform
+import sys
+
+try:
+    import distro
+except ImportError:
+    # we don't have distro module
+    distro = lambda: None
+    distro.linux_distribution = lambda: 'Failed to get: Distro is not available.'
+
+try:
+    from pip import __version__ as pip_version
+except ImportError:
+    # we don't have pip module
+    pip_version = '0.0.0 (Pip is not available.)'
+
+try:
+    from packaging import __version__ as packaging_version
+except ImportError:
+    # we don't have pip module
+    packaging_version = '0.0.0 (Packaging is not available.)'
+
+try:
+    from packaging import tags
+    pip_supported_tags = list(tags.cpython_tags())
+except ImportError:
+    try:
+        if pip_version < '20.1' and pip_version >= '10.0':
+            from pip._internal import pep425tags
+            pip_supported_tags = pep425tags.get_supported()
+        elif pip_version >= '1.4':
+            from pip import pep425tags
+            pip_supported_tags = pep425tags.get_supported()
+        else:
+            pip_supported_tags = []
+    except ImportError:
+        pip_supported_tags = []
+
+if pip_supported_tags and hasattr(pip_supported_tags[0], 'platform'):
+    pip_supported_tags = [(tag.interpreter, tag.abi, tag.platform) for tag in pip_supported_tags]
+
+print(json.dumps({
+    'platform_system': platform.system(),
+    'platform_release': platform.release(),
+    'platform_machine': platform.machine(),
+    'platform_processor': platform.processor(),
+    'platform_linux_distribution': 
+        platform.linux_distribution() if hasattr(platform, 'linux_distribution') else distro.linux_distribution(),
+    'platform_mac_ver': platform.mac_ver(),
+    'platform_uname': platform.uname(),
+    'platform_python_implementation': platform.python_implementation(),
+    'platform_python_version': platform.python_version(),
+    'platform_python_compiler': platform.python_compiler(),
+    'platform_python_build': platform.python_build(),
+    'pip_supported_tags': pip_supported_tags,
+    'pip_version': pip_version,
+    'packaging_version': packaging_version,
+}))
+\""
+2021-03-30 18:58:44 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.16s
+2021-03-30 18:58:44 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "/usr/bin/python -m pip freeze"
+2021-03-30 18:58:45 [DEBUG]  		STANDARD ERROR:
+2021-03-30 18:58:45 [DEBUG]  			DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+2021-03-30 18:58:45 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 1.05s
+2021-03-30 18:58:45 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "runlevel"
+2021-03-30 18:58:45 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.02s
+2021-03-30 18:58:45 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "dpkg-query -W -f='\${Status} \${Version}\n' sudo"
+2021-03-30 18:58:45 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.04s
+2021-03-30 18:58:45 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "pgrep -a ros"
+2021-03-30 18:58:45 [DEBUG]  		ERROR RESPONSE CODE: 1, EXECUTION TIME: 0.03s
+2021-03-30 18:58:45 [DEBUG]  Command '/bin/bash -c "pgrep -a ros"' returned non-zero exit status 1
+2021-03-30 18:58:45 [DEBUG]  Could not detect ros processes.
+2021-03-30 18:58:45 [DEBUG]  		EXECUTING SYSTEM COMMAND: /bin/bash -c "curl -sS -X PUT -H 'mc_token: T22D6A610BFD68EC5021F8D3D' -H 'content-type: application/json' -H 'mc_secret: Sfc57913d42b639293d0fcb8b' -d @/tmp/tmpUQb_vV 'https://api.freedomrobotics.ai/reports'"
+2021-03-30 18:58:46 [DEBUG]  		SUCCESS RESPONSE CODE: 0, EXECUTION TIME: 0.20s
+2021-03-30 18:58:46 [DEBUG]  {"status":"success","action":"reported issue","report":{"account":"AA2E4916C77670BAA7DA84BD4","code":"AIS_OK","level":"info","created":"2021-03-30 18:58:45","component":"installer","times":{"uninstall_current_agent":[9.3,4.25],"install_webrtc_av_dependency":12.36,"install_prerequisites":0.45,"install_credentials":0.02,"get_wheel_package":[6.49,7.77,4.43],"install_freedom_robotics_service":13.48,"verify_prerequisites":3.19,"python_ssl_check":0.15,"install_freedom_main_python_package":61.25,"platform_details":[0.15,0.26,0.25,0.16],"disable_old_freedomrobotics":0.0,"install_freedom_python3_package":40.13,"has_sudo_rights":5.82,"time_total_install":90.0,"install_remote_ssh":1.41,"local_folders_permissions_check":1.0,"install_webrtc_dependencies":4.02,"check_ros_version":0.03,"agent_running_check":[0.03,0.03]},"device":"DCBCB2C933D41380633D02D59B5","requesting_token":"***021F8D3D","report":"MTYxNzEzMDcyNS45NzQ3OTA1","attributes":{"install_status":{"ACCOUNT":"AA2E4916C77670BAA7DA84BD4","PYTHON3.6 PACKAGE":"INSTALLED","ROS SHADOW":"X","PYTHON2.7 PACKAGE":"INSTALLED","DEVICE":"DCBCB2C933D41380633D02D59B5","REMOTE SSH":"INSTALLED","RTC DEPENDENCIES":"INSTALLED","MICRO AGENT":"INSTALLED AND ACTIVE"},"pip_freeze":"asn1crypto==0.24.0\ncertifi==2020.12.5\nchardet==4.0.0\ncryptography==2.1.4\ndistro==1.5.0\nenum34==1.1.6\nfreedomrobotics @ file:///tmp/freedomroboticsq3Bhhy/freedomrobotics-0.1.157-cp27-cp27mu-linux_aarch64.whl\nidna==2.6\nipaddress==1.0.17\nkeyring==10.6.0\nkeyrings.alt==3.0\nnumpy==1.16.6\npackaging==20.9\nprotobuf==3.14.0\nprotobuf-to-dict==0.1.0\npsutil==5.8.0\npycrypto==2.6.1\npygobject==3.26.1\npyparsing==2.4.7\npython-cjson==1.2.2\npyxdg==0.25\nrequests==2.25.1\nRPi.GPIO==0.7.0\nSecretStorage==2.3.1\nsetproctitle==1.1.10\nSharedArray==3.2.1\nsix==1.11.0\nurllib3==1.26.3\nyappi==1.3.2","code_version":"latest","debug_details":{"ros_processes":["failed to get"],"is_docker":false,"sudo_available":true,"is_python_virtual_env":false,"user":"ubuntu","user_is_privileged":true,"environment_variables":{"PATH":"/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"},"python_bin_path":"/usr/bin/python","run_level":"N 5"},"platform_details":{"platform_linux_distribution":["Ubuntu","18.04","bionic"],"platform_release":"5.4.0-1032-raspi","platform_python_implementation":"CPython","packaging_version":"20.9","platform_python_version":"2.7.17","pip_version":"20.3.4","platform_processor":"aarch64","platform_machine":"aarch64","platform_uname":["Linux","ubuntu","5.4.0-1032-raspi","#35~18.04.1-Ubuntu SMP PREEMPT Mon Mar 22 13:12:55 UTC 2021","aarch64","aarch64"],"platform_system":"Linux","platform_python_build":["default","Feb 27 2021 15:10:58"],"platform_mac_ver":["",["","",""],""],"pip_supported_tags":[["cp27","cp27mu","manylinux_2_27_aarch64"],["cp27","cp27mu","manylinux_2_26_aarch64"],["cp27","cp27mu","manylinux_2_25_aarch64"],["cp27","cp27mu","manylinux_2_24_aarch64"],["cp27","cp27mu","manylinux_2_23_aarch64"],["cp27","cp27mu","manylinux_2_22_aarch64"],["cp27","cp27mu","manylinux_2_21_aarch64"],["cp27","cp27mu","manylinux_2_20_aarch64"],["cp27","cp27mu","manylinux_2_19_aarch64"],["cp27","cp27mu","manylinux_2_18_aarch64"],["cp27","cp27mu","manylinux_2_17_aarch64"],["cp27","cp27mu","manylinux2014_aarch64"],["cp27","cp27mu","linux_aarch64"],["cp27","none","manylinux_2_27_aarch64"],["cp27","none","manylinux_2_26_aarch64"],["cp27","none","manylinux_2_25_aarch64"],["cp27","none","manylinux_2_24_aarch64"],["cp27","none","manylinux_2_23_aarch64"],["cp27","none","manylinux_2_22_aarch64"],["cp27","none","manylinux_2_21_aarch64"],["cp27","none","manylinux_2_20_aarch64"],["cp27","none","manylinux_2_19_aarch64"],["cp27","none","manylinux_2_18_aarch64"],["cp27","none","manylinux_2_17_aarch64"],["cp27","none","manylinux2014_aarch64"],["cp27","none","linux_aarch64"]],"platform_python_compiler":"GCC 7.5.0"},"environment":{"country":"US","source-ip":"70.119.66.130","user-agent":"curl/7.58.0"},"code_branch":"release","token":"***021F8D3D","install_elements":["webrtc"]},"message":"Successful Agent Installation","device_name":"Default","account_name":"Freedom Industries (h+demos@freedomrobotics.ai)","requesting_token_type":"device"}}

@@ -1,0 +1,597 @@
+
+
+1649349136.901708414  Node Startup
+1649349142.780118942 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout] [FREEDOM] Starting to listen to topic: /rosout_agg
+1649349142.801891088 INFO /link_ros [threading.py:754(Thread.run)] [topics: /rosout, /rosout_agg] [FREEDOM] Starting to listen to topic: /video/click
+1649349143.801121950 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout, /video/click, /rosout_agg] [FREEDOM] Completed initializing LinkROS
+1649349143.845733880 ERROR /listener [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /video/click] bad callback: <function callback at 0xffff95430b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 35, in callback
+    move_motor(y_axis, '10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339700', '--halt-and-hold']' returned non-zero exit status 2
+
+1649349144.195863008 ERROR /listener [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /video/click] bad callback: <function callback at 0xffff95430b50>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 35, in callback
+    move_motor(y_axis, '10000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 26, in move_motor
+    ticcmd('--enter-safe-start', '-d', axis, '--halt-and-hold')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/listener.py", line 23, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--enter-safe-start', '-d', '00339700', '--halt-and-hold']' returned non-zero exit status 2
+
+1649349144.827662944 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout_agg, /rosout, /video/click, /tf] [FREEDOM] Starting to listen to topic: /image_raw_2
+1649349144.848742961 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout_agg, /video/click, /image_raw_2, /rosout, /tf] [FREEDOM] Starting to listen to topic: /image_raw
+1649359139.705775022 INFO /link_ros [pool.py:113(worker)] [topics: /rosout_agg, /image_raw, /rosout, /tf, /tf_static, /video/click, /image_raw_2, /cmd_vel] [FREEDOM] Starting to listen to topic: /cmd_vel
+1649359140.066497087 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 34, in joystick_callback
+    move_motor(y_axis, '-1000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '-1000']' returned non-zero exit status 2
+
+1649359140.476855039 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 34, in joystick_callback
+    move_motor(y_axis, '-1000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '-1000']' returned non-zero exit status 2
+
+1649359140.656336069 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 34, in joystick_callback
+    move_motor(y_axis, '-1000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '-1000']' returned non-zero exit status 2
+
+1649359141.061978101 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359141.210653066 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359141.372925996 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359141.530289888 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359141.714890003 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359141.862925052 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359142.015425920 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359142.153331995 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359143.750761985 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 34, in joystick_callback
+    move_motor(y_axis, '-1000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '-1000']' returned non-zero exit status 2
+
+1649359164.673873901 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359164.836270093 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359164.983454942 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359165.115473031 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359165.533004999 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 34, in joystick_callback
+    move_motor(y_axis, '-1000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '-1000']' returned non-zero exit status 2
+
+1649359165.677762031 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 34, in joystick_callback
+    move_motor(y_axis, '-1000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '-1000']' returned non-zero exit status 2
+
+1649359165.841161012 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 34, in joystick_callback
+    move_motor(y_axis, '-1000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '-1000']' returned non-zero exit status 2
+
+1649359166.027695894 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 34, in joystick_callback
+    move_motor(y_axis, '-1000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '-1000']' returned non-zero exit status 2
+
+1649359166.201726913 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 34, in joystick_callback
+    move_motor(y_axis, '-1000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '-1000']' returned non-zero exit status 2
+
+1649359167.041876077 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359167.233948945 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359167.460923910 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359167.662189006 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359168.207422971 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 34, in joystick_callback
+    move_motor(y_axis, '-1000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '-1000']' returned non-zero exit status 2
+
+1649359168.389138936 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 34, in joystick_callback
+    move_motor(y_axis, '-1000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '-1000']' returned non-zero exit status 2
+
+1649359168.586448907 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 34, in joystick_callback
+    move_motor(y_axis, '-1000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '-1000']' returned non-zero exit status 2
+
+1649359168.788400888 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 34, in joystick_callback
+    move_motor(y_axis, '-1000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '-1000']' returned non-zero exit status 2
+
+1649359168.972795009 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 34, in joystick_callback
+    move_motor(y_axis, '-1000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '-1000']' returned non-zero exit status 2
+
+1649359169.128504991 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359169.307215929 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359169.505677938 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359170.917967081 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffa0dcabd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 34, in joystick_callback
+    move_motor(y_axis, '-1000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '-1000']' returned non-zero exit status 2
+
+1649359191.922864913 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffad5f4bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359192.086966991 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffad5f4bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359192.242177963 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffad5f4bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359192.388802051 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffad5f4bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359192.537930965 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffad5f4bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 32, in joystick_callback
+    move_motor(y_axis, '5000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '5000']' returned non-zero exit status 2
+
+1649359195.080763101 ERROR /joystick [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /cmd_vel] bad callback: <function joystick_callback at 0xffffad5f4bd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 34, in joystick_callback
+    move_motor(y_axis, '-1000')
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 28, in move_motor
+    revolutions)
+  File "/home/ubuntu/catkin_ws/src/beginner_tutorials/scripts/joystick.py", line 24, in ticcmd
+    return subprocess.check_output(['ticcmd'] + list(args))
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '['ticcmd', '--exit-safe-start', '--step-mode', '1', '-d', '00339700', '--current', '300', '--position', '-1000']' returned non-zero exit status 2
+

@@ -1,0 +1,56 @@
+[2.965s] Invoking command in '/home/ubuntu/ros2_foxy/build/gtest_vendor': /usr/bin/cmake /home/ubuntu/ros2_foxy/src/ament/googletest/googletest -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_foxy/install/gtest_vendor
+[3.094s] -- Configuring done
+[3.100s] -- Generating done
+[3.103s] -- Build files have been written to: /home/ubuntu/ros2_foxy/build/gtest_vendor
+[3.130s] Invoked command in '/home/ubuntu/ros2_foxy/build/gtest_vendor' returned '0': /usr/bin/cmake /home/ubuntu/ros2_foxy/src/ament/googletest/googletest -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_foxy/install/gtest_vendor
+[3.135s] Invoking command in '/home/ubuntu/ros2_foxy/build/gtest_vendor': /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/gtest_vendor -- -j4 -l4
+[3.324s] Invoked command in '/home/ubuntu/ros2_foxy/build/gtest_vendor' returned '0': /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/gtest_vendor -- -j4 -l4
+[3.480s] Invoking command in '/home/ubuntu/ros2_foxy/build/gtest_vendor': /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/gtest_vendor --target install -- -j4 -l4
+[3.698s] [36mInstall the project...[0m
+[3.739s] -- Install configuration: ""
+[3.740s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/share/gtest_vendor/cmake/gtest_vendorConfig.cmake
+[3.741s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/share/gtest_vendor/package.xml
+[3.742s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/CMakeLists.txt
+[3.743s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest
+[3.744s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-death-test.h
+[3.745s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-test-part.h
+[3.746s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-message.h
+[3.747s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-printers.h
+[3.748s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest_pred_impl.h
+[3.749s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/internal
+[3.749s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-type-util.h
+[3.752s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-port-arch.h
+[3.753s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-death-test-internal.h
+[3.755s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-param-util-generated.h
+[3.757s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/custom
+[3.760s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/custom/gtest-printers.h
+[3.761s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/custom/gtest-port.h
+[3.762s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/custom/README.md
+[3.763s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/custom/gtest.h
+[3.764s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-port.h
+[3.764s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-internal.h
+[3.765s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-param-util-generated.h.pump
+[3.766s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-string.h
+[3.767s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-type-util.h.pump
+[3.768s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-param-util.h
+[3.771s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-filepath.h
+[3.772s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-param-test.h.pump
+[3.773s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-param-test.h
+[3.776s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-typed-test.h
+[3.777s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest.h
+[3.778s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-spi.h
+[3.780s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest_prod.h
+[3.781s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-matchers.h
+[3.782s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/src
+[3.783s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/src/gtest-death-test.cc
+[3.784s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/src/gtest-test-part.cc
+[3.785s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/src/gtest-port.cc
+[3.786s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/src/gtest-all.cc
+[3.787s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/src/gtest_main.cc
+[3.788s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/src/gtest-internal-inl.h
+[3.790s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/src/gtest-matchers.cc
+[3.792s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/src/gtest.cc
+[3.792s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/src/gtest-filepath.cc
+[3.793s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/src/gtest-typed-test.cc
+[3.794s] -- Installing: /home/ubuntu/ros2_foxy/install/gtest_vendor/src/gtest_vendor/src/gtest-printers.cc
+[3.806s] Invoked command in '/home/ubuntu/ros2_foxy/build/gtest_vendor' returned '0': /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/gtest_vendor --target install -- -j4 -l4

@@ -1,0 +1,78 @@
+{
+    "code": "FRA_LINK_BASE_GENERIC", 
+    "logs": [
+        "Traceback (most recent call last):", 
+        "", 
+        "  File \"freedomrobotics/link_base.py\", line 557, in freedomrobotics.link_base.LinkUploader.__loop_connection_check_to_freedom_api", 
+        "", 
+        "Exception: Token or secret not valid for this device: Account: A139C78C471C762F34F31F8DD Device: D36F4D9E51F228A3B221D203CB1 Token: T54DA732B95F70917C390FC37", 
+        ""
+    ], 
+    "level": "fatal", 
+    "errorMessage": "Unhandled exception in Link `agent_link` freedom api connection check loop: <type 'exceptions.Exception'> Token or secret not valid for this device: Account: A139C78C471C762F34F31F8DD Device: D36F4D9E51F228A3B221D203CB1 Token: T54DA732B95F70917C390FC37", 
+    "component": "agent", 
+    "attributes": {
+        "python": {
+            "implementation": "CPython", 
+            "version": "2.7.17", 
+            "build": [
+                "default", 
+                "Feb 27 2021 15:10:58"
+            ]
+        }, 
+        "thread": {
+            "daemon": false, 
+            "name": "freedom_agent_link_connection_check_thread"
+        }, 
+        "geo": {
+            "city": "San Francisco", 
+            "zip": "94103", 
+            "countryCode": "US", 
+            "country": "United States", 
+            "region": "CA", 
+            "isp": "Another Corporate ISP", 
+            "lon": -122.406, 
+            "as": "AS32329 Another Corporate ISP, LLC", 
+            "query": "199.241.200.231", 
+            "org": "MonkeyBrains", 
+            "lat": 37.7771, 
+            "timezone": "America/Los_Angeles", 
+            "regionName": "California"
+        }, 
+        "system": {
+            "linux_dist": [
+                "Ubuntu", 
+                "18.04", 
+                "bionic"
+            ], 
+            "ip": "199.241.200.231", 
+            "user": "ubuntu", 
+            "arch": "Unknown: aarch64", 
+            "service": "systemd", 
+            "hostname": "ubuntu", 
+            "environment": {
+                "LANG": "C.UTF-8", 
+                "SHELL": "/bin/bash", 
+                "JOURNAL_STREAM": "9:41820", 
+                "LOGNAME": "ubuntu", 
+                "USER": "ubuntu", 
+                "PATH": "/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin", 
+                "HOME": "/home/ubuntu", 
+                "INVOCATION_ID": "173f6b7196964795876f3c423dc5d373"
+            }, 
+            "platform": "Linux-5.4.0-1035-raspi-aarch64-with-Ubuntu-18.04-bionic", 
+            "version": "#38~18.04.1-Ubuntu SMP PREEMPT Wed Apr 21 00:17:21 UTC 2021", 
+            "release": "5.4.0-1035-raspi", 
+            "docker": false, 
+            "os": "Linux", 
+            "processor": "aarch64"
+        }, 
+        "freedom_robotics": {
+            "device": "D36F4D9E51F228A3B221D203CB1", 
+            "freedom_python_module_version": "0.1.157", 
+            "token": "***C390FC37", 
+            "account": "A139C78C471C762F34F31F8DD", 
+            "code_branch": "release"
+        }
+    }
+}

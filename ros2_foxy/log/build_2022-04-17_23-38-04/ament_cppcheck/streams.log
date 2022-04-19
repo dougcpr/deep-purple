@@ -1,0 +1,30 @@
+[5.087s] Invoking command in '/home/ubuntu/ros2_foxy/build/ament_cppcheck': PYTHONPATH=/home/ubuntu/ros2_foxy/install/ament_cppcheck/lib/python3.6/site-packages: /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/ament_cppcheck --editable --build-directory /home/ubuntu/ros2_foxy/build/ament_cppcheck/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/ament_cppcheck
+[7.175s] running develop
+[7.177s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.177s]   EasyInstallDeprecationWarning,
+[7.181s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.182s]   setuptools.SetuptoolsDeprecationWarning,
+[7.448s] /home/ubuntu/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[7.449s]   PkgResourcesDeprecationWarning,
+[8.023s] running egg_info
+[8.024s] creating ament_cppcheck.egg-info
+[8.025s] writing ament_cppcheck.egg-info/PKG-INFO
+[8.028s] writing dependency_links to ament_cppcheck.egg-info/dependency_links.txt
+[8.029s] writing entry points to ament_cppcheck.egg-info/entry_points.txt
+[8.031s] writing requirements to ament_cppcheck.egg-info/requires.txt
+[8.040s] writing top-level names to ament_cppcheck.egg-info/top_level.txt
+[8.042s] writing manifest file 'ament_cppcheck.egg-info/SOURCES.txt'
+[8.052s] reading manifest file 'ament_cppcheck.egg-info/SOURCES.txt'
+[8.058s] writing manifest file 'ament_cppcheck.egg-info/SOURCES.txt'
+[8.066s] running build_ext
+[8.067s] Creating /home/ubuntu/ros2_foxy/install/ament_cppcheck/lib/python3.6/site-packages/ament-cppcheck.egg-link (link to .)
+[8.074s] Installing ament_cppcheck script to /home/ubuntu/ros2_foxy/install/ament_cppcheck/bin
+[8.076s] 
+[8.077s] Installed /home/ubuntu/ros2_foxy/build/ament_cppcheck
+[8.078s] running install_data
+[8.079s] copying package.xml -> /home/ubuntu/ros2_foxy/install/ament_cppcheck/share/ament_cppcheck
+[8.080s] creating /home/ubuntu/ros2_foxy/install/ament_cppcheck/share/ament_index
+[8.082s] creating /home/ubuntu/ros2_foxy/install/ament_cppcheck/share/ament_index/resource_index
+[8.082s] creating /home/ubuntu/ros2_foxy/install/ament_cppcheck/share/ament_index/resource_index/packages
+[8.084s] copying resource/ament_cppcheck -> /home/ubuntu/ros2_foxy/install/ament_cppcheck/share/ament_index/resource_index/packages
+[8.236s] Invoked command in '/home/ubuntu/ros2_foxy/build/ament_cppcheck' returned '0': PYTHONPATH=/home/ubuntu/ros2_foxy/install/ament_cppcheck/lib/python3.6/site-packages: /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/ament_cppcheck --editable --build-directory /home/ubuntu/ros2_foxy/build/ament_cppcheck/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/ament_cppcheck

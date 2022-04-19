@@ -1,0 +1,26 @@
+[rosmaster.main][INFO] 2022-03-23 16:40:10,585: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-03-23 16:40:10,586: Starting ROS Master Node
+[xmlrpc][INFO] 2022-03-23 16:40:10,588: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-03-23 16:40:10,589: Started XML-RPC server [http://ubuntu:11311/]
+[rosmaster.master][INFO] 2022-03-23 16:40:10,589: Master initialized: port[11311], uri[http://ubuntu:11311/]
+[xmlrpc][INFO] 2022-03-23 16:40:10,590: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-03-23 16:40:10,679: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-03-23 16:40:10,682: +PARAM [/roslaunch/uris/host_ubuntu__39661] by /roslaunch
+[rosmaster.master][INFO] 2022-03-23 16:40:10,784: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-03-23 16:40:10,785: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-03-23 16:40:10,820: +SERVICE [/rosout/get_loggers] /rosout http://ubuntu:39571/
+[rosmaster.master][INFO] 2022-03-23 16:40:10,822: +SERVICE [/rosout/set_logger_level] /rosout http://ubuntu:39571/
+[rosmaster.master][INFO] 2022-03-23 16:40:10,825: +PUB [/rosout_agg] /rosout http://ubuntu:39571/
+[rosmaster.master][INFO] 2022-03-23 16:40:10,832: +SUB [/rosout] /rosout http://ubuntu:39571/
+[rosmaster.master][INFO] 2022-03-23 16:40:18,085: +PUB [/rosout] /link_ros http://ubuntu:45823/
+[rosmaster.master][INFO] 2022-03-23 16:40:18,091: +SERVICE [/link_ros/get_loggers] /link_ros http://ubuntu:45823/
+[rosmaster.master][INFO] 2022-03-23 16:40:18,094: +SERVICE [/link_ros/set_logger_level] /link_ros http://ubuntu:45823/
+[rosmaster.master][INFO] 2022-03-23 16:40:18,104: publisherUpdate[/rosout] -> http://ubuntu:39571/ ['http://ubuntu:45823/']
+[rosmaster.master][INFO] 2022-03-23 16:40:18,112: publisherUpdate[/rosout] -> http://ubuntu:39571/ ['http://ubuntu:45823/']: sec=0.01, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2022-03-23 16:40:18,213: -PUB [/rosout_agg] /rosout http://ubuntu:39571/
+[rosmaster.master][INFO] 2022-03-23 16:40:18,215: -SUB [/rosout] /rosout http://ubuntu:39571/
+[rosmaster.master][INFO] 2022-03-23 16:40:18,216: -SERVICE [/rosout/get_loggers] /rosout rosrpc://ubuntu:57395
+[rosmaster.master][INFO] 2022-03-23 16:40:18,218: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://ubuntu:57395
+[rosmaster.main][INFO] 2022-03-23 16:40:18,327: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2022-03-23 16:40:18,327: stopping master...
+[rospy.core][INFO] 2022-03-23 16:40:18,328: signal_shutdown [atexit]

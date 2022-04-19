@@ -1,0 +1,28 @@
+[4.537s] Invoking command in '/home/ubuntu/ros2_foxy/build/osrf_pycommon': PYTHONPATH=/home/ubuntu/ros2_foxy/install/osrf_pycommon/lib/python3.6/site-packages: /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/osrf_pycommon --editable --build-directory /home/ubuntu/ros2_foxy/build/osrf_pycommon/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/osrf_pycommon
+[6.685s] running develop
+[6.687s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.688s]   EasyInstallDeprecationWarning,
+[6.692s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.693s]   setuptools.SetuptoolsDeprecationWarning,
+[6.931s] /home/ubuntu/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[6.932s]   PkgResourcesDeprecationWarning,
+[11.133s] running egg_info
+[11.136s] creating osrf_pycommon.egg-info
+[11.138s] writing osrf_pycommon.egg-info/PKG-INFO
+[11.140s] writing dependency_links to osrf_pycommon.egg-info/dependency_links.txt
+[11.141s] writing requirements to osrf_pycommon.egg-info/requires.txt
+[11.142s] writing top-level names to osrf_pycommon.egg-info/top_level.txt
+[11.151s] writing manifest file 'osrf_pycommon.egg-info/SOURCES.txt'
+[11.164s] reading manifest file 'osrf_pycommon.egg-info/SOURCES.txt'
+[11.171s] writing manifest file 'osrf_pycommon.egg-info/SOURCES.txt'
+[11.282s] running build_ext
+[11.285s] Creating /home/ubuntu/ros2_foxy/install/osrf_pycommon/lib/python3.6/site-packages/osrf-pycommon.egg-link (link to .)
+[11.290s] 
+[11.291s] Installed /home/ubuntu/ros2_foxy/build/osrf_pycommon
+[11.292s] running install_data
+[11.293s] copying package.xml -> /home/ubuntu/ros2_foxy/install/osrf_pycommon/share/osrf_pycommon
+[11.294s] creating /home/ubuntu/ros2_foxy/install/osrf_pycommon/share/ament_index
+[11.295s] creating /home/ubuntu/ros2_foxy/install/osrf_pycommon/share/ament_index/resource_index
+[11.306s] creating /home/ubuntu/ros2_foxy/install/osrf_pycommon/share/ament_index/resource_index/packages
+[11.307s] copying resource/osrf_pycommon -> /home/ubuntu/ros2_foxy/install/osrf_pycommon/share/ament_index/resource_index/packages
+[11.439s] Invoked command in '/home/ubuntu/ros2_foxy/build/osrf_pycommon' returned '0': PYTHONPATH=/home/ubuntu/ros2_foxy/install/osrf_pycommon/lib/python3.6/site-packages: /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/osrf_pycommon --editable --build-directory /home/ubuntu/ros2_foxy/build/osrf_pycommon/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/osrf_pycommon

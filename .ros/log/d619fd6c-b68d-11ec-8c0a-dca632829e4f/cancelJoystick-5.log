@@ -1,0 +1,92 @@
+[rospy.client][INFO] 2022-04-07 16:14:52,048: init_node, name[/cancelJoystick], pid[1543]
+[xmlrpc][INFO] 2022-04-07 16:14:52,055: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-04-07 16:14:52,056: Started XML-RPC server [http://ubuntu:33583/]
+[rospy.impl.masterslave][INFO] 2022-04-07 16:14:52,057: _ready: http://ubuntu:33583/
+[rospy.init][INFO] 2022-04-07 16:14:52,058: ROS Slave URI: [http://ubuntu:33583/]
+[rospy.registration][INFO] 2022-04-07 16:14:52,065: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-04-07 16:14:52,070: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-04-07 16:14:52,159: registered with master
+[rospy.rosout][INFO] 2022-04-07 16:14:52,160: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-04-07 16:14:52,167: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-04-07 16:14:52,171: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-04-07 16:14:52,415: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-04-07 16:18:38,570: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-04-07 16:18:38,588: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-04-07 16:18:38,589: signal-2
+[rospy.core][INFO] 2022-04-07 16:18:39,213: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-04-07 16:18:44,611: init_node, name[/cancelJoystick], pid[6995]
+[xmlrpc][INFO] 2022-04-07 16:18:44,613: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-04-07 16:18:44,615: ROS Slave URI: [http://ubuntu:38135/]
+[xmlrpc][INFO] 2022-04-07 16:18:44,617: Started XML-RPC server [http://ubuntu:38135/]
+[rospy.impl.masterslave][INFO] 2022-04-07 16:18:44,617: _ready: http://ubuntu:38135/
+[xmlrpc][INFO] 2022-04-07 16:18:44,618: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-04-07 16:18:44,620: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-04-07 16:18:44,717: registered with master
+[rospy.rosout][INFO] 2022-04-07 16:18:44,717: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-04-07 16:18:44,724: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-04-07 16:18:44,727: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-04-07 16:18:44,892: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-04-07 16:19:20,457: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-04-07 16:19:20,486: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-04-07 16:19:20,491: signal-2
+[rospy.core][INFO] 2022-04-07 16:19:20,592: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-04-07 16:19:36,278: init_node, name[/cancelJoystick], pid[8106]
+[xmlrpc][INFO] 2022-04-07 16:19:36,280: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-04-07 16:19:36,282: ROS Slave URI: [http://ubuntu:35499/]
+[xmlrpc][INFO] 2022-04-07 16:19:36,283: Started XML-RPC server [http://ubuntu:35499/]
+[rospy.impl.masterslave][INFO] 2022-04-07 16:19:36,283: _ready: http://ubuntu:35499/
+[xmlrpc][INFO] 2022-04-07 16:19:36,285: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-04-07 16:19:36,287: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-04-07 16:19:36,385: registered with master
+[rospy.rosout][INFO] 2022-04-07 16:19:36,386: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-04-07 16:19:36,403: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-04-07 16:19:36,411: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-04-07 16:19:36,608: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-04-07 16:20:06,609: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-04-07 16:20:06,642: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-04-07 16:20:06,643: signal-2
+[rospy.core][INFO] 2022-04-07 16:20:06,750: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-04-07 16:20:39,002: init_node, name[/cancelJoystick], pid[9299]
+[xmlrpc][INFO] 2022-04-07 16:20:39,004: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-04-07 16:20:39,006: ROS Slave URI: [http://ubuntu:38309/]
+[xmlrpc][INFO] 2022-04-07 16:20:39,005: Started XML-RPC server [http://ubuntu:38309/]
+[rospy.impl.masterslave][INFO] 2022-04-07 16:20:39,007: _ready: http://ubuntu:38309/
+[xmlrpc][INFO] 2022-04-07 16:20:39,008: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-04-07 16:20:39,009: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-04-07 16:20:39,107: registered with master
+[rospy.rosout][INFO] 2022-04-07 16:20:39,108: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-04-07 16:20:39,117: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-04-07 16:20:39,121: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-04-07 16:20:39,261: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-04-07 16:21:25,701: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-04-07 16:21:25,722: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-04-07 16:21:25,726: signal-2
+[rospy.core][INFO] 2022-04-07 16:21:25,828: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-04-07 16:22:25,855: init_node, name[/cancelJoystick], pid[11180]
+[xmlrpc][INFO] 2022-04-07 16:22:25,856: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-04-07 16:22:25,857: Started XML-RPC server [http://ubuntu:46699/]
+[rospy.init][INFO] 2022-04-07 16:22:25,858: ROS Slave URI: [http://ubuntu:46699/]
+[rospy.impl.masterslave][INFO] 2022-04-07 16:22:25,859: _ready: http://ubuntu:46699/
+[rospy.registration][INFO] 2022-04-07 16:22:25,862: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-04-07 16:22:25,862: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-04-07 16:22:25,960: registered with master
+[rospy.rosout][INFO] 2022-04-07 16:22:25,961: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-04-07 16:22:25,972: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-04-07 16:22:25,977: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-04-07 16:22:26,203: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-04-07 16:27:09,033: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-04-07 16:27:09,064: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-04-07 16:27:09,064: signal-2
+[rospy.core][INFO] 2022-04-07 16:27:09,181: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-04-07 16:28:08,079: init_node, name[/cancelJoystick], pid[18746]
+[xmlrpc][INFO] 2022-04-07 16:28:08,081: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-04-07 16:28:08,082: Started XML-RPC server [http://ubuntu:33095/]
+[rospy.init][INFO] 2022-04-07 16:28:08,083: ROS Slave URI: [http://ubuntu:33095/]
+[rospy.impl.masterslave][INFO] 2022-04-07 16:28:08,083: _ready: http://ubuntu:33095/
+[rospy.registration][INFO] 2022-04-07 16:28:08,086: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-04-07 16:28:08,086: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-04-07 16:28:08,184: registered with master
+[rospy.rosout][INFO] 2022-04-07 16:28:08,185: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-04-07 16:28:08,198: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-04-07 16:28:08,201: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-04-07 16:28:08,460: topic[/rosout] adding connection to [/rosout], count 0

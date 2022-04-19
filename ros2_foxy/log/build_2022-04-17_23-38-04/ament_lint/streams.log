@@ -1,0 +1,29 @@
+[7.177s] Invoking command in '/home/ubuntu/ros2_foxy/build/ament_lint': PYTHONPATH=/home/ubuntu/ros2_foxy/install/ament_lint/lib/python3.6/site-packages: /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/ament_lint --editable --build-directory /home/ubuntu/ros2_foxy/build/ament_lint/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/ament_lint
+[9.329s] running develop
+[9.335s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.335s]   EasyInstallDeprecationWarning,
+[9.340s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.341s]   setuptools.SetuptoolsDeprecationWarning,
+[9.718s] /home/ubuntu/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[9.719s]   PkgResourcesDeprecationWarning,
+[10.434s] running egg_info
+[10.436s] creating ament_lint.egg-info
+[10.438s] writing ament_lint.egg-info/PKG-INFO
+[10.440s] writing dependency_links to ament_lint.egg-info/dependency_links.txt
+[10.443s] writing entry points to ament_lint.egg-info/entry_points.txt
+[10.446s] writing requirements to ament_lint.egg-info/requires.txt
+[10.449s] writing top-level names to ament_lint.egg-info/top_level.txt
+[10.463s] writing manifest file 'ament_lint.egg-info/SOURCES.txt'
+[10.473s] reading manifest file 'ament_lint.egg-info/SOURCES.txt'
+[10.479s] writing manifest file 'ament_lint.egg-info/SOURCES.txt'
+[10.488s] running build_ext
+[10.490s] Creating /home/ubuntu/ros2_foxy/install/ament_lint/lib/python3.6/site-packages/ament-lint.egg-link (link to .)
+[10.498s] 
+[10.499s] Installed /home/ubuntu/ros2_foxy/build/ament_lint
+[10.501s] running install_data
+[10.503s] copying package.xml -> /home/ubuntu/ros2_foxy/install/ament_lint/share/ament_lint
+[10.506s] creating /home/ubuntu/ros2_foxy/install/ament_lint/share/ament_index
+[10.508s] creating /home/ubuntu/ros2_foxy/install/ament_lint/share/ament_index/resource_index
+[10.510s] creating /home/ubuntu/ros2_foxy/install/ament_lint/share/ament_index/resource_index/packages
+[10.511s] copying resource/ament_lint -> /home/ubuntu/ros2_foxy/install/ament_lint/share/ament_index/resource_index/packages
+[10.686s] Invoked command in '/home/ubuntu/ros2_foxy/build/ament_lint' returned '0': PYTHONPATH=/home/ubuntu/ros2_foxy/install/ament_lint/lib/python3.6/site-packages: /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/ament_lint --editable --build-directory /home/ubuntu/ros2_foxy/build/ament_lint/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/ament_lint

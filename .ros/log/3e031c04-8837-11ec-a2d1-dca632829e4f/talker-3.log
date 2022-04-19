@@ -1,0 +1,25 @@
+[rospy.client][INFO] 2022-02-07 16:59:18,499: init_node, name[/talker], pid[17611]
+[xmlrpc][INFO] 2022-02-07 16:59:18,501: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-02-07 16:59:18,504: ROS Slave URI: [http://ubuntu:46319/]
+[xmlrpc][INFO] 2022-02-07 16:59:18,505: Started XML-RPC server [http://ubuntu:46319/]
+[rospy.impl.masterslave][INFO] 2022-02-07 16:59:18,505: _ready: http://ubuntu:46319/
+[xmlrpc][INFO] 2022-02-07 16:59:18,507: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-02-07 16:59:18,508: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2022-02-07 16:59:18,509: Registering publisher topic [/video/click] type [geometry_msgs/PointStamped] with master
+[rospy.internal][INFO] 2022-02-07 16:59:18,602: topic[/video/click] adding connection to [/listener], count 0
+[rospy.init][INFO] 2022-02-07 16:59:18,605: registered with master
+[rospy.rosout][INFO] 2022-02-07 16:59:18,606: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-07 16:59:18,609: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-07 16:59:18,612: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-07 16:59:18,738: topic[/video/click] adding connection to [/link_ros], count 1
+[rospy.internal][INFO] 2022-02-07 16:59:18,896: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-02-07 18:16:13,480: topic[/video/click] removing connection to /link_ros
+[rospy.internal][INFO] 2022-02-07 18:16:26,281: topic[/video/click] adding connection to [/link_ros], count 1
+[rospy.internal][INFO] 2022-02-07 18:16:57,014: topic[/video/click] removing connection to /link_ros
+[rospy.internal][INFO] 2022-02-07 18:17:09,414: topic[/video/click] adding connection to [/link_ros], count 1
+[rospy.core][INFO] 2022-02-07 21:12:07,348: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-07 21:12:07,355: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-02-07 21:12:07,358: topic[/video/click] removing connection to /listener
+[rospy.internal][INFO] 2022-02-07 21:12:07,359: topic[/video/click] removing connection to /link_ros
+[rospy.impl.masterslave][INFO] 2022-02-07 21:12:07,360: signal-2
+[rospy.core][INFO] 2022-02-07 21:12:07,494: signal_shutdown [atexit]

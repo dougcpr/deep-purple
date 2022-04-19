@@ -1,0 +1,9 @@
+
+
+1644433026.993717103  Node Startup
+1644433033.094774007 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout] [FREEDOM] Starting to listen to topic: /rosout_agg
+1644433034.121190071 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout, /rosout_agg] [FREEDOM] Completed initializing LinkROS
+1644433049.643280982 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout, /rosout_agg, /tf] [FREEDOM] Starting to listen to topic: /video/click
+1644433049.661225080 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout, /rosout_agg, /tf, /video/click] [FREEDOM] Starting to listen to topic: /image_raw
+1644435511.125277996 INFO /link_ros [pool.py:113(worker)] [topics: /tf_static, /rosout_agg, /image_raw, /rosout, /tf, /video/click] [FREEDOM] Topic not found. No one is publishing on it currently. Will create the first publisher: /cmd_vel
+1644435511.132690906 INFO /link_ros [pool.py:113(worker)] [topics: /tf_static, /rosout_agg, /image_raw, /rosout, /cmd_vel, /tf, /video/click] [FREEDOM] Starting to listen to topic: /cmd_vel

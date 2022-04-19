@@ -1,0 +1,45 @@
+[rospy.client][INFO] 2022-01-20 16:12:49,504: init_node, name[/talker_24787_1642695169438], pid[24787]
+[xmlrpc][INFO] 2022-01-20 16:12:49,511: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-20 16:12:49,512: Started XML-RPC server [http://ubuntu:34021/]
+[rospy.init][INFO] 2022-01-20 16:12:49,513: ROS Slave URI: [http://ubuntu:34021/]
+[rospy.impl.masterslave][INFO] 2022-01-20 16:12:49,513: _ready: http://ubuntu:34021/
+[rospy.registration][INFO] 2022-01-20 16:12:49,516: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-20 16:12:49,516: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-01-20 16:12:49,517: Registering publisher topic [/chatter] type [std_msgs/String] with master
+[rospy.init][INFO] 2022-01-20 16:12:49,614: registered with master
+[rospy.rosout][INFO] 2022-01-20 16:12:49,615: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-20 16:12:49,618: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-20 16:12:49,621: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2022-01-20 16:12:49,629: hello world 1642695169.63
+[rospy.internal][INFO] 2022-01-20 16:12:49,847: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-01-20 16:12:53,633: hello world 1642695173.63
+[rosout][INFO] 2022-01-20 16:12:57,633: hello world 1642695177.63
+[rosout][INFO] 2022-01-20 16:13:01,633: hello world 1642695181.63
+[rosout][INFO] 2022-01-20 16:13:05,633: hello world 1642695185.63
+[rosout][INFO] 2022-01-20 16:13:09,633: hello world 1642695189.63
+[rosout][INFO] 2022-01-20 16:13:13,631: hello world 1642695193.63
+[rosout][INFO] 2022-01-20 16:13:17,633: hello world 1642695197.63
+[rosout][INFO] 2022-01-20 16:13:21,633: hello world 1642695201.63
+[rosout][INFO] 2022-01-20 16:13:25,633: hello world 1642695205.63
+[rosout][INFO] 2022-01-20 16:13:29,633: hello world 1642695209.63
+[rosout][INFO] 2022-01-20 16:13:33,631: hello world 1642695213.63
+[rosout][INFO] 2022-01-20 16:13:37,633: hello world 1642695217.63
+[rosout][INFO] 2022-01-20 16:13:41,633: hello world 1642695221.63
+[rosout][INFO] 2022-01-20 16:13:45,633: hello world 1642695225.63
+[rosout][INFO] 2022-01-20 16:13:49,632: hello world 1642695229.63
+[rosout][INFO] 2022-01-20 16:13:53,630: hello world 1642695233.63
+[rosout][INFO] 2022-01-20 16:13:57,633: hello world 1642695237.63
+[rosout][INFO] 2022-01-20 16:14:01,633: hello world 1642695241.63
+[rosout][INFO] 2022-01-20 16:14:05,633: hello world 1642695245.63
+[rosout][INFO] 2022-01-20 16:14:09,633: hello world 1642695249.63
+[rosout][INFO] 2022-01-20 16:14:13,633: hello world 1642695253.63
+[rosout][INFO] 2022-01-20 16:14:17,632: hello world 1642695257.63
+[rosout][INFO] 2022-01-20 16:14:21,633: hello world 1642695261.63
+[rosout][INFO] 2022-01-20 16:14:25,633: hello world 1642695265.63
+[rosout][INFO] 2022-01-20 16:14:29,633: hello world 1642695269.63
+[rosout][INFO] 2022-01-20 16:14:33,633: hello world 1642695273.63
+[rosout][INFO] 2022-01-20 16:14:37,633: hello world 1642695277.63
+[rospy.core][INFO] 2022-01-20 16:14:37,866: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-20 16:14:37,878: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-01-20 16:14:37,879: signal-2
+[rospy.core][INFO] 2022-01-20 16:14:38,495: signal_shutdown [atexit]

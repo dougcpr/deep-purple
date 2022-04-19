@@ -1,0 +1,107 @@
+[rosmaster.main][INFO] 2022-03-29 17:16:02,932: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-03-29 17:16:02,932: Starting ROS Master Node
+[xmlrpc][INFO] 2022-03-29 17:16:02,934: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-03-29 17:16:02,935: Started XML-RPC server [http://ubuntu:11311/]
+[rosmaster.master][INFO] 2022-03-29 17:16:02,935: Master initialized: port[11311], uri[http://ubuntu:11311/]
+[xmlrpc][INFO] 2022-03-29 17:16:02,935: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-03-29 17:16:03,050: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-03-29 17:16:03,053: +PARAM [/roslaunch/uris/host_ubuntu__43839] by /roslaunch
+[rosmaster.master][INFO] 2022-03-29 17:16:03,155: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-03-29 17:16:03,156: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-03-29 17:16:03,185: +SERVICE [/rosout/get_loggers] /rosout http://ubuntu:42677/
+[rosmaster.master][INFO] 2022-03-29 17:16:03,187: +SERVICE [/rosout/set_logger_level] /rosout http://ubuntu:42677/
+[rosmaster.master][INFO] 2022-03-29 17:16:03,190: +PUB [/rosout_agg] /rosout http://ubuntu:42677/
+[rosmaster.master][INFO] 2022-03-29 17:16:03,197: +SUB [/rosout] /rosout http://ubuntu:42677/
+[rosmaster.master][INFO] 2022-03-29 17:16:06,335: +PUB [/rosout] /link_ros http://ubuntu:39533/
+[rosmaster.master][INFO] 2022-03-29 17:16:06,340: publisherUpdate[/rosout] -> http://ubuntu:42677/ ['http://ubuntu:39533/']
+[rosmaster.master][INFO] 2022-03-29 17:16:06,344: +SERVICE [/link_ros/get_loggers] /link_ros http://ubuntu:39533/
+[rosmaster.master][INFO] 2022-03-29 17:16:06,348: +SERVICE [/link_ros/set_logger_level] /link_ros http://ubuntu:39533/
+[rosmaster.master][INFO] 2022-03-29 17:16:06,352: publisherUpdate[/rosout] -> http://ubuntu:42677/ ['http://ubuntu:39533/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-29 17:16:07,005: +CACHEDPARAM [/rosout_disable_topics_generation] by /link_ros
+[rosmaster.master][INFO] 2022-03-29 17:16:07,009: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2022-03-29 17:16:07,020: +SUB [/rosout_agg] /link_ros http://ubuntu:39533/
+[rosmaster.master][INFO] 2022-03-29 17:16:08,026: +CACHEDPARAM [/rosout_disable_topics_generation] by /link_ros
+[rosmaster.master][INFO] 2022-03-29 17:16:08,037: +SERVICE [/link_ros/tf2_frames] /link_ros http://ubuntu:39533/
+[rosmaster.master][INFO] 2022-03-29 17:16:08,042: +SUB [/tf] /link_ros http://ubuntu:39533/
+[rosmaster.master][INFO] 2022-03-29 17:16:08,046: +SUB [/tf_static] /link_ros http://ubuntu:39533/
+[rosmaster.master][INFO] 2022-03-29 17:16:34,935: +PARAM [/roslaunch/uris/host_ubuntu__41923] by /roslaunch
+[rosmaster.master][INFO] 2022-03-29 17:16:34,942: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-03-29 17:16:34,942: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-03-29 17:16:36,858: +PUB [/video/click] /talker http://ubuntu:43445/
+[rosmaster.master][INFO] 2022-03-29 17:16:36,862: +PUB [/rosout] /listener http://ubuntu:41099/
+[rosmaster.master][INFO] 2022-03-29 17:16:36,871: +SERVICE [/listener/get_loggers] /listener http://ubuntu:41099/
+[rosmaster.master][INFO] 2022-03-29 17:16:36,874: +SERVICE [/listener/set_logger_level] /listener http://ubuntu:41099/
+[rosmaster.master][INFO] 2022-03-29 17:16:36,879: +SUB [/video/click] /listener http://ubuntu:41099/
+[rosmaster.master][INFO] 2022-03-29 17:16:36,913: publisherUpdate[/rosout] -> http://ubuntu:42677/ ['http://ubuntu:39533/', 'http://ubuntu:41099/']
+[rosmaster.master][INFO] 2022-03-29 17:16:36,923: publisherUpdate[/rosout] -> http://ubuntu:42677/ ['http://ubuntu:39533/', 'http://ubuntu:41099/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-29 17:16:36,950: +PUB [/rosout] /talker http://ubuntu:43445/
+[rosmaster.master][INFO] 2022-03-29 17:16:36,956: +SERVICE [/talker/get_loggers] /talker http://ubuntu:43445/
+[rosmaster.master][INFO] 2022-03-29 17:16:36,958: +SERVICE [/talker/set_logger_level] /talker http://ubuntu:43445/
+[rosmaster.master][INFO] 2022-03-29 17:16:37,014: publisherUpdate[/rosout] -> http://ubuntu:42677/ ['http://ubuntu:39533/', 'http://ubuntu:41099/', 'http://ubuntu:43445/']
+[rosmaster.master][INFO] 2022-03-29 17:16:37,022: publisherUpdate[/rosout] -> http://ubuntu:42677/ ['http://ubuntu:39533/', 'http://ubuntu:41099/', 'http://ubuntu:43445/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-29 17:16:37,034: +PUB [/rosout] /joystick http://ubuntu:37009/
+[rosmaster.master][INFO] 2022-03-29 17:16:37,042: +SERVICE [/joystick/get_loggers] /joystick http://ubuntu:37009/
+[rosmaster.master][INFO] 2022-03-29 17:16:37,046: +SERVICE [/joystick/set_logger_level] /joystick http://ubuntu:37009/
+[rosmaster.master][INFO] 2022-03-29 17:16:37,051: +SUB [/cmd_vel] /joystick http://ubuntu:37009/
+[rosmaster.master][INFO] 2022-03-29 17:16:37,116: publisherUpdate[/rosout] -> http://ubuntu:42677/ ['http://ubuntu:39533/', 'http://ubuntu:41099/', 'http://ubuntu:43445/', 'http://ubuntu:37009/']
+[rosmaster.master][INFO] 2022-03-29 17:16:37,133: publisherUpdate[/rosout] -> http://ubuntu:42677/ ['http://ubuntu:39533/', 'http://ubuntu:41099/', 'http://ubuntu:43445/', 'http://ubuntu:37009/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-29 17:16:37,700: +PUB [/image_raw] /webcam http://ubuntu:45257/
+[rosmaster.master][INFO] 2022-03-29 17:16:37,705: +CACHEDPARAM [/rosout_disable_topics_generation] by /link_ros
+[rosmaster.master][INFO] 2022-03-29 17:16:37,717: +SUB [/video/click] /link_ros http://ubuntu:39533/
+[rosmaster.master][INFO] 2022-03-29 17:16:37,720: +CACHEDPARAM [/rosout_disable_topics_generation] by /link_ros
+[rosmaster.master][INFO] 2022-03-29 17:16:37,730: +SUB [/image_raw] /link_ros http://ubuntu:39533/
+[rosmaster.master][INFO] 2022-03-29 17:16:37,797: +PUB [/rosout] /webcam http://ubuntu:45257/
+[rosmaster.master][INFO] 2022-03-29 17:16:37,807: +SERVICE [/webcam/get_loggers] /webcam http://ubuntu:45257/
+[rosmaster.master][INFO] 2022-03-29 17:16:37,814: +SERVICE [/webcam/set_logger_level] /webcam http://ubuntu:45257/
+[rosmaster.master][INFO] 2022-03-29 17:16:37,825: publisherUpdate[/rosout] -> http://ubuntu:42677/ ['http://ubuntu:39533/', 'http://ubuntu:41099/', 'http://ubuntu:43445/', 'http://ubuntu:37009/', 'http://ubuntu:45257/']
+[rosmaster.master][INFO] 2022-03-29 17:16:37,834: publisherUpdate[/rosout] -> http://ubuntu:42677/ ['http://ubuntu:39533/', 'http://ubuntu:41099/', 'http://ubuntu:43445/', 'http://ubuntu:37009/', 'http://ubuntu:45257/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-29 17:17:08,069: +PUB [/video/click] /link_ros http://ubuntu:39533/
+[rosmaster.master][INFO] 2022-03-29 17:17:08,087: publisherUpdate[/video/click] -> http://ubuntu:41099/ ['http://ubuntu:43445/', 'http://ubuntu:39533/']
+[rosmaster.master][INFO] 2022-03-29 17:17:08,093: publisherUpdate[/video/click] -> http://ubuntu:41099/ ['http://ubuntu:43445/', 'http://ubuntu:39533/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-29 17:17:08,093: publisherUpdate[/video/click] -> http://ubuntu:39533/ ['http://ubuntu:43445/', 'http://ubuntu:39533/']
+[rosmaster.master][INFO] 2022-03-29 17:17:08,099: publisherUpdate[/video/click] -> http://ubuntu:39533/ ['http://ubuntu:43445/', 'http://ubuntu:39533/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-29 17:17:09,042: +CACHEDPARAM [/rosout_disable_topics_generation] by /listener
+[rosmaster.master][INFO] 2022-03-29 17:17:11,286: +CACHEDPARAM [/rosout_disable_topics_generation] by /listener
+[rosmaster.master][INFO] 2022-03-29 17:17:12,870: +PUB [/cmd_vel] /link_ros http://ubuntu:39533/
+[rosmaster.master][INFO] 2022-03-29 17:17:12,874: +CACHEDPARAM [/rosout_disable_topics_generation] by /link_ros
+[rosmaster.master][INFO] 2022-03-29 17:17:12,886: +SUB [/cmd_vel] /link_ros http://ubuntu:39533/
+[rosmaster.master][INFO] 2022-03-29 17:17:12,903: publisherUpdate[/cmd_vel] -> http://ubuntu:37009/ ['http://ubuntu:39533/']
+[rosmaster.master][INFO] 2022-03-29 17:17:12,911: publisherUpdate[/cmd_vel] -> http://ubuntu:37009/ ['http://ubuntu:39533/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-29 21:06:50,976: -SUB [/cmd_vel] /joystick http://ubuntu:37009/
+[rosmaster.master][INFO] 2022-03-29 21:06:50,976: -PUB [/rosout] /joystick http://ubuntu:37009/
+[rosmaster.master][INFO] 2022-03-29 21:06:50,976: -SERVICE [/joystick/set_logger_level] /joystick rosrpc://ubuntu:34577
+[rosmaster.master][INFO] 2022-03-29 21:06:50,977: -SERVICE [/joystick/get_loggers] /joystick rosrpc://ubuntu:34577
+[rosmaster.master][INFO] 2022-03-29 21:06:50,982: -SUB [/video/click] /listener http://ubuntu:41099/
+[rosmaster.master][INFO] 2022-03-29 21:06:50,984: -PUB [/rosout] /talker http://ubuntu:43445/
+[rosmaster.master][INFO] 2022-03-29 21:06:50,985: -PUB [/rosout] /listener http://ubuntu:41099/
+[rosmaster.master][INFO] 2022-03-29 21:06:50,985: -PUB [/video/click] /talker http://ubuntu:43445/
+[rosmaster.master][INFO] 2022-03-29 21:06:50,985: -SERVICE [/listener/set_logger_level] /listener rosrpc://ubuntu:42765
+[rosmaster.master][INFO] 2022-03-29 21:06:50,986: -SERVICE [/talker/get_loggers] /talker rosrpc://ubuntu:35059
+[rosmaster.master][INFO] 2022-03-29 21:06:50,986: -SERVICE [/listener/get_loggers] /listener rosrpc://ubuntu:42765
+[rosmaster.master][INFO] 2022-03-29 21:06:50,986: publisherUpdate[/rosout] -> http://ubuntu:42677/ ['http://ubuntu:39533/', 'http://ubuntu:41099/', 'http://ubuntu:43445/', 'http://ubuntu:45257/']
+[rosmaster.master][INFO] 2022-03-29 21:06:50,987: -SERVICE [/talker/set_logger_level] /talker rosrpc://ubuntu:35059
+[rosmaster.master][INFO] 2022-03-29 21:06:50,989: publisherUpdate[/rosout] -> http://ubuntu:42677/ ['http://ubuntu:39533/', 'http://ubuntu:41099/', 'http://ubuntu:43445/', 'http://ubuntu:45257/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-29 21:06:50,992: publisherUpdate[/video/click] -> http://ubuntu:39533/ ['http://ubuntu:39533/']
+[rosmaster.master][INFO] 2022-03-29 21:06:50,999: publisherUpdate[/rosout] -> http://ubuntu:42677/ ['http://ubuntu:39533/', 'http://ubuntu:41099/', 'http://ubuntu:45257/']
+[rosmaster.master][INFO] 2022-03-29 21:06:50,999: -PUB [/rosout] /webcam http://ubuntu:45257/
+[rosmaster.master][INFO] 2022-03-29 21:06:51,002: -PUB [/image_raw] /webcam http://ubuntu:45257/
+[rosmaster.master][INFO] 2022-03-29 21:06:51,003: publisherUpdate[/rosout] -> http://ubuntu:42677/ ['http://ubuntu:39533/', 'http://ubuntu:41099/', 'http://ubuntu:45257/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-29 21:06:51,004: -SERVICE [/webcam/get_loggers] /webcam rosrpc://ubuntu:45349
+[rosmaster.master][INFO] 2022-03-29 21:06:51,005: publisherUpdate[/rosout] -> http://ubuntu:42677/ ['http://ubuntu:39533/', 'http://ubuntu:45257/']
+[rosmaster.master][INFO] 2022-03-29 21:06:51,005: -SERVICE [/webcam/set_logger_level] /webcam rosrpc://ubuntu:45349
+[rosmaster.master][INFO] 2022-03-29 21:06:51,007: publisherUpdate[/rosout] -> http://ubuntu:42677/ ['http://ubuntu:39533/', 'http://ubuntu:45257/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-29 21:06:51,008: publisherUpdate[/rosout] -> http://ubuntu:42677/ ['http://ubuntu:39533/']
+[rosmaster.master][INFO] 2022-03-29 21:06:51,010: publisherUpdate[/rosout] -> http://ubuntu:42677/ ['http://ubuntu:39533/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-29 21:06:51,013: publisherUpdate[/video/click] -> http://ubuntu:39533/ ['http://ubuntu:39533/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-29 21:06:51,013: publisherUpdate[/image_raw] -> http://ubuntu:39533/ []
+[rosmaster.master][INFO] 2022-03-29 21:06:51,015: publisherUpdate[/image_raw] -> http://ubuntu:39533/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-29 21:06:52,813: -PUB [/rosout_agg] /rosout http://ubuntu:42677/
+[rosmaster.master][INFO] 2022-03-29 21:06:52,815: -SUB [/rosout] /rosout http://ubuntu:42677/
+[rosmaster.master][INFO] 2022-03-29 21:06:52,815: publisherUpdate[/rosout_agg] -> http://ubuntu:39533/ []
+[rosmaster.master][INFO] 2022-03-29 21:06:52,817: -SERVICE [/rosout/get_loggers] /rosout rosrpc://ubuntu:59691
+[rosmaster.master][INFO] 2022-03-29 21:06:52,819: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://ubuntu:59691
+[rosmaster.master][INFO] 2022-03-29 21:06:52,821: publisherUpdate[/rosout_agg] -> http://ubuntu:39533/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-29 21:06:52,822: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2022-03-29 21:06:53,014: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2022-03-29 21:06:53,014: stopping master...
+[rospy.core][INFO] 2022-03-29 21:06:53,015: signal_shutdown [atexit]

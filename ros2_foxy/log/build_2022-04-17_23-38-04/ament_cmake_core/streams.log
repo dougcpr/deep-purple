@@ -1,0 +1,79 @@
+[1.864s] Invoking command in '/home/ubuntu/ros2_foxy/build/ament_cmake_core': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_package PYTHONPATH=/home/ubuntu/ros2_foxy/build/ament_package:/home/ubuntu/ros2_foxy/install/ament_package/lib/python3.6/site-packages /usr/bin/cmake /home/ubuntu/ros2_foxy/src/ament/ament_cmake/ament_cmake_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_foxy/install/ament_cmake_core
+[2.105s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.105s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.112s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.557s] -- ament_cmake_core 0.9.9
+[5.349s] -- Configuring done
+[5.394s] -- Generating done
+[5.404s] -- Build files have been written to: /home/ubuntu/ros2_foxy/build/ament_cmake_core
+[5.429s] Invoked command in '/home/ubuntu/ros2_foxy/build/ament_cmake_core' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_package PYTHONPATH=/home/ubuntu/ros2_foxy/build/ament_package:/home/ubuntu/ros2_foxy/install/ament_package/lib/python3.6/site-packages /usr/bin/cmake /home/ubuntu/ros2_foxy/src/ament/ament_cmake/ament_cmake_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_foxy/install/ament_cmake_core
+[5.472s] Invoking command in '/home/ubuntu/ros2_foxy/build/ament_cmake_core': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_package PYTHONPATH=/home/ubuntu/ros2_foxy/build/ament_package:/home/ubuntu/ros2_foxy/install/ament_package/lib/python3.6/site-packages /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/ament_cmake_core -- -j4 -l4
+[5.986s] Invoked command in '/home/ubuntu/ros2_foxy/build/ament_cmake_core' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_package PYTHONPATH=/home/ubuntu/ros2_foxy/build/ament_package:/home/ubuntu/ros2_foxy/install/ament_package/lib/python3.6/site-packages /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/ament_cmake_core -- -j4 -l4
+[6.186s] Invoking command in '/home/ubuntu/ros2_foxy/build/ament_cmake_core': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_package PYTHONPATH=/home/ubuntu/ros2_foxy/build/ament_package:/home/ubuntu/ros2_foxy/install/ament_package/lib/python3.6/site-packages /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/ament_cmake_core --target install -- -j4 -l4
+[6.705s] [36mInstall the project...[0m
+[6.775s] -- Install configuration: ""
+[6.777s] -- Execute custom install script
+[6.780s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_index/resource_index/package_run_dependencies/ament_cmake_core
+[6.867s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_index/resource_index/parent_prefix_path/ament_cmake_core
+[6.939s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/environment/ament_prefix_path.sh
+[6.990s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/environment/ament_prefix_path.dsv
+[7.033s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/environment/path.sh
+[7.086s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/environment/path.dsv
+[7.130s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/local_setup.bash
+[7.195s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/local_setup.sh
+[7.240s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/local_setup.zsh
+[7.286s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/local_setup.dsv
+[7.335s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/package.dsv
+[7.382s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_index/resource_index/packages/ament_cmake_core
+[7.425s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake
+[7.469s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_environment-extras.cmake
+[7.517s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_environment_hooks-extras.cmake
+[7.569s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_index-extras.cmake
+[7.613s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake
+[7.659s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_uninstall_target-extras.cmake
+[7.739s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_symlink_install-extras.cmake
+[7.788s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake
+[7.829s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_coreConfig-version.cmake
+[7.873s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/package.xml
+[7.923s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/all.cmake
+[7.971s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake
+[8.016s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_package.cmake
+[8.061s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_package_xml.cmake
+[8.108s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_register_extension.cmake
+[8.161s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/assert_file_exists.cmake
+[8.206s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/list_append_unique.cmake
+[8.271s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/normalize_path.cmake
+[8.318s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[8.364s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/python.cmake
+[8.411s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/stamp.cmake
+[8.454s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/string_ends_with.cmake
+[8.500s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/templates/nameConfig-version.cmake.in
+[8.545s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/templates/nameConfig.cmake.in
+[8.621s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/environment/ament_cmake_environment_package_hook.cmake
+[8.705s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/environment/ament_generate_environment.cmake
+[8.757s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake
+[8.807s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake
+[8.860s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake
+[8.942s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.bat
+[9.019s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh
+[9.109s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/path.bat
+[9.168s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh
+[9.212s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_cmake_index_package_hook.cmake
+[9.261s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_get_prefix_path.cmake
+[9.307s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_get_resource.cmake
+[9.350s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_get_resources.cmake
+[9.412s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_has_resource.cmake
+[9.458s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_register_package.cmake
+[9.512s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake
+[9.570s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[9.625s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install.cmake.in
+[9.679s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_append_install_code.cmake
+[9.730s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_directory.cmake
+[9.784s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_files.cmake
+[9.814s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_programs.cmake
+[9.869s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake
+[9.915s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_uninstall_script.cmake.in
+[9.967s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/install.cmake
+[10.019s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target.cmake.in
+[10.060s] -- Symlinking: /home/ubuntu/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target_append_uninstall_code.cmake
+[11.753s] Invoked command in '/home/ubuntu/ros2_foxy/build/ament_cmake_core' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_package PYTHONPATH=/home/ubuntu/ros2_foxy/build/ament_package:/home/ubuntu/ros2_foxy/install/ament_package/lib/python3.6/site-packages /usr/bin/cmake --build /home/ubuntu/ros2_foxy/build/ament_cmake_core --target install -- -j4 -l4

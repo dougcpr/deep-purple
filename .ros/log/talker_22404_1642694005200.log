@@ -1,0 +1,21 @@
+[rospy.client][INFO] 2022-01-20 15:53:25,246: init_node, name[/talker_22404_1642694005200], pid[22404]
+[xmlrpc][INFO] 2022-01-20 15:53:25,252: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-20 15:53:25,253: Started XML-RPC server [http://ubuntu:36421/]
+[rospy.init][INFO] 2022-01-20 15:53:25,253: ROS Slave URI: [http://ubuntu:36421/]
+[rospy.impl.masterslave][INFO] 2022-01-20 15:53:25,254: _ready: http://ubuntu:36421/
+[xmlrpc][INFO] 2022-01-20 15:53:25,255: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-01-20 15:53:25,256: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2022-01-20 15:53:25,257: Registering publisher topic [/chatter] type [std_msgs/String] with master
+[rospy.init][INFO] 2022-01-20 15:53:25,354: registered with master
+[rospy.rosout][INFO] 2022-01-20 15:53:25,355: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-20 15:53:25,361: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-20 15:53:25,364: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2022-01-20 15:53:25,372: hello world 1642694005.37
+[rospy.internal][INFO] 2022-01-20 15:53:25,672: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-01-20 15:53:29,376: hello world 1642694009.38
+[rosout][INFO] 2022-01-20 15:53:33,376: hello world 1642694013.38
+[rosout][INFO] 2022-01-20 15:53:37,376: hello world 1642694017.38
+[rosout][INFO] 2022-01-20 15:53:41,376: hello world 1642694021.38
+[rosout][INFO] 2022-01-20 15:53:45,376: hello world 1642694025.38
+[rosout][INFO] 2022-01-20 15:53:49,376: hello world 1642694029.38
+[rosout][INFO] 2022-01-20 15:53:53,376: hello world 1642694033.38

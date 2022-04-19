@@ -1,0 +1,12 @@
+
+
+1644342328.980388205  Node Startup
+1644342334.965022087 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout] [FREEDOM] Starting to listen to topic: /rosout_agg
+1644342335.984687089 INFO /link_ros [link_ros.py:36(LinkROS.__init__)] [topics: /rosout, /rosout_agg] [FREEDOM] Completed initializing LinkROS
+1644342378.606643915 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout, /rosout_agg, /tf] [FREEDOM] Starting to listen to topic: /video/click
+1644342380.659023046 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout, /rosout_agg, /tf, /video/click] [FREEDOM] Starting to listen to topic: /image_raw
+1644342391.034044981 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout_agg, /image_raw, /rosout, /tf, /video/click] [FREEDOM] Topic not found. No one is publishing on it currently. Will create the first publisher: /cmd_vel
+1644342391.048942089 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout_agg, /image_raw, /rosout, /cmd_vel, /tf, /video/click] [FREEDOM] Starting to listen to topic: /cmd_vel
+1644342391.058160066 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout_agg, /image_raw, /rosout, /cmd_vel, /tf, /video/click] [FREEDOM] Starting to listen to topic: /cmd_vel
+1644342391.687832117 INFO /link_ros [threading.py:754(Thread.run)] [topics: /tf_static, /rosout_agg, /image_raw, /rosout, /cmd_vel, /tf, /video/click] [FREEDOM] Topic not found. No one is publishing on it currently. Will create the first publisher: /move_base/cancel
+1644342391.696474075 INFO /link_ros [threading.py:754(Thread.run)] [topics: /image_raw, /rosout, /tf, /tf_static, /move_base/cancel, /rosout_agg, /cmd_vel, /video/click] [FREEDOM] Starting to listen to topic: /move_base/cancel

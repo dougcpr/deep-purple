@@ -1,0 +1,6 @@
+
+
+1642706797.446770875  Node Startup
+1642706802.808866977 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642706802.81
+1642706806.811891078 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642706806.81
+1642706810.813508033 INFO /talker [talker.py:48(talker)] [topics: /chatter, /rosout] hello world 1642706810.81

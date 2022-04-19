@@ -1,0 +1,30 @@
+[5.802s] Invoking command in '/home/ubuntu/ros2_foxy/build/ament_flake8': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_lint PYTHONPATH=/home/ubuntu/ros2_foxy/install/ament_flake8/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint:/home/ubuntu/ros2_foxy/install/ament_lint/lib/python3.6/site-packages /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/ament_flake8 --editable --build-directory /home/ubuntu/ros2_foxy/build/ament_flake8/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/ament_flake8
+[8.401s] running develop
+[8.402s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.403s]   EasyInstallDeprecationWarning,
+[8.418s] /home/ubuntu/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.421s]   setuptools.SetuptoolsDeprecationWarning,
+[8.846s] /home/ubuntu/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[8.846s]   PkgResourcesDeprecationWarning,
+[9.643s] running egg_info
+[9.644s] creating ament_flake8.egg-info
+[9.645s] writing ament_flake8.egg-info/PKG-INFO
+[9.646s] writing dependency_links to ament_flake8.egg-info/dependency_links.txt
+[9.648s] writing entry points to ament_flake8.egg-info/entry_points.txt
+[9.649s] writing requirements to ament_flake8.egg-info/requires.txt
+[9.649s] writing top-level names to ament_flake8.egg-info/top_level.txt
+[9.659s] writing manifest file 'ament_flake8.egg-info/SOURCES.txt'
+[9.673s] reading manifest file 'ament_flake8.egg-info/SOURCES.txt'
+[9.680s] writing manifest file 'ament_flake8.egg-info/SOURCES.txt'
+[9.691s] running build_ext
+[9.692s] Creating /home/ubuntu/ros2_foxy/install/ament_flake8/lib/python3.6/site-packages/ament-flake8.egg-link (link to .)
+[9.700s] Installing ament_flake8 script to /home/ubuntu/ros2_foxy/install/ament_flake8/bin
+[9.702s] 
+[9.703s] Installed /home/ubuntu/ros2_foxy/build/ament_flake8
+[9.705s] running install_data
+[9.705s] copying package.xml -> /home/ubuntu/ros2_foxy/install/ament_flake8/share/ament_flake8
+[9.707s] creating /home/ubuntu/ros2_foxy/install/ament_flake8/share/ament_index
+[9.708s] creating /home/ubuntu/ros2_foxy/install/ament_flake8/share/ament_index/resource_index
+[9.709s] creating /home/ubuntu/ros2_foxy/install/ament_flake8/share/ament_index/resource_index/packages
+[9.710s] copying resource/ament_flake8 -> /home/ubuntu/ros2_foxy/install/ament_flake8/share/ament_index/resource_index/packages
+[9.870s] Invoked command in '/home/ubuntu/ros2_foxy/build/ament_flake8' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_foxy/install/ament_lint PYTHONPATH=/home/ubuntu/ros2_foxy/install/ament_flake8/lib/python3.6/site-packages:/home/ubuntu/ros2_foxy/build/ament_lint:/home/ubuntu/ros2_foxy/install/ament_lint/lib/python3.6/site-packages /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_foxy/install/ament_flake8 --editable --build-directory /home/ubuntu/ros2_foxy/build/ament_flake8/build --no-deps install_data --install-dir /home/ubuntu/ros2_foxy/install/ament_flake8
