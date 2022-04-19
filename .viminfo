@@ -14,10 +14,10 @@
 ~Msle0~/\<if\>
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1650406600,,"wq"
 :q
 |2,0,1650239278,,"q"
-:wq
-|2,0,1650239159,,"wq"
 :wq!
 |2,0,1649359786,,"wq!"
 :q!
@@ -74,28 +74,32 @@
 # File marks:
 'F  1  0  ~/controller.py
 |4,70,1,0,1650231058,"~/controller.py"
-'0  1  0  ~/.bash_profile
-|4,48,1,0,1650239278,"~/.bash_profile"
-'1  120  0  ~/.bashrc
-|4,49,120,0,1650239165,"~/.bashrc"
+'0  1  6  ~/README.md
+|4,48,1,6,1650406600,"~/README.md"
+'1  1  0  ~/.bash_profile
+|4,49,1,0,1650239278,"~/.bash_profile"
 '2  120  0  ~/.bashrc
-|4,50,120,0,1650239160,"~/.bashrc"
+|4,50,120,0,1650239165,"~/.bashrc"
 '3  120  0  ~/.bashrc
-|4,51,120,0,1650238472,"~/.bashrc"
+|4,51,120,0,1650239160,"~/.bashrc"
 '4  120  0  ~/.bashrc
 |4,52,120,0,1650238472,"~/.bashrc"
 '5  120  0  ~/.bashrc
-|4,53,120,0,1650238370,"~/.bashrc"
+|4,53,120,0,1650238472,"~/.bashrc"
 '6  120  0  ~/.bashrc
 |4,54,120,0,1650238370,"~/.bashrc"
 '7  120  0  ~/.bashrc
 |4,55,120,0,1650238370,"~/.bashrc"
 '8  120  0  ~/.bashrc
 |4,56,120,0,1650238370,"~/.bashrc"
-'9  118  0  ~/.bashrc
-|4,57,118,0,1650235198,"~/.bashrc"
+'9  120  0  ~/.bashrc
+|4,57,120,0,1650238370,"~/.bashrc"
 
 # Jumplist (newest first):
+-'  1  6  ~/README.md
+|4,39,1,6,1650406600,"~/README.md"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1650239278,"~/.bash_profile"
 -'  1  0  ~/.bash_profile
 |4,39,1,0,1650239278,"~/.bash_profile"
 -'  120  0  ~/.bashrc
@@ -103,6 +107,14 @@
 -'  120  0  ~/.bashrc
 |4,39,120,0,1650239165,"~/.bashrc"
 -'  120  0  ~/.bashrc
+|4,39,120,0,1650239165,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1650239165,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1650239160,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1650239160,"~/.bashrc"
+-'  120  0  ~/.bashrc
 |4,39,120,0,1650239160,"~/.bashrc"
 -'  120  0  ~/.bashrc
 |4,39,120,0,1650239160,"~/.bashrc"
@@ -110,6 +122,14 @@
 |4,39,120,0,1650238472,"~/.bashrc"
 -'  120  0  ~/.bashrc
 |4,39,120,0,1650238472,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1650238472,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1650238472,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1650238370,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1650238370,"~/.bashrc"
 -'  120  0  ~/.bashrc
 |4,39,120,0,1650238370,"~/.bashrc"
 -'  120  0  ~/.bashrc
@@ -130,6 +150,26 @@
 |4,39,118,0,1650238360,"~/.bashrc"
 -'  118  0  ~/.bashrc
 |4,39,118,0,1650238360,"~/.bashrc"
+-'  118  0  ~/.bashrc
+|4,39,118,0,1650238360,"~/.bashrc"
+-'  118  0  ~/.bashrc
+|4,39,118,0,1650238360,"~/.bashrc"
+-'  118  0  ~/.bashrc
+|4,39,118,0,1650238360,"~/.bashrc"
+-'  118  0  ~/.bashrc
+|4,39,118,0,1650238360,"~/.bashrc"
+-'  118  0  ~/.bashrc
+|4,39,118,0,1650238360,"~/.bashrc"
+-'  118  0  ~/.bashrc
+|4,39,118,0,1650238360,"~/.bashrc"
+-'  118  0  ~/.bashrc
+|4,39,118,0,1650238360,"~/.bashrc"
+-'  118  0  ~/.bashrc
+|4,39,118,0,1650238360,"~/.bashrc"
+-'  118  0  ~/.bashrc
+|4,39,118,0,1650235198,"~/.bashrc"
+-'  118  0  ~/.bashrc
+|4,39,118,0,1650235198,"~/.bashrc"
 -'  118  0  ~/.bashrc
 |4,39,118,0,1650235198,"~/.bashrc"
 -'  118  0  ~/.bashrc
@@ -256,48 +296,16 @@
 |4,39,112,0,1650231092,"~/controller.py"
 -'  112  0  ~/controller.py
 |4,39,112,0,1650231092,"~/controller.py"
--'  112  0  ~/controller.py
-|4,39,112,0,1650231092,"~/controller.py"
--'  112  0  ~/controller.py
-|4,39,112,0,1650231092,"~/controller.py"
--'  112  0  ~/controller.py
-|4,39,112,0,1650231092,"~/controller.py"
--'  1  0  ~/controller.py
-|4,39,1,0,1650231090,"~/controller.py"
--'  1  0  ~/controller.py
-|4,39,1,0,1650231090,"~/controller.py"
--'  1  0  ~/controller.py
-|4,39,1,0,1650231090,"~/controller.py"
--'  1  0  ~/controller.py
-|4,39,1,0,1650231090,"~/controller.py"
--'  1  0  ~/controller.py
-|4,39,1,0,1650231090,"~/controller.py"
--'  1  0  ~/controller.py
-|4,39,1,0,1650231090,"~/controller.py"
--'  1  0  ~/controller.py
-|4,39,1,0,1650231090,"~/controller.py"
--'  1  0  ~/controller.py
-|4,39,1,0,1650231090,"~/controller.py"
--'  1  0  ~/controller.py
-|4,39,1,0,1650231090,"~/controller.py"
--'  1  0  ~/controller.py
-|4,39,1,0,1650231090,"~/controller.py"
--'  1  0  ~/controller.py
-|4,39,1,0,1650231090,"~/controller.py"
--'  1  0  ~/controller.py
-|4,39,1,0,1650231090,"~/controller.py"
--'  1  0  ~/controller.py
-|4,39,1,0,1650231090,"~/controller.py"
--'  1  0  ~/controller.py
-|4,39,1,0,1650231090,"~/controller.py"
--'  1  0  ~/controller.py
-|4,39,1,0,1650231090,"~/controller.py"
--'  1  0  ~/controller.py
-|4,39,1,0,1650231090,"~/controller.py"
--'  1  0  ~/controller.py
-|4,39,1,0,1650231090,"~/controller.py"
 
 # History of marks within files (newest to oldest):
+
+> ~/README.md
+	*	1650406599	0
+	"	1	6
+	^	1	7
+	.	1	7
+	+	2	0
+	+	1	7
 
 > ~/.bash_profile
 	*	1650239247	0
@@ -326,10 +334,6 @@
 	+	26	36
 	+	38	26
 	+	46	0
-
-> ~/README.md
-	*	1650230971	0
-	"	1	0
 
 > /etc/udev/rules.d/99-pololu.rules
 	*	1649359779	0
